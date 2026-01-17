@@ -26,6 +26,9 @@ const SUPPORTED_SURFACES = [
   'perplexity-web',
   'claude-web',
   'bing-chat',
+  'x-grok-web',
+  'meta-ai-web',
+  'copilot-web',
   // Search
   'google-search',
   // E-commerce / Shopping AI

@@ -61,7 +61,7 @@ describe('Surface Adapters', () => {
       expect(apiSurfaces.map(s => s.id)).toContain('together-api');
 
       const webChatbots = getSurfacesByCategory('web_chatbot');
-      expect(webChatbots.length).toBe(5); // chatgpt-web, perplexity-web, amazon-web, amazon-rufus, zappos-web
+      expect(webChatbots.length).toBe(8); // chatgpt, perplexity, x-grok, meta-ai, copilot, amazon, rufus, zappos
 
       const searchSurfaces = getSurfacesByCategory('search');
       expect(searchSurfaces.length).toBe(1);

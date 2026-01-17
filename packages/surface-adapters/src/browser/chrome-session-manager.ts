@@ -183,6 +183,9 @@ export class ChromeSessionManager {
       'perplexity-web': 'https://www.perplexity.ai',
       'claude-web': 'https://claude.ai',
       'bing-chat': 'https://www.bing.com/chat',
+      'x-grok-web': 'https://x.com/i/grok',
+      'meta-ai-web': 'https://www.meta.ai',
+      'copilot-web': 'https://copilot.microsoft.com',
       // Search
       'google-search': 'https://www.google.com',
       // E-commerce / Shopping AI
