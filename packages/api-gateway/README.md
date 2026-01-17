@@ -106,3 +106,26 @@ pnpm test
 # Build
 pnpm build
 ```
+
+## Security Features
+
+- **API Key Authentication**: SHA-256 hashed keys with O(1) lookup
+- **Tenant Isolation**: All requests scoped to authenticated tenant
+- **Rate Limiting**: Per-key rate limits with configurable windows
+- **Input Validation**: Zod schemas for request validation
+- **Security Headers**: Helmet middleware for HTTP security headers
+- **CORS**: Configurable cross-origin resource sharing
+- **Error Sanitization**: No sensitive data in error responses (no tenant IDs, no study IDs in error messages)
+
+## Test Coverage
+
+- 25 unit tests covering gateway functionality
+- 28 E2E security tests (SQL injection, XSS, path traversal, IDOR, etc.)
+- 13 multi-tenant isolation tests
+- 10 performance benchmarks
+
+## Related Documentation
+
+- [API Reference](../../docs/API_REFERENCE.md) - Full API documentation
+- [Tenant Onboarding](../../docs/TENANT_ONBOARDING.md) - How to onboard tenants
+- [Operations Runbook](../../docs/OPERATIONS_RUNBOOK.md) - Operational procedures
