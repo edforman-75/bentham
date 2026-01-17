@@ -1,21 +1,19 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "version": 2,
-  "name": "bentham-api",
-  "buildCommand": "pnpm install && pnpm --filter @bentham/core build && pnpm --filter @bentham/api-gateway build",
+  "buildCommand": "pnpm --filter @bentham/core build && pnpm --filter @bentham/api-gateway build",
   "installCommand": "pnpm install",
+  "outputDirectory": ".",
   "framework": null,
-  "outputDirectory": "packages/api-gateway",
   "functions": {
-    "packages/api-gateway/api/**/*.js": {
-      "runtime": "nodejs20.x",
+    "api/*.ts": {
       "maxDuration": 30
     }
   },
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/packages/api-gateway/api/index.js"
+      "destination": "/api/index"
     }
   ],
   "headers": [
@@ -29,8 +27,5 @@
       ]
     }
   ],
-  "env": {
-    "NODE_ENV": "production"
-  },
   "regions": ["iad1"]
 }

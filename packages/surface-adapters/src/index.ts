@@ -71,6 +71,34 @@ export {
   type AnthropicAdapterConfig,
 } from './api-surfaces/anthropic-adapter.js';
 
+export {
+  GoogleAIAdapter,
+  createGoogleAIAdapter,
+  GOOGLE_AI_METADATA,
+  type GoogleAIAdapterConfig,
+} from './api-surfaces/google-ai-adapter.js';
+
+export {
+  PerplexityAdapter,
+  createPerplexityAdapter,
+  PERPLEXITY_METADATA,
+  type PerplexityAdapterConfig,
+} from './api-surfaces/perplexity-adapter.js';
+
+export {
+  XAIAdapter,
+  createXAIAdapter,
+  XAI_METADATA,
+  type XAIAdapterConfig,
+} from './api-surfaces/xai-adapter.js';
+
+export {
+  TogetherAdapter,
+  createTogetherAdapter,
+  TOGETHER_METADATA,
+  type TogetherAdapterConfig,
+} from './api-surfaces/together-adapter.js';
+
 // Web Chatbot Adapters
 export {
   ChatGPTWebAdapter,
@@ -94,12 +122,40 @@ export {
   type GoogleSearchAdapterConfig,
 } from './search-surfaces/google-search-adapter.js';
 
+// Pool Management
+export {
+  SurfacePool,
+  createSurfacePool,
+  type SurfacePoolConfig,
+  type PoolHealthStatus,
+  type AdapterHealth,
+  type CircuitState,
+  type CircuitBreaker,
+  type PooledAdapter,
+  DEFAULT_POOL_CONFIG,
+} from './pool/surface-pool.js';
+
+export {
+  PoolManager,
+  createPoolManager,
+  type PoolManagerConfig,
+  type AdapterRegistration,
+  type SystemHealthStatus,
+  type HealthChangeEvent,
+  type HealthChangeListener,
+  DEFAULT_POOL_MANAGER_CONFIG,
+} from './pool/pool-manager.js';
+
 /**
  * All available surface metadata (statically defined)
  */
 export const ALL_SURFACE_METADATA: Record<string, SurfaceMetadata> = {
   'openai-api': OPENAI_METADATA,
   'anthropic-api': ANTHROPIC_METADATA,
+  'google-ai-api': GOOGLE_AI_METADATA,
+  'perplexity-api': PERPLEXITY_METADATA,
+  'xai-api': XAI_METADATA,
+  'together-api': TOGETHER_METADATA,
   'chatgpt-web': CHATGPT_WEB_METADATA,
   'perplexity-web': PERPLEXITY_WEB_METADATA,
   'google-search': GOOGLE_SEARCH_METADATA,
@@ -132,6 +188,10 @@ export function getSurfacesByCategory(category: SurfaceCategory): SurfaceMetadat
 import type { SurfaceCategory, SurfaceMetadata } from './types.js';
 import { OPENAI_METADATA } from './api-surfaces/openai-adapter.js';
 import { ANTHROPIC_METADATA } from './api-surfaces/anthropic-adapter.js';
+import { GOOGLE_AI_METADATA } from './api-surfaces/google-ai-adapter.js';
+import { PERPLEXITY_METADATA } from './api-surfaces/perplexity-adapter.js';
+import { XAI_METADATA } from './api-surfaces/xai-adapter.js';
+import { TOGETHER_METADATA } from './api-surfaces/together-adapter.js';
 import { CHATGPT_WEB_METADATA } from './web-chatbots/chatgpt-web-adapter.js';
 import { PERPLEXITY_WEB_METADATA } from './web-chatbots/perplexity-web-adapter.js';
 import { GOOGLE_SEARCH_METADATA } from './search-surfaces/google-search-adapter.js';

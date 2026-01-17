@@ -12,6 +12,7 @@ import { SURFACES, type SurfaceId } from '../types/surface.js';
 import { MANIFEST_VERSION } from '../constants.js';
 import type { ValidationErrorDetail, ManifestValidationResponse, ApiResponse } from '../types/api-response.js';
 import { createValidationErrorResponse, createSuccessResponse } from '../types/api-response.js';
+import { estimateStudyCost } from '../config/surface-defaults.js';
 
 /**
  * Query schema
@@ -24,6 +25,15 @@ export const QuerySchema = z.object({
 });
 
 /**
+ * Surface options schema with model selection
+ */
+export const SurfaceOptionsSchema = z.object({
+  /** Model override (uses surface default if not specified) */
+  model: z.string().optional(),
+  /** Other surface-specific options */
+}).passthrough();
+
+/**
  * Surface configuration schema
  */
 export const SurfaceConfigSchema = z.object({
@@ -32,7 +42,7 @@ export const SurfaceConfigSchema = z.object({
     { message: 'Invalid surface ID' }
   ),
   required: z.boolean().default(true),
-  options: z.record(z.unknown()).optional(),
+  options: SurfaceOptionsSchema.optional(),
 });
 
 /**
@@ -348,25 +358,36 @@ function generateValidationWarnings(
 }
 
 /**
- * Estimate cost for a manifest
+ * Estimate cost for a manifest using actual model pricing
  */
 function estimateCost(manifest: ValidatedManifest): {
   min: number;
   max: number;
   currency: string;
+  breakdown?: Array<{ surfaceId: string; model: string; costPer10: number }>;
 } {
-  const totalCells = calculateCellCount(manifest);
+  // Use accurate cost estimation based on surface/model config
+  const surfaces = manifest.surfaces.map(s => ({
+    id: s.id,
+    options: s.options as { model?: string } | undefined,
+  }));
 
-  // Base cost estimates per cell (rough estimates)
-  const baseCostPerCell = 0.005; // $0.005 per cell baseline
-  const proxyMultiplier = manifest.locations.some(l => l.proxyType === 'mobile') ? 1.5 : 1;
-  const evidenceMultiplier = manifest.evidenceLevel === 'full' ? 1.3 : 1;
+  const estimate = estimateStudyCost(
+    surfaces,
+    manifest.queries.length,
+    manifest.locations.length
+  );
 
-  const baseTotal = totalCells * baseCostPerCell * proxyMultiplier * evidenceMultiplier;
+  // Add multipliers for additional costs
+  const proxyMultiplier = manifest.locations.some(l => l.proxyType === 'mobile') ? 1.2 : 1;
+  const evidenceMultiplier = manifest.evidenceLevel === 'full' ? 1.1 : 1;
+
+  const adjustedTotal = estimate.total * proxyMultiplier * evidenceMultiplier;
 
   return {
-    min: Math.round(baseTotal * 0.8 * 100) / 100,
-    max: Math.round(baseTotal * 1.5 * 100) / 100,
+    min: Math.round(adjustedTotal * 0.8 * 100) / 100,
+    max: Math.round(adjustedTotal * 1.3 * 100) / 100,
     currency: 'USD',
+    breakdown: estimate.breakdown,
   };
 }

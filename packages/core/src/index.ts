@@ -35,3 +35,32 @@ export {
   MANIFEST_VERSION,
   API_VERSION,
 } from './constants.js';
+
+// Alerting
+export {
+  OperatorAlertingService,
+  createOperatorAlertingService,
+  type IncidentSeverity,
+  type IncidentStatus,
+  type Incident,
+  type ImpactAssessment,
+  type RemediationAction,
+  type NotificationChannel,
+  type NotificationConfig,
+  type NotificationPayload,
+  type AlertListener,
+} from './alerting/operator-alerting-service.js';
+
+// Surface Defaults & Pricing
+export {
+  SURFACE_DEFAULTS,
+  getDefaultModel,
+  getModelConfig,
+  estimateQueryCost,
+  estimateStudyCost,
+  getAvailableModels,
+  isValidModel,
+  type ModelTier,
+  type ModelConfig,
+  type SurfaceConfig,
+} from './config/surface-defaults.js';

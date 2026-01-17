@@ -52,9 +52,13 @@ describe('Surface Adapters', () => {
 
     it('should get surfaces by category', () => {
       const apiSurfaces = getSurfacesByCategory('api');
-      expect(apiSurfaces.length).toBe(2);
+      expect(apiSurfaces.length).toBe(6);
       expect(apiSurfaces.map(s => s.id)).toContain('openai-api');
       expect(apiSurfaces.map(s => s.id)).toContain('anthropic-api');
+      expect(apiSurfaces.map(s => s.id)).toContain('google-ai-api');
+      expect(apiSurfaces.map(s => s.id)).toContain('perplexity-api');
+      expect(apiSurfaces.map(s => s.id)).toContain('xai-api');
+      expect(apiSurfaces.map(s => s.id)).toContain('together-api');
 
       const webChatbots = getSurfacesByCategory('web_chatbot');
       expect(webChatbots.length).toBe(2);
