@@ -85,9 +85,8 @@ function createJobForValidation(
     id,
     studyId: 'study-1',
     surfaceId: 'chatgpt-web',
-    result: text || error
-      ? createValidJobResult(text, { success, evidence, error })
-      : undefined,
+    // Always create a result - use explicit manual construction for "no result" tests
+    result: createValidJobResult(text, { success, evidence, error }),
     qualityGates: {
       requireActualContent: true,
       minResponseLength,

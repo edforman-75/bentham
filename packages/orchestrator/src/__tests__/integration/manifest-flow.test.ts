@@ -364,14 +364,14 @@ describe('Integration: Manifest Flow', () => {
       studyId: study.id,
       completionCriteria: manifest.completionCriteria!,
       jobsBySurface: {
-        chatgpt: {
+        'chatgpt-web': {
           total: 2,
-          completed: progress?.bySurface?.chatgpt?.completed ?? 0,
+          completed: progress?.bySurface?.['chatgpt-web']?.completed ?? 0,
           failed: 0,
         },
-        claude: {
+        'anthropic-api': {
           total: 2,
-          completed: progress?.bySurface?.claude?.completed ?? 0,
+          completed: progress?.bySurface?.['anthropic-api']?.completed ?? 0,
           failed: 0,
         },
       },
