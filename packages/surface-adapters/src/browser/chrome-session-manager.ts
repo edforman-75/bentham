@@ -178,11 +178,17 @@ export class ChromeSessionManager {
    */
   getLoginUrl(surfaceId: string): string {
     const urls: Record<string, string> = {
+      // AI Chatbots
       'chatgpt-web': 'https://chatgpt.com',
       'perplexity-web': 'https://www.perplexity.ai',
-      'google-search': 'https://www.google.com',
       'claude-web': 'https://claude.ai',
       'bing-chat': 'https://www.bing.com/chat',
+      // Search
+      'google-search': 'https://www.google.com',
+      // E-commerce / Shopping AI
+      'amazon-web': 'https://www.amazon.com',
+      'amazon-rufus': 'https://www.amazon.com', // Rufus is accessed via Amazon
+      'zappos-web': 'https://www.zappos.com',
     };
     return urls[surfaceId] || 'about:blank';
   }

@@ -21,11 +21,17 @@
 import { createSessionManager } from '../packages/surface-adapters/src/browser/chrome-session-manager.js';
 
 const SUPPORTED_SURFACES = [
+  // AI Chatbots
   'chatgpt-web',
   'perplexity-web',
-  'google-search',
   'claude-web',
   'bing-chat',
+  // Search
+  'google-search',
+  // E-commerce / Shopping AI
+  'amazon-web',
+  'amazon-rufus',
+  'zappos-web',
 ];
 
 async function main() {

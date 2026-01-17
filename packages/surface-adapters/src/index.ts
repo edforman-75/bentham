@@ -122,6 +122,28 @@ export {
   type GoogleSearchAdapterConfig,
 } from './search-surfaces/google-search-adapter.js';
 
+// E-commerce Surface Adapters
+export {
+  AmazonWebAdapter,
+  createAmazonWebAdapter,
+  AMAZON_WEB_METADATA,
+  type AmazonWebAdapterConfig,
+} from './ecommerce-surfaces/amazon-web-adapter.js';
+
+export {
+  AmazonRufusAdapter,
+  createAmazonRufusAdapter,
+  AMAZON_RUFUS_METADATA,
+  type AmazonRufusAdapterConfig,
+} from './ecommerce-surfaces/amazon-rufus-adapter.js';
+
+export {
+  ZapposWebAdapter,
+  createZapposWebAdapter,
+  ZAPPOS_WEB_METADATA,
+  type ZapposWebAdapterConfig,
+} from './ecommerce-surfaces/zappos-web-adapter.js';
+
 // Pool Management
 export {
   SurfacePool,
@@ -168,15 +190,22 @@ export {
  * All available surface metadata (statically defined)
  */
 export const ALL_SURFACE_METADATA: Record<string, SurfaceMetadata> = {
+  // API Surfaces
   'openai-api': OPENAI_METADATA,
   'anthropic-api': ANTHROPIC_METADATA,
   'google-ai-api': GOOGLE_AI_METADATA,
   'perplexity-api': PERPLEXITY_METADATA,
   'xai-api': XAI_METADATA,
   'together-api': TOGETHER_METADATA,
+  // Web Chatbots
   'chatgpt-web': CHATGPT_WEB_METADATA,
   'perplexity-web': PERPLEXITY_WEB_METADATA,
+  // Search
   'google-search': GOOGLE_SEARCH_METADATA,
+  // E-commerce
+  'amazon-web': AMAZON_WEB_METADATA,
+  'amazon-rufus': AMAZON_RUFUS_METADATA,
+  'zappos-web': ZAPPOS_WEB_METADATA,
 };
 
 /**
@@ -213,3 +242,6 @@ import { TOGETHER_METADATA } from './api-surfaces/together-adapter.js';
 import { CHATGPT_WEB_METADATA } from './web-chatbots/chatgpt-web-adapter.js';
 import { PERPLEXITY_WEB_METADATA } from './web-chatbots/perplexity-web-adapter.js';
 import { GOOGLE_SEARCH_METADATA } from './search-surfaces/google-search-adapter.js';
+import { AMAZON_WEB_METADATA } from './ecommerce-surfaces/amazon-web-adapter.js';
+import { AMAZON_RUFUS_METADATA } from './ecommerce-surfaces/amazon-rufus-adapter.js';
+import { ZAPPOS_WEB_METADATA } from './ecommerce-surfaces/zappos-web-adapter.js';
