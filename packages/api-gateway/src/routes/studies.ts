@@ -167,7 +167,7 @@ export async function studiesRoutes(
         success: false,
         error: {
           code: 'STUDY_NOT_FOUND',
-          message: `Study ${id} not found`,
+          message: 'Study not found',
           requestId: request.requestContext.requestId,
         },
       });
@@ -219,7 +219,7 @@ export async function studiesRoutes(
         success: false,
         error: {
           code: 'STUDY_NOT_FOUND',
-          message: `Study ${id} not found`,
+          message: 'Study not found',
           requestId: request.requestContext.requestId,
         },
       });
@@ -257,7 +257,7 @@ export async function studiesRoutes(
         success: false,
         error: {
           code: 'STUDY_NOT_FOUND',
-          message: `Study ${id} not found or cannot be cancelled`,
+          message: 'Study not found or cannot be cancelled',
           requestId: request.requestContext.requestId,
         },
       });
@@ -295,7 +295,7 @@ export async function studiesRoutes(
         success: false,
         error: {
           code: 'STUDY_NOT_FOUND',
-          message: `Study ${id} not found or cannot be paused`,
+          message: 'Study not found or cannot be paused',
           requestId: request.requestContext.requestId,
         },
       });
@@ -333,7 +333,7 @@ export async function studiesRoutes(
         success: false,
         error: {
           code: 'STUDY_NOT_FOUND',
-          message: `Study ${id} not found or cannot be resumed`,
+          message: 'Study not found or cannot be resumed',
           requestId: request.requestContext.requestId,
         },
       });
