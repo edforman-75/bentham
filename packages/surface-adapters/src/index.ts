@@ -146,6 +146,24 @@ export {
   DEFAULT_POOL_MANAGER_CONFIG,
 } from './pool/pool-manager.js';
 
+// Browser & Session Management
+export {
+  ChromeSessionManager,
+  createSessionManager,
+  type StoredSession,
+  type SessionManagerConfig,
+  type SessionValidationResult,
+  DEFAULT_SESSION_CONFIG,
+} from './browser/chrome-session-manager.js';
+
+export {
+  PlaywrightBrowserProvider,
+  createPlaywrightProvider,
+  createProviderWithSession,
+  type PlaywrightProviderConfig,
+  DEFAULT_PLAYWRIGHT_CONFIG,
+} from './browser/playwright-provider.js';
+
 /**
  * All available surface metadata (statically defined)
  */
