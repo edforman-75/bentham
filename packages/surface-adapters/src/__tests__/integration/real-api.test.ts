@@ -14,6 +14,8 @@ import {
   createAnthropicAdapter,
   createGoogleAIAdapter,
   createPerplexityAdapter,
+  createXAIAdapter,
+  createTogetherAdapter,
 } from '../../index.js';
 import type { SurfaceAdapter } from '../../types.js';
 
@@ -194,7 +196,7 @@ describe('Real API Integration Tests', () => {
       if (apiKey) {
         adapter = createGoogleAIAdapter({
           apiConfig: { apiKey },
-          defaultModel: 'gemini-1.5-flash', // Use cheaper model for testing
+          defaultModel: 'gemini-2.0-flash', // Use current model
           maxRetries: 0,
           timeoutMs: 15000,
         });
@@ -254,7 +256,7 @@ describe('Real API Integration Tests', () => {
       if (apiKey) {
         adapter = createPerplexityAdapter({
           apiConfig: { apiKey },
-          defaultModel: 'llama-3.1-sonar-small-128k-online',
+          defaultModel: 'sonar', // Current model name
           maxRetries: 0,
           timeoutMs: 15000,
         });
@@ -291,6 +293,126 @@ describe('Real API Integration Tests', () => {
       if (result.structured?.sources) {
         console.log('   Sources:', result.structured.sources);
       }
+    }, API_TIMEOUT);
+
+    it.skipIf(!apiKey)('should handle system prompts', async () => {
+      expect(adapter).not.toBeNull();
+
+      const result = await adapter!.query({
+        query: 'What is my name?',
+        systemPrompt: 'You are a helpful assistant. The user\'s name is TestUser.',
+      });
+
+      if (!result.success && result.error?.code === 'RATE_LIMITED') {
+        console.log('⚠️  QUOTA EXHAUSTED: Skipping test');
+        return;
+      }
+
+      expect(result.success).toBe(true);
+      expect(result.responseText?.toLowerCase()).toContain('testuser');
+    }, API_TIMEOUT);
+  });
+
+  describe('xAI (Grok) API', () => {
+    const apiKey = process.env.XAI_API_KEY;
+    let adapter: SurfaceAdapter | null = null;
+
+    beforeAll(() => {
+      if (apiKey) {
+        adapter = createXAIAdapter({
+          apiConfig: { apiKey },
+          defaultModel: 'grok-3-mini', // Use cheaper model for testing
+          maxRetries: 0,
+          timeoutMs: 15000,
+        });
+      }
+    });
+
+    afterAll(async () => {
+      if (adapter) {
+        await adapter.close();
+      }
+    });
+
+    it.skipIf(!apiKey)('should execute a simple query', async () => {
+      expect(adapter).not.toBeNull();
+
+      const result = await adapter!.query({ query: TEST_PROMPT });
+
+      if (!result.success && result.error?.code === 'RATE_LIMITED') {
+        console.log('⚠️  QUOTA EXHAUSTED: xAI API key needs billing/credits');
+        console.log('   Error:', result.error.message);
+        return;
+      }
+
+      expect(result.success).toBe(true);
+      expect(result.responseText).toBeDefined();
+      expect(result.responseText).toContain('4');
+      expect(result.tokenUsage).toBeDefined();
+
+      console.log('✅ xAI Response:', result.responseText);
+      console.log('   Token Usage:', result.tokenUsage);
+      console.log('   Response Time:', result.timing.totalMs, 'ms');
+    }, API_TIMEOUT);
+
+    it.skipIf(!apiKey)('should handle system prompts', async () => {
+      expect(adapter).not.toBeNull();
+
+      const result = await adapter!.query({
+        query: 'What is my name?',
+        systemPrompt: 'You are a helpful assistant. The user\'s name is TestUser.',
+      });
+
+      if (!result.success && result.error?.code === 'RATE_LIMITED') {
+        console.log('⚠️  QUOTA EXHAUSTED: Skipping test');
+        return;
+      }
+
+      expect(result.success).toBe(true);
+      expect(result.responseText?.toLowerCase()).toContain('testuser');
+    }, API_TIMEOUT);
+  });
+
+  describe('Together.ai (Meta Llama) API', () => {
+    const apiKey = process.env.TOGETHER_API_KEY;
+    let adapter: SurfaceAdapter | null = null;
+
+    beforeAll(() => {
+      if (apiKey) {
+        adapter = createTogetherAdapter({
+          apiConfig: { apiKey },
+          defaultModel: 'meta-llama/Llama-3.3-70B-Instruct-Turbo',
+          maxRetries: 0,
+          timeoutMs: 15000,
+        });
+      }
+    });
+
+    afterAll(async () => {
+      if (adapter) {
+        await adapter.close();
+      }
+    });
+
+    it.skipIf(!apiKey)('should execute a simple query', async () => {
+      expect(adapter).not.toBeNull();
+
+      const result = await adapter!.query({ query: TEST_PROMPT });
+
+      if (!result.success && result.error?.code === 'RATE_LIMITED') {
+        console.log('⚠️  QUOTA EXHAUSTED: Together API key needs billing/credits');
+        console.log('   Error:', result.error.message);
+        return;
+      }
+
+      expect(result.success).toBe(true);
+      expect(result.responseText).toBeDefined();
+      expect(result.responseText).toContain('4');
+      expect(result.tokenUsage).toBeDefined();
+
+      console.log('✅ Together Response:', result.responseText);
+      console.log('   Token Usage:', result.tokenUsage);
+      console.log('   Response Time:', result.timing.totalMs, 'ms');
     }, API_TIMEOUT);
 
     it.skipIf(!apiKey)('should handle system prompts', async () => {
@@ -371,6 +493,18 @@ describe('Credential Availability Check', () => {
       available.push('PERPLEXITY_API_KEY');
     } else {
       missing.push('PERPLEXITY_API_KEY');
+    }
+
+    if (process.env.XAI_API_KEY) {
+      available.push('XAI_API_KEY');
+    } else {
+      missing.push('XAI_API_KEY');
+    }
+
+    if (process.env.TOGETHER_API_KEY) {
+      available.push('TOGETHER_API_KEY');
+    } else {
+      missing.push('TOGETHER_API_KEY');
     }
 
     console.log('\n=== API Key Availability ===');
