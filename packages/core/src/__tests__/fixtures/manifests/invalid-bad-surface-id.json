@@ -1,0 +1,20 @@
+{
+  "_error": "Invalid surface ID 'fake-ai-surface' not in SURFACES registry",
+  "name": "Invalid Study - Bad Surface ID",
+  "queries": [
+    { "text": "Test query" }
+  ],
+  "surfaces": [
+    { "id": "chatgpt-web" },
+    { "id": "fake-ai-surface" }
+  ],
+  "locations": [
+    { "id": "us-national" }
+  ],
+  "completionCriteria": {
+    "requiredSurfaces": {
+      "surfaceIds": ["chatgpt-web"]
+    }
+  },
+  "deadline": "2030-12-31T23:59:59Z"
+}

@@ -1,0 +1,21 @@
+{
+  "_note": "Edge case: Maximum allowed queries (1000) - this file is a template, actual test generates 1000 queries",
+  "name": "Edge Case - Maximum Queries",
+  "queries": [
+    { "text": "Query 1" },
+    { "text": "Query 2" },
+    { "text": "Query 3" }
+  ],
+  "surfaces": [
+    { "id": "chatgpt-web" }
+  ],
+  "locations": [
+    { "id": "us-national" }
+  ],
+  "completionCriteria": {
+    "requiredSurfaces": {
+      "surfaceIds": ["chatgpt-web"]
+    }
+  },
+  "deadline": "2030-12-31T23:59:59Z"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "bentham",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Multi-tenant AI extraction service",
+  "scripts": {
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "test:unit": "turbo run test:unit",
+    "test:integration": "turbo run test:integration",
+    "test:regression": "turbo run test:regression",
+    "test:regression:phase-0": "turbo run test:regression --filter=@bentham/core --filter=@bentham/database",
+    "test:regression:phase-1": "pnpm test:regression:phase-0 && turbo run test:regression --filter=@bentham/session-pool --filter=@bentham/proxy-manager --filter=@bentham/account-manager --filter=@bentham/cost-tracker --filter=@bentham/notification-hub --filter=@bentham/audit-logger",
+    "test:regression:phase-2": "pnpm test:regression:phase-1 && turbo run test:regression --filter=@bentham/orchestrator --filter=@bentham/executor --filter=@bentham/validator --filter=@bentham/evidence-collector",
+    "test:regression:phase-3": "pnpm test:regression:phase-2 && turbo run test:regression --filter=@bentham/surface-adapters --filter=@bentham/ai-advisor",
+    "test:coverage": "turbo run test:coverage",
+    "lint": "turbo run lint",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "turbo run typecheck",
+    "dev": "turbo run dev",
+    "clean": "turbo run clean && rm -rf node_modules",
+    "phase-gate": "pnpm lint && pnpm typecheck && pnpm test && pnpm test:regression"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^8.53.0",
+    "@typescript-eslint/parser": "^8.53.0",
+    "eslint": "^8.55.0",
+    "prettier": "^3.1.0",
+    "tsup": "^8.0.1",
+    "turbo": "^2.0.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0"
+  },
+  "packageManager": "pnpm@8.12.0",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}

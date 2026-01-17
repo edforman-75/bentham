@@ -1,0 +1,20 @@
+{
+  "_error": "retentionDays exceeds maximum of 2555",
+  "name": "Invalid Study - Retention Too Long",
+  "queries": [
+    { "text": "Test query" }
+  ],
+  "surfaces": [
+    { "id": "chatgpt-web" }
+  ],
+  "locations": [
+    { "id": "us-national" }
+  ],
+  "completionCriteria": {
+    "requiredSurfaces": {
+      "surfaceIds": ["chatgpt-web"]
+    }
+  },
+  "deadline": "2030-12-31T23:59:59Z",
+  "retentionDays": 10000
+}

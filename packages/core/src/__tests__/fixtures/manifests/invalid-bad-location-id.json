@@ -1,0 +1,20 @@
+{
+  "_error": "Invalid location ID 'mars-olympus-mons' not in LOCATIONS registry",
+  "name": "Invalid Study - Bad Location ID",
+  "queries": [
+    { "text": "Test query" }
+  ],
+  "surfaces": [
+    { "id": "chatgpt-web" }
+  ],
+  "locations": [
+    { "id": "us-national" },
+    { "id": "mars-olympus-mons" }
+  ],
+  "completionCriteria": {
+    "requiredSurfaces": {
+      "surfaceIds": ["chatgpt-web"]
+    }
+  },
+  "deadline": "2030-12-31T23:59:59Z"
+}

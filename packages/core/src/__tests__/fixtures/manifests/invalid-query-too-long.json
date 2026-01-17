@@ -1,0 +1,19 @@
+{
+  "_error": "Query text exceeds 10000 character limit",
+  "name": "Invalid Study - Query Too Long",
+  "queries": [
+    { "text": "PLACEHOLDER_WILL_BE_REPLACED_BY_TEST_WITH_10001_CHARS" }
+  ],
+  "surfaces": [
+    { "id": "chatgpt-web" }
+  ],
+  "locations": [
+    { "id": "us-national" }
+  ],
+  "completionCriteria": {
+    "requiredSurfaces": {
+      "surfaceIds": ["chatgpt-web"]
+    }
+  },
+  "deadline": "2030-12-31T23:59:59Z"
+}

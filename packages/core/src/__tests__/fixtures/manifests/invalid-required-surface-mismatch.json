@@ -1,0 +1,19 @@
+{
+  "_error": "Required surface 'claude-web' not in surfaces list",
+  "name": "Invalid Study - Required Surface Not in List",
+  "queries": [
+    { "text": "Test query" }
+  ],
+  "surfaces": [
+    { "id": "chatgpt-web" }
+  ],
+  "locations": [
+    { "id": "us-national" }
+  ],
+  "completionCriteria": {
+    "requiredSurfaces": {
+      "surfaceIds": ["chatgpt-web", "claude-web"]
+    }
+  },
+  "deadline": "2030-12-31T23:59:59Z"
+}

@@ -1,0 +1,43 @@
+{
+  "_note": "Edge case: Testing boundary values that should be valid",
+  "name": "E",
+  "description": "",
+  "queries": [
+    {
+      "text": "X",
+      "context": "",
+      "category": "",
+      "tags": []
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "chatgpt-web",
+      "required": false,
+      "options": {}
+    }
+  ],
+  "locations": [
+    {
+      "id": "us-national",
+      "proxyType": "residential",
+      "requireSticky": false
+    }
+  ],
+  "completionCriteria": {
+    "requiredSurfaces": {
+      "surfaceIds": ["chatgpt-web"],
+      "coverageThreshold": 0
+    },
+    "maxRetriesPerCell": 1
+  },
+  "qualityGates": {
+    "minResponseLength": 0,
+    "requireActualContent": false
+  },
+  "evidenceLevel": "none",
+  "legalHold": false,
+  "deadline": "2030-12-31T23:59:59Z",
+  "retentionDays": 1,
+  "sessionIsolation": "shared"
+}

@@ -1,0 +1,19 @@
+{
+  "_error": "Deadline is in the past",
+  "name": "Invalid Study - Past Deadline",
+  "queries": [
+    { "text": "Test query" }
+  ],
+  "surfaces": [
+    { "id": "chatgpt-web" }
+  ],
+  "locations": [
+    { "id": "us-national" }
+  ],
+  "completionCriteria": {
+    "requiredSurfaces": {
+      "surfaceIds": ["chatgpt-web"]
+    }
+  },
+  "deadline": "2020-01-01T00:00:00Z"
+}

@@ -1,0 +1,90 @@
+{
+  "version": "1.0.0",
+  "name": "Comprehensive AI Response Study",
+  "description": "A full-featured study testing AI responses across multiple surfaces and locations",
+  "queries": [
+    {
+      "text": "What are the health benefits of green tea?",
+      "context": "User is researching natural health remedies",
+      "category": "health",
+      "tags": ["nutrition", "beverages", "wellness"]
+    },
+    {
+      "text": "How do I invest in index funds?",
+      "context": "User is a beginner investor",
+      "category": "finance",
+      "tags": ["investing", "beginner", "stocks"]
+    },
+    {
+      "text": "What is the best programming language to learn in 2024?",
+      "category": "technology",
+      "tags": ["programming", "career", "education"]
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "chatgpt-web",
+      "required": true,
+      "options": {
+        "model": "gpt-4"
+      }
+    },
+    {
+      "id": "claude-web",
+      "required": true
+    },
+    {
+      "id": "perplexity-web",
+      "required": false,
+      "options": {
+        "searchMode": "auto"
+      }
+    },
+    {
+      "id": "gemini-web",
+      "required": false
+    }
+  ],
+  "locations": [
+    {
+      "id": "us-nyc",
+      "proxyType": "residential",
+      "requireSticky": true
+    },
+    {
+      "id": "us-la",
+      "proxyType": "residential"
+    },
+    {
+      "id": "uk-lon",
+      "proxyType": "residential"
+    },
+    {
+      "id": "de-ber",
+      "proxyType": "datacenter"
+    },
+    {
+      "id": "jp-tok",
+      "proxyType": "residential"
+    }
+  ],
+  "completionCriteria": {
+    "requiredSurfaces": {
+      "surfaceIds": ["chatgpt-web", "claude-web"],
+      "coverageThreshold": 0.95
+    },
+    "optionalSurfaces": {
+      "surfaceIds": ["perplexity-web", "gemini-web"]
+    },
+    "maxRetriesPerCell": 3
+  },
+  "qualityGates": {
+    "minResponseLength": 100,
+    "requireActualContent": true
+  },
+  "evidenceLevel": "full",
+  "legalHold": true,
+  "deadline": "2030-06-30T23:59:59Z",
+  "retentionDays": 365,
+  "sessionIsolation": "dedicated_per_study"
+}

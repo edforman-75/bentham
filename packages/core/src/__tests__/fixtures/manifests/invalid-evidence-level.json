@@ -1,0 +1,20 @@
+{
+  "_error": "Invalid evidenceLevel - must be 'full', 'metadata', or 'none'",
+  "name": "Invalid Study - Bad Evidence Level",
+  "queries": [
+    { "text": "Test query" }
+  ],
+  "surfaces": [
+    { "id": "chatgpt-web" }
+  ],
+  "locations": [
+    { "id": "us-national" }
+  ],
+  "completionCriteria": {
+    "requiredSurfaces": {
+      "surfaceIds": ["chatgpt-web"]
+    }
+  },
+  "evidenceLevel": "partial",
+  "deadline": "2030-12-31T23:59:59Z"
+}

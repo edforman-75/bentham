@@ -1,0 +1,20 @@
+{
+  "_error": "maxRetriesPerCell exceeds maximum of 10",
+  "name": "Invalid Study - Too Many Retries",
+  "queries": [
+    { "text": "Test query" }
+  ],
+  "surfaces": [
+    { "id": "chatgpt-web" }
+  ],
+  "locations": [
+    { "id": "us-national" }
+  ],
+  "completionCriteria": {
+    "requiredSurfaces": {
+      "surfaceIds": ["chatgpt-web"]
+    },
+    "maxRetriesPerCell": 100
+  },
+  "deadline": "2030-12-31T23:59:59Z"
+}

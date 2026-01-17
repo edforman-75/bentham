@@ -1,0 +1,19 @@
+{
+  "_error": "Query text is empty (min length is 1)",
+  "name": "Invalid Study - Empty Query Text",
+  "queries": [
+    { "text": "" }
+  ],
+  "surfaces": [
+    { "id": "chatgpt-web" }
+  ],
+  "locations": [
+    { "id": "us-national" }
+  ],
+  "completionCriteria": {
+    "requiredSurfaces": {
+      "surfaceIds": ["chatgpt-web"]
+    }
+  },
+  "deadline": "2030-12-31T23:59:59Z"
+}

@@ -1,0 +1,20 @@
+{
+  "_error": "Legal hold studies must specify retentionDays or preserveForever",
+  "name": "Invalid Study - Legal Hold Without Retention",
+  "queries": [
+    { "text": "Test query" }
+  ],
+  "surfaces": [
+    { "id": "chatgpt-web" }
+  ],
+  "locations": [
+    { "id": "us-national" }
+  ],
+  "completionCriteria": {
+    "requiredSurfaces": {
+      "surfaceIds": ["chatgpt-web"]
+    }
+  },
+  "legalHold": true,
+  "deadline": "2030-12-31T23:59:59Z"
+}

@@ -1,0 +1,441 @@
+// Bentham Database Schema
+// Multi-tenant AI extraction service
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ============================================================================
+// Tenants and Users
+// ============================================================================
+
+model Tenant {
+  id        String   @id @default(cuid())
+  name      String
+  slug      String   @unique
+  status    TenantStatus @default(ACTIVE)
+
+  // Quota limits (stored as JSON for flexibility)
+  quota     Json     @default("{}")
+
+  // Notification preferences
+  notifications Json @default("{}")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  users     User[]
+  apiKeys   ApiKey[]
+  studies   Study[]
+  costRecords CostRecord[]
+
+  @@index([slug])
+  @@index([status])
+}
+
+enum TenantStatus {
+  ACTIVE
+  SUSPENDED
+  PENDING
+}
+
+model User {
+  id        String   @id @default(cuid())
+  tenantId  String
+  email     String
+  name      String
+  role      UserRole @default(VIEWER)
+  active    Boolean  @default(true)
+
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  lastLoginAt DateTime?
+
+  // Relations
+  tenant    Tenant   @relation(fields: [tenantId], references: [id], onDelete: Cascade)
+
+  @@unique([tenantId, email])
+  @@index([tenantId])
+  @@index([email])
+}
+
+enum UserRole {
+  ADMIN
+  OPERATOR
+  VIEWER
+  API_ONLY
+}
+
+model ApiKey {
+  id        String   @id @default(cuid())
+  tenantId  String
+  name      String
+  keyHash   String   @unique
+  keyPrefix String
+
+  permissions String[] @default([])
+  active      Boolean  @default(true)
+
+  createdAt  DateTime  @default(now())
+  expiresAt  DateTime?
+  lastUsedAt DateTime?
+
+  // Relations
+  tenant    Tenant   @relation(fields: [tenantId], references: [id], onDelete: Cascade)
+
+  @@index([tenantId])
+  @@index([keyHash])
+  @@index([keyPrefix])
+}
+
+// ============================================================================
+// Studies and Jobs
+// ============================================================================
+
+model Study {
+  id        String   @id @default(cuid())
+  tenantId  String
+
+  // Manifest (stored as JSON)
+  manifest  Json
+
+  // State
+  status    StudyStatus @default(VALIDATING)
+
+  // Progress
+  totalCells     Int @default(0)
+  completedCells Int @default(0)
+  failedCells    Int @default(0)
+
+  // Timing
+  createdAt   DateTime  @default(now())
+  startedAt   DateTime?
+  completedAt DateTime?
+  deadline    DateTime
+
+  // Checkpoints (stored as JSON)
+  lastCheckpoint Json?
+
+  // Results summary (stored as JSON when complete)
+  resultSummary Json?
+
+  // Cost estimates and actuals (stored as JSON)
+  estimatedCost Json @default("{}")
+  actualCost    Json @default("{}")
+
+  // Relations
+  tenant      Tenant      @relation(fields: [tenantId], references: [id], onDelete: Cascade)
+  jobs        Job[]
+  checkpoints Checkpoint[]
+
+  @@index([tenantId])
+  @@index([tenantId, status])
+  @@index([status])
+  @@index([deadline])
+  @@index([createdAt])
+}
+
+enum StudyStatus {
+  VALIDATING
+  QUEUED
+  EXECUTING
+  VALIDATING_RESULTS
+  PAUSED
+  COMPLETE
+  FAILED
+}
+
+model Job {
+  id        String   @id @default(cuid())
+  studyId   String
+
+  // Coordinates in the matrix
+  queryIndex Int
+  surfaceId  String
+  locationId String
+
+  // State
+  status    JobStatus @default(PENDING)
+  attempts  Int       @default(0)
+
+  lastAttemptAt DateTime?
+
+  // Result (stored as JSON when complete)
+  result    Json?
+
+  // Dependencies (array of job IDs)
+  dependsOn String[] @default([])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  study     Study    @relation(fields: [studyId], references: [id], onDelete: Cascade)
+
+  @@unique([studyId, queryIndex, surfaceId, locationId])
+  @@index([studyId])
+  @@index([studyId, status])
+  @@index([status])
+}
+
+enum JobStatus {
+  PENDING
+  EXECUTING
+  VALIDATING
+  COMPLETE
+  FAILED
+}
+
+model Checkpoint {
+  id        String   @id @default(cuid())
+  studyId   String
+
+  // State at checkpoint time
+  completedJobs   String[] @default([])
+  failedJobs      String[] @default([])
+  inProgressJobs  String[] @default([])
+
+  // Additional state data
+  stateData Json?
+
+  createdAt DateTime @default(now())
+
+  // Relations
+  study     Study    @relation(fields: [studyId], references: [id], onDelete: Cascade)
+
+  @@index([studyId])
+  @@index([createdAt])
+}
+
+// ============================================================================
+// Evidence
+// ============================================================================
+
+model Evidence {
+  id        String   @id @default(cuid())
+  jobId     String
+  studyId   String
+  tenantId  String
+
+  // Evidence type and location
+  type      EvidenceType
+  url       String
+  size      Int         // bytes
+
+  // Integrity
+  sha256Hash     String
+  timestampToken String?  // RFC 3161
+
+  // Metadata
+  capturedAt DateTime
+  metadata   Json?
+
+  createdAt DateTime @default(now())
+
+  @@index([jobId])
+  @@index([studyId])
+  @@index([tenantId])
+  @@index([sha256Hash])
+}
+
+enum EvidenceType {
+  SCREENSHOT
+  HTML_ARCHIVE
+  HAR_FILE
+  VIDEO
+  METADATA
+}
+
+// ============================================================================
+// Infrastructure State
+// ============================================================================
+
+model Account {
+  id        String   @id @default(cuid())
+  surfaceId String
+
+  // Account details
+  email     String?
+  username  String?
+
+  // State
+  status    AccountStatus @default(AVAILABLE)
+  health    Int           @default(100) // 0-100
+
+  // Usage tracking
+  totalQueries    Int @default(0)
+  lastUsedAt      DateTime?
+  lastSuccessAt   DateTime?
+
+  // Cost tracking
+  monthlyCost     Decimal @default(0) @db.Decimal(10, 2)
+  totalCost       Decimal @default(0) @db.Decimal(10, 2)
+
+  // Metadata
+  metadata  Json?
+
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  retiredAt   DateTime?
+
+  @@index([surfaceId])
+  @@index([surfaceId, status])
+  @@index([status])
+}
+
+enum AccountStatus {
+  AVAILABLE
+  IN_USE
+  COOLING_DOWN
+  FLAGGED
+  BLOCKED
+  RETIRED
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  surfaceId String
+  accountId String?
+
+  // Browser info
+  browserEngine String  // 'playwright' | 'puppeteer'
+  userAgent     String?
+
+  // Proxy info
+  proxyProvider String?
+  proxyIp       String?
+  locationId    String?
+
+  // State
+  status    SessionStatus @default(WARMING)
+  health    Int           @default(100) // 0-100
+
+  // Usage
+  queryCount    Int @default(0)
+  lastUsedAt    DateTime?
+  lastSuccessAt DateTime?
+
+  // State data (cookies, local storage, etc.)
+  stateData Json?
+
+  createdAt DateTime @default(now())
+  expiresAt DateTime?
+
+  @@index([surfaceId])
+  @@index([surfaceId, status])
+  @@index([status])
+  @@index([accountId])
+}
+
+enum SessionStatus {
+  WARMING
+  IDLE
+  ACTIVE
+  COOLING
+  EXPIRED
+  INVALID
+}
+
+// ============================================================================
+// Cost Tracking
+// ============================================================================
+
+model CostRecord {
+  id        String   @id @default(cuid())
+  tenantId  String
+  studyId   String?
+
+  // Cost breakdown (stored as JSON)
+  breakdown Json
+
+  // Line items
+  lineItems Json @default("[]")
+
+  // Total
+  total     Decimal @db.Decimal(10, 4)
+
+  // Period
+  periodStart DateTime
+  periodEnd   DateTime
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  tenant    Tenant   @relation(fields: [tenantId], references: [id], onDelete: Cascade)
+
+  @@index([tenantId])
+  @@index([tenantId, studyId])
+  @@index([periodStart, periodEnd])
+}
+
+// ============================================================================
+// Audit Log
+// ============================================================================
+
+model AuditLog {
+  id        String   @id @default(cuid())
+  tenantId  String
+  userId    String?
+
+  // Action details
+  action    String
+  resource  String
+  resourceId String?
+
+  // Request context
+  ipAddress String?
+  userAgent String?
+
+  // Change details
+  before    Json?
+  after     Json?
+  metadata  Json?
+
+  createdAt DateTime @default(now())
+
+  @@index([tenantId])
+  @@index([tenantId, action])
+  @@index([tenantId, resourceId])
+  @@index([createdAt])
+}
+
+// ============================================================================
+// Scheduled Studies
+// ============================================================================
+
+model Schedule {
+  id        String   @id @default(cuid())
+  tenantId  String
+  name      String
+
+  // Schedule definition
+  cronExpression String
+  timezone       String @default("UTC")
+
+  // Manifest template (stored as JSON)
+  manifestTemplate Json
+
+  // State
+  active    Boolean @default(true)
+  lastRunAt DateTime?
+  nextRunAt DateTime?
+
+  // Notifications
+  notifyOnComplete Boolean @default(true)
+  notifyOnFailure  Boolean @default(true)
+  webhookUrl       String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([tenantId])
+  @@index([tenantId, active])
+  @@index([nextRunAt])
+}

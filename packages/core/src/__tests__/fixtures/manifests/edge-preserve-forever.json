@@ -1,0 +1,21 @@
+{
+  "_note": "Edge case: preserveForever with legal hold (no retentionDays needed)",
+  "name": "Edge Case - Preserve Forever Legal Hold",
+  "queries": [
+    { "text": "Forever retention test query" }
+  ],
+  "surfaces": [
+    { "id": "chatgpt-web" }
+  ],
+  "locations": [
+    { "id": "us-national" }
+  ],
+  "completionCriteria": {
+    "requiredSurfaces": {
+      "surfaceIds": ["chatgpt-web"]
+    }
+  },
+  "legalHold": true,
+  "preserveForever": true,
+  "deadline": "2030-12-31T23:59:59Z"
+}

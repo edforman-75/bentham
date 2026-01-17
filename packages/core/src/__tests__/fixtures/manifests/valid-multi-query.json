@@ -1,0 +1,40 @@
+{
+  "name": "Multi-Query Brand Monitoring Study",
+  "description": "Testing brand perception across AI platforms",
+  "queries": [
+    { "text": "What do you think about Nike shoes?", "category": "brand", "tags": ["nike", "footwear"] },
+    { "text": "Are Adidas sneakers good quality?", "category": "brand", "tags": ["adidas", "footwear"] },
+    { "text": "Should I buy New Balance running shoes?", "category": "brand", "tags": ["new-balance", "running"] },
+    { "text": "What's the best laptop brand?", "category": "brand", "tags": ["laptops", "tech"] },
+    { "text": "Is Apple better than Samsung?", "category": "brand", "tags": ["apple", "samsung", "comparison"] },
+    { "text": "What car brand is most reliable?", "category": "brand", "tags": ["automotive", "reliability"] },
+    { "text": "Which airline has the best service?", "category": "brand", "tags": ["airlines", "travel"] },
+    { "text": "What's the healthiest fast food restaurant?", "category": "brand", "tags": ["food", "health"] },
+    { "text": "Which streaming service has the best content?", "category": "brand", "tags": ["streaming", "entertainment"] },
+    { "text": "What bank should I use for savings?", "category": "brand", "tags": ["banking", "finance"] }
+  ],
+  "surfaces": [
+    { "id": "chatgpt-web", "required": true },
+    { "id": "claude-web", "required": true },
+    { "id": "gemini-web", "required": true }
+  ],
+  "locations": [
+    { "id": "us-national" },
+    { "id": "uk-lon" },
+    { "id": "de-ber" }
+  ],
+  "completionCriteria": {
+    "requiredSurfaces": {
+      "surfaceIds": ["chatgpt-web", "claude-web", "gemini-web"],
+      "coverageThreshold": 0.90
+    },
+    "maxRetriesPerCell": 5
+  },
+  "qualityGates": {
+    "minResponseLength": 50,
+    "requireActualContent": true
+  },
+  "evidenceLevel": "metadata",
+  "deadline": "2030-03-15T12:00:00Z",
+  "retentionDays": 90
+}

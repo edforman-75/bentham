@@ -1,0 +1,23 @@
+{
+  "_error": "Optional surface 'perplexity-web' not in surfaces list",
+  "name": "Invalid Study - Optional Surface Not in List",
+  "queries": [
+    { "text": "Test query" }
+  ],
+  "surfaces": [
+    { "id": "chatgpt-web" },
+    { "id": "claude-web" }
+  ],
+  "locations": [
+    { "id": "us-national" }
+  ],
+  "completionCriteria": {
+    "requiredSurfaces": {
+      "surfaceIds": ["chatgpt-web"]
+    },
+    "optionalSurfaces": {
+      "surfaceIds": ["claude-web", "perplexity-web"]
+    }
+  },
+  "deadline": "2030-12-31T23:59:59Z"
+}

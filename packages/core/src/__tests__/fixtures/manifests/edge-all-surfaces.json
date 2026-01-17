@@ -1,0 +1,34 @@
+{
+  "_note": "Edge case: Using all available surfaces",
+  "name": "Edge Case - All Surfaces",
+  "queries": [
+    { "text": "Test query across all AI surfaces" }
+  ],
+  "surfaces": [
+    { "id": "openai-api" },
+    { "id": "anthropic-api" },
+    { "id": "google-ai-api" },
+    { "id": "perplexity-api" },
+    { "id": "chatgpt-web" },
+    { "id": "gemini-web" },
+    { "id": "perplexity-web" },
+    { "id": "claude-web" },
+    { "id": "meta-ai" },
+    { "id": "grok" },
+    { "id": "google-search" },
+    { "id": "bing-copilot" }
+  ],
+  "locations": [
+    { "id": "us-national" }
+  ],
+  "completionCriteria": {
+    "requiredSurfaces": {
+      "surfaceIds": ["chatgpt-web", "claude-web"],
+      "coverageThreshold": 0.8
+    },
+    "optionalSurfaces": {
+      "surfaceIds": ["openai-api", "anthropic-api", "google-ai-api", "perplexity-api", "gemini-web", "perplexity-web", "meta-ai", "grok", "google-search", "bing-copilot"]
+    }
+  },
+  "deadline": "2030-12-31T23:59:59Z"
+}

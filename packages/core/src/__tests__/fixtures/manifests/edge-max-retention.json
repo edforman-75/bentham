@@ -1,0 +1,21 @@
+{
+  "_note": "Edge case: Maximum retention days (2555 = ~7 years)",
+  "name": "Edge Case - Maximum Retention",
+  "queries": [
+    { "text": "Long-term retention test query" }
+  ],
+  "surfaces": [
+    { "id": "chatgpt-web" }
+  ],
+  "locations": [
+    { "id": "us-national" }
+  ],
+  "completionCriteria": {
+    "requiredSurfaces": {
+      "surfaceIds": ["chatgpt-web"]
+    }
+  },
+  "legalHold": true,
+  "deadline": "2030-12-31T23:59:59Z",
+  "retentionDays": 2555
+}
