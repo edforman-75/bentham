@@ -1,0 +1,32 @@
+{
+  "name": "@bentham/e2e",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@bentham/core": "workspace:*",
+    "@bentham/api-gateway": "workspace:*",
+    "@bentham/orchestrator": "workspace:*",
+    "@bentham/executor": "workspace:*",
+    "@bentham/validator": "workspace:*",
+    "@bentham/database": "workspace:*",
+    "@bentham/session-pool": "workspace:*",
+    "@bentham/proxy-manager": "workspace:*",
+    "@bentham/account-manager": "workspace:*",
+    "@bentham/evidence-collector": "workspace:*",
+    "@bentham/cost-tracker": "workspace:*",
+    "@bentham/notification-hub": "workspace:*",
+    "@bentham/audit-logger": "workspace:*",
+    "@bentham/surface-adapters": "workspace:*",
+    "@bentham/credential-vault": "workspace:*",
+    "@bentham/ai-advisor": "workspace:*"
+  },
+  "devDependencies": {
+    "vitest": "^1.6.0",
+    "typescript": "^5.4.0"
+  }
+}
