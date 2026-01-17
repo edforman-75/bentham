@@ -14,7 +14,8 @@
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "build": "tsup src/index.ts --format cjs,esm --dts && tsup api/index.ts --outDir api --format esm",
+    "build:vercel": "tsup src/index.ts --format cjs,esm --dts && tsup api/index.ts --outDir api --format esm",
     "dev": "tsx watch src/server.ts",
     "start": "node dist/server.js",
     "test": "vitest run",
@@ -36,6 +37,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.11.0",
+    "@vercel/node": "^3.0.0",
     "tsup": "^8.0.1",
     "tsx": "^4.7.0",
     "typescript": "^5.3.3",

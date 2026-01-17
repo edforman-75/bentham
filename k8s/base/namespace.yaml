@@ -1,0 +1,8 @@
+# Bentham Namespace
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: bentham
+  labels:
+    app.kubernetes.io/name: bentham
+    app.kubernetes.io/managed-by: kubectl
