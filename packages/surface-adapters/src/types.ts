@@ -179,8 +179,10 @@ export interface TokenUsage {
  * Evidence captured from a query
  */
 export interface CapturedEvidence {
-  /** Screenshot (base64 or URL) */
+  /** Screenshot of the page (base64 PNG) */
   screenshot?: string;
+  /** Images extracted from the response */
+  images?: CapturedImage[];
   /** HTML content */
   htmlContent?: string;
   /** HAR file data */
@@ -189,6 +191,25 @@ export interface CapturedEvidence {
   headers?: Record<string, string>;
   /** Timestamp of capture */
   capturedAt: Date;
+}
+
+/**
+ * Image captured from a response
+ */
+export interface CapturedImage {
+  /** Image data (base64) */
+  data: string;
+  /** Image MIME type */
+  mimeType: string;
+  /** Image source URL (if from web) */
+  sourceUrl?: string;
+  /** Alt text or description */
+  altText?: string;
+  /** Image dimensions */
+  width?: number;
+  height?: number;
+  /** Whether this is AI-generated */
+  isGenerated?: boolean;
 }
 
 /**

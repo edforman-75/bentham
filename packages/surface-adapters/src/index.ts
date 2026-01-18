@@ -18,6 +18,7 @@ export type {
   ResponseTiming,
   TokenUsage,
   CapturedEvidence,
+  CapturedImage,
   SurfaceError,
   SurfaceErrorCode,
   WebSessionConfig,
@@ -143,6 +144,13 @@ export {
   type GoogleSearchAdapterConfig,
 } from './search-surfaces/google-search-adapter.js';
 
+export {
+  BingSearchAdapter,
+  createBingSearchAdapter,
+  BING_SEARCH_METADATA,
+  type BingSearchAdapterConfig,
+} from './search-surfaces/bing-search-adapter.js';
+
 // E-commerce Surface Adapters
 export {
   AmazonWebAdapter,
@@ -207,6 +215,21 @@ export {
   DEFAULT_PLAYWRIGHT_CONFIG,
 } from './browser/playwright-provider.js';
 
+// Recovery & Resilience
+export {
+  RecoveryManager,
+  createRecoveryManager,
+  querySurfaceViaCdp,
+  createCdpQueryFn,
+  isCdpAvailable,
+  type RecoveryConfig,
+  type RecoveryResult,
+  type SurfaceHealth,
+  type FailureType,
+  type CdpFallbackConfig,
+  DEFAULT_RECOVERY_CONFIG,
+} from './recovery/index.js';
+
 /**
  * All available surface metadata (statically defined)
  */
@@ -226,6 +249,7 @@ export const ALL_SURFACE_METADATA: Record<string, SurfaceMetadata> = {
   'copilot-web': COPILOT_WEB_METADATA,
   // Search
   'google-search': GOOGLE_SEARCH_METADATA,
+  'bing-search': BING_SEARCH_METADATA,
   // E-commerce
   'amazon-web': AMAZON_WEB_METADATA,
   'amazon-rufus': AMAZON_RUFUS_METADATA,
@@ -269,6 +293,7 @@ import { X_GROK_WEB_METADATA } from './web-chatbots/x-grok-web-adapter.js';
 import { META_AI_WEB_METADATA } from './web-chatbots/meta-ai-web-adapter.js';
 import { COPILOT_WEB_METADATA } from './web-chatbots/copilot-web-adapter.js';
 import { GOOGLE_SEARCH_METADATA } from './search-surfaces/google-search-adapter.js';
+import { BING_SEARCH_METADATA } from './search-surfaces/bing-search-adapter.js';
 import { AMAZON_WEB_METADATA } from './ecommerce-surfaces/amazon-web-adapter.js';
 import { AMAZON_RUFUS_METADATA } from './ecommerce-surfaces/amazon-rufus-adapter.js';
 import { ZAPPOS_WEB_METADATA } from './ecommerce-surfaces/zappos-web-adapter.js';

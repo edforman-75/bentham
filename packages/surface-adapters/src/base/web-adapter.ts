@@ -15,6 +15,7 @@ import type {
   SurfaceQueryResponse,
   WebSessionConfig,
   CapturedEvidence,
+  CapturedImage,
   ResponseTiming,
 } from '../types.js';
 
@@ -34,6 +35,12 @@ export interface WebAdapterConfig extends Partial<BaseAdapterConfig> {
   pageLoadTimeoutMs?: number;
   /** Wait for network idle timeout */
   networkIdleTimeoutMs?: number;
+  /** Capture screenshot after each query */
+  captureScreenshots?: boolean;
+  /** Extract images from response */
+  captureImages?: boolean;
+  /** Capture full HTML content */
+  captureHtml?: boolean;
 }
 
 /**
@@ -45,6 +52,9 @@ export const DEFAULT_WEB_CONFIG: WebAdapterConfig = {
   captureHar: false,
   pageLoadTimeoutMs: 30000,
   networkIdleTimeoutMs: 5000,
+  captureScreenshots: false,
+  captureImages: false,
+  captureHtml: false,
 };
 
 /**
@@ -403,21 +413,114 @@ export abstract class BaseWebAdapter extends BaseSurfaceAdapter {
   }
 
   /**
-   * Capture evidence from the page
+   * Capture evidence from the page based on config options
    */
   protected async captureEvidence(): Promise<CapturedEvidence> {
-    const screenshot = await this.page!.screenshot({
-      fullPage: true,
-      type: 'png',
-    });
-
-    const htmlContent = await this.page!.content();
-
-    return {
-      screenshot: screenshot.toString('base64'),
-      htmlContent,
+    const evidence: CapturedEvidence = {
       capturedAt: new Date(),
     };
+
+    // Capture screenshot if enabled
+    if (this.webConfig.captureScreenshots) {
+      const screenshot = await this.page!.screenshot({
+        fullPage: true,
+        type: 'png',
+        quality: this.webConfig.screenshotQuality,
+      });
+      evidence.screenshot = screenshot.toString('base64');
+    }
+
+    // Capture HTML if enabled
+    if (this.webConfig.captureHtml) {
+      evidence.htmlContent = await this.page!.content();
+    }
+
+    // Extract images if enabled
+    if (this.webConfig.captureImages) {
+      evidence.images = await this.extractImages();
+    }
+
+    return evidence;
+  }
+
+  /**
+   * Extract images from the response area of the page
+   */
+  protected async extractImages(): Promise<CapturedImage[]> {
+    try {
+      // Get all images within the response container
+      const images = await this.page!.evaluate(() => {
+        const responseContainer = document.querySelector('[data-response-container]') ||
+                                   document.querySelector('.response') ||
+                                   document.body;
+
+        const imgElements = responseContainer.querySelectorAll('img');
+        const imageData: Array<{
+          src: string;
+          alt: string;
+          width: number;
+          height: number;
+          isGenerated: boolean;
+        }> = [];
+
+        imgElements.forEach((img: HTMLImageElement) => {
+          // Skip tiny images (likely icons) and tracking pixels
+          if (img.naturalWidth < 50 || img.naturalHeight < 50) return;
+          // Skip data URIs that are too small (likely placeholders)
+          if (img.src.startsWith('data:') && img.src.length < 1000) return;
+
+          imageData.push({
+            src: img.src,
+            alt: img.alt || '',
+            width: img.naturalWidth,
+            height: img.naturalHeight,
+            // Heuristic: AI-generated images often have specific patterns
+            isGenerated: img.src.includes('generated') ||
+                         img.src.includes('dalle') ||
+                         img.src.includes('midjourney') ||
+                         img.alt.toLowerCase().includes('generated'),
+          });
+        });
+
+        return imageData;
+      });
+
+      // Convert to CapturedImage format
+      const capturedImages: CapturedImage[] = [];
+
+      for (const img of images) {
+        // For data URIs, extract the base64 data directly
+        if (img.src.startsWith('data:')) {
+          const [header, data] = img.src.split(',');
+          const mimeMatch = header.match(/data:([^;]+)/);
+          capturedImages.push({
+            data: data,
+            mimeType: mimeMatch ? mimeMatch[1] : 'image/png',
+            altText: img.alt,
+            width: img.width,
+            height: img.height,
+            isGenerated: img.isGenerated,
+          });
+        } else {
+          // For external URLs, just store the URL reference
+          // (actual fetching would require additional network requests)
+          capturedImages.push({
+            data: '', // Would need to fetch and convert to base64
+            mimeType: 'image/unknown',
+            sourceUrl: img.src,
+            altText: img.alt,
+            width: img.width,
+            height: img.height,
+            isGenerated: img.isGenerated,
+          });
+        }
+      }
+
+      return capturedImages;
+    } catch (error) {
+      // Return empty array if image extraction fails
+      return [];
+    }
   }
 
   /**
