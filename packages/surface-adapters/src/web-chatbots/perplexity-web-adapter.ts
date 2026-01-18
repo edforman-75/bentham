@@ -49,9 +49,9 @@ export const PERPLEXITY_WEB_METADATA: SurfaceMetadata = {
  * Perplexity Web selectors
  */
 const PERPLEXITY_SELECTORS: WebSurfaceSelectors = {
-  queryInput: 'textarea[placeholder*="Ask"]',
+  queryInput: 'textarea',
   submitButton: 'button[aria-label="Submit"]',
-  responseContainer: '[class*="prose"]',
+  responseContainer: '.scrollable-container',
   loadingIndicator: '[class*="loading"]',
   errorContainer: '[class*="error"]',
   loginRequired: '[class*="login"]',
@@ -59,6 +59,7 @@ const PERPLEXITY_SELECTORS: WebSurfaceSelectors = {
 
 /**
  * Alternative selectors for Perplexity
+ * Updated Jan 2026 - Perplexity uses Tailwind classes
  */
 const PERPLEXITY_ALT_SELECTORS = {
   queryInput: [
@@ -66,6 +67,7 @@ const PERPLEXITY_ALT_SELECTORS = {
     'textarea[placeholder*="ask"]',
     'textarea[data-testid="query-input"]',
     '#query-input',
+    'textarea',
   ],
   submitButton: [
     'button[aria-label="Submit"]',
@@ -73,10 +75,12 @@ const PERPLEXITY_ALT_SELECTORS = {
     'button[class*="submit"]',
   ],
   responseContainer: [
+    '.scrollable-container',  // Main answer container
+    '[id^="markdown-content"]',  // Markdown content
+    '.prose',  // Prose styling
     '[class*="prose"]',
     '[class*="answer"]',
     '[class*="response"]',
-    '[data-testid="answer-content"]',
   ],
   sourcesContainer: [
     '[class*="sources"]',
@@ -233,12 +237,12 @@ export class PerplexityWebAdapter extends BaseWebAdapter {
    * Wait for Perplexity response
    */
   protected async waitForResponse(): Promise<void> {
-    // Wait for response container to appear
+    // Wait for response container to appear (3s per selector to fit in 30s test timeout)
     let responseVisible = false;
     for (const selector of PERPLEXITY_ALT_SELECTORS.responseContainer) {
       try {
         await this.page!.waitForSelector(selector, {
-          timeout: 10000,
+          timeout: 3000,
           state: 'visible',
         });
         responseVisible = true;

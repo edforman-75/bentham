@@ -188,6 +188,7 @@ export class ChromeSessionManager {
       'copilot-web': 'https://copilot.microsoft.com',
       // Search
       'google-search': 'https://www.google.com',
+      'bing-search': 'https://www.bing.com',
       // E-commerce / Shopping AI
       'amazon-web': 'https://www.amazon.com',
       'amazon-rufus': 'https://www.amazon.com', // Rufus is accessed via Amazon

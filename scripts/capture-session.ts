@@ -31,6 +31,7 @@ const SUPPORTED_SURFACES = [
   'copilot-web',
   // Search
   'google-search',
+  'bing-search',
   // E-commerce / Shopping AI
   'amazon-web',
   'amazon-rufus',

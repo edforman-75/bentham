@@ -50,3 +50,9 @@ temp/
 .vercel
 api/index.js
 .env*.local
+
+# Session data
+.bentham-sessions/
+
+# Debug screenshots
+debug-*.png

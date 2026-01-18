@@ -25,6 +25,14 @@ export interface GoogleSearchAdapterConfig extends WebAdapterConfig {
   aiOverviewOnly?: boolean;
   /** Safe search setting */
   safeSearch?: 'off' | 'medium' | 'strict';
+  /** Whether to capture AI Overview (default: true) */
+  captureAiOverview?: boolean;
+  /** Whether to capture organic search results (default: true) */
+  captureOrganicResults?: boolean;
+  /** Maximum organic results to capture */
+  maxOrganicResults?: number;
+  /** Time to wait for AI Overview to load (ms) */
+  aiOverviewWaitMs?: number;
 }
 
 /**
@@ -60,27 +68,28 @@ const GOOGLE_SELECTORS: WebSurfaceSelectors = {
   captchaIndicator: '#captcha-form, .g-recaptcha',
 };
 
+// Note: AI Overview selectors are embedded in the extractAIOverviewStructured method
+// for better maintainability and to allow dynamic selector construction
+
 /**
- * Selectors for AI Overview
+ * Structured AI Overview response
  */
-const AI_OVERVIEW_SELECTORS = {
-  container: [
-    '[data-attrid="SGEAnswer"]',
-    '[class*="aiOverview"]',
-    '[data-feature-id*="ai"]',
-    '.kno-rdesc',
-    '[data-md*="ai"]',
-  ],
-  content: [
-    '[data-attrid="SGEAnswer"] .LGOjhe',
-    '[class*="aiOverview"] [class*="content"]',
-    '.kno-rdesc span',
-  ],
-  sources: [
-    '[data-attrid="SGEAnswer"] [class*="source"]',
-    '[class*="aiOverview"] a[href]',
-  ],
-};
+interface AIOverviewData {
+  content: string;
+  sources: SourceCitation[];
+  hasAiOverview: boolean;
+}
+
+/**
+ * Structured organic search result
+ */
+interface OrganicSearchResult {
+  title: string;
+  url: string;
+  displayUrl: string;
+  snippet: string;
+  position: number;
+}
 
 /**
  * Google Search + AI Overview Surface Adapter
@@ -131,79 +140,205 @@ export class GoogleSearchAdapter extends BaseWebAdapter {
   }
 
   /**
-   * Extract response - prioritize AI Overview
+   * Extract response - AI Overview and/or organic results
    */
   protected async extractResponse(page: BrowserPage): Promise<string> {
-    // First try to get AI Overview
-    const aiOverview = await this.extractAIOverview(page);
-    if (aiOverview) {
-      return aiOverview;
+    const captureAi = this.googleConfig.captureAiOverview !== false;
+    const captureOrganic = this.googleConfig.captureOrganicResults !== false;
+
+    let responseText = '';
+
+    // Extract AI Overview if enabled
+    if (captureAi) {
+      const aiOverview = await this.extractAIOverviewStructured(page);
+      if (aiOverview.hasAiOverview) {
+        responseText += '=== AI Overview ===\n';
+        responseText += aiOverview.content + '\n';
+        if (aiOverview.sources.length > 0) {
+          responseText += '\nSources:\n';
+          aiOverview.sources.forEach((s, i) => {
+            responseText += `[${i + 1}] ${s.title}: ${s.url}\n`;
+          });
+        }
+        responseText += '\n';
+      } else {
+        responseText += '[No AI Overview available for this query]\n\n';
+      }
     }
 
-    // If no AI Overview, get featured snippet or first result
-    if (!this.googleConfig.aiOverviewOnly) {
+    // Extract organic results if enabled
+    if (captureOrganic) {
+      const organicResults = await this.extractOrganicResults(page);
+      if (organicResults.length > 0) {
+        responseText += '=== Organic Search Results ===\n';
+        organicResults.forEach((result) => {
+          responseText += `${result.position}. ${result.title}\n`;
+          responseText += `   ${result.displayUrl}\n`;
+          responseText += `   ${result.snippet}\n\n`;
+        });
+      }
+    }
+
+    // If aiOverviewOnly and no AI Overview, try featured snippet
+    if (this.googleConfig.aiOverviewOnly && responseText.includes('[No AI Overview')) {
       const snippet = await this.extractFeaturedSnippet(page);
       if (snippet) {
         return snippet;
       }
     }
 
-    // Fallback to indicating no AI Overview found
-    return '[No AI Overview available for this query]';
+    return responseText.trim() || '[No results found]';
   }
 
   /**
-   * Extract AI Overview content
+   * Extract AI Overview content with structured data
    */
-  private async extractAIOverview(page: BrowserPage): Promise<string | null> {
-    for (const selector of AI_OVERVIEW_SELECTORS.container) {
-      try {
-        const isVisible = await page.isVisible(selector);
-        if (isVisible) {
-          // Try to get content from the container
-          for (const contentSelector of AI_OVERVIEW_SELECTORS.content) {
-            try {
-              const content = await page.textContent(contentSelector);
-              if (content && content.trim().length > 20) {
-                return content.trim();
-              }
-            } catch {
-              continue;
+  private async extractAIOverviewStructured(page: BrowserPage): Promise<AIOverviewData> {
+    const result: AIOverviewData = {
+      content: '',
+      sources: [],
+      hasAiOverview: false,
+    };
+
+    // Try page evaluation for more robust extraction
+    const aiData = await page.evaluate(() => {
+      const data = {
+        content: '',
+        sources: [] as Array<{ title: string; url: string }>,
+        found: false,
+      };
+
+      // AI Overview selectors (in order of preference)
+      const containerSelectors = [
+        '[data-attrid="SGEAnswer"]',
+        '[data-async-type="agi"]',
+        '.M8OgIe',
+        '[data-hveid][data-ved] [role="article"]',
+        'div[jsname][data-nh]',
+      ];
+
+      // Try to find AI Overview container
+      for (const selector of containerSelectors) {
+        const container = document.querySelector(selector);
+        if (container) {
+          // Get text content, excluding source links text
+          const clonedContainer = container.cloneNode(true) as Element;
+          // Remove source/citation elements to get clean content
+          clonedContainer.querySelectorAll('a[href], cite, [class*="source"]').forEach(el => {
+            if (el.parentNode === clonedContainer) {
+              // Keep link text, just mark we've found it
             }
-          }
+          });
 
-          // Fallback to getting text from container
-          const content = await page.textContent(selector);
-          if (content && content.trim().length > 50) {
-            return content.trim();
+          const text = container.textContent?.trim();
+          if (text && text.length > 50) {
+            data.content = text;
+            data.found = true;
+
+            // Extract source links
+            const links = container.querySelectorAll('a[href]');
+            links.forEach((link) => {
+              const anchor = link as HTMLAnchorElement;
+              if (anchor.href && !anchor.href.includes('google.com') && !anchor.href.startsWith('#')) {
+                data.sources.push({
+                  title: anchor.textContent?.trim() || anchor.hostname,
+                  url: anchor.href,
+                });
+              }
+            });
+
+            break;
           }
         }
-      } catch {
-        continue;
       }
-    }
 
-    // Try page evaluation
-    const aiContent = await page.evaluate(() => {
-      // Look for AI Overview elements
-      const aiElements = document.querySelectorAll('[data-attrid*="SGE"], [class*="ai-overview"]');
-      for (const el of aiElements) {
-        const text = el.textContent?.trim();
-        if (text && text.length > 50) {
-          return text;
+      // Fallback: Look for SGE elements with different attribute patterns
+      if (!data.found) {
+        const sgeElements = document.querySelectorAll('[data-attrid*="SGE"], [class*="ai-overview"], [data-feature-id*="ai"]');
+        for (const el of sgeElements) {
+          const text = el.textContent?.trim();
+          if (text && text.length > 50) {
+            data.content = text;
+            data.found = true;
+            break;
+          }
         }
       }
 
-      // Look for Knowledge panel with AI-generated content
-      const knowledgePanel = document.querySelector('.kno-rdesc');
-      if (knowledgePanel) {
-        return knowledgePanel.textContent?.trim() ?? null;
+      // Also check for Knowledge panel as potential AI content
+      if (!data.found) {
+        const knowledgePanel = document.querySelector('.kno-rdesc');
+        if (knowledgePanel) {
+          const text = knowledgePanel.textContent?.trim();
+          if (text && text.length > 30) {
+            data.content = text;
+            data.found = true;
+          }
+        }
       }
 
-      return null;
+      return data;
     });
 
-    return aiContent;
+    if (aiData.found) {
+      result.content = aiData.content;
+      result.hasAiOverview = true;
+      result.sources = aiData.sources.map((s, i) => ({
+        title: s.title,
+        url: s.url,
+        index: i + 1,
+      }));
+    }
+
+    return result;
+  }
+
+  /**
+   * Extract organic search results
+   */
+  private async extractOrganicResults(page: BrowserPage): Promise<OrganicSearchResult[]> {
+    const maxResults = this.googleConfig.maxOrganicResults || 10;
+
+    const results = await page.evaluate(() => {
+      const items: Array<{
+        title: string;
+        url: string;
+        displayUrl: string;
+        snippet: string;
+        position: number;
+      }> = [];
+
+      // Google organic result selectors
+      const resultContainers = document.querySelectorAll('#search .g, #rso .g, [data-sokoban-container] .g');
+
+      resultContainers.forEach((container) => {
+        // Skip if this looks like an AI overview or ad
+        if (container.closest('[data-attrid="SGEAnswer"]') ||
+            container.closest('[data-async-type="agi"]') ||
+            container.querySelector('[data-text-ad]')) {
+          return;
+        }
+
+        const titleEl = container.querySelector('h3');
+        const linkEl = container.querySelector('a[href]') as HTMLAnchorElement;
+        const snippetEl = container.querySelector('.VwiC3b, .IsZvec, [data-sncf]');
+        const displayUrlEl = container.querySelector('cite, .qLRx3b');
+
+        if (titleEl && linkEl && linkEl.href && !linkEl.href.includes('google.com')) {
+          items.push({
+            title: titleEl.textContent?.trim() || '',
+            url: linkEl.href,
+            displayUrl: displayUrlEl?.textContent?.trim() || new URL(linkEl.href).hostname,
+            snippet: snippetEl?.textContent?.trim() || '',
+            position: items.length + 1,
+          });
+        }
+      });
+
+      return items;
+    });
+
+    return results.slice(0, maxResults);
   }
 
   /**

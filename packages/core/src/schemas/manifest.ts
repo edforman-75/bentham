@@ -25,11 +25,17 @@ export const QuerySchema = z.object({
 });
 
 /**
- * Surface options schema with model selection
+ * Surface options schema with model selection and capture settings
  */
 export const SurfaceOptionsSchema = z.object({
   /** Model override (uses surface default if not specified) */
   model: z.string().optional(),
+  /** Capture screenshot of each query result */
+  captureScreenshots: z.boolean().optional().default(false),
+  /** Extract and capture images from responses */
+  captureImages: z.boolean().optional().default(false),
+  /** Capture full HTML content */
+  captureHtml: z.boolean().optional().default(false),
   /** Other surface-specific options */
 }).passthrough();
 
