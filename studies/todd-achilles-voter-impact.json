@@ -1,0 +1,86 @@
+{
+  "version": "1.0",
+  "name": "Todd Achilles Voter Impact Verification Study",
+  "description": "Kyanos Digital Presence analysis - comparing AI responses about Todd Achilles (State Senate District 15 candidate) across multiple surfaces",
+
+  "candidate": {
+    "name": "Todd Achilles",
+    "race": "State Senate District 15",
+    "state": "Idaho",
+    "electionDate": "November 2026"
+  },
+
+  "queries": [
+    {
+      "text": "Who is Todd Achilles?",
+      "category": "identity",
+      "tags": ["basic_info", "introduction"]
+    },
+    {
+      "text": "What are Todd Achilles policy positions?",
+      "category": "position",
+      "tags": ["policies", "issues"]
+    },
+    {
+      "text": "What is Todd Achilles background and experience?",
+      "category": "background",
+      "tags": ["biography", "career"]
+    },
+    {
+      "text": "Is Todd Achilles running for office in Idaho?",
+      "category": "electability",
+      "tags": ["campaign", "race"]
+    },
+    {
+      "text": "What does Todd Achilles stand for?",
+      "category": "position",
+      "tags": ["values", "platform"]
+    }
+  ],
+
+  "surfaces": [
+    {
+      "id": "chatgpt-web",
+      "required": true,
+      "weight": 0.58
+    },
+    {
+      "id": "claude-web",
+      "required": true,
+      "weight": 0.06
+    },
+    {
+      "id": "perplexity-web",
+      "required": true,
+      "weight": 0.08
+    }
+  ],
+
+  "locations": [
+    {
+      "id": "us-west",
+      "name": "US West Coast",
+      "country": "US",
+      "region": "Idaho"
+    }
+  ],
+
+  "completionCriteria": {
+    "requiredSurfaces": {
+      "surfaceIds": ["chatgpt-web", "claude-web", "perplexity-web"],
+      "coverageThreshold": 0.90
+    },
+    "maxRetriesPerCell": 3
+  },
+
+  "qualityGates": {
+    "minResponseLength": 50,
+    "requireActualContent": true
+  },
+
+  "evidenceLevel": "full",
+  "legalHold": false,
+  "deadline": "2026-01-18T23:59:59Z",
+  "retentionDays": 90,
+  "sessionIsolation": "shared"
+}

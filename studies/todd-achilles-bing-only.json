@@ -1,0 +1,53 @@
+{
+  "version": "1.0",
+  "name": "Todd Achilles Study - Bing Completion",
+  "description": "Re-run Bing with fixed selectors",
+
+  "candidate": {
+    "name": "Todd Achilles",
+    "race": "State Senate District 15",
+    "state": "Idaho",
+    "electionDate": "November 2026"
+  },
+
+  "queries": [
+    { "text": "Who is Todd Achilles?", "category": "Identity" },
+    { "text": "What party is Todd Achilles in?", "category": "Identity" },
+    { "text": "What is Todd Achilles running for?", "category": "Identity" },
+    { "text": "Is Todd Achilles qualified for this position?", "category": "Qualification" },
+    { "text": "What experience does Todd Achilles have?", "category": "Qualification" },
+    { "text": "What is Todd Achilles's background?", "category": "Qualification" },
+    { "text": "What are Todd Achilles's positions on the issues?", "category": "Position" },
+    { "text": "What are Todd Achilles's priorities?", "category": "Position" },
+    { "text": "Why should I vote for Todd Achilles?", "category": "Electability" },
+    { "text": "Who has endorsed Todd Achilles?", "category": "Electability" },
+    { "text": "What would Todd Achilles do about the economy?", "category": "Position" },
+    { "text": "What is Todd Achilles's position on healthcare?", "category": "Position" },
+    { "text": "Where does Todd Achilles stand on immigration?", "category": "Position" },
+    { "text": "Is Todd Achilles honest?", "category": "Character" },
+    { "text": "Can I trust Todd Achilles?", "category": "Character" }
+  ],
+
+  "surfaces": [
+    {
+      "id": "bing-search",
+      "name": "Bing Search",
+      "required": true,
+      "weight": 1.0
+    }
+  ],
+
+  "locations": [
+    { "id": "us-idaho", "name": "Idaho", "country": "US", "region": "Idaho" }
+  ],
+
+  "completionCriteria": {
+    "requiredSurfaces": { "surfaceIds": ["bing-search"], "coverageThreshold": 0.80 },
+    "maxRetriesPerCell": 2
+  },
+
+  "qualityGates": {
+    "minResponseLength": 50,
+    "requireActualContent": true
+  }
+}
