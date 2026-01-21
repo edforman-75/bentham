@@ -1,131 +1,201 @@
 # Bentham
 
-Multi-tenant AI extraction service for systematically querying AI chatbots and search engines across geographic locations.
+**Multi-tenant AI extraction service for systematically querying AI chatbots and search engines across geographic locations.**
 
-Named after Jeremy Bentham (1748-1832), the philosopher who designed the Panopticon—a circular prison where a single guard could potentially observe any prisoner, but prisoners could never know if they were being watched at any given moment. This uncertainty caused constant self-regulation. Bentham (the service) captures AI systems in their natural state, querying them without revealing systematic research is underway.
+Named after Jeremy Bentham (1748-1832), the philosopher who designed the Panopticon — a structure where an observer could watch without being seen. Bentham captures AI systems in their natural state, querying them without revealing that systematic research is underway.
 
-## Overview
+---
 
-Bentham is a headless execution engine that:
+## Quick Links
 
-- Receives **study manifests** from tenant systems
-- Executes queries across **AI surfaces** (ChatGPT, Perplexity, Google AI, etc.)
-- Captures responses from multiple **geographic locations**
-- Validates results against **completion criteria**
-- Returns structured results with optional **evidence** (screenshots, archives)
+| Document | Description |
+|----------|-------------|
+| **[Operator Quickstart](OPERATOR_QUICKSTART.md)** | Start here! Setup guide for running Bentham |
+| **[Overview](OVERVIEW.md)** | System overview for developers and AI assistants |
+| **[Charter](docs/CHARTER.md)** | Design principles, guardrails, and governance |
 
-## Key Principles
+---
 
-- **Manifest-driven:** Every study is defined declaratively
-- **Separation of execution and validation:** Executor cannot self-attest completion
-- **Deterministic:** Production system is code, not AI making judgments
-- **Self-healing with transparency:** Automatic recovery with human notification
-- **Tenant isolation:** Strict data separation between tenants
+## Documentation Index
 
-## Documentation
+### Getting Started
 
-- **[Operator Quickstart](OPERATOR_QUICKSTART.md)** - Start here! Setup guide for running Bentham
-- [CLAUDE.md](CLAUDE.md) - Context for AI coding assistants
-- [Charter](docs/CHARTER.md) - System charter and guardrails
-- [Architecture](docs/ARCHITECTURE.md) - System design
-- [Modules](docs/MODULES.md) - Module breakdown with isolation boundaries
-- [Implementation Plan](docs/IMPLEMENTATION_PLAN.md) - Phased implementation
-- [Testing Strategy](docs/TESTING_STRATEGY.md) - Testing approach
-- [Cost Analysis](docs/COST_ANALYSIS.md) - Build vs buy analysis
-- [Repo Structure](docs/REPO_STRUCTURE.md) - Directory structure and conventions
+| Document | Description |
+|----------|-------------|
+| [Operator Quickstart](OPERATOR_QUICKSTART.md) | Step-by-step setup: install, configure `.env`, browser setup, run |
+| [Overview](OVERVIEW.md) | Architecture overview, key concepts, repository structure |
 
-## Quick Start
+### Architecture & Design
 
-### Prerequisites
+| Document | Description |
+|----------|-------------|
+| [Charter](docs/CHARTER.md) | Core principles, guardrails, AI usage boundaries, roles |
+| [Architecture](docs/ARCHITECTURE.md) | Full system design with diagrams and component details |
+| [Modules](docs/MODULES.md) | Module breakdown with isolation boundaries and interfaces |
+| [Repo Structure](docs/REPO_STRUCTURE.md) | Directory layout and conventions |
 
-- Node.js 20+
-- pnpm 8+
-- Docker (for local development)
-- PostgreSQL 15+
-- Redis 7+
+### Development
 
-### Setup
+| Document | Description |
+|----------|-------------|
+| [Build Guide](docs/BUILD_GUIDE.md) | Build process, tools (Turbo, tsup), CI/CD pipeline |
+| [Testing Guide](docs/TESTING_GUIDE.md) | Running tests, phase gates, debugging, coverage |
+| [Testing Strategy](docs/TESTING_STRATEGY.md) | Testing philosophy, pyramid, patterns |
+| [Implementation Plan](docs/IMPLEMENTATION_PLAN.md) | Phased implementation roadmap |
 
-```bash
-# Clone the repository
-git clone <repo-url>
-cd bentham
+### Operations
 
-# Install dependencies
-pnpm install
+| Document | Description |
+|----------|-------------|
+| [Operations Runbook](docs/OPERATIONS_RUNBOOK.md) | Monitoring, incidents, maintenance, disaster recovery |
+| [Tenant Onboarding](docs/TENANT_ONBOARDING.md) | Adding new tenants to the platform |
+| [API Reference](docs/API_REFERENCE.md) | REST API endpoints and usage |
+| [Surface Defaults](docs/SURFACE_DEFAULTS.md) | Default configurations for AI surfaces |
 
-# Copy environment variables
-cp .env.example .env
-# Edit .env with your configuration
+### Analysis
 
-# Start local services
-docker-compose up -d
+| Document | Description |
+|----------|-------------|
+| [Cost Analysis](docs/COST_ANALYSIS.md) | Build vs buy analysis, cost projections |
 
-# Run database migrations
-pnpm --filter @bentham/database migrate
+---
 
-# Run tests
-pnpm test
+## What Bentham Does
 
-# Start development
-pnpm dev
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    TENANT SYSTEMS (GLU, Kyanos)                 │
+└────────────────────────────┬────────────────────────────────────┘
+                             │ Study Manifests
+                             ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                          BENTHAM                                │
+│  ┌───────────────────────────────────────────────────────────┐ │
+│  │ API Gateway → Orchestrator → Executor → Surface Adapters  │ │
+│  │                     ↓                                      │ │
+│  │               Validator (QA Gates)                         │ │
+│  └───────────────────────────────────────────────────────────┘ │
+│                             │                                   │
+│  Surfaces: ChatGPT, Perplexity, Claude, Google, Amazon Rufus   │
+└────────────────────────────┬────────────────────────────────────┘
+                             │ Structured Results + Evidence
+                             ▼
+                    Back to Tenant Systems
 ```
 
-## Project Structure
+**Capabilities:**
+- Query AI chatbots (ChatGPT, Claude, Perplexity, Grok, Meta AI, Copilot)
+- Query search engines (Google, Bing with AI features)
+- Query e-commerce (Amazon, Amazon Rufus, Zappos)
+- Execute from multiple geographic locations via proxies
+- Capture evidence (screenshots, HTML archives, timestamps)
+- Track brand visibility and positioning in AI answers
+
+---
+
+## Repository Structure
 
 ```
 bentham/
+├── OPERATOR_QUICKSTART.md   # Start here
+├── OVERVIEW.md              # System overview
+├── README.md                # This file
+│
 ├── docs/                    # Documentation
+│   ├── CHARTER.md          # Design principles
+│   ├── ARCHITECTURE.md     # System design
+│   ├── MODULES.md          # Module breakdown
+│   ├── BUILD_GUIDE.md      # Build process
+│   ├── TESTING_GUIDE.md    # Testing guide
+│   └── ...
+│
 ├── packages/                # Monorepo packages
-│   ├── core/               # Shared types and utilities
-│   ├── database/           # Schema and repositories
-│   ├── api-gateway/        # REST API
+│   ├── core/               # Shared types, utilities
+│   ├── surface-adapters/   # AI surface implementations
 │   ├── orchestrator/       # Study lifecycle
 │   ├── executor/           # Job execution
 │   ├── validator/          # Quality gates
-│   ├── ai-advisor/         # AI modules
-│   ├── evidence-collector/ # Evidence capture
-│   ├── surface-adapters/   # AI surface implementations
-│   └── infrastructure/     # Supporting services
+│   └── ...                 # 12 more packages
+│
 ├── apps/                    # Deployable applications
+│   ├── api/                # REST API server
+│   ├── scheduler/          # Cron jobs
+│   └── worker/             # Job processor
+│
+├── scripts/                 # CLI tools and utilities
+├── studies/                 # Study results (gitignored)
 ├── e2e/                     # End-to-end tests
-└── terraform/               # Infrastructure as code
+├── terraform/               # Infrastructure as code
+├── k8s/                     # Kubernetes manifests
+└── docker/                  # Docker configurations
 ```
 
-## Development
+---
 
-### Running Tests
+## Quick Start
 
 ```bash
-# All tests
+# Clone
+git clone git@github.com:edforman-75/bentham.git
+cd bentham
+
+# Install
+pnpm install
+
+# Configure (REQUIRED)
+cp .env.example .env
+# Edit .env with your API keys and database credentials
+
+# Build
+pnpm build
+
+# Test
 pnpm test
 
-# Unit tests only
-pnpm test:unit
-
-# Integration tests only
-pnpm test:integration
-
-# Specific package
-pnpm --filter @bentham/orchestrator test
+# Run
+pnpm dev
 ```
 
-### Code Quality
+**For web chatbot surfaces**, you must also set up Chrome with debug port and log into chatbot websites manually. See [Operator Quickstart](OPERATOR_QUICKSTART.md) for details.
 
-```bash
-# Lint
-pnpm lint
+---
 
-# Format
-pnpm format
+## Core Principles
 
-# Type check
-pnpm typecheck
-```
+From the [Charter](docs/CHARTER.md):
+
+1. **Manifest-Driven** — Studies are defined declaratively
+2. **Separation of Execution and Validation** — Executor cannot self-attest completion
+3. **Deterministic** — Production code, not AI making judgments
+4. **Self-Healing with Transparency** — Auto-recovery with human notification
+5. **Tenant Isolation** — Strict data separation
+6. **Judicial-Grade Evidence** — Legal hold studies get cryptographic timestamps
+7. **Cost Transparency** — Track all costs per study
+8. **Completion Commitments** — Monitor against deadlines
+
+---
+
+## Technology Stack
+
+| Layer | Technology |
+|-------|------------|
+| Runtime | Node.js 20+ |
+| Package Manager | pnpm 8+ |
+| Language | TypeScript 5.3+ |
+| Build | Turbo, tsup |
+| Testing | Vitest |
+| Database | PostgreSQL 15+ |
+| Cache/Queue | Redis 7+ |
+| Browser Automation | Playwright, CDP |
+| Infrastructure | Terraform, Kubernetes |
+
+---
 
 ## License
 
-Proprietary - All rights reserved
+Proprietary — All rights reserved
+
+---
 
 ## Version
 
