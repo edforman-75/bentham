@@ -57,10 +57,30 @@ This document compares building the extraction infrastructure in-house versus us
 - Data leaves our infrastructure
 - Vendor lock-in risk
 
-#### Recommendation: Hybrid
+#### Recommendation: Build with Failover Ready
 
-**Phase 1 (MVP):** Build for API surfaces, consider Browserless for complex web surfaces
-**Phase 2:** Bring web automation fully in-house as we learn patterns
+**Strategy:** Build in-house for control and cost efficiency, but architect for rapid failover to outsourced providers if anti-bot defenses become unbeatable.
+
+**Current Architecture Status:**
+| Component | Status | Notes |
+|-----------|--------|-------|
+| `SurfaceAdapter` interface | EXISTS | All adapters implement `executeQuery()` |
+| `BrowserProvider` abstraction | EXISTS | Abstracts Playwright/Puppeteer |
+| Outsource provider adapters | NEEDED | Implement `ApifyBrowserProvider`, `BrowserlessBrowserProvider` |
+| Per-surface provider config | NEEDED | `"chatgpt-web": { "provider": "in-house" | "apify" }` |
+
+**Failover Triggers:**
+- Detection rate > 30% on a surface
+- CAPTCHA rate > 20% (solving costs exceed outsource costs)
+- Account burn rate unsustainable
+- Surface changes require major rework
+
+**Readiness Checklist:**
+- [ ] Active accounts with Apify, Browserless, Bright Data (minimal tier)
+- [ ] Outsource provider adapters implemented
+- [ ] Adapters tested quarterly (100 queries each)
+- [ ] Runbook for failover activation (< 1 hour to switch)
+- [ ] Cost projections for outsourced operation per surface
 
 ---
 
