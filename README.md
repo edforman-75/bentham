@@ -52,11 +52,12 @@ Named after Jeremy Bentham (1748-1832), the philosopher who designed the Panopti
 | [API Reference](docs/API_REFERENCE.md) | REST API endpoints and usage |
 | [Surface Defaults](docs/SURFACE_DEFAULTS.md) | Default configurations for AI surfaces |
 
-### Analysis
+### Analysis & Security
 
 | Document | Description |
 |----------|-------------|
 | [Cost Analysis](docs/COST_ANALYSIS.md) | Build vs buy analysis, cost projections |
+| [Anti-Bot Defenses](docs/ANTI_BOT_DEFENSES.md) | Detection methods and countermeasures, anticipated challenges |
 
 ---
 
@@ -188,6 +189,14 @@ From the [Charter](docs/CHARTER.md):
 | Cache/Queue | Redis 7+ |
 | Browser Automation | Playwright, CDP |
 | Infrastructure | Terraform, Kubernetes |
+
+---
+
+## Built with Claude Code
+
+Bentham was designed, implemented, and tested using **Claude Code** (Anthropic's AI coding assistant). The codebase follows patterns and conventions that CC understands deeply.
+
+**Recommendation:** Use Claude Code to explore, understand, and modify this codebase. CC can explain architectural decisions, help debug issues, write tests, and implement new features while maintaining consistency with existing patterns. Start by reading `OVERVIEW.md` for AI-optimized context.
 
 ---
 
