@@ -56,3 +56,6 @@ api/index.js
 
 # Debug screenshots
 debug-*.png
+
+# Study results (output data)
+studies/
