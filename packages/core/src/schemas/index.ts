@@ -14,6 +14,7 @@ export {
   formatValidationErrors,
   calculateCellCount,
   estimateDuration,
+  PROXY_PROVIDERS,
 } from './manifest.js';
 
-export type { ValidatedManifest } from './manifest.js';
+export type { ValidatedManifest, ProxyProviderId } from './manifest.js';

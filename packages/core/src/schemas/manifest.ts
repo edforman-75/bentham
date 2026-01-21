@@ -52,6 +52,12 @@ export const SurfaceConfigSchema = z.object({
 });
 
 /**
+ * Supported proxy providers
+ */
+export const PROXY_PROVIDERS = ['auto', 'brightdata', 'oxylabs', 'smartproxy', 'iproyal', '2captcha'] as const;
+export type ProxyProviderId = typeof PROXY_PROVIDERS[number];
+
+/**
  * Location configuration schema
  */
 export const LocationConfigSchema = z.object({
@@ -65,6 +71,10 @@ export const LocationConfigSchema = z.object({
   city: z.string().optional(),
   proxyType: z.enum(['residential', 'datacenter', 'mobile']).default('residential'),
   requireSticky: z.boolean().default(false),
+  /** Proxy provider to use for this location. Defaults to 'auto' (best available). */
+  proxyProvider: z.enum(PROXY_PROVIDERS).default('auto'),
+  /** Session duration in minutes for rotating proxies (0-120). Provider-specific. */
+  sessionDuration: z.number().int().min(0).max(120).optional(),
 });
 
 /**
@@ -306,6 +316,17 @@ export function validateManifestForApi(
 }
 
 /**
+ * 2Captcha supported locations (for validation warnings)
+ * This mirrors the TWOCAPTCHA_LOCATION_MAP from proxy-manager
+ */
+const TWOCAPTCHA_SUPPORTED_LOCATIONS = new Set<string>([
+  'us-national', 'us-nyc', 'us-la', 'us-chi', 'us-hou', 'us-mia', 'us-sea',
+  'uk-lon', 'de-ber', 'de-mun', 'fr-par', 'nl-ams', 'es-mad', 'it-rom',
+  'jp-tok', 'au-syd', 'sg-sg', 'in-mum',
+  'ca-tor', 'ca-van', 'br-sao', 'mx-mex',
+]);
+
+/**
  * Generate warnings for valid manifests that might have issues
  */
 function generateValidationWarnings(
@@ -359,6 +380,28 @@ function generateValidationWarnings(
       recommendation: 'Consider extending retention or enabling preserveForever',
     });
   }
+
+  // Check 2captcha provider compatibility with locations
+  manifest.locations.forEach((loc, index) => {
+    if (loc.proxyProvider === '2captcha' && !TWOCAPTCHA_SUPPORTED_LOCATIONS.has(loc.id)) {
+      warnings.push({
+        field: `locations[${index}].proxyProvider`,
+        message: `Location '${loc.id}' may not be optimally supported by 2captcha provider`,
+        recommendation: "Consider using 'auto' provider or select a different provider for this location",
+      });
+    }
+  });
+
+  // Warn if session duration is set without sticky requirement
+  manifest.locations.forEach((loc, index) => {
+    if (loc.sessionDuration && loc.sessionDuration > 0 && !loc.requireSticky) {
+      warnings.push({
+        field: `locations[${index}].sessionDuration`,
+        message: 'Session duration specified but requireSticky is false',
+        recommendation: 'Set requireSticky to true to ensure consistent IP for the session duration',
+      });
+    }
+  });
 
   return warnings;
 }

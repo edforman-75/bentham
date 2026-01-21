@@ -16,8 +16,10 @@ import type {
   ProxyManagerStats,
   ProxyType,
   RotationStrategy,
+  RegisteredProvider,
 } from './types.js';
 import { DEFAULT_MANAGER_CONFIG } from './types.js';
+import type { ProxyProvider, ProxyProviderOptions } from './providers/types.js';
 
 /**
  * Proxy Manager class
@@ -31,6 +33,7 @@ export class ProxyManager {
   private usage: Map<string, ProxyUsageRecord> = new Map();
   private roundRobinIndex: Map<string, number> = new Map();
   private healthCheckTimer: NodeJS.Timeout | null = null;
+  private providers: Map<string, ProxyProvider> = new Map();
 
   constructor(config: ProxyManagerConfig = {}) {
     this.config = {
@@ -500,6 +503,125 @@ export class ProxyManager {
     this.sessions.clear();
     this.usage.clear();
     this.roundRobinIndex.clear();
+    this.providers.clear();
+  }
+
+  // ==================== Provider Management ====================
+
+  /**
+   * Register a proxy provider
+   */
+  registerProvider(provider: ProxyProvider): void {
+    this.providers.set(provider.name, provider);
+  }
+
+  /**
+   * Unregister a proxy provider
+   */
+  unregisterProvider(providerName: string): boolean {
+    return this.providers.delete(providerName);
+  }
+
+  /**
+   * Get a registered provider by name
+   */
+  getProvider(providerName: string): ProxyProvider | undefined {
+    return this.providers.get(providerName);
+  }
+
+  /**
+   * Get all registered providers
+   */
+  getAllProviders(): ProxyProvider[] {
+    return Array.from(this.providers.values());
+  }
+
+  /**
+   * Get registered provider info
+   */
+  getRegisteredProviders(): RegisteredProvider[] {
+    const providers: RegisteredProvider[] = [];
+    for (const provider of this.providers.values()) {
+      const twoCaptcha = provider as { isEnabled?: () => boolean; getPriority?: () => number };
+      providers.push({
+        name: provider.name,
+        priority: twoCaptcha.getPriority?.() ?? 50,
+        enabled: twoCaptcha.isEnabled?.() ?? true,
+      });
+    }
+    return providers.sort((a, b) => a.priority - b.priority);
+  }
+
+  /**
+   * Get a proxy configuration from a provider for a specific location
+   */
+  getProxyFromProvider(
+    providerName: string,
+    location: string,
+    options?: ProxyProviderOptions
+  ): ProxyConfig | undefined {
+    const provider = this.providers.get(providerName);
+    if (!provider) {
+      return undefined;
+    }
+
+    if (!provider.supportsLocation(location as Parameters<typeof provider.supportsLocation>[0])) {
+      return undefined;
+    }
+
+    const proxyConfig = provider.getProxyConfig(
+      location as Parameters<typeof provider.getProxyConfig>[0],
+      options
+    );
+
+    // Optionally register the generated config with the manager
+    this.addProxy(proxyConfig);
+
+    return proxyConfig;
+  }
+
+  /**
+   * Get a proxy from any available provider that supports the location
+   * Providers are tried in priority order
+   */
+  getProxyFromAnyProvider(
+    location: string,
+    options?: ProxyProviderOptions
+  ): ProxyConfig | undefined {
+    const sortedProviders = this.getRegisteredProviders()
+      .filter(p => p.enabled)
+      .sort((a, b) => a.priority - b.priority);
+
+    for (const providerInfo of sortedProviders) {
+      const proxy = this.getProxyFromProvider(providerInfo.name, location, options);
+      if (proxy) {
+        return proxy;
+      }
+    }
+
+    return undefined;
+  }
+
+  /**
+   * Validate credentials for a specific provider
+   */
+  async validateProviderCredentials(providerName: string): Promise<boolean> {
+    const provider = this.providers.get(providerName);
+    if (!provider) {
+      return false;
+    }
+    return provider.validateCredentials();
+  }
+
+  /**
+   * Validate credentials for all registered providers
+   */
+  async validateAllProviderCredentials(): Promise<Record<string, boolean>> {
+    const results: Record<string, boolean> = {};
+    for (const provider of this.providers.values()) {
+      results[provider.name] = await provider.validateCredentials();
+    }
+    return results;
   }
 
   /**

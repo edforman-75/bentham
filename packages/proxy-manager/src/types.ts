@@ -211,3 +211,15 @@ export const DEFAULT_MANAGER_CONFIG: Required<ProxyManagerConfig> = {
   defaultStickyDuration: 300,      // 5 minutes
   autoHealthCheck: true,
 };
+
+/**
+ * Provider registration entry
+ */
+export interface RegisteredProvider {
+  /** Provider name */
+  name: string;
+  /** Provider priority (lower = higher priority) */
+  priority: number;
+  /** Whether the provider is enabled */
+  enabled: boolean;
+}

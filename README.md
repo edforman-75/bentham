@@ -24,6 +24,8 @@ Bentham is a headless execution engine that:
 
 ## Documentation
 
+- **[Operator Quickstart](OPERATOR_QUICKSTART.md)** - Start here! Setup guide for running Bentham
+- [CLAUDE.md](CLAUDE.md) - Context for AI coding assistants
 - [Charter](docs/CHARTER.md) - System charter and guardrails
 - [Architecture](docs/ARCHITECTURE.md) - System design
 - [Modules](docs/MODULES.md) - Module breakdown with isolation boundaries
