@@ -44,6 +44,9 @@ Track all costs per study: proxy bandwidth, API calls, compute, storage, account
 ### P10: Completion Commitments
 Manifests specify delivery deadlines. System monitors progress against commitments and escalates when at risk.
 
+### P11: Resilience Through Provider Abstraction
+Execution is provider-agnostic. The system can failover from in-house execution to outsourced providers (Apify, Browserless, Bright Data, etc.) when anti-bot defenses, rate limits, or infrastructure issues make in-house execution unreliable. Maintain active accounts with backup providers. Test failover quarterly.
+
 ---
 
 ## Guardrails
@@ -177,3 +180,4 @@ Architecture supports additional tenants. Initial implementation focuses on two 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | 2025-01-16 | Claude Code | Initial charter from interview |
+| 1.1 | 2025-01-21 | Claude Code | Added P11: Resilience Through Provider Abstraction |

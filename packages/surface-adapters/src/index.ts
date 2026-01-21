@@ -230,6 +230,31 @@ export {
   DEFAULT_RECOVERY_CONFIG,
 } from './recovery/index.js';
 
+// Execution Providers (for failover to outsourced services)
+export {
+  // Core interfaces
+  type ExecutionProvider,
+  type ExecutionProviderManager,
+  type ExecutionRequest,
+  type ExecutionResult,
+  type ProviderHealthStatus,
+  type ExecutionProviderConfig,
+  type FailoverConfig,
+  DEFAULT_FAILOVER_CONFIG,
+  // In-house provider (default)
+  InHouseExecutionProvider,
+  createInHouseProvider,
+  type InHouseProviderConfig,
+  type AdapterRegistry,
+  // Outsourced provider stubs (implement when needed)
+  ApifyExecutionProvider,
+  BrowserlessExecutionProvider,
+  BrightDataExecutionProvider,
+  type ApifyProviderConfig,
+  type BrowserlessProviderConfig,
+  type BrightDataProviderConfig,
+} from './providers/index.js';
+
 /**
  * All available surface metadata (statically defined)
  */
