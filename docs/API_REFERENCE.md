@@ -81,6 +81,107 @@ GET /health
 
 ---
 
+### Single Query (Real-Time)
+
+Execute a single query against any surface and get an immediate response. This is the simplest way to test Bentham.
+
+```
+POST /v1/query
+```
+
+**Authentication:** Required for production; optional for local development
+
+**Request Body:**
+
+```json
+{
+  "surface": "openai-api",
+  "query": "What are the best dog food brands?",
+  "location": "india-west"
+}
+```
+
+**Request Fields:**
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| surface | string | Yes | Target surface ID (see Surface Types below) |
+| query | string | Yes | The query text to send |
+| location | string | No | Geographic location ID for proxy routing |
+
+**Surface Types:**
+
+| Surface ID | Type | Requires Browser? | Description |
+|------------|------|-------------------|-------------|
+| `openai-api` | API | No | OpenAI Chat Completions API |
+| `anthropic-api` | API | No | Anthropic Claude API |
+| `google-api` | API | No | Google Gemini API |
+| `perplexity-api` | API | No | Perplexity API |
+| `chatgpt-web` | Web | Yes | ChatGPT web interface (chatgpt.com) |
+| `claude-web` | Web | Yes | Claude web interface (claude.ai) |
+| `perplexity-web` | Web | Yes | Perplexity web interface |
+| `google-search` | Web | Yes | Google Search with AI Overviews |
+
+**Response (200 OK):**
+
+```json
+{
+  "success": true,
+  "data": {
+    "surface": "openai-api",
+    "query": "What are the best dog food brands?",
+    "response": "Based on nutritional quality and reviews, some of the best dog food brands include...",
+    "timestamp": "2026-01-17T02:30:00.000Z",
+    "responseTimeMs": 1250,
+    "location": "india-west",
+    "evidence": {
+      "screenshot": null,
+      "html": null
+    }
+  },
+  "requestId": "req_xyz789"
+}
+```
+
+**Example - API Surface (no browser):**
+
+```bash
+curl -X POST http://localhost:3000/v1/query \
+  -H "Content-Type: application/json" \
+  -d '{
+    "surface": "openai-api",
+    "query": "What are the best dog food brands in India?"
+  }'
+```
+
+**Example - Web Surface (requires Chrome with CDP):**
+
+```bash
+curl -X POST http://localhost:3000/v1/query \
+  -H "Content-Type: application/json" \
+  -d '{
+    "surface": "chatgpt-web",
+    "query": "What are the best dog food brands in India?"
+  }'
+```
+
+> **Note:** Web surface queries require Chrome running with `--remote-debugging-port=9222` and an active login session to the target chatbot. See [Operator Quickstart](../OPERATOR_QUICKSTART.md) for setup instructions.
+
+**Error Response (400 Bad Request):**
+
+```json
+{
+  "success": false,
+  "error": {
+    "code": "SURFACE_UNAVAILABLE",
+    "message": "Cannot connect to chatgpt-web surface. Ensure Chrome is running with CDP enabled and you are logged into ChatGPT.",
+    "requestId": "req_xyz789"
+  }
+}
+```
+
+---
+
 ### Create Study
 
 Submit a new study manifest for execution.

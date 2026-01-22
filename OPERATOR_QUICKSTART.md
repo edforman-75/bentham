@@ -6,6 +6,46 @@ This guide walks you through setting up and running Bentham from the terminal.
 
 ---
 
+## Why Two Types of Tests? (READ THIS FIRST)
+
+Bentham exists because **API responses and Web responses are different** — and we need to monitor what consumers actually see.
+
+### The Problem We're Solving
+
+When you call the OpenAI API directly, you get the **foundation model's response** — no web search, no localization, no shopping data.
+
+When a consumer visits chatgpt.com, they see something completely different — **web-augmented responses** with real-time search, local retailers, prices, and geographic personalization.
+
+**Example from our HUFT India study:**
+
+| Surface | HUFT Mentions | What It Shows |
+|---------|---------------|---------------|
+| OpenAI API | 6% of responses | Generic global brands (Purina, Blue Buffalo, Hill's) |
+| ChatGPT Web | 65% of responses | India-localized brands, ₹ prices, local retailers |
+
+That's a **10x difference**. If you only monitor the API, you're blind to what consumers actually see.
+
+### Two Test Types
+
+| Test Type | What It Does | Browser Required? |
+|-----------|--------------|-------------------|
+| **API Surface Test** | Calls api.openai.com directly with your API key | No |
+| **Web Surface Test** | Scrapes chatgpt.com through an authenticated browser session | Yes (by design) |
+
+**The browser requirement for web tests isn't a bug — it's the whole point.** We're capturing what consumers see, which requires a real browser session.
+
+### Which Endpoints Do What?
+
+| Endpoint | Purpose | Real-time? |
+|----------|---------|------------|
+| `POST /v1/query` | Run a single query against any surface | Yes |
+| `POST /v1/studies` | Submit a batch study for async execution | Yes (queued) |
+| `GET /v1/studies/:id` | Get status/results of a previous study | No (retrieves stored data) |
+
+**Common confusion:** The `/v1/studies/:id` endpoint returns **stored results** from previous runs. It doesn't do real-time scraping. For real-time queries, use `/v1/query` or the CDP test scripts.
+
+---
+
 ## Prerequisites
 
 - Node.js 20+
@@ -150,19 +190,42 @@ pnpm --filter @bentham/worker dev
 
 ## Step 7: Test a Query
 
+> **Important:** The `/v1/query` endpoint requires the API server to be running (Step 6). If you get "connection refused", make sure `pnpm dev` is running in another terminal.
+
 ### API Surface Test (uses API key, no browser needed):
 
+This calls the OpenAI API directly. You'll get the **foundation model's response** — no web search, no localization.
+
 ```bash
+# Make sure the API server is running first (pnpm dev)
 curl -X POST http://localhost:3000/v1/query \
   -H "Content-Type: application/json" \
-  -d '{"surface": "openai-api", "query": "What is 2+2?"}'
+  -d '{"surface": "openai-api", "query": "What are the best dog food brands in India?"}'
 ```
+
+**Expected response:** Generic global brands (Purina, Blue Buffalo, Hill's, etc.) with no India-specific content.
 
 ### Web Surface Test (requires Chrome with logged-in session):
 
+This scrapes chatgpt.com through your authenticated browser. You'll get **web-augmented responses** with real-time search and localization.
+
+**Option A — Via API endpoint:**
 ```bash
-npx tsx scripts/test-all-cdp.ts "What is the capital of France?"
+curl -X POST http://localhost:3000/v1/query \
+  -H "Content-Type: application/json" \
+  -d '{"surface": "chatgpt-web", "query": "What are the best dog food brands in India?"}'
 ```
+
+**Option B — Via CDP test script (direct):**
+```bash
+npx tsx scripts/test-all-cdp.ts "What are the best dog food brands in India?"
+```
+
+**Expected response:** India-localized brands (Drools, HUFT, Pedigree India), prices in ₹, local retailers (Amazon.in, Flipkart, BigBasket).
+
+### Verifying the Difference
+
+Run both tests with the same query and compare. You should see dramatically different results — that's the whole point of Bentham.
 
 ---
 
