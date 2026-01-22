@@ -8,7 +8,13 @@
 
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 
-const GEMINI_API_KEY = 'AIzaSyDI-yadVt8gUrx1xGXQsEePDdWLNcGiiTs';
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+
+if (!GEMINI_API_KEY) {
+  console.error('❌ GEMINI_API_KEY environment variable is not set');
+  console.error('   Add it to your .env file: GEMINI_API_KEY=your-key-here');
+  process.exit(1);
+}
 
 // Resume from query index (0-based). Set to 0 to start fresh.
 const RESUME_FROM_QUERY = 0;
