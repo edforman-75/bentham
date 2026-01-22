@@ -9,18 +9,24 @@
 import { chromium, type Page } from 'playwright';
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 
+// Environment variables - all credentials from .env
+const TWOCAPTCHA_API_KEY = process.env.TWOCAPTCHA_API_KEY;
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
+
+if (!TWOCAPTCHA_API_KEY || !OPENAI_API_KEY) {
+  console.error('❌ Missing required environment variables:');
+  if (!TWOCAPTCHA_API_KEY) console.error('   - TWOCAPTCHA_API_KEY');
+  if (!OPENAI_API_KEY) console.error('   - OPENAI_API_KEY');
+  console.error('   Add them to your .env file');
+  process.exit(1);
+}
+
 // 2Captcha Proxy Configuration for India (Mumbai, Maharashtra)
 const PROXY_CONFIG = {
   server: 'http://170.106.118.114:2334',
-  username: 'uae16ff7557af05d3-zone-custom-region-in-st-maharashtra-city-mumbai',
-  password: 'uae16ff7557af05d3',
+  username: `${TWOCAPTCHA_API_KEY}-zone-custom-region-in-st-maharashtra-city-mumbai`,
+  password: TWOCAPTCHA_API_KEY,
 };
-
-// OpenAI API key
-const OPENAI_API_KEY = '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';
-
-// 2Captcha API key for solving captchas
-const TWOCAPTCHA_API_KEY = 'uae16ff7557af05d3';
 
 // Load study manifest
 const manifest = JSON.parse(readFileSync('studies/huft-100-prompt-india-study.json', 'utf-8'));

@@ -12,14 +12,24 @@ import { readFileSync, writeFileSync } from 'fs';
 // 2Captcha Proxy Configuration for India (Mumbai, Maharashtra)
 // Generated from: https://2captcha.com/enterpage#proxy
 // Using HTTP proxy (port 2334) instead of SOCKS5 for Playwright compatibility
+const TWOCAPTCHA_API_KEY = process.env.TWOCAPTCHA_API_KEY;
+if (!TWOCAPTCHA_API_KEY) {
+  console.error('❌ TWOCAPTCHA_API_KEY environment variable is not set');
+  process.exit(1);
+}
+
 const PROXY_CONFIG = {
   server: 'http://170.106.118.114:2334',
-  username: 'uae16ff7557af05d3-zone-custom-region-in-st-maharashtra-city-mumbai',
-  password: 'uae16ff7557af05d3',
+  username: `${TWOCAPTCHA_API_KEY}-zone-custom-region-in-st-maharashtra-city-mumbai`,
+  password: TWOCAPTCHA_API_KEY,
 };
 
-// New OpenAI API key (quota fixed)
-const OPENAI_API_KEY = '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';
+// OpenAI API key from environment
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
+if (!OPENAI_API_KEY) {
+  console.error('❌ OPENAI_API_KEY environment variable is not set');
+  process.exit(1);
+}
 
 // Resume from query index (0-based). Set to 0 to start fresh.
 const RESUME_FROM_QUERY = 0;

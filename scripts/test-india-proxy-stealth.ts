@@ -6,14 +6,20 @@
 import { chromium } from 'playwright';
 import { TurnstileSolver } from '../packages/surface-adapters/src/captcha/turnstile-solver.js';
 
+// 2Captcha API key for solving captchas
+const TWOCAPTCHA_API_KEY = process.env.TWOCAPTCHA_API_KEY;
+
+if (!TWOCAPTCHA_API_KEY) {
+  console.error('❌ TWOCAPTCHA_API_KEY environment variable is not set');
+  console.error('   Add it to your .env file: TWOCAPTCHA_API_KEY=your-key-here');
+  process.exit(1);
+}
+
 const PROXY_CONFIG = {
   server: 'http://170.106.118.114:2334',
-  username: 'uae16ff7557af05d3-zone-custom-region-in-st-maharashtra-city-mumbai',
-  password: 'uae16ff7557af05d3',
+  username: `${TWOCAPTCHA_API_KEY}-zone-custom-region-in-st-maharashtra-city-mumbai`,
+  password: TWOCAPTCHA_API_KEY,
 };
-
-// 2Captcha API key for solving captchas
-const TWOCAPTCHA_API_KEY = process.env.TWOCAPTCHA_API_KEY || '90cf3a33c6a3f2ddb6c25d014bf32846';
 
 async function main() {
   console.log('Testing India proxy with anti-detection measures...\n');

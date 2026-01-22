@@ -11,10 +11,12 @@ import { readFileSync, writeFileSync, existsSync } from 'fs';
 
 // Proxy disabled - running from real IP to avoid Google network block
 const USE_PROXY = false;
+const TWOCAPTCHA_API_KEY = process.env.TWOCAPTCHA_API_KEY || '';
+
 const PROXY_CONFIG = {
   server: 'http://170.106.118.114:2334',
-  username: 'uae16ff7557af05d3-zone-custom-region-in-st-maharashtra-city-mumbai',
-  password: 'uae16ff7557af05d3',
+  username: `${TWOCAPTCHA_API_KEY}-zone-custom-region-in-st-maharashtra-city-mumbai`,
+  password: TWOCAPTCHA_API_KEY,
 };
 
 // Resume from query index (0-based). Set to 0 to start fresh.
