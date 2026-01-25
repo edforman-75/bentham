@@ -62,3 +62,19 @@ export {
   canResume,
   CheckpointManager,
 } from './checkpoint.js';
+
+// Study Repository System
+export {
+  type IPVerificationRecord,
+  type StudyCompletionInfo,
+  type StudyExecutionMetadata,
+  type StudyManifest,
+  type StudyResultSummary,
+  type RepositoryStructure,
+  createRepositoryStructure,
+  createTenantStructure,
+  StudyRepository,
+  createExecutionMetadata,
+  generateRunId,
+  generateStudyId,
+} from './repository.js';
