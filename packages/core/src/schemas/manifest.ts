@@ -78,6 +78,80 @@ export const LocationConfigSchema = z.object({
 });
 
 /**
+ * Retry backoff strategy types
+ */
+export const RetryBackoffStrategy = z.enum(['fixed', 'linear', 'exponential']);
+export type RetryBackoffStrategyType = z.infer<typeof RetryBackoffStrategy>;
+
+/**
+ * Retry conditions - which error types to retry
+ */
+export const RetryConditionSchema = z.object({
+  /** Retry on rate limiting (default: true) */
+  onRateLimited: z.boolean().default(true),
+  /** Retry on network errors (default: true) */
+  onNetworkError: z.boolean().default(true),
+  /** Retry on service unavailable (default: true) */
+  onServiceUnavailable: z.boolean().default(true),
+  /** Retry on timeout (default: true) */
+  onTimeout: z.boolean().default(true),
+  /** Retry on invalid response (default: true) */
+  onInvalidResponse: z.boolean().default(true),
+  /** Retry on CAPTCHA required (default: false - usually requires manual intervention) */
+  onCaptchaRequired: z.boolean().default(false),
+  /** Retry on session expired (default: true) */
+  onSessionExpired: z.boolean().default(true),
+});
+
+/**
+ * Retry configuration schema
+ */
+export const RetryConfigSchema = z.object({
+  /** Maximum retries per cell (default: 3) */
+  maxRetries: z.number().int().min(0).max(10).default(3),
+  /** Backoff strategy (default: exponential) */
+  backoffStrategy: RetryBackoffStrategy.default('exponential'),
+  /** Initial delay in ms (default: 1000) */
+  initialDelayMs: z.number().int().min(100).max(60000).default(1000),
+  /** Maximum delay in ms (default: 60000) */
+  maxDelayMs: z.number().int().min(1000).max(300000).default(60000),
+  /** Multiplier for exponential backoff (default: 2) */
+  backoffMultiplier: z.number().min(1).max(5).default(2),
+  /** Add jitter to prevent thundering herd (default: true) */
+  jitter: z.boolean().default(true),
+  /** Conditions that trigger retry */
+  retryConditions: RetryConditionSchema.default({}),
+});
+
+/**
+ * Checkpoint/resume configuration schema
+ */
+export const CheckpointConfigSchema = z.object({
+  /** Enable checkpointing for resume capability (default: true) */
+  enabled: z.boolean().default(true),
+  /** Save checkpoint every N completed cells (default: 10) */
+  saveIntervalCells: z.number().int().min(1).max(1000).default(10),
+  /** Save checkpoint every N seconds (default: 30) */
+  saveIntervalSeconds: z.number().int().min(5).max(300).default(30),
+  /** Keep checkpoint after study completion (default: false) */
+  preserveCheckpoint: z.boolean().default(false),
+});
+
+/**
+ * Timeout configuration schema
+ */
+export const TimeoutConfigSchema = z.object({
+  /** Per-query timeout in ms (default: 30000) */
+  queryTimeoutMs: z.number().int().min(5000).max(300000).default(30000),
+  /** Per-surface timeout in ms - total time for all queries to a surface (default: none) */
+  surfaceTimeoutMs: z.number().int().min(30000).max(3600000).optional(),
+  /** Overall study timeout in ms (default: use deadline) */
+  studyTimeoutMs: z.number().int().min(60000).optional(),
+  /** Connection timeout in ms (default: 10000) */
+  connectionTimeoutMs: z.number().int().min(1000).max(60000).default(10000),
+});
+
+/**
  * Completion criteria schema
  */
 export const CompletionCriteriaSchema = z.object({
@@ -88,7 +162,34 @@ export const CompletionCriteriaSchema = z.object({
   optionalSurfaces: z.object({
     surfaceIds: z.array(z.string()),
   }).optional(),
+  /** @deprecated Use retry.maxRetries instead */
   maxRetriesPerCell: z.number().int().min(1).max(10).default(3),
+  /** Minimum success rate to consider study successful (default: 0.8) */
+  minSuccessRate: z.number().min(0).max(1).default(0.8),
+  /** Fail fast if critical surface fails N times consecutively (default: 5) */
+  consecutiveFailureLimit: z.number().int().min(1).max(20).default(5),
+});
+
+/**
+ * Execution configuration schema - controls how the study runs
+ */
+export const ExecutionConfigSchema = z.object({
+  /** Retry configuration */
+  retry: RetryConfigSchema.default({}),
+  /** Checkpoint/resume configuration */
+  checkpoint: CheckpointConfigSchema.default({}),
+  /** Timeout configuration */
+  timeouts: TimeoutConfigSchema.default({}),
+  /** Concurrency limit per surface (default: 1) */
+  concurrencyPerSurface: z.number().int().min(1).max(10).default(1),
+  /** Overall concurrency limit (default: 8) */
+  maxConcurrency: z.number().int().min(1).max(50).default(8),
+  /** Delay between queries in ms (min, max) for rate limiting */
+  queryDelayMs: z.tuple([z.number().int().min(0), z.number().int().min(0)]).default([500, 2000]),
+  /** Shuffle query order to avoid patterns (default: true) */
+  shuffleQueries: z.boolean().default(true),
+  /** Priority order: 'round-robin' or 'surface-first' (default: round-robin) */
+  executionOrder: z.enum(['round-robin', 'surface-first', 'location-first']).default('round-robin'),
 });
 
 /**
@@ -117,6 +218,9 @@ export const ManifestSchema = z.object({
 
   // Completion criteria
   completionCriteria: CompletionCriteriaSchema,
+
+  // Execution configuration (retry, timeouts, checkpointing)
+  execution: ExecutionConfigSchema.default({}),
 
   // Quality gates
   qualityGates: QualityGatesSchema.default({ requireActualContent: true }),

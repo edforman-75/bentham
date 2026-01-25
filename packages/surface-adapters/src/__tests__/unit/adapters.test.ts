@@ -18,7 +18,13 @@ import {
   PERPLEXITY_WEB_METADATA,
   GoogleSearchAdapter,
   createGoogleSearchAdapter,
-  GOOGLE_SEARCH_METADATA,
+  SerpApiAdapter,
+  createSerpApiAdapter,
+  createGoogleSearchSerpApiAdapter,
+  createGoogleAiOverviewAdapter,
+  GOOGLE_SEARCH_SERPAPI_METADATA,
+  GOOGLE_AI_OVERVIEW_SERPAPI_METADATA,
+  SERPAPI_LOCATIONS,
   MockBrowserProvider,
   type ApiConfig,
   type SurfaceQueryRequest,
@@ -36,6 +42,7 @@ describe('Surface Adapters', () => {
       expect(surfaceIds).toContain('chatgpt-web');
       expect(surfaceIds).toContain('perplexity-web');
       expect(surfaceIds).toContain('google-search');
+      expect(surfaceIds).toContain('google-ai-overview');
     });
 
     it('should get metadata by ID', () => {
@@ -64,7 +71,7 @@ describe('Surface Adapters', () => {
       expect(webChatbots.length).toBe(8); // chatgpt, perplexity, x-grok, meta-ai, copilot, amazon, rufus, zappos
 
       const searchSurfaces = getSurfacesByCategory('search');
-      expect(searchSurfaces.length).toBe(2); // google-search, bing-search
+      expect(searchSurfaces.length).toBe(3); // google-search, google-ai-overview, bing-search
     });
   });
 
@@ -301,7 +308,7 @@ describe('Surface Adapters', () => {
     });
   });
 
-  describe('Google Search Adapter', () => {
+  describe('Google Search Adapter (Browser)', () => {
     let browserProvider: MockBrowserProvider;
 
     beforeEach(() => {
@@ -312,13 +319,6 @@ describe('Surface Adapters', () => {
     it('should create adapter with config', () => {
       const adapter = createGoogleSearchAdapter({}, browserProvider);
       expect(adapter).toBeInstanceOf(GoogleSearchAdapter);
-      expect(adapter.metadata).toEqual(GOOGLE_SEARCH_METADATA);
-    });
-
-    it('should have correct metadata', () => {
-      expect(GOOGLE_SEARCH_METADATA.id).toBe('google-search');
-      expect(GOOGLE_SEARCH_METADATA.category).toBe('search');
-      expect(GOOGLE_SEARCH_METADATA.authRequirement).toBe('none');
     });
 
     it.skip('should construct correct search URL with params', async () => {
@@ -333,6 +333,318 @@ describe('Surface Adapters', () => {
       expect(response.success).toBe(true);
       await adapter.close();
     }, 15000);
+  });
+
+  describe('SerpAPI Adapter (Recommended for Google)', () => {
+    beforeEach(() => {
+      vi.clearAllMocks();
+    });
+
+    afterEach(() => {
+      vi.restoreAllMocks();
+    });
+
+    it('should create google-search adapter with factory', () => {
+      const adapter = createGoogleSearchSerpApiAdapter('test-api-key');
+      expect(adapter).toBeInstanceOf(SerpApiAdapter);
+      expect(adapter.metadata).toEqual(GOOGLE_SEARCH_SERPAPI_METADATA);
+    });
+
+    it('should create google-ai-overview adapter with factory', () => {
+      const adapter = createGoogleAiOverviewAdapter('test-api-key');
+      expect(adapter).toBeInstanceOf(SerpApiAdapter);
+      expect(adapter.metadata).toEqual(GOOGLE_AI_OVERVIEW_SERPAPI_METADATA);
+    });
+
+    it('should throw without API key', () => {
+      expect(() => createSerpApiAdapter({
+        apiConfig: { apiKey: '' },
+      })).toThrow('SerpAPI API key is required');
+    });
+
+    it('should have correct metadata for google-search', () => {
+      expect(GOOGLE_SEARCH_SERPAPI_METADATA.id).toBe('google-search');
+      expect(GOOGLE_SEARCH_SERPAPI_METADATA.category).toBe('search');
+      expect(GOOGLE_SEARCH_SERPAPI_METADATA.authRequirement).toBe('api_key');
+    });
+
+    it('should have correct metadata for google-ai-overview', () => {
+      expect(GOOGLE_AI_OVERVIEW_SERPAPI_METADATA.id).toBe('google-ai-overview');
+      expect(GOOGLE_AI_OVERVIEW_SERPAPI_METADATA.category).toBe('search');
+      expect(GOOGLE_AI_OVERVIEW_SERPAPI_METADATA.authRequirement).toBe('api_key');
+    });
+
+    it('should have predefined location configs', () => {
+      expect(SERPAPI_LOCATIONS['in-mum']).toBeDefined();
+      expect(SERPAPI_LOCATIONS['in-mum'].location).toBe('Mumbai,Maharashtra,India');
+      expect(SERPAPI_LOCATIONS['in-mum'].googleDomain).toBe('google.co.in');
+      expect(SERPAPI_LOCATIONS['in-mum'].gl).toBe('in');
+
+      expect(SERPAPI_LOCATIONS['us-national']).toBeDefined();
+      expect(SERPAPI_LOCATIONS['us-national'].location).toBe('United States');
+    });
+
+    it('should create adapter with location', () => {
+      const adapter = createGoogleSearchSerpApiAdapter('test-key', 'in-mum');
+      expect(adapter).toBeInstanceOf(SerpApiAdapter);
+    });
+
+    it('should create adapter with custom location', () => {
+      const adapter = createGoogleSearchSerpApiAdapter('test-key', {
+        location: 'Chennai,Tamil Nadu,India',
+        googleDomain: 'google.co.in',
+        gl: 'in',
+        hl: 'en',
+      });
+      expect(adapter).toBeInstanceOf(SerpApiAdapter);
+    });
+
+    it('should parse AI Overview from response', async () => {
+      const adapter = createGoogleAiOverviewAdapter('test-api-key');
+
+      const mockResponse = {
+        search_metadata: {
+          id: 'test-123',
+          status: 'Success',
+          created_at: new Date().toISOString(),
+          processed_at: new Date().toISOString(),
+        },
+        ai_overview: {
+          text: 'This is an AI-generated overview about the query topic.',
+          references: [
+            { title: 'Source 1', link: 'https://example.com/1', source: 'example.com' },
+            { title: 'Source 2', link: 'https://example.com/2', source: 'example.com' },
+          ],
+        },
+        organic_results: [
+          { position: 1, title: 'Result 1', link: 'https://result1.com', snippet: 'Snippet 1' },
+          { position: 2, title: 'Result 2', link: 'https://result2.com', snippet: 'Snippet 2' },
+        ],
+      };
+
+      global.fetch = vi.fn().mockResolvedValue({
+        ok: true,
+        json: () => Promise.resolve(mockResponse),
+      });
+
+      const response = await adapter.query({ query: 'test query' });
+
+      expect(response.success).toBe(true);
+      expect(response.structured?.hasAiOverview).toBe(true);
+      expect(response.structured?.aiOverview).toBe('This is an AI-generated overview about the query topic.');
+      expect(response.structured?.sources).toHaveLength(2);
+      expect(response.structured?.sources?.[0].url).toBe('https://example.com/1');
+
+      await adapter.close();
+    });
+
+    it('should parse text_blocks in AI Overview', async () => {
+      const adapter = createGoogleAiOverviewAdapter('test-api-key');
+
+      const mockResponse = {
+        search_metadata: { id: 'test-123', status: 'Success' },
+        ai_overview: {
+          text_blocks: [
+            { type: 'paragraph', text: 'First paragraph.' },
+            { type: 'paragraph', text: 'Second paragraph.' },
+            { type: 'list', list: ['Item 1', 'Item 2', 'Item 3'] },
+          ],
+        },
+      };
+
+      global.fetch = vi.fn().mockResolvedValue({
+        ok: true,
+        json: () => Promise.resolve(mockResponse),
+      });
+
+      const response = await adapter.query({ query: 'test query' });
+
+      expect(response.success).toBe(true);
+      expect(response.structured?.hasAiOverview).toBe(true);
+      expect(response.structured?.aiOverview).toContain('First paragraph.');
+      expect(response.structured?.aiOverview).toContain('Second paragraph.');
+      expect(response.structured?.aiOverview).toContain('Item 1');
+
+      await adapter.close();
+    });
+
+    it('should fallback to answer_box if no AI Overview', async () => {
+      const adapter = createGoogleAiOverviewAdapter('test-api-key');
+
+      const mockResponse = {
+        search_metadata: { id: 'test-123', status: 'Success' },
+        answer_box: {
+          snippet: 'This is a featured snippet answer.',
+          title: 'Featured Snippet',
+          link: 'https://featured.com',
+        },
+        organic_results: [
+          { position: 1, title: 'Result 1', link: 'https://result1.com' },
+        ],
+      };
+
+      global.fetch = vi.fn().mockResolvedValue({
+        ok: true,
+        json: () => Promise.resolve(mockResponse),
+      });
+
+      const response = await adapter.query({ query: 'test query' });
+
+      expect(response.success).toBe(true);
+      expect(response.structured?.hasAiOverview).toBe(true);
+      expect(response.structured?.aiOverview).toBe('This is a featured snippet answer.');
+
+      await adapter.close();
+    });
+
+    it('should fallback to knowledge_graph if no AI Overview or answer_box', async () => {
+      const adapter = createGoogleAiOverviewAdapter('test-api-key');
+
+      const mockResponse = {
+        search_metadata: { id: 'test-123', status: 'Success' },
+        knowledge_graph: {
+          title: 'Topic',
+          description: 'This is knowledge graph content.',
+          source: { name: 'Wikipedia', link: 'https://wikipedia.org/topic' },
+        },
+        organic_results: [],
+      };
+
+      global.fetch = vi.fn().mockResolvedValue({
+        ok: true,
+        json: () => Promise.resolve(mockResponse),
+      });
+
+      const response = await adapter.query({ query: 'test query' });
+
+      expect(response.success).toBe(true);
+      expect(response.structured?.hasAiOverview).toBe(true);
+      expect(response.structured?.aiOverview).toBe('This is knowledge graph content.');
+
+      await adapter.close();
+    });
+
+    it('should return failure when no AI Overview found', async () => {
+      const adapter = createGoogleAiOverviewAdapter('test-api-key');
+
+      const mockResponse = {
+        search_metadata: { id: 'test-123', status: 'Success' },
+        organic_results: [
+          { position: 1, title: 'Result 1', link: 'https://result1.com', snippet: 'Snippet' },
+        ],
+      };
+
+      global.fetch = vi.fn().mockResolvedValue({
+        ok: true,
+        json: () => Promise.resolve(mockResponse),
+      });
+
+      const response = await adapter.query({ query: 'test query' });
+
+      // AI Overview adapter reports failure when no AI Overview found
+      expect(response.success).toBe(false);
+      expect(response.structured?.hasAiOverview).toBe(false);
+      expect(response.error?.code).toBe('NO_CONTENT');
+
+      await adapter.close();
+    });
+
+    it('should parse organic results for google-search', async () => {
+      const adapter = createGoogleSearchSerpApiAdapter('test-api-key');
+
+      const mockResponse = {
+        search_metadata: { id: 'test-123', status: 'Success' },
+        organic_results: [
+          { position: 1, title: 'Result 1', link: 'https://result1.com', displayed_link: 'result1.com', snippet: 'Snippet 1' },
+          { position: 2, title: 'Result 2', link: 'https://result2.com', displayed_link: 'result2.com', snippet: 'Snippet 2' },
+          { position: 3, title: 'Result 3', link: 'https://result3.com', displayed_link: 'result3.com', snippet: 'Snippet 3' },
+        ],
+      };
+
+      global.fetch = vi.fn().mockResolvedValue({
+        ok: true,
+        json: () => Promise.resolve(mockResponse),
+      });
+
+      const response = await adapter.query({ query: 'test query' });
+
+      // google-search succeeds even without AI Overview if organic results exist
+      expect(response.success).toBe(true);
+      expect(response.structured?.organicResults).toHaveLength(3);
+      expect(response.structured?.organicResults?.[0].title).toBe('Result 1');
+      expect(response.structured?.organicResults?.[0].url).toBe('https://result1.com');
+
+      await adapter.close();
+    });
+
+    it('should handle SerpAPI errors', async () => {
+      const adapter = createGoogleSearchSerpApiAdapter('test-api-key');
+
+      const mockResponse = {
+        error: 'Invalid API key',
+      };
+
+      global.fetch = vi.fn().mockResolvedValue({
+        ok: true,
+        json: () => Promise.resolve(mockResponse),
+      });
+
+      const response = await adapter.query({ query: 'test query' });
+
+      expect(response.success).toBe(false);
+      expect(response.error?.code).toBe('SERPAPI_ERROR');
+      expect(response.error?.message).toBe('Invalid API key');
+
+      await adapter.close();
+    });
+
+    it('should handle HTTP errors', async () => {
+      const adapter = createSerpApiAdapter({
+        apiConfig: { apiKey: 'test-key' },
+        maxRetries: 0,
+      });
+
+      global.fetch = vi.fn().mockResolvedValue({
+        ok: false,
+        status: 429,
+        text: () => Promise.resolve('Rate limit exceeded'),
+      });
+
+      const response = await adapter.query({ query: 'test' });
+
+      expect(response.success).toBe(false);
+      expect(response.error?.code).toBe('RATE_LIMITED');
+
+      await adapter.close();
+    });
+
+    it('should set location dynamically', async () => {
+      const adapter = createGoogleSearchSerpApiAdapter('test-api-key', 'us-national');
+
+      // Change location
+      adapter.setLocation('in-mum');
+
+      const mockResponse = {
+        search_metadata: { id: 'test-123', status: 'Success' },
+        organic_results: [{ position: 1, title: 'Result', link: 'https://test.com' }],
+      };
+
+      let capturedUrl: string | undefined;
+      global.fetch = vi.fn().mockImplementation((url) => {
+        capturedUrl = url;
+        return Promise.resolve({
+          ok: true,
+          json: () => Promise.resolve(mockResponse),
+        });
+      });
+
+      await adapter.query({ query: 'test' });
+
+      expect(capturedUrl).toContain('location=Mumbai');
+      expect(capturedUrl).toContain('gl=in');
+
+      await adapter.close();
+    });
   });
 
   describe('Error Classification', () => {

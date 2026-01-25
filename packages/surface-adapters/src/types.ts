@@ -120,6 +120,20 @@ export interface SurfaceQueryResponse {
     followUps?: string[];
     /** Model used */
     model?: string;
+    /** AI Overview text (for Google AI Overview) */
+    aiOverview?: string;
+    /** Whether AI Overview was found */
+    hasAiOverview?: boolean;
+    /** Organic search results (for search surfaces) */
+    organicResults?: Array<{
+      position: number;
+      title: string;
+      url: string;
+      displayUrl: string;
+      snippet: string;
+    }>;
+    /** Search metadata (from SerpAPI) */
+    searchMetadata?: unknown;
   };
   /** Response timing */
   timing: ResponseTiming;
@@ -243,6 +257,8 @@ export type SurfaceErrorCode =
   | 'INVALID_REQUEST'
   | 'SESSION_EXPIRED'
   | 'CAPTCHA_REQUIRED'
+  | 'NO_CONTENT'       // No content/AI Overview available
+  | 'SERPAPI_ERROR'    // SerpAPI-specific error
   | 'UNKNOWN_ERROR';
 
 /**

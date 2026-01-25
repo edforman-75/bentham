@@ -53,9 +53,30 @@ export {
   type BrowserContext,
   type Browser,
   type BrowserProvider,
+  type BrowserKeyboard,
+  type BrowserMouse,
   MockBrowserProvider,
   type WebSurfaceSelectors,
 } from './base/web-adapter.js';
+
+// Human-like behavior utilities (for bot detection avoidance)
+export {
+  type HumanBehaviorConfig,
+  DEFAULT_HUMAN_BEHAVIOR,
+  humanType,
+  humanClick,
+  humanFill,
+  humanScroll,
+  humanMouseMove,
+  humanIdle,
+  humanWait,
+  randomDelay,
+  randomSleep,
+  sleep,
+  preInteractionDelay,
+  postInteractionDelay,
+  betweenQueryDelay,
+} from './utils/human-behavior.js';
 
 // API Surface Adapters
 export {
@@ -99,6 +120,19 @@ export {
   TOGETHER_METADATA,
   type TogetherAdapterConfig,
 } from './api-surfaces/together-adapter.js';
+
+// SerpAPI Adapter (for Google Search & AI Overview - recommended method)
+export {
+  SerpApiAdapter,
+  createSerpApiAdapter,
+  createGoogleSearchSerpApiAdapter,
+  createGoogleAiOverviewAdapter,
+  GOOGLE_SEARCH_SERPAPI_METADATA,
+  GOOGLE_AI_OVERVIEW_SERPAPI_METADATA,
+  SERPAPI_LOCATIONS,
+  type SerpApiAdapterConfig,
+  type SerpApiLocation,
+} from './api-surfaces/serpapi-adapter.js';
 
 // Web Chatbot Adapters
 export {
@@ -215,6 +249,20 @@ export {
   DEFAULT_PLAYWRIGHT_CONFIG,
 } from './browser/playwright-provider.js';
 
+// Chrome Lifecycle Management
+export {
+  ChromeLifecycleManager,
+  getChromeManager,
+  shutdownChromeManager,
+  detectChromePath,
+  isCdpPortAvailable,
+  waitForCdp,
+  type ChromeInstanceConfig,
+  type ChromeInstance,
+  type ChromeLifecycleConfig,
+  DEFAULT_CHROME_LIFECYCLE_CONFIG,
+} from './browser/chrome-lifecycle.js';
+
 // Recovery & Resilience
 export {
   RecoveryManager,
@@ -272,8 +320,9 @@ export const ALL_SURFACE_METADATA: Record<string, SurfaceMetadata> = {
   'x-grok-web': X_GROK_WEB_METADATA,
   'meta-ai-web': META_AI_WEB_METADATA,
   'copilot-web': COPILOT_WEB_METADATA,
-  // Search
-  'google-search': GOOGLE_SEARCH_METADATA,
+  // Search (SerpAPI - recommended for Google)
+  'google-search': GOOGLE_SEARCH_SERPAPI_METADATA,
+  'google-ai-overview': GOOGLE_AI_OVERVIEW_SERPAPI_METADATA,
   'bing-search': BING_SEARCH_METADATA,
   // E-commerce
   'amazon-web': AMAZON_WEB_METADATA,
@@ -312,12 +361,15 @@ import { GOOGLE_AI_METADATA } from './api-surfaces/google-ai-adapter.js';
 import { PERPLEXITY_METADATA } from './api-surfaces/perplexity-adapter.js';
 import { XAI_METADATA } from './api-surfaces/xai-adapter.js';
 import { TOGETHER_METADATA } from './api-surfaces/together-adapter.js';
+import {
+  GOOGLE_SEARCH_SERPAPI_METADATA,
+  GOOGLE_AI_OVERVIEW_SERPAPI_METADATA,
+} from './api-surfaces/serpapi-adapter.js';
 import { CHATGPT_WEB_METADATA } from './web-chatbots/chatgpt-web-adapter.js';
 import { PERPLEXITY_WEB_METADATA } from './web-chatbots/perplexity-web-adapter.js';
 import { X_GROK_WEB_METADATA } from './web-chatbots/x-grok-web-adapter.js';
 import { META_AI_WEB_METADATA } from './web-chatbots/meta-ai-web-adapter.js';
 import { COPILOT_WEB_METADATA } from './web-chatbots/copilot-web-adapter.js';
-import { GOOGLE_SEARCH_METADATA } from './search-surfaces/google-search-adapter.js';
 import { BING_SEARCH_METADATA } from './search-surfaces/bing-search-adapter.js';
 import { AMAZON_WEB_METADATA } from './ecommerce-surfaces/amazon-web-adapter.js';
 import { AMAZON_RUFUS_METADATA } from './ecommerce-surfaces/amazon-rufus-adapter.js';

@@ -64,3 +64,46 @@ export {
   type ModelConfig,
   type SurfaceConfig,
 } from './config/surface-defaults.js';
+
+// Surface Collection Configuration
+export {
+  SURFACE_COLLECTION_CONFIG,
+  getCollectionConfig,
+  requiresVpnForLocation,
+  getRecommendedMethod,
+  useSerpApi,
+  type CollectionMethod,
+  type LocationHandling,
+  type SurfaceCollectionConfig,
+} from './config/surface-defaults.js';
+
+// Location & Proxy Configuration
+export {
+  PROXY_PROVIDERS,
+  LOCATION_CONFIG,
+  getLocationConfig,
+  locationRequiresVpn,
+  getSerpApiParams,
+  getBrowserProxyConfig,
+  type ProxyProviderConfig,
+  type LocationConfig,
+} from './config/surface-defaults.js';
+
+// Study Runner
+export {
+  type StudyQuery,
+  type QueryResult,
+  type StudyConfig,
+  type StudyProgress,
+  extractBrandMentions,
+  getCollectionMethod,
+  shouldUseSerpApi,
+  requiresBrowser,
+  usesDirectApi,
+  routeQuery,
+  getStudyRoutingSummary,
+  validateStudyConfig,
+  getSurfaceOutputPath,
+  sleep,
+  randomDelay,
+} from './study/index.js';
