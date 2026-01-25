@@ -1,0 +1,446 @@
+{
+  "run": {
+    "runId": "f1f85247-f10d-469a-bcda-2a4fff83aef4",
+    "parentRunId": "1fb14fd0-973a-4ac1-910d-90fdade39e75",
+    "batchSequence": 1,
+    "batchTotal": 2,
+    "initiatedAt": "2026-01-24T20:33:44.625Z",
+    "trigger": "manual"
+  },
+  "study": "g03",
+  "studyName": "Google Search + AI Overview - US IP - Original",
+  "surface": "google-search",
+  "location": "us-national",
+  "expectedLocation": "us-national",
+  "promptSuffix": null,
+  "captureAiOverview": true,
+  "timestamp": "2026-01-24T20:36:29.212Z",
+  "timing": {
+    "startTime": "2026-01-24T20:33:44.870Z",
+    "endTime": "2026-01-24T20:36:29.212Z",
+    "durationMs": 164342
+  },
+  "ipVerification": {
+    "ipInfo": {
+      "ip": "184.183.124.126",
+      "country": "US",
+      "city": "Sun Valley",
+      "region": "Idaho",
+      "org": "AS22773 Cox Communications Inc.",
+      "timezone": "America/Boise",
+      "loc": "43.6971,-114.3517",
+      "postal": "83353",
+      "hostname": "ip184-183-124-126.sv.om.cox.net"
+    },
+    "expectedLocation": "us-national",
+    "expectedCountry": "US",
+    "verified": true,
+    "verifiedAt": "2026-01-24T20:33:44.870Z",
+    "lookupDurationMs": 243
+  },
+  "results": [
+    {
+      "queryIndex": 0,
+      "originalQuery": "Which are the best budget dog food brands online?",
+      "submittedQuery": "Which are the best budget dog food brands online?",
+      "response": "[AI OVERVIEW]\nSearch Results\nAds\nSponsored results\nBest Affordable Dog Food - We Compared Them All For You\ndeliveryrank.com\nhttps://www.deliveryrank.com › dog-food › delivery\n10 Best Affordable Dog Food Delivery Services 2026. Homemade Food, All-Natural Ingredients. Personalized Fresh Nutrition for Your Dog. For Any Age, Size, Breed, Food Type & Flavor. Puppies, Adults & Seniors.\n‎Best Dog Food in 2026 · ‎Best Food for Small Dogs · ‎Best Kibble Dog Food · ‎Best Cat Food in 2026\nThe Farmer's Dog - from $2.00/day - Personalized Fresh Food\n · \nMore\nThe Farmer's Dog | Starting at $2/Day\nThe Farmer's Dog\nhttps://www.thefarmersdog.com › fresh-dog-food\nOur fresh food is made from human-grade meat, vegetables, and added vitamins & minerals. Make the switch to a fresh dog food diet. Sign up today and get 50% off your first box! USA Today Award Winner.\n Rating for thefarmersdog.com: 4.9 - 848 reviews\n‎The Farmer's Dog Cost · ‎50% Off Your First Box · ‎Order Today & Get 50% Off · ‎Recommended by Vets\nThe 10 Best Budget Dog Foods | Best Affordable Dog Food\nchewy.com\nhttps://www.chewy.com\nExplore Top-Rated Dog Foods from Chewy. Get 35% Off Your First Autoship Order. Shop Now! Save More on the Best Budget Dog Foods. Top Quality, Great Prices and Fast, Free Delivery. Free Delivery. 24/7 Customer Service. Low Prices. Free 365-Day Returns. Satisfaction Guarantee.\nThe World's Cleanest Dog Food - Best, Healthy Dog Food\nsundaysfordogs.com\nhttps://www.sundaysfordogs.com\nSundays for Dogs is clean, all-natural dog food made easy. Get 50% off your first order.\nHide sponsored results\nAI Overview\nAI Overview\nTop budget-friendly dog food brands available online include Purina ONE, Iams Proactive Health, and Diamond Naturals, which offer high-quality nutrition without the premium price tag. Other solid, affordable options often found on Chewy or Amazon include Nature's Recipe, Rachael Ray Nutrish, and Blue Buffalo Life Protection. \nTop Budget Dog Food Brands (2025-2026):\nBest Overall Budget: Iams Proactive Health is frequently ranked top for affordability and balanced, veterinary-recommended nutrition.\nBest High-Quality Budget: Purina ONE SmartBlend is highly recommended for using real meat as the first ingredient at an affordable price point.\nBest Affordable Grain-Inclusive: Diamond Naturals provides high-quality protein and varied flavors at a reasonable cost.\nBest for Sensitive Systems: Purina Pro Plan Sensitive Skin and Stomach or Purina ONE Sensitive Systems.\nBest Affordable Wholesome: Nature’s Recipe (chicken, barley, and brown rice) is praised for using quality, natural ingredients. \nKey Tips for Buying Budget Dog Food Online:\nLook for Real Meat: Ensure the first ingredient is a real meat source (chicken, lamb, beef) rather than a filler like corn or soy.\nConsider Volume: While premium brands cost more per bag, they are often more calorie-dense, meaning you feed less, potentially saving money in the long run.\nSubscribe and Save: Utilize auto-ship programs on sites like Chewy or Amazon to get an additional 5-10% off already low prices.\nGrain-Inclusive is Fine: Contrary to trends, high-quality grain-inclusive formulas are often better for budget and heart health than cheap, grain-free alternatives. \nWhat Dog Food is good and cheap? - Reddit\nDec 16, 2022 — Of the dog food lines that meet guidelines established by the World Small Animal Veterinary Association, Purina One and Iams are t...\nReddit\nThe Best Affordable Dog Foods in 2026 - Business Insider\nOct 27, 2025 — Our top picks for the best affordable dog foods. Best dry: Nature's Recipe Chicken, Barley and Brown Rice - See at Chewy. Best wet...\nBusiness Insider\nThe Best Budget Dog Food Options in 2024 - Mighty Pet\nMar 8, 2024 — Here are some brands that are good for your budget: * **Purina Pro Adult Shredded Blend Dog Food** This brand is a good choice for...\nMighty Pet\nShow all\nShow more\n\n",
+      "aiOverview": "Search Results\nAds\nSponsored results\nBest Affordable Dog Food - We Compared Them All For You\ndeliveryrank.com\nhttps://www.deliveryrank.com › dog-food › delivery\n10 Best Affordable Dog Food Delivery Services 2026. Homemade Food, All-Natural Ingredients. Personalized Fresh Nutrition for Your Dog. For Any Age, Size, Breed, Food Type & Flavor. Puppies, Adults & Seniors.\n‎Best Dog Food in 2026 · ‎Best Food for Small Dogs · ‎Best Kibble Dog Food · ‎Best Cat Food in 2026\nThe Farmer's Dog - from $2.00/day - Personalized Fresh Food\n · \nMore\nThe Farmer's Dog | Starting at $2/Day\nThe Farmer's Dog\nhttps://www.thefarmersdog.com › fresh-dog-food\nOur fresh food is made from human-grade meat, vegetables, and added vitamins & minerals. Make the switch to a fresh dog food diet. Sign up today and get 50% off your first box! USA Today Award Winner.\n Rating for thefarmersdog.com: 4.9 - 848 reviews\n‎The Farmer's Dog Cost · ‎50% Off Your First Box · ‎Order Today & Get 50% Off · ‎Recommended by Vets\nThe 10 Best Budget Dog Foods | Best Affordable Dog Food\nchewy.com\nhttps://www.chewy.com\nExplore Top-Rated Dog Foods from Chewy. Get 35% Off Your First Autoship Order. Shop Now! Save More on the Best Budget Dog Foods. Top Quality, Great Prices and Fast, Free Delivery. Free Delivery. 24/7 Customer Service. Low Prices. Free 365-Day Returns. Satisfaction Guarantee.\nThe World's Cleanest Dog Food - Best, Healthy Dog Food\nsundaysfordogs.com\nhttps://www.sundaysfordogs.com\nSundays for Dogs is clean, all-natural dog food made easy. Get 50% off your first order.\nHide sponsored results\nAI Overview\nAI Overview\nTop budget-friendly dog food brands available online include Purina ONE, Iams Proactive Health, and Diamond Naturals, which offer high-quality nutrition without the premium price tag. Other solid, affordable options often found on Chewy or Amazon include Nature's Recipe, Rachael Ray Nutrish, and Blue Buffalo Life Protection. \nTop Budget Dog Food Brands (2025-2026):\nBest Overall Budget: Iams Proactive Health is frequently ranked top for affordability and balanced, veterinary-recommended nutrition.\nBest High-Quality Budget: Purina ONE SmartBlend is highly recommended for using real meat as the first ingredient at an affordable price point.\nBest Affordable Grain-Inclusive: Diamond Naturals provides high-quality protein and varied flavors at a reasonable cost.\nBest for Sensitive Systems: Purina Pro Plan Sensitive Skin and Stomach or Purina ONE Sensitive Systems.\nBest Affordable Wholesome: Nature’s Recipe (chicken, barley, and brown rice) is praised for using quality, natural ingredients. \nKey Tips for Buying Budget Dog Food Online:\nLook for Real Meat: Ensure the first ingredient is a real meat source (chicken, lamb, beef) rather than a filler like corn or soy.\nConsider Volume: While premium brands cost more per bag, they are often more calorie-dense, meaning you feed less, potentially saving money in the long run.\nSubscribe and Save: Utilize auto-ship programs on sites like Chewy or Amazon to get an additional 5-10% off already low prices.\nGrain-Inclusive is Fine: Contrary to trends, high-quality grain-inclusive formulas are often better for budget and heart health than cheap, grain-free alternatives. \nWhat Dog Food is good and cheap? - Reddit\nDec 16, 2022 — Of the dog food lines that meet guidelines established by the World Small Animal Veterinary Association, Purina One and Iams are t...\nReddit\nThe Best Affordable Dog Foods in 2026 - Business Insider\nOct 27, 2025 — Our top picks for the best affordable dog foods. Best dry: Nature's Recipe Chicken, Barley and Brown Rice - See at Chewy. Best wet...\nBusiness Insider\nThe Best Budget Dog Food Options in 2024 - Mighty Pet\nMar 8, 2024 — Here are some brands that are good for your budget: * **Purina Pro Adult Shredded Blend Dog Food** This brand is a good choice for...\nMighty Pet\nShow all\nShow more",
+      "organicResults": [],
+      "sources": [
+        {
+          "index": 1,
+          "title": "Best Affordable Dog Food - We Compared Them All For You\ndeliveryrank.com\nhttps://www.deliveryrank.com › dog-food › delivery",
+          "url": "https://www.deliveryrank.com/best-dog-food-delivery-services-m?title=10_Best_Cheapest_Dog_Food_Delivery_Brands_%7Bcity?in_%5Bcity%5D:for_2025%7D"
+        },
+        {
+          "index": 2,
+          "title": "Best Dog Food in 2026",
+          "url": "https://www.deliveryrank.com/best-dog-food-delivery-services-m"
+        },
+        {
+          "index": 3,
+          "title": "Best Food for Small Dogs",
+          "url": "https://www.deliveryrank.com/best-small-dog-food-delivery-services-m"
+        },
+        {
+          "index": 4,
+          "title": "Best Kibble Dog Food",
+          "url": "https://www.deliveryrank.com/best-kibble-dog-food-delivery-services-m"
+        },
+        {
+          "index": 5,
+          "title": "Best Cat Food in 2026",
+          "url": "https://www.deliveryrank.com/best-cat-food-delivery-services-m"
+        }
+      ],
+      "timestamp": "2026-01-24T20:33:53.528Z",
+      "durationMs": 8658,
+      "success": true,
+      "responseSizeBytes": 3936
+    },
+    {
+      "queryIndex": 1,
+      "originalQuery": "Can you suggest the best treat brands for dogs online?",
+      "submittedQuery": "Can you suggest the best treat brands for dogs online?",
+      "response": "",
+      "timestamp": "2026-01-24T20:34:07.945Z",
+      "durationMs": 9140,
+      "success": false,
+      "error": "Empty response - possible undetected CAPTCHA",
+      "failure": {
+        "category": "captcha_required",
+        "message": "Empty response - possible undetected CAPTCHA",
+        "stackTrace": "Error: Empty response - possible undetected CAPTCHA\n    at runStudy (/Users/edf/bentham/scripts/run-google-visibility-study.ts:1459:17)\n    at async main (/Users/edf/bentham/scripts/run-google-visibility-study.ts:1799:40)",
+        "retryable": false,
+        "retryAttempts": 0,
+        "explanation": "CAPTCHA challenge or bot detection triggered",
+        "remediation": "Use different IP or solve CAPTCHA manually",
+        "occurredAt": "2026-01-24T20:34:07.945Z",
+        "queryIndex": 1
+      },
+      "warnings": [
+        {
+          "code": "NO_AI_OVERVIEW",
+          "message": "AI Overview was expected but not found in response",
+          "severity": "medium",
+          "timestamp": "2026-01-24T20:34:07.945Z",
+          "queryIndex": 1
+        },
+        {
+          "code": "EMPTY_RESPONSE",
+          "message": "Response was empty - possible undetected CAPTCHA or blocked page",
+          "severity": "high",
+          "timestamp": "2026-01-24T20:34:07.945Z",
+          "queryIndex": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 2,
+      "originalQuery": "Which are the best dog food brands with high reviews?",
+      "submittedQuery": "Which are the best dog food brands with high reviews?",
+      "response": "[AI OVERVIEW]\nSearch Results\nAds\nSponsored results\nWe Compared Them All For You - Just Released Dec 2025 Reviews\ndeliveryrank.com\nhttps://www.deliveryrank.com › fresh-dog-food › delivery\nPersonalized Fresh Nutrition for Your Dog. For Any Age, Size, Breed, Food Type & Flavor. 10 Best Fresh Dog Food Delivery Brands. Homemade Food Services, All-Natural Ingredients. Puppies, Adults & Seniors. All-Natural Ingredients.\nBest Dog Food in 2026\nBest Kibble Dog Food\nBest Cat Food in 2026\nBest Food for Small Dogs\n10 Best Raw Food Brands\nThe 10 Best Dog Foods - Top Ranked Dog Foods\nchewy.com\nhttps://www.chewy.com\nExplore Top-Rated Dog Foods from Chewy. Get 35% Off Your First Autoship Order. Shop Now! Discover Our Best Dog Food Picks for Every Size, Stage & Taste. Low...\nBest Healthy Dog Foods Of 2026 - Rated 9.9 By Experts\nConsumer Rating\nhttps://www.consumerrating.org\nWe Rated The Top Fresh Dog Food Delivery Based On Cost, Nutrition, Ingredients, & More.\nHide sponsored results\nAI Overview\nAI Overview\nView all\nTop-rated dog food brands known for high quality and positive reviews include Orijen, Acana, and Taste of the Wild for premium ingredients, while Hill's Science Diet, Purina Pro Plan, and Royal Canin are highly recommended by vets for research-backed nutrition. For fresh, human-grade options, The Farmer's Dog and JustFoodForDogs are top choices. \nHere are the best dog food brands based on expert recommendations and high customer reviews:\nTop Premium & High-Protein Brands\nOrijen: Widely regarded as a top-tier brand using high-quality, fresh ingredients and WholePrey ratios.\nAcana: Similar to Orijen, focusing on protein-rich, biologically appropriate diets.\nTaste of the Wild: Offers high-quality, grain-free, and nutrient-dense options.\nZiwi Peak: Known for high-quality air-dried food. \nTop Vet-Recommended & Scientific Brands\nHill's Science Diet: Offers balanced nutrition, often recommended for specific health, skin, and mobility needs.\nPurina Pro Plan: Highly rated for specialized diets, including sensitive skin and stomach formulas.\nRoyal Canin: Excellent for breed-specific and life-stage-specific needs. \nBest Fresh & Ingredient-Focused Brands\nThe Farmer's Dog: Top choice for customized, fresh, human-grade food.\nJustFoodForDogs: Highly rated for scientifically backed, gently cooked fresh food.\nMerrick: Known for using whole ingredients without unnecessary fillers.\nBlue Buffalo: Popular for using natural ingredients with added vitamins and minerals. \nKey Considerations for High-Quality Food\nAAFCO Standards: Ensure the food meets AAFCO (Association of American Feed Control Officials) nutritional guidelines for a complete and balanced diet.\nIngredient Quality: Look for real meat as the first ingredient and avoid excessive fillers like corn, wheat, or soy.\nSpecific Needs: Select food based on your dog's age (puppy, adult, senior), activity level, and specific health conditions (sensitive stomach, allergies). \n5 of the Best Dog Food Brands - Peak City Puppy\nJun 5, 2024 — 5 of the Best Dog Food Brands * Royal Canin: Royal Canin is a trusted brand that offers a variety of dog food options for differen...\nPeak City Puppy and Dog Walkers\nWhich is the best quality dog food (without considering price)? - Reddit\nOct 30, 2023 — Which is the best quality dog food (without considering price)? ... Price doesn't matter. I have a small 2,5kg dog, the amount she...\nReddit\n9 Best Dog Foods of 2026, Recommended by Vets - PetMD\nJan 2, 2026 — The best dog food brands are those with research-backed formulas developed with veterinary nutritionists that meet AAFCO nutrition...\nPetMD\nShow all\nShow more\n\n",
+      "aiOverview": "Search Results\nAds\nSponsored results\nWe Compared Them All For You - Just Released Dec 2025 Reviews\ndeliveryrank.com\nhttps://www.deliveryrank.com › fresh-dog-food › delivery\nPersonalized Fresh Nutrition for Your Dog. For Any Age, Size, Breed, Food Type & Flavor. 10 Best Fresh Dog Food Delivery Brands. Homemade Food Services, All-Natural Ingredients. Puppies, Adults & Seniors. All-Natural Ingredients.\nBest Dog Food in 2026\nBest Kibble Dog Food\nBest Cat Food in 2026\nBest Food for Small Dogs\n10 Best Raw Food Brands\nThe 10 Best Dog Foods - Top Ranked Dog Foods\nchewy.com\nhttps://www.chewy.com\nExplore Top-Rated Dog Foods from Chewy. Get 35% Off Your First Autoship Order. Shop Now! Discover Our Best Dog Food Picks for Every Size, Stage & Taste. Low...\nBest Healthy Dog Foods Of 2026 - Rated 9.9 By Experts\nConsumer Rating\nhttps://www.consumerrating.org\nWe Rated The Top Fresh Dog Food Delivery Based On Cost, Nutrition, Ingredients, & More.\nHide sponsored results\nAI Overview\nAI Overview\nView all\nTop-rated dog food brands known for high quality and positive reviews include Orijen, Acana, and Taste of the Wild for premium ingredients, while Hill's Science Diet, Purina Pro Plan, and Royal Canin are highly recommended by vets for research-backed nutrition. For fresh, human-grade options, The Farmer's Dog and JustFoodForDogs are top choices. \nHere are the best dog food brands based on expert recommendations and high customer reviews:\nTop Premium & High-Protein Brands\nOrijen: Widely regarded as a top-tier brand using high-quality, fresh ingredients and WholePrey ratios.\nAcana: Similar to Orijen, focusing on protein-rich, biologically appropriate diets.\nTaste of the Wild: Offers high-quality, grain-free, and nutrient-dense options.\nZiwi Peak: Known for high-quality air-dried food. \nTop Vet-Recommended & Scientific Brands\nHill's Science Diet: Offers balanced nutrition, often recommended for specific health, skin, and mobility needs.\nPurina Pro Plan: Highly rated for specialized diets, including sensitive skin and stomach formulas.\nRoyal Canin: Excellent for breed-specific and life-stage-specific needs. \nBest Fresh & Ingredient-Focused Brands\nThe Farmer's Dog: Top choice for customized, fresh, human-grade food.\nJustFoodForDogs: Highly rated for scientifically backed, gently cooked fresh food.\nMerrick: Known for using whole ingredients without unnecessary fillers.\nBlue Buffalo: Popular for using natural ingredients with added vitamins and minerals. \nKey Considerations for High-Quality Food\nAAFCO Standards: Ensure the food meets AAFCO (Association of American Feed Control Officials) nutritional guidelines for a complete and balanced diet.\nIngredient Quality: Look for real meat as the first ingredient and avoid excessive fillers like corn, wheat, or soy.\nSpecific Needs: Select food based on your dog's age (puppy, adult, senior), activity level, and specific health conditions (sensitive stomach, allergies). \n5 of the Best Dog Food Brands - Peak City Puppy\nJun 5, 2024 — 5 of the Best Dog Food Brands * Royal Canin: Royal Canin is a trusted brand that offers a variety of dog food options for differen...\nPeak City Puppy and Dog Walkers\nWhich is the best quality dog food (without considering price)? - Reddit\nOct 30, 2023 — Which is the best quality dog food (without considering price)? ... Price doesn't matter. I have a small 2,5kg dog, the amount she...\nReddit\n9 Best Dog Foods of 2026, Recommended by Vets - PetMD\nJan 2, 2026 — The best dog food brands are those with research-backed formulas developed with veterinary nutritionists that meet AAFCO nutrition...\nPetMD\nShow all\nShow more",
+      "organicResults": [],
+      "sources": [
+        {
+          "index": 1,
+          "title": "We Compared Them All For You - Just Released Dec 2025 Reviews\ndeliveryrank.com\nhttps://www.deliveryrank.com › fresh-dog-food › delivery",
+          "url": "https://www.deliveryrank.com/best-fresh-dog-food-delivery-services-m"
+        },
+        {
+          "index": 2,
+          "title": "Best Dog Food in 2026",
+          "url": "https://www.deliveryrank.com/best-dog-food-delivery-services-m?sa=X&ved=2ahUKEwiUq_-Yg6WSAxVWDTQIHVsiIFkQwgUoAHoECA4QDQ"
+        },
+        {
+          "index": 3,
+          "title": "Best Kibble Dog Food",
+          "url": "https://www.deliveryrank.com/best-kibble-dog-food-delivery-services-m?sa=X&ved=2ahUKEwiUq_-Yg6WSAxVWDTQIHVsiIFkQwgUoAXoECA4QDg"
+        },
+        {
+          "index": 4,
+          "title": "Best Cat Food in 2026",
+          "url": "https://www.deliveryrank.com/best-cat-food-delivery-services-m?sa=X&ved=2ahUKEwiUq_-Yg6WSAxVWDTQIHVsiIFkQwgUoAnoECA4QDw"
+        },
+        {
+          "index": 5,
+          "title": "Best Food for Small Dogs",
+          "url": "https://www.deliveryrank.com/best-small-dog-food-delivery-services-m?sa=X&ved=2ahUKEwiUq_-Yg6WSAxVWDTQIHVsiIFkQwgUoA3oECA4QEA"
+        },
+        {
+          "index": 6,
+          "title": "10 Best Raw Food Brands",
+          "url": "https://www.deliveryrank.com/best-raw-food-delivery-services?sa=X&ved=2ahUKEwiUq_-Yg6WSAxVWDTQIHVsiIFkQwgUoBHoECA4QEQ"
+        },
+        {
+          "index": 7,
+          "title": "The 10 Best Dog Foods - Top Ranked Dog Foods\nchewy.com\nhttps://www.chewy.com",
+          "url": "https://www.chewy.com/best/dog-foods_s103184"
+        },
+        {
+          "index": 8,
+          "title": "Best Healthy Dog Foods Of 2026 - Rated 9.9 By Experts\nConsumer Rating\nhttps://www.consumerrating.org",
+          "url": "https://consumerrating.org/dog-food-delivery/best/"
+        }
+      ],
+      "timestamp": "2026-01-24T20:34:28.676Z",
+      "durationMs": 9054,
+      "success": true,
+      "responseSizeBytes": 3651
+    },
+    {
+      "queryIndex": 3,
+      "originalQuery": "Which are the best dog food brands recommended by vets?",
+      "submittedQuery": "Which are the best dog food brands recommended by vets?",
+      "response": "[AI OVERVIEW]\nSearch Results\nAds\nSponsored results\nThe 10 Best Dog Foods - Top Ranked Dog Foods\nchewy.com\nhttps://www.chewy.com\nExplore Top-Rated Dog Foods from Chewy. Get 35% Off Your First Autoship Order. Shop Now! Discover Our Best Dog Food Picks for Every Size, Stage & Taste. Low Prices & Free Delivery. Satisfaction Guarantee.\n‎Chewy Pet Pharmacy · ‎$20 Gift for New Users · ‎24/7 Call, Chat or Email · ‎Free $30 eGift card\nHealthy Vet Approved Dog Food - Just Released Dec 2025 Reviews\ndeliveryrank.com\nhttps://www.deliveryrank.com\nPersonalized Fresh Nutrition for Your Dog. For Any Age, Size, Breed, Food Type & Flavor.\nBest Dog Food in 2026\nBest Cat Food in 2026\nThe World's Cleanest Dog Food - Best Healthy Dog Food\nsundaysfordogs.com\nhttps://www.sundaysfordogs.com\nVet-formulated dog food with zero synthetics, designed to make dog parents’ lives easier. Sundays for Dogs is clean, all-natural dog food made easy. Get 50% off your first order. Gently Air-Dried.\nVoted Best Pet Subscription | Start Your Trial Today\nThe Farmer's Dog\nhttps://www.thefarmersdog.com › fresh-dog-food › custom-made\nFresh, gently-cooked food supports all aspects of dog health. And we make it easy to feed.\nHide sponsored results\nAI Overview\nAI Overview\nView all\nVet-recommended dog food brands, backed by scientific research and feeding trials, typically include Hill's Science Diet, Purina Pro Plan, Royal Canin, and Eukanuba. These brands are frequently chosen for their focus on balanced nutrition for various life stages and health conditions, such as sensitive stomachs. Other recommended options include Purina ONE, Iams, and, for specific dietary needs, brands like Merrick or fresh options like The Farmer's Dog. \nTop Vet-Recommended Brands\nHill's Science Diet: Widely recommended for its research-backed formulas, including specialized diets for oral care.\nPurina Pro Plan: Often top-rated for sensitive skin and stomach, as well as puppy nutrition.\nRoyal Canin: Known for breed-specific and life-stage-specific diets, favored for its scientific approach.\nEukanuba: Highly regarded for its nutrient-dense formulas supporting active dogs and dental health. \nSpecialized and Emerging Options\nPurina ONE: Recommended for healthy weight management.\nMerrick: Often recommended for sensitive systems or grain-free requirements.\nThe Farmer's Dog: A highly-rated, fresh, human-grade food option formulated by nutritionists.\nWe Feed Raw: Recommended by some specialists for high-quality, raw diets. \nThese brands are generally favored because they meet the stringent guidelines of the World Small Animal Veterinary Association and AAFCO. \n9 Best Dog Foods of 2026, Recommended by Vets - PetMD\nJan 2, 2026 — Everything Our Vets Recommend * Our Vet Pick: Best in Show Dog Food. Hill's Science Diet Adult Chicken & Barley Recipe. Read full ...\nPetMD\n11 Best Dog Foods | The Strategist - New York Magazine\nApr 15, 2025 — Best (less expensive) fresh dog food ... If you're looking for a slightly cheaper subscription-based food, the Farmer's Dog is ano...\nNew York Magazine\nBest Dry Dog Foods 2026 - Forbes Vetted\nApr 25, 2025 — Dr. Nick Horniman, MRCVS, a veterinary surgeon based in the U.K. and the founder of online pet pharmacy My Pet's Vet, explains, “A...\nForbes\nShow all\nShow more\n\n",
+      "aiOverview": "Search Results\nAds\nSponsored results\nThe 10 Best Dog Foods - Top Ranked Dog Foods\nchewy.com\nhttps://www.chewy.com\nExplore Top-Rated Dog Foods from Chewy. Get 35% Off Your First Autoship Order. Shop Now! Discover Our Best Dog Food Picks for Every Size, Stage & Taste. Low Prices & Free Delivery. Satisfaction Guarantee.\n‎Chewy Pet Pharmacy · ‎$20 Gift for New Users · ‎24/7 Call, Chat or Email · ‎Free $30 eGift card\nHealthy Vet Approved Dog Food - Just Released Dec 2025 Reviews\ndeliveryrank.com\nhttps://www.deliveryrank.com\nPersonalized Fresh Nutrition for Your Dog. For Any Age, Size, Breed, Food Type & Flavor.\nBest Dog Food in 2026\nBest Cat Food in 2026\nThe World's Cleanest Dog Food - Best Healthy Dog Food\nsundaysfordogs.com\nhttps://www.sundaysfordogs.com\nVet-formulated dog food with zero synthetics, designed to make dog parents’ lives easier. Sundays for Dogs is clean, all-natural dog food made easy. Get 50% off your first order. Gently Air-Dried.\nVoted Best Pet Subscription | Start Your Trial Today\nThe Farmer's Dog\nhttps://www.thefarmersdog.com › fresh-dog-food › custom-made\nFresh, gently-cooked food supports all aspects of dog health. And we make it easy to feed.\nHide sponsored results\nAI Overview\nAI Overview\nView all\nVet-recommended dog food brands, backed by scientific research and feeding trials, typically include Hill's Science Diet, Purina Pro Plan, Royal Canin, and Eukanuba. These brands are frequently chosen for their focus on balanced nutrition for various life stages and health conditions, such as sensitive stomachs. Other recommended options include Purina ONE, Iams, and, for specific dietary needs, brands like Merrick or fresh options like The Farmer's Dog. \nTop Vet-Recommended Brands\nHill's Science Diet: Widely recommended for its research-backed formulas, including specialized diets for oral care.\nPurina Pro Plan: Often top-rated for sensitive skin and stomach, as well as puppy nutrition.\nRoyal Canin: Known for breed-specific and life-stage-specific diets, favored for its scientific approach.\nEukanuba: Highly regarded for its nutrient-dense formulas supporting active dogs and dental health. \nSpecialized and Emerging Options\nPurina ONE: Recommended for healthy weight management.\nMerrick: Often recommended for sensitive systems or grain-free requirements.\nThe Farmer's Dog: A highly-rated, fresh, human-grade food option formulated by nutritionists.\nWe Feed Raw: Recommended by some specialists for high-quality, raw diets. \nThese brands are generally favored because they meet the stringent guidelines of the World Small Animal Veterinary Association and AAFCO. \n9 Best Dog Foods of 2026, Recommended by Vets - PetMD\nJan 2, 2026 — Everything Our Vets Recommend * Our Vet Pick: Best in Show Dog Food. Hill's Science Diet Adult Chicken & Barley Recipe. Read full ...\nPetMD\n11 Best Dog Foods | The Strategist - New York Magazine\nApr 15, 2025 — Best (less expensive) fresh dog food ... If you're looking for a slightly cheaper subscription-based food, the Farmer's Dog is ano...\nNew York Magazine\nBest Dry Dog Foods 2026 - Forbes Vetted\nApr 25, 2025 — Dr. Nick Horniman, MRCVS, a veterinary surgeon based in the U.K. and the founder of online pet pharmacy My Pet's Vet, explains, “A...\nForbes\nShow all\nShow more",
+      "organicResults": [],
+      "sources": [
+        {
+          "index": 1,
+          "title": "The 10 Best Dog Foods - Top Ranked Dog Foods\nchewy.com\nhttps://www.chewy.com",
+          "url": "https://www.chewy.com/best/dog-foods_s103184"
+        },
+        {
+          "index": 2,
+          "title": "Chewy Pet Pharmacy",
+          "url": "https://www.chewy.com/b/healthcare-chewy-16080"
+        },
+        {
+          "index": 3,
+          "title": "$20 Gift for New Users",
+          "url": "https://www.chewy.com/deals/todays-deals-2723"
+        },
+        {
+          "index": 4,
+          "title": "24/7 Call, Chat or Email",
+          "url": "https://www.chewy.com/app/content/contact"
+        },
+        {
+          "index": 5,
+          "title": "Free $30 eGift card",
+          "url": "https://www.chewy.com/deals/todays-deals-2723"
+        },
+        {
+          "index": 6,
+          "title": "Healthy Vet Approved Dog Food - Just Released Dec 2025 Reviews\ndeliveryrank.com\nhttps://www.deliveryrank.com",
+          "url": "https://www.deliveryrank.com/best-healthy-dog-food-delivery-services-m"
+        },
+        {
+          "index": 7,
+          "title": "Best Dog Food in 2026",
+          "url": "https://www.deliveryrank.com/best-dog-food-delivery-services-m?sa=X&ved=2ahUKEwiN8dafg6WSAxWJJzQIHTXEBSkQwgUoAHoECB0QDQ"
+        },
+        {
+          "index": 8,
+          "title": "Best Cat Food in 2026",
+          "url": "https://www.deliveryrank.com/best-cat-food-delivery-services-m?sa=X&ved=2ahUKEwiN8dafg6WSAxWJJzQIHTXEBSkQwgUoAXoECB0QDg"
+        },
+        {
+          "index": 9,
+          "title": "The World's Cleanest Dog Food - Best Healthy Dog Food\nsundaysfordogs.com\nhttps://www.sundaysfordogs.com",
+          "url": "https://try.sundaysfordogs.com/h/5reasons"
+        }
+      ],
+      "timestamp": "2026-01-24T20:34:42.887Z",
+      "durationMs": 9350,
+      "success": true,
+      "responseSizeBytes": 3303
+    },
+    {
+      "queryIndex": 4,
+      "originalQuery": "Can you list a popular pet food brand with good meat content?",
+      "submittedQuery": "Can you list a popular pet food brand with good meat content?",
+      "response": "[AI OVERVIEW]\nSearch Results\nAI Overview\nAI Overview\nOrijen is a highly popular, premium pet food brand renowned for its high meat content, often featuring up to 85% animal ingredients, including fresh, raw, and organ meats (wholeprey ratios). Other top choices with significant protein levels include Acana, Wellness Core (grain-free), and Taste of the Wild. \nShow more\n\n",
+      "aiOverview": "Search Results\nAI Overview\nAI Overview\nOrijen is a highly popular, premium pet food brand renowned for its high meat content, often featuring up to 85% animal ingredients, including fresh, raw, and organ meats (wholeprey ratios). Other top choices with significant protein levels include Acana, Wellness Core (grain-free), and Taste of the Wild. \nShow more",
+      "organicResults": [],
+      "sources": [],
+      "timestamp": "2026-01-24T20:34:56.387Z",
+      "durationMs": 7921,
+      "success": true,
+      "responseSizeBytes": 373
+    },
+    {
+      "queryIndex": 5,
+      "originalQuery": "Which brands offer gluten-free dog treats my dog will enjoy?",
+      "submittedQuery": "Which brands offer gluten-free dog treats my dog will enjoy?",
+      "response": "[AI OVERVIEW]\nSearch Results\nResults for \nKetchum, ID\n ∙ Choose area\nAI Overview\nAI Overview\nTop gluten-free dog treat brands offering high-quality, tasty options include Stella & Chewy's, Merrick, Fruitables, and Zuke's, which provide popular, nutritious, and safe choices for dogs with sensitivities. Other excellent choices include freeze-dried options from Stewart, Open Farm, and specialized treats from Buddy Biscuits and Himalayan Dog Chews. \nHere are the best gluten-free dog treats by category:\nBest Overall / Popular Brands: Stella & Chewy's (Wild Weenies), Merrick, Cloud Star, Natural Balance, and NutriSource.\nBest Soft/Training Treats: Zuke's, Buddy Biscuits (Grain-Free), and Fruitables.\nBest Freeze-Dried/Raw: Stewart Pro-Treats (Beef Liver), Vital Essentials, and Stella & Chewy's.\nBest Crunchy/Biscuit: Zignature (Ziggy Bars), Three Dog Bakery, and Bocce's Bakery.\nBest Long-Lasting/Chews: Himalayan Dog Chews (Yak Cheese), WHIMZEES, and Antos Cerea.\nBest Specialized/Limited Ingredient: The Honest Kitchen, Good Paws Bakery (vegan), and Wet Noses. \nKey Considerations:\nIngredients: Look for \"grain-free\" as these are almost always gluten-free, often using sweet potato, chickpeas, or peas instead of wheat.\nProtein: Options like beef liver, salmon, and chicken are highly palatable for picky eaters.\nSafety: Many of these brands (e.g., Stewart, Open Farm) use human-grade ingredients and are made in the USA. \n5 Best-Selling Gluten and Grain-Free Dog Treats - Sparkly Tails\nFeb 24, 2025 — Buy two packs (2x50g) of your favourite Pure Meat Sticks and save! Buy Now. #3 Himalayan Yak Bar. We often overlook how differentl...\nSparkly Tails\nGluten Free Dog Treats - Amazon.com\n* Popular. Grain-free. Small Dogs. Peanut Butter. Chicken. Training. Organic. * Brands. Merrick. Full Moon. Natural Balance. Cloud...\nAmazon.com\nBrands of Gluten-Free Dog Treats - Celiac.com\nJul 14, 2022 — Stewart Pro-Treat. Stewart Pro-Treat beef liver treats for dogs are locally sourced and manufactured in the Midwest. Stewart Pro-T...\nCeliac.com\nShow more\n\n",
+      "aiOverview": "Search Results\nResults for \nKetchum, ID\n ∙ Choose area\nAI Overview\nAI Overview\nTop gluten-free dog treat brands offering high-quality, tasty options include Stella & Chewy's, Merrick, Fruitables, and Zuke's, which provide popular, nutritious, and safe choices for dogs with sensitivities. Other excellent choices include freeze-dried options from Stewart, Open Farm, and specialized treats from Buddy Biscuits and Himalayan Dog Chews. \nHere are the best gluten-free dog treats by category:\nBest Overall / Popular Brands: Stella & Chewy's (Wild Weenies), Merrick, Cloud Star, Natural Balance, and NutriSource.\nBest Soft/Training Treats: Zuke's, Buddy Biscuits (Grain-Free), and Fruitables.\nBest Freeze-Dried/Raw: Stewart Pro-Treats (Beef Liver), Vital Essentials, and Stella & Chewy's.\nBest Crunchy/Biscuit: Zignature (Ziggy Bars), Three Dog Bakery, and Bocce's Bakery.\nBest Long-Lasting/Chews: Himalayan Dog Chews (Yak Cheese), WHIMZEES, and Antos Cerea.\nBest Specialized/Limited Ingredient: The Honest Kitchen, Good Paws Bakery (vegan), and Wet Noses. \nKey Considerations:\nIngredients: Look for \"grain-free\" as these are almost always gluten-free, often using sweet potato, chickpeas, or peas instead of wheat.\nProtein: Options like beef liver, salmon, and chicken are highly palatable for picky eaters.\nSafety: Many of these brands (e.g., Stewart, Open Farm) use human-grade ingredients and are made in the USA. \n5 Best-Selling Gluten and Grain-Free Dog Treats - Sparkly Tails\nFeb 24, 2025 — Buy two packs (2x50g) of your favourite Pure Meat Sticks and save! Buy Now. #3 Himalayan Yak Bar. We often overlook how differentl...\nSparkly Tails\nGluten Free Dog Treats - Amazon.com\n* Popular. Grain-free. Small Dogs. Peanut Butter. Chicken. Training. Organic. * Brands. Merrick. Full Moon. Natural Balance. Cloud...\nAmazon.com\nBrands of Gluten-Free Dog Treats - Celiac.com\nJul 14, 2022 — Stewart Pro-Treat. Stewart Pro-Treat beef liver treats for dogs are locally sourced and manufactured in the Midwest. Stewart Pro-T...\nCeliac.com\nShow more",
+      "organicResults": [],
+      "sources": [
+        {
+          "index": 1,
+          "title": "Choose area",
+          "url": "#"
+        }
+      ],
+      "timestamp": "2026-01-24T20:35:10.745Z",
+      "durationMs": 8734,
+      "success": true,
+      "responseSizeBytes": 2064
+    },
+    {
+      "queryIndex": 6,
+      "originalQuery": "Can you suggest the best dog biscuit brands for dogs with sensitive stomachs?",
+      "submittedQuery": "Can you suggest the best dog biscuit brands for dogs with sensitive stomachs?",
+      "response": "[AI OVERVIEW]\nSearch Results\nAI Overview\nAI Overview\nTop dog biscuit brands for sensitive stomachs include Natural Balance Limited Ingredient Diets, Bocce's Bakery, and Purina Pro Plan Gentle Snackers, which focus on limited, easily digestible ingredients like salmon, pumpkin, and sweet potato. These options avoid common allergens, reducing gastrointestinal distress. \nBest Dog Biscuit Brands for Sensitive Stomachs\nNatural Balance Limited Ingredient Diets: Designed specifically with restricted, easily digestible ingredients for dogs with allergies or digestive issues.\nBocce's Bakery (Crunchy or Soft & Chewy): Known for small-batch, limited-ingredient recipes, including gentle options like pumpkin.\nPurina Pro Plan Gentle Snackers: Recommended by vets for their formula tailored to sensitive tummies.\nPureBites Digestion Treats: Freeze-dried, single-ingredient, or simple-ingredient treats that are gentle on digestion.\nKahoots Cod Skin Minis: Single-ingredient treats high in Omega-3s, which are easy to digest.\nBlue Ridge Naturals: Offers simple ingredient options like sweet potato fries or chicken and sweet potato fillets.\nCharlie Bears: A good option for dogs with delicate stomachs. \nKey Considerations\nIngredients: Look for limited-ingredient treats that feature novel proteins (duck, fish, lamb) rather than chicken or beef if allergies are suspected.\nDigestibility: Gentle ingredients like pumpkin, oats, and sweet potato are recommended.\nForm: Soft, chewy treats can be easier on the digestion than hard, brittle biscuits.\nQuality: Choose brands that use high-quality, minimal ingredients and avoid artificial preservatives. \nThe Best Dog Treats for Sensitive Stomachs - Pet Palace\nAug 7, 2024 — The Best Dog Treats for Sensitive Stomachs * Dogs with sensitive stomachs—whether due to breed or recent changes—require careful t...\nPet Palace\nLooking for treats for dogs with a sensitive stomach : r/DogFood - Reddit\nNov 29, 2025 — The Purina Pro Plan Gentle Snackers are good for sensitive tummies! My dog also goes through cycles of diarrhea a few times a year...\nReddit\nFinding the Best Dog Treats for Sensitive Stomachs – Kahoots\nFeb 7, 2024 — Some alternatives to milk bones for dogs with sensitive stomachs include: * **ORIJEN Freeze-Dried Dog Treats** These treats are cr...\nkahootsfeedandpet.com\nShow all\nShow more\n\n",
+      "aiOverview": "Search Results\nAI Overview\nAI Overview\nTop dog biscuit brands for sensitive stomachs include Natural Balance Limited Ingredient Diets, Bocce's Bakery, and Purina Pro Plan Gentle Snackers, which focus on limited, easily digestible ingredients like salmon, pumpkin, and sweet potato. These options avoid common allergens, reducing gastrointestinal distress. \nBest Dog Biscuit Brands for Sensitive Stomachs\nNatural Balance Limited Ingredient Diets: Designed specifically with restricted, easily digestible ingredients for dogs with allergies or digestive issues.\nBocce's Bakery (Crunchy or Soft & Chewy): Known for small-batch, limited-ingredient recipes, including gentle options like pumpkin.\nPurina Pro Plan Gentle Snackers: Recommended by vets for their formula tailored to sensitive tummies.\nPureBites Digestion Treats: Freeze-dried, single-ingredient, or simple-ingredient treats that are gentle on digestion.\nKahoots Cod Skin Minis: Single-ingredient treats high in Omega-3s, which are easy to digest.\nBlue Ridge Naturals: Offers simple ingredient options like sweet potato fries or chicken and sweet potato fillets.\nCharlie Bears: A good option for dogs with delicate stomachs. \nKey Considerations\nIngredients: Look for limited-ingredient treats that feature novel proteins (duck, fish, lamb) rather than chicken or beef if allergies are suspected.\nDigestibility: Gentle ingredients like pumpkin, oats, and sweet potato are recommended.\nForm: Soft, chewy treats can be easier on the digestion than hard, brittle biscuits.\nQuality: Choose brands that use high-quality, minimal ingredients and avoid artificial preservatives. \nThe Best Dog Treats for Sensitive Stomachs - Pet Palace\nAug 7, 2024 — The Best Dog Treats for Sensitive Stomachs * Dogs with sensitive stomachs—whether due to breed or recent changes—require careful t...\nPet Palace\nLooking for treats for dogs with a sensitive stomach : r/DogFood - Reddit\nNov 29, 2025 — The Purina Pro Plan Gentle Snackers are good for sensitive tummies! My dog also goes through cycles of diarrhea a few times a year...\nReddit\nFinding the Best Dog Treats for Sensitive Stomachs – Kahoots\nFeb 7, 2024 — Some alternatives to milk bones for dogs with sensitive stomachs include: * **ORIJEN Freeze-Dried Dog Treats** These treats are cr...\nkahootsfeedandpet.com\nShow all\nShow more",
+      "organicResults": [],
+      "sources": [],
+      "timestamp": "2026-01-24T20:35:26.940Z",
+      "durationMs": 10715,
+      "success": true,
+      "responseSizeBytes": 2355
+    },
+    {
+      "queryIndex": 7,
+      "originalQuery": "Which are the top healthy vegetarian dog biscuit brands available online?",
+      "submittedQuery": "Which are the top healthy vegetarian dog biscuit brands available online?",
+      "response": "",
+      "timestamp": "2026-01-24T20:35:41.840Z",
+      "durationMs": 9578,
+      "success": false,
+      "error": "Empty response - possible undetected CAPTCHA",
+      "failure": {
+        "category": "captcha_required",
+        "message": "Empty response - possible undetected CAPTCHA",
+        "stackTrace": "Error: Empty response - possible undetected CAPTCHA\n    at runStudy (/Users/edf/bentham/scripts/run-google-visibility-study.ts:1459:17)\n    at async main (/Users/edf/bentham/scripts/run-google-visibility-study.ts:1799:40)",
+        "retryable": false,
+        "retryAttempts": 0,
+        "explanation": "CAPTCHA challenge or bot detection triggered",
+        "remediation": "Use different IP or solve CAPTCHA manually",
+        "occurredAt": "2026-01-24T20:35:41.840Z",
+        "queryIndex": 7
+      },
+      "warnings": [
+        {
+          "code": "NO_AI_OVERVIEW",
+          "message": "AI Overview was expected but not found in response",
+          "severity": "medium",
+          "timestamp": "2026-01-24T20:35:41.840Z",
+          "queryIndex": 7
+        },
+        {
+          "code": "EMPTY_RESPONSE",
+          "message": "Response was empty - possible undetected CAPTCHA or blocked page",
+          "severity": "high",
+          "timestamp": "2026-01-24T20:35:41.840Z",
+          "queryIndex": 7
+        }
+      ]
+    },
+    {
+      "queryIndex": 8,
+      "originalQuery": "What are the best-tasting treat brands for dogs under ₹1000?",
+      "submittedQuery": "What are the best-tasting treat brands for dogs under ₹1000?",
+      "response": "",
+      "timestamp": "2026-01-24T20:36:02.185Z",
+      "durationMs": 8783,
+      "success": false,
+      "error": "Empty response - possible undetected CAPTCHA",
+      "failure": {
+        "category": "captcha_required",
+        "message": "Empty response - possible undetected CAPTCHA",
+        "stackTrace": "Error: Empty response - possible undetected CAPTCHA\n    at runStudy (/Users/edf/bentham/scripts/run-google-visibility-study.ts:1459:17)\n    at async main (/Users/edf/bentham/scripts/run-google-visibility-study.ts:1799:40)",
+        "retryable": false,
+        "retryAttempts": 0,
+        "explanation": "CAPTCHA challenge or bot detection triggered",
+        "remediation": "Use different IP or solve CAPTCHA manually",
+        "occurredAt": "2026-01-24T20:36:02.185Z",
+        "queryIndex": 8
+      },
+      "warnings": [
+        {
+          "code": "NO_AI_OVERVIEW",
+          "message": "AI Overview was expected but not found in response",
+          "severity": "medium",
+          "timestamp": "2026-01-24T20:36:02.184Z",
+          "queryIndex": 8
+        },
+        {
+          "code": "EMPTY_RESPONSE",
+          "message": "Response was empty - possible undetected CAPTCHA or blocked page",
+          "severity": "high",
+          "timestamp": "2026-01-24T20:36:02.184Z",
+          "queryIndex": 8
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total": 9,
+    "successful": 6,
+    "failed": 3,
+    "avgDurationMs": 9103.666666666666,
+    "medianDurationMs": 9054,
+    "p95DurationMs": 10715,
+    "failureRate": 33.33333333333333
+  },
+  "failures": {
+    "totalFailures": 3,
+    "byCategory": {
+      "rate_limit": 0,
+      "timeout": 0,
+      "auth_failure": 0,
+      "network_error": 0,
+      "service_unavailable": 0,
+      "captcha_required": 3,
+      "content_blocked": 0,
+      "invalid_response": 0,
+      "session_expired": 0,
+      "proxy_failure": 0,
+      "quota_exceeded": 0,
+      "ip_mismatch": 0,
+      "parsing_error": 0,
+      "browser_crash": 0,
+      "unknown": 0
+    },
+    "failedQueryIndices": [
+      1,
+      7,
+      8
+    ],
+    "failurePattern": "transient"
+  },
+  "warnings": [
+    {
+      "code": "NO_AI_OVERVIEW",
+      "message": "AI Overview was expected but not found in response",
+      "severity": "medium",
+      "timestamp": "2026-01-24T20:34:07.945Z",
+      "queryIndex": 1
+    },
+    {
+      "code": "EMPTY_RESPONSE",
+      "message": "Response was empty - possible undetected CAPTCHA or blocked page",
+      "severity": "high",
+      "timestamp": "2026-01-24T20:34:07.945Z",
+      "queryIndex": 1
+    },
+    {
+      "code": "NO_AI_OVERVIEW",
+      "message": "AI Overview was expected but not found in response",
+      "severity": "medium",
+      "timestamp": "2026-01-24T20:35:41.840Z",
+      "queryIndex": 7
+    },
+    {
+      "code": "EMPTY_RESPONSE",
+      "message": "Response was empty - possible undetected CAPTCHA or blocked page",
+      "severity": "high",
+      "timestamp": "2026-01-24T20:35:41.840Z",
+      "queryIndex": 7
+    },
+    {
+      "code": "NO_AI_OVERVIEW",
+      "message": "AI Overview was expected but not found in response",
+      "severity": "medium",
+      "timestamp": "2026-01-24T20:36:02.184Z",
+      "queryIndex": 8
+    },
+    {
+      "code": "EMPTY_RESPONSE",
+      "message": "Response was empty - possible undetected CAPTCHA or blocked page",
+      "severity": "high",
+      "timestamp": "2026-01-24T20:36:02.184Z",
+      "queryIndex": 8
+    }
+  ],
+  "checkpoints": [
+    {
+      "filePath": "studies/google/g03-intermediate-5.json",
+      "savedAt": "2026-01-24T20:34:56.403Z",
+      "queriesCompleted": 5,
+      "totalQueries": 20,
+      "fileSizeBytes": 33282
+    }
+  ],
+  "environment": {
+    "nodeVersion": "v22.19.0",
+    "platform": "darwin",
+    "benthamVersion": "0.0.1",
+    "timezone": "America/Boise"
+  },
+  "schemaVersion": "1.0"
+}

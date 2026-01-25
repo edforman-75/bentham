@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Study: Blue Buffalo vs Royal Canin | HUFT AI Visibility</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .case-study-header {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-4);
+            margin: var(--space-4) 0;
+        }
+        .brand-card {
+            background: var(--pure-white);
+            border-radius: 12px;
+            padding: var(--space-4);
+            border: 1px solid var(--gray-200);
+        }
+        .brand-card h3 {
+            margin-top: 0;
+            font-size: 1.5rem;
+        }
+        .brand-card.blue-buffalo {
+            border-top: 4px solid #1e40af;
+        }
+        .brand-card.blue-buffalo h3 {
+            color: #1e40af;
+        }
+        .brand-card.royal-canin {
+            border-top: 4px solid #dc2626;
+        }
+        .brand-card.royal-canin h3 {
+            color: #dc2626;
+        }
+        .metric-row {
+            display: flex;
+            justify-content: space-between;
+            padding: var(--space-1) 0;
+            border-bottom: 1px solid var(--gray-200);
+        }
+        .metric-row:last-child {
+            border-bottom: none;
+        }
+        .metric-label {
+            color: var(--gray-600);
+        }
+        .metric-value {
+            font-weight: 600;
+            color: var(--deep-navy);
+        }
+        .metric-value.positive {
+            color: var(--success-green);
+        }
+        .metric-value.negative {
+            color: var(--error-red);
+        }
+        .comparison-chart {
+            background: var(--gray-50);
+            border-radius: 12px;
+            padding: var(--space-4);
+            margin: var(--space-4) 0;
+        }
+        .chart-row {
+            display: grid;
+            grid-template-columns: 150px 1fr 60px;
+            gap: var(--space-2);
+            align-items: center;
+            margin-bottom: var(--space-2);
+        }
+        .chart-label {
+            font-size: 0.9rem;
+            color: var(--gray-600);
+        }
+        .chart-bar-container {
+            height: 24px;
+            background: var(--gray-200);
+            border-radius: 4px;
+            overflow: hidden;
+            display: flex;
+        }
+        .chart-bar {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 8px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: white;
+        }
+        .chart-bar.blue-buffalo {
+            background: #1e40af;
+        }
+        .chart-bar.royal-canin {
+            background: #dc2626;
+        }
+        .chart-bar.huft {
+            background: var(--success-green);
+        }
+        .chart-value {
+            font-weight: 600;
+            text-align: right;
+            font-size: 0.9rem;
+        }
+        .insight-box {
+            background: linear-gradient(135deg, var(--deep-navy) 0%, #0f2137 100%);
+            color: var(--pure-white);
+            padding: var(--space-4);
+            border-radius: 12px;
+            margin: var(--space-4) 0;
+        }
+        .insight-box h3 {
+            color: var(--pure-white);
+            margin-top: 0;
+        }
+        .insight-box p {
+            color: rgba(255,255,255,0.9);
+        }
+        .insight-box strong {
+            color: var(--glu-blue);
+        }
+        .timeline {
+            position: relative;
+            padding-left: var(--space-4);
+            margin: var(--space-4) 0;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 8px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--glu-blue);
+        }
+        .timeline-item {
+            position: relative;
+            padding-bottom: var(--space-3);
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -20px;
+            top: 4px;
+            width: 12px;
+            height: 12px;
+            background: var(--glu-blue);
+            border-radius: 50%;
+        }
+        .timeline-year {
+            font-weight: 700;
+            color: var(--glu-blue);
+            margin-bottom: 4px;
+        }
+        .timeline-content {
+            color: var(--gray-600);
+        }
+        .takeaway-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: var(--space-3);
+            margin: var(--space-4) 0;
+        }
+        .takeaway-card {
+            background: var(--gray-50);
+            padding: var(--space-3);
+            border-radius: 8px;
+            border-left: 4px solid var(--glu-blue);
+        }
+        .takeaway-card h4 {
+            margin-top: 0;
+            color: var(--deep-navy);
+        }
+        .takeaway-card p {
+            margin-bottom: 0;
+            color: var(--gray-600);
+        }
+        @media (max-width: 800px) {
+            .case-study-header,
+            .takeaway-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+<nav class="main-nav">
+    <div class="nav-brand">
+        <span class="glu-logo">GLU</span>
+        <span class="divider">|</span>
+        <span class="report-name">HUFT AI Visibility Study</span>
+    </div>
+    <ul class="nav-links">
+        <li><a href="index.html">Overview</a></li>
+        <li><a href="recommendations.html">Recommendations</a></li>
+        <li><a href="verbatims.html">Verbatims</a></li>
+        <li><a href="study-data.html">Study Data</a></li>
+        <li><a href="case-study-blue-buffalo.html" class="active">Case Study</a></li>
+        <li><a href="methodology.html">Methodology</a></li>
+    </ul>
+</nav>
+<div class="header">
+    <div class="header-content">
+        <span class="glu-badge">GLU Case Study</span>
+        <h1>Blue Buffalo vs Royal Canin</h1>
+        <p class="subtitle">Why Foundation Model Dominance Does Not Equal Market Visibility</p>
+    </div>
+</div>
+<div class="container">
+<div class="executive-summary">
+    <h2>The Paradox</h2>
+    <p>Blue Buffalo dominates foundation model responses with <strong>57 mentions</strong> across 100 queries in the OpenAI API. Royal Canin has only <strong>25 mentions</strong>. Yet when real Indian users ask ChatGPT the same questions, Blue Buffalo nearly disappears (6 mentions) while Royal Canin's visibility increases (60 mentions).</p>
+    <p><strong>This case study explains why--and what HUFT should learn from it.</strong></p>
+</div>
+<h2>The Numbers</h2>
+<div class="case-study-header">
+    <div class="brand-card blue-buffalo">
+        <h3>Blue Buffalo</h3>
+        <div class="metric-row">
+            <span class="metric-label">OpenAI API Mentions</span>
+            <span class="metric-value">57</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">ChatGPT Web (India)</span>
+            <span class="metric-value negative">6</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Web Layer Change</span>
+            <span class="metric-value negative">-90%</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Gemini API Mentions</span>
+            <span class="metric-value">42</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Sells in India?</span>
+            <span class="metric-value negative">No</span>
+        </div>
+    </div>
+    <div class="brand-card royal-canin">
+        <h3>Royal Canin</h3>
+        <div class="metric-row">
+            <span class="metric-label">OpenAI API Mentions</span>
+            <span class="metric-value">25</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">ChatGPT Web (India)</span>
+            <span class="metric-value positive">60</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Web Layer Change</span>
+            <span class="metric-value positive">+140%</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Gemini API Mentions</span>
+            <span class="metric-value">38</span>
+        </div>
+        <div class="metric-row">
+            <span class="metric-label">Sells in India?</span>
+            <span class="metric-value positive">Yes</span>
+        </div>
+    </div>
+</div>
+<div class="comparison-chart">
+    <h3 style="margin-top: 0;">API vs Web Layer Visibility</h3>
+    <h4 style="margin-bottom: var(--space-2); color: var(--gray-600);">OpenAI API (Foundation Model)</h4>
+    <div class="chart-row">
+        <span class="chart-label">Blue Buffalo</span>
+        <div class="chart-bar-container">
+            <div class="chart-bar blue-buffalo" style="width: 57%;">57</div>
+        </div>
+        <span class="chart-value">57</span>
+    </div>
+    <div class="chart-row">
+        <span class="chart-label">Royal Canin</span>
+        <div class="chart-bar-container">
+            <div class="chart-bar royal-canin" style="width: 25%;">25</div>
+        </div>
+        <span class="chart-value">25</span>
+    </div>
+    <div class="chart-row">
+        <span class="chart-label">HUFT</span>
+        <div class="chart-bar-container">
+            <div class="chart-bar huft" style="width: 17%;">17</div>
+        </div>
+        <span class="chart-value">17</span>
+    </div>
+    <h4 style="margin-top: var(--space-4); margin-bottom: var(--space-2); color: var(--gray-600);">ChatGPT Web (India)</h4>
+    <div class="chart-row">
+        <span class="chart-label">HUFT</span>
+        <div class="chart-bar-container">
+            <div class="chart-bar huft" style="width: 100%;">221</div>
+        </div>
+        <span class="chart-value">221</span>
+    </div>
+    <div class="chart-row">
+        <span class="chart-label">Royal Canin</span>
+        <div class="chart-bar-container">
+            <div class="chart-bar royal-canin" style="width: 27%;">60</div>
+        </div>
+        <span class="chart-value">60</span>
+    </div>
+    <div class="chart-row">
+        <span class="chart-label">Blue Buffalo</span>
+        <div class="chart-bar-container">
+            <div class="chart-bar blue-buffalo" style="width: 3%;">6</div>
+        </div>
+        <span class="chart-value">6</span>
+    </div>
+</div>
+<div class="insight-box">
+    <h3>The Core Insight</h3>
+    <p>Blue Buffalo invested hundreds of millions of dollars in marketing, content, and brand building. That investment trained the foundation models to "know" Blue Buffalo deeply. <strong>But that knowledge is worthless in markets where Blue Buffalo doesn't sell.</strong></p>
+    <p>Royal Canin invested in global distribution. When the web layer checks "can Indian users actually buy this?", Royal Canin passes the test. Blue Buffalo fails.</p>
+</div>
+<h2>How Blue Buffalo Built Foundation Model Dominance</h2>
+<p>Blue Buffalo's strong presence in OpenAI and Gemini APIs didn't happen by accident. It's the result of two decades of aggressive marketing and brand building in the US market.</p>
+<div class="timeline">
+    <div class="timeline-item">
+        <div class="timeline-year">2002</div>
+        <div class="timeline-content">Blue Buffalo founded. Positioned as "premium natural" pet food--a new category at the time.</div>
+    </div>
+    <div class="timeline-item">
+        <div class="timeline-year">2003-2015</div>
+        <div class="timeline-content">Cumulative marketing spend exceeds <strong>$400 million</strong>. Heavy investment in TV, digital, and influencer marketing. "Love them like family. Feed them like family." campaign.</div>
+    </div>
+    <div class="timeline-item">
+        <div class="timeline-year">2008-2018</div>
+        <div class="timeline-content">Becomes #1 natural pet food brand in the US. Featured on virtually every "best dog food" list. 4.5+ star average across review sites.</div>
+    </div>
+    <div class="timeline-item">
+        <div class="timeline-year">2018</div>
+        <div class="timeline-content"><strong>$8 billion acquisition by General Mills.</strong> Generated massive press coverage--news articles, financial analysis, industry commentary. All of this becomes AI training data.</div>
+    </div>
+    <div class="timeline-item">
+        <div class="timeline-year">2020-2024</div>
+        <div class="timeline-content">Foundation models (GPT-3, GPT-4, Gemini) trained on web data. Blue Buffalo's massive content footprint ensures it's heavily represented in training data.</div>
+    </div>
+</div>
+<h3>What Blue Buffalo Did Right (for US AI Visibility)</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Strategy</th>
+            <th>Impact on AI Training</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Category leadership</strong></td>
+            <td>Mentioned in every "best natural dog food" article</td>
+        </tr>
+        <tr>
+            <td><strong>Review site dominance</strong></td>
+            <td>4.5+ stars on Dog Food Advisor, Chewy, Amazon</td>
+        </tr>
+        <tr>
+            <td><strong>Extensive FAQ content</strong></td>
+            <td>49 FAQ questions on their website</td>
+        </tr>
+        <tr>
+            <td><strong>News coverage</strong></td>
+            <td>$8B acquisition = thousands of news articles</td>
+        </tr>
+        <tr>
+            <td><strong>Veterinarian partnerships</strong></td>
+            <td>Vet recommendations cited in training data</td>
+        </tr>
+        <tr>
+            <td><strong>Comparison content</strong></td>
+            <td>"Blue Buffalo vs [competitor]" pages rank well</td>
+        </tr>
+    </tbody>
+</table>
+<h3>What Blue Buffalo Did NOT Do</h3>
+<p>Interestingly, Blue Buffalo's technical SEO is minimal:</p>
+<ul>
+    <li><strong>No llms.txt file</strong> -- Not optimizing for AI crawlers</li>
+    <li><strong>Basic JSON-LD</strong> -- Only Organization schema, no Product schema</li>
+    <li><strong>No FAQ schema markup</strong> -- Despite having 49 FAQs</li>
+    <li><strong>Standard website structure</strong> -- Nothing special for AI optimization</li>
+</ul>
+<div class="key-point action">
+    <strong>Key Lesson:</strong> Blue Buffalo's foundation model presence comes from <em>content volume and brand authority</em>, not technical SEO tricks. They built a massive content footprint over 20 years through marketing, PR, and category leadership.
+</div>
+<h2>Why Royal Canin Wins in India</h2>
+<p>Royal Canin has lower foundation model presence than Blue Buffalo (25 vs 57 mentions in OpenAI API). But Royal Canin gains +140% visibility when the web layer is applied, while Blue Buffalo loses 90%.</p>
+<h3>The Difference: Distribution</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Factor</th>
+            <th>Blue Buffalo</th>
+            <th>Royal Canin</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Available on Amazon.in?</td>
+            <td class="weak">No</td>
+            <td class="dominant">Yes</td>
+        </tr>
+        <tr>
+            <td>Available on Supertails?</td>
+            <td class="weak">No</td>
+            <td class="dominant">Yes</td>
+        </tr>
+        <tr>
+            <td>Available at HUFT stores?</td>
+            <td class="weak">No</td>
+            <td class="dominant">Yes</td>
+        </tr>
+        <tr>
+            <td>Listed with Rs. pricing?</td>
+            <td class="weak">No</td>
+            <td class="dominant">Yes</td>
+        </tr>
+        <tr>
+            <td>Indian customer reviews?</td>
+            <td class="weak">None</td>
+            <td class="dominant">Thousands</td>
+        </tr>
+        <tr>
+            <td>Veterinarian network in India?</td>
+            <td class="weak">None</td>
+            <td class="dominant">Extensive</td>
+        </tr>
+    </tbody>
+</table>
+<p>When ChatGPT Web or Google AI Overview augments its response with live e-commerce data from India, it finds:</p>
+<ul>
+    <li>Royal Canin products with prices, reviews, and availability</li>
+    <li>Zero Blue Buffalo products available for purchase</li>
+</ul>
+<p>The AI is smart enough to filter out brands that users can't actually buy. Blue Buffalo's foundation model knowledge becomes a <strong>stranded asset</strong>--valuable information that can't be surfaced to users in markets where the brand doesn't operate.</p>
+<h2>The Two Types of AI Visibility</h2>
+<div class="takeaway-grid">
+    <div class="takeaway-card">
+        <h4>Foundation Model Visibility ("Owned")</h4>
+        <p>Built through content, authority, and brand presence. Baked into model training data. Durable but slow to build. Blue Buffalo excels here.</p>
+    </div>
+    <div class="takeaway-card">
+        <h4>Web Layer Visibility ("Rented")</h4>
+        <p>Driven by e-commerce presence and real-time data. Changes with market availability. Fast to build but dependent on platforms. HUFT and Royal Canin excel here in India.</p>
+    </div>
+</div>
+<div class="insight-box">
+    <h3>The Strategic Trade-off</h3>
+    <p><strong>Foundation model visibility</strong> is like owning real estate--you build equity over time, and it's hard for others to take away.</p>
+    <p><strong>Web layer visibility</strong> is like renting prime retail space--you get immediate foot traffic, but you're dependent on the landlord (platforms).</p>
+    <p>The ideal strategy is to <strong>do both</strong>: leverage web layer dominance for immediate results while building foundation model presence for long-term durability.</p>
+</div>
+<h2>What HUFT Should Learn</h2>
+<h3>1. HUFT Already Has What Blue Buffalo Lacks in India</h3>
+<p>HUFT has the distribution and e-commerce presence that Blue Buffalo doesn't:</p>
+<ul>
+    <li>Strong Amazon.in Brand Store</li>
+    <li>Owned website (HeadsUpForTails.com)</li>
+    <li>Partner presence on Supertails, BigBasket, Blinkit</li>
+    <li>Physical retail footprint</li>
+    <li>Indian customer reviews and ratings</li>
+</ul>
+<p>This is why HUFT sees a <strong>+1,200% boost</strong> from API to web layer. The infrastructure is there.</p>
+<h3>2. HUFT Needs What Blue Buffalo Has (for Foundation Models)</h3>
+<p>HUFT's foundation model presence is weak (17 mentions). To build it, HUFT should study Blue Buffalo's playbook:</p>
+<table>
+    <thead>
+        <tr>
+            <th>Blue Buffalo Strategy</th>
+            <th>HUFT Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Category leadership content</td>
+            <td>Create "HUFT Pet Nutrition Guide" as definitive India resource</td>
+        </tr>
+        <tr>
+            <td>Review site dominance</td>
+            <td>Build presence on Indian pet review sites and blogs</td>
+        </tr>
+        <tr>
+            <td>Extensive FAQ content</td>
+            <td>Expand from current level to 100+ questions</td>
+        </tr>
+        <tr>
+            <td>News coverage</td>
+            <td>PR campaigns for launches, milestones, surveys</td>
+        </tr>
+        <tr>
+            <td>Veterinarian partnerships</td>
+            <td>Formal vet endorsement program</td>
+        </tr>
+        <tr>
+            <td>Comparison content</td>
+            <td>Create "HUFT vs [competitor]" content</td>
+        </tr>
+    </tbody>
+</table>
+<h3>3. Protect the Web Layer Advantage</h3>
+<p>HUFT's current dominance comes from web layer presence. This advantage must be protected:</p>
+<ul>
+    <li><strong>Keep Amazon.in listings optimized</strong> -- This is where ChatGPT pulls data from</li>
+    <li><strong>Ensure pricing accuracy across platforms</strong> -- AI surfaces prices in responses</li>
+    <li><strong>Maintain consistent product information</strong> -- Inconsistencies confuse AI systems</li>
+    <li><strong>Monitor partner retailer listings</strong> -- Supertails, BigBasket data quality matters</li>
+</ul>
+<h3>4. Implement Technical SEO Infrastructure Now</h3>
+<p>Blue Buffalo built foundation model presence through content volume over 20 years. <strong>HUFT doesn't have 20 years.</strong> Technical SEO infrastructure accelerates the process and serves multiple purposes:</p>
+<table>
+    <thead>
+        <tr>
+            <th>Technical Asset</th>
+            <th>Foundation Model Benefit</th>
+            <th>Web Augmentation Benefit</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>llms.txt</strong></td>
+            <td>Signals to AI crawlers what content matters; helps training data quality</td>
+            <td>May help ChatGPT/Google identify authoritative content when browsing</td>
+        </tr>
+        <tr>
+            <td><strong>JSON-LD Product Schema</strong></td>
+            <td>Clean structured data = cleaner training signal during model updates</td>
+            <td>Google AI Overviews definitely use this for product cards and pricing</td>
+        </tr>
+        <tr>
+            <td><strong>FAQ Schema</strong></td>
+            <td>Q&A pairs are ideal training data format for AI models</td>
+            <td>Powers "People Also Ask" boxes that feed Google AI Overviews</td>
+        </tr>
+        <tr>
+            <td><strong>Content Syndication</strong></td>
+            <td>Consistent data across sources prevents confusion during training</td>
+            <td>AI pulls from multiple sources; consistency = credibility</td>
+        </tr>
+    </tbody>
+</table>
+<div class="key-point action">
+    <strong>Critical Action:</strong> HUFT should implement llms.txt, JSON-LD product schema, and FAQ markup on HeadsUpForTails.com immediately--then syndicate that same structured content to Amazon.in, Supertails, and other distribution partners. This ensures AI systems see consistent, well-structured information everywhere they look.
+</div>
+<p><strong>Why this matters now:</strong> Foundation models are continuously updated. Content and structured data published today influences AI responses for years. The sooner HUFT's structured content enters the training pipeline, the sooner foundation model visibility improves.</p>
+<div class="highlight-box">
+    <strong>Open Question:</strong> Does the web augmentation layer (ChatGPT's browsing, Google AI Overviews) directly parse llms.txt and JSON-LD when generating responses? Evidence suggests Google definitely uses structured data. For ChatGPT, well-structured content is at minimum easier to parse accurately. Either way, implementing these standards has no downside and significant potential upside.
+</div>
+<div class="conclusion">
+    <h2>Summary</h2>
+    <p>Blue Buffalo invested $400 million to become the brand AI models "know" best. But that investment is worthless in India because they don't sell there.</p>
+    <p>HUFT has the opposite situation: strong India distribution but weak foundation model presence. The strategic imperative is clear:</p>
+    <ol>
+        <li><strong>Protect</strong> the web layer advantage by keeping e-commerce optimized</li>
+        <li><strong>Build</strong> foundation model presence using Blue Buffalo's content playbook</li>
+        <li><strong>Create</strong> a durable moat that works across both layers</li>
+    </ol>
+    <p>The brands that win AI visibility long-term will be those that invest in both. <strong>HUFT has a head start on the web layer. Now it's time to build the foundation.</strong></p>
+</div>
+</div>
+<footer>
+    <div class="footer-content">
+        <div class="footer-logo">GLU</div>
+        <p>AI Visibility Intelligence</p>
+        <p style="margin-top: 16px;">Bentham AI Visibility Analysis | January 2026</p>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,42 @@
+[
+  {
+    "queryIndex": 1,
+    "originalQuery": "Which are the best budget dog food brands online?",
+    "submittedQuery": "Which are the best budget dog food brands online?",
+    "response": "Here are a few popular budget-friendly dog food brands that are often recommended online:\n\n1. **Purina ONE**: Offers a variety of formulas tailored to different dietary needs at a reasonable price.\n\n2. **Pedigree**: Widely available and offers balanced nutrition for dogs at a low cost.\n\n3. **Iams**: Provides several options for specific dietary requirements and life stages.\n\n4. **Hill’s Science Diet**: While slightly more expensive, it often offers good deals online and is recommended for its quality.\n\n5. **Rachael Ray Nutrish**: Known for using real ingredients and avoiding artificial flavors.\n\nWhen choosing dog food, consider your dog's specific dietary needs and any allergies or sensitivities they may have. Always consult with a veterinarian if you're unsure what is best for your pet.",
+    "timestamp": "2026-01-24T06:31:55.030Z",
+    "durationMs": 6156
+  },
+  {
+    "queryIndex": 2,
+    "originalQuery": "Can you suggest the best treat brands for dogs online?",
+    "submittedQuery": "Can you suggest the best treat brands for dogs online?",
+    "response": "Certainly! Here are some popular dog treat brands that are well-regarded online:\n\n1. **Blue Buffalo**\n   - Known for natural ingredients and a variety of flavors.\n\n2. **Wellness**\n   - Offers grain-free and organic options.\n\n3. **Greenies**\n   - Popular for dental health treats.\n\n4. **Zuke’s**\n   - Offers low-calorie treats for training.\n\n5. **Merrick**\n   - Provides high-protein, grain-free options.\n\n6. **Hill’s Science Diet**\n   - Recommended for specific dietary needs.\n\n7. **Rocco & Roxie**\n   - Known for jerky-style treats made with premium meat.\n\nAlways check reviews and ensure the treats meet your dog's dietary needs.",
+    "timestamp": "2026-01-24T06:32:03.066Z",
+    "durationMs": 6034
+  },
+  {
+    "queryIndex": 3,
+    "originalQuery": "Which are the best dog food brands with high reviews?",
+    "submittedQuery": "Which are the best dog food brands with high reviews?",
+    "response": "Some of the top-rated dog food brands known for their quality ingredients and positive reviews include:\n\n1. **Orijen**: Offers biologically appropriate, grain-free recipes using fresh, regional ingredients.\n\n2. **Blue Buffalo**: Known for real meat and whole food ingredients, their formulas are tailored for specific life stages.\n\n3. **Wellness Core**: A grain-free line focusing on high-protein content with real meat as the first ingredient.\n\n4. **Taste of the Wild**: Provides high-quality, grain-free recipes inspired by the diets of wild animals.\n\n5. **Hill's Science Diet**: Known for formulas designed with the help of veterinarians and nutritionists.\n\n6. **Royal Canin**: Offers breed-specific and veterinary-recommended diets.\n\n7. **Merrick**: Focuses on crafting recipes with local produce and real whole foods.\n\n8. **Acana**: Uses fresh regional ingredients with a high meat content, similar to Orijen.\n\nAlways ensure to choose a brand and formula suited to your dog's specific dietary needs and life stage, and consider consulting with a veterinarian for personalized advice.",
+    "timestamp": "2026-01-24T06:32:13.418Z",
+    "durationMs": 8351
+  },
+  {
+    "queryIndex": 4,
+    "originalQuery": "Which are the best dog food brands recommended by vets?",
+    "submittedQuery": "Which are the best dog food brands recommended by vets?",
+    "response": "When it comes to dog food brands recommended by veterinarians, several names frequently appear due to their focus on quality, nutrition, and safety. Here are some of the popular ones:\n\n1. **Hill's Science Diet**: Known for its scientific approach to pet nutrition, often recommended for specific dietary needs.\n\n2. **Royal Canin**: Offers tailored nutrition for breeds and medical conditions, widely used and prescribed by vets.\n\n3. **Purina Pro Plan**: Provides a balanced diet with options for different life stages and needs.\n\n4. **Iams**: Known for its affordability and balanced nutrition, with options for various life stages.\n\n5. **Eukanuba**: Offers high-quality ingredients and a variety of formulas for different health requirements.\n\n6. **Blue Buffalo**: Known for natural ingredients and no artificial additives, popular among pet owners and recommended by some vets.\n\nIt's always a good idea to consult with your vet about your specific dog's needs, as they can provide tailored advice based on age, breed, health conditions, and lifestyle.",
+    "timestamp": "2026-01-24T06:32:50.596Z",
+    "durationMs": 35177
+  },
+  {
+    "queryIndex": 5,
+    "originalQuery": "Can you list a popular pet food brand with good meat content?",
+    "submittedQuery": "Can you list a popular pet food brand with good meat content?",
+    "response": "One popular pet food brand known for good meat content is **Blue Buffalo**. They focus on using real meat as the first ingredient and offer a variety of recipes for both dogs and cats.",
+    "timestamp": "2026-01-24T06:32:56.270Z",
+    "durationMs": 3673
+  }
+]

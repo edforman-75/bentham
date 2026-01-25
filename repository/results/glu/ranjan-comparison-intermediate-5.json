@@ -1,0 +1,310 @@
+{
+  "results": [
+    {
+      "query": "Which are the best budget dog food brands online?",
+      "queryIndex": 0,
+      "surface": "openai-api-baseline",
+      "success": false,
+      "error": "API error: 429 - {\n    \"error\": {\n        \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\",\n        \"type\": \"insufficient_quota\",\n        \"param\": null,\n        \"code\": \"insufficient_quota\"\n    }\n}\n",
+      "timestamp": "2026-01-23T23:28:58.122Z",
+      "responseTimeMs": 871,
+      "requestPayload": {
+        "endpoint": "https://api.openai.com/v1/chat/completions",
+        "method": "POST",
+        "headers": {
+          "Content-Type": "application/json",
+          "Authorization": "Bearer sk-***[REDACTED]***"
+        },
+        "body": {
+          "model": "gpt-4o",
+          "messages": [
+            {
+              "role": "user",
+              "content": "Which are the best budget dog food brands online?"
+            }
+          ],
+          "max_tokens": 2000
+        }
+      },
+      "ipUsed": "184.183.124.126"
+    },
+    {
+      "query": "Which are the best budget dog food brands online?",
+      "queryIndex": 0,
+      "surface": "chatgpt-web-india-ip",
+      "success": true,
+      "response": "Here are some of the best budget-friendly dog food options you can find online — great if you want to balance cost with decent quality nutrition. Many experts suggest sticking with reputable brands with complete and balanced formulations, and options like Purina, Iams, and Canidae come up frequently in budget dog food guides. \nBusiness Insider\n+1\n\nIAMS Proactive Health Adult Dry Dog Food\nARS 32,979.43\n•\nNorthwoods Wholesale Outlet\nHappy Dog fit & vital Medium Adult\nARS 14,660.22\n•\nHappy Dog + others\nHappy Dog Dry Trial Pack Adult Mini\nARS 14,660.22\n•\nHappy Dog\nFido Croq’ Mix Adult Beef & Vegetables\nARS 25,425.40\n•\nEpicerieCorner\nUppy Nutri Chicken Adult Dog Food\nARS 20,667.18\n•\nThe Yum Family Shop - Yum Biltong LDA\nSeven GF Adult Small Breed Chicken\nARS 27,382.71\n•\nJurassic Bark Pet Supplies\n🐶 Top Budget Dog Food Picks Online\n\n🍖 General Everyday Dry Food (Great Value)\n\nIAMS Proactive Health Adult Dry Dog Food – Very popular and widely recommended budget dry dog food with balanced nutrition; excellent price per bag and good reviews.\n\nHappy Dog fit & vital Medium Adult – Good quality dry food with a strong reputation for quality on a budget.\n\nHappy Dog Dry Trial Pack Adult Mini – Smaller trial size if you want to test quality before buying a larger bag.\n\n🍽️ Other Solid Affordable Options\n\nFido Croq’ Mix Adult Beef & Vegetables – Balanced beef and vegetable formula at a solid price point.\n\nUppy Nutri Chicken Adult Dog Food – Chicken-based dry food that’s practical and budget-oriented.\n\nSeven GF Adult Small Breed Chicken – Great choice for small breeds with higher energy needs.\n\n🧠 Tips for Buying Budget Dog Food\n\nCheck AAFCO “complete and balanced” on the label — ensure the food meets minimum nutritional standards. \nBusiness Insider\n\nDry kibble (vs. wet) is typically cheaper and lasts longer — good for feeding multiple dogs or saving money over time. \nPet Food Reviews (Australia)\n\nBuying larger bags often lowers the cost per kilogram. \nPet Food Reviews (Australia)\n\nSome owners mix a budget dry food with occasional toppers (like boiled chicken or vegetables) to boost nutrition without large costs.\n\nIf you want specific recommendations for puppies, seniors, or dogs with sensitivities, just tell me your dog’s age and needs!",
+      "timestamp": "2026-01-23T23:29:10.137Z",
+      "responseTimeMs": 12000,
+      "requestPayload": {
+        "endpoint": "https://chatgpt.com",
+        "method": "Browser automation (Playwright)",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+          "Accept-Language": "en-IN"
+        },
+        "body": {
+          "input": "Which are the best budget dog food brands online?",
+          "submittedVia": "DOM input field (#prompt-textarea) + submit button",
+          "browserLocale": "en-IN",
+          "browserTimezone": "Asia/Kolkata"
+        }
+      },
+      "ipUsed": "113.170.215.137"
+    },
+    {
+      "query": "Can you suggest the best treat brands for dogs online?",
+      "queryIndex": 1,
+      "surface": "chatgpt-web-india-ip",
+      "success": true,
+      "response": "Here are some highly rated dog treat brands you can buy online — from everyday rewards to soft training treats and natural chews:\n\nBocce’s Bakery Soft & Chewy Dog Treats\nARS 11,450.09\n•\nPet Palette Distribution\nBocce’s Bakery Dailies Good Hair Soft & Chewy Dog Treats\nARS 12,883.14\n•\nPet Palette Distribution\nBocce’s Bakery Limited Ingredient Cheese Biscuits\nARS 21,481.46\n•\nPaw Naturals\nYeti Dog Chew Yeti Nuggets\nARS 11,765.36\n•\niHerb\nWhat’s Barking Premium Blueberry Beetroot Dog Treats\nARS 4,227.51\n•\nWhat's Barking + others\nA Bunch of Flowers Honey Oat Dog Treats\nARS 25,980.64\n•\nMungo and Maud\n🐾 Top Picks for Everyday Treats & Training\n\nBocce’s Bakery Soft & Chewy Dog Treats – Soft and tasty treats perfect for training rewards or quick snacks; dogs tend to love the flavor.\n\nBocce’s Bakery Dailies Good Hair Soft & Chewy Dog Treats – Great daily treat option with appealing texture and taste.\n\nBocce’s Bakery Limited Ingredient Cheese Biscuits – Crunchy, limited-ingredient biscuits ideal for pups with simple dietary needs.\n\n🐶 Fun & Flavorful Chews\n\nYeti Dog Chew Yeti Nuggets – Durable, flavorful nuggets that double as a chew and treat — good for dogs that like to nibble.\n\nWhat’s Barking Premium Blueberry Beetroot Dog Treats – Budget-friendly and veggie-flavored treat for variety in your dog’s snack rotation.\n\n🍪 Premium & Unique Options\n\nA Bunch of Flowers Honey Oat Dog Treats – Honey and oat biscuits with a slightly more gourmet twist — good for special rewards.\n\n🧠 Vet & Expert Recommendations\n\nAccording to veterinary and pet care sources, some treats are especially worth considering: small high-value training treats like Zuke’s Mini Naturals and Pet Botanics Training Rewards, freeze-dried treats like Pupford Freeze-Dried, or natural lung/liver treats are often recommended for training and health benefits. Soft, low-calorie treats are generally best for frequent rewards, and chews like bully sticks help with dental health too. \nPetMD\n+1\n\n🎯 Tips for Choosing Treats\n\nMatch treat size to your dog’s size — small pieces for toy/small breeds, larger chews for medium/large breeds. \nPetMD\n\nCheck ingredient lists — look for real meat as the first ingredient and avoid excessive fillers or artificial additives when possible. \nPetMD\n\nUse low-calorie options for training so your dog doesn’t exceed daily calorie intake. \nPetMD\n\nIf you want specific treats for puppies, senior dogs, or dogs with allergies, tell me your dog’s age and needs and I can tailor suggestions!",
+      "timestamp": "2026-01-23T23:29:26.110Z",
+      "responseTimeMs": 13972,
+      "requestPayload": {
+        "endpoint": "https://chatgpt.com",
+        "method": "Browser automation (Playwright)",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+          "Accept-Language": "en-IN"
+        },
+        "body": {
+          "input": "Can you suggest the best treat brands for dogs online?",
+          "submittedVia": "DOM input field (#prompt-textarea) + submit button",
+          "browserLocale": "en-IN",
+          "browserTimezone": "Asia/Kolkata"
+        }
+      },
+      "ipUsed": "113.170.215.137"
+    },
+    {
+      "query": "Which are the best dog food brands with high reviews?",
+      "queryIndex": 2,
+      "surface": "chatgpt-web-india-ip",
+      "success": true,
+      "response": "Here are some of the best-reviewed dog food brands and formulas you can buy online — popular with pet owners and often recommended by vets and nutrition experts for quality, nutrition, and overall satisfaction:\n\nAcana Pacifica Dog\nARS 103,639.44\n•\nJurassic Bark Pet Supplies\nEssential Blend Premium Dog Food Salmon & Herring Meal\nARS 121,795.14\n•\nTeam Dog\nTaste of the Wild Pacific Stream Canine Smoked Salmon\nARS 28,644.54\n•\nPetDoctors Online + others\nHappy Dog fit & vital Medium Adult\nARS 39,097.05\n•\nHappy Dog + others\nAdvance Dog Medium Adult Chicken & Rice\nARS 30,034.39\n•\nPetDoctors Online + others\nEden Gourmet Range Salmon & Pheasant Dry Dog Food\nARS 44,006.18\n•\nJurassic Bark Pet Supplies\n⭐ Top Rated & Highly Reviewed Dog Foods\n\nAcana Pacifica Dog – Premium, high-protein formula with sustainably sourced fish; excellent overall reviews (~4.8★).\n\nEssential Blend Premium Dog Food Salmon & Herring Meal – Another high-rating option (~4.8★) with nutrient-rich salmon and herring for lean protein and omega-3s.\n\nTaste of the Wild Pacific Stream Canine Smoked Salmon – Very popular kibble (~4.7★) with real salmon and ancient grains; good balance of quality and value.\n\n🐶 Well-Reviewed Everyday & Balanced Choices\n\nHappy Dog fit & vital Medium Adult – Excellent all-around adult formula (~4.8★), great for medium breeds with balanced nutrition.\n\nAdvance Dog Medium Adult Chicken & Rice – Solid, well-liked chicken & rice formula (~4.7★), good for daily feeding.\n\n🍖 Premium / Specialized Picks\n\nEden Gourmet Range Salmon & Pheasant Dry Dog Food – Highly rated gourmet option (~4.9★) — great if you want a more premium taste and quality profile.\n\n🧠 What Experts Say\n\nVeterinarians and nutrition reviewers frequently recommend brands that meet AAFCO nutritional standards, conduct feeding trials, and offer formulas tailored to different life stages and needs — like Hill’s Science Diet, Purina Pro Plan, and Royal Canin — though availability and specific formulas may vary by region. \nPetMD\n+1\n\nHow to Pick the Right Food\n\nLife Stage: Choose formulas labeled for puppy, adult, or senior as appropriate. \nDog Food Advisor\n\nBreed Size: Large-breed diets differ from small-breed ones (nutrient balance & kibble size). \nDog Food Advisor\n\nSpecial Needs: Sensitive stomach, weight management, or allergy formulas may be worth considering. \nPetMD\n\nIf you tell me your dog’s age, size, and any health issues, I can suggest the best specific formula for your pup!",
+      "timestamp": "2026-01-23T23:29:41.141Z",
+      "responseTimeMs": 13031,
+      "requestPayload": {
+        "endpoint": "https://chatgpt.com",
+        "method": "Browser automation (Playwright)",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+          "Accept-Language": "en-IN"
+        },
+        "body": {
+          "input": "Which are the best dog food brands with high reviews?",
+          "submittedVia": "DOM input field (#prompt-textarea) + submit button",
+          "browserLocale": "en-IN",
+          "browserTimezone": "Asia/Kolkata"
+        }
+      },
+      "ipUsed": "113.170.215.137"
+    },
+    {
+      "query": "Which are the best dog food brands recommended by vets?",
+      "queryIndex": 3,
+      "surface": "chatgpt-web-india-ip",
+      "success": true,
+      "response": "Veterinarians don’t all agree on one single “best” dog food, since the right choice depends on your dog’s age, size, activity level, and health needs — but there are brands that many vets consistently recommend because they’re science-driven, nutritionally balanced, and backed by research or clinical expertise. \nsplootvets.com\n+3\nPetcare Partners\n+3\nHoncoop Pet Meals\n+3\n\n🩺 Top Dog Food Brands Commonly Recommended by Veterinarians\n\n1. Hill’s Science Diet / Hill’s Prescription Diet\nOne of the most frequently recommended brands by veterinarians. Hill’s formulas are developed with extensive research and tailored for life stages and specific health conditions (e.g., weight management, digestive health, kidney care). Prescription Diet varieties are used under vet guidance for medical issues. \nHoncoop Pet Meals\n+1\n\n2. Royal Canin\nKnown for breed-specific and life-stage tailored foods, as well as targeted therapeutic diets for digestive, skin, and other health concerns. Many vets suggest Royal Canin for dogs with sensitivities or specific nutritional needs. \nHoncoop Pet Meals\n+1\n\n3. Purina Pro Plan\nA science-backed line with formulas for active dogs, sensitive stomachs, and different life stages. Purina has a long history in pet nutrition and is a common vet pick for balanced diets. \nHoncoop Pet Meals\n+1\n\n4. Blue Buffalo\nOften recommended by vets for its wide range of life-stage and health-focused formulas that use whole grains and real meat. Blue Buffalo Life Protection and other lines are popular in many vet-recommended lists. \npetwiseplus.com\n\n5. Iams / Eukanuba\nBoth brands are frequently cited by veterinarians, especially for everyday nutrition with quality protein and balanced fats. They’re often recommended as solid all-around diets. \nThe Pet Doctor - O'Fallon\n\n🐶 Notes on Vet-Recommended Feeding\n\nLife stage & needs matter: Puppies, adults, seniors, and dogs with health issues often need different formulas (e.g., puppy growth formulas, senior diets with joint support, or sensitive stomach foods). \nPetMD\n\nPrescription diets: If your dog has a medical condition (allergies, kidney issues, GI problems), vets may recommend prescription food lines from brands like Hill’s or Royal Canin. \nChewy\n\nIngredient quality & nutrition standards: Look for foods that meet AAFCO guidelines and are formulated with high-quality protein as a first ingredient. \nhospital.cvm.ncsu.edu\n\n🧠 Tip Before You Buy\n\nWhile these brands are widely recommended, the best choice for your dog depends on their specific health profile and life stage. Many vets prefer to make food recommendations after examining your dog or considering allergies, digestive issues, and activity level. If you want tailored suggestions, tell me your dog’s age, breed/size, and any health concerns, and I can recommend specific formulas that veterinarians typically support!",
+      "timestamp": "2026-01-23T23:29:55.181Z",
+      "responseTimeMs": 12039,
+      "requestPayload": {
+        "endpoint": "https://chatgpt.com",
+        "method": "Browser automation (Playwright)",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+          "Accept-Language": "en-IN"
+        },
+        "body": {
+          "input": "Which are the best dog food brands recommended by vets?",
+          "submittedVia": "DOM input field (#prompt-textarea) + submit button",
+          "browserLocale": "en-IN",
+          "browserTimezone": "Asia/Kolkata"
+        }
+      },
+      "ipUsed": "113.170.215.137"
+    },
+    {
+      "query": "Can you list a popular pet food brand with good meat content?",
+      "queryIndex": 4,
+      "surface": "chatgpt-web-india-ip",
+      "success": true,
+      "response": "Here are some popular dog food brands with good meat content — ideal if you’re prioritizing high-quality animal protein in your dog’s diet (many vets and nutrition reviews highlight these brands for their protein-rich recipes). \nPetcare Partners\n+1\n\nEssential Blend Premium Dog Food Salmon & Herring Meal\nARS 121,795.14\n•\nTeam Dog\nEden Gourmet Range Goose & Turkey Dry Dog Food\nARS 158,422.24\n•\nJurassic Bark Pet Supplies\nHappy Dog fit & vital Medium Adult\nARS 39,097.05\n•\nHappy Dog + others\nHappy Dog Sport Adult\nARS 87,992.80\n•\nHappy Dog + others\nStella & Chewy's Morsels Raw Frozen Dog Food 4LB Beef\nARS 61,606.93\n•\nPaw Naturals\n🥩 High-Meat Content Dog Food Picks\n\nEssential Blend Premium Dog Food Salmon & Herring Meal – ⭐ 4.8/5 – Salmon and herring meal are excellent sources of real fish protein and omega-3s, great for lean muscle and skin/coat health.\n\nEden Gourmet Range Goose & Turkey Dry Dog Food – ⭐ 4.9/5 – Premium gourmet dry food with high-quality meat proteins (goose & turkey) — great for dogs that need robust, animal-forward nutrition.\n\nHappy Dog fit & vital Medium Adult – ⭐ 4.8/5 – Well-reviewed dry food with substantial meat content suitable for everyday feeding.\n\nHappy Dog Sport Adult – ⭐ 4.8/5 – Another high-meat option from Happy Dog, formulated especially for active or athletic pups with higher energy and protein needs.\n\nStella & Chewy's Morsels Raw Frozen Dog Food 4LB Beef – ⭐ 4.3/5 – Raw frozen formula with beef as the main ingredient, ideal if you want a closer-to-natural, high-protein diet.\n\n🧠 Why High Meat Content Matters\n\nDog foods with higher proportions of meat or meat meals provide more complete amino acids and protein that support muscle maintenance, energy, healthy skin/coat, and overall vitality. While there’s no universal standard for “high meat content,” many premium diets aim for 30 %+ animal protein (dry basis) and use real named meat sources rather than generic by-products. \nzooplus.co.uk\n\nIf you want specific recommendations based on your dog’s age, size, or sensitivities, let me know — I can tailor the list!",
+      "timestamp": "2026-01-23T23:30:11.173Z",
+      "responseTimeMs": 13991,
+      "requestPayload": {
+        "endpoint": "https://chatgpt.com",
+        "method": "Browser automation (Playwright)",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+          "Accept-Language": "en-IN"
+        },
+        "body": {
+          "input": "Can you list a popular pet food brand with good meat content?",
+          "submittedVia": "DOM input field (#prompt-textarea) + submit button",
+          "browserLocale": "en-IN",
+          "browserTimezone": "Asia/Kolkata"
+        }
+      },
+      "ipUsed": "113.170.215.137"
+    }
+  ],
+  "lastQuery": 4,
+  "surfaceManifests": [
+    {
+      "surfaceId": "openai-api-baseline",
+      "surfaceName": "OpenAI Standard API (Baseline)",
+      "description": "Standard OpenAI Chat Completions API with no location context. This is the control group showing default global behavior.",
+      "ipSource": {
+        "type": "direct",
+        "location": "Sun Valley, Idaho, US",
+        "ip": "184.183.124.126"
+      },
+      "localizationMethod": "None - pure foundation model response",
+      "requestTemplate": {
+        "endpoint": "https://api.openai.com/v1/chat/completions",
+        "method": "POST",
+        "headers": {
+          "Content-Type": "application/json",
+          "Authorization": "Bearer ${OPENAI_API_KEY}"
+        },
+        "body": {
+          "model": "gpt-4o",
+          "messages": [
+            {
+              "role": "user",
+              "content": "${QUERY}"
+            }
+          ],
+          "max_tokens": 2000
+        }
+      },
+      "parameters": {
+        "model": "gpt-4o",
+        "systemPrompt": null,
+        "userLocation": null
+      }
+    },
+    {
+      "surfaceId": "openai-api-india-prompt",
+      "surfaceName": "OpenAI Standard API + India System Prompt",
+      "description": "Standard OpenAI Chat Completions API with system prompt injection to bias responses toward India market.",
+      "ipSource": {
+        "type": "direct",
+        "location": "Sun Valley, Idaho, US",
+        "ip": "184.183.124.126"
+      },
+      "localizationMethod": "System prompt injection - instructs model to respond for India customers",
+      "requestTemplate": {
+        "endpoint": "https://api.openai.com/v1/chat/completions",
+        "method": "POST",
+        "headers": {
+          "Content-Type": "application/json",
+          "Authorization": "Bearer ${OPENAI_API_KEY}"
+        },
+        "body": {
+          "model": "gpt-4o",
+          "messages": [
+            {
+              "role": "system",
+              "content": "${INDIA_SYSTEM_PROMPT}"
+            },
+            {
+              "role": "user",
+              "content": "${QUERY}"
+            }
+          ],
+          "max_tokens": 2000
+        }
+      },
+      "parameters": {
+        "model": "gpt-4o",
+        "systemPrompt": "You are a helpful shopping assistant answering questions for customers in India.\n\nWhen recommending products:\n- Provide prices in Indian Rupees (₹)\n- Recommend products available from Indian retailers (Amazon.in, Flipkart, BigBasket, Supertails, Heads Up For Tails, etc.)\n- Include Indian brands when relevant (Drools, Himalaya, HUFT, etc.)\n- Consider availability in the Indian market\n- Format product recommendations with clear pricing and where to buy\n\nBe specific and helpful with product recommendations that Indian consumers can actually purchase.",
+        "userLocation": null
+      }
+    },
+    {
+      "surfaceId": "openai-web-search-api",
+      "surfaceName": "OpenAI Web Search API + user_location",
+      "description": "OpenAI Responses API with web_search tool and user_location parameter set to India. This is the approach Ranjan used.",
+      "ipSource": {
+        "type": "direct",
+        "location": "Sun Valley, Idaho, US",
+        "ip": "184.183.124.126"
+      },
+      "localizationMethod": "user_location parameter - tells OpenAI to bias web search results for India",
+      "requestTemplate": {
+        "endpoint": "https://api.openai.com/v1/responses",
+        "method": "POST",
+        "headers": {
+          "Content-Type": "application/json",
+          "Authorization": "Bearer ${OPENAI_API_KEY}"
+        },
+        "body": {
+          "model": "gpt-4o",
+          "tools": [
+            {
+              "type": "web_search"
+            }
+          ],
+          "input": "${QUERY}",
+          "user_location": {
+            "type": "approximate",
+            "approximate": {
+              "country": "IN",
+              "region": "Maharashtra",
+              "city": "Mumbai",
+              "timezone": "Asia/Kolkata"
+            }
+          }
+        }
+      },
+      "parameters": {
+        "model": "gpt-4o",
+        "systemPrompt": null,
+        "userLocation": {
+          "type": "approximate",
+          "approximate": {
+            "country": "IN",
+            "region": "Maharashtra",
+            "city": "Mumbai",
+            "timezone": "Asia/Kolkata"
+          }
+        },
+        "webSearchEnabled": true
+      }
+    },
+    {
+      "surfaceId": "chatgpt-web-india-ip",
+      "surfaceName": "ChatGPT Web Interface + India IP",
+      "description": "ChatGPT.com accessed via India residential proxy. This captures what actual Indian consumers see.",
+      "ipSource": {
+        "type": "proxy",
+        "location": "Thủ Đức, Ho Chi Minh City (HCMC), VN",
+        "ip": "113.170.215.137",
+        "proxyProvider": "2Captcha Residential",
+        "proxyConfig": "zone-custom-region-in-st-maharashtra-city-mumbai"
+      },
+      "localizationMethod": "IP-based geolocation - ChatGPT.com detects India IP and localizes accordingly",
+      "requestTemplate": {
+        "endpoint": "https://chatgpt.com",
+        "method": "Browser automation (Playwright)",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+          "Accept-Language": "en-IN"
+        },
+        "body": {
+          "input": "${QUERY}",
+          "submittedVia": "DOM input field + submit button"
+        }
+      },
+      "parameters": {
+        "browserLocale": "en-IN",
+        "browserTimezone": "Asia/Kolkata",
+        "proxyServer": "http://170.106.118.114:2334",
+        "systemPrompt": null,
+        "userLocation": null
+      }
+    }
+  ]
+}

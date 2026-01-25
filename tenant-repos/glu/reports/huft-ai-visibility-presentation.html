@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUFT AI Visibility Strategy | Bentham Research</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: #fff;
+            color: #1a1a1a;
+            line-height: 1.4;
+        }
+
+        .slide {
+            min-height: 100vh;
+            padding: 60px 80px;
+            display: flex;
+            flex-direction: column;
+            border-bottom: 1px solid #e0e0e0;
+            page-break-after: always;
+        }
+
+        .slide-header {
+            margin-bottom: 40px;
+        }
+
+        .slide-number {
+            font-family: 'Arial', sans-serif;
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .action-title {
+            font-size: 32px;
+            font-weight: normal;
+            color: #000;
+            line-height: 1.2;
+            max-width: 900px;
+            border-left: 4px solid #0066cc;
+            padding-left: 20px;
+        }
+
+        .slide-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        .key-stat {
+            font-family: 'Arial', sans-serif;
+            font-size: 72px;
+            font-weight: bold;
+            color: #0066cc;
+            margin: 20px 0;
+        }
+
+        .key-stat-label {
+            font-family: 'Arial', sans-serif;
+            font-size: 18px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .key-stat-context {
+            font-size: 20px;
+            color: #333;
+            margin-top: 10px;
+            max-width: 600px;
+        }
+
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            margin-top: 30px;
+        }
+
+        .three-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 40px;
+            margin-top: 30px;
+        }
+
+        .column h3 {
+            font-family: 'Arial', sans-serif;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #666;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #0066cc;
+        }
+
+        .column p, .column li {
+            font-size: 16px;
+            margin-bottom: 12px;
+            color: #333;
+        }
+
+        .column ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .column li {
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .column li:before {
+            content: "—";
+            position: absolute;
+            left: 0;
+            color: #0066cc;
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .data-table th {
+            text-align: left;
+            padding: 12px 16px;
+            background: #f5f5f5;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #666;
+            border-bottom: 2px solid #0066cc;
+        }
+
+        .data-table td {
+            padding: 16px;
+            border-bottom: 1px solid #e0e0e0;
+            font-size: 15px;
+        }
+
+        .data-table tr:hover {
+            background: #fafafa;
+        }
+
+        .highlight-cell {
+            color: #0066cc;
+            font-weight: bold;
+        }
+
+        .negative-cell {
+            color: #cc0000;
+            font-weight: bold;
+        }
+
+        .positive-cell {
+            color: #008800;
+            font-weight: bold;
+        }
+
+        .callout-box {
+            background: #f8f9fa;
+            border-left: 4px solid #0066cc;
+            padding: 25px 30px;
+            margin: 30px 0;
+            max-width: 800px;
+        }
+
+        .callout-box h4 {
+            font-family: 'Arial', sans-serif;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #0066cc;
+            margin-bottom: 10px;
+        }
+
+        .callout-box p {
+            font-size: 18px;
+            color: #333;
+        }
+
+        .implication-box {
+            background: #fff3cd;
+            border-left: 4px solid #cc8800;
+            padding: 25px 30px;
+            margin: 30px 0;
+            max-width: 800px;
+        }
+
+        .implication-box h4 {
+            font-family: 'Arial', sans-serif;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #cc8800;
+            margin-bottom: 10px;
+        }
+
+        .stat-row {
+            display: flex;
+            gap: 60px;
+            margin: 30px 0;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-item .number {
+            font-family: 'Arial', sans-serif;
+            font-size: 48px;
+            font-weight: bold;
+            color: #0066cc;
+        }
+
+        .stat-item .label {
+            font-family: 'Arial', sans-serif;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        .comparison-bar {
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+        }
+
+        .bar-label {
+            width: 150px;
+            font-family: 'Arial', sans-serif;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .bar-container {
+            flex: 1;
+            height: 30px;
+            background: #f0f0f0;
+            position: relative;
+            margin: 0 15px;
+        }
+
+        .bar-fill {
+            height: 100%;
+            background: #0066cc;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 10px;
+        }
+
+        .bar-fill.negative {
+            background: #cc4444;
+        }
+
+        .bar-fill.positive {
+            background: #44aa44;
+        }
+
+        .bar-value {
+            font-family: 'Arial', sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .footnote {
+            font-family: 'Arial', sans-serif;
+            font-size: 11px;
+            color: #999;
+            margin-top: auto;
+            padding-top: 30px;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .logo {
+            font-family: 'Arial', sans-serif;
+            font-size: 11px;
+            color: #999;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .divider {
+            width: 60px;
+            height: 3px;
+            background: #0066cc;
+            margin: 30px 0;
+        }
+
+        .priority-tag {
+            display: inline-block;
+            font-family: 'Arial', sans-serif;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 4px 12px;
+            border-radius: 3px;
+            margin-left: 10px;
+        }
+
+        .priority-critical {
+            background: #cc0000;
+            color: white;
+        }
+
+        .priority-high {
+            background: #cc6600;
+            color: white;
+        }
+
+        .priority-medium {
+            background: #0066cc;
+            color: white;
+        }
+
+        .priority-low {
+            background: #999;
+            color: white;
+        }
+
+        .timeline-row {
+            display: flex;
+            align-items: stretch;
+            margin: 20px 0;
+        }
+
+        .timeline-phase {
+            flex: 1;
+            padding: 20px;
+            background: #f8f9fa;
+            border-left: 3px solid #0066cc;
+            margin-right: 20px;
+        }
+
+        .timeline-phase:last-child {
+            margin-right: 0;
+        }
+
+        .timeline-phase h4 {
+            font-family: 'Arial', sans-serif;
+            font-size: 12px;
+            text-transform: uppercase;
+            color: #0066cc;
+            margin-bottom: 10px;
+        }
+
+        .timeline-phase p {
+            font-size: 14px;
+            color: #333;
+        }
+
+        .exhibit-label {
+            font-family: 'Arial', sans-serif;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #0066cc;
+            margin-bottom: 15px;
+        }
+
+        @media print {
+            .slide {
+                page-break-after: always;
+                min-height: 100vh;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- SLIDE 1: Title -->
+<div class="slide" style="justify-content: center; align-items: center; text-align: center;">
+    <div class="logo" style="margin-bottom: 60px;">Bentham Research</div>
+    <h1 style="font-size: 42px; font-weight: normal; max-width: 800px; margin-bottom: 30px;">
+        AI Visibility Strategy for Heads Up For Tails
+    </h1>
+    <p style="font-size: 20px; color: #666; margin-bottom: 60px;">
+        Research findings and strategic recommendations
+    </p>
+    <div class="divider" style="margin: 0 auto;"></div>
+    <p style="font-size: 14px; color: #999; margin-top: 30px;">
+        January 2026 | Confidential
+    </p>
+</div>
+
+<!-- SLIDE 2: Executive Summary -->
+<div class="slide">
+    <div class="slide-header">
+        <div class="slide-number">Executive Summary</div>
+        <h2 class="action-title">HUFT dominates traditional search but is invisible where discovery is shifting—AI Overviews</h2>
+    </div>
+    <div class="slide-content">
+        <div class="stat-row">
+            <div class="stat-item">
+                <div class="number">75-85%</div>
+                <div class="label">Google Organic Presence</div>
+            </div>
+            <div class="stat-item">
+                <div class="number negative-cell" style="color: #cc0000;">11%</div>
+                <div class="label">AI Overview Presence</div>
+            </div>
+            <div class="stat-item">
+                <div class="number">67%</div>
+                <div class="label">Royal Canin AI Presence</div>
+            </div>
+        </div>
+
+        <div class="callout-box">
+            <h4>The Strategic Problem</h4>
+            <p>60% of Google searches now end without a click. Users get their answer from AI Overviews. HUFT is 6x less visible than competitors in this critical surface.</p>
+        </div>
+
+        <div class="two-column" style="margin-top: 40px;">
+            <div class="column">
+                <h3>Key Finding</h3>
+                <p>JSON-LD structured data does <strong>not</strong> correlate with AI Overview citation. Our study of 78 sites found identical JSON-LD rates (76.9%) between cited and non-cited sites.</p>
+                <p style="margin-top: 20px;"><strong>Implication:</strong> The industry's GEO/GLU premise is not supported by evidence.</p>
+            </div>
+            <div class="column">
+                <h3>What Actually Matters</h3>
+                <ul>
+                    <li>Presence in third-party comparison tables</li>
+                    <li>User-generated content mentions (Quora, Reddit)</li>
+                    <li>Being recommended by others, not just being indexed</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footnote">
+        <span class="logo">Bentham Research</span> | Based on 100 queries, 78 site audits, India pet food market | January 2026
+    </div>
+</div>
+
+<!-- SLIDE 3: The Situation -->
+<div class="slide">
+    <div class="slide-header">
+        <div class="slide-number">Situation</div>
+        <h2 class="action-title">Google AI Overviews appear on 84% of pet product searches and are growing</h2>
+    </div>
+    <div class="slide-content">
+        <p class="exhibit-label">Exhibit 1: AI Overview Appearance Rate by Query Category</p>
+
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Query Category</th>
+                    <th>AI Overview Rate</th>
+                    <th>Avg Sources Cited</th>
+                    <th>HUFT Appears</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Breed-specific food queries</td>
+                    <td>70%</td>
+                    <td>8.2</td>
+                    <td class="negative-cell">15%</td>
+                </tr>
+                <tr>
+                    <td>Brand comparison queries</td>
+                    <td>40%</td>
+                    <td>6.0</td>
+                    <td class="negative-cell">8%</td>
+                </tr>
+                <tr>
+                    <td>General "best dog food" queries</td>
+                    <td>65%</td>
+                    <td>9.1</td>
+                    <td class="negative-cell">12%</td>
+                </tr>
+                <tr>
+                    <td>Cat food queries</td>
+                    <td>50%</td>
+                    <td>7.4</td>
+                    <td class="negative-cell">10%</td>
+                </tr>
+                <tr>
+                    <td>Feeding/nutrition queries</td>
+                    <td>30%</td>
+                    <td>10.0</td>
+                    <td class="negative-cell">5%</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="implication-box">
+            <h4>Why This Matters</h4>
+            <p>AI Overviews capture the "consideration set" moment. Users see which brands are recommended before they ever reach organic results. HUFT is absent from this critical touchpoint while competitors dominate.</p>
+        </div>
+    </div>
+    <div class="footnote">
+        <span class="logo">Bentham Research</span> | n=100 queries via SerpAPI, Mumbai location, Google.co.in | January 2026
+    </div>
+</div>
+
+<!-- SLIDE 4: The Complication -->
+<div class="slide">
+    <div class="slide-header">
+        <div class="slide-number">Complication</div>
+        <h2 class="action-title">Competitors are 6x more visible than HUFT in AI Overviews despite weaker organic presence</h2>
+    </div>
+    <div class="slide-content">
+        <p class="exhibit-label">Exhibit 2: Brand Visibility Across Discovery Surfaces</p>
+
+        <div style="margin: 30px 0;">
+            <div class="comparison-bar">
+                <div class="bar-label">HUFT</div>
+                <div class="bar-container">
+                    <div class="bar-fill negative" style="width: 11%;"><span class="bar-value">11%</span></div>
+                </div>
+                <span style="font-family: Arial; font-size: 12px; color: #666;">AI Overview</span>
+            </div>
+            <div class="comparison-bar">
+                <div class="bar-label">Royal Canin</div>
+                <div class="bar-container">
+                    <div class="bar-fill positive" style="width: 67%;"><span class="bar-value">67%</span></div>
+                </div>
+            </div>
+            <div class="comparison-bar">
+                <div class="bar-label">Pedigree</div>
+                <div class="bar-container">
+                    <div class="bar-fill positive" style="width: 63%;"><span class="bar-value">63%</span></div>
+                </div>
+            </div>
+            <div class="comparison-bar">
+                <div class="bar-label">Drools</div>
+                <div class="bar-container">
+                    <div class="bar-fill positive" style="width: 57%;"><span class="bar-value">57%</span></div>
+                </div>
+            </div>
+            <div class="comparison-bar">
+                <div class="bar-label">Farmina</div>
+                <div class="bar-container">
+                    <div class="bar-fill positive" style="width: 61%;"><span class="bar-value">61%</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="callout-box">
+            <h4>The Paradox</h4>
+            <p>HUFT has stronger organic search presence (75-85%) than all competitors. Yet in AI Overviews—where 60% of search journeys now end—HUFT trails by a factor of 6x.</p>
+        </div>
+
+        <p style="margin-top: 30px; font-size: 16px; color: #333;">
+            <strong>This is not a technical SEO problem.</strong> Our research reveals the root cause is fundamentally different from what the industry assumes.
+        </p>
+    </div>
+    <div class="footnote">
+        <span class="logo">Bentham Research</span> | Brand mention rates in AI Overview text across 23 AI Overview responses | January 2026
+    </div>
+</div>
+
+<!-- SLIDE 5: The Discovery -->
+<div class="slide">
+    <div class="slide-header">
+        <div class="slide-number">Key Finding</div>
+        <h2 class="action-title">JSON-LD structured data does not predict AI Overview citation—challenging GEO industry assumptions</h2>
+    </div>
+    <div class="slide-content">
+        <p class="exhibit-label">Exhibit 3: JSON-LD Correlation Analysis (n=78 sites)</p>
+
+        <div class="two-column">
+            <div class="column">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Group</th>
+                            <th>Has JSON-LD</th>
+                            <th>Rate</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>AI Overview Cited</td>
+                            <td>30 / 39</td>
+                            <td><strong>76.9%</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Organic Only</td>
+                            <td>30 / 39</td>
+                            <td><strong>76.9%</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div style="margin-top: 30px; padding: 20px; background: #f0f0f0;">
+                    <p style="font-family: Arial; font-size: 14px; color: #666; margin-bottom: 10px;">STATISTICAL RESULTS</p>
+                    <p style="font-family: Arial; font-size: 24px; color: #333;"><strong>Chi-square:</strong> 0.000</p>
+                    <p style="font-family: Arial; font-size: 24px; color: #333;"><strong>Odds Ratio:</strong> 1.00</p>
+                    <p style="font-family: Arial; font-size: 24px; color: #333;"><strong>p-value:</strong> > 0.10</p>
+                </div>
+            </div>
+            <div class="column">
+                <h3>Sites Cited WITHOUT JSON-LD</h3>
+                <ul>
+                    <li>Quora.com</li>
+                    <li>YouTube.com</li>
+                    <li>Facebook.com</li>
+                    <li>Instagram.com</li>
+                    <li><strong>RoyalCanin.com</strong></li>
+                    <li>BlueCross.org.uk</li>
+                </ul>
+
+                <div class="implication-box" style="margin-top: 30px;">
+                    <h4>Implication</h4>
+                    <p>Royal Canin has NO JSON-LD yet appears in 87% of AI Overviews. The GEO premise that schema markup drives AI visibility is not supported.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footnote">
+        <span class="logo">Bentham Research</span> | 78 domains audited, 39 per group, valid HTTP responses only | January 2026
+    </div>
+</div>
+
+<!-- SLIDE 6: What Actually Matters -->
+<div class="slide">
+    <div class="slide-header">
+        <div class="slide-number">Root Cause Analysis</div>
+        <h2 class="action-title">AI Overviews cite third-party sources and extract HTML tables—brand sites are rarely cited directly</h2>
+    </div>
+    <div class="slide-content">
+        <p class="exhibit-label">Exhibit 4: Top Sources Cited in AI Overviews</p>
+
+        <div class="two-column">
+            <div class="column">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Domain</th>
+                            <th>Citations</th>
+                            <th>Type</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>supertails.com</td>
+                            <td class="highlight-cell">16</td>
+                            <td>Retailer</td>
+                        </tr>
+                        <tr>
+                            <td>quora.com</td>
+                            <td class="highlight-cell">11</td>
+                            <td>UGC</td>
+                        </tr>
+                        <tr>
+                            <td>youtube.com</td>
+                            <td class="highlight-cell">10</td>
+                            <td>Video</td>
+                        </tr>
+                        <tr>
+                            <td>petindiaonline.com</td>
+                            <td>8</td>
+                            <td>Content</td>
+                        </tr>
+                        <tr>
+                            <td>amazon.in</td>
+                            <td>7</td>
+                            <td>Marketplace</td>
+                        </tr>
+                        <tr>
+                            <td>petsworld.in</td>
+                            <td>7</td>
+                            <td>Retailer</td>
+                        </tr>
+                        <tr>
+                            <td>headsupfortails.com</td>
+                            <td class="negative-cell">5</td>
+                            <td>Retailer</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="column">
+                <h3>The Key Distinction</h3>
+                <p><strong>Being cited as a source ≠ Being recommended as a brand</strong></p>
+
+                <div style="margin: 30px 0; padding: 20px; background: #f0f0f0;">
+                    <p style="font-family: Arial; font-size: 14px; color: #666;">ROYAL CANIN</p>
+                    <p style="font-size: 18px;"><strong>0</strong> times cited as source</p>
+                    <p style="font-size: 18px;"><strong>87%</strong> of AI Overviews mention brand</p>
+                </div>
+
+                <div style="padding: 20px; background: #fff3cd;">
+                    <p style="font-family: Arial; font-size: 14px; color: #cc8800;">HUFT</p>
+                    <p style="font-size: 18px;"><strong>5</strong> times cited as source</p>
+                    <p style="font-size: 18px;"><strong>13%</strong> of AI Overviews mention brand</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="callout-box" style="margin-top: 30px;">
+            <h4>Critical Insight</h4>
+            <p>Google extracts brand recommendations from third-party comparison tables. URL fragments in citations show <code>Table_title</code> and <code>Table_content</code> extraction. HUFT must appear in these tables to be recommended.</p>
+        </div>
+    </div>
+    <div class="footnote">
+        <span class="logo">Bentham Research</span> | 153 unique source URLs from 23 AI Overview responses | January 2026
+    </div>
+</div>
+
+<!-- SLIDE 7: The Solution -->
+<div class="slide">
+    <div class="slide-header">
+        <div class="slide-number">Strategic Recommendation</div>
+        <h2 class="action-title">HUFT must pivot from technical SEO to third-party presence to win in AI Overviews</h2>
+    </div>
+    <div class="slide-content">
+        <div class="three-column">
+            <div class="column">
+                <h3>Priority 1: Third-Party Tables <span class="priority-tag priority-critical">Critical</span></h3>
+                <ul>
+                    <li>Get included in comparison tables on supertails.com, zigly.com, petsworld.in</li>
+                    <li>Ensure HUFT appears in "Top 10" and "Best X" lists</li>
+                    <li>Target sites Google actually cites (see Exhibit 4)</li>
+                </ul>
+                <p style="margin-top: 15px; font-size: 14px; color: #666;"><strong>Impact:</strong> Direct driver of AI recommendation</p>
+            </div>
+            <div class="column">
+                <h3>Priority 2: UGC Presence <span class="priority-tag priority-high">High</span></h3>
+                <ul>
+                    <li>Monitor and engage on Quora pet food threads</li>
+                    <li>Build authentic Reddit presence in r/IndianPets</li>
+                    <li>Encourage customer testimonials on these platforms</li>
+                </ul>
+                <p style="margin-top: 15px; font-size: 14px; color: #666;"><strong>Impact:</strong> Second-largest citation source</p>
+            </div>
+            <div class="column">
+                <h3>Priority 3: Own-Site Content <span class="priority-tag priority-medium">Medium</span></h3>
+                <ul>
+                    <li>Create HTML comparison tables (not just JSON-LD)</li>
+                    <li>Build "Best X for Y" content Google can extract</li>
+                    <li>Include competitor products in comparisons</li>
+                </ul>
+                <p style="margin-top: 15px; font-size: 14px; color: #666;"><strong>Impact:</strong> Increases citation likelihood</p>
+            </div>
+        </div>
+
+        <div class="implication-box" style="margin-top: 40px;">
+            <h4>Deprioritize</h4>
+            <p><strong>JSON-LD/Schema Implementation:</strong> Move from "Critical" to "Low" priority. Still valuable for traditional SEO rich snippets, but does not drive AI Overview visibility. Implement as hygiene, not strategy.</p>
+        </div>
+    </div>
+    <div class="footnote">
+        <span class="logo">Bentham Research</span> | Recommendations based on correlation analysis and source citation patterns | January 2026
+    </div>
+</div>
+
+<!-- SLIDE 8: Implementation Roadmap -->
+<div class="slide">
+    <div class="slide-header">
+        <div class="slide-number">Implementation</div>
+        <h2 class="action-title">A 90-day sprint focused on third-party presence can meaningfully shift HUFT's AI visibility</h2>
+    </div>
+    <div class="slide-content">
+        <p class="exhibit-label">Exhibit 5: Recommended Implementation Roadmap</p>
+
+        <div class="timeline-row">
+            <div class="timeline-phase">
+                <h4>Month 1: Discovery & Outreach</h4>
+                <p><strong>Week 1-2:</strong> Audit HUFT presence on all 16 sites cited in AI Overviews</p>
+                <p><strong>Week 2-3:</strong> Identify contacts at supertails.com, petsworld.in, petindiaonline.com</p>
+                <p><strong>Week 3-4:</strong> Initial outreach for comparison table inclusion</p>
+            </div>
+            <div class="timeline-phase">
+                <h4>Month 2: Content & Partnerships</h4>
+                <p><strong>Week 5-6:</strong> Create own-site comparison tables with HTML structure</p>
+                <p><strong>Week 6-8:</strong> Secure 3-5 third-party table placements</p>
+                <p><strong>Week 7-8:</strong> Launch Quora/Reddit engagement program</p>
+            </div>
+            <div class="timeline-phase">
+                <h4>Month 3: Scale & Measure</h4>
+                <p><strong>Week 9-10:</strong> Expand to 10+ third-party placements</p>
+                <p><strong>Week 10-12:</strong> Measure AI Overview presence changes</p>
+                <p><strong>Week 12:</strong> Report results and iterate</p>
+            </div>
+        </div>
+
+        <table class="data-table" style="margin-top: 30px;">
+            <thead>
+                <tr>
+                    <th>Target Metric</th>
+                    <th>Current</th>
+                    <th>30-Day</th>
+                    <th>60-Day</th>
+                    <th>90-Day</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>AI Overview brand mentions</td>
+                    <td class="negative-cell">11%</td>
+                    <td>15%</td>
+                    <td>22%</td>
+                    <td class="positive-cell">30%</td>
+                </tr>
+                <tr>
+                    <td>Third-party table placements</td>
+                    <td class="negative-cell">~3</td>
+                    <td>5</td>
+                    <td>8</td>
+                    <td class="positive-cell">12</td>
+                </tr>
+                <tr>
+                    <td>Quora mentions (monthly)</td>
+                    <td>Unknown</td>
+                    <td>Baseline</td>
+                    <td>+25%</td>
+                    <td class="positive-cell">+50%</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="footnote">
+        <span class="logo">Bentham Research</span> | Targets are directional estimates; actual results depend on execution quality | January 2026
+    </div>
+</div>
+
+<!-- SLIDE 9: Key Takeaways -->
+<div class="slide">
+    <div class="slide-header">
+        <div class="slide-number">Conclusion</div>
+        <h2 class="action-title">Three things HUFT must internalize to win in the AI-driven discovery landscape</h2>
+    </div>
+    <div class="slide-content">
+        <div class="three-column" style="margin-top: 40px;">
+            <div style="text-align: center; padding: 30px;">
+                <div style="font-family: Arial; font-size: 72px; color: #0066cc; font-weight: bold;">1</div>
+                <h3 style="font-size: 18px; margin: 20px 0;">JSON-LD is not the answer</h3>
+                <p style="font-size: 15px; color: #333;">Our correlation study found zero relationship between structured data and AI Overview citation. Deprioritize schema work; focus on content and distribution.</p>
+            </div>
+            <div style="text-align: center; padding: 30px;">
+                <div style="font-family: Arial; font-size: 72px; color: #0066cc; font-weight: bold;">2</div>
+                <h3 style="font-size: 18px; margin: 20px 0;">Third parties control your fate</h3>
+                <p style="font-size: 15px; color: #333;">Google cites comparison sites and UGC platforms, then extracts brand recommendations from their tables. HUFT must appear in these sources to be recommended.</p>
+            </div>
+            <div style="text-align: center; padding: 30px;">
+                <div style="font-family: Arial; font-size: 72px; color: #0066cc; font-weight: bold;">3</div>
+                <h3 style="font-size: 18px; margin: 20px 0;">Citation ≠ Recommendation</h3>
+                <p style="font-size: 15px; color: #333;">Royal Canin is cited 0 times but recommended in 87% of AI Overviews. The goal is to be in the content Google extracts from, not to be the source URL.</p>
+            </div>
+        </div>
+
+        <div class="callout-box" style="margin-top: 60px; text-align: center; max-width: 100%;">
+            <p style="font-size: 20px;"><strong>The brands that dominate AI Overviews today will shape consumer consideration sets tomorrow.</strong><br>HUFT has 90 days to shift from organic search leader to AI discovery leader—or cede that ground to competitors.</p>
+        </div>
+    </div>
+    <div class="footnote">
+        <span class="logo">Bentham Research</span> | Research conducted January 23-25, 2026 | 480 queries, 78 site audits, India market
+    </div>
+</div>
+
+<!-- SLIDE 10: Appendix -->
+<div class="slide">
+    <div class="slide-header">
+        <div class="slide-number">Appendix</div>
+        <h2 class="action-title">Methodology and data sources</h2>
+    </div>
+    <div class="slide-content">
+        <div class="two-column">
+            <div class="column">
+                <h3>Research Components</h3>
+                <ul>
+                    <li><strong>AI Overview Study:</strong> 100 pet food queries via SerpAPI, Mumbai location, Google.co.in</li>
+                    <li><strong>JSON-LD Correlation:</strong> 78 sites audited (39 AI-cited, 39 organic-only)</li>
+                    <li><strong>Competitive Analysis:</strong> 480 queries across Google, ChatGPT, Gemini</li>
+                    <li><strong>Surface Configurations:</strong> 24 combinations of surface, location, and query suffix</li>
+                </ul>
+
+                <h3 style="margin-top: 30px;">Statistical Methods</h3>
+                <ul>
+                    <li>Chi-square test for independence</li>
+                    <li>Odds ratio with interpretation</li>
+                    <li>p-value threshold: 0.05</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Data Files</h3>
+                <ul>
+                    <li><code>pet-food-100-study-results.json</code> — Full query results</li>
+                    <li><code>jsonld-correlation-audit.json</code> — Site audit data</li>
+                    <li><code>jsonld-correlation-findings.md</code> — Analysis report</li>
+                    <li><code>huft-web-presence-overview.md</code> — Strategic recommendations</li>
+                </ul>
+
+                <h3 style="margin-top: 30px;">Limitations</h3>
+                <ul>
+                    <li>India market only; may not generalize</li>
+                    <li>Pet food vertical only</li>
+                    <li>Point-in-time snapshot (January 2026)</li>
+                    <li>Correlation does not prove causation</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footnote">
+        <span class="logo">Bentham Research</span> | For questions: research@bentham.ai | January 2026
+    </div>
+</div>
+
+</body>
+</html>

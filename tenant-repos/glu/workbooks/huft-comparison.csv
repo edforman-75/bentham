@@ -1,0 +1,13 @@
+Study,Surface,IP,Prompt Type,HUFT Mentions,Queries with HUFT (of 20),Prominent Mentions,Top 3 Ranked,Mention Score,Prominence Score,Positivity Score,Ranking Score,Comprehensiveness Score,Confidence Score,Overall Score
+1,ChatGPT Web,India,Original,70,13,12,4,10,10,9,8,7,9,8.8
+2,ChatGPT Web,India,India Suffix,73,15,10,3,10,8,9,6,8,8,8.2
+3,ChatGPT Web,US,India Suffix,50,12,8,2,7,7,7,4,6,6,6.2
+12,ChatGPT Web,US,Original,31,3,2,1,4,2,4,2,2,2,2.7
+4,Chat API,US,India Suffix,22,10,5,1,3,4,4,2,5,3,3.5
+5,Chat API,India,India Suffix,18,7,6,1,3,5,4,2,4,4,3.7
+8,Chat API,US,Original,7,3,2,0,1,2,2,0,2,1,1.3
+10,Chat API,India,Original,3,3,1,0,0,1,1,0,2,1,0.8
+6,Web Search API,US,India Suffix,30,6,4,1,4,3,5,2,3,3,3.3
+7,Web Search API,India,India Suffix,36,7,4,2,5,3,5,4,4,4,4.2
+9,Web Search API,US,Original,8,2,1,0,1,1,2,0,1,1,1.0
+11,Web Search API,India,Original,1,1,1,0,0,1,1,0,1,1,0.7

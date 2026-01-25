@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HUFT ChatGPT Web Layer Analysis | Glu</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      margin: 0; padding: 0; background: #f5f5f5;
+      line-height: 1.6;
+    }
+    .glu-header {
+      background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 50%, #0d1117 100%);
+      color: white;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+      border-bottom: 3px solid #00d9ff;
+    }
+    .glu-header-left {
+      padding: 15px 25px;
+      display: flex;
+      align-items: center;
+    }
+    .glu-logo {
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: -2px;
+    }
+    .glu-logo span { color: #00d9ff; }
+    .glu-header-center {
+      padding: 15px 25px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex: 1;
+      background: rgba(0, 217, 255, 0.05);
+    }
+    .report-title { font-size: 18px; font-weight: 600; }
+    .report-subtitle { font-size: 12px; color: #888; margin-top: 2px; }
+    .glu-header-right {
+      padding: 15px 25px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+    }
+    .report-date { font-size: 14px; color: #00d9ff; font-weight: 500; }
+    .container { max-width: 1400px; margin: 0 auto; padding: 30px; }
+    h1 { color: #0f0f1a; margin-bottom: 5px; }
+    h2 { color: #1a1a2e; border-bottom: 2px solid #00d9ff; padding-bottom: 10px; margin-top: 40px; }
+    h3 { color: #333; margin-top: 25px; }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 25px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+      margin: 20px 0;
+    }
+    .stat-card {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .stat-card.green { background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); }
+    .stat-card.orange { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+    .stat-card.blue { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
+    .stat-card.purple { background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); }
+    .stat-value { font-size: 32px; font-weight: bold; }
+    .stat-label { font-size: 12px; opacity: 0.9; margin-top: 5px; }
+
+    .layer-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    .layer-table th, .layer-table td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #eee;
+    }
+    .layer-table th {
+      background: #f8f9fa;
+      font-weight: 600;
+    }
+    .check { color: #2e7d32; font-weight: bold; }
+    .x { color: #c62828; }
+
+    .explanation-box {
+      background: #e3f2fd;
+      border-left: 4px solid #1976d2;
+      padding: 15px 20px;
+      margin: 20px 0;
+      border-radius: 0 8px 8px 0;
+    }
+    .explanation-box h4 {
+      margin: 0 0 10px 0;
+      color: #1565c0;
+    }
+
+    .warning-box {
+      background: #fff3e0;
+      border-left: 4px solid #ff9800;
+      padding: 15px 20px;
+      margin: 20px 0;
+      border-radius: 0 8px 8px 0;
+    }
+
+    .comparison-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin: 20px 0;
+    }
+    .response-panel {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 15px;
+      max-height: 400px;
+      overflow-y: auto;
+    }
+    .response-panel h4 {
+      margin: 0 0 10px 0;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+    .response-panel.api { border-top: 3px solid #1976d2; }
+    .response-panel.web { border-top: 3px solid #00d9ff; }
+    .response-text {
+      white-space: pre-wrap;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 12px;
+      font-size: 11px;
+      font-weight: 500;
+      margin: 2px;
+    }
+    .badge-emoji { background: #fce4ec; color: #c2185b; }
+    .badge-shopping { background: #e8f5e9; color: #2e7d32; }
+    .badge-citation { background: #e3f2fd; color: #1565c0; }
+    .badge-browsing { background: #fff3e0; color: #e65100; }
+    .badge-brand { background: #f3e5f5; color: #7b1fa2; }
+
+    .augmentation-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 10px 0;
+    }
+
+    .emoji-display {
+      font-size: 20px;
+      letter-spacing: 5px;
+    }
+
+    .glu-footer {
+      background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 100%);
+      color: #888;
+      padding: 30px;
+      margin-top: 40px;
+      border-top: 3px solid #00d9ff;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header class="glu-header">
+    <div class="glu-header-left">
+      <div class="glu-logo">gl<span>u</span></div>
+    </div>
+    <div class="glu-header-center">
+      <div class="report-title">HUFT ChatGPT Web Layer Analysis</div>
+      <div class="report-subtitle">Understanding the delta between OpenAI API and ChatGPT.com</div>
+    </div>
+    <div class="glu-header-right">
+      <div class="report-date">January 18, 2026</div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2 style="margin-top: 0; border: none; padding: 0;">Executive Summary</h2>
+      <p>This analysis examines 5 pet food queries sent to both the OpenAI API and ChatGPT.com to understand what augmentations the web layer adds to the base model responses.</p>
+
+      <div class="summary-grid">
+        <div class="stat-card">
+          <div class="stat-value">2.5x</div>
+          <div class="stat-label">Avg Response Length Ratio</div>
+        </div>
+        <div class="stat-card green">
+          <div class="stat-value">3/5</div>
+          <div class="stat-label">With Browsing/Search</div>
+        </div>
+        <div class="stat-card orange">
+          <div class="stat-value">3/5</div>
+          <div class="stat-label">With Shopping Results</div>
+        </div>
+        <div class="stat-card blue">
+          <div class="stat-value">5/5</div>
+          <div class="stat-label">With Emoji Formatting</div>
+        </div>
+        <div class="stat-card purple">
+          <div class="stat-value">2.5x</div>
+          <div class="stat-label">Avg Response Time Ratio</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2 style="margin-top: 0; border: none; padding: 0;">Web Layer Augmentations Explained</h2>
+
+      <div class="explanation-box">
+        <h4>🛒 Shopping Results & Product Cards</h4>
+        <p>ChatGPT.com integrates with e-commerce APIs to display real-time product information including prices, retailer names, and availability. This is NOT available via the OpenAI API.</p>
+        <p><strong>Detected in:</strong> 3/5 queries (60%)</p>
+        <p><strong>Example:</strong> "Petcurean Go! Sensitivities Limited Ingredient Dry Dog Food $21.99 • Chewy.com + others"</p>
+      </div>
+
+      <div class="explanation-box">
+        <h4>🔍 Browsing & Search Integration</h4>
+        <p>The web interface can invoke a browsing tool to fetch current information from the internet, resulting in source citations [Like This] and up-to-date pricing/availability data.</p>
+        <p><strong>Detected in:</strong> 3/5 queries (60%)</p>
+        <p><strong>Indicators:</strong> Retailer links, source citations, "multi-retailer aggregation" patterns</p>
+      </div>
+
+      <div class="explanation-box">
+        <h4>📝 Structured Formatting & Emojis</h4>
+        <p>Web responses use visual hierarchy with emoji headers (🥇 Top Picks, 🐶 Tips) to improve readability. This formatting preference appears to be part of the web system prompt.</p>
+        <p><strong>Detected in:</strong> 5/5 queries (100%)</p>
+        <p><strong>Emojis found:</strong> <span class="emoji-display">🥇 🍲 🧠 🐶 🐩 💪 🍖 🌱</span></p>
+      </div>
+
+      <div class="explanation-box">
+        <h4>💬 Follow-up Engagement Prompts</h4>
+        <p>Web responses frequently end with personalized engagement prompts asking for more context to provide tailored recommendations.</p>
+        <p><strong>Detected in:</strong> 3/5 queries (60%)</p>
+        <p><strong>Example:</strong> "If you share your dog's age, size, and any dietary sensitivities, I can tailor this list..."</p>
+      </div>
+
+      <div class="warning-box">
+        <h4>⚠️ Brand Visibility Implications</h4>
+        <p>The browsing/shopping augmentation significantly changes which brands appear in responses. Some brands appeared <strong>only</strong> in web results (likely from real-time search), while others appeared <strong>only</strong> in API results (from training data).</p>
+        <p><strong>Web-only brands:</strong> Taste of the Wild, Instinct, Weruva, JustFoodForDogs, Purina, Royal Canin, Hill's, Nutro, Victor, Petcurean, Pure Balance, Rachael Ray, Bully Max, Native Pet, Greenies, VetIQ</p>
+        <p><strong>API-only brands:</strong> Royal Canin, Hill's, Wellness, Nutro, Natural Balance, Canidae, Zignature, Merrick, Instinct, Stella & Chewy, Fromm, NutriSource, Solid Gold, Nulo, Ziwi Peak, PetHonesty, NaturVet, FurroLandia, Dr. Lyon</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2 style="margin-top: 0; border: none; padding: 0;">Detection Summary by Query</h2>
+      <table class="layer-table">
+        <thead>
+          <tr>
+            <th>Query</th>
+            <th>Length Ratio</th>
+            <th>Browsing</th>
+            <th>Shopping</th>
+            <th>Emojis</th>
+            <th>Citations</th>
+            <th>Follow-up</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+          <tr>
+            <td>What's the best dog food for your dog if they are ...</td>
+            <td>1.6x</td>
+            <td class="x">✗</td>
+            <td class="x">✗</td>
+            <td class="check">3</td>
+            <td class="x">✗</td>
+            <td class="check">✓</td>
+          </tr>
+          
+          <tr>
+            <td>What is the best wet dog food for dogs for regular...</td>
+            <td>1.9x</td>
+            <td class="x">✗</td>
+            <td class="x">✗</td>
+            <td class="check">2</td>
+            <td class="x">✗</td>
+            <td class="check">✓</td>
+          </tr>
+          
+          <tr>
+            <td>What are the best options for dry dog food for dog...</td>
+            <td>1.8x</td>
+            <td class="check">✓</td>
+            <td class="check">✓</td>
+            <td class="check">3</td>
+            <td class="x">✗</td>
+            <td class="x">✗</td>
+          </tr>
+          
+          <tr>
+            <td>Can you list popular pet food brands with good mea...</td>
+            <td>4.9x</td>
+            <td class="check">✓</td>
+            <td class="check">✓</td>
+            <td class="check">4</td>
+            <td class="x">✗</td>
+            <td class="check">✓</td>
+          </tr>
+          
+          <tr>
+            <td>What are good allergy chews for dogs with food sen...</td>
+            <td>2.5x</td>
+            <td class="check">✓</td>
+            <td class="check">✓</td>
+            <td class="check">3</td>
+            <td class="x">✗</td>
+            <td class="x">✗</td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>
+
+    <h2>Side-by-Side Response Comparisons</h2>
+
+    
+    <div class="card">
+      <h3>Q1: "What's the best dog food for your dog if they are picky?"</h3>
+
+      <div class="augmentation-list">
+        
+        
+        <span class="badge badge-emoji">😊 3 Emojis</span>
+        
+        <span class="badge badge-brand">💬 Follow-up Prompt</span>
+      </div>
+
+      <p><strong>Length:</strong> API 1156 chars → Web 1904 chars (1.6x)</p>
+      <p><strong>Time:</strong> API 6508ms → Web 11712ms (1.8x slower)</p>
+
+      <p><strong>Brands only in Web response:</strong> Taste of the Wild, Instinct, Weruva, JustFoodForDogs</p>
+      <p><strong>Brands only in API response:</strong> Royal Canin, Hill's, Wellness</p>
+
+      <div class="comparison-section">
+        <div class="response-panel api">
+          <h4>🔌 OpenAI API Response</h4>
+          <div class="response-text">The best dog food for picky eaters would depend on their specific preferences, dietary needs, and any allergies. However, some highly rated options include:
+
+1. &quot;Blue Buffalo Wilderness High Protein Dry Dog Food&quot; - praised for its real chicken and healthy fruits and vegetables.
+
+2. &quot;Rachel Ray Nutrish Natural Dry Dog Food&quot; - it provides natural prebiotics to help support digestion and is a favorite among such dogs.
+
+3. &quot;Royal Canin Size Health Nutrition Mini Adult Dry Dog Food&quot; - it has a mixture of flavors and texture that dogs commonly enjoy. 
+
+4. &quot;Hill&#039;s Science Diet Dry Dog Food, Adult for Small &amp; Toy Breeds&quot; - it appeals to many dogs and is specially designed for small breeds.
+
+5. &quot;Purina Pro Plan SAVOR Shredded Blend With Probiotics&quot; - it has both soft pieces and crunchy bites which provide variety to the dog. 
+
+6. &quot;Wellness Core Natural Grain Free Dry Dog Food&quot; – it helps support your dog’s optimal health without any grains, fillers, or meat by-products.
+
+The &quot;best&quot; food may vary so it&#039;s recommended to try out a few different ones to see which your dog prefers. Please consult with a vet before making any changes to your pet&#039;s diet.</div>
+        </div>
+        <div class="response-panel web">
+          <h4>🌐 ChatGPT.com Response</h4>
+          <div class="response-text">When it comes to picky eaters, the “best” dog food tends to be one that’s highly palatable with strong aroma and real meat first ingredients — foods that smell and taste good are often easier to get finicky dogs to eat consistently. Many dog owners find success with formulas that feature wet food, protein-rich dry food, or a mix of both.
+
+🥇 Top Picks for Picky Eaters
+
+1. Purina ONE True Instinct Tender Cuts in Gravy – Tender cuts with rich gravy that many picky dogs love.
+2. Purina ONE Classic Wet or Ground Entrée – Soft texture and savory flavor often entice even finicky eaters.
+3. Blue Buffalo Homestyle Recipe (Beef or Chicken) – Real meat with hearty broth and appealing texture.
+4. Taste of the Wild Pacific Stream (Salmon) – Strong aroma and novel protein that appeals to many picky palates.
+5. Weruva Best Fido Friend Wet Meals – Wet, meaty meals with real chunks in broth — often irresistible for selective eaters.
+6. JustFoodForDogs Pantry Fresh Recipes – Fresh, whole-food meals with familiar flavors that appeal to many dogs.
+
+🍲 Tips to Get Picky Dogs to Eat
+
+Mix Wet + Dry: Adding a bit of wet food or broth to dry kibble increases aroma and texture appeal.
+
+Warm It Up: Slightly warming food (especially wet) boosts scent and can trigger interest.
+
+Rotate Proteins: Offer variety like chicken, beef, or fish to keep meals exciting.
+
+Try Toppers: Add a small amount of plain cooked meat, bone broth, or a commercial food topper to boost flavor.
+
+🧠 Quick Guidance
+
+There isn’t a single best food that works for every picky dog — but brands/formulas with strong flavors, real meat first ingredients, and moist texture tend to work best overall. Wet foods or high-quality dry foods with gravy also improve palatability.
+
+If you share your dog’s age, size, and any dietary sensitivities (e.g., allergies or stomach issues), I can tailor this list to what’s likely to work best for them.</div>
+        </div>
+      </div>
+    </div>
+      
+    <div class="card">
+      <h3>Q2: "What is the best wet dog food for dogs for regular feeding?"</h3>
+
+      <div class="augmentation-list">
+        
+        
+        <span class="badge badge-emoji">😊 2 Emojis</span>
+        
+        <span class="badge badge-brand">💬 Follow-up Prompt</span>
+      </div>
+
+      <p><strong>Length:</strong> API 721 chars → Web 1350 chars (1.9x)</p>
+      <p><strong>Time:</strong> API 4581ms → Web 11263ms (2.5x slower)</p>
+
+      <p><strong>Brands only in Web response:</strong> Purina, Instinct</p>
+      <p><strong>Brands only in API response:</strong> Nutro, Natural Balance</p>
+
+      <div class="comparison-section">
+        <div class="response-panel api">
+          <h4>🔌 OpenAI API Response</h4>
+          <div class="response-text">One of the best wet dog food for regular feeding is Hills Science Diet Wet Dog Food. It&#039;s specifically designed for adult dogs and offers balanced nutrition. It is made from high-quality ingredients and is often recommended by veterinarians. This dog food provides complete nutrition, supports healthy organs, and assists in maintaining the optimal body weight.
+
+Other options include:
+
+Blue Buffalo Homestyle Recipe
+Natural Balance L.I.D. Limited Ingredient Diets
+Wellness Core Grain Free Dog Food
+Nutro Ultra Grain Free Dog Food.
+
+Remember, each dog is unique, and their needs might differ based on their breed, age, size, and health condition. Therefore, always consult the vet before deciding the diet for your pooch.</div>
+        </div>
+        <div class="response-panel web">
+          <h4>🌐 ChatGPT.com Response</h4>
+          <div class="response-text">The best wet dog food for regular feeding depends on your dog’s size, age, and dietary needs, but generally the top choices are ones that are complete &amp; balanced, list real meat as the first ingredient, and have good digestibility and palatability.
+
+🐶 Top Everyday Wet Dog Food Picks
+
+Purina ONE Classic Wet Dog Food — real meat first, complete nutrition, and excellent palatability.
+
+Blue Buffalo Homestyle Recipe (Chicken or Beef) — hearty, natural recipes with real meat and added vitamins/minerals.
+
+Purina ONE True Instinct Tender Cuts in Gravy — rich texture and savory flavors many dogs enjoy.
+
+Purina Beneful Prepared Meals Variety Pack — balanced nutrition and a variety of flavors to keep meals interesting.
+
+Wellness Complete Health Wet Dog Food — quality protein with supportive nutrients for overall health.
+
+🍲 How to Choose the Best One
+
+Look for “complete &amp; balanced” on the label — this means it meets AAFCO standards for your dog’s life stage.
+
+Real meat as the first ingredient is a strong sign of quality nutrition.
+
+Mix with dry food or serve alone depending on your dog’s preference; many picky eaters prefer some wet food mixed in for moisture and aroma.
+
+If you tell me your dog’s age, size, and any dietary sensitivities (e.g., allergies or digestion issues), I can tailor a specific recommendation that matches their needs.</div>
+        </div>
+      </div>
+    </div>
+      
+    <div class="card">
+      <h3>Q3: "What are the best options for dry dog food for dogs with allergies?"</h3>
+
+      <div class="augmentation-list">
+        <span class="badge badge-browsing">🔍 Browsing Active</span>
+        <span class="badge badge-shopping">🛒 Shopping Results (8 prices)</span>
+        <span class="badge badge-emoji">😊 3 Emojis</span>
+        
+        
+      </div>
+
+      <p><strong>Length:</strong> API 1562 chars → Web 2820 chars (1.8x)</p>
+      <p><strong>Time:</strong> API 10383ms → Web 18328ms (1.8x slower)</p>
+
+      <p><strong>Brands only in Web response:</strong> Royal Canin, Hill's, Nutro, Victor, Petcurean, Pure Balance</p>
+      <p><strong>Brands only in API response:</strong> Wellness, Canidae, Natural Balance, Zignature</p>
+
+      <div class="comparison-section">
+        <div class="response-panel api">
+          <h4>🔌 OpenAI API Response</h4>
+          <div class="response-text">1. Canidae Grain-Free Pure Real Salmon &amp; Sweet Potato Recipe: This diet includes whole foods for gentle digestion and features a simple recipe for dogs with sensitivities.
+
+2. Blue Buffalo Natural Veterinary Diet Hydrolyzed for Food Intolerance: It is hydrolyzed, so it should cause no allergenic reactions. 
+
+3. Wellness Simple Natural Limited Ingredient Dry Dog Food: This food is made to support a balanced diet in dogs with food sensitivities due to a limited ingredient diet.
+
+4. Natural Balance L.I.D. Limited Ingredient Diets Sweet Potato &amp; Fish Formula Grain-Free Dry Dog Food: It&#039;s easy to digest, and it supports a healthy coat due to the high omega-3 content.
+
+5. Zignature Limited Ingredient Lamb Formula Grain-Free Dry Dog Food: This is a limited ingredient product which avoids the use of common allergens such as chicken, corn, wheat, soy, and potatoes.
+
+6. Ps For Dogs 100% Hypoallergenic Dog Food: This diet is specifically formulated for dogs with allergies and uses only a single source of protein.
+
+7. Hill’s Science Diet Dry Dog Food Sensitive Stomach &amp; Skin: It’s specially designed for dogs with sensitive stomachs and skin issues, which are often allergy symptoms.
+
+8. Merrick Limited Ingredient Diet Grain-Free Turkey Dry Dog Food: This grain and gluten-free formula provides balanced nutrition with just a single source of protein and minimal ingredients.
+
+Always remember to gradually switch over the dog food and consult with your vet for any dietary changes. Remember that what works best may depend on your dog&#039;s specific allergies.</div>
+        </div>
+        <div class="response-panel web">
+          <h4>🌐 ChatGPT.com Response</h4>
+          <div class="response-text">Here are some excellent dry dog food options suited for dogs with food sensitivities or allergies — including limited-ingredient diets, sensitive-skin/stomach formulas, and veterinary-focused prescriptions that vets commonly recommend to help reduce reactions and support overall digestion and skin health. 
+Sploot Vets
++1
+
+Petcurean Go! Sensitivities Limited Ingredient Dry Dog Food
+$21.99
+•
+Chewy.com + others
+Blue Buffalo Basics Adult Salmon &amp; Potato Recipe Dry Dog Food
+$44.98
+•
+Chewy.com + others
+Pure Balance Pro+ Sensitive Skin and Stomach Salmon &amp; Rice Dry Dog Food
+$25.96
+•
+Walmart + others
+Nutro Limited Ingredient Diet Grain Free Lamb &amp; Sweet Potato
+$27.98
+•
+Walmart + others
+Victor Sensitive Skin &amp; Stomach Dry Dog Food
+$17.99
+•
+Tractor Supply Company + others
+Royal Canin Veterinary Diet Skintopic Adult Dry Dog Food
+$30.80
+•
+Royal Canin + others
+Derm Complete Hill&#039;s Prescription Diet Dry Dog Food
+$47.99
+•
+Petco.com + others
+Merrick Limited Ingredient Diet Grain Free Salmon &amp; Sweet Potato
+$25.99
+•
+PetSmart + others
+🩹 Sensitive &amp; Allergy-Friendly Everyday Options
+
+Petcurean Go! Sensitivities Limited Ingredient Dry Dog Food: Highly rated limited-ingredient formula with salmon as a single protein source — great for reducing common triggers.
+
+Blue Buffalo Basics Adult Salmon &amp; Potato Recipe Dry Dog Food: A balanced limited-ingredient diet formulated to minimize sensitivity reactions (salmon &amp; potato).
+
+Pure Balance Pro+ Sensitive Skin and Stomach Salmon &amp; Rice Dry Dog Food: Gentle, digestible formula with salmon and rice that’s affordable and vet friendly for sensitive tummies.
+
+Nutro Limited Ingredient Diet Grain Free Lamb &amp; Sweet Potato: Limited ingredient grain-free option with lamb — simple recipe and easy on digestion.
+
+🐶 Supportive Skin &amp; Digestive Health Formulas
+
+Victor Sensitive Skin &amp; Stomach Dry Dog Food: Salmon-based protein and absence of common allergens like chicken/corn/soy help support sensitive dogs.
+
+Merrick Limited Ingredient Diet Grain Free Salmon &amp; Sweet Potato: Limited-ingredient diet with a single protein and easily digestible carbs for allergy-prone pups.
+
+🐩 Vet-Oriented / Prescription Diets (for Diagnosed Allergies)
+
+Royal Canin Veterinary Diet Skintopic Adult Dry Dog Food: Clinically formulated to support skin health in dogs with environmental or food sensitivities. 
+Chewy
+
+Derm Complete Hill&#039;s Prescription Diet Dry Dog Food: Prescription diet designed specifically for environmental and food sensitivities and related symptoms such as itchy skin and GI upset. 
+Sploot Vets
+
+🧠 Tips for Choosing Allergy-Friendly Dry Food
+
+Limited-Ingredient Diets (LID): These contain fewer ingredients and focus on a single novel protein (like salmon or lamb), which can reduce exposure to allergens.
+
+Novel/Single Proteins: Proteins dogs haven’t been exposed to (e.</div>
+        </div>
+      </div>
+    </div>
+      
+    <div class="card">
+      <h3>Q4: "Can you list popular pet food brands with good meat content?"</h3>
+
+      <div class="augmentation-list">
+        <span class="badge badge-browsing">🔍 Browsing Active</span>
+        <span class="badge badge-shopping">🛒 Shopping Results (7 prices)</span>
+        <span class="badge badge-emoji">😊 4 Emojis</span>
+        
+        <span class="badge badge-brand">💬 Follow-up Prompt</span>
+      </div>
+
+      <p><strong>Length:</strong> API 552 chars → Web 2691 chars (4.9x)</p>
+      <p><strong>Time:</strong> API 4424ms → Web 18160ms (4.1x slower)</p>
+
+      <p><strong>Brands only in Web response:</strong> Rachael Ray, Victor, Bully Max</p>
+      <p><strong>Brands only in API response:</strong> Royal Canin, Hill's, Wellness, Nutro, Merrick, Canidae, Natural Balance, Instinct, Stella & Chewy, Fromm, NutriSource, Solid Gold, Nulo, Ziwi Peak</p>
+
+      <div class="comparison-section">
+        <div class="response-panel api">
+          <h4>🔌 OpenAI API Response</h4>
+          <div class="response-text">1. Blue Buffalo
+2. Taste of the Wild
+3. Orijen
+4. Wellness Natural Pet Food
+5. Canidae
+6. Merrick
+7. Royal Canin
+8. Nutro
+9. Natural Balance
+10. Instinct
+11. Stella &amp; Chewy&#039;s
+12. Fromm Family Pet Foods
+13. NutriSource
+14. Hill&#039;s Science Diet
+15. Acana
+16. Primal Pet Foods
+17. Eagle Pack
+18. The Honest Kitchen
+19. A Pup Above
+20. Ziwi Peak
+21. Tiki Pets
+22. I and Love and You
+23. Castor &amp; Pollux Organix 
+24. Nulo 
+25. Solid Gold.
+  
+Remember to consult with your vet before changing your pet&#039;s diet as certain breeds may have specific dietary needs.</div>
+        </div>
+        <div class="response-panel web">
+          <h4>🌐 ChatGPT.com Response</h4>
+          <div class="response-text">Here are some popular dry dog food options with good meat content — meaning they’re high in protein and list real animal proteins (like beef, chicken, salmon, venison, etc.) near the top of the ingredient list — ideal for dogs that benefit from hearty meat-forward nutrition. High-meat diets support muscle, energy, coat health, and overall wellbeing. 
+Dog Food Advisor
++1
+
+Taste of the Wild High Prairie Dog Food
+$58.99
+•
+Chewy.com + others
+Taste of the Wild Pacific Stream Dog Food
+$58.99
+•
+Petco.com + others
+Blue Buffalo Wilderness Adult Dry Dog Food Chicken
+$20.98
+•
+Blain&#039;s Farm &amp; Fleet + others
+Blue Buffalo Wilderness Adult Dry Dog Food Salmon
+$21.98
+•
+Petsense + others
+Bully Max High Protein Dog Food
+$26.47
+•
+bullymax.com + others
+Acana Red Meat Dry Dog Food
+$22.99
+•
+Chewy.com + others
+Victor Hi‑Pro Plus Dog Food
+$34.99
+•
+Coastal Farm &amp; Ranch + others
+Rachael Ray Nutrish Real Beef Dry Dog Food
+$25.99
+•
+Albertsons + others
+🥇 High-Protein &amp; Meat-Rich Main Meals
+
+Taste of the Wild High Prairie Dog Food – Grain-free with roasted bison &amp; venison; real meat as the top ingredient and excellent protein levels. 
+Chewy
+
+Taste of the Wild Pacific Stream Dog Food – Salmon-first formula with omega-rich fish protein and strong meat content. 
+Chewy
+
+Blue Buffalo Wilderness Adult Dry Dog Food Chicken – Real deboned chicken first, high protein recipe inspired by ancestral diets. 
+Blue Buffalo
+
+Blue Buffalo Wilderness Adult Dry Dog Food Salmon – Salmon-first, protein-rich formula with antioxidants for overall health. 
+Blue Buffalo
+
+💪 Active / Performance &amp; Premium Picks
+
+Bully Max High Protein Dog Food – High-calorie, high-protein food great for energetic or working dogs needing extra meat and calories. 
+Chewy
+
+Acana Red Meat Dry Dog Food – Packs ~60% animal ingredients like beef &amp; pork for robust protein support. 
+Orijen Pet Foods
+
+Victor Hi‑Pro Plus Dog Food – Multi-meat formula with beef, chicken, pork and fish meals for balanced high protein. 
+Chewy
+
+🍖 Everyday &amp; Well-Rounded Options
+
+Rachael Ray Nutrish Real Beef Dry Dog Food – Real beef first with balanced nutrition for everyday feeding. 
+Chewy
+
+🧠 Tips for Choosing High-Meat Dog Foods
+
+Look for real meat first: Ingredients like “deboned chicken,” “salmon,” or “beef” at the top signal good meat content. 
+Chewy
+
+Check protein levels: High-meat foods often list crude protein ≥30% on the guaranteed analysis. 
+Chewy
+
+Match to your dog’s needs: Active or working dogs benefit from especially high protein, while seniors may need balanced formula with easier digestibility. 
+Dog Food Advisor
+
+If you tell me your dog’s size, age, and activity level, I can narrow this down to the best pick for your specific pup!</div>
+        </div>
+      </div>
+    </div>
+      
+    <div class="card">
+      <h3>Q5: "What are good allergy chews for dogs with food sensitivities?"</h3>
+
+      <div class="augmentation-list">
+        <span class="badge badge-browsing">🔍 Browsing Active</span>
+        <span class="badge badge-shopping">🛒 Shopping Results (8 prices)</span>
+        <span class="badge badge-emoji">😊 3 Emojis</span>
+        
+        
+      </div>
+
+      <p><strong>Length:</strong> API 1083 chars → Web 2734 chars (2.5x)</p>
+      <p><strong>Time:</strong> API 5092ms → Web 13014ms (2.6x slower)</p>
+
+      <p><strong>Brands only in Web response:</strong> Royal Canin, Hill's, JustFoodForDogs, Native Pet, Greenies, VetIQ</p>
+      <p><strong>Brands only in API response:</strong> PetHonesty, NaturVet, FurroLandia, Dr. Lyon</p>
+
+      <div class="comparison-section">
+        <div class="response-panel api">
+          <h4>🔌 OpenAI API Response</h4>
+          <div class="response-text">1. Zesty Paws Allergy Immune Supplement for Dogs - Chewable bites with digestion prebiotics, antioxidants, omega-3 salmon fish oil, and wild Alaskan salmon oil.
+
+2. FurroLandia Allergy Relief Immune Supplement for Dogs - All natural chewable dog allergies treatment and anti itch bites for dogs of all sizes.
+
+3. PetHonesty Allergy Support Supplement for Dogs - Supports immune health and digestion and promotes healthy skin and coat.
+
+4. Dr. Lyon&#039;s Skin + Coat Chewy Bites - This product promotes a healthy skin and coat with its Omega-3 fatty acids.
+
+5. NaturVet – Aller-911 Allergy Aid Plus Antioxidants – Soft Chew – Supports Immune System, Skin Moisture &amp; Respiratory Health.
+
+6. Nutri-Vet Allerg-Eze Dog Chews – Soft Chews specifically formulated to support a normal immune system and maintain the health and integrity of the dish bowls.
+
+Remember, it&#039;s always best to consult with a vet before introducing new supplements into your pet&#039;s diet. Not all supplements will work for all dogs, and what works best will depend on your dog&#039;s specific allergies and health conditions.
+</div>
+        </div>
+        <div class="response-panel web">
+          <h4>🌐 ChatGPT.com Response</h4>
+          <div class="response-text">Here are some good allergy-support chews and supplements that many dog owners use to help with itchy skin, seasonal or food sensitivity symptoms, immune support, and histamine response (these often include probiotics, omega-3s, colostrum, and other supportive ingredients): 
+Chewy
++1
+
+Zesty Paws Lamb Allergy &amp; Immune Bites
+$19.99
+•
+Target + others
+Native Pet Allergy Air‑Dried Chews
+$14.99
+•
+Walmart - Native Pet, Inc. + others
+Greenies Allergy &amp; Immune Support
+$19.98
+•
+Greenies US + others
+VetIQ Allergy Pro Dog Chews
+$11.94
+•
+Chewy.com + others
+Royal Canin Hydrolyzed Protein Treats
+$12.49
+•
+Petco.com + others
+Hill&#039;s Prescription Diet Hypo Dog Treats
+$13.99
+•
+PetSmart + others
+Just Food For Dogs Skin &amp; Allergy Aid Chews
+$15.00
+•
+JustFoodForDogs + others
+Only Natural Pet Hemp Allergy Skin &amp; Coat Chews
+$22.99
+•
+Only Natural Pet + others
+🐶 Top Everyday Allergy Support Treats
+
+Zesty Paws Lamb Allergy &amp; Immune Bites — Soft chews with probiotics, omega-3s and immune support; great for skin and seasonal itch support. 
+Zesty Paws
+
+Native Pet Allergy Air‑Dried Chews — Air-dried chews with spirulina, colostrum and algae oil to help reduce itching and support long-term immunity. 
+Petco
+
+Greenies Allergy &amp; Immune Support — Focused on immune and allergy support in a gentle soft-chew form. 
+Chewy
+
+VetIQ Allergy Pro Dog Chews — Budget-friendly chews with colostrum and astragalus root to support immunity and skin comfort. 
+Chewy
+
+🩺 Sensitive &amp; Allergy-Friendly Reward Treats
+
+Royal Canin Hydrolyzed Protein Treats — Hydrolyzed protein treats ideal for dogs on elimination diets or true food allergies (great during allergy diet trials). 
+Chewy
+
+Hill&#039;s Prescription Diet Hypo Dog Treats — Vet-recommended hypoallergenic treats that pair well with special diets for dogs with sensitivities. 
+Chewy
+
+🌱 Other Supportive Allergy Aid Chews
+
+Just Food For Dogs Skin &amp; Allergy Aid Chews — Whole-food–based chews with natural ingredients to help skin, immune, and itch support — good for dogs with animal protein sensitivities. 
+Just Food For Dogs
+
+Only Natural Pet Hemp Allergy Skin &amp; Coat Chews — Hemp-based option aimed at skin and coat relief with anti-inflammatory potential. 
+PetSmart
+
+🧠 Notes on Allergy Chews
+
+These supplements help manage symptoms like itching, paw licking, and seasonal/environmental discomfort, but they aren’t a cure for diagnosed food allergies. True food allergies are best addressed by an elimination diet or a veterinarian-guided treatment plan. 
+Chewy
+
+Ingredients like probiotics, omega-3 fatty acids, colostrum, and antioxidants are common in allergy chews and can support immune and skin health, which may reduce the severity of reactions. 
+Zesty Paws
+
+If you tell me your dog’s **specific symptom</div>
+        </div>
+      </div>
+    </div>
+      
+
+    <div class="card">
+      <h2 style="margin-top: 0; border: none; padding: 0;">Key Findings</h2>
+
+      <h3>1. Shopping Integration is Pervasive</h3>
+      <p>3/5 (60%) of pet food queries triggered the shopping/browsing tool, displaying real-time prices and retailer links that are completely absent from API responses.</p>
+
+      <h3>2. Response Length Significantly Higher</h3>
+      <p>Web responses averaged 2.5x longer than API responses, primarily due to shopping results, structured formatting, and engagement prompts.</p>
+
+      <h3>3. Latency Trade-off</h3>
+      <p>Web responses took 2.5x longer on average (14495ms vs 6198ms), likely due to browsing tool invocation and e-commerce API calls.</p>
+
+      <h3>4. Brand Visibility Differs</h3>
+      <p>The browsing augmentation introduces brands from current search results that may not appear in the base model's training data, and vice versa. This has significant implications for brand visibility strategies.</p>
+
+      <h3>5. Engagement Design</h3>
+      <p>The web interface includes system prompt instructions to end responses with personalized follow-up questions, creating a more conversational experience.</p>
+    </div>
+  </div>
+
+  <footer class="glu-footer">
+    <p>Generated by Glu AI Visibility Analysis • 2026-01-18T18:08:20.771Z</p>
+  </footer>
+</body>
+</html>

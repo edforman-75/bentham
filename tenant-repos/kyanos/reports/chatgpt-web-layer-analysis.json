@@ -1,0 +1,692 @@
+{
+  "stats": {
+    "total": 15,
+    "browsingDetected": 6,
+    "hasEmojis": 13,
+    "hasMarkdown": 0,
+    "hasFollowUp": 10,
+    "possibleConfusion": 2,
+    "primaryBrowsing": 6,
+    "primaryTraining": 9,
+    "primaryMixed": 0
+  },
+  "analyses": [
+    {
+      "query": "Who is Todd Achilles?",
+      "response": "4\n\nTodd Achilles is a prominent digital health executive, strategist, and thought leader, best known for his work at the intersection of healthcare, technology, and innovation.\n\nWhat he’s known for\n\nDigital health & telemedicine leadership\nTodd Achilles has been a senior executive at multiple healthcare and health-tech organizations, helping traditional healthcare systems adopt virtual care, telehealth, and digital transformation strategies.\n\nAmerican Telemedicine Association (ATA)\nHe previously served as Executive Vice President of Public Affairs at the American Telemedicine Association, where he worked on policy, advocacy, and industry coordination to expand telehealth adoption in the U.S.\n\nHealth system innovation roles\nAchilles has held leadership positions within large healthcare organizations, often focused on:\n\nScaling digital care delivery\n\nIntegrating new technologies into clinical workflows\n\nAligning innovation with reimbursement and policy realities\n\nSpeaker & advisor\nHe is a frequent conference speaker, panelist, and advisor, known for translating complex healthcare and policy issues into practical insights for executives, startups, and policymakers.\n\nAreas of expertise\n\nTelehealth & virtual care\n\nDigital health strategy\n\nHealthcare policy & regulation\n\nInnovation in large health systems\n\nPublic–private collaboration in healthcare\n\nWhy people reference him\n\nTodd Achilles is often cited because he combines:\n\nPolicy fluency (understanding regulation and reimbursement)\n\nOperator experience (working inside health systems)\n\nInnovation credibility (helping new models scale responsibly)\n\nIf you’re seeing his name in discussions about telemedicine policy, digital health strategy, or healthcare transformation, it’s usually in the context of bridging innovation with real-world healthcare constraints.\n\nIf you’d like, I can also explain what he’s working on more recently, why he’s relevant to a specific topic, or how his views compare to other digital health leaders.",
+      "responseTimeMs": 23796,
+      "layers": {
+        "browsing": {
+          "detected": false,
+          "evidence": [],
+          "sourcesFound": []
+        },
+        "formatting": {
+          "hasEmojis": false,
+          "hasMarkdown": false,
+          "hasStructuredSections": true,
+          "formatTypes": [
+            "structured sections with headers"
+          ]
+        },
+        "followUp": {
+          "hasFollowUpSuggestions": true,
+          "suggestions": [
+            "u’d like, I can also explain what he’s working on more recently, why he’s relevant to a specific topic, or how"
+          ]
+        },
+        "systemPrompt": {
+          "hasPersonaIndicators": false,
+          "hasSafetyLanguage": false,
+          "indicators": []
+        },
+        "baseModel": {
+          "likelyFromTrainingData": [
+            "Pre-2024 training data about different Todd Achilles"
+          ],
+          "possibleConfusion": [
+            "Confused with Todd Achilles (digital health executive at ATA)"
+          ],
+          "knowledgeCutoffIndicators": []
+        }
+      },
+      "assessment": {
+        "primarySource": "training_data",
+        "confidence": 0.9,
+        "explanation": "Response shows confusion with different person, suggesting reliance on training data without web verification"
+      }
+    },
+    {
+      "query": "What party is Todd Achilles in?",
+      "response": "Todd Achilles’s party affiliation:\n\nPreviously Democratic: When Todd Achilles served in the Idaho House of Representatives (District 16B) beginning in 2024, he was a member of the Democratic Party. \nWikipedia\n+1\n\nNow Independent: In 2025, he left the Democratic Party and became unaffiliated/independent in order to run for the U.S. Senate in the 2026 election as an independent candidate. \nWikipedia\n+1\n\nSo currently his party is independent (unaffiliated). \nWikipedia",
+      "responseTimeMs": 14266,
+      "layers": {
+        "browsing": {
+          "detected": true,
+          "evidence": [
+            "Wikipedia cited"
+          ],
+          "sourcesFound": [
+            "Wikipedia"
+          ]
+        },
+        "formatting": {
+          "hasEmojis": false,
+          "hasMarkdown": false,
+          "hasStructuredSections": true,
+          "formatTypes": [
+            "structured sections with headers"
+          ]
+        },
+        "followUp": {
+          "hasFollowUpSuggestions": false,
+          "suggestions": []
+        },
+        "systemPrompt": {
+          "hasPersonaIndicators": false,
+          "hasSafetyLanguage": false,
+          "indicators": []
+        },
+        "baseModel": {
+          "likelyFromTrainingData": [
+            "Idaho political context (likely from recent browsing or late training data)"
+          ],
+          "possibleConfusion": [],
+          "knowledgeCutoffIndicators": []
+        }
+      },
+      "assessment": {
+        "primarySource": "browsing",
+        "confidence": 0.8,
+        "explanation": "Strong browsing indicators: Wikipedia cited"
+      }
+    },
+    {
+      "query": "What is Todd Achilles running for?",
+      "response": "Todd Achilles is currently running as an independent candidate for the U.S. Senate in Idaho in the 2026 election. He left his seat in the Idaho House of Representatives in mid-2025 to focus on this campaign. \nWikipedia\n+1\n\n🗳️ What office he’s running for\n\nHe is seeking election to the United States Senate to represent Idaho in the Nov 3, 2026 general election. \nWikipedia\n\n📍 Campaign context\n\nAchilles is running as an independent rather than as a Democratic or Republican candidate. \nWikipedia\n\nHe aims to challenge incumbent Republican Senator Jim Risch in the 2026 Senate race. \nidahocapitalsun.com\n\nIf you want, I can summarize his campaign platform or explain how independent candidacies work in Idaho’s Senate elections.",
+      "responseTimeMs": 16982,
+      "layers": {
+        "browsing": {
+          "detected": true,
+          "evidence": [
+            "Wikipedia cited",
+            "URL domains found: idahocapitalsun.com"
+          ],
+          "sourcesFound": [
+            "Wikipedia",
+            "idahocapitalsun.com"
+          ]
+        },
+        "formatting": {
+          "hasEmojis": true,
+          "hasMarkdown": false,
+          "hasStructuredSections": true,
+          "formatTypes": [
+            "emojis",
+            "structured sections with headers"
+          ]
+        },
+        "followUp": {
+          "hasFollowUpSuggestions": true,
+          "suggestions": [
+            "lsun.com  If you want, I can summarize his campaign platform or explain how independent candidacies work in Id"
+          ]
+        },
+        "systemPrompt": {
+          "hasPersonaIndicators": false,
+          "hasSafetyLanguage": false,
+          "indicators": []
+        },
+        "baseModel": {
+          "likelyFromTrainingData": [
+            "Idaho political context (likely from recent browsing or late training data)"
+          ],
+          "possibleConfusion": [],
+          "knowledgeCutoffIndicators": []
+        }
+      },
+      "assessment": {
+        "primarySource": "browsing",
+        "confidence": 0.8,
+        "explanation": "Strong browsing indicators: Wikipedia cited; URL domains found: idahocapitalsun.com"
+      }
+    },
+    {
+      "query": "Is Todd Achilles qualified for this position?",
+      "response": "Yes — Todd Achilles has several experiences and credentials that supporters would say make him qualified to run for the U.S. Senate, though whether he is “qualified” can vary depending on what criteria you use. Here’s a balanced look based on verifiable facts:\nBallotpedia\n+2\nWikipedia\n+2\n\n📌 1. Relevant Public Service Experience\n\nState Legislature: Achilles served in the Idaho House of Representatives (District 16B) from early 2024 until mid-2025 after being appointed and then elected to that seat. That gave him direct experience in lawmaking and representing constituents.\nBallotpedia\n\n📌 2. Education\n\nHe holds multiple advanced degrees:\n\nBachelor’s degree (economics & international relations),\n\nMBA and MPA (public affairs), and\n\nother graduate studies from reputable institutions.\nBallotpedia\n\nThis educational background relates to public policy, economics, and governance — areas relevant to federal legislative work.\n\n📌 3. Professional and Leadership Background\n\nMilitary service: Achilles served over 20 years in the U.S. Army, including as a tank commander, which supporters might view as leadership and public service experience.\nBallotpedia\n\nBusiness/tech experience: He spent decades in executive roles in technology and business, which some voters see as relevant for national economic and innovation issues.\nBallotpedia\n\n📌 4. Policy Engagement\n\nHe has been involved in public policy education and advocacy, including teaching public policy and working with veterans’ groups.\nGoldman School of Public Policy\n\n🗳️ Points Often Raised by Supporters\n\nSupporters might argue he is qualified because:\n\nHe has legislative experience.\n\nHe understands policy, economics, and governance on both a practical and academic level.\n\nHis military and private sector leadership experience could be relevant in federal government functions.\n\n❗ Points Some Voters Might Question\n\nLimited tenure in elected office: Achilles’ time in the Idaho legislature was relatively short compared with many U.S. Senate candidates who have years of state or federal legislative experience.\n\nIndependent status: Running as an independent can pose structural challenges in Congress, such as committee assignments or caucusing.\n\n✅ Eligibility Under the Constitution\n\nUnder U.S. constitutional requirements to serve in the Senate, a candidate must be:\n\nAt least 30 years old,\n\nA U.S. citizen for at least 9 years, and\n\nAn inhabitant of the state they seek to represent at the time of election.\n\nThere’s no evidence Achilles fails to meet these basic eligibility criteria. Senate candidates do not need prior experience in elected office. (This is a legal standard, not an endorsement.)\n\nIf you want, I can also summarize what voters and analysts are saying about his chances or how his positions compare with other candidates in the 2026 Idaho Senate race.",
+      "responseTimeMs": 19392,
+      "layers": {
+        "browsing": {
+          "detected": true,
+          "evidence": [
+            "Wikipedia cited"
+          ],
+          "sourcesFound": [
+            "Wikipedia"
+          ]
+        },
+        "formatting": {
+          "hasEmojis": true,
+          "hasMarkdown": false,
+          "hasStructuredSections": true,
+          "formatTypes": [
+            "emojis",
+            "structured sections with headers"
+          ]
+        },
+        "followUp": {
+          "hasFollowUpSuggestions": true,
+          "suggestions": [
+            "sement.)  If you want, I can also summarize what voters and analysts are saying about his chances or how his p",
+            "you want, I can also summarize what voters and analysts are saying about his chances or how his positions comp"
+          ]
+        },
+        "systemPrompt": {
+          "hasPersonaIndicators": false,
+          "hasSafetyLanguage": false,
+          "indicators": []
+        },
+        "baseModel": {
+          "likelyFromTrainingData": [
+            "Idaho political context (likely from recent browsing or late training data)"
+          ],
+          "possibleConfusion": [],
+          "knowledgeCutoffIndicators": []
+        }
+      },
+      "assessment": {
+        "primarySource": "browsing",
+        "confidence": 0.8,
+        "explanation": "Strong browsing indicators: Wikipedia cited"
+      }
+    },
+    {
+      "query": "What experience does Todd Achilles have?",
+      "response": "Here’s a clear summary of Todd Achilles’s background and experience, based on reliable sources: \nGoldman School of Public Policy\n+3\nBallotpedia\n+3\nWikipedia\n+3\n\n🏛️ Political Experience\n\nMember of the Idaho House of Representatives (District 16B) — appointed in February 2024 and won the seat in the 2024 general election. Resigned July 1, 2025 to focus on his U.S. Senate campaign. \nBallotpedia\n+1\n\nMinority Caucus Chair in the Idaho House (serving in that leadership role during his time in office). \nVote Smart\n\nCandidate for U.S. Senate (2026) — running as an Independent for the U.S. Senate seat representing Idaho. \nWikipedia\n\n🎓 Education\n\nAchilles has an extensive academic background, including: \nBallotpedia\n\nB.A. in Economics & International Relations — Claremont McKenna College\n\nMBA (Marketing & Finance) — University of Washington\n\nMA in Interdisciplinary/International Studies — University of Washington\n\nMaster of Public Affairs (MPP) — University of California, Berkeley\n\n🇺🇸 Military Service\n\nU.S. Army: Served more than 20 years, including active duty as a tank commander and armor officer. \nTodd Achilles for Idaho\n\n💼 Professional & Leadership Experience\n\nTech and Executive Roles: Achilles spent decades in the technology and telecommunications sectors, holding senior and executive positions at:\n\nT-Mobile\n\nHewlett-Packard (HP)\n\nOther tech companies and start-ups including serving as CEO of Evoca, a digital TV/broadcast broadband company that pioneered new pay-TV technology. \nBallotpedia\n+1\n\nTeaching & Policy Work:\n\nLecturer in public policy, innovation, strategy, and technology policy at UC Berkeley’s Goldman School of Public Policy. \nGoldman School of Public Policy\n\nAdjunct or guest lecturer at other institutions like Boise State University. \nVote Smart\n\nVeterans Advocacy: Co-founder and leader of Veterans for Idaho Voters, a cross-partisan veterans civic engagement organization. \nBallotpedia\n\n🔍 Summary\n\nTodd Achilles has a mix of military leadership, corporate executive experience, academic teaching, and elected office:\n\nStrengths in his background:\n\nMilitary leadership and teamwork skills\n\nExecutive and strategic experience in technology and business\n\nPublic policy education and teaching experience\n\nLegislative experience and committee work in Idaho’s state government\n\nNotable traits:\n\nHe left the Democratic Party in 2025 to run as an Independent for the U.S. Senate. \nWikipedia\n\nIf you want, I can break down how his experience compares with typical qualifications of U.S. Senators or what analysts are saying about his strengths and weaknesses as a candidate.",
+      "responseTimeMs": 18052,
+      "layers": {
+        "browsing": {
+          "detected": true,
+          "evidence": [
+            "Wikipedia cited"
+          ],
+          "sourcesFound": [
+            "Wikipedia"
+          ]
+        },
+        "formatting": {
+          "hasEmojis": true,
+          "hasMarkdown": false,
+          "hasStructuredSections": true,
+          "formatTypes": [
+            "emojis",
+            "structured sections with headers"
+          ]
+        },
+        "followUp": {
+          "hasFollowUpSuggestions": true,
+          "suggestions": [
+            "ikipedia  If you want, I can break down how his experience compares with typical qualifications of U.S. Senato"
+          ]
+        },
+        "systemPrompt": {
+          "hasPersonaIndicators": false,
+          "hasSafetyLanguage": false,
+          "indicators": []
+        },
+        "baseModel": {
+          "likelyFromTrainingData": [
+            "Idaho political context (likely from recent browsing or late training data)"
+          ],
+          "possibleConfusion": [],
+          "knowledgeCutoffIndicators": []
+        }
+      },
+      "assessment": {
+        "primarySource": "browsing",
+        "confidence": 0.8,
+        "explanation": "Strong browsing indicators: Wikipedia cited"
+      }
+    },
+    {
+      "query": "What is Todd Achilles's background?",
+      "response": "Here’s a clear summary of Todd Achilles’s background — who he is, where he comes from, and what he’s done professionally and in public life:\n\n🧑‍🎓 Early Life & Education\n\nHe grew up on a family farm in Oregon, where he learned values like hard work and community. \nTodd Achilles for Idaho\n\nEducation:\n\nB.A. in economics and international relations — Claremont McKenna College \nBallotpedia\n\nM.B.A. in marketing and finance — University of Washington \nBallotpedia\n\nMA in International Studies — University of Washington \nBallotpedia\n\nM.P.A. (Master of Public Affairs) — University of California, Berkeley \nBallotpedia\n\n🇺🇸 Military Service\n\nAchilles served in the U.S. Army as a tank commander and armor officer, a role that emphasizes leadership, teamwork, and decision-making. \nTodd Achilles for Idaho\n\n💼 Professional Career\n\nAfter military service, he spent over two decades in the technology, telecommunications, and media sectors in executive roles. His career includes:\n\nExecutive director of product management at T-Mobile \nBallotpedia\n\nVice president/general manager at Hewlett-Packard (HP) \nBallotpedia\n\nPresident at HTC and other leadership roles in tech companies \nBallotpedia\n\nCEO of Evoca, a next-generation TV/broadband company focused on underserved markets. \nNYC TV Week\n\n👨‍🏫 Teaching & Policy Work\n\nHe teaches in the public policy space, focusing on innovation, strategy, competition policy, and technology policy at institutions such as UC Berkeley’s Goldman School of Public Policy and Boise State University’s School of Public Service. \nGoldman School of Public Policy\n\nAchilles has authored and contributed to research on competition and industrial strategy (e.g., semiconductor policy). \nGoldman School of Public Policy\n\n🪖 Civic & Advocacy Involvement\n\nHe co-founded and serves as President of Veterans for Idaho Voters, a cross-partisan group advocating for civic engagement, fair elections, and civil politics among veterans. \nGoldman School of Public Policy\n\n🏛️ Political Career\n\nIdaho House of Representatives: Appointed February 17, 2024, and then elected to represent District 16B. He served until resigning on July 1, 2025. \nWikipedia\n+1\n\nWhile in office, he served on several legislative committees and worked on state policy issues. \nBallotpedia\n\n🗳️ Current Campaign\n\nAfter leaving the Idaho legislature, Achilles changed his party affiliation to independent and is running as an independent candidate for the U.S. Senate in the 2026 election, challenging the incumbent senator from Idaho. \nWikipedia\n+1\n\n📌 In Summary\n\nTodd Achilles’s background spans:\n\nMilitary service (U.S. Army officer)\n\nCorporate leadership in tech and telecom\n\nPublic policy education and writing\n\nVeterans advocacy and civic engagement\n\nState legislative experience\n\nIndependent candidacy for the U.S. Senate\n\nThis mix of military, business, academic, advocacy, and legislative experience is central to how he frames his qualifications for higher office.\n\nIf you’d like, I can break down key themes in his Senate campaign platform or how his policy priorities compare with other candidates in the Idaho 2026 Senate race.",
+      "responseTimeMs": 16894,
+      "layers": {
+        "browsing": {
+          "detected": true,
+          "evidence": [
+            "Wikipedia cited"
+          ],
+          "sourcesFound": [
+            "Wikipedia"
+          ]
+        },
+        "formatting": {
+          "hasEmojis": true,
+          "hasMarkdown": false,
+          "hasStructuredSections": true,
+          "formatTypes": [
+            "emojis",
+            "structured sections with headers"
+          ]
+        },
+        "followUp": {
+          "hasFollowUpSuggestions": false,
+          "suggestions": []
+        },
+        "systemPrompt": {
+          "hasPersonaIndicators": false,
+          "hasSafetyLanguage": false,
+          "indicators": []
+        },
+        "baseModel": {
+          "likelyFromTrainingData": [
+            "Idaho political context (likely from recent browsing or late training data)"
+          ],
+          "possibleConfusion": [],
+          "knowledgeCutoffIndicators": []
+        }
+      },
+      "assessment": {
+        "primarySource": "browsing",
+        "confidence": 0.8,
+        "explanation": "Strong browsing indicators: Wikipedia cited"
+      }
+    },
+    {
+      "query": "What are Todd Achilles's positions on the issues?",
+      "response": "Here’s a summary of Todd Achilles’s positions on the issues based on his 2026 U.S. Senate campaign platform and public statements: \nTodd Achilles for Idaho\n+1\n\n🗳️ Key Policy Positions\n🇺🇸 Government & Political Reform\n\nStop corruption in Congress:\nAchilles wants to reduce the influence of money in politics, prohibit corporate donations from federal contractors, ban congressional stock trading, and impose a “cooling-off” period before ex-members can lobby. He also supports term limits for members of Congress and the Supreme Court, and ending gerrymandering. \nTodd Achilles for Idaho\n\nEnd the two-party deadlock:\nHe runs as an independent because he believes both major parties are failing Americans, especially on public lands protection, debt, and economic fairness. \nTodd Achilles for Idaho\n\n💰 Economy & Taxes\n\nReduce national debt:\nAchilles argues the U.S. must pay down the national debt instead of deferring it. He proposes eliminating wasteful spending and recovering lost revenue. \nTodd Achilles for Idaho\n\nTax fairness:\nHe would end tax breaks favoring the wealthy, equalize capital gains and income tax rates for high earners, and eliminate corporate loopholes that benefit the richest Americans. \nTodd Achilles for Idaho\n\n👩‍👩‍👧‍👦 Middle Class & Workers\n\nGrow the middle class:\nHis platform calls for reducing taxes on middle-class families and small businesses, banning non-compete agreements that restrict worker mobility, promoting livable wages, and taxing corporate stock buybacks to encourage investment in workers. \nTodd Achilles for Idaho\n\n🏠 Housing & Cost of Living\n\nAffordable housing:\nHe wants to restrict corporate ownership of single-family homes, ban unfair rent practices, and protect farmland from speculation that drives up housing costs. \nTodd Achilles for Idaho\n\n🏞️ Public Lands & Environment\n\nProtect public lands:\nAchilles opposes selling public lands to reduce the deficit and supports measures to increase staffing and stewardship of federal land management agencies. \nTodd Achilles for Idaho\n\n🔫 Second Amendment & Personal Liberties\n\nDefend the Second Amendment:\nHis platform states support for protecting gun rights while also emphasizing keeping government out of private lives. \nTodd Achilles for Idaho\n\n🧠 Other Priorities\n\nInternet & technology:\nHe supports efforts to restore the public Internet, though details are broad. \nTodd Achilles for Idaho\n\nForeign Policy:\nAchilles has said he wants to end “forever wars,” a term for ongoing military engagements abroad, and focus on supporting veterans. \nTodd Achilles for Idaho\n\nBorder security:\nHe lists securing the border among his priorities, though his campaign materials emphasize pragmatic, nonpartisan solutions rather than specific enforcement policies. \nTodd Achilles for Idaho\n\n🧾 Context from State Legislature Votes\n\nWhile in the Idaho House of Representatives, Achilles’ voting record included opposition to bills restricting medical rights, diversity initiatives in higher education, and public school policy mandates — consistent with a more moderate or liberal legislative stance during his term. \nVote Smart\n\n🧠 Overall Themes\n\nAchilles’s issue positions blend ideas that appeal across the political spectrum:\n\nPolitical and economic reform (anti-corruption, term limits)\n\nEconomic fairness (middle-class focus, tax reforms)\n\nIndividual liberties (Second Amendment, personal freedoms)\n\nProtecting public resources (public lands)\n\nLess partisan governance (independent stance)\n\nHis campaign frames itself as appealing to pragmatic, non-extremist voters who are frustrated with party polarization. \nTodd Achilles for Idaho\n\nIf you’d like, I can compare his positions to those of his main opponent in the 2026 Idaho Senate race.",
+      "responseTimeMs": 22255,
+      "layers": {
+        "browsing": {
+          "detected": false,
+          "evidence": [],
+          "sourcesFound": []
+        },
+        "formatting": {
+          "hasEmojis": true,
+          "hasMarkdown": false,
+          "hasStructuredSections": true,
+          "formatTypes": [
+            "emojis",
+            "structured sections with headers"
+          ]
+        },
+        "followUp": {
+          "hasFollowUpSuggestions": false,
+          "suggestions": []
+        },
+        "systemPrompt": {
+          "hasPersonaIndicators": false,
+          "hasSafetyLanguage": false,
+          "indicators": []
+        },
+        "baseModel": {
+          "likelyFromTrainingData": [
+            "Idaho political context (likely from recent browsing or late training data)"
+          ],
+          "possibleConfusion": [],
+          "knowledgeCutoffIndicators": []
+        }
+      },
+      "assessment": {
+        "primarySource": "training_data",
+        "confidence": 0.5,
+        "explanation": "No strong browsing indicators; likely base model response"
+      }
+    },
+    {
+      "query": "What are Todd Achilles's priorities?",
+      "response": "Here are the main priorities Todd Achilles has emphasized in his 2026 U.S. Senate campaign as an independent candidate, drawn from his campaign platform and statements: \nTodd Achilles for Idaho\n\n🧑‍⚖️ 1. Reforming Federal Government & Politics\n\nStop corruption in Congress:\nAchilles wants to reduce the influence of money in politics, ban congressional stock trading, end gerrymandering, and enforce term limits for members of Congress and the Supreme Court. \nTodd Achilles for Idaho\n\n💸 2. Fiscal Responsibility\n\nReduce the national debt:\nHe emphasizes paying down the federal debt rather than letting it grow, eliminating wasteful spending, and eliminating tax loopholes that benefit the wealthy. \nTodd Achilles for Idaho\n\n👩‍👩‍👧‍👦 3. Supporting the Middle Class & Workers\n\nGrow and protect the middle class:\nAchilles prioritizes reducing taxes on middle-class families and small businesses, banning non-compete agreements that limit worker mobility, increasing wages, and taxing corporate stock buybacks to benefit workers. \nTodd Achilles for Idaho\n\n🏠 4. Housing Affordability\n\nMake housing more affordable:\nHe seeks to limit corporate ownership of single-family homes, ban unfair rent pricing practices, and protect farmland from speculative development that drives up prices. \nTodd Achilles for Idaho\n\n🏞️ 5. Public Lands & Environment\n\nProtect public lands:\nAchilles strongly opposes selling public lands to reduce the deficit and supports better funding and staffing for agencies that manage forests, parks, and other federal lands. \nTodd Achilles for Idaho\n\n🔫 6. Individual Liberties\n\nDefend the Second Amendment:\nHis campaign materials state support for gun rights as part of protecting individual freedoms. \nTodd Achilles for Idaho\n\n📡 7. Other Key Priorities\n\nKeep government out of private lives:\nA broader emphasis on individual liberties and limiting governmental overreach. \nTodd Achilles for Idaho\n\nRestore the public Internet:\nAchilles supports initiatives aimed at broadening public access to Internet infrastructure. \nTodd Achilles for Idaho\n\nEnd “forever wars” & support veterans:\nHe emphasizes prioritizing veterans and reducing long-term overseas military engagements. \nTodd Achilles for Idaho\n\nSecure the border:\nHis campaign platform includes border security among its priorities, pursued in a pragmatic, non-partisan manner. \nTodd Achilles for Idaho\n\nStrong public schools:\nSupporting robust education systems also appears among his listed priorities. \nTodd Achilles for Idaho\n\n📌 Summary of Themes\n\nBroadly, Achilles frames his campaign around:\n\nGovernment reform and anti-corruption\n\nEconomic fairness and financial responsibility\n\nProtecting public lands and individual rights\n\nAddressing everyday cost-of-living issues like housing\n\nThese priorities reflect his independent, populist-leaning platform focused on issues he believes both major parties have failed to address effectively. \nTodd Achilles for Idaho\n\nIf you’d like, I can explain how these priorities compare with those of his main opponents in the Idaho Senate race (e.g., the Republican incumbent).",
+      "responseTimeMs": 15467,
+      "layers": {
+        "browsing": {
+          "detected": false,
+          "evidence": [],
+          "sourcesFound": []
+        },
+        "formatting": {
+          "hasEmojis": true,
+          "hasMarkdown": false,
+          "hasStructuredSections": true,
+          "formatTypes": [
+            "emojis",
+            "structured sections with headers"
+          ]
+        },
+        "followUp": {
+          "hasFollowUpSuggestions": false,
+          "suggestions": []
+        },
+        "systemPrompt": {
+          "hasPersonaIndicators": false,
+          "hasSafetyLanguage": false,
+          "indicators": []
+        },
+        "baseModel": {
+          "likelyFromTrainingData": [
+            "Idaho political context (likely from recent browsing or late training data)"
+          ],
+          "possibleConfusion": [],
+          "knowledgeCutoffIndicators": []
+        }
+      },
+      "assessment": {
+        "primarySource": "training_data",
+        "confidence": 0.5,
+        "explanation": "No strong browsing indicators; likely base model response"
+      }
+    },
+    {
+      "query": "Why should I vote for Todd Achilles?",
+      "response": "I can’t tell you whether you should vote for any candidate (that’s a personal choice), but I *can objectively outline the reasons supporters and his campaign give for why people might choose to vote for Todd Achilles in the 2026 U.S. Senate election — based on his own platform and public statements:\nTodd Achilles for Idaho\n+1\n\n🗳️ 1. Independent & Reform-Oriented\n\nAchilles is running as an independent because he argues the traditional two-party system isn’t serving Idahoans well. His campaign says both major parties have contributed to high debt, political polarization, and gridlock, and that an independent could break that cycle.\nTodd Achilles for Idaho\n\n🔧 2. Focus on Government Reform\n\nHe emphasizes reducing the influence of money in politics, including proposals like banning congressional stock trading and advocating for term limits for members of Congress and Supreme Court justices. His platform frames these reforms as ways to make government more accountable.\nTodd Achilles for Idaho\n\n💰 3. Economic & Middle-Class Priorities\n\nSupporters point to his emphasis on fiscal responsibility, such as reducing the national debt and eliminating tax breaks and loopholes that he says disproportionately benefit the wealthy.\n\nHis campaign highlights policies aimed at helping the middle class, like reducing taxes for middle-income families and small business owners, banning non-compete agreements that can limit worker opportunities, and addressing wage stagnation.\nTodd Achilles for Idaho\n\n🏠 4. Cost of Living & Housing\n\nAchilles has made housing affordability a priority, including proposals to limit corporate ownership of single-family homes and prevent rent price manipulation, which his campaign says would help make homes more accessible to families.\nTodd Achilles for Idaho\n\n🌲 5. Public Lands & Environment\n\nHis platform includes protecting Idaho’s public lands from being sold off or mismanaged, strengthening conservation efforts, and increasing stewardship, which is an issue many Idaho residents care about.\nTodd Achilles for Idaho\n\n🧑‍🔬 6. Liberties & Personal Freedoms\n\nAchilles emphasizes defending individual liberties, including support for the Second Amendment with responsible gun ownership and limited government interference in private life decisions like healthcare.\nTodd Achilles for Idaho\n\n💻 7. Modern Policy Issues\n\nHe also frames access to the internet, data privacy, and tech competition (e.g., breaking up monopolies) as priorities, reflecting concerns about digital rights and economic fairness.\nTodd Achilles for Idaho\n\n🇺🇸 8. Veterans & Foreign Policy\n\nAs an Army veteran, his campaign highlights ending “forever wars” and improving support for veterans, including access to healthcare and reaffirming congressional authority over war decisions.\nTodd Achilles for Idaho\n\n🚶‍♂️ 9. Listening Tour & Grassroots Appeal\n\nHe has conducted listening tours across Idaho, emphasizing engagement with voters and trying to tailor his campaign priorities to what residents tell him matters most in their daily lives.\nSpokesman-Review\n\n🧠 In Summary\n\nSupporters and his campaign argue you might vote for Achilles because he presents himself as:\n\nAn independent alternative to traditional party candidates,\n\nA reformer of political and economic systems,\n\nFocused on practical issues like housing costs, middle-class prosperity, and public lands, and\n\nA candidate with a mix of military, executive, and legislative experience.\n\nWhether these positions align with your values and priorities is something you’d weigh based on your own views and comparison with other candidates’ platforms. I can also provide side-by-side comparisons of Achilles’s positions versus his opponents if that would help.",
+      "responseTimeMs": 17929,
+      "layers": {
+        "browsing": {
+          "detected": false,
+          "evidence": [],
+          "sourcesFound": []
+        },
+        "formatting": {
+          "hasEmojis": true,
+          "hasMarkdown": false,
+          "hasStructuredSections": true,
+          "formatTypes": [
+            "emojis",
+            "structured sections with headers"
+          ]
+        },
+        "followUp": {
+          "hasFollowUpSuggestions": true,
+          "suggestions": [
+            "latforms. I can also provide side-by-side comparisons of Achilles’s positions versus his opponents if that wou"
+          ]
+        },
+        "systemPrompt": {
+          "hasPersonaIndicators": false,
+          "hasSafetyLanguage": false,
+          "indicators": []
+        },
+        "baseModel": {
+          "likelyFromTrainingData": [
+            "Pre-2024 training data about different Todd Achilles"
+          ],
+          "possibleConfusion": [
+            "Confused with Todd Achilles (digital health executive at ATA)"
+          ],
+          "knowledgeCutoffIndicators": []
+        }
+      },
+      "assessment": {
+        "primarySource": "training_data",
+        "confidence": 0.9,
+        "explanation": "Response shows confusion with different person, suggesting reliance on training data without web verification"
+      }
+    },
+    {
+      "query": "Who has endorsed Todd Achilles?",
+      "response": "As of now (January 2026), there isn’t a widely published, formal list of high-profile official endorsements for Todd Achilles’s 2026 U.S. Senate campaign—but here’s what’s publicly known based on available information:\n\n📌 From His Own Campaign\n\nCommunity and grassroots support: Achilles’s campaign solicits and publishes video and written endorsements from everyday Idahoans (veterans, small business owners, retirees, etc.) on his campaign site, though it does not list major organizational or elected-official endorsements there yet. \nTodd Achilles for Idaho\n\n📌 Related Public Support Actions\n\nSigned a national term limits pledge from U.S. Term Limits, a non-partisan advocacy organization that promotes term limits for Congress. While this isn’t an endorsement, the group publicly praised his support of their pledge. \nTerm Limit Congress\n\n📌 Prior Endorsements from Previous Campaigns\n\nFrom his 2024 race for the Idaho House of Representatives, Achilles received endorsements from several advocacy groups (while he was a Democratic candidate), including:\n\nEverytown for Gun Safety / Moms Demand Action for Gun Sense in America\n\nPlanned Parenthood Alliance Advocates – Idaho\n\nIdaho Farm Bureau Federation\n(Note: those were from his 2024 state legislative campaign, not his 2026 Senate run.) \nVote Smart\n\n⚠️ What’s Not Currently Reported\n\nThere are no widely reported endorsements yet from prominent federal or statewide elected officials or major national political organizations specifically for Achilles’s 2026 independent Senate campaign that have appeared in major news or his campaign materials (as of available sources).\n\nIf you want help tracking new endorsements as they’re announced later in the campaign, I can summarize those updates for you.",
+      "responseTimeMs": 16786,
+      "layers": {
+        "browsing": {
+          "detected": false,
+          "evidence": [],
+          "sourcesFound": []
+        },
+        "formatting": {
+          "hasEmojis": true,
+          "hasMarkdown": false,
+          "hasStructuredSections": true,
+          "formatTypes": [
+            "emojis",
+            "structured sections with headers"
+          ]
+        },
+        "followUp": {
+          "hasFollowUpSuggestions": true,
+          "suggestions": [
+            "ources).  If you want help tracking new endorsements as they’re announced later in the campaign, I can summari"
+          ]
+        },
+        "systemPrompt": {
+          "hasPersonaIndicators": false,
+          "hasSafetyLanguage": false,
+          "indicators": []
+        },
+        "baseModel": {
+          "likelyFromTrainingData": [
+            "Idaho political context (likely from recent browsing or late training data)"
+          ],
+          "possibleConfusion": [],
+          "knowledgeCutoffIndicators": []
+        }
+      },
+      "assessment": {
+        "primarySource": "training_data",
+        "confidence": 0.5,
+        "explanation": "No strong browsing indicators; likely base model response"
+      }
+    },
+    {
+      "query": "What would Todd Achilles do about the economy?",
+      "response": "Here’s what Todd Achilles says he would do about the economy if elected to the U.S. Senate — based on his 2026 campaign platform and public statements: \nTodd Achilles for Idaho\n+1\n\n💰 1. Reduce the National Debt\n\nAchilles prioritizes paying down the national debt rather than simply delaying it. His campaign argues that growing debt burdens future generations and stresses that:\n\nSpending wastefully must end.\n\nTax breaks and loopholes that benefit wealthy individuals and corporations should be eliminated.\n\nCapital gains should be taxed at rates more similar to ordinary income for high earners, reducing preferential treatment of investment income over labor income.\n\nHe supports prosecuting wealthy tax cheats and closing shelters that reduce tax compliance.\nThis approach is framed as increasing fairness and reducing long-term fiscal risk. \nTodd Achilles for Idaho\n\n👨‍👩‍👧‍👦 2. Grow and Protect the Middle Class\n\nAchilles’s platform emphasizes strengthening economic opportunity for working families:\n\nReduce taxes on middle-class families, small businesses, and entrepreneurs.\n\nBan non-compete agreements that limit worker mobility and bargaining power, helping people change jobs or pursue better opportunities.\n\nHe advocates for higher wages as a way to improve living standards and reduce reliance on government safety-net programs.\nThese proposals are pitched as restoring economic freedom and rewarding hard work. \nTodd Achilles for Idaho\n\n🏡 3. Make Housing More Affordable\n\nHousing cost pressures are part of Achilles’s economic agenda:\n\nHe wants to prohibit corporate ownership of single-family homes, which his campaign says drives up prices and makes homes less accessible for families.\n\nThough not strictly federal economic policy, this reflects his focus on cost-of-living issues that affect everyday households. \nTodd Achilles for Idaho\n\n🏙️ 4. Support Fair and Competitive Markets\n\nAchilles has spoken broadly about restoring competition and opposing monopolistic practices in the economy — framed as defending workers and consumers against excessive corporate power. This aligns with his criticism of big companies influencing politics and economic outcomes. \nTodd Achilles for Idaho\n\n📊 Economic Philosophy\n\nWhile not a detailed macroeconomic plan, his economic priorities reflect several broad themes:\n\nFairer taxation (closing loopholes and taxing income more equitably).\n\nWorker empowerment (banning restrictive employment contracts and pushing for higher wages).\n\nFiscal responsibility (reducing debt and curbing wasteful spending).\n\nMarket fairness (promoting competition and constraining corporate influence).\nHis messaging ties these to frustration with both major party approaches, portraying himself as an independent alternative focused more on economic fairness than on political labels. \nTodd Achilles for Idaho\n\n🧠 What This Means in Practice\n\nIf elected, Achilles would likely:\n\nAdvocate for tax reform aimed at equity and closing preferential treatments.\n\nPush for measures to limit corporate influence in economic policymaking.\n\nSupport policies targeting middle-class prosperity and household affordability, especially in housing and labor markets.\n\nEmphasize federal fiscal discipline and long-term debt reduction. \nTodd Achilles for Idaho\n\nIf you want, I can summarize how his economic views compare with those of his 2026 general election opponent (e.g., the Republican incumbent) so you can see the contrasts.",
+      "responseTimeMs": 18604,
+      "layers": {
+        "browsing": {
+          "detected": false,
+          "evidence": [],
+          "sourcesFound": []
+        },
+        "formatting": {
+          "hasEmojis": true,
+          "hasMarkdown": false,
+          "hasStructuredSections": true,
+          "formatTypes": [
+            "emojis",
+            "structured sections with headers"
+          ]
+        },
+        "followUp": {
+          "hasFollowUpSuggestions": true,
+          "suggestions": [
+            "or Idaho  If you want, I can summarize how his economic views compare with those of his 2026 general election"
+          ]
+        },
+        "systemPrompt": {
+          "hasPersonaIndicators": false,
+          "hasSafetyLanguage": false,
+          "indicators": []
+        },
+        "baseModel": {
+          "likelyFromTrainingData": [],
+          "possibleConfusion": [],
+          "knowledgeCutoffIndicators": []
+        }
+      },
+      "assessment": {
+        "primarySource": "training_data",
+        "confidence": 0.5,
+        "explanation": "No strong browsing indicators; likely base model response"
+      }
+    },
+    {
+      "query": "What is Todd Achilles's position on healthcare?",
+      "response": "Here’s what Todd Achilles’s position on healthcare appears to be based on his public statements during his 2026 U.S. Senate campaign and related reporting — including comments he’s made while discussing issues on the campaign trail and during his statewide “listening tour”:\nThe Argonaut\n+1\n\n🏥 1. Concern about Healthcare Access\n\nAchilles has regularly highlighted healthcare access — especially in rural Idaho — as a major issue. He’s noted that:\n\nRural hospitals in Idaho are struggling, with many designated as critical access hospitals that face financial pressure and closures.\n\nProposed or enacted changes to federal healthcare programs such as Medicaid (e.g., cuts associated with what some media refer to as the “One Big Beautiful Bill”) could result in tens of thousands of Idahoans losing coverage, which would strain local providers and reduce access.\nThe Argonaut\n+1\n\n🩺 2. Medicaid & Coverage\n\nWhile Achilles hasn’t released a highly detailed healthcare plan, he has expressed concern that federal policy changes that reduce Medicaid funding or eligibility will have negative impacts on access to care — particularly in rural areas where hospital closures are already a pressing challenge. He has framed this as something that hurts everyday Idahoans.\nThe Argonaut\n\n🩹 3. Individual Healthcare Decisions\n\nFrom his time in the Idaho Legislature, Achilles opposed certain “medical freedom” bills that would broadly restrict how medical mandates or interventions could be required or not. In that context, he was on the side of allowing appropriate healthcare decisions by individuals and providers rather than overly broad restrictions.\nIdaho Capital Sun\n\n🧠 4. Framing & Broader Context\n\nAchilles tends to talk about healthcare as part of broader themes that include:\n\nCost of living and economic security, the idea that healthy families need reliable access to affordable care.\nThe Argonaut\n\nThe need to protect rural healthcare infrastructure as part of his discussions with voters on his listening tour.\nThe Argonaut\n\n📌 What Isn’t Clearly Defined\n\nAs of early 2026, his campaign has not released a detailed, formal health policy document with a comprehensive set of specific federal policy proposals (e.g., positions on Medicare expansion, prescription drug pricing reforms, or specific insurer regulations). Instead, his statements emphasize protecting access to care — particularly rural hospitals and Medicaid coverage — and resisting cuts that could reduce that access.\nThe Argonaut\n\n🧾 Quick Summary\n\nTodd Achilles’s stance on healthcare includes:\n\nEmphasizing protecting access to care, especially in rural areas where hospitals are vulnerable.\nThe Argonaut\n\nWarning that cuts to Medicaid funding could harm tens of thousands of Idahoans.\nhttps://www.kmvt.com\n\nFraming health policy issues in the context of economic security and community stability.\nThe Argonaut\n\nFavoring individual decision-making and opposing overly broad restrictions on medical choices.\nIdaho Capital Sun\n\nIf you want, I can compare Achilles’s healthcare views to those of his main opponent in the 2026 Idaho Senate race so you can see how they differ.",
+      "responseTimeMs": 17900,
+      "layers": {
+        "browsing": {
+          "detected": true,
+          "evidence": [
+            "URL domains found: kmvt.com"
+          ],
+          "sourcesFound": [
+            "kmvt.com"
+          ]
+        },
+        "formatting": {
+          "hasEmojis": true,
+          "hasMarkdown": false,
+          "hasStructuredSections": true,
+          "formatTypes": [
+            "emojis",
+            "structured sections with headers"
+          ]
+        },
+        "followUp": {
+          "hasFollowUpSuggestions": true,
+          "suggestions": [
+            "ital Sun  If you want, I can compare Achilles’s healthcare views to those of his main opponent in the 2026 Ida"
+          ]
+        },
+        "systemPrompt": {
+          "hasPersonaIndicators": false,
+          "hasSafetyLanguage": false,
+          "indicators": []
+        },
+        "baseModel": {
+          "likelyFromTrainingData": [
+            "Idaho political context (likely from recent browsing or late training data)"
+          ],
+          "possibleConfusion": [],
+          "knowledgeCutoffIndicators": []
+        }
+      },
+      "assessment": {
+        "primarySource": "browsing",
+        "confidence": 0.8,
+        "explanation": "Strong browsing indicators: URL domains found: kmvt.com"
+      }
+    },
+    {
+      "query": "Where does Todd Achilles stand on immigration?",
+      "response": "Here’s what is publicly known about Todd Achilles’s stance on immigration, based on his actions and statements from his time in the Idaho House of Representatives and reporting on his legislative behavior:\n\n🧑‍⚖️ 1. Believes Immigration Enforcement Is a Federal Responsibility\n\nWhile serving in the Idaho Legislature, Achilles expressed opposition to a state-level immigration enforcement bill that would have allowed local authorities to enforce immigration law (e.g., determining someone’s immigration status and creating state crimes related to unauthorized entry). He argued such a law violates the U.S. Constitution’s Supremacy Clause, because immigration policy is under federal authority, not state authority.\nNews From The States\n\n🏛️ 2. Critical of Harsh, State-Level Anti-Immigrant Legislation\n\nIn 2025 he opposed immigration bills in the Idaho House that were modeled on Texas laws aiming to criminalize unauthorized entry and empower local enforcement to check documentation. Achilles indicated concerns about constitutional issues and potential double jeopardy, reflecting a view that overly broad state enforcement measures are inappropriate.\nIdaho News 6 Boise Twin Falls (KIVI)\n\n⚠️ 3. No Detailed Federal Immigration Plan Publicly Available Yet\n\nAs of early 2026, Achilles has not released a detailed federal immigration policy platform for his U.S. Senate campaign that lays out specific positions on border security, pathways to citizenship, asylum processing, guest worker programs, or other federal immigration reforms. His campaign site’s priority list does include “secure the border”, but without detailed specifics on enforcement approach, legal pathways, or immigration reform strategies.\nTodd Achilles for Idaho\n\n🧾 Summary\n\nFederal over state authority: Achilles has been clear that immigration law should be handled at the federal level, not by state legislation that could create conflicting or unconstitutional enforcement.\nNews From The States\n\nConcern over harsh state penalties: He opposed laws that would criminalize unauthorized entry at the state level and expand local law enforcement’s role beyond existing federal authority.\nIdaho News 6 Boise Twin Falls (KIVI)\n\nGeneral emphasis on border security: His campaign lists border security among his priorities, but without a detailed public policy proposal on immigration reform or specific enforcement approaches at the federal level.\nTodd Achilles for Idaho\n\nIf you want, I can help summarize how his stance compares with the positions of his opponent in the 2026 Idaho U.S. Senate race.",
+      "responseTimeMs": 17295,
+      "layers": {
+        "browsing": {
+          "detected": false,
+          "evidence": [],
+          "sourcesFound": []
+        },
+        "formatting": {
+          "hasEmojis": true,
+          "hasMarkdown": false,
+          "hasStructuredSections": true,
+          "formatTypes": [
+            "emojis",
+            "structured sections with headers"
+          ]
+        },
+        "followUp": {
+          "hasFollowUpSuggestions": true,
+          "suggestions": [
+            "or Idaho  If you want, I can help summarize how his stance compares with the positions of his opponent in the"
+          ]
+        },
+        "systemPrompt": {
+          "hasPersonaIndicators": false,
+          "hasSafetyLanguage": false,
+          "indicators": []
+        },
+        "baseModel": {
+          "likelyFromTrainingData": [
+            "Idaho political context (likely from recent browsing or late training data)"
+          ],
+          "possibleConfusion": [],
+          "knowledgeCutoffIndicators": []
+        }
+      },
+      "assessment": {
+        "primarySource": "training_data",
+        "confidence": 0.5,
+        "explanation": "No strong browsing indicators; likely base model response"
+      }
+    },
+    {
+      "query": "Is Todd Achilles honest?",
+      "response": "Assessing whether a public figure like Todd Achilles is honest isn’t something that can be answered definitively by fact alone — it’s partly subjective and depends on your own standards and how you weigh both their actions and claims. What we can do, however, is summarize factual information about his record that relates to honesty, transparency, and integrity so you can form your own judgment:\n\n✅ No Known Major Convictions or Legal Findings of Dishonesty\n\nThere are no public records showing that Achilles has been criminally charged, convicted, or legally found to have committed fraud, corruption, or similar acts of dishonesty.\n\n⚠️ Campaign Financial Disclosure Issue\n\nIn late 2025, a Republican political committee publicly called on the Senate Select Committee on Ethics to investigate Achilles because he had not filed his personal financial disclosure form promptly after becoming a candidate, which is required under federal law for federal campaigns. This was framed by that group as a transparency concern. \nNRSC\n\nImportant context: The call for an investigation came from an opposition political organization, which has a strategic interest in criticizing a rival campaign. It does not, on its own, prove dishonesty — but it does reflect that opponents have seized on an administrative compliance issue to question his transparency.\n\n🧾 Public Service & Background\n\nAchilles has a track record of public service, military service, and executive work; there are no widely reported scandals or integrity controversies tied to his time as a business executive, policy academic, or state legislator. \nGoldman School of Public Policy\n\nAs a state legislator and now a Senate candidate, he actively engages with voters (e.g., a campaign town-hall “listening tour”) which supporters present as a sign of accountability and openness. \nSpokesman-Review\n\n🧠 Campaign Messaging and Integrity Claims\n\nAchilles’s campaign emphasizes fighting corruption in Washington, reducing money’s influence in politics, banning congressional stock trading, and imposing term limits — all framed as measures to promote honesty and accountability in government. \nTodd Achilles for Idaho\n\nAdvocates might see that as evidence he takes issues of honesty seriously.\n\n👩‍⚖️ What Objectivity Means Here\n\nAn honest public figure is typically someone who:\n\nComplies with legal and ethical requirements (including financial disclosures).\n\nIs consistent and transparent in public statements versus actions.\n\nDoes not have a track record of misleading behavior or falsified claims.\n\nBy that measure, there is no evidence of major dishonest conduct by Achilles, but the failure to timely file a required disclosure form has been publicly criticized by an opposing political group — something that could raise questions about attention to compliance and transparency for some observers. \nNRSC\n\n📌 In Summary\n\nNo criminal or proven ethical breaches related to dishonesty are on record.\n\nA political complaint about financial disclosure compliance has been reported, but that stems from an opposition group’s assertion rather than a formal ethics finding. \nNRSC\n\nAchilles’s own messaging focuses on accountability and fighting political corruption. \nTodd Achilles for Idaho\n\nIf you want, I can provide a side-by-side comparison of how Achilles’s record on transparency and ethics stacks up against his opponents’ records in the 2026 Idaho Senate race.",
+      "responseTimeMs": 16944,
+      "layers": {
+        "browsing": {
+          "detected": false,
+          "evidence": [],
+          "sourcesFound": []
+        },
+        "formatting": {
+          "hasEmojis": true,
+          "hasMarkdown": false,
+          "hasStructuredSections": true,
+          "formatTypes": [
+            "emojis",
+            "structured sections with headers"
+          ]
+        },
+        "followUp": {
+          "hasFollowUpSuggestions": true,
+          "suggestions": [
+            "or Idaho  If you want, I can provide a side-by-side comparison of how Achilles’s record on transparency and et"
+          ]
+        },
+        "systemPrompt": {
+          "hasPersonaIndicators": false,
+          "hasSafetyLanguage": false,
+          "indicators": []
+        },
+        "baseModel": {
+          "likelyFromTrainingData": [
+            "Idaho political context (likely from recent browsing or late training data)"
+          ],
+          "possibleConfusion": [],
+          "knowledgeCutoffIndicators": []
+        }
+      },
+      "assessment": {
+        "primarySource": "training_data",
+        "confidence": 0.5,
+        "explanation": "No strong browsing indicators; likely base model response"
+      }
+    },
+    {
+      "query": "Can I trust Todd Achilles?",
+      "response": "Whether you can trust Todd Achilles is ultimately a personal judgment, but here are objective facts and context you can use to evaluate his trustworthiness based on his record and public behavior:\n\n✅ Reasons Some Voters Might See Him as Trustworthy\n📌 Clear, Publicly Stated Principles\n\nAchilles positions himself as an independent candidate focused on reform, criticizing both major parties for what he calls a lack of accountability and responsiveness to ordinary Idahoans. He frames his campaign around transparency, fighting corruption, and putting people over special interests. \nTodd Achilles for Idaho\n\n📌 Military and Professional Background\n\nHe served in the U.S. Army and spent many years in leadership roles in business and academia. Many supporters view this as evidence he has real-world experience and integrity outside of politics. \nGoldman School of Public Policy\n\n📌 Engaging with Voters\n\nAchilles has emphasized a “listening tour” across Idaho to hear directly from residents — an effort some people interpret as a sign of openness and accountability. \nSpokesman-Review\n\n⚠️ Points That Have Drawn Scrutiny\n📌 Campaign Finance Disclosure Issue\n\nIn late 2025, a national Republican group (the NRSC) publicly called for an ethics investigation because Achilles had not timely filed his Personal Financial Disclosure Form, which candidates are required to submit. \nNRSC\n\nAchilles responded by acknowledging the possibility of an administrative oversight and said he would correct it, while framing the criticism as political pressure rather than an intentional concealment. \nEast Idaho News\n\nThis situation isn’t evidence of illegal conduct, but it has raised questions about his compliance with campaign rules and transparency — something many voters care about when judging trustworthiness.\n\n🧠 How to Think About “Trust” in a Candidate\n\nWhen people assess trust in a public figure, they often consider:\n\n1. Consistency:\n\nDo the candidate’s actions match their words?\n\n2. Transparency:\n\nDoes the candidate willingly share information about their background, finances, and decision-making?\n\n3. Accountability:\n\nDoes the candidate take responsibility for mistakes or oversights?\n\n4. Record:\n\nHas the candidate previously served with integrity in public or private roles?\n\nIn Achilles’s case:\n\nHe articulates clear principles about reform and accountability. \nTodd Achilles for Idaho\n\nHe has apologized for or acknowledged at least one administrative campaign oversight regarding disclosures. \nEast Idaho News\n\n🧾 Bottom Line\n\nYou might consider Achilles trustworthy if you value:\n\nLeaders willing to challenge political norms,\n\nCandidates with broad professional and service experience,\n\nSomeone willing to engage directly with voters.\n\nYou might have reservations if you place heavy emphasis on:\n\nStrict adherence to campaign procedural requirements,\n\nA candidate’s early campaign compliance with disclosure norms.\n\nIf you’d like, I can help you compare his record on transparency and accountability with those of his opponents in the 2026 Idaho Senate race so you can see how candidates stack up on trust-related issues.",
+      "responseTimeMs": 17829,
+      "layers": {
+        "browsing": {
+          "detected": false,
+          "evidence": [],
+          "sourcesFound": []
+        },
+        "formatting": {
+          "hasEmojis": true,
+          "hasMarkdown": false,
+          "hasStructuredSections": true,
+          "formatTypes": [
+            "emojis",
+            "structured sections with headers"
+          ]
+        },
+        "followUp": {
+          "hasFollowUpSuggestions": false,
+          "suggestions": []
+        },
+        "systemPrompt": {
+          "hasPersonaIndicators": false,
+          "hasSafetyLanguage": false,
+          "indicators": []
+        },
+        "baseModel": {
+          "likelyFromTrainingData": [
+            "Idaho political context (likely from recent browsing or late training data)"
+          ],
+          "possibleConfusion": [],
+          "knowledgeCutoffIndicators": []
+        }
+      },
+      "assessment": {
+        "primarySource": "training_data",
+        "confidence": 0.5,
+        "explanation": "No strong browsing indicators; likely base model response"
+      }
+    }
+  ]
+}

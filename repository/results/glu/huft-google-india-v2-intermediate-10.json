@@ -1,0 +1,111 @@
+{
+  "results": [
+    {
+      "query": "Which are the best budget dog food brands online?",
+      "queryIndex": 0,
+      "surface": "google-search-india",
+      "success": false,
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.google.co.in/\", waiting until \"load\"\u001b[22m\n",
+      "timestamp": "2026-01-19T04:29:41.082Z",
+      "responseTimeMs": 30018
+    },
+    {
+      "query": "Can you suggest the best treat brands for dogs online?",
+      "queryIndex": 1,
+      "surface": "google-search-india",
+      "success": true,
+      "aiOverviewQuality": "paa_only",
+      "organicResults": [],
+      "response": "",
+      "timestamp": "2026-01-19T04:30:30.078Z",
+      "responseTimeMs": 48995
+    },
+    {
+      "query": "Which are the best dog food brands with high reviews?",
+      "queryIndex": 2,
+      "surface": "google-search-india",
+      "success": false,
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.google.co.in/\", waiting until \"load\"\u001b[22m\n",
+      "timestamp": "2026-01-19T04:31:17.637Z",
+      "responseTimeMs": 30034
+    },
+    {
+      "query": "Which are the best dog food brands recommended by vets?",
+      "queryIndex": 3,
+      "surface": "google-search-india",
+      "success": true,
+      "aiOverviewQuality": "paa_only",
+      "organicResults": [],
+      "response": "",
+      "timestamp": "2026-01-19T04:31:55.477Z",
+      "responseTimeMs": 37840
+    },
+    {
+      "query": "Can you list some popular pet food brands with good meat content?",
+      "queryIndex": 4,
+      "surface": "google-search-india",
+      "success": false,
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.google.co.in/\", waiting until \"load\"\u001b[22m\n",
+      "timestamp": "2026-01-19T04:32:51.172Z",
+      "responseTimeMs": 30035
+    },
+    {
+      "query": "Which brands offer gluten-free dog treats my dog will enjoy?",
+      "queryIndex": 5,
+      "surface": "google-search-india",
+      "success": false,
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.google.co.in/\", waiting until \"load\"\u001b[22m\n",
+      "timestamp": "2026-01-19T04:33:21.188Z",
+      "responseTimeMs": 30016
+    },
+    {
+      "query": "Can you suggest the best dog biscuit brands for dogs with sensitive stomachs?",
+      "queryIndex": 6,
+      "surface": "google-search-india",
+      "success": true,
+      "aiOverview": "Recommended treat brands for sensitive stomachs include Purina DentaLife Plus Digestive Support, PureBites Digestion Freeze-Dried Treats, Onward Hound Belly Benefits, Whole Life Pet, and Dave's Pet Food, all offering options with simple, stomach-friendly ingredients.7 Aug 2024",
+      "aiOverviewQuality": "good",
+      "organicResults": [],
+      "response": "Recommended treat brands for sensitive stomachs include Purina DentaLife Plus Digestive Support, PureBites Digestion Freeze-Dried Treats, Onward Hound Belly Benefits, Whole Life Pet, and Dave's Pet Food, all offering options with simple, stomach-friendly ingredients.7 Aug 2024",
+      "timestamp": "2026-01-19T04:33:56.879Z",
+      "responseTimeMs": 35690
+    },
+    {
+      "query": "Which are the top healthy vegetarian dog biscuit brands available online?",
+      "queryIndex": 7,
+      "surface": "google-search-india",
+      "success": true,
+      "aiOverview": "Dog treats like Biscrok Biscuits that contain omega fatty acids can be very beneficial for your dog's coat. Omega fatty acids help nourish the skin and keep their fur coats healthy. These dog biscuits are also beneficial for dogs that suffer from dry and flaky skin.",
+      "aiOverviewQuality": "good",
+      "organicResults": [],
+      "response": "Dog treats like Biscrok Biscuits that contain omega fatty acids can be very beneficial for your dog's coat. Omega fatty acids help nourish the skin and keep their fur coats healthy. These dog biscuits are also beneficial for dogs that suffer from dry and flaky skin.",
+      "timestamp": "2026-01-19T04:34:44.093Z",
+      "responseTimeMs": 30099
+    },
+    {
+      "query": "What are the best-tasting treat brands for dogs under ₹1000?",
+      "queryIndex": 8,
+      "surface": "google-search-india",
+      "success": true,
+      "aiOverview": "Fun and tasty dog treats Simple, cheap and nutritious, many dogs love chomping away on a fresh carrot. Due to their natural sweetness, this is a popular veggie treat packed full of fibre and vitamin A. High in fibre and vitamin C, most dogs love crunching on an apple.5 May 2024",
+      "aiOverviewQuality": "good",
+      "organicResults": [],
+      "response": "Fun and tasty dog treats Simple, cheap and nutritious, many dogs love chomping away on a fresh carrot. Due to their natural sweetness, this is a popular veggie treat packed full of fibre and vitamin A. High in fibre and vitamin C, most dogs love crunching on an apple.5 May 2024",
+      "timestamp": "2026-01-19T04:35:31.745Z",
+      "responseTimeMs": 28610
+    },
+    {
+      "query": "Which brands offer low-calorie chicken dog treats?",
+      "queryIndex": 9,
+      "surface": "google-search-india",
+      "success": true,
+      "aiOverview": "Try substituting safe fruits and vegetables into your pet's diet. Green beans are very low in calories and have a satisfying crunch. They can be a great green snack for your dog or cat. In addition, most dogs love baby carrots, and at about four calories each they make a great weight loss snack.10 Jan 2017",
+      "aiOverviewQuality": "good",
+      "organicResults": [],
+      "response": "Try substituting safe fruits and vegetables into your pet's diet. Green beans are very low in calories and have a satisfying crunch. They can be a great green snack for your dog or cat. In addition, most dogs love baby carrots, and at about four calories each they make a great weight loss snack.10 Jan 2017",
+      "timestamp": "2026-01-19T04:36:29.748Z",
+      "responseTimeMs": 30747
+    }
+  ],
+  "lastQuery": 9
+}

@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>City of Boise - AI Visibility Assessment</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #f5f5f5;
+    }
+    .tabs {
+      display: flex;
+      background: #1a1a2e;
+      padding: 0 20px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .tab {
+      padding: 15px 30px;
+      color: #aaa;
+      cursor: pointer;
+      border-bottom: 3px solid transparent;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+    .tab:hover { color: #fff; }
+    .tab.active {
+      color: #fff;
+      border-bottom-color: #4a90d9;
+      background: rgba(255,255,255,0.1);
+    }
+    .tab-content {
+      display: none;
+      padding: 30px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .tab-content.active { display: block; }
+
+    h1 { color: #1a1a2e; margin-bottom: 10px; }
+    h2 { color: #1a1a2e; margin: 30px 0 15px 0; border-bottom: 2px solid #4a90d9; padding-bottom: 8px; }
+    h3 { color: #2d3748; margin: 20px 0 10px 0; }
+
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 25px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin: 20px 0;
+    }
+    .metric {
+      background: #f8f9fa;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .metric-value {
+      font-size: 48px;
+      font-weight: 700;
+      color: #1a1a2e;
+    }
+    .metric-value.good { color: #28a745; }
+    .metric-value.warning { color: #ffc107; }
+    .metric-value.critical { color: #dc3545; }
+    .metric-label {
+      font-size: 14px;
+      color: #666;
+      margin-top: 5px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 15px 0;
+    }
+    th, td {
+      padding: 12px 15px;
+      text-align: left;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    th {
+      background: #f8f9fa;
+      font-weight: 600;
+      color: #1a1a2e;
+    }
+    tr:hover { background: #f8f9fa; }
+
+    .status-excellent { color: #28a745; font-weight: 600; }
+    .status-good { color: #17a2b8; font-weight: 600; }
+    .status-warning { color: #ffc107; font-weight: 600; }
+    .status-critical { color: #dc3545; font-weight: 600; }
+
+    .finding {
+      padding: 15px 20px;
+      margin: 10px 0;
+      border-left: 4px solid #4a90d9;
+      background: #f8f9fa;
+    }
+    .finding.critical { border-left-color: #dc3545; }
+    .finding.warning { border-left-color: #ffc107; }
+    .finding.good { border-left-color: #28a745; }
+
+    .action-item {
+      padding: 20px;
+      margin: 15px 0;
+      background: white;
+      border-radius: 8px;
+      border: 1px solid #e0e0e0;
+    }
+    .action-item h4 {
+      color: #1a1a2e;
+      margin-bottom: 10px;
+    }
+    .action-priority {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left: 10px;
+    }
+    .priority-high { background: #dc3545; color: white; }
+    .priority-medium { background: #ffc107; color: #333; }
+    .priority-low { background: #28a745; color: white; }
+
+    ul { margin: 10px 0 10px 25px; }
+    li { margin: 5px 0; }
+
+    .methodology {
+      background: #e8f4f8;
+      padding: 20px;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+    .methodology h4 { color: #1a1a2e; margin-bottom: 10px; }
+
+    .footer {
+      text-align: center;
+      padding: 30px;
+      color: #666;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="tabs">
+  <div class="tab active" onclick="showTab('summary')">Executive Summary</div>
+  <div class="tab" onclick="showTab('monitor')">Monitor</div>
+  <div class="tab" onclick="showTab('analyze')">Analyze</div>
+  <div class="tab" onclick="showTab('act')">Act</div>
+  <div class="tab" onclick="showTab('methodology')">Methodology</div>
+</div>
+
+<!-- EXECUTIVE SUMMARY -->
+<div id="summary" class="tab-content active">
+  <div class="card">
+    <h1>City of Boise AI Visibility Assessment</h1>
+    <p style="color: #666;">Panopticon Study | January 25, 2026</p>
+  </div>
+
+  <div class="card">
+    <h2>Overall Finding</h2>
+    <div class="metric-grid">
+      <div class="metric">
+        <div class="metric-value good">93%</div>
+        <div class="metric-label">Answer Quality Score</div>
+      </div>
+      <div class="metric">
+        <div class="metric-value">118</div>
+        <div class="metric-label">Queries Tested</div>
+      </div>
+      <div class="metric">
+        <div class="metric-value">5</div>
+        <div class="metric-label">Surfaces Tested</div>
+      </div>
+      <div class="metric">
+        <div class="metric-value">14</div>
+        <div class="metric-label">Categories</div>
+      </div>
+    </div>
+    <p><strong>When citizens, businesses, or visitors search for information about Boise, they get a useful answer 93% of the time.</strong></p>
+  </div>
+
+  <div class="card">
+    <h2>Key Findings</h2>
+    <div class="finding good">
+      <strong>Strength:</strong> Excellent visibility on conversational AI (ChatGPT 98%, Meta AI 96%) and Bing (99%). Citizens using these platforms find Boise information easily.
+    </div>
+    <div class="finding good">
+      <strong>Strength:</strong> Google organic search performs well at 93% overall. Most categories score 90-100%.
+    </div>
+    <div class="finding critical">
+      <strong>Gap:</strong> Transportation queries fail 48% of the time across all platforms. Users searching for transit, roads, and getting around Boise often don't find answers.
+    </div>
+    <div class="finding warning">
+      <strong>Gap:</strong> Leadership queries (mayor, city council) have 82% visibility—good but below other categories.
+    </div>
+    <div class="finding">
+      <strong>Context:</strong> Google AI Overviews don't appear for government service queries (permits, licenses). This is a Google platform behavior affecting all cities, not a Boise-specific issue.
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Recommended Actions</h2>
+    <table>
+      <tr>
+        <th>Priority</th>
+        <th>Action</th>
+        <th>Impact</th>
+      </tr>
+      <tr>
+        <td><span class="action-priority priority-high">HIGH</span></td>
+        <td>Create Transportation hub page clarifying city vs. ACHD responsibilities</td>
+        <td>52% → 80%</td>
+      </tr>
+      <tr>
+        <td><span class="action-priority priority-medium">MEDIUM</span></td>
+        <td>Enhance mayor/council pages with structured data</td>
+        <td>82% → 95%</td>
+      </tr>
+      <tr>
+        <td><span class="action-priority priority-low">LOW</span></td>
+        <td>Add FAQ schema to top city service pages</td>
+        <td>88% → 95%</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<!-- MONITOR -->
+<div id="monitor" class="tab-content">
+  <div class="card">
+    <h1>Monitor: What We Observed</h1>
+    <p>Raw data from 590 observations across 5 surfaces and 118 queries.</p>
+  </div>
+
+  <div class="card">
+    <h2>Surfaces Tested</h2>
+    <table>
+      <tr>
+        <th>Platform</th>
+        <th>Type</th>
+        <th>Est. Query Share</th>
+        <th>Queries Run</th>
+        <th>Success Rate</th>
+      </tr>
+      <tr>
+        <td>Google Search</td>
+        <td>Search Engine</td>
+        <td>75%</td>
+        <td>118</td>
+        <td>100%</td>
+      </tr>
+      <tr>
+        <td>ChatGPT</td>
+        <td>Conversational AI</td>
+        <td>12%</td>
+        <td>118</td>
+        <td>100%</td>
+      </tr>
+      <tr>
+        <td>Bing Search</td>
+        <td>Search Engine</td>
+        <td>8%</td>
+        <td>118</td>
+        <td>98%</td>
+      </tr>
+      <tr>
+        <td>Meta AI</td>
+        <td>Conversational AI</td>
+        <td>3%</td>
+        <td>118</td>
+        <td>100%</td>
+      </tr>
+      <tr>
+        <td>Google AI Overview</td>
+        <td>AI-Enhanced Search</td>
+        <td>—</td>
+        <td>118</td>
+        <td>100%</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Query Categories</h2>
+    <table>
+      <tr>
+        <th>Category</th>
+        <th>Queries</th>
+        <th>Example Query</th>
+      </tr>
+      <tr><td>City Services</td><td>20</td><td>"How do I get a building permit in Boise?"</td></tr>
+      <tr><td>Vacation Planning</td><td>12</td><td>"Best time to visit Boise Idaho"</td></tr>
+      <tr><td>Business Relocation</td><td>12</td><td>"Boise business incentives and tax benefits"</td></tr>
+      <tr><td>Tourism</td><td>10</td><td>"What is there to do in Boise, Idaho?"</td></tr>
+      <tr><td>Quality of Life</td><td>10</td><td>"What is the cost of living in Boise?"</td></tr>
+      <tr><td>Government</td><td>10</td><td>"What is Boise's city budget?"</td></tr>
+      <tr><td>Family Relocation</td><td>10</td><td>"Best schools in Boise Idaho"</td></tr>
+      <tr><td>Freshness</td><td>8</td><td>"What's happening in Boise this weekend?"</td></tr>
+      <tr><td>Transportation</td><td>5</td><td>"Boise public transportation options"</td></tr>
+      <tr><td>Leadership</td><td>5</td><td>"Who is the mayor of Boise?"</td></tr>
+      <tr><td>Healthcare</td><td>5</td><td>"Best hospitals in Boise"</td></tr>
+      <tr><td>Events</td><td>4</td><td>"Boise music festivals"</td></tr>
+      <tr><td>Challenges</td><td>4</td><td>"What are the biggest challenges facing Boise?"</td></tr>
+      <tr><td>Elections</td><td>3</td><td>"When is the next Boise election?"</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Raw Surface Performance</h2>
+    <table>
+      <tr>
+        <th>Platform</th>
+        <th>Boise Mentioned</th>
+        <th>Rate</th>
+      </tr>
+      <tr>
+        <td>Bing Search</td>
+        <td>115 / 116</td>
+        <td class="status-excellent">99%</td>
+      </tr>
+      <tr>
+        <td>ChatGPT</td>
+        <td>116 / 118</td>
+        <td class="status-excellent">98%</td>
+      </tr>
+      <tr>
+        <td>Meta AI</td>
+        <td>113 / 118</td>
+        <td class="status-excellent">96%</td>
+      </tr>
+      <tr>
+        <td>Google Search</td>
+        <td>109 / 118</td>
+        <td class="status-good">93%</td>
+      </tr>
+      <tr>
+        <td>Google AI Overview</td>
+        <td>18 / 118</td>
+        <td class="status-warning">15%*</td>
+      </tr>
+    </table>
+    <p style="font-size: 13px; color: #666; margin-top: 10px;">*Google AI Overviews don't appear for government service queries. This is a platform limitation affecting all cities.</p>
+  </div>
+</div>
+
+<!-- ANALYZE -->
+<div id="analyze" class="tab-content">
+  <div class="card">
+    <h1>Analyze: What It Means</h1>
+  </div>
+
+  <div class="card">
+    <h2>Answer Quality by Category</h2>
+    <p>Weighted by platform usage: Google (75%), ChatGPT (12%), Bing (8%), Meta AI (3%)</p>
+    <table>
+      <tr>
+        <th>Category</th>
+        <th>Google</th>
+        <th>ChatGPT</th>
+        <th>Bing</th>
+        <th>Meta AI</th>
+        <th>Weighted</th>
+        <th>Assessment</th>
+      </tr>
+      <tr>
+        <td>Business Relocation</td>
+        <td>100%</td><td>100%</td><td>100%</td><td>100%</td>
+        <td class="status-excellent">100%</td>
+        <td>Excellent</td>
+      </tr>
+      <tr>
+        <td>Quality of Life</td>
+        <td>100%</td><td>100%</td><td>100%</td><td>100%</td>
+        <td class="status-excellent">100%</td>
+        <td>Excellent</td>
+      </tr>
+      <tr>
+        <td>Tourism</td>
+        <td>100%</td><td>90%</td><td>100%</td><td>100%</td>
+        <td class="status-excellent">99%</td>
+        <td>Excellent</td>
+      </tr>
+      <tr>
+        <td>Healthcare</td>
+        <td>100%</td><td>100%</td><td>100%</td><td>100%</td>
+        <td class="status-excellent">100%</td>
+        <td>Excellent</td>
+      </tr>
+      <tr>
+        <td>Family Relocation</td>
+        <td>100%</td><td>100%</td><td>100%</td><td>100%</td>
+        <td class="status-excellent">100%</td>
+        <td>Excellent</td>
+      </tr>
+      <tr>
+        <td>Government</td>
+        <td>90%</td><td>100%</td><td>100%</td><td>100%</td>
+        <td class="status-good">92%</td>
+        <td>Good</td>
+      </tr>
+      <tr>
+        <td>City Services</td>
+        <td>85%</td><td>100%</td><td>100%</td><td>95%</td>
+        <td class="status-good">88%</td>
+        <td>Good</td>
+      </tr>
+      <tr>
+        <td>Leadership</td>
+        <td>80%</td><td>80%</td><td>100%</td><td>100%</td>
+        <td class="status-warning">82%</td>
+        <td>Needs Work</td>
+      </tr>
+      <tr>
+        <td>Transportation</td>
+        <td>40%</td><td>100%</td><td>80%</td><td>60%</td>
+        <td class="status-critical">52%</td>
+        <td>Critical</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Problem Analysis: Transportation (52%)</h2>
+    <div class="finding critical">
+      <strong>Root Cause:</strong> Jurisdictional confusion. Roads are managed by ACHD (Ada County Highway District), not the City of Boise. Users searching for "Boise transportation" don't find clear answers because:
+      <ul>
+        <li>No central hub page explaining transportation in Boise</li>
+        <li>ACHD content isn't clearly linked from city site</li>
+        <li>Valley Regional Transit (public transit) is a separate entity</li>
+        <li>Airport is managed by Boise Airport Authority</li>
+      </ul>
+    </div>
+    <h3>Failing Queries</h3>
+    <ul>
+      <li>"Boise public transportation options"</li>
+      <li>"How do I get around Boise without a car?"</li>
+      <li>"Who maintains roads in Boise?"</li>
+      <li>"Report a pothole in Boise" (actually ACHD responsibility)</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Problem Analysis: Leadership (82%)</h2>
+    <div class="finding warning">
+      <strong>Root Cause:</strong> Mayor and city council information exists but lacks structured data that helps AI platforms understand and surface it.
+    </div>
+    <h3>Opportunities</h3>
+    <ul>
+      <li>Add Person schema to mayor's bio page</li>
+      <li>Create individual council member pages with structured data</li>
+      <li>Add Event schema for council meetings</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Context: Google AI Overviews</h2>
+    <p>Google AI Overviews appear for only 15% of queries. However, testing the same queries for Denver, Austin, and Seattle shows this is a <strong>Google platform behavior, not a Boise issue</strong>.</p>
+    <table>
+      <tr>
+        <th>Query Type</th>
+        <th>Boise AI Overview</th>
+        <th>Other Cities</th>
+      </tr>
+      <tr>
+        <td>City Services (permits, licenses)</td>
+        <td>0%</td>
+        <td>0%</td>
+      </tr>
+      <tr>
+        <td>Government (budget, structure)</td>
+        <td>0%</td>
+        <td>0%</td>
+      </tr>
+      <tr>
+        <td>Tourism</td>
+        <td>30%</td>
+        <td>Similar</td>
+      </tr>
+      <tr>
+        <td>Quality of Life</td>
+        <td>40%</td>
+        <td>Similar</td>
+      </tr>
+    </table>
+    <p style="margin-top: 15px;"><strong>Implication:</strong> Focus on organic search optimization. AI Overviews for government services may come later—the same SEO work will help when they do.</p>
+  </div>
+</div>
+
+<!-- ACT -->
+<div id="act" class="tab-content">
+  <div class="card">
+    <h1>Act: What To Do</h1>
+  </div>
+
+  <div class="card">
+    <h2>Priority 1: Fix Transportation (52% → 80%)</h2>
+    <span class="action-priority priority-high">HIGH PRIORITY</span>
+
+    <div class="action-item">
+      <h4>Create Transportation Hub Page</h4>
+      <p><strong>URL:</strong> cityofboise.org/transportation</p>
+      <p><strong>Title:</strong> "Getting Around Boise: Transportation Guide"</p>
+      <p><strong>Content:</strong></p>
+      <ul>
+        <li>Overview of transportation options in Boise</li>
+        <li>Public transit → Link to Valley Regional Transit</li>
+        <li>Roads & streets → Explain ACHD handles this, link to ACHD</li>
+        <li>Airport → Link to Boise Airport</li>
+        <li>Biking → Boise Greenbelt and bike infrastructure</li>
+        <li>Parking → Downtown parking options</li>
+      </ul>
+    </div>
+
+    <div class="action-item">
+      <h4>Add FAQ Schema</h4>
+      <pre style="background: #f5f5f5; padding: 15px; border-radius: 4px; overflow-x: auto; font-size: 13px;">{
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does Boise have public transportation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Valley Regional Transit operates bus service..."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who maintains roads in Boise?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ada County Highway District (ACHD) maintains all roads..."
+      }
+    }
+  ]
+}</pre>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Priority 2: Enhance Leadership Pages (82% → 95%)</h2>
+    <span class="action-priority priority-medium">MEDIUM PRIORITY</span>
+
+    <div class="action-item">
+      <h4>Mayor's Page Enhancement</h4>
+      <ul>
+        <li>Add Person schema with name, title, image</li>
+        <li>Include bio, contact information prominently</li>
+        <li>Link to recent news/announcements</li>
+        <li>Add social media links</li>
+      </ul>
+    </div>
+
+    <div class="action-item">
+      <h4>City Council Directory</h4>
+      <ul>
+        <li>Individual pages for each council member</li>
+        <li>District maps showing representation</li>
+        <li>Meeting schedule with Event schema</li>
+        <li>How to contact or attend meetings</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Priority 3: Optimize City Services (88% → 95%)</h2>
+    <span class="action-priority priority-low">OPTIMIZATION</span>
+
+    <div class="action-item">
+      <h4>Top 10 Service Pages</h4>
+      <p>Add FAQ schema and restructure content to lead with answers:</p>
+      <ul>
+        <li>Building permits</li>
+        <li>Business licenses</li>
+        <li>Utility setup</li>
+        <li>Code violation reporting</li>
+        <li>Police reports</li>
+        <li>Park shelter reservations</li>
+        <li>Trash/recycling</li>
+        <li>Pet licensing</li>
+        <li>Parking permits</li>
+        <li>Special event permits</li>
+      </ul>
+    </div>
+
+    <div class="action-item">
+      <h4>Content Pattern</h4>
+      <pre style="background: #f5f5f5; padding: 15px; border-radius: 4px; font-size: 13px;"># How to Get a Building Permit in Boise
+
+To get a building permit, submit an application to
+Planning & Development Services. Processing takes
+5-10 business days. Fees range from $50-$500.
+
+## What You Need
+- Completed application form
+- Site plan
+- Construction drawings
+- $50-500 fee
+
+## How to Apply
+1. Submit online at [link]
+2. Or visit City Hall, 150 N Capitol Blvd
+
+## Contact
+Phone: (208) 384-3830
+Email: pds@cityofboise.org</pre>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Implementation Timeline</h2>
+    <table>
+      <tr>
+        <th>Week</th>
+        <th>Action</th>
+        <th>Owner</th>
+      </tr>
+      <tr>
+        <td>1-2</td>
+        <td>Create Transportation hub page</td>
+        <td>Web Team</td>
+      </tr>
+      <tr>
+        <td>1-2</td>
+        <td>Add FAQ schema to Transportation page</td>
+        <td>Web Team</td>
+      </tr>
+      <tr>
+        <td>3-4</td>
+        <td>Enhance mayor's page with Person schema</td>
+        <td>Communications</td>
+      </tr>
+      <tr>
+        <td>3-4</td>
+        <td>Update city council pages</td>
+        <td>Communications</td>
+      </tr>
+      <tr>
+        <td>5-8</td>
+        <td>Add FAQ schema to top 10 service pages</td>
+        <td>Content Team</td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>Re-run visibility study to measure improvement</td>
+        <td>—</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Expected Results</h2>
+    <table>
+      <tr>
+        <th>Metric</th>
+        <th>Current</th>
+        <th>After 90 Days</th>
+      </tr>
+      <tr>
+        <td>Overall Answer Quality</td>
+        <td>93%</td>
+        <td class="status-excellent">96%</td>
+      </tr>
+      <tr>
+        <td>Transportation</td>
+        <td class="status-critical">52%</td>
+        <td class="status-good">80%</td>
+      </tr>
+      <tr>
+        <td>Leadership</td>
+        <td class="status-warning">82%</td>
+        <td class="status-excellent">95%</td>
+      </tr>
+      <tr>
+        <td>City Services</td>
+        <td class="status-good">88%</td>
+        <td class="status-excellent">95%</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<!-- METHODOLOGY -->
+<div id="methodology" class="tab-content">
+  <div class="card">
+    <h1>Methodology: Panopticon Observation</h1>
+  </div>
+
+  <div class="card">
+    <h2>What is Panopticon?</h2>
+    <p>Panopticon is named after Jeremy Bentham's 1791 design for an observation structure—a place where an observer could watch without being seen. In the same way, Panopticon observes AI systems in their natural state, querying surfaces without revealing that systematic research is underway.</p>
+    <p style="margin-top: 15px;">This approach captures authentic AI responses—the same answers that real citizens, businesses, and visitors would receive when searching for information.</p>
+  </div>
+
+  <div class="card">
+    <h2>Study Design</h2>
+    <h3>Surfaces</h3>
+    <p>We tested 5 surfaces that represent how people find information today:</p>
+    <table>
+      <tr>
+        <th>Surface</th>
+        <th>Type</th>
+        <th>Why It Matters</th>
+      </tr>
+      <tr>
+        <td>Google Search</td>
+        <td>Search Engine</td>
+        <td>~75% of all information queries start here</td>
+      </tr>
+      <tr>
+        <td>Google AI Overview</td>
+        <td>AI-Enhanced Search</td>
+        <td>AI-generated summaries appearing at top of Google results</td>
+      </tr>
+      <tr>
+        <td>ChatGPT</td>
+        <td>Conversational AI</td>
+        <td>Fastest-growing information source (~12% of queries)</td>
+      </tr>
+      <tr>
+        <td>Bing Search</td>
+        <td>Search Engine</td>
+        <td>Powers Microsoft Copilot; ~8% market share</td>
+      </tr>
+      <tr>
+        <td>Meta AI</td>
+        <td>Conversational AI</td>
+        <td>Integrated into Facebook, Instagram, WhatsApp</td>
+      </tr>
+    </table>
+
+    <h3 style="margin-top: 25px;">Query Design</h3>
+    <p>118 queries were designed to represent real questions from:</p>
+    <ul>
+      <li><strong>Citizens</strong> — "How do I get a building permit?" "Who is my council member?"</li>
+      <li><strong>Businesses</strong> — "Boise business incentives" "Commercial real estate in Boise"</li>
+      <li><strong>Visitors</strong> — "What is there to do in Boise?" "Best restaurants in Boise"</li>
+      <li><strong>Potential Residents</strong> — "Cost of living in Boise" "Best neighborhoods in Boise"</li>
+    </ul>
+
+    <h3 style="margin-top: 25px;">Categories</h3>
+    <p>Queries span 14 categories reflecting the full scope of city information needs:</p>
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 10px;">
+      <div>City Services (20)</div>
+      <div>Vacation Planning (12)</div>
+      <div>Business Relocation (12)</div>
+      <div>Tourism (10)</div>
+      <div>Quality of Life (10)</div>
+      <div>Government (10)</div>
+      <div>Family Relocation (10)</div>
+      <div>Freshness (8)</div>
+      <div>Transportation (5)</div>
+      <div>Leadership (5)</div>
+      <div>Healthcare (5)</div>
+      <div>Events (4)</div>
+      <div>Challenges (4)</div>
+      <div>Elections (3)</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Data Collection</h2>
+    <table>
+      <tr>
+        <th>Surface</th>
+        <th>Method</th>
+        <th>Notes</th>
+      </tr>
+      <tr>
+        <td>Google Search</td>
+        <td>SerpAPI</td>
+        <td>Structured organic results extraction</td>
+      </tr>
+      <tr>
+        <td>Google AI Overview</td>
+        <td>SerpAPI</td>
+        <td>AI Overview detection and text extraction</td>
+      </tr>
+      <tr>
+        <td>ChatGPT</td>
+        <td>Browser automation</td>
+        <td>Human-like interaction patterns to avoid detection</td>
+      </tr>
+      <tr>
+        <td>Bing Search</td>
+        <td>SerpAPI</td>
+        <td>Structured organic results extraction</td>
+      </tr>
+      <tr>
+        <td>Meta AI</td>
+        <td>Browser automation</td>
+        <td>Human-like interaction patterns</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Scoring Methodology</h2>
+    <h3>Answer Quality</h3>
+    <p>For each query, we measured whether the response contained relevant information about Boise. A response "mentions Boise" if it includes specific, useful information answering the user's question about Boise.</p>
+
+    <h3 style="margin-top: 20px;">Weighted Score</h3>
+    <p>The overall Answer Quality Score weights each surface by its estimated share of real-world queries:</p>
+    <table>
+      <tr>
+        <th>Surface</th>
+        <th>Weight</th>
+        <th>Rationale</th>
+      </tr>
+      <tr>
+        <td>Google Search</td>
+        <td>75%</td>
+        <td>Dominant search engine</td>
+      </tr>
+      <tr>
+        <td>ChatGPT</td>
+        <td>12%</td>
+        <td>Leading conversational AI</td>
+      </tr>
+      <tr>
+        <td>Bing Search</td>
+        <td>8%</td>
+        <td>Second-largest search engine</td>
+      </tr>
+      <tr>
+        <td>Meta AI</td>
+        <td>3%</td>
+        <td>Emerging platform with large reach</td>
+      </tr>
+      <tr>
+        <td>Other</td>
+        <td>2%</td>
+        <td>Perplexity, Claude, etc.</td>
+      </tr>
+    </table>
+    <p style="margin-top: 15px;"><strong>Formula:</strong> Weighted Score = (Google × 0.75) + (ChatGPT × 0.12) + (Bing × 0.08) + (Meta × 0.03) + (Est. Other × 0.02)</p>
+  </div>
+
+  <div class="card">
+    <h2>Limitations</h2>
+    <ul>
+      <li><strong>Point-in-time snapshot:</strong> AI responses vary over time as models update. This study reflects January 2026.</li>
+      <li><strong>Location:</strong> Queries were executed from US IP addresses. Results may vary by geography.</li>
+      <li><strong>AI Overview variability:</strong> Google AI Overviews appear dynamically based on query, user, and context. Our detection may not capture all instances.</li>
+      <li><strong>Platform weights are estimates:</strong> Actual query distribution varies by demographic and use case.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Data Quality</h2>
+    <table>
+      <tr>
+        <th>Metric</th>
+        <th>Value</th>
+      </tr>
+      <tr>
+        <td>Total queries</td>
+        <td>118</td>
+      </tr>
+      <tr>
+        <td>Surfaces tested</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Total observations</td>
+        <td>590</td>
+      </tr>
+      <tr>
+        <td>Successful data collection</td>
+        <td>98%+</td>
+      </tr>
+      <tr>
+        <td>Data validation</td>
+        <td>Cross-contamination check, response length validation</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Panopticon AI Visibility Assessment | City of Boise | January 2026</p>
+  <p style="font-size: 12px; margin-top: 5px;">118 queries across 5 AI platforms | 590 total observations</p>
+</div>
+
+<script>
+function showTab(tabId) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  document.querySelector(`[onclick="showTab('${tabId}')"]`).classList.add('active');
+  document.getElementById(tabId).classList.add('active');
+}
+</script>
+
+</body>
+</html>

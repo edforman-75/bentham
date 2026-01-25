@@ -1,0 +1,550 @@
+{
+  "results": [
+    {
+      "query": "Which are the best budget dog food brands online?",
+      "queryIndex": 0,
+      "surface": "openai-api-baseline",
+      "success": false,
+      "error": "API error: 429 - {\n    \"error\": {\n        \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\",\n        \"type\": \"insufficient_quota\",\n        \"param\": null,\n        \"code\": \"insufficient_quota\"\n    }\n}\n",
+      "timestamp": "2026-01-23T23:28:58.122Z",
+      "responseTimeMs": 871,
+      "requestPayload": {
+        "endpoint": "https://api.openai.com/v1/chat/completions",
+        "method": "POST",
+        "headers": {
+          "Content-Type": "application/json",
+          "Authorization": "Bearer sk-***[REDACTED]***"
+        },
+        "body": {
+          "model": "gpt-4o",
+          "messages": [
+            {
+              "role": "user",
+              "content": "Which are the best budget dog food brands online?"
+            }
+          ],
+          "max_tokens": 2000
+        }
+      },
+      "ipUsed": "184.183.124.126"
+    },
+    {
+      "query": "Which are the best budget dog food brands online?",
+      "queryIndex": 0,
+      "surface": "chatgpt-web-india-ip",
+      "success": true,
+      "response": "Here are some of the best budget-friendly dog food options you can find online — great if you want to balance cost with decent quality nutrition. Many experts suggest sticking with reputable brands with complete and balanced formulations, and options like Purina, Iams, and Canidae come up frequently in budget dog food guides. \nBusiness Insider\n+1\n\nIAMS Proactive Health Adult Dry Dog Food\nARS 32,979.43\n•\nNorthwoods Wholesale Outlet\nHappy Dog fit & vital Medium Adult\nARS 14,660.22\n•\nHappy Dog + others\nHappy Dog Dry Trial Pack Adult Mini\nARS 14,660.22\n•\nHappy Dog\nFido Croq’ Mix Adult Beef & Vegetables\nARS 25,425.40\n•\nEpicerieCorner\nUppy Nutri Chicken Adult Dog Food\nARS 20,667.18\n•\nThe Yum Family Shop - Yum Biltong LDA\nSeven GF Adult Small Breed Chicken\nARS 27,382.71\n•\nJurassic Bark Pet Supplies\n🐶 Top Budget Dog Food Picks Online\n\n🍖 General Everyday Dry Food (Great Value)\n\nIAMS Proactive Health Adult Dry Dog Food – Very popular and widely recommended budget dry dog food with balanced nutrition; excellent price per bag and good reviews.\n\nHappy Dog fit & vital Medium Adult – Good quality dry food with a strong reputation for quality on a budget.\n\nHappy Dog Dry Trial Pack Adult Mini – Smaller trial size if you want to test quality before buying a larger bag.\n\n🍽️ Other Solid Affordable Options\n\nFido Croq’ Mix Adult Beef & Vegetables – Balanced beef and vegetable formula at a solid price point.\n\nUppy Nutri Chicken Adult Dog Food – Chicken-based dry food that’s practical and budget-oriented.\n\nSeven GF Adult Small Breed Chicken – Great choice for small breeds with higher energy needs.\n\n🧠 Tips for Buying Budget Dog Food\n\nCheck AAFCO “complete and balanced” on the label — ensure the food meets minimum nutritional standards. \nBusiness Insider\n\nDry kibble (vs. wet) is typically cheaper and lasts longer — good for feeding multiple dogs or saving money over time. \nPet Food Reviews (Australia)\n\nBuying larger bags often lowers the cost per kilogram. \nPet Food Reviews (Australia)\n\nSome owners mix a budget dry food with occasional toppers (like boiled chicken or vegetables) to boost nutrition without large costs.\n\nIf you want specific recommendations for puppies, seniors, or dogs with sensitivities, just tell me your dog’s age and needs!",
+      "timestamp": "2026-01-23T23:29:10.137Z",
+      "responseTimeMs": 12000,
+      "requestPayload": {
+        "endpoint": "https://chatgpt.com",
+        "method": "Browser automation (Playwright)",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+          "Accept-Language": "en-IN"
+        },
+        "body": {
+          "input": "Which are the best budget dog food brands online?",
+          "submittedVia": "DOM input field (#prompt-textarea) + submit button",
+          "browserLocale": "en-IN",
+          "browserTimezone": "Asia/Kolkata"
+        }
+      },
+      "ipUsed": "113.170.215.137"
+    },
+    {
+      "query": "Can you suggest the best treat brands for dogs online?",
+      "queryIndex": 1,
+      "surface": "chatgpt-web-india-ip",
+      "success": true,
+      "response": "Here are some highly rated dog treat brands you can buy online — from everyday rewards to soft training treats and natural chews:\n\nBocce’s Bakery Soft & Chewy Dog Treats\nARS 11,450.09\n•\nPet Palette Distribution\nBocce’s Bakery Dailies Good Hair Soft & Chewy Dog Treats\nARS 12,883.14\n•\nPet Palette Distribution\nBocce’s Bakery Limited Ingredient Cheese Biscuits\nARS 21,481.46\n•\nPaw Naturals\nYeti Dog Chew Yeti Nuggets\nARS 11,765.36\n•\niHerb\nWhat’s Barking Premium Blueberry Beetroot Dog Treats\nARS 4,227.51\n•\nWhat's Barking + others\nA Bunch of Flowers Honey Oat Dog Treats\nARS 25,980.64\n•\nMungo and Maud\n🐾 Top Picks for Everyday Treats & Training\n\nBocce’s Bakery Soft & Chewy Dog Treats – Soft and tasty treats perfect for training rewards or quick snacks; dogs tend to love the flavor.\n\nBocce’s Bakery Dailies Good Hair Soft & Chewy Dog Treats – Great daily treat option with appealing texture and taste.\n\nBocce’s Bakery Limited Ingredient Cheese Biscuits – Crunchy, limited-ingredient biscuits ideal for pups with simple dietary needs.\n\n🐶 Fun & Flavorful Chews\n\nYeti Dog Chew Yeti Nuggets – Durable, flavorful nuggets that double as a chew and treat — good for dogs that like to nibble.\n\nWhat’s Barking Premium Blueberry Beetroot Dog Treats – Budget-friendly and veggie-flavored treat for variety in your dog’s snack rotation.\n\n🍪 Premium & Unique Options\n\nA Bunch of Flowers Honey Oat Dog Treats – Honey and oat biscuits with a slightly more gourmet twist — good for special rewards.\n\n🧠 Vet & Expert Recommendations\n\nAccording to veterinary and pet care sources, some treats are especially worth considering: small high-value training treats like Zuke’s Mini Naturals and Pet Botanics Training Rewards, freeze-dried treats like Pupford Freeze-Dried, or natural lung/liver treats are often recommended for training and health benefits. Soft, low-calorie treats are generally best for frequent rewards, and chews like bully sticks help with dental health too. \nPetMD\n+1\n\n🎯 Tips for Choosing Treats\n\nMatch treat size to your dog’s size — small pieces for toy/small breeds, larger chews for medium/large breeds. \nPetMD\n\nCheck ingredient lists — look for real meat as the first ingredient and avoid excessive fillers or artificial additives when possible. \nPetMD\n\nUse low-calorie options for training so your dog doesn’t exceed daily calorie intake. \nPetMD\n\nIf you want specific treats for puppies, senior dogs, or dogs with allergies, tell me your dog’s age and needs and I can tailor suggestions!",
+      "timestamp": "2026-01-23T23:29:26.110Z",
+      "responseTimeMs": 13972,
+      "requestPayload": {
+        "endpoint": "https://chatgpt.com",
+        "method": "Browser automation (Playwright)",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+          "Accept-Language": "en-IN"
+        },
+        "body": {
+          "input": "Can you suggest the best treat brands for dogs online?",
+          "submittedVia": "DOM input field (#prompt-textarea) + submit button",
+          "browserLocale": "en-IN",
+          "browserTimezone": "Asia/Kolkata"
+        }
+      },
+      "ipUsed": "113.170.215.137"
+    },
+    {
+      "query": "Which are the best dog food brands with high reviews?",
+      "queryIndex": 2,
+      "surface": "chatgpt-web-india-ip",
+      "success": true,
+      "response": "Here are some of the best-reviewed dog food brands and formulas you can buy online — popular with pet owners and often recommended by vets and nutrition experts for quality, nutrition, and overall satisfaction:\n\nAcana Pacifica Dog\nARS 103,639.44\n•\nJurassic Bark Pet Supplies\nEssential Blend Premium Dog Food Salmon & Herring Meal\nARS 121,795.14\n•\nTeam Dog\nTaste of the Wild Pacific Stream Canine Smoked Salmon\nARS 28,644.54\n•\nPetDoctors Online + others\nHappy Dog fit & vital Medium Adult\nARS 39,097.05\n•\nHappy Dog + others\nAdvance Dog Medium Adult Chicken & Rice\nARS 30,034.39\n•\nPetDoctors Online + others\nEden Gourmet Range Salmon & Pheasant Dry Dog Food\nARS 44,006.18\n•\nJurassic Bark Pet Supplies\n⭐ Top Rated & Highly Reviewed Dog Foods\n\nAcana Pacifica Dog – Premium, high-protein formula with sustainably sourced fish; excellent overall reviews (~4.8★).\n\nEssential Blend Premium Dog Food Salmon & Herring Meal – Another high-rating option (~4.8★) with nutrient-rich salmon and herring for lean protein and omega-3s.\n\nTaste of the Wild Pacific Stream Canine Smoked Salmon – Very popular kibble (~4.7★) with real salmon and ancient grains; good balance of quality and value.\n\n🐶 Well-Reviewed Everyday & Balanced Choices\n\nHappy Dog fit & vital Medium Adult – Excellent all-around adult formula (~4.8★), great for medium breeds with balanced nutrition.\n\nAdvance Dog Medium Adult Chicken & Rice – Solid, well-liked chicken & rice formula (~4.7★), good for daily feeding.\n\n🍖 Premium / Specialized Picks\n\nEden Gourmet Range Salmon & Pheasant Dry Dog Food – Highly rated gourmet option (~4.9★) — great if you want a more premium taste and quality profile.\n\n🧠 What Experts Say\n\nVeterinarians and nutrition reviewers frequently recommend brands that meet AAFCO nutritional standards, conduct feeding trials, and offer formulas tailored to different life stages and needs — like Hill’s Science Diet, Purina Pro Plan, and Royal Canin — though availability and specific formulas may vary by region. \nPetMD\n+1\n\nHow to Pick the Right Food\n\nLife Stage: Choose formulas labeled for puppy, adult, or senior as appropriate. \nDog Food Advisor\n\nBreed Size: Large-breed diets differ from small-breed ones (nutrient balance & kibble size). \nDog Food Advisor\n\nSpecial Needs: Sensitive stomach, weight management, or allergy formulas may be worth considering. \nPetMD\n\nIf you tell me your dog’s age, size, and any health issues, I can suggest the best specific formula for your pup!",
+      "timestamp": "2026-01-23T23:29:41.141Z",
+      "responseTimeMs": 13031,
+      "requestPayload": {
+        "endpoint": "https://chatgpt.com",
+        "method": "Browser automation (Playwright)",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+          "Accept-Language": "en-IN"
+        },
+        "body": {
+          "input": "Which are the best dog food brands with high reviews?",
+          "submittedVia": "DOM input field (#prompt-textarea) + submit button",
+          "browserLocale": "en-IN",
+          "browserTimezone": "Asia/Kolkata"
+        }
+      },
+      "ipUsed": "113.170.215.137"
+    },
+    {
+      "query": "Which are the best dog food brands recommended by vets?",
+      "queryIndex": 3,
+      "surface": "chatgpt-web-india-ip",
+      "success": true,
+      "response": "Veterinarians don’t all agree on one single “best” dog food, since the right choice depends on your dog’s age, size, activity level, and health needs — but there are brands that many vets consistently recommend because they’re science-driven, nutritionally balanced, and backed by research or clinical expertise. \nsplootvets.com\n+3\nPetcare Partners\n+3\nHoncoop Pet Meals\n+3\n\n🩺 Top Dog Food Brands Commonly Recommended by Veterinarians\n\n1. Hill’s Science Diet / Hill’s Prescription Diet\nOne of the most frequently recommended brands by veterinarians. Hill’s formulas are developed with extensive research and tailored for life stages and specific health conditions (e.g., weight management, digestive health, kidney care). Prescription Diet varieties are used under vet guidance for medical issues. \nHoncoop Pet Meals\n+1\n\n2. Royal Canin\nKnown for breed-specific and life-stage tailored foods, as well as targeted therapeutic diets for digestive, skin, and other health concerns. Many vets suggest Royal Canin for dogs with sensitivities or specific nutritional needs. \nHoncoop Pet Meals\n+1\n\n3. Purina Pro Plan\nA science-backed line with formulas for active dogs, sensitive stomachs, and different life stages. Purina has a long history in pet nutrition and is a common vet pick for balanced diets. \nHoncoop Pet Meals\n+1\n\n4. Blue Buffalo\nOften recommended by vets for its wide range of life-stage and health-focused formulas that use whole grains and real meat. Blue Buffalo Life Protection and other lines are popular in many vet-recommended lists. \npetwiseplus.com\n\n5. Iams / Eukanuba\nBoth brands are frequently cited by veterinarians, especially for everyday nutrition with quality protein and balanced fats. They’re often recommended as solid all-around diets. \nThe Pet Doctor - O'Fallon\n\n🐶 Notes on Vet-Recommended Feeding\n\nLife stage & needs matter: Puppies, adults, seniors, and dogs with health issues often need different formulas (e.g., puppy growth formulas, senior diets with joint support, or sensitive stomach foods). \nPetMD\n\nPrescription diets: If your dog has a medical condition (allergies, kidney issues, GI problems), vets may recommend prescription food lines from brands like Hill’s or Royal Canin. \nChewy\n\nIngredient quality & nutrition standards: Look for foods that meet AAFCO guidelines and are formulated with high-quality protein as a first ingredient. \nhospital.cvm.ncsu.edu\n\n🧠 Tip Before You Buy\n\nWhile these brands are widely recommended, the best choice for your dog depends on their specific health profile and life stage. Many vets prefer to make food recommendations after examining your dog or considering allergies, digestive issues, and activity level. If you want tailored suggestions, tell me your dog’s age, breed/size, and any health concerns, and I can recommend specific formulas that veterinarians typically support!",
+      "timestamp": "2026-01-23T23:29:55.181Z",
+      "responseTimeMs": 12039,
+      "requestPayload": {
+        "endpoint": "https://chatgpt.com",
+        "method": "Browser automation (Playwright)",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+          "Accept-Language": "en-IN"
+        },
+        "body": {
+          "input": "Which are the best dog food brands recommended by vets?",
+          "submittedVia": "DOM input field (#prompt-textarea) + submit button",
+          "browserLocale": "en-IN",
+          "browserTimezone": "Asia/Kolkata"
+        }
+      },
+      "ipUsed": "113.170.215.137"
+    },
+    {
+      "query": "Can you list a popular pet food brand with good meat content?",
+      "queryIndex": 4,
+      "surface": "chatgpt-web-india-ip",
+      "success": true,
+      "response": "Here are some popular dog food brands with good meat content — ideal if you’re prioritizing high-quality animal protein in your dog’s diet (many vets and nutrition reviews highlight these brands for their protein-rich recipes). \nPetcare Partners\n+1\n\nEssential Blend Premium Dog Food Salmon & Herring Meal\nARS 121,795.14\n•\nTeam Dog\nEden Gourmet Range Goose & Turkey Dry Dog Food\nARS 158,422.24\n•\nJurassic Bark Pet Supplies\nHappy Dog fit & vital Medium Adult\nARS 39,097.05\n•\nHappy Dog + others\nHappy Dog Sport Adult\nARS 87,992.80\n•\nHappy Dog + others\nStella & Chewy's Morsels Raw Frozen Dog Food 4LB Beef\nARS 61,606.93\n•\nPaw Naturals\n🥩 High-Meat Content Dog Food Picks\n\nEssential Blend Premium Dog Food Salmon & Herring Meal – ⭐ 4.8/5 – Salmon and herring meal are excellent sources of real fish protein and omega-3s, great for lean muscle and skin/coat health.\n\nEden Gourmet Range Goose & Turkey Dry Dog Food – ⭐ 4.9/5 – Premium gourmet dry food with high-quality meat proteins (goose & turkey) — great for dogs that need robust, animal-forward nutrition.\n\nHappy Dog fit & vital Medium Adult – ⭐ 4.8/5 – Well-reviewed dry food with substantial meat content suitable for everyday feeding.\n\nHappy Dog Sport Adult – ⭐ 4.8/5 – Another high-meat option from Happy Dog, formulated especially for active or athletic pups with higher energy and protein needs.\n\nStella & Chewy's Morsels Raw Frozen Dog Food 4LB Beef – ⭐ 4.3/5 – Raw frozen formula with beef as the main ingredient, ideal if you want a closer-to-natural, high-protein diet.\n\n🧠 Why High Meat Content Matters\n\nDog foods with higher proportions of meat or meat meals provide more complete amino acids and protein that support muscle maintenance, energy, healthy skin/coat, and overall vitality. While there’s no universal standard for “high meat content,” many premium diets aim for 30 %+ animal protein (dry basis) and use real named meat sources rather than generic by-products. \nzooplus.co.uk\n\nIf you want specific recommendations based on your dog’s age, size, or sensitivities, let me know — I can tailor the list!",
+      "timestamp": "2026-01-23T23:30:11.173Z",
+      "responseTimeMs": 13991,
+      "requestPayload": {
+        "endpoint": "https://chatgpt.com",
+        "method": "Browser automation (Playwright)",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+          "Accept-Language": "en-IN"
+        },
+        "body": {
+          "input": "Can you list a popular pet food brand with good meat content?",
+          "submittedVia": "DOM input field (#prompt-textarea) + submit button",
+          "browserLocale": "en-IN",
+          "browserTimezone": "Asia/Kolkata"
+        }
+      },
+      "ipUsed": "113.170.215.137"
+    },
+    {
+      "query": "Which brands offer gluten-free dog treats my dog will enjoy?",
+      "queryIndex": 5,
+      "surface": "chatgpt-web-india-ip",
+      "success": true,
+      "response": "Here are some great gluten-free dog treat options you can find online — perfect if your dog has a gluten sensitivity, allergy, or you prefer treats made without gluten-containing grains like wheat, barley, or rye. Many products labeled grain-free are also gluten-free, but always check the package to be sure. \nCeliac.com\n+1\n\nPortland Pet Food Gluten & Grain Free Pumpkin Dog Biscuits\nARS 14,316.20\n•\nThe Family Pet + others\nGrain & Gluten‑Free Pumpkin Biscuits\nARS 14,316.20\n•\nThe Family Pet\nVital Essentials Freeze‑Dried Rabbit Bites\nARS 21,037.21\n•\niHerb\nRMD Peak Sweet Potato Natural Dog Chews\nARS 12,477.67\n•\nRocky Mountain Dog\nBocce’s Bakery Dailies Super Shield Soft & Chewy Dog Treats\nARS 12,883.14\n•\nPet Palette Distribution + others\nSoft Snack Mini New Zealand Dog Treats\nARS 4,870.02\n•\nHappy Dog + others\n🐶 Top Gluten-Free Dog Treat Picks\n\n🍪 Crunchy & Classic Gluten-Free Treats\n\nPortland Pet Food Gluten & Grain Free Pumpkin Dog Biscuits – Popular pumpkin biscuits free from gluten and grains — great for daily rewards or training.\n\nGrain & Gluten‑Free Pumpkin Biscuits – Another highly-rated gluten-free pumpkin treat, gentle on sensitive tummies.\n\n🥩 High-Value Protein & Chew Treats\n\nVital Essentials Freeze‑Dried Rabbit Bites – Freeze-dried, single-protein treats that are grain- and gluten-free — ideal if your dog loves real meat snacks.\n\nRMD Peak Sweet Potato Natural Dog Chews – Sweet potato chews with a natural, gluten-free ingredient list; good for sensitive dogs and light chewing.\n\n🧡 Everyday Soft & Tasty Treats\n\nBocce’s Bakery Dailies Super Shield Soft & Chewy Dog Treats – While not all Bocce’s treats are labeled gluten-free, many soft, limited-ingredient options can be easier to digest — check the specific label for gluten-free status.\n\nSoft Snack Mini New Zealand Dog Treats – Soft, yummy bites loved by many pups (again, verify gluten-free on the package if this matters).\n\n🧠 Notes on Gluten-Free Treats\n\nGrain-free usually = gluten-free: Most grain-free treats avoid gluten-containing grains like wheat, rye, and barley, but always read the ingredient list to confirm. \nChewy\n\nSome brands like Acana, Blue Buffalo, Merrick, and Nutro offer grain-free treat lines you can explore too — many are naturally gluten-free. \nCeliac.com\n\nTreats with simple ingredients (real meat, sweet potato, pumpkin, etc.) can be easier on sensitive stomachs and may reduce allergy risks. \nsparklytails.com\n\nIf you want, I can tailor recommendations based on your dog’s size and flavor preferences (e.g., chicken, beef, veggie)!",
+      "timestamp": "2026-01-23T23:30:28.262Z",
+      "responseTimeMs": 15086,
+      "requestPayload": {
+        "endpoint": "https://chatgpt.com",
+        "method": "Browser automation (Playwright)",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+          "Accept-Language": "en-IN"
+        },
+        "body": {
+          "input": "Which brands offer gluten-free dog treats my dog will enjoy?",
+          "submittedVia": "DOM input field (#prompt-textarea) + submit button",
+          "browserLocale": "en-IN",
+          "browserTimezone": "Asia/Kolkata"
+        }
+      },
+      "ipUsed": "113.170.215.137"
+    },
+    {
+      "query": "Can you suggest the best dog biscuit brands for dogs with sensitive stomachs?",
+      "queryIndex": 6,
+      "surface": "chatgpt-web-india-ip",
+      "success": true,
+      "response": "Here are some well-reviewed dog biscuit and treat options that are gentle on sensitive stomachs — ideal if your pup tends to get digestive upset from rich, complex snacks. Many of these use limited or simple ingredients and avoid common irritants like wheat, corn, soy, and artificial additives. \npetpalaceresort.com\n+1\n\nHill’s Hill’s S Hypoallergenic Dog Snack 200 g\nARS 10,847.63\n•\nPets For All\nHappy Dog Mini New Zealand with Lamb & Rice\nARS 43,986.62\n•\nHappy Dog\nEarthborn Holistic EarthBites Bison & Pumpkin\nARS 11,450.09\n•\nThe Family Pet + others\nGivePet Ranch Hand Dog Treats\nARS 15,749.25\n•\nPet Palette Distribution\nDigestive Superfood Dog Treats\nARS 20,779.26\n•\nBotanical Bones + others\nEarthborn Holistic EarthBites Bison & Pumpkin\nARS 11,450.09\n•\nThe Family Pet + others\nEarthborn Holistic EarthBites Bison & Pumpkin\nARS 11,450.09\n•\nThe Family Pet + others\nEarthborn Holistic EarthBites Bison & Pumpkin\nARS 11,450.09\n•\nThe Family Pet + others\n\n🐾 Top Sensitive-Stomach Dog Biscuits & Treats\n\nHill’s Hill’s S Hypoallergenic Dog Snack 200 g – Hypoallergenic digestive biscuits with limited ingredients designed specifically to be gentle on sensitive guts; great for everyday rewarding.\n\nHappy Dog Mini New Zealand with Lamb & Rice – Limited-ingredient, lamb & rice recipe that’s easy on digestion and highly palatable — great for sensitive pups.\n\nEarthborn Holistic EarthBites Bison & Pumpkin – Grain-free, pumpkin-included crunchy treats with fiber to support digestion and soothe stomachs; high rating and gentle formula.\n\nGivePet Ranch Hand Dog Treats – Simple ingredient treat with real meat and limited fillers — easier to digest for sensitive dogs compared with overly rich snacks.\n\nDigestive Superfood Dog Treats – Superfood-style treats with digestive support focus — ideal if your dog needs extra gut-friendly nutrients in treat form.\n\n🧠 Vet-Approved Tips for Sensitive Stomachs\n\n✔️ Simple & limited ingredients are best — treats with short ingredient lists (few proteins and fiber sources) are less likely to upset the stomach. \nRover.com\n\n✔️ Pumpkin, sweet potato, and single-protein treats (like freeze-dried meats) are often recommended because they’re gentle and easily digested. \nRover.com\n\n✔️ Introduce new treats slowly and in small amounts to see how your dog tolerates them. \ncrossbonesdog.com\n\nWould you like specific gluten-free or grain-free sensitive-stomach biscuit options too? (I can tailor the list further!)",
+      "timestamp": "2026-01-23T23:30:47.363Z",
+      "responseTimeMs": 17100,
+      "requestPayload": {
+        "endpoint": "https://chatgpt.com",
+        "method": "Browser automation (Playwright)",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+          "Accept-Language": "en-IN"
+        },
+        "body": {
+          "input": "Can you suggest the best dog biscuit brands for dogs with sensitive stomachs?",
+          "submittedVia": "DOM input field (#prompt-textarea) + submit button",
+          "browserLocale": "en-IN",
+          "browserTimezone": "Asia/Kolkata"
+        }
+      },
+      "ipUsed": "113.170.215.137"
+    },
+    {
+      "query": "Which are the top healthy vegetarian dog biscuit brands available online?",
+      "queryIndex": 7,
+      "surface": "chatgpt-web-india-ip",
+      "success": true,
+      "response": "Here are some top healthy vegetarian or plant-based dog biscuit and treat brands available online — great if you’re looking for snacks that don’t rely on meat but still offer nutrition and flavor your dog will enjoy. Most of these use wholesome plant-derived ingredients like sweet potato, banana, peanut butter, and vegetables, and are ideal for dogs that tolerate vegetarian treats well. \nveggiepets.com\n+1\n\nBocce’s Bakery Pumpk’n Harvest Dog Treats\nARS 23,645.37\n•\nPet Palette Distribution + others\nSoopa Plant‑Based Dog Treats (Banana & Peanut Butter)\nARS 24,341.39\n•\ndesertcart.in\nScrumbles Softies Vegetarian Dog Treats\nARS 5,847.93\n•\nJurassic Bark Pet Supplies\nSoft Snack India 100g\nARS 4,870.02\n•\nHappy Dog\nVegan Dog Wiggle Biscuits\nARS 38,678.09\n•\neBay - wagsandwhiskerspetsupply\nPurepet Vegetarian Biscuits\nARS 44,660.70\n•\nDistacart\n🐾 Best Healthy Vegetarian Dog Biscuits\n\nBocce’s Bakery Pumpk’n Harvest Dog Treats – Crunchy and flavorful vegetarian biscuits made with pumpkin and wholesome ingredients; well-reviewed and great as a healthy everyday treat.\n\nSoopa Plant‑Based Dog Treats (Banana & Peanut Butter) – Highly rated plant-based biscuits with banana and peanut butter — tasty and satisfying for dogs who enjoy sweeter veggie-forward snacks.\n\nScrumbles Softies Vegetarian Dog Treats – Soft vegetarian bites that are gentle on the teeth and pleasing for many pups. Good choice if your dog prefers softer textures.\n\nSoft Snack India 100g – Top-rated soft crunchy biscuits with a simple vegetarian profile, great for training or rewarding throughout the day.\n\nVegan Dog Wiggle Biscuits – Chewy vegan biscuits suitable for training or treats; plant-based and free from meat ingredients.\n\nPurepet Vegetarian Biscuits – A larger jar of vegetarian biscuits; lower rated than others but good if you want a bulk option.\n\n🌿 Why Choose Vegetarian Dog Biscuits?\n\nPlant-based treats use vegetables, fruits, grains, or legumes instead of meat and are often grain-free or gluten-free options. \nveggiepets.com\n\nMany vegetarian treats are gentle on sensitive stomachs and a good supplement to your dog’s regular diet, especially if you prefer fewer animal-derived ingredients. \nRover.com\n\nTreats made from sweet potato, pumpkin, peanut butter, and banana offer fiber, vitamins, and tasty variety without relying on meat extracts. \nRover.com\n\n💡 Tip: Even vegetarian treats should be given in moderation and balanced with your dog’s regular diet. If your dog has specific dietary needs (allergies, weight concerns, digestive issues), I can tailor vegetarian treat suggestions further!",
+      "timestamp": "2026-01-23T23:31:04.421Z",
+      "responseTimeMs": 15057,
+      "requestPayload": {
+        "endpoint": "https://chatgpt.com",
+        "method": "Browser automation (Playwright)",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+          "Accept-Language": "en-IN"
+        },
+        "body": {
+          "input": "Which are the top healthy vegetarian dog biscuit brands available online?",
+          "submittedVia": "DOM input field (#prompt-textarea) + submit button",
+          "browserLocale": "en-IN",
+          "browserTimezone": "Asia/Kolkata"
+        }
+      },
+      "ipUsed": "113.170.215.137"
+    },
+    {
+      "query": "What are the best-tasting treat brands for dogs under ₹1000?",
+      "queryIndex": 8,
+      "surface": "chatgpt-web-india-ip",
+      "success": true,
+      "response": "Here are some of the best-tasting dog treats under ₹1,000 that are popular online in India and generally well-loved by dogs — ideal for training, rewarding good behaviour, or just giving a tasty snack: \nHeads Up For Tails\n+1\n\nFreeze‑Dried Chicken Snack 70 g Kiwi Walker\nARS 16,779.94\n•\nA Pet Store\nLiver It Up 70 g Dog Treat\nARS 14,047.92\n•\nDoggie Dabbas\nBlueberry Chicken Jerky 70 g\nARS 15,612.28\n•\nDoggie Dabbas\nChicken Jerky 70 g\nARS 14,047.92\n•\nDoggie Dabbas\n🐕 Top Tasty Treat Picks Under ₹1,000\n\nFreeze‑Dried Chicken Snack 70 g Kiwi Walker — ⭐ 4.9/5 based on reviews; highly palatable freeze-dried chicken that many dogs love and great for training rewards.\nLiver It Up 70 g Dog Treat — Rich liver flavour that’s usually irresistible to most pups and ideal for quick rewarding during training.\nBlueberry Chicken Jerky 70 g — Juicy chicken jerky with a fruity hint — tasty and high-value for reinforcing good behaviour.\nChicken Jerky 70 g — Classic chicken jerky treats that many dogs will happily eat; simple and satisfying snack.\n\n🍪 Other Popular Budget Treat Options (₹100–₹800)\n\nThese aren’t in product data but are frequently recommended online and widely available at this price point: \nHeads Up For Tails\n+1\n\nPEDIGREE Tasty Jerky Chicken or Liver – affordable and tasty strips many Indian dog owners choose.\n\nDrools Sticks / Diced Chicken Treats – easy-to-chew chicken treats with good reviews.\n\nBARK OUT LOUD Multivitamin Chicken Treats – tasty bites with added nutrients.\n\nHUFT Yum Nums Soft & Chewy (Heads Up For Tails) – soft chewy treats with chicken flavour, great for training.\n\nHUFT All Day Muesli or Berry Bites (Heads Up For Tails) – varied flavour treats dogs enjoy.\n\nHUFT Chewbarks Grilled Duck – flavourful, crunchy duck treats for variety.\n\n🧠 Tips for Choosing Tasty Treats\n\nHigh protein flavour + aroma (like chicken or liver) tends to be most enticing for dogs.\n\nFor training, softer or easily breakable treats (like jerky or freeze-dried bites) are ideal.\n\nTreats with simple, natural ingredients (less fillers/sugar) are healthier over time. \nTotalPet\n\nIf you tell me your dog’s size and flavour preferences (e.g., chicken vs. beef), I can tailor this list even more! 🐶🍖",
+      "timestamp": "2026-01-23T23:31:21.475Z",
+      "responseTimeMs": 15052,
+      "requestPayload": {
+        "endpoint": "https://chatgpt.com",
+        "method": "Browser automation (Playwright)",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+          "Accept-Language": "en-IN"
+        },
+        "body": {
+          "input": "What are the best-tasting treat brands for dogs under ₹1000?",
+          "submittedVia": "DOM input field (#prompt-textarea) + submit button",
+          "browserLocale": "en-IN",
+          "browserTimezone": "Asia/Kolkata"
+        }
+      },
+      "ipUsed": "113.170.215.137"
+    },
+    {
+      "query": "Which brands offer low-calorie chicken dog treats?",
+      "queryIndex": 9,
+      "surface": "chatgpt-web-india-ip",
+      "success": true,
+      "response": "Here are some excellent low-calorie chicken-flavored dog treats you can find online — tasty for your dog but formulated to be lighter or simpler than regular high-calorie snacks:\n\nHill’s Natural Baked Light Biscuits All Life Stages\nARS 28,705.95\n•\ndesertcart.in\nVital Essentials Freeze‑Dried Raw Chicken Breast Dog Treats\nARS 12,883.14\n•\nPet Palette Distribution + others\nGood Boy Chewy Chicken Strips\nARS 12,061.44\n•\nshopivet.com + others\nAnco Trainers Bitesize Chicken Treats 65g\nARS 6,434.68\n•\nJurassic Bark Pet Supplies\nFreeze Dried Chicken Breast – Superfood Treats for Dogs & Cats\nARS 18,766.55\n•\nPookie Pets\nLow Calorie Chicken & Cranberry Baked Dog Treats\nARS 1,289,747.33\n•\nMade-in-China.com\n🐔 Top Low-Calorie Chicken Treat Options\n\n✨ Everyday Healthy Treats\n\nHill’s Natural Baked Light Biscuits All Life Stages – Light, baked dog biscuits suitable for all ages; lower calorie than regular biscuits and gentle for training or rewards.\n\nVital Essentials Freeze‑Dried Raw Chicken Breast Dog Treats – Simple single-ingredient style treat made from freeze-dried chicken breast; high in protein, low in filler.\n\n🍗 High-Value Chicken Snacks\n\nGood Boy Chewy Chicken Strips – Soft, chewy chicken pieces many dogs love — lighter than heavy jerky sticks but flavourful.\n\nAnco Trainers Bitesize Chicken Treats 65g – Bite-sized chicken-flavored training treats with a good review score; easy to give multiple without excess calories.\n\n🌿 Natural & Simple Options\n\nFreeze Dried Chicken Breast – Superfood Treats for Dogs & Cats – Freeze-dried chicken breast pieces; a “clean treat” style that’s nutrient-rich and typically easier on calories than processed snacks.\n\nLow Calorie Chicken & Cranberry Baked Dog Treats – Baked light chicken treats (plus cranberry for antioxidants), designed as a low-calorie biscuit-style reward.\n\n🧠 Tips for Choosing Low-Calorie Treats\n\nTraining rewards should be small — tiny, flavorful pieces let you give several without adding too many calories to your dog’s daily intake. Vets often recommend bite-sized, soft chicken-flavored treats that dogs find highly motivating but that are light overall. \nPetMD\n\nFreeze-dried chicken treats are naturally lean and high in protein, making them satisfying without being calorie-dense. \nAmazon\n\nIf your dog needs to lose weight, focus on treats under ~5 calories per piece and adjust overall feeding accordingly — small bits of chicken or baked light biscuits are ideal for this. \npeople.com\n\nIf you tell me your dog’s size and activity level, I can tailor the treats list even more specifically!",
+      "timestamp": "2026-01-23T23:31:37.575Z",
+      "responseTimeMs": 14099,
+      "requestPayload": {
+        "endpoint": "https://chatgpt.com",
+        "method": "Browser automation (Playwright)",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+          "Accept-Language": "en-IN"
+        },
+        "body": {
+          "input": "Which brands offer low-calorie chicken dog treats?",
+          "submittedVia": "DOM input field (#prompt-textarea) + submit button",
+          "browserLocale": "en-IN",
+          "browserTimezone": "Asia/Kolkata"
+        }
+      },
+      "ipUsed": "113.170.215.137"
+    },
+    {
+      "query": "Which are the best dog treat brands for medium-sized dogs?",
+      "queryIndex": 10,
+      "surface": "chatgpt-web-india-ip",
+      "success": true,
+      "response": "Here are some top-rated dog treats that are great choices for medium-sized dogs — tasty, well-reviewed, and suitable for daily rewards, training, or just spoiling your pup: \nChewy\n\nBocce's Bakery Chicken Soft & Chewy Dog Treats\nARS 11,450.09\n•\nPet Palette Distribution\nJR Pure 100% Meaty Training Treats (Chicken)\nARS 10,737.51\n•\nJurassic Bark Pet Supplies + others\nPurina Busy Bone Small/Medium Dog Treats\nARS 20,062.74\n•\neBay - space.coast.sales + others\nWholesomes Rewards Medium Original Dog Biscuits\nARS 12,883.14\n•\nThe Family Pet\nYak Bars Medium Strawberry\nARS 8,781.68\n•\nGoody Paws Online Store\nSoft Snack Toscana 100g\nARS 40,739.94\n•\nHappy Dog\n🐶 Most Beloved & Tasty Treats for Medium Dogs\n\nBocce's Bakery Chicken Soft & Chewy Dog Treats – Soft and highly palatable chicken treats that many medium dogs love; excellent for training or everyday rewards.\n\nJR Pure 100% Meaty Training Treats (Chicken) – Real chicken training bites with strong flavor and high appeal — great for reinforcing good behavior.\n\nPurina Busy Bone Small/Medium Dog Treats – Classic chew treat designed for small/medium dogs; fun and tasty, with good durability and chew satisfaction.\n\n🍪 Crunchy & Balanced Biscuit Options\n\nWholesomes Rewards Medium Original Dog Biscuits – Crunchy medium-size biscuits with balanced flavor and wholesome ingredients — great for daily snacking.\n\nYak Bars Medium Strawberry – Interesting and fun treat choice that’s easy to give as a reward or occasional snack.\n\nSoft Snack Toscana 100g – Soft and premium-feeling treat — excellent for medium breeds that enjoy a softer texture.\n\n🧠 Tips for Treating Medium Dogs\n\nSize matters: Treats sized for medium dogs ensure your pup doesn’t choke and that the treat lasts a satisfying moment. Treat packaging often indicates breed size suitability. \nChewy\n\nMix textures: Soft, chewy treats are great for training, while crunchy biscuits can help keep teeth cleaner. \nChewy\n\nHealthy ingredients: Try treats with real meat or simple, wholesome plant ingredients for better nutrition. \nChewy\n\nThese brands and treats are widely enjoyed by dogs and available online — many owners choose them because they combine flavor, quality, and value. If you want low-calorie, grain-free, or sensitive-stomach options specifically for medium dogs, tell me and I can tailor the list further!",
+      "timestamp": "2026-01-23T23:31:52.677Z",
+      "responseTimeMs": 13100,
+      "requestPayload": {
+        "endpoint": "https://chatgpt.com",
+        "method": "Browser automation (Playwright)",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+          "Accept-Language": "en-IN"
+        },
+        "body": {
+          "input": "Which are the best dog treat brands for medium-sized dogs?",
+          "submittedVia": "DOM input field (#prompt-textarea) + submit button",
+          "browserLocale": "en-IN",
+          "browserTimezone": "Asia/Kolkata"
+        }
+      },
+      "ipUsed": "113.170.215.137"
+    },
+    {
+      "query": "Can you suggest some good Heads Up For Tails dog food options?",
+      "queryIndex": 11,
+      "surface": "chatgpt-web-india-ip",
+      "success": true,
+      "response": "Here are some good dog food options available from Heads Up For Tails (HUFT) that you can find online — ranging from ready meals to wholesome complete foods: \nHeads Up For Tails\n+1\n\nHeads Up For Tails Sara's Wholesome Chicken & Turkey Dog Food\nARS 12,096.56\n•\nDesertcart.ae\n🐶 Popular Heads Up For Tails Dog Food Picks\n\nHeads Up For Tails Sara's Wholesome Chicken & Turkey Dog Food – A well-reviewed ready meal dog food featuring chicken & turkey — highly rated and a great everyday option for adult dogs. This type of food usually contains balanced nutrition in convenient pouches, ideal if you want something easy to serve and palatable. \nBigBasket\n\n🍽️ Other HUFT Dog Food & Meal Ideas (Online Availability)\n\nThese aren’t individually in the product tool but are frequently listed on HUFT’s own store and Indian marketplaces, and worth considering: \nHeads Up For Tails\n+1\n\nSara’s Wholesome Classic Chicken & Brown Rice Dog Food – Home-style complete meals made with chicken, brown rice, veggies and fruits; good for balanced daily feeding.\n\nSara’s Wholesome Mutton Biryani / Classic Paneer & Veggies Dog Food – Novel flavour profiles with wholesome ingredients for variety in your dog’s diet.\n\nSara’s Wholesome Grain-Free Lamb & Apple Dog Food – Grain-free option with lamb and fruit for dogs with sensitivities.\n\nHearty Oven-Baked Chicken & Duck With Brown Rice Dog Food – Oven-baked dry dog food made from real meat and rice, suitable for adult dogs.\n\nHearty Oven-Baked Lamb & Blueberry With Superfoods – A dry food blend with superfood additions like blueberries for added nutrition. \nBigBasket\n\n🧠 Tips for Choosing Heads Up For Tails Food\n\nReady meals (pouches) are great if you want convenience and highly palatable food for your dog’s everyday diet. \nHeads Up For Tails\n\nOven-baked and dry foods offer crunch and are good for dental health while still using real ingredients like chicken or lamb plus wholesome grains. \nHeads Up For Tails\n\nCheck for grain-free varieties if your dog has sensitive digestion or grain allergies — HUFT offers some grain-free lines. \nBigBasket\n\nWould you like me to suggest the best Heads Up For Tails options specifically for puppies, adult dogs, or sensitive stomachs? I can tailor the list based on your dog’s needs!",
+      "timestamp": "2026-01-23T23:32:19.884Z",
+      "responseTimeMs": 25205,
+      "requestPayload": {
+        "endpoint": "https://chatgpt.com",
+        "method": "Browser automation (Playwright)",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+          "Accept-Language": "en-IN"
+        },
+        "body": {
+          "input": "Can you suggest some good Heads Up For Tails dog food options?",
+          "submittedVia": "DOM input field (#prompt-textarea) + submit button",
+          "browserLocale": "en-IN",
+          "browserTimezone": "Asia/Kolkata"
+        }
+      },
+      "ipUsed": "113.170.215.137"
+    },
+    {
+      "query": "Which brands offer the highest-rated gluten-free chicken dog biscuits?",
+      "queryIndex": 12,
+      "surface": "chatgpt-web-india-ip",
+      "success": true,
+      "response": "Here are some top-rated gluten-free chicken-flavored dog biscuit brands and treats available online — great for dogs with gluten sensitivities or owners who prefer grain- and gluten-free options. A few are pure chicken-forward, while others blend chicken with wholesome tastes dogs enjoy: \nAmazon India\n+1\n\nMerrick Power Bites Chicken Treats\nARS 36,308.72\n•\ndesertcart.in\nLoving Pets Chicken Wrapped Sweet Potato\nARS 21,495.79\n•\neBay - sewnotions\nBocce’s Bakery Chicken Dog Treats\nARS 14,316.20\n•\nThe Family Pet\nThe Originals Grain Free Chicken Stripes\nARS 7,457.75\n•\nPets For All\nBuddy Biscuits Grain‑Free Soft & Chewy\nARS 15,749.25\n•\neBay - evagroupusa + others\nOpen Farm Better Biscuit Chicken\nARS 18,615.35\n•\nPaw Naturals\n🐔 Best High-Rated Gluten-Free Chicken Treats\n\n🍗 High-Protein & Highly Rated\n\nMerrick Power Bites Chicken Treats – Premium gluten-free chicken bites with a very high rating (~4.9★); grain- and corn-free. Great as training or reward treats.\n\nLoving Pets Chicken Wrapped Sweet Potato – Real chicken wrapped around sweet potato; lean, tasty, and gluten-free, excellent for rewarding or everyday snacking.\n\nBocce’s Bakery Chicken Dog Treats – Well-reviewed chicken-flavored biscuits; soft texture dogs tend to enjoy and gluten-free friendly.\n\n🐕 Great Everyday & Training Options\n\nThe Originals Grain Free Chicken Stripes – Grain-free chicken strips — simple, tasty, and easy to break into small pieces for training sessions.\n\nBuddy Biscuits Grain‑Free Soft & Chewy – Popular soft treat with high review count (~4.5★); grain- and gluten-free, suitable for most dogs.\n\n🥣 Balanced Treat With Chicken Flavor\n\nOpen Farm Better Biscuit Chicken – Chicken-flavored biscuits with a natural ingredient profile; solid reviews and gluten-free approach (though always check labels for specific grain details).\n\n🧠 Notes on Gluten-Free Treats\n\nMany products labeled “grain-free” are also gluten-free (avoiding wheat, barley, rye), but always read the ingredient list to be sure. \nAmazon India\n\nTreats made primarily from real chicken and sweet potato or other gluten-free bases are easier on sensitive stomachs and often more palatable. \nHeads Up For Tails\n\nSome specialized brands also include gluten-free baked chicken liver biscuits and similar varieties if you want more flavor variety. \nHeads Up For Tails\n\nWould you like budget-friendly gluten-free chicken treat options under a certain price (e.g., under ₹1000)? I can tailor a list for you!",
+      "timestamp": "2026-01-23T23:32:35.024Z",
+      "responseTimeMs": 13139,
+      "requestPayload": {
+        "endpoint": "https://chatgpt.com",
+        "method": "Browser automation (Playwright)",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+          "Accept-Language": "en-IN"
+        },
+        "body": {
+          "input": "Which brands offer the highest-rated gluten-free chicken dog biscuits?",
+          "submittedVia": "DOM input field (#prompt-textarea) + submit button",
+          "browserLocale": "en-IN",
+          "browserTimezone": "Asia/Kolkata"
+        }
+      },
+      "ipUsed": "113.170.215.137"
+    },
+    {
+      "query": "Can you suggest trusted brands that make healthy dog treats for puppies online?",
+      "queryIndex": 13,
+      "surface": "chatgpt-web-india-ip",
+      "success": true,
+      "response": "Here are some trusted and healthy dog treat brands that make excellent options for puppies — especially good for training, chewing, and everyday rewarding. These are popular with pet parents and many are recommended by vets for quality ingredients, appropriate texture, and digestibility for young dogs. \nPetMD\n+1\n\nOpen Farm Be Good Bites Salmon\nARS 17,182.30\n•\nThe Family Pet\nBocce’s Bakery Say MOOOO Training Bites\nARS 11,450.09\n•\nPet Palette Distribution + others\nChew + Heal Puppy Soft ’N Yummy Treats\nARS 7,351.56\n•\niHerb\nBocce’s Bakery Mud Pie Oh My Training Bites\nARS 11,450.09\n•\nPet Palette Distribution\nCalm & Relaxed Training Treats\nARS 15,627.08\n•\nthewoofwhisperer.co.uk + others\nScrumbles Softies Vegetarian Dog Treats\nARS 5,847.93\n•\nJurassic Bark Pet Supplies\n🐾 Top Healthy Puppy Treats (Great for Training & Rewards)\n\n🍖 High-Value & Soft for Training\n\nOpen Farm Be Good Bites Salmon – Soft, chewy bites made with quality salmon; excellent for puppies and training reward.\n\nBocce’s Bakery Say MOOOO Training Bites – Highly rated training treat with wholesome ingredients and a taste puppies tend to love.\n\nChew + Heal Puppy Soft ’N Yummy Treats – Puppy-friendly bites with salmon flavor and soft texture ideal for young mouths.\n\nBocce’s Bakery Mud Pie Oh My Training Bites – Another soft training treat from a trusted brand, great for frequent rewards without hard crunch.\n\n🧘‍♂️ Specialty & Calming Options\n\nCalm & Relaxed Training Treats – Treats designed to have a calming effect, good for anxious puppies or stressful situations (e.g., vet visits, training sessions).\n\n🌿 Everyday Treats With a Gentle Profile\n\nScrumbles Softies Vegetarian Dog Treats – A plant-based soft treat option; good if you want a vegetarian alternative for your pup (note: slightly lower rating but budget-friendly).\n\n🐶 Vet & Expert Tips (Puppy Treat Guide)\n\n✔️ Soft & small treats are usually best for puppies — easier on young teeth and perfect for training rewards. \nPetMD\n\n✔️ Look for high-quality protein sources and avoid artificial colours or preservatives when possible. \npetsmart.com\n\n✔️ Treats should be low in calories (especially training treats), since puppies have smaller daily calorie needs. \nPetMD\n\n✔️ Always check the age recommendation on the pack to make sure the treat is suitable for puppies.\n\nIf you want grain-free or sensitive-stomach puppy treats, tell me your dog’s specific needs and I can tailor the list further!",
+      "timestamp": "2026-01-23T23:32:49.254Z",
+      "responseTimeMs": 12229,
+      "requestPayload": {
+        "endpoint": "https://chatgpt.com",
+        "method": "Browser automation (Playwright)",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+          "Accept-Language": "en-IN"
+        },
+        "body": {
+          "input": "Can you suggest trusted brands that make healthy dog treats for puppies online?",
+          "submittedVia": "DOM input field (#prompt-textarea) + submit button",
+          "browserLocale": "en-IN",
+          "browserTimezone": "Asia/Kolkata"
+        }
+      },
+      "ipUsed": "113.170.215.137"
+    },
+    {
+      "query": "Which are the most recommended brands for crunchy dog biscuits for adult dogs?",
+      "queryIndex": 14,
+      "surface": "chatgpt-web-india-ip",
+      "success": true,
+      "response": "Here are some highly recommended brands and specific crunchy dog biscuit options that adult dogs tend to love — crunchy texture is great for chewing satisfaction and can even help with dental health when used appropriately: \n1800PetMeds\n+1\n\nBuddy Biscuits Crunchy Dog Treats (Peanut Butter)\nARS 12,883.14\n•\nThe Family Pet\nBuddy Biscuits Crunchy Dog Treats (Bacon & Cheese)\nARS 12,883.14\n•\nThe Family Pet\nLazy Dog Cookie Natural Treats\nARS 14,316.20\n•\nPet Palette Distribution + others\nSpunky Pup All Natural Crunchy Dog Treats\nARS 13,313.06\n•\niHerb\n🐶 Top Crunchy Biscuits & Treats for Adult Dogs\n\nProtein & Flavor Favorites\n\nBuddy Biscuits Crunchy Dog Treats (Peanut Butter) – Highly rated crunchy treats with peanut butter flavor — great everyday reward or snack with lots of positive reviews.\n\nBuddy Biscuits Crunchy Dog Treats (Bacon & Cheese) – Same brand but with bacon & cheese flavor; dogs tend to find these especially tasty.\n\nPremium Natural-Style Crunch\n\nLazy Dog Cookie Natural Treats – Very high rating (~4.9★) and wholesome ingredients, ideal if you prefer more natural crunchy biscuits.\n\nSpunky Pup All Natural Crunchy Dog Treats – Popular option made with natural ingredients like apple — crunchy texture many dogs enjoy. \nar.iherb.com\n\n🐕 Classic & Widely Recommended Brands\n\nPedigree Biscrok Dog Biscuits – A very popular crunchy biscuit brand with a long track record; often praised for palatability and ideal for everyday use. \nMercado Libre\n\nMilk‑Bone Crunchy Dog Treats – Classic crunchy dog biscuits loved by many families; available in various sizes and flavours. \nChewy\n\nBlue Buffalo Health Bars Crunchy Dog Treats – Oven-baked crunchy biscuits with wholesome ingredients like pumpkin, cinnamon, bacon — well-reviewed and adult-dog friendly. \n1800PetMeds\n\nCharlee Bear Natural Bear Crunch Treats – A vet-recommended crunchy treat option with grain-free versions and strong palatability reported by owners. \nPetMD\n\n🧠 Tips for Choosing Crunchy Dog Biscuits\n\nSize & texture — Choose biscuits sized appropriately for your dog’s mouth to reduce choking risk and suit chewing preferences. \nChewy\n\nIngredient quality — Look for real proteins (chicken, beef) and wholesome grains or grain-free alternatives if your dog has sensitivities. \n1800PetMeds\n\nLow artificial additives — Healthier options tend to avoid artificial colours or flavours.\n\nIf you want gluten-free, low-calorie, or adult dental-specific crunchy biscuits, tell me and I can tailor a list further!",
+      "timestamp": "2026-01-23T23:33:05.452Z",
+      "responseTimeMs": 14198,
+      "requestPayload": {
+        "endpoint": "https://chatgpt.com",
+        "method": "Browser automation (Playwright)",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+          "Accept-Language": "en-IN"
+        },
+        "body": {
+          "input": "Which are the most recommended brands for crunchy dog biscuits for adult dogs?",
+          "submittedVia": "DOM input field (#prompt-textarea) + submit button",
+          "browserLocale": "en-IN",
+          "browserTimezone": "Asia/Kolkata"
+        }
+      },
+      "ipUsed": "113.170.215.137"
+    }
+  ],
+  "lastQuery": 14,
+  "surfaceManifests": [
+    {
+      "surfaceId": "openai-api-baseline",
+      "surfaceName": "OpenAI Standard API (Baseline)",
+      "description": "Standard OpenAI Chat Completions API with no location context. This is the control group showing default global behavior.",
+      "ipSource": {
+        "type": "direct",
+        "location": "Sun Valley, Idaho, US",
+        "ip": "184.183.124.126"
+      },
+      "localizationMethod": "None - pure foundation model response",
+      "requestTemplate": {
+        "endpoint": "https://api.openai.com/v1/chat/completions",
+        "method": "POST",
+        "headers": {
+          "Content-Type": "application/json",
+          "Authorization": "Bearer ${OPENAI_API_KEY}"
+        },
+        "body": {
+          "model": "gpt-4o",
+          "messages": [
+            {
+              "role": "user",
+              "content": "${QUERY}"
+            }
+          ],
+          "max_tokens": 2000
+        }
+      },
+      "parameters": {
+        "model": "gpt-4o",
+        "systemPrompt": null,
+        "userLocation": null
+      }
+    },
+    {
+      "surfaceId": "openai-api-india-prompt",
+      "surfaceName": "OpenAI Standard API + India System Prompt",
+      "description": "Standard OpenAI Chat Completions API with system prompt injection to bias responses toward India market.",
+      "ipSource": {
+        "type": "direct",
+        "location": "Sun Valley, Idaho, US",
+        "ip": "184.183.124.126"
+      },
+      "localizationMethod": "System prompt injection - instructs model to respond for India customers",
+      "requestTemplate": {
+        "endpoint": "https://api.openai.com/v1/chat/completions",
+        "method": "POST",
+        "headers": {
+          "Content-Type": "application/json",
+          "Authorization": "Bearer ${OPENAI_API_KEY}"
+        },
+        "body": {
+          "model": "gpt-4o",
+          "messages": [
+            {
+              "role": "system",
+              "content": "${INDIA_SYSTEM_PROMPT}"
+            },
+            {
+              "role": "user",
+              "content": "${QUERY}"
+            }
+          ],
+          "max_tokens": 2000
+        }
+      },
+      "parameters": {
+        "model": "gpt-4o",
+        "systemPrompt": "You are a helpful shopping assistant answering questions for customers in India.\n\nWhen recommending products:\n- Provide prices in Indian Rupees (₹)\n- Recommend products available from Indian retailers (Amazon.in, Flipkart, BigBasket, Supertails, Heads Up For Tails, etc.)\n- Include Indian brands when relevant (Drools, Himalaya, HUFT, etc.)\n- Consider availability in the Indian market\n- Format product recommendations with clear pricing and where to buy\n\nBe specific and helpful with product recommendations that Indian consumers can actually purchase.",
+        "userLocation": null
+      }
+    },
+    {
+      "surfaceId": "openai-web-search-api",
+      "surfaceName": "OpenAI Web Search API + user_location",
+      "description": "OpenAI Responses API with web_search tool and user_location parameter set to India. This is the approach Ranjan used.",
+      "ipSource": {
+        "type": "direct",
+        "location": "Sun Valley, Idaho, US",
+        "ip": "184.183.124.126"
+      },
+      "localizationMethod": "user_location parameter - tells OpenAI to bias web search results for India",
+      "requestTemplate": {
+        "endpoint": "https://api.openai.com/v1/responses",
+        "method": "POST",
+        "headers": {
+          "Content-Type": "application/json",
+          "Authorization": "Bearer ${OPENAI_API_KEY}"
+        },
+        "body": {
+          "model": "gpt-4o",
+          "tools": [
+            {
+              "type": "web_search"
+            }
+          ],
+          "input": "${QUERY}",
+          "user_location": {
+            "type": "approximate",
+            "approximate": {
+              "country": "IN",
+              "region": "Maharashtra",
+              "city": "Mumbai",
+              "timezone": "Asia/Kolkata"
+            }
+          }
+        }
+      },
+      "parameters": {
+        "model": "gpt-4o",
+        "systemPrompt": null,
+        "userLocation": {
+          "type": "approximate",
+          "approximate": {
+            "country": "IN",
+            "region": "Maharashtra",
+            "city": "Mumbai",
+            "timezone": "Asia/Kolkata"
+          }
+        },
+        "webSearchEnabled": true
+      }
+    },
+    {
+      "surfaceId": "chatgpt-web-india-ip",
+      "surfaceName": "ChatGPT Web Interface + India IP",
+      "description": "ChatGPT.com accessed via India residential proxy. This captures what actual Indian consumers see.",
+      "ipSource": {
+        "type": "proxy",
+        "location": "Thủ Đức, Ho Chi Minh City (HCMC), VN",
+        "ip": "113.170.215.137",
+        "proxyProvider": "2Captcha Residential",
+        "proxyConfig": "zone-custom-region-in-st-maharashtra-city-mumbai"
+      },
+      "localizationMethod": "IP-based geolocation - ChatGPT.com detects India IP and localizes accordingly",
+      "requestTemplate": {
+        "endpoint": "https://chatgpt.com",
+        "method": "Browser automation (Playwright)",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+          "Accept-Language": "en-IN"
+        },
+        "body": {
+          "input": "${QUERY}",
+          "submittedVia": "DOM input field + submit button"
+        }
+      },
+      "parameters": {
+        "browserLocale": "en-IN",
+        "browserTimezone": "Asia/Kolkata",
+        "proxyServer": "http://170.106.118.114:2334",
+        "systemPrompt": null,
+        "userLocation": null
+      }
+    }
+  ]
+}

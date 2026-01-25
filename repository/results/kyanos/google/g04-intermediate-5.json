@@ -1,0 +1,661 @@
+{
+  "run": {
+    "runId": "3bc66153-7b1c-4d76-ade9-517f5e6256ff",
+    "parentRunId": "32c5e037-7ac2-4f54-bd81-d86dd794e491",
+    "batchSequence": 2,
+    "batchTotal": 2,
+    "initiatedAt": "2026-01-24T22:25:24.710Z",
+    "trigger": "manual"
+  },
+  "study": "g04",
+  "studyName": "Google Search + AI Overview - US IP - India Suffix",
+  "surface": "google-search",
+  "location": "us-national",
+  "expectedLocation": "us-national",
+  "promptSuffix": " in India",
+  "captureAiOverview": true,
+  "timestamp": "2026-01-24T22:26:11.750Z",
+  "timing": {
+    "startTime": "2026-01-24T22:25:24.910Z",
+    "endTime": "2026-01-24T22:26:11.750Z",
+    "durationMs": 46840
+  },
+  "ipVerification": {
+    "ipInfo": {
+      "ip": "184.183.124.126",
+      "country": "US",
+      "city": "Sun Valley",
+      "region": "Idaho",
+      "org": "AS22773 Cox Communications Inc.",
+      "timezone": "America/Boise",
+      "loc": "43.6971,-114.3517",
+      "postal": "83353",
+      "hostname": "ip184-183-124-126.sv.om.cox.net"
+    },
+    "expectedLocation": "us-national",
+    "expectedCountry": "US",
+    "verified": true,
+    "verifiedAt": "2026-01-24T22:25:24.910Z",
+    "lookupDurationMs": 200
+  },
+  "results": [
+    {
+      "queryIndex": 0,
+      "originalQuery": "Which are the best budget dog food brands online?",
+      "submittedQuery": "Which are the best budget dog food brands online in India?",
+      "response": "AI Overview:\nThe best budget-friendly dog food brands available online in India include Drools, Pedigree, Chappi, Himalaya, and Mankind Petstar. These brands are widely available on platforms like Amazon, Supertails, PetKonnect, and Meesho, often offering high-protein and nutrient-dense, locally manufactured options.\n\nTop Budget Dog Food Brands in India\n\nDrools: Known for affordability and quality, offering chicken and egg formulations suitable for various life stages.\nPedigree: A highly popular, accessible, and affordable option for daily feeding.\nChappi: A budget-friendly option often chosen for its balanced, basic nutritional needs.\nHimalaya: Provides specialized, affordable, and locally sourced herbal-based nutrition.\nMankind Petstar: Offers cost-effective, meat-based options, such as their adult dog dry food.\nCarniwel: Considered an affordable option for fresh chicken kibble.\n\nTips for Budgeting\n\nBuy in Bulk: Purchasing larger, bulk bags online can significantly reduce costs.\nLook for Deals: Platforms like Meesho and Supertails often have deals for high-quality food under ₹300.\nCheck Ingredients: Even with budget brands, check for essential nutrients to ensure good health.\n\nOrganic Results:\n1. Best Dog Food Brands for Every Budget\n2. Top 10 Dog Food Brands in India in 2025\n3. Which dog food in India is the best?\n4. Buy Dog Food Online at Best Prices in India\n5. Best Budget Foods for Dog and Cat : r/IndianPets\n6. Buy Best Dog Food Online at Best Prices In India\n7. Best Dog Food Brands in India\n8. Best Dog Food | Natural & Healthy Dog Food – BLEP World\n9. Buy Dog Food Online at Best Price in India",
+      "aiOverview": "The best budget-friendly dog food brands available online in India include Drools, Pedigree, Chappi, Himalaya, and Mankind Petstar. These brands are widely available on platforms like Amazon, Supertails, PetKonnect, and Meesho, often offering high-protein and nutrient-dense, locally manufactured options.\n\nTop Budget Dog Food Brands in India\n\nDrools: Known for affordability and quality, offering chicken and egg formulations suitable for various life stages.\nPedigree: A highly popular, accessible, and affordable option for daily feeding.\nChappi: A budget-friendly option often chosen for its balanced, basic nutritional needs.\nHimalaya: Provides specialized, affordable, and locally sourced herbal-based nutrition.\nMankind Petstar: Offers cost-effective, meat-based options, such as their adult dog dry food.\nCarniwel: Considered an affordable option for fresh chicken kibble.\n\nTips for Budgeting\n\nBuy in Bulk: Purchasing larger, bulk bags online can significantly reduce costs.\nLook for Deals: Platforms like Meesho and Supertails often have deals for high-quality food under ₹300.\nCheck Ingredients: Even with budget brands, check for essential nutrients to ensure good health.",
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Best Dog Food Brands for Every Budget",
+          "url": "https://justbark.in/article/best-dog-food-brands-budget",
+          "snippet": "In India, brands like Royal Canin and Farmina N&D are popular for their scientifically balanced nutrition, catering to various breeds, sizes, and dietary needs."
+        },
+        {
+          "position": 2,
+          "title": "Top 10 Dog Food Brands in India in 2025",
+          "url": "https://www.petkonnect.in/blogs/pet-food-treat/top-10-dog-food-brands-in-2025?srsltid=AfmBOop0LjxvQ2n9iCI_yNzbNTVSdqo8ft5mRyHPZxsHsSjLIcTYCOzj",
+          "snippet": "The top 10 dog food brands in India in 2025 guarantee your pet a nutritious diet and offer a choice from very affordable brands like Purepet to more premium ..."
+        },
+        {
+          "position": 3,
+          "title": "Which dog food in India is the best?",
+          "url": "https://www.quora.com/Which-dog-food-in-India-is-the-best",
+          "snippet": "The Pedigree, Drools, Jerhigh, Himalaya, Farmina, Eukanuba, Happy Dog, Nutra Nuggets, Arden Grange, and Taste Of The Wild Sierra Mountain are ..."
+        },
+        {
+          "position": 4,
+          "title": "Buy Dog Food Online at Best Prices in India",
+          "url": "https://supertails.com/collections/dog-food?srsltid=AfmBOor21zocZbL9SLB21CcsN1Sy-r_J-kil3I0-JY_LsTuh3q3hCKCS",
+          "snippet": "Pedigree is a popular, affordable dog food under ₹2500 in India. It offers balanced nutrition suitable for dogs of all ages. Brands like Hill's Science Diet and ..."
+        },
+        {
+          "position": 5,
+          "title": "Best Budget Foods for Dog and Cat : r/IndianPets",
+          "url": "https://www.reddit.com/r/IndianPets/comments/1m2be7y/best_budget_foods_for_dog_and_cat/",
+          "snippet": "Brands like sheba, farmina, royal canin, acana,orijen etc. I spend around 3k(chicken, fish & eggs) every month to feed 1 dog and 2 cats homemade ..."
+        },
+        {
+          "position": 6,
+          "title": "Buy Best Dog Food Online at Best Prices In India",
+          "url": "https://headsupfortails.com/collections/dog-food?srsltid=AfmBOopZ8XQ4UIDvzNHbOCSScjyfVgKije5szaBC8_qTmnuCKYzxQsL_",
+          "snippet": "Buy Dog Food Online at HUFT. Shop from a wide range of dog food brands like Royal Canin, Hearty, Pedigree, and More."
+        },
+        {
+          "position": 7,
+          "title": "Best Dog Food Brands in India",
+          "url": "https://www.olx.in/blog/expert-advice/best-dog-food-brands-in-india/",
+          "snippet": "Royal Canin is one of the most recommended dog food companies in India · One of the most accessible and affordable dog food brands in India · In ..."
+        },
+        {
+          "position": 8,
+          "title": "Best Dog Food | Natural & Healthy Dog Food – BLEP World",
+          "url": "https://blepworld.com/collections/buy-best-dogs-food-online-india?srsltid=AfmBOoo-D8YRYD24n7IIYDcQf3MOi5Lb32q5Fn0qi0y85nZnOV3IkXFv",
+          "snippet": "Buy the best dog food online in India. BLEP offers natural, human-grade dog food with zero preservatives. Try trial packs & monthly plans."
+        },
+        {
+          "position": 9,
+          "title": "Buy Dog Food Online at Best Price in India",
+          "url": "https://www.amazon.in/Dog-Food/b?ie=UTF8&node=4771395031",
+          "snippet": "Buy Dog Food Online at Amazon.in . Shop from wide range of Dog Food at Upto 70% Off from popular brands like Pedigree, Drools, Meat Up, Purepet, Chappi and More"
+        }
+      ],
+      "sources": [
+        {
+          "index": 1,
+          "title": "Best Dog Food Brands for Every Budget - JustBark",
+          "url": "https://justbark.in/article/best-dog-food-brands-budget#:~:text=Brands%20like%20Drools%20and%20Pedigree,Spot%20Quality%20Dog%20Food%20Ingredients."
+        },
+        {
+          "index": 2,
+          "title": "Buy Dry Dog Food Online in India - Supertails",
+          "url": "https://supertails.com/collections/dog-dry-food#:~:text=Table_title:%20Dog%20Dry%20Food%20Price%20List%20Table_content:,Dry%20Food%20%7C%20Price%20(INR):%20%E2%82%B9860%20%7C"
+        },
+        {
+          "index": 3,
+          "title": "Buy Dry Food for Dogs Online | Best Dog Food Prices - Meesho",
+          "url": "https://www.meesho.com/dry-food-for-dogs/pl/9ap#:~:text=You%20can%20also%20buy%20dog,of%20dry%20food%20for%20cats."
+        },
+        {
+          "index": 4,
+          "title": "Best Dog Food Brands in India - Supertails",
+          "url": "https://supertails.com/blogs/nutrition/popular-dog-food-brands-in-india"
+        },
+        {
+          "index": 5,
+          "title": "Top 10 Dog Food Brands in India in 2025 - PetKonnect",
+          "url": "https://www.petkonnect.in/blogs/pet-food-treat/top-10-dog-food-brands-in-2025#:~:text=Must%2DTry%20Product:%20Pedigree%20Adult,weight%20management%20and%20sensitive%20stomachs."
+        },
+        {
+          "index": 6,
+          "title": "buy best dog food online in india: a complete guide - Petritive",
+          "url": "https://petritive.com/buy-best-dog-food-online-in-india-a-complete-guide/#:~:text=Top%20Brand%20for%20Best%20Online,you%20can%20trust%20on%20Petritive."
+        }
+      ],
+      "timestamp": "2026-01-24T22:25:31.065Z",
+      "durationMs": 6155,
+      "success": true,
+      "responseSizeBytes": 1631
+    },
+    {
+      "queryIndex": 1,
+      "originalQuery": "Can you suggest the best treat brands for dogs online?",
+      "submittedQuery": "Can you suggest the best treat brands for dogs online in India?",
+      "response": "AI Overview:\nTop dog treat brands in India available online include JerHigh (real meat), Chip Chops (popular, high quality), and Pedigree Dentastix (dental care). For healthier, specialized options, Dogsee Crunch (yak cheese), Himalaya (herbal), and HUFT (Heads Up For Tails) are highly recommended. These can be purchased from platforms like Supertails, Heads Up For Tails, and Petsworld.\n\nTop Recommended Brands by Category:\n\nBest Overall/Popular: JerHigh, Chip Chops, Pedigree\nBest for Training: Dogsee Crunch (cheesy/natural), Hill's Science Diet (soft/chewy), HUFT Yum Nums\nBest for Dental Health: Pedigree Dentastix, Gnawlers\nBest Natural/Healthy: Dogsee Crunch, Himalaya, FirstBark\nBest Premium/Specialty: Oscar Daisy (human-grade), HUFT\n\nWhere to Buy Online in India:\n\nSupertails: Offers a wide range including dental and jerky treats.\nHeads Up For Tails (HUFT): Stocks premium and their own branded treats.\nPetsworld: Features popular brands like Royal Canin and Drools.\nAmazon/PetIndiaOnline: General platforms for variety.\n\nKey Considerations:\n\nTraining: Use small, low-calorie, soft treats.\nHealth: Look for natural ingredients, avoiding artificial additives.\nPurpose: Choose between dental, training, or high-protein snack options.\n\nOrganic Results:\n1. Buy Best Dog Treats online in India\n2. Buy Dog Treats Online at Best Price in India\n3. What are some good brands of Dog treats in India?\n4. Dog Treats Online | Buy Best Treats for Dogs in India\n5. Best Dog Treats in India: Gnawlers, Pedigree, Chip Chops ...\n6. 10 Best Dog Treats in India for 2023\n7. Buy Natural Dog Treats Online in India\n8. Best Dog Treats in India - Introducing Chompion\n9. Buy Dog Treats Online in India at Best ...",
+      "aiOverview": "Top dog treat brands in India available online include JerHigh (real meat), Chip Chops (popular, high quality), and Pedigree Dentastix (dental care). For healthier, specialized options, Dogsee Crunch (yak cheese), Himalaya (herbal), and HUFT (Heads Up For Tails) are highly recommended. These can be purchased from platforms like Supertails, Heads Up For Tails, and Petsworld.\n\nTop Recommended Brands by Category:\n\nBest Overall/Popular: JerHigh, Chip Chops, Pedigree\nBest for Training: Dogsee Crunch (cheesy/natural), Hill's Science Diet (soft/chewy), HUFT Yum Nums\nBest for Dental Health: Pedigree Dentastix, Gnawlers\nBest Natural/Healthy: Dogsee Crunch, Himalaya, FirstBark\nBest Premium/Specialty: Oscar Daisy (human-grade), HUFT\n\nWhere to Buy Online in India:\n\nSupertails: Offers a wide range including dental and jerky treats.\nHeads Up For Tails (HUFT): Stocks premium and their own branded treats.\nPetsworld: Features popular brands like Royal Canin and Drools.\nAmazon/PetIndiaOnline: General platforms for variety.\n\nKey Considerations:\n\nTraining: Use small, low-calorie, soft treats.\nHealth: Look for natural ingredients, avoiding artificial additives.\nPurpose: Choose between dental, training, or high-protein snack options.",
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Buy Best Dog Treats online in India",
+          "url": "https://supertails.com/collections/dog-treats?srsltid=AfmBOoolkpa0H_3C8-HTPt3VWgHfzH8GI6m7RROxJCl4LxFnjTbB9ryM",
+          "snippet": "Buy tasty treats for dogs, and healthy puppy treats for all breeds at supertails. Keep tails wagging with every bite of dog treats. Shop now!"
+        },
+        {
+          "position": 2,
+          "title": "Buy Dog Treats Online at Best Price in India",
+          "url": "https://www.amazon.in/Dogs-Treats/b?ie=UTF8&node=4771403031",
+          "snippet": "Buy Dog Treats Online at the Lowest Prices. Buy Cookies, Pups snacks, Bones, Chicken Sticks & much more from Top Brands like Meat UP, Pedigree, Drools, ..."
+        },
+        {
+          "position": 3,
+          "title": "What are some good brands of Dog treats in India?",
+          "url": "https://www.quora.com/What-are-some-good-brands-of-Dog-treats-in-India",
+          "snippet": "Purina, Blue Buffalo and Science Diet. My reasoning: Purina should be lumped in with all cheap grocery store brands, and other low cost dog ..."
+        },
+        {
+          "position": 4,
+          "title": "Dog Treats Online | Buy Best Treats for Dogs in India",
+          "url": "https://headsupfortails.com/collections/dog-treats/cat-treat?srsltid=AfmBOop5FzrZIl3Ry_LSmXMeDmWzxYIopd-nSKCs2WpLUA_MoOaVbDpG",
+          "snippet": "Buy the best dog treats and puppy treats online in India on HUFT. Get dog training treats from Pedigree, Chip Chops and other pet treat brands. Shop Now."
+        },
+        {
+          "position": 5,
+          "title": "Best Dog Treats in India: Gnawlers, Pedigree, Chip Chops ...",
+          "url": "https://www.petindiaonline.com/story-details.php?ref=1297445623&srsltid=AfmBOopiflLaPfQGGlyIrH9txlUiQrkVQ8vW3F21gn8o_wr1ZXOgu6Bn",
+          "snippet": "Discover the best dog treats in India from brands like Gnawlers, Pedigree, Chip Chops, JerHigh, and more. Learn how to choose the perfect ..."
+        },
+        {
+          "position": 6,
+          "title": "10 Best Dog Treats in India for 2023",
+          "url": "https://zigly.com/blogs/all/10-best-dog-treats-in-india-in-2023?srsltid=AfmBOoo74ujdyI6S86x8_nUOYQ43A88zL9QPhoA2v74uIhiKin34KLdl",
+          "snippet": "Looking for healthy and tasty dog treats? Discover the 10 best dog treats in India for 2023. Vet-approved, nutritious, and available at ..."
+        },
+        {
+          "position": 7,
+          "title": "Buy Natural Dog Treats Online in India",
+          "url": "https://skylish.in/collections/dog-treats?srsltid=AfmBOoohpYFmufPg9u9CZ-So6p_XcmyN9FejQpOxibUw6OZxt_vaA5Vb",
+          "snippet": "We at Skylish provide the best dog treats to make your doggy mouth-watering. With each dog treat your pet learns new things and also creates a good bond with ..."
+        },
+        {
+          "position": 8,
+          "title": "Best Dog Treats in India - Introducing Chompion",
+          "url": "https://venttura.com/blogs/dog-blogs/best-dog-treats-india?srsltid=AfmBOooIFqzQTZncjbZdhmyS_IpLMJR2BLX8Kc2Kg6m3S6am3xhSLP5D",
+          "snippet": "Discover the best dog treats in India with Chompion by Venttura. Grain-free, functional treats for immunity, joints, dental care & skin health."
+        },
+        {
+          "position": 9,
+          "title": "Buy Dog Treats Online in India at Best ...",
+          "url": "https://www.smilingpets.in/collections/dog-treats",
+          "snippet": "Smiling Pets stands out as a preferred choice for dog treats due to its wide variety of treats available. They offer competitive pricing, ensuring you get the ..."
+        }
+      ],
+      "sources": [
+        {
+          "index": 1,
+          "title": "Buy Best Dog Treats online in India | Supertails",
+          "url": "https://supertails.com/collections/dog-treats#:~:text=Discover%20the%20Best%20Dog%20Treats,look%20forward%20to%20every%20day."
+        },
+        {
+          "index": 2,
+          "title": "Dog Treats Online | Buy Best Treats for Dogs in India",
+          "url": "https://headsupfortails.com/collections/dog-treats/cat-treat#:~:text=HUFT%20%2D%20Sara's%20Doggie%20Treats,Yummy%20In%20My%20Tummy%20Biscuits"
+        },
+        {
+          "index": 3,
+          "title": "10 Best Puppy Treats in India That Your Pup Will Absolutely Love",
+          "url": "https://floofandco.com/blogs/news/10-best-puppy-treats-in-india-that-your-pup-will-absolutely-love#:~:text=Dogsee%20crunch%20Dog%20Training%20Treats,with%20no%20gluten%20and%20preservatives."
+        },
+        {
+          "index": 4,
+          "title": "Best Dog Treats in India: Gnawlers, Pedigree, Chip Chops ...",
+          "url": "https://www.petindiaonline.com/story-details.php?ref=1297445623#:~:text=Best%20Dog%20Treats%20in%20India,Dog"
+        },
+        {
+          "index": 5,
+          "title": "Best Dog Treats in Ghaziabad",
+          "url": "https://saiinternationalgroup.com/best-dog-treats-in-ghaziabad/#:~:text=Some%20brands%20of%20dog%20treats%20include:%20*,in%20varieties%20including%20chicken%2C%20lamb%2C%20and%20milk"
+        },
+        {
+          "index": 6,
+          "title": "13 Best Dog Treats in 2026, Recommended by Vets - PetMD",
+          "url": "https://www.petmd.com/dog/vet-verified/best-dog-treats#:~:text=Our%20Vet%20Pick:%20Best%20Dog%20Training%20Treat,-Hill's%20Natural%20Training&text=Our%20panel%20of%20experts%20select,that%20dogs%20want%20to%20eat."
+        },
+        {
+          "index": 7,
+          "title": "Top 7 Dog Treats in India for Every Dog Lover - Petsworld",
+          "url": "https://petsworld.in/blogs/news/7-best-dog-treats-in-india-that-your-dogs-will-go-crazy-for"
+        },
+        {
+          "index": 8,
+          "title": "What are some good brands of Dog treats in India? - Quora",
+          "url": "https://www.quora.com/What-are-some-good-brands-of-Dog-treats-in-India#:~:text=her%20good%20behavior.-,So%20I%20started%20searching%20for%20ways%20to%20provide%20her%20healthy,1"
+        },
+        {
+          "index": 9,
+          "title": "How India’s Pet Brands Are Fur-ociously Shaping the Future of Retail",
+          "url": "https://www.irecwire.com/article/retail-business/how-indias-pet-brands-are-fur-ociously-shaping-the-future-of-retail#:~:text=Quality%20and%20InnovationThe%20demand%20for%20pet%20care,to%20the%20health%20and%20wellness%20of%20pets."
+        },
+        {
+          "index": 10,
+          "title": "Best Dog Treats in India for Healthy Pets | New List - Furever Kare",
+          "url": "https://fureverkare.com/blogs/news/best-dog-treats-in-india#:~:text=What%20Makes%20a%20Treat%20%E2%80%9CHealthy,you're%20training%20multiple%20times"
+        }
+      ],
+      "timestamp": "2026-01-24T22:25:42.245Z",
+      "durationMs": 5980,
+      "success": true,
+      "responseSizeBytes": 1702
+    },
+    {
+      "queryIndex": 2,
+      "originalQuery": "Which are the best dog food brands with high reviews?",
+      "submittedQuery": "Which are the best dog food brands with high reviews in India?",
+      "response": "AI Overview:\nTop-rated dog food brands in India, favored for quality, nutrition, and high reviews, include premium, vet-recommended options like Royal Canin, Farmina N&D, and Acana, alongside reliable, accessible choices like Drools and Pedigree. These brands offer specialized, scientifically balanced formulas for various life stages, breeds, and specific health needs like grain-free or sensitive digestion.\n\nTop High-Review Dog Food Brands in India\n\nRoyal Canin: Widely considered one of the best for breed-specific and age-specific formulas (e.g., puppy, adult, senior, and large breeds).\nFarmina N&D: Highly regarded for its natural, high-protein, and grain-free recipes using quality ingredients.\nAcana: Known for biologically appropriate, protein-rich diets with high-quality ingredients.\nOrijen: A premium, nutrient-dense brand that offers recipes closely mimicking a natural diet.\nDrools: A popular, cost-effective Indian brand offering good quality, easily available, and nutritious options like the \"Focus\" line.\nPedigree: A highly popular, affordable choice offering complete and balanced nutrition suitable for everyday feeding.\nHill’s Science Diet: A top choice recommended by veterinarians for specific health requirements, such as weight management and sensitive stomachs.\nArden Grange: Regarded for being highly nutritious, often featuring, for example, chicken and rice with a good balance of essential nutrients.\n\nKey Considerations for Choosing\n\nDiet Type: Options range from grain-free (Farmina, Acana) to specialized formulas (Royal Canin).\nPrice Points: Premium brands like Orijen/Acana are higher priced, while Drools and Pedigree offer better value for daily feeding.\nAvailability: Brands like Pedigree, Drools, and Royal Canin are widely available in India online and in stores.\n\nIt is recommended to check the specific, updated ingredients list and consult a veterinarian to ensure the food suits your dog's unique needs.\n\nOrganic Results:\n1. Top 10 Dog Food Brands in India in 2025\n2. Which dog food in India is the best?\n3. What are the best dog foods available in India for good ...\n4. Best Dog Food Brands in India\n5. Top Premium Pet Food Brands for a Healthier Pet\n6. Top 10 Dog Food Brands in India in 2024\n7. What is the best dry dog food in India?\n8. Budget Dog Food Brands in India (2026 List)\n9. Top 7 Dog Food Brands in India\n10. Top 8 Best Dog Foods In India 2024 With Price |Premium Pet ...",
+      "aiOverview": "Top-rated dog food brands in India, favored for quality, nutrition, and high reviews, include premium, vet-recommended options like Royal Canin, Farmina N&D, and Acana, alongside reliable, accessible choices like Drools and Pedigree. These brands offer specialized, scientifically balanced formulas for various life stages, breeds, and specific health needs like grain-free or sensitive digestion.\n\nTop High-Review Dog Food Brands in India\n\nRoyal Canin: Widely considered one of the best for breed-specific and age-specific formulas (e.g., puppy, adult, senior, and large breeds).\nFarmina N&D: Highly regarded for its natural, high-protein, and grain-free recipes using quality ingredients.\nAcana: Known for biologically appropriate, protein-rich diets with high-quality ingredients.\nOrijen: A premium, nutrient-dense brand that offers recipes closely mimicking a natural diet.\nDrools: A popular, cost-effective Indian brand offering good quality, easily available, and nutritious options like the \"Focus\" line.\nPedigree: A highly popular, affordable choice offering complete and balanced nutrition suitable for everyday feeding.\nHill’s Science Diet: A top choice recommended by veterinarians for specific health requirements, such as weight management and sensitive stomachs.\nArden Grange: Regarded for being highly nutritious, often featuring, for example, chicken and rice with a good balance of essential nutrients.\n\nKey Considerations for Choosing\n\nDiet Type: Options range from grain-free (Farmina, Acana) to specialized formulas (Royal Canin).\nPrice Points: Premium brands like Orijen/Acana are higher priced, while Drools and Pedigree offer better value for daily feeding.\nAvailability: Brands like Pedigree, Drools, and Royal Canin are widely available in India online and in stores.\n\nIt is recommended to check the specific, updated ingredients list and consult a veterinarian to ensure the food suits your dog's unique needs.",
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Top 10 Dog Food Brands in India in 2025",
+          "url": "https://www.petkonnect.in/blogs/pet-food-treat/top-10-dog-food-brands-in-2025?srsltid=AfmBOoqiPKKvo1__ZZBi4oPHm8VBq_3YLULkhhCTcuSFBxsJgsyEpwQy",
+          "snippet": "1. Royal Canin · Tailored nutrition for different dog breeds and sizes. · High-quality ingredients for healthy digestion and coat health. · Options ..."
+        },
+        {
+          "position": 2,
+          "title": "Which dog food in India is the best?",
+          "url": "https://www.quora.com/Which-dog-food-in-India-is-the-best",
+          "snippet": "In India ,the best dog food available commercially in most of the retails is Royal Canin. Royal Canin -Starter pack for puppies and pregnant ..."
+        },
+        {
+          "position": 3,
+          "title": "What are the best dog foods available in India for good ...",
+          "url": "https://www.reddit.com/r/IndianPets/comments/1cpatdr/what_are_the_best_dog_foods_available_in_india/",
+          "snippet": "Acana, Arden grange, Orijen and, taste of the wild are some good dog food brands available in india."
+        },
+        {
+          "position": 4,
+          "title": "Best Dog Food Brands in India",
+          "url": "https://www.olx.in/blog/expert-advice/best-dog-food-brands-in-india/",
+          "snippet": "Top 10 Dog Food Brands in India (With Description, Features & Prices) ; Royal Canin, No, Yes, Moderate, Yes ; Farmina N&D, Yes, Yes, High, Yes ..."
+        },
+        {
+          "position": 5,
+          "title": "Top Premium Pet Food Brands for a Healthier Pet",
+          "url": "https://royalpetmart.in/blogs/royal-pet-blogs/top-premium-pet-food-brands-for-a-healthier-pet",
+          "snippet": "Beyond my top five, other popular dog food brands I considered include Wellness, Blue Buffalo, Taste of the Wild, Merrick, and Nutro. They're ..."
+        },
+        {
+          "position": 6,
+          "title": "Top 10 Dog Food Brands in India in 2024",
+          "url": "https://www.petoska.com/blogs/news/top-10-dog-food-brands-in-india-in-2024?srsltid=AfmBOopH-cYUChuDOq_AxQb8Wi8JT8k2UrE_qcKOx34ApFKAeNW6hsch",
+          "snippet": "Petoska: When it comes to the best dog food in India, Petoska is the name that Indian pet parents can trust. Known for producing high-quality ..."
+        },
+        {
+          "position": 7,
+          "title": "What is the best dry dog food in India?",
+          "url": "https://www.facebook.com/groups/beagledoglovers/posts/996953224450900/",
+          "snippet": "We were feeding Royal Canine Medium Junior, to our 3 month pupper. But it's not easily available now. We want to take suggestions on which brand ..."
+        },
+        {
+          "position": 8,
+          "title": "Budget Dog Food Brands in India (2026 List)",
+          "url": "https://india.wildoak.store/blogs/skincare-ingredients/budget-dog-food-brands-in-india?srsltid=AfmBOoqsV2bTrYNFIcUIR6_r1ZsjNSq5qIIUv4t4seH0y7zpKKoHv9Fr",
+          "snippet": "Top Budget Dog Food Brands in India (2026 Edition) · 1. Waggies (by Reliance) · 2. Pedigree · 3. Purepet · 4. Drools · 5. Meat Up · 6. Bowler's ..."
+        },
+        {
+          "position": 9,
+          "title": "Top 7 Dog Food Brands in India",
+          "url": "http://swagswami.com/blog/pets/top-7-dog-food-brands-in-india/",
+          "snippet": "Royal Canin is one of the specialised brands in dog and cat foods. It was founded way back in 1968. It makes dog foods and cat foods that are ..."
+        },
+        {
+          "position": 10,
+          "title": "Top 8 Best Dog Foods In India 2024 With Price |Premium Pet ...",
+          "url": "https://www.youtube.com/watch?v=nl2XcxnMbpY",
+          "snippet": "Best Dog Foods , Top Professional Dog Foods Review in India, Budget Dog Foods ... Best Dog Food Brands 2024: Pedigree vs Meatup vs ..."
+        }
+      ],
+      "sources": [
+        {
+          "index": 1,
+          "title": "Best Dog Food Brands in India | Keep Your Fur Baby Healthy",
+          "url": "https://www.mrnmrspet.com/blogs/top-8-best-dog-food-brands-in-india#:~:text=Table_title:%20Quick%20Comparison%20Table%20Table_content:%20header:%20%7C,digestion%20%7C%20Key%20Highlight:%20Grain%2Dfree%20options%20%7C"
+        },
+        {
+          "index": 2,
+          "title": "Top 10 Dog Food Brands in India in 2025 - PetKonnect",
+          "url": "https://www.petkonnect.in/blogs/pet-food-treat/top-10-dog-food-brands-in-2025#:~:text=Must%2DTry%20Product:%20Pedigree%20Adult,weight%20management%20and%20sensitive%20stomachs."
+        },
+        {
+          "index": 3,
+          "title": "Best Dog Food Brands in India - OLX",
+          "url": "https://www.olx.in/blog/expert-advice/best-dog-food-brands-in-india/#:~:text=Brand%2C%20Grain%2DFree%2C%20Suitable%20for%20Sensitive%20Dogs%2C%20High,Royal%20Canin%2C%20No%2C%20Yes%2C%20Moderate%2C%20Yes%20;"
+        },
+        {
+          "index": 4,
+          "title": "Best Dog Food Brands in India - Supertails",
+          "url": "https://supertails.com/blogs/nutrition/popular-dog-food-brands-in-india"
+        },
+        {
+          "index": 5,
+          "title": "Top 10 Dog Food Brands in India in 2024 - Petoska",
+          "url": "https://www.petoska.com/blogs/news/top-10-dog-food-brands-in-india-in-2024#:~:text=Pedigree:%20Pedigree%20has%20been%20a,highly%20nutritious%20for%20the%20poodle."
+        },
+        {
+          "index": 6,
+          "title": "Top Premium Pet Food Brands for a Healthier Pet",
+          "url": "https://royalpetmart.in/blogs/royal-pet-blogs/top-premium-pet-food-brands-for-a-healthier-pet#:~:text=Royal%20Pet%20Mart%20%E2%80%93%20I%20have,Most%20Popular%20Dog%20Food%20Brands"
+        },
+        {
+          "index": 7,
+          "title": "Here's What You Might Not Know About The Best Dog Food in India – Pawsindia",
+          "url": "https://pawsindia.com/blogs/news/heres-what-you-might-not-know-about-the-best-dog-food-in-india"
+        },
+        {
+          "index": 8,
+          "title": "Which dog food in India is the best? - Quora",
+          "url": "https://www.quora.com/Which-dog-food-in-India-is-the-best#:~:text=are%20now%20readily%20available%20everywhere,will%20find%20in%20the%20market."
+        },
+        {
+          "index": 9,
+          "title": "9 Best Dog Foods of 2026, Recommended by Vets - PetMD",
+          "url": "https://www.petmd.com/dog/vet-verified/best-dog-food#:~:text=The%20best%20dog%20food%20brands,Pro%20Plan%2C%20and%20Royal%20Canin."
+        },
+        {
+          "index": 10,
+          "title": "Top Dog Foods in India: 5 Brands - Petsworld",
+          "url": "https://petsworld.in/blogs/news/top-dog-foods-to-consider-for-first-time-dog-owner#:~:text=1)%20Royal%20Canin,lifestyle%20as%20well%20as%20age."
+        }
+      ],
+      "timestamp": "2026-01-24T22:25:53.168Z",
+      "durationMs": 6662,
+      "success": true,
+      "responseSizeBytes": 2433
+    },
+    {
+      "queryIndex": 3,
+      "originalQuery": "Which are the best dog food brands recommended by vets?",
+      "submittedQuery": "Which are the best dog food brands recommended by vets in India?",
+      "response": "AI Overview:\nTop vet-recommended dog food brands in India include Royal Canin, Hill's Science Diet/Prescription Diet, and Farmina (N&D/Vet Life) for their specialized, high-quality, and therapeutic formulations. Other top choices for balanced nutrition include Acana, Orijen (high-protein/grain-free), and Drools (affordable, local).\n\nHere are the top vet-recommended dog food brands in India:\n\nRoyal Canin: Widely recommended for its breed-specific and life-stage-specific diets, often favored for gastrointestinal and specific health needs.\nHill's Science Diet/Prescription Diet: Highly regarded by vets for clinical nutrition, specially formulated for weight management, sensitive stomachs, and therapeutic needs.\nFarmina (N&D and Vet Life): Popular for high-quality ingredients, offering both grain-free (N&D) and vet-prescribed diets (Vet Life).\nDrools/Drools Vet Pro: A top-tier, cost-effective Indian brand providing high-quality, easily accessible, and, with the Vet Pro line, specialized, veterinary-approved nutrition.\nAcana & Orijen: Premium, high-protein, and nutrient-rich options often recommended for dogs needing grain-free or biologically appropriate diets.\nArden Grange: Recommended for dogs with sensitivities, skin problems, or digestive issues, offering premium, gentle ingredients.\nHenlo: A highly recommended, top-quality, and locally produced, oven-baked food, often chosen for its natural ingredients.\n\nKey Considerations for Selection:\n\nHealth Conditions: Vets often prescribe specific diets like Farmina Vet Life or Hill's Prescription Diet for managing illnesses.\nAge and Breed: Puppy, Adult, Senior, and breed-specific formulas from brands like Royal Canin ensure appropriate nutritional intake.\nIngredients: For sensitive dogs, brands like Arden Grange or Acana are preferred for their premium, limited-ingredient, or hypoallergenic options.\n\nOrganic Results:\n1. Top 10 Dog Food Brands in India in 2025\n2. Best Dog Food Brands in India – Price, Nutrition & ...\n3. Top Premium Pet Food Brands for a Healthier Pet\n4. 10 Must-Try Pet Food Brands for a Healthy Dog\n5. Looking for Good Pet Food & Toys in India\n6. Top Dog Food Brands in India - All Details\n7. which dog food is best and cheap in india / Dog or Puppy best ...\n8. Which dog food in India is the best?\n9. Royal Canin, Vetlife, and Vet Pro for Digestive Health",
+      "aiOverview": "Top vet-recommended dog food brands in India include Royal Canin, Hill's Science Diet/Prescription Diet, and Farmina (N&D/Vet Life) for their specialized, high-quality, and therapeutic formulations. Other top choices for balanced nutrition include Acana, Orijen (high-protein/grain-free), and Drools (affordable, local).\n\nHere are the top vet-recommended dog food brands in India:\n\nRoyal Canin: Widely recommended for its breed-specific and life-stage-specific diets, often favored for gastrointestinal and specific health needs.\nHill's Science Diet/Prescription Diet: Highly regarded by vets for clinical nutrition, specially formulated for weight management, sensitive stomachs, and therapeutic needs.\nFarmina (N&D and Vet Life): Popular for high-quality ingredients, offering both grain-free (N&D) and vet-prescribed diets (Vet Life).\nDrools/Drools Vet Pro: A top-tier, cost-effective Indian brand providing high-quality, easily accessible, and, with the Vet Pro line, specialized, veterinary-approved nutrition.\nAcana & Orijen: Premium, high-protein, and nutrient-rich options often recommended for dogs needing grain-free or biologically appropriate diets.\nArden Grange: Recommended for dogs with sensitivities, skin problems, or digestive issues, offering premium, gentle ingredients.\nHenlo: A highly recommended, top-quality, and locally produced, oven-baked food, often chosen for its natural ingredients.\n\nKey Considerations for Selection:\n\nHealth Conditions: Vets often prescribe specific diets like Farmina Vet Life or Hill's Prescription Diet for managing illnesses.\nAge and Breed: Puppy, Adult, Senior, and breed-specific formulas from brands like Royal Canin ensure appropriate nutritional intake.\nIngredients: For sensitive dogs, brands like Arden Grange or Acana are preferred for their premium, limited-ingredient, or hypoallergenic options.",
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Top 10 Dog Food Brands in India in 2025",
+          "url": "https://www.petkonnect.in/blogs/pet-food-treat/top-10-dog-food-brands-in-2025?srsltid=AfmBOoqgpt8ZgEuosfDiWHEDOJoB-3hSkPA4sRRUXYCjsHUyfjTEpw2g",
+          "snippet": "Top 10 Dog Food Brands in India in 2025 · 1. Royal Canin · 2. Pedigree · 3. Farmina N&D · 4. Drools · 5. Hill's Science Diet · 6. Acana · 7. Arden ..."
+        },
+        {
+          "position": 2,
+          "title": "Best Dog Food Brands in India – Price, Nutrition & ...",
+          "url": "https://www.olx.in/blog/expert-advice/best-dog-food-brands-in-india/",
+          "snippet": "Royal Canin is one of the most recommended dog food companies in India by veterinarians. Their formulas are breed-specific and also customized ..."
+        },
+        {
+          "position": 3,
+          "title": "Top Premium Pet Food Brands for a Healthier Pet",
+          "url": "https://royalpetmart.in/blogs/royal-pet-blogs/top-premium-pet-food-brands-for-a-healthier-pet",
+          "snippet": "Beyond my top five, other popular dog food brands I considered include Wellness, Blue Buffalo, Taste of the Wild, Merrick, and Nutro. They're ..."
+        },
+        {
+          "position": 4,
+          "title": "10 Must-Try Pet Food Brands for a Healthy Dog",
+          "url": "https://animeal.in/blogs/animeal-blogs/10-must-try-pet-food-brands-for-a-healthy-dog?srsltid=AfmBOooAeP_qV4T4MIrLeQjpBRaERnkh0Pd4KmJt9nNwDJSfjc5iiBx8",
+          "snippet": "Backed by decades of research. Royal Canin is known for its vet-recommended, research-driven formulations. Best Dry Dog Food Brand – Arden ..."
+        },
+        {
+          "position": 5,
+          "title": "Looking for Good Pet Food & Toys in India",
+          "url": "https://www.reddit.com/r/Pets/comments/1p1zlo0/looking_for_good_pet_food_toys_in_india_need/",
+          "snippet": "My lab, Pebble, was an extremely picky eater, so my vet suggested trying this brand. I've tried all the other big brands before - drools, purina ..."
+        },
+        {
+          "position": 6,
+          "title": "Top Dog Food Brands in India - All Details",
+          "url": "https://www.smilingpets.in/blogs/news/dog-food-brands-in-india",
+          "snippet": "Brands like Royal Canin, Pedigree, and Hill's Science Diet have established themselves as leaders in the market, offering scientifically formulated recipes that ..."
+        },
+        {
+          "position": 7,
+          "title": "which dog food is best and cheap in india / Dog or Puppy best ...",
+          "url": "https://www.youtube.com/watch?v=eW3dVs_wVkU",
+          "snippet": "Best offer dog products 1)Pedigree Adult Dry Dog Food, Chicken and Vegetables, 3kg Pack ... If You're an Indoor Dog Owner, THESE Mistakes Could Be ..."
+        },
+        {
+          "position": 8,
+          "title": "Which dog food in India is the best?",
+          "url": "https://www.quora.com/Which-dog-food-in-India-is-the-best",
+          "snippet": "I have seen premium international pet dog food Brands like Vetina-Calibra which are used by dogs the world over as the best for India Dogs. The ..."
+        },
+        {
+          "position": 9,
+          "title": "Royal Canin, Vetlife, and Vet Pro for Digestive Health",
+          "url": "https://www.petindiaonline.com/story-details.php?ref=299534423&srsltid=AfmBOor2Qbi_SB7O5IyfcBrYxyQf-YOwksk-WXBwTCwrk4Pv_3LQCyyq",
+          "snippet": "Some of the best GI dog foods are Royal canin, Vetlife, and Vet Pro. These brands offer complete nutrition, digestive support, and immune system enhancement."
+        }
+      ],
+      "sources": [
+        {
+          "index": 1,
+          "title": "Prescription Dog Food Online India | Vet-Prescribed & Medical Diets for ...",
+          "url": "https://supertails.com/collections/dog-prescription-diet#:~:text=Some%20of%20the%20leading%20vet,Drools%20Vet%20Pro%2C%20and%20Fortify."
+        },
+        {
+          "index": 2,
+          "title": "Buy Dog Food Online at Best Prices in India - Supertails",
+          "url": "https://supertails.com/collections/dog-food#:~:text=Which%20Dog%20Food%20in%20India,%2C%20breed%2C%20and%20health%20needs."
+        },
+        {
+          "index": 3,
+          "title": "Top 10 Vet-Recommended Dog Foods in India (2025 Edition) - Zigly",
+          "url": "https://zigly.com/blogs/all/vet-recommended-dog-foods-india#:~:text=FAQs-,1.,quality%20and%20breed%2Dspecific%20offerings."
+        },
+        {
+          "index": 4,
+          "title": "Top 10 Dog Food Brands in India in 2025 - PetKonnect",
+          "url": "https://www.petkonnect.in/blogs/pet-food-treat/top-10-dog-food-brands-in-2025#:~:text=Must%2DTry%20Product:%20Pedigree%20Adult,weight%20management%20and%20sensitive%20stomachs."
+        },
+        {
+          "index": 5,
+          "title": "Best Dog Food Brands in India | Keep Your Fur Baby Healthy",
+          "url": "https://www.mrnmrspet.com/blogs/top-8-best-dog-food-brands-in-india#:~:text=Arden%20Grange&text=It's%20a%20good%20choice%20for,due%20to%20premium%20/%20hypoallergenic%20ingredients."
+        },
+        {
+          "index": 6,
+          "title": "Top Dog Food Brands in India - All Details",
+          "url": "https://www.smilingpets.in/blogs/news/dog-food-brands-in-india#:~:text=Brands%20like%20Royal%20Canin%2C%20Pedigree,owners%20who%20prioritize%20natural%20nutrition."
+        },
+        {
+          "index": 7,
+          "title": "Here's What You Might Not Know About The Best Dog Food in India – Pawsindia",
+          "url": "https://pawsindia.com/blogs/news/heres-what-you-might-not-know-about-the-best-dog-food-in-india"
+        },
+        {
+          "index": 8,
+          "title": "Best Dog Food Brands in India - Supertails",
+          "url": "https://supertails.com/blogs/nutrition/popular-dog-food-brands-in-india"
+        },
+        {
+          "index": 9,
+          "title": "What are healthy and nutritious dog food options? - Facebook",
+          "url": "https://www.facebook.com/groups/petsittersindia/posts/8329885140403627/#:~:text=So%20we%20have%20a%20new,we%20don't%20get%20lost."
+        },
+        {
+          "index": 10,
+          "title": "Best Gastrointestinal Dog Food Brands: Royal Canin, Vetlife ...",
+          "url": "https://www.petindiaonline.com/story-details.php?ref=299534423#:~:text=Ideal%20Fiber%20Source:%20Fosters%20a,for%20dogs%20with%20gastrointestinal%20problems."
+        },
+        {
+          "index": 11,
+          "title": "Best Dog Food Brands in India - OLX",
+          "url": "https://www.olx.in/blog/expert-advice/best-dog-food-brands-in-india/"
+        },
+        {
+          "index": 12,
+          "title": "Best Dog Food Supplements In India - Supertails",
+          "url": "https://supertails.com/blogs/nutrition/best-dog-food-supplements-in-india#:~:text=Dogs%20and%20Cats-,Henlo%20Nutrition%20Food%20Topper%20for%20Dogs%20(All%20Life%20Stages),the%20perfect%20dog%20nutritional%20supplement."
+        },
+        {
+          "index": 13,
+          "title": "Top Premium Pet Food Brands for a Healthier Pet",
+          "url": "https://royalpetmart.in/blogs/royal-pet-blogs/top-premium-pet-food-brands-for-a-healthier-pet#:~:text=FAQs,Conclusion"
+        },
+        {
+          "index": 14,
+          "title": "Farmina Dog Food Review 2025",
+          "url": "https://wagwalking.com/product-guides/reviews/dog-food/farmina-dog-food#:~:text=VetLife%20is%20Farmina's%20prescription%2Donly%20dog%20food%20range,to%20treat%20specific%20health%20conditions%20and%20diseases."
+        }
+      ],
+      "timestamp": "2026-01-24T22:26:02.046Z",
+      "durationMs": 4695,
+      "success": true,
+      "responseSizeBytes": 2350
+    },
+    {
+      "queryIndex": 4,
+      "originalQuery": "Can you list a popular pet food brand with good meat content?",
+      "submittedQuery": "Can you list a popular pet food brand with good meat content in India?",
+      "response": "AI Overview:\nPopular pet food brands in India with high meat content include premium options like Orijen, Acana, and Farmina N&D, which are known for high-protein, biologically appropriate, or grain-free formulas. For more accessible, high-quality options, Canine Creek and Arden Grange are recommended.\n\nKey details on high-meat content brands:\n\nOrijen: Considered top-tier for biologically appropriate diets with high-quality, fresh ingredients.\nAcana: Offers 60-70% meat content, featuring grain-free, natural recipes.\nFarmina N&D: Widely recommended Italian brand in India known for natural, high-protein formulas.\nCanine Creek: Provides high protein content and is often used for, but not limited to, puppy development.\nRoyal Canin: A highly recommended, premium, and, widely available brand in India that focuses on breed-specific, high-quality protein.\n\nFor more budget-friendly, yet protein-focused options, Drools is a popular, India-based brand.\n\nOrganic Results:\n1. Best Dog Food Brands in India\n2. What are the healthiest dog food options available in India?\n3. Top 10 Dog Food Brands in India in 2025\n4. Why are Indian pet food brands priced on par with ...\n5. Which dog food in India is the best?\n6. 10 Best Dog Food Brands in India 2025\n7. 8 Best Dog Food Brands in India\n8. Finding the Purrfect Pet Food Shop in India\n9. Top Healthy Dog Food Brands in India for Urban Pet Parents\n10. Cat owners and vets of India, which cat food brands do you ...",
+      "aiOverview": "Popular pet food brands in India with high meat content include premium options like Orijen, Acana, and Farmina N&D, which are known for high-protein, biologically appropriate, or grain-free formulas. For more accessible, high-quality options, Canine Creek and Arden Grange are recommended.\n\nKey details on high-meat content brands:\n\nOrijen: Considered top-tier for biologically appropriate diets with high-quality, fresh ingredients.\nAcana: Offers 60-70% meat content, featuring grain-free, natural recipes.\nFarmina N&D: Widely recommended Italian brand in India known for natural, high-protein formulas.\nCanine Creek: Provides high protein content and is often used for, but not limited to, puppy development.\nRoyal Canin: A highly recommended, premium, and, widely available brand in India that focuses on breed-specific, high-quality protein.\n\nFor more budget-friendly, yet protein-focused options, Drools is a popular, India-based brand.",
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Best Dog Food Brands in India",
+          "url": "https://supertails.com/blogs/nutrition/popular-dog-food-brands-in-india?srsltid=AfmBOopTWgi7l2L4SzuuuI979fI5mGkmluGW5MMDveWBwnYz1z2izTFc",
+          "snippet": "Royal Canin is the no. 1 dog food brand in India. Royal Canin dog foods comes with real meat as the first ingredient, balanced levels of ..."
+        },
+        {
+          "position": 2,
+          "title": "What are the healthiest dog food options available in India?",
+          "url": "https://www.facebook.com/groups/Dogloversdayout/posts/1770906259612303/",
+          "snippet": "Premium brands to feed your pets - Arden Grange, Orijen & Acana Cart4, Essence & Wellness (Not available in India) Royal Canine and other cheap ..."
+        },
+        {
+          "position": 3,
+          "title": "Top 10 Dog Food Brands in India in 2025",
+          "url": "https://www.petkonnect.in/blogs/pet-food-treat/top-10-dog-food-brands-in-2025?srsltid=AfmBOoonZo6VCbnagx2gQs4_rjKwl4-RXyrQyW0Q7cWxczzvYtjqFB8H",
+          "snippet": "1. Royal Canin · 2. Pedigree · 3. Farmina N&D · 4. Drools · 5. Hill's Science Diet · 6. Acana · 7. Arden Grange · 8. Meat Up."
+        },
+        {
+          "position": 4,
+          "title": "Why are Indian pet food brands priced on par with ...",
+          "url": "https://www.reddit.com/r/IndianPets/comments/1mqav3i/why_are_indian_pet_food_brands_priced_on_par_with/",
+          "snippet": "I was going through Indian brands like Blep, Absolut pet etc. They are priced competitivly on par with Hills, Royal Canin, Purina pro plan ..."
+        },
+        {
+          "position": 5,
+          "title": "Which dog food in India is the best?",
+          "url": "https://www.quora.com/Which-dog-food-in-India-is-the-best",
+          "snippet": "You might hear a lot of people recommending Royal Canin, as it is the most common kibble in the market; arguably in the premium segment."
+        },
+        {
+          "position": 6,
+          "title": "10 Best Dog Food Brands in India 2025",
+          "url": "https://www.bajajgeneralinsurance.com/blog/pet-insurance-articles/best-dog-food-brands-in-india.html",
+          "snippet": "Discover the top 10 dog food brands in India for 2025. Compare Royal Canin, Pedigree, Hills Science Diet & more. Find the perfect nutrition ..."
+        },
+        {
+          "position": 7,
+          "title": "8 Best Dog Food Brands in India",
+          "url": "https://zigly.com/blogs/all/best-dog-food-brands-in-india?srsltid=AfmBOooAXU22rhDZSmuFzyPScOG7R23n5Z87tTT7huaVzoXoheHCLhv_",
+          "snippet": "Orijen: The Best Premium Brand for Quality Ingredients. 85% animal ingredients (chicken, turkey, fish), WholePrey inclusions, 39% protein. Why ..."
+        },
+        {
+          "position": 8,
+          "title": "Finding the Purrfect Pet Food Shop in India",
+          "url": "https://furrmeals.com/blogs/blogs/how-to-choose-the-best-pet-food-shop-for-your-pets-in-india?srsltid=AfmBOorhbJHWOL6B8VTLwPa7_cg-cCFX9UrtD1MGzLOMicHUBCv6szBb",
+          "snippet": "This guide will help you navigate the Indian pet food market and find the perfect place to nourish your beloved companion."
+        },
+        {
+          "position": 9,
+          "title": "Top Healthy Dog Food Brands in India for Urban Pet Parents",
+          "url": "https://www.goodnesspetfood.com/blogs/blog/top-healthy-dog-food-brands-in-india-for-urban-pet-parents?srsltid=AfmBOopU3rUXYILULo4nl38uTBRmOGHUAMtAyBcRzSBFZMtdtJ3azVTc",
+          "snippet": "This blog post will guide you through some of the best dog food options in India, focusing on high-quality, nutritious choices. Table of ..."
+        },
+        {
+          "position": 10,
+          "title": "Cat owners and vets of India, which cat food brands do you ...",
+          "url": "https://www.reddit.com/r/indiasocial/comments/1jgz2fr/cat_owners_and_vets_of_india_which_cat_food/",
+          "snippet": "Almost all major brands in India are manufactured by Drools. Some of them are Drools, Purepet, Let's Bite, Maxi, Meat Up, Grain Zero, Kitty Yums."
+        }
+      ],
+      "sources": [
+        {
+          "index": 1,
+          "title": "Best Dog Food Brands in India – Price, Nutrition & Comparison Guide",
+          "url": "https://www.olx.in/blog/expert-advice/best-dog-food-brands-in-india/"
+        },
+        {
+          "index": 2,
+          "title": "Top Dog Food Brands India 2025: Best 10 Picks",
+          "url": "https://www.petkonnect.in/blogs/pet-food-treat/top-10-dog-food-brands-in-2025"
+        },
+        {
+          "index": 3,
+          "title": "Best Dog Food Brands in India - Supertails",
+          "url": "https://supertails.com/blogs/nutrition/popular-dog-food-brands-in-india#:~:text=What's%20Inside?,1%20dog%20food%20in%20India?"
+        },
+        {
+          "index": 4,
+          "title": "8 Best Dog Food Brands in India - Zigly",
+          "url": "https://zigly.com/blogs/all/best-dog-food-brands-in-india"
+        },
+        {
+          "index": 5,
+          "title": "10 Best Dog Food Brands in India 2025 | Premium & Budget Options",
+          "url": "https://www.bajajgeneralinsurance.com/blog/pet-insurance-articles/best-dog-food-brands-in-india.html"
+        },
+        {
+          "index": 6,
+          "title": "Buy Dog Food Online at Best Prices in India - Supertails",
+          "url": "https://supertails.com/collections/dog-food#:~:text=Which%20Dog%20Food%20in%20India,%2C%20breed%2C%20and%20health%20needs."
+        },
+        {
+          "index": 7,
+          "title": "What are the high quality pet food or treat brands in India?",
+          "url": "https://www.quora.com/What-are-the-high-quality-pet-food-or-treat-brands-in-India#:~:text=Royal%20Canin%20dog%20foods%20are%20made%20with,that%20help%20to%20protect%20your%20dog's%20health."
+        },
+        {
+          "index": 8,
+          "title": "Top 10 Vet-Recommended Dog Foods in India (2025 Edition) - Zigly",
+          "url": "https://zigly.com/blogs/all/vet-recommended-dog-foods-india#:~:text=FAQs-,1.,quality%20and%20breed%2Dspecific%20offerings."
+        },
+        {
+          "index": 9,
+          "title": "Here's What You Might Not Know About The Best Dog Food in India – Pawsindia",
+          "url": "https://pawsindia.com/blogs/news/heres-what-you-might-not-know-about-the-best-dog-food-in-india"
+        }
+      ],
+      "timestamp": "2026-01-24T22:26:11.750Z",
+      "durationMs": 4123,
+      "success": true,
+      "responseSizeBytes": 1462
+    }
+  ],
+  "summary": {
+    "total": 5,
+    "successful": 5,
+    "failed": 0,
+    "avgDurationMs": 5523,
+    "medianDurationMs": 5980,
+    "p95DurationMs": 6662,
+    "failureRate": 0
+  },
+  "environment": {
+    "nodeVersion": "v22.19.0",
+    "platform": "darwin",
+    "benthamVersion": "0.0.1",
+    "timezone": "America/Boise"
+  },
+  "schemaVersion": "1.0"
+}

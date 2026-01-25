@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Visibility Dashboard - City of Boise</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      color: #fff;
+      min-height: 100vh;
+    }
+    .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+    header .subtitle { color: #8892b0; font-size: 1.1rem; }
+    .classification-badge {
+      display: inline-block;
+      background: linear-gradient(135deg, #059669 0%, #047857 100%);
+      color: white;
+      padding: 8px 20px;
+      border-radius: 20px;
+      font-weight: 600;
+      margin-top: 15px;
+    }
+    .timestamp { color: #5a6a8a; font-size: 0.9rem; margin-top: 10px; }
+
+    .nav-tabs {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin: 30px 0;
+      flex-wrap: wrap;
+    }
+    .nav-tab {
+      padding: 12px 24px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s;
+      color: #8892b0;
+    }
+    .nav-tab:hover { background: rgba(255,255,255,0.1); }
+    .nav-tab.active {
+      background: linear-gradient(135deg, #059669 0%, #047857 100%);
+      color: white;
+      border-color: transparent;
+    }
+
+    .section { display: none; }
+    .section.active { display: block; }
+
+    .score-hero {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 60px;
+      padding: 40px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 20px;
+      margin-bottom: 30px;
+    }
+    .main-score { text-align: center; }
+    .main-score .number {
+      font-size: 5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #ffa502 0%, #00d9a0 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 1;
+    }
+    .main-score .label { font-size: 1.2rem; color: #8892b0; margin-top: 10px; }
+    .main-score .verdict { font-size: 0.95rem; color: #ffa502; margin-top: 5px; }
+
+    .sub-scores { display: flex; flex-direction: column; gap: 15px; }
+    .sub-score { display: flex; align-items: center; gap: 15px; }
+    .sub-score .bar-container {
+      width: 200px;
+      height: 8px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .sub-score .bar { height: 100%; border-radius: 4px; }
+    .sub-score .bar.good { background: linear-gradient(90deg, #00ff88, #00d9a0); }
+    .sub-score .bar.warning { background: linear-gradient(90deg, #ffa502, #ff6b6b); }
+    .sub-score .bar.bad { background: linear-gradient(90deg, #ff6b6b, #ff4757); }
+    .sub-score .label { width: 180px; color: #8892b0; }
+    .sub-score .value { width: 50px; font-weight: 600; }
+
+    .card {
+      background: rgba(255,255,255,0.05);
+      border-radius: 15px;
+      padding: 25px;
+      margin-bottom: 20px;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+    .card h2 {
+      font-size: 1.4rem;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .notice-box {
+      background: rgba(5,150,105,0.15);
+      border: 1px solid rgba(16,185,129,0.3);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+    .notice-box h3 { color: #10b981; margin-bottom: 10px; }
+    .notice-box p { color: #b8c5d9; }
+
+    .foia-notice {
+      background: rgba(251,191,36,0.1);
+      border: 1px solid rgba(251,191,36,0.3);
+      border-radius: 8px;
+      padding: 15px;
+      margin: 20px 0;
+      font-size: 0.9rem;
+      color: #fbbf24;
+    }
+
+    /* Monitor Section */
+    .surface-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin: 20px 0;
+    }
+    .surface-card {
+      background: rgba(0,0,0,0.3);
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+    }
+    .surface-card .name { font-weight: 600; margin-bottom: 10px; }
+    .surface-card .score {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 5px;
+    }
+    .surface-card .queries { color: #8892b0; font-size: 0.85rem; }
+
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 12px;
+      margin: 20px 0;
+    }
+    .category-item {
+      background: rgba(0,0,0,0.2);
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+    }
+    .category-item .score { font-size: 1.5rem; font-weight: 700; }
+    .category-item .label { color: #8892b0; font-size: 0.8rem; margin-top: 5px; }
+
+    /* Prioritize Section */
+    .priority-card {
+      background: rgba(0,0,0,0.3);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 15px;
+      border-left: 4px solid #ff6b6b;
+    }
+    .priority-card.medium { border-left-color: #ffa502; }
+    .priority-card.low { border-left-color: #00d9a0; }
+    .priority-card h4 { margin-bottom: 10px; display: flex; align-items: center; gap: 10px; }
+    .priority-badge {
+      font-size: 0.7rem;
+      padding: 3px 10px;
+      border-radius: 10px;
+      text-transform: uppercase;
+    }
+    .priority-badge.high { background: rgba(255,107,107,0.3); color: #ff6b6b; }
+    .priority-badge.medium { background: rgba(255,165,2,0.3); color: #ffa502; }
+    .priority-badge.low { background: rgba(0,255,136,0.3); color: #00d9a0; }
+    .priority-card p { color: #b8c5d9; }
+
+    /* Act Section */
+    .action-card {
+      background: rgba(0,0,0,0.3);
+      border-radius: 12px;
+      padding: 25px;
+      margin-bottom: 25px;
+      border-left: 4px solid #10b981;
+    }
+    .action-card.high { border-left-color: #ff6b6b; }
+    .action-card.medium { border-left-color: #ffa502; }
+    .action-card h3 { margin-bottom: 15px; display: flex; align-items: center; gap: 10px; }
+    .problem-box {
+      background: rgba(255,107,107,0.15);
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 15px;
+      color: #ff6b6b;
+    }
+    .solution-box {
+      background: rgba(16,185,129,0.15);
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+    .solution-box h4 { color: #10b981; margin-bottom: 10px; }
+    .solution-box ul { margin-left: 20px; color: #b8c5d9; line-height: 1.8; }
+
+    .umbraco-box {
+      background: #0f172a;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 15px 0;
+      font-family: 'Monaco', 'Menlo', monospace;
+      font-size: 0.85rem;
+    }
+    .umbraco-box h5 {
+      color: #38bdf8;
+      margin-bottom: 15px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+    .umbraco-box ol { margin-left: 20px; line-height: 2.2; color: #e2e8f0; }
+    .umbraco-box code {
+      background: #334155;
+      padding: 2px 8px;
+      border-radius: 4px;
+      color: #fbbf24;
+    }
+    .json-block {
+      background: #1e293b;
+      padding: 15px;
+      border-radius: 8px;
+      margin: 15px 0;
+      overflow-x: auto;
+      white-space: pre;
+      color: #a5f3fc;
+      font-size: 0.8rem;
+    }
+
+    .impact-box {
+      background: rgba(255,255,255,0.05);
+      border-radius: 8px;
+      padding: 12px 15px;
+      margin-top: 15px;
+      color: #8892b0;
+    }
+    .impact-box strong { color: #10b981; }
+
+    /* Checklist */
+    .checklist { background: rgba(0,0,0,0.3); border-radius: 12px; padding: 20px; }
+    .checklist-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 12px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    .checklist-item:last-child { border-bottom: none; }
+    .checklist-item input[type="checkbox"] { width: 18px; height: 18px; margin-top: 3px; }
+    .checklist-item label { flex: 1; color: #e2e8f0; }
+    .checklist-item .dept {
+      font-size: 0.75rem;
+      color: #8892b0;
+      background: rgba(255,255,255,0.1);
+      padding: 3px 10px;
+      border-radius: 4px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      color: #5a6a8a;
+      font-size: 0.9rem;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .score-hero { flex-direction: column; gap: 30px; }
+      .nav-tabs { flex-direction: column; }
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AI Visibility Dashboard</h1>
+    <div class="subtitle">City of Boise, Idaho</div>
+    <div class="classification-badge">GOVERNMENT - PUBLIC RECORD</div>
+    <div class="timestamp">Analysis Date: January 25, 2026 | CMS: Umbraco | 84 Questions | 5 AI Surfaces | 403 Successful Responses</div>
+  </header>
+
+  <div class="container">
+    <nav class="nav-tabs">
+      <div class="nav-tab active" onclick="showSection('summary')">Summary</div>
+      <div class="nav-tab" onclick="showSection('monitor')">Monitor</div>
+      <div class="nav-tab" onclick="showSection('prioritize')">Prioritize</div>
+      <div class="nav-tab" onclick="showSection('act')">Act</div>
+      <div class="nav-tab" onclick="showSection('methodology')">Methodology</div>
+    </nav>
+
+    <!-- ============================================ -->
+    <!-- SUMMARY SECTION -->
+    <!-- ============================================ -->
+    <section id="summary" class="section active">
+      <div class="notice-box">
+        <h3>For City Staff</h3>
+        <p>This dashboard provides <strong>technical recommendations</strong> to improve how AI systems answer questions about City of Boise services. All recommendations focus on <strong>information access and accuracy</strong>, not policy advocacy. Instructions are written for Umbraco CMS users.</p>
+      </div>
+
+      <div class="score-hero">
+        <div class="main-score">
+          <div class="number">69</div>
+          <div class="label">AI Visibility Score</div>
+          <div class="verdict">Good Baseline - Improvement Needed</div>
+        </div>
+        <div class="sub-scores">
+          <div class="sub-score">
+            <span class="label">ChatGPT Web</span>
+            <div class="bar-container"><div class="bar good" style="width: 100%"></div></div>
+            <span class="value" style="color: #00ff88;">100%</span>
+          </div>
+          <div class="sub-score">
+            <span class="label">Google AI Overview</span>
+            <div class="bar-container"><div class="bar bad" style="width: 0%"></div></div>
+            <span class="value" style="color: #ff6b6b;">N/A</span>
+          </div>
+          <div class="sub-score">
+            <span class="label">Google Search</span>
+            <div class="bar-container"><div class="bar warning" style="width: 77%"></div></div>
+            <span class="value" style="color: #ffa502;">77%</span>
+          </div>
+          <div class="sub-score">
+            <span class="label">Bing Search</span>
+            <div class="bar-container"><div class="bar good" style="width: 89%"></div></div>
+            <span class="value" style="color: #00ff88;">89%</span>
+          </div>
+          <div class="sub-score">
+            <span class="label">Meta AI</span>
+            <div class="bar-container"><div class="bar good" style="width: 92%"></div></div>
+            <span class="value" style="color: #00ff88;">92%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="foia-notice">
+        <strong>Public Records Notice:</strong> This analysis is subject to Idaho Public Records Law (Idaho Code § 74-101 et seq.). All data and recommendations are factual and non-partisan.
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <h2>Key Finding</h2>
+          <p style="color: #b8c5d9; line-height: 1.7;">Boise has <strong style="color: #00ff88;">strong AI visibility</strong> with a 69% overall score. ChatGPT and Meta AI perform excellently (92-100%), while <strong style="color: #ff6b6b;">Transportation (65%)</strong> is the weakest category—likely due to ACHD/City confusion. Google AI Overviews don't trigger for most city-related queries.</p>
+        </div>
+        <div class="card">
+          <h2>Top Opportunity</h2>
+          <p style="color: #b8c5d9; line-height: 1.7;">Adding <strong style="color: #10b981;">Schema.org structured data</strong> to cityofboise.org will improve AI accuracy, especially for Transportation and Election queries. Clear disambiguation between City and ACHD responsibilities should be a priority.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- MONITOR SECTION -->
+    <!-- ============================================ -->
+    <section id="monitor" class="section">
+      <h2 style="font-size: 1.8rem; margin-bottom: 10px;">Monitor: AI Surface Performance</h2>
+      <p style="color: #8892b0; margin-bottom: 30px;">How well each AI platform answers questions about Boise city services.</p>
+
+      <div class="card">
+        <h2>Performance by AI Platform</h2>
+        <div class="surface-grid">
+          <div class="surface-card">
+            <div class="name">ChatGPT Web</div>
+            <div class="score" style="color: #00ff88;">100%</div>
+            <div class="queries">84 queries • Weight: 35%</div>
+          </div>
+          <div class="surface-card">
+            <div class="name">Google AI Overview</div>
+            <div class="score" style="color: #ff6b6b;">N/A</div>
+            <div class="queries">No AI Overviews triggered</div>
+          </div>
+          <div class="surface-card">
+            <div class="name">Google Search</div>
+            <div class="score" style="color: #ffa502;">77%</div>
+            <div class="queries">84 queries • Weight: 20%</div>
+          </div>
+          <div class="surface-card">
+            <div class="name">Bing Search</div>
+            <div class="score" style="color: #00ff88;">89%</div>
+            <div class="queries">82 queries • Weight: 10%</div>
+          </div>
+          <div class="surface-card">
+            <div class="name">Meta AI</div>
+            <div class="score" style="color: #00ff88;">92%</div>
+            <div class="queries">84 queries • Weight: 10%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Performance by Category</h2>
+        <div class="category-grid">
+          <div class="category-item">
+            <div class="score" style="color: #00ff88;">100%</div>
+            <div class="label">Quality of Life</div>
+          </div>
+          <div class="category-item">
+            <div class="score" style="color: #00ff88;">100%</div>
+            <div class="label">Events</div>
+          </div>
+          <div class="category-item">
+            <div class="score" style="color: #00ff88;">93%</div>
+            <div class="label">Challenges</div>
+          </div>
+          <div class="category-item">
+            <div class="score" style="color: #00ff88;">91%</div>
+            <div class="label">City Services</div>
+          </div>
+          <div class="category-item">
+            <div class="score" style="color: #00ff88;">90%</div>
+            <div class="label">Leadership</div>
+          </div>
+          <div class="category-item">
+            <div class="score" style="color: #ffa502;">87%</div>
+            <div class="label">Government</div>
+          </div>
+          <div class="category-item">
+            <div class="score" style="color: #ffa502;">82%</div>
+            <div class="label">Healthcare</div>
+          </div>
+          <div class="category-item">
+            <div class="score" style="color: #ffa502;">78%</div>
+            <div class="label">Elections</div>
+          </div>
+          <div class="category-item">
+            <div class="score" style="color: #ffa502;">74%</div>
+            <div class="label">Freshness</div>
+          </div>
+          <div class="category-item">
+            <div class="score" style="color: #ff6b6b;">65%</div>
+            <div class="label">Transportation</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- PRIORITIZE SECTION -->
+    <!-- ============================================ -->
+    <section id="prioritize" class="section">
+      <h2 style="font-size: 1.8rem; margin-bottom: 10px;">Prioritize: Key Issues & Opportunities</h2>
+      <p style="color: #8892b0; margin-bottom: 30px;">Critical gaps that affect how AI systems represent Boise to residents and visitors.</p>
+
+      <div class="priority-card">
+        <h4><span class="priority-badge high">Critical</span> ACHD vs City Confusion</h4>
+        <p>AI systems frequently tell residents to contact the City for road issues (potholes, signals, street repairs) when ACHD is actually responsible. This causes misdirected calls and resident frustration.</p>
+      </div>
+
+      <div class="priority-card">
+        <h4><span class="priority-badge high">Critical</span> Leadership Information Outdated</h4>
+        <p>Questions about City Council members, department heads, and leadership often return outdated or incorrect names. No single authoritative source exists on cityofboise.org.</p>
+      </div>
+
+      <div class="priority-card">
+        <h4><span class="priority-badge high">Critical</span> Service Information Scattered</h4>
+        <p>"How do I pay my utility bill?" and similar questions get incomplete answers because information is spread across multiple pages without structured data.</p>
+      </div>
+
+      <div class="priority-card medium">
+        <h4><span class="priority-badge medium">Important</span> Event Information Missing</h4>
+        <p>Questions about Boise events (Spirit of Boise, festivals, concerts) often return outdated dates or no information because events lack Schema.org markup.</p>
+      </div>
+
+      <div class="priority-card medium">
+        <h4><span class="priority-badge medium">Important</span> City Facts Inconsistent</h4>
+        <p>Basic questions (population, elevation, founding date) get varying answers because this information isn't consolidated on an official city page.</p>
+      </div>
+
+      <div class="priority-card low">
+        <h4><span class="priority-badge low">Opportunity</span> Government Structure Unclear</h4>
+        <p>Questions about Boise's form of government, council districts, and election dates could be answered more accurately with better structured content.</p>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- ACT SECTION -->
+    <!-- ============================================ -->
+    <section id="act" class="section">
+      <h2 style="font-size: 1.8rem; margin-bottom: 10px;">Act: Recommended Actions</h2>
+      <p style="color: #8892b0; margin-bottom: 30px;">Step-by-step Umbraco instructions for each improvement. All changes can be made by content editors.</p>
+
+      <!-- ACTION 1 -->
+      <div class="action-card high">
+        <h3><span class="priority-badge high">High Priority</span> Add GovernmentOrganization Schema to Homepage</h3>
+        <div class="problem-box">
+          <strong>Problem:</strong> AI systems inconsistently report basic city information like the mayor's name, address, and main phone number.
+        </div>
+        <div class="solution-box">
+          <h4>Solution</h4>
+          <ul>
+            <li>Add Schema.org GovernmentOrganization markup to homepage</li>
+            <li>Include official name, address, phone, mayor, and founding date</li>
+            <li>AI systems prioritize this authoritative structured data</li>
+          </ul>
+        </div>
+        <div class="umbraco-box">
+          <h5>Umbraco Instructions</h5>
+          <ol>
+            <li>Log into Umbraco at <code>cityofboise.org/umbraco</code></li>
+            <li>Navigate: <code>Content → Home</code></li>
+            <li>Click the <code>SEO</code> tab</li>
+            <li>Paste this JSON-LD into Schema Markup field:</li>
+          </ol>
+          <div class="json-block">{
+  "@context": "https://schema.org",
+  "@type": "GovernmentOrganization",
+  "name": "City of Boise",
+  "url": "https://www.cityofboise.org",
+  "description": "Official government of the City of Boise, Idaho",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "150 N Capitol Blvd",
+    "addressLocality": "Boise",
+    "addressRegion": "ID",
+    "postalCode": "83702"
+  },
+  "telephone": "+1-208-384-4422",
+  "foundingDate": "1863",
+  "member": {
+    "@type": "Person",
+    "name": "Lauren McLean",
+    "jobTitle": "Mayor"
+  }
+}</div>
+          <ol start="5">
+            <li>Click <code>Save and Publish</code></li>
+          </ol>
+        </div>
+        <div class="impact-box">
+          <strong>Expected Impact:</strong> Immediate improvement for "Who is the mayor?" and basic city contact queries.
+        </div>
+      </div>
+
+      <!-- ACTION 2 -->
+      <div class="action-card high">
+        <h3><span class="priority-badge high">High Priority</span> Create Service FAQ Pages with Schema</h3>
+        <div class="problem-box">
+          <strong>Problem:</strong> "How do I pay my utility bill?" gets incomplete answers because information is scattered.
+        </div>
+        <div class="solution-box">
+          <h4>Solution</h4>
+          <ul>
+            <li>Create dedicated FAQ pages for major services (Utilities, Permits, Trash)</li>
+            <li>Add Schema.org FAQPage markup</li>
+            <li>Use actual citizen questions as headers</li>
+          </ul>
+        </div>
+        <div class="umbraco-box">
+          <h5>Umbraco Instructions</h5>
+          <ol>
+            <li>Navigate: <code>Content → Services → Utilities</code></li>
+            <li>Click the <code>SEO</code> tab</li>
+            <li>Add FAQPage schema:</li>
+          </ol>
+          <div class="json-block">{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "How do I pay my utility bill in Boise?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Pay online at cityofboise.org/utilities, by phone at 208-384-3900, by mail, or in person at City Hall."
+    }
+  }]
+}</div>
+        </div>
+        <div class="impact-box">
+          <strong>Expected Impact:</strong> AI systems will quote FAQ answers directly. +10-15% improvement in service queries.
+        </div>
+      </div>
+
+      <!-- ACTION 3 -->
+      <div class="action-card high">
+        <h3><span class="priority-badge high">High Priority</span> Create ACHD Clarification Page</h3>
+        <div class="problem-box">
+          <strong>Problem:</strong> AI systems tell residents to contact City of Boise for roads, but ACHD handles all roads.
+        </div>
+        <div class="solution-box">
+          <h4>Solution</h4>
+          <ul>
+            <li>Create a "Roads & Streets" page explaining ACHD responsibility</li>
+            <li>Include ACHD contact info and common scenarios</li>
+            <li>Clarify what the City vs ACHD handles</li>
+          </ul>
+        </div>
+        <div class="umbraco-box">
+          <h5>Suggested Content</h5>
+          <div class="json-block">ROAD & STREET SERVICES
+
+The Ada County Highway District (ACHD) maintains all public
+roads in Ada County, including Boise.
+
+CONTACT ACHD FOR:
+• Potholes: achdidaho.org or 208-387-6100
+• Traffic signals
+• Street repairs
+• Road construction
+
+CITY OF BOISE HANDLES:
+• Sidewalk repairs (city property)
+• Street lighting (contact Idaho Power)
+• Traffic enforcement (Boise Police)</div>
+        </div>
+        <div class="impact-box">
+          <strong>Expected Impact:</strong> Eliminates misdirected calls. AI will correctly direct road inquiries to ACHD.
+        </div>
+      </div>
+
+      <!-- ACTION 4 -->
+      <div class="action-card medium">
+        <h3><span class="priority-badge medium">Medium Priority</span> Update Leadership Page with Schema</h3>
+        <div class="problem-box">
+          <strong>Problem:</strong> Questions about City Council and department heads return outdated information.
+        </div>
+        <div class="solution-box">
+          <h4>Solution</h4>
+          <ul>
+            <li>Create/update comprehensive Leadership page</li>
+            <li>Add Person schema for each official</li>
+            <li>Keep updated when leadership changes</li>
+          </ul>
+        </div>
+        <div class="umbraco-box">
+          <h5>Leadership Schema</h5>
+          <div class="json-block">{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "City of Boise Leadership",
+  "itemListElement": [{
+    "@type": "Person",
+    "name": "Lauren McLean",
+    "jobTitle": "Mayor",
+    "worksFor": {"@type": "GovernmentOrganization", "name": "City of Boise"}
+  }]
+}</div>
+        </div>
+      </div>
+
+      <!-- ACTION 5 -->
+      <div class="action-card medium">
+        <h3><span class="priority-badge medium">Medium Priority</span> Add Event Schema to Calendar</h3>
+        <div class="problem-box">
+          <strong>Problem:</strong> Questions about Boise events return outdated or no information.
+        </div>
+        <div class="solution-box">
+          <h4>Solution</h4>
+          <ul>
+            <li>Add Event schema to major annual events</li>
+            <li>Update dates when confirmed each year</li>
+          </ul>
+        </div>
+        <div class="umbraco-box">
+          <h5>Event Schema Example</h5>
+          <div class="json-block">{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Spirit of Boise Balloon Classic",
+  "startDate": "2026-08-28",
+  "endDate": "2026-08-31",
+  "location": {
+    "@type": "Place",
+    "name": "Ann Morrison Park",
+    "address": {"addressLocality": "Boise", "addressRegion": "ID"}
+  }
+}</div>
+        </div>
+      </div>
+
+      <h3 style="margin-top: 40px; margin-bottom: 20px;">Implementation Checklist</h3>
+      <div class="checklist">
+        <div class="checklist-item">
+          <input type="checkbox" id="c1">
+          <label for="c1">Add GovernmentOrganization schema to homepage</label>
+          <span class="dept">IT / Web</span>
+        </div>
+        <div class="checklist-item">
+          <input type="checkbox" id="c2">
+          <label for="c2">Create Utilities FAQ page with schema</label>
+          <span class="dept">Public Works</span>
+        </div>
+        <div class="checklist-item">
+          <input type="checkbox" id="c3">
+          <label for="c3">Create Permits FAQ page with schema</label>
+          <span class="dept">Planning</span>
+        </div>
+        <div class="checklist-item">
+          <input type="checkbox" id="c4">
+          <label for="c4">Create ACHD clarification page</label>
+          <span class="dept">Communications</span>
+        </div>
+        <div class="checklist-item">
+          <input type="checkbox" id="c5">
+          <label for="c5">Update Leadership page with schema</label>
+          <span class="dept">Mayor's Office</span>
+        </div>
+        <div class="checklist-item">
+          <input type="checkbox" id="c6">
+          <label for="c6">Add Event schema to major events</label>
+          <span class="dept">Parks & Rec</span>
+        </div>
+        <div class="checklist-item">
+          <input type="checkbox" id="c7">
+          <label for="c7">Verify with Google Rich Results Test</label>
+          <span class="dept">IT / Web</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- METHODOLOGY SECTION -->
+    <!-- ============================================ -->
+    <section id="methodology" class="section">
+      <h2 style="font-size: 1.8rem; margin-bottom: 10px;">Methodology</h2>
+      <p style="color: #8892b0; margin-bottom: 30px;">How this analysis was conducted.</p>
+
+      <div class="card">
+        <h2>Study Design</h2>
+        <ul style="color: #b8c5d9; line-height: 2; margin-left: 20px;">
+          <li><strong>84 questions</strong> across 10 categories (Tourism, Services, Government, etc.)</li>
+          <li><strong>5 AI platforms</strong> tested: ChatGPT, Google AI Overview, Google Search, Bing, Meta AI</li>
+          <li><strong>Location:</strong> Queries submitted from Boise, Idaho</li>
+          <li><strong>Date:</strong> January 24, 2026</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Question Categories</h2>
+        <ul style="color: #b8c5d9; line-height: 2; margin-left: 20px;">
+          <li><strong>Tourism (10):</strong> "What is there to do in Boise?" "Best attractions?"</li>
+          <li><strong>Quality of Life (10):</strong> "Is Boise a good place to live?" "Cost of living?"</li>
+          <li><strong>Government (10):</strong> "How do I contact City Hall?" "City Council meetings?"</li>
+          <li><strong>City Services (20):</strong> "How do I pay my water bill?" "Report a pothole?"</li>
+          <li><strong>Leadership (5):</strong> "Who is the mayor?" "City Council members?"</li>
+          <li><strong>Transportation (5):</strong> "What is ACHD?" "Highways through Boise?"</li>
+          <li><strong>Healthcare (5):</strong> "Hospitals in Boise?" "Urgent care clinics?"</li>
+          <li><strong>Elections (3):</strong> "Next mayoral election?" "How to run for council?"</li>
+          <li><strong>Events (4):</strong> "Major festivals?" "Spirit of Boise?"</li>
+          <li><strong>Freshness (8):</strong> "Current mayor in 2025?" "Population in 2025?"</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>CMS Detection</h2>
+        <p style="color: #b8c5d9; line-height: 1.8;">The City of Boise website (cityofboise.org) uses <strong style="color: #10b981;">Umbraco CMS</strong>, an open-source .NET-based content management system. This was detected via API endpoints (<code>/umbraco/api/</code>) in the website source. All technical recommendations in this report include Umbraco-specific instructions.</p>
+      </div>
+
+      <div class="card">
+        <h2>Schema.org Resources</h2>
+        <ul style="color: #b8c5d9; line-height: 2; margin-left: 20px;">
+          <li><a href="https://umbraco.com/blog/how-to-implement-schema-markup-in-umbraco/" target="_blank" style="color: #38bdf8;">Umbraco Schema Markup Guide</a></li>
+          <li><a href="https://schema.org/GovernmentOrganization" target="_blank" style="color: #38bdf8;">Schema.org: GovernmentOrganization</a></li>
+          <li><a href="https://schema.org/FAQPage" target="_blank" style="color: #38bdf8;">Schema.org: FAQPage</a></li>
+          <li><a href="https://search.google.com/test/rich-results" target="_blank" style="color: #38bdf8;">Google Rich Results Test</a></li>
+        </ul>
+      </div>
+
+      <div class="foia-notice">
+        <strong>Public Records:</strong> This analysis is subject to Idaho Public Records Law. All queries, responses, and scoring methodology are available upon request. Contact: [City Clerk Office]
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>City of Boise AI Visibility Dashboard</p>
+    <p style="margin-top: 10px; opacity: 0.7;">Generated by Bentham AI Visibility Analysis | January 2026</p>
+  </footer>
+
+  <script>
+    function showSection(sectionId) {
+      document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+      document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+      document.getElementById(sectionId).classList.add('active');
+      event.target.classList.add('active');
+    }
+  </script>
+</body>
+</html>

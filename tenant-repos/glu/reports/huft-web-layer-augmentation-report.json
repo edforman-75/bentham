@@ -1,0 +1,253 @@
+{
+  "generatedAt": "2026-01-19T04:08:16.357Z",
+  "studyName": "HUFT Pet Products Web Layer Augmentation Study",
+  "purpose": "Analyze how API responses are augmented through web surfaces to help brands optimize AI visibility",
+  "dataSummary": {
+    "openaiApi": {
+      "total": 100,
+      "successful": 100
+    },
+    "chatgptWeb": {
+      "total": 100,
+      "successful": 98
+    },
+    "googleAiOverviews": {
+      "total": 100,
+      "successful": 99,
+      "aiOverviewsFound": 97
+    },
+    "geminiApi": {
+      "total": 100,
+      "successful": 100
+    }
+  },
+  "openaiWebLayerAnalysis": {
+    "description": "How ChatGPT Web augments OpenAI API responses",
+    "brandsAddedByWeb": {
+      "Amazon": 84,
+      "Supertails": 64,
+      "Heads Up For Tails": 56,
+      "HUFT": 27,
+      "Drools": 20,
+      "Pedigree": 20,
+      "Farmina": 20,
+      "Zigly": 16,
+      "Chewy": 15,
+      "Dogsee": 13,
+      "Chip Chops": 11,
+      "Purina": 9,
+      "Orijen": 6,
+      "Kennel Kitchen": 5,
+      "Royal Canin": 4,
+      "Iams": 3,
+      "Goofy Tails": 3,
+      "Wellness": 2,
+      "Acana": 2,
+      "Hills": 2
+    },
+    "brandsRemovedByWeb": {
+      "Blue Buffalo": 46,
+      "Wellness": 34,
+      "Hill's": 17,
+      "Chewy": 16,
+      "Zuke's": 14,
+      "Canidae": 10,
+      "Purina": 9,
+      "Petco": 8,
+      "PetSmart": 7,
+      "Greenies": 6,
+      "Taste of the Wild": 6,
+      "Iams": 4,
+      "Orijen": 4,
+      "Drools": 4,
+      "Acana": 3,
+      "Royal Canin": 3,
+      "Wiggles": 2,
+      "Whiskas": 2,
+      "Eukanuba": 1,
+      "HUFT": 1
+    },
+    "formatChanges": {
+      "emojis": 98,
+      "lists": 34,
+      "links": 0,
+      "longer": 92,
+      "shorter": 0
+    },
+    "examples": [
+      {
+        "query": "Which are the best budget dog food brands online?",
+        "apiResponse": "When looking for budget-friendly dog food online, it's essential to ensure that the options still provide good nutrition for your pet. Some brands are known for delivering quality at a lower price point. Here are a few well-regarded budget dog food brands:\n\n1. **Kirkland Signature** - Available at Costco and online, this brand offers a range of options known for their decent ingredient quality and affordability.\n\n2. **Purina Dog Chow** - A widely available and affordable option that provides bal...",
+        "webResponse": "Here are some good budget-friendly dog food options you can buy online — focused on brands that balance decent nutrition with affordable pricing, especially in the Indian market where many are available. \nJust Bark\n+1\n\nPedigree Chicken Vegetables Adult Dog Dry Food\n₹100\n•\nHeads Up For Tails + others\nPurepet Chicken & Vegetable Adult Dog Dry Food\n₹189.05\n•\nbigbasket.com + others\nAvant Furst Chicken and Vegetable Adult Dog Dry Food\n₹92\n•\nSupertails + others\nSara's Wholesome Classic Chicken and Bro...",
+        "difference": "API brands: Pedigree, Purina, Iams, Web brands: Pedigree, Drools, Heads Up For Tails, Kennel Kitchen, Supertails, Amazon"
+      },
+      {
+        "query": "Can you suggest the best treat brands for dogs online?",
+        "apiResponse": "Certainly! When looking for the best treat brands for dogs online, consider the following popular and highly rated options, which are generally well-regarded for their quality and taste:\n\n1. **Blue Buffalo Blue Bits** - Made with real meat and wholesome ingredients, these soft-moist training treats are perfect for rewarding your dog.\n\n2. **Zuke’s Mini Naturals** - These treats are small and low-calorie, making them great for training. They come in a variety of flavors, like chicken and peanut bu...",
+        "webResponse": "Here are some of the best dog treat brands you can easily buy online — from everyday rewards and training treats to healthier options your pup will love:\n\nChip Chops Lamb Cubes Dog Treats\n₹175.66\n•\nHeads Up For Tails + others\nHimalaya Chicken Healthy Adult Dog Treats 400g\n₹189\n•\nAmazon.in + others\nPedigree Biscrok Biscuits with Milk & Chicken\n₹292\n•\nBlinkit + others\nPurepet Milk Flavour Real Chicken Biscuit Dog Treats\n₹171\n•\nAmazon.in + others\nSkylish Healthy Chicken Boneless Chews for Dogs\n₹349...",
+        "difference": "API brands: Blue Buffalo, Wellness, Greenies, Chewy, Web brands: Pedigree, Heads Up For Tails, HUFT, Dogsee, Chip Chops, Supertails, Amazon"
+      },
+      {
+        "query": "Which are the best dog food brands with high reviews?",
+        "apiResponse": "When it comes to selecting high-quality dog food brands, it's important to consider factors such as ingredient quality, nutritional balance, and company reputation. Here are some dog food brands that consistently receive high reviews and are generally well-regarded:\n\n1. **Orijen**: Known for its biologically appropriate pet food, Orijen uses a high percentage of fresh, regional ingredients with a focus on meat content.\n\n2. **Acana**: A sister brand to Orijen, Acana offers various formulas that e...",
+        "webResponse": "Here are some of the top-rated dog food brands with high reviews that are popular and well-liked online — covering both premium and everyday options: \nPetfoodIndustry\n+1\n\nRoyal Canin Maxi Adult Dry Dog Food\n₹3,053.60\n•\nHeads Up For Tails + others\nOrijen Original Dog Dry Food\n₹9,999\n•\nZepto + others\nChappi Adult Chicken & Rice Dry Dog Food\n₹1,046\n•\nAmazon.in + others\nDrools Adult Chicken & Egg Dry Dog Food\n₹852\n•\nAmazon.in + others\nDrools Adult Dry Dog Food Optimum Performance\n₹1,282\n•\nBlinkit + ...",
+        "difference": "API brands: Royal Canin, Orijen, Acana, Hill's, Blue Buffalo, Wellness, Taste of the Wild, Canidae, Web brands: Royal Canin, Drools, Farmina, Orijen, Acana, Purina, Taste of the Wild, Heads Up For Tails, Supertails, Amazon, Zigly"
+      },
+      {
+        "query": "Which are the best dog food brands recommended by vets?",
+        "apiResponse": "When looking for dog food brands recommended by veterinarians, it's essential to consider factors such as nutritional balance, ingredient quality, and the specific needs of your dog. While individual preferences and needs can vary, several brands are commonly recommended by vets:\n\n1. **Hill's Science Diet**: Known for its focus on life stage, size, and special-needs formulas, Hill's Science Diet is often recommended by veterinarians for its balanced nutrition and research-backed formulations.\n\n2...",
+        "webResponse": "Here are some of the top dog food brands commonly recommended by veterinarians because they provide balanced, complete nutrition and are widely respected in the vet community: \nPetcare Partners\n+2\nPetMD\n+2\n\n🩺 Vet-Recommended Top Dog Food Brands\nOrijen Original Dog Dry Food\n₹7,000\n•\nAmazon.in + others\nRoyal Canin Medium Adult Dog Dry Food\n₹862.40\n•\nHeads Up For Tails + others\nPedigree Chicken Vegetables Adult Dog Dry Food\n₹665\n•\nZepto + others\nChappi Adult Chicken & Rice Dry Dog Food\n₹930\n•\nbigb...",
+        "difference": "API brands: Royal Canin, Hill's, Purina, Iams, Eukanuba, Blue Buffalo, Web brands: Pedigree, Royal Canin, Drools, Orijen, Purina, Iams, Wellness, Heads Up For Tails, Amazon"
+      },
+      {
+        "query": "Can you list some popular pet food brands with good meat content?",
+        "apiResponse": "Certainly! When evaluating pet food brands, especially for dogs and cats, it's important to look for those that prioritize high-quality meat as a primary ingredient. Here are some popular brands known for their good meat content:\n\n1. **Orijen** - Known for its biologically appropriate philosophy, Orijen uses high inclusions of fresh, regional meats.\n\n2. **Acana** - Similar to Orijen, Acana offers a good amount of meat-based ingredients and fresh, regional sourcing.\n\n3. **Blue Buffalo Wilderness*...",
+        "webResponse": "Here are some popular dog food brands with good meat content — meaning they use real meat as primary protein sources or high-protein formulations that help support muscle, energy, and overall health. \nZigly\n+1\n\nOrijen Original Dog Dry Food\n₹7,249\n•\nHeads Up For Tails + others\nOrijen Small Breed Dog Dry Food\n₹3,200\n•\nAmazon.in + others\nPedigree Adult Dry Dog Food Meat & Rice\n₹1,984\n•\nSupertails + others\nHimalaya Meat & Rice Healthy Pet Adult Dog Dry Food\n₹893\n•\nFlipkart + others\nFabled Eager to M...",
+        "difference": "API brands: Orijen, Acana, Blue Buffalo, Wellness, Taste of the Wild, Canidae, Web brands: Pedigree, Royal Canin, Drools, Farmina, Orijen, Acana, Purina, Heads Up For Tails, Supertails, Amazon, Zigly"
+      }
+    ]
+  },
+  "googleWebLayerAnalysis": {
+    "description": "How Google AI Overviews augment Gemini API responses",
+    "brandsAddedByWeb": {
+      "Pedigree": 1,
+      "Drools": 1
+    },
+    "brandsRemovedByWeb": {
+      "Blue Buffalo": 47,
+      "Chewy": 44,
+      "Amazon": 41,
+      "Wellness": 40,
+      "Purina": 38,
+      "Hill's": 28,
+      "Petco": 26,
+      "PetSmart": 25,
+      "Royal Canin": 23,
+      "Zuke's": 20,
+      "Orijen": 17,
+      "Acana": 13,
+      "Greenies": 11,
+      "Taste of the Wild": 9,
+      "Pedigree": 8,
+      "Heads Up For Tails": 7,
+      "Canidae": 6,
+      "Drools": 6,
+      "Iams": 5,
+      "HUFT": 4
+    },
+    "formatChanges": {
+      "emojis": 0,
+      "lists": 0,
+      "links": 0,
+      "longer": 0,
+      "shorter": 97
+    },
+    "examples": [
+      {
+        "query": "Which are the best budget dog food brands online?",
+        "apiResponse": "Finding the \"best\" budget dog food brand is tricky because \"best\" depends on your dog's individual needs, age, breed, activity level, and any health concerns.  However, some online brands consistently rank well in terms of value (price per serving) and quality of ingredients for budget-conscious dog owners.\n\nHere's a breakdown of some of the top contenders, and what to consider when choosing:\n\n**Key Considerations Before Choosing:**\n\n*   **Ingredients:** Look for real meat (chicken, beef, lamb, ...",
+        "webResponse": "What is the best but affordable dog food?\nWhat is the best online dog food brand?\nWhich is the No 1 dog food in India?\nIs it cheaper to buy dog food online?",
+        "difference": "API brands: Pedigree, Purina, Iams, Amazon, Chewy, Web brands: none"
+      },
+      {
+        "query": "Which are the best dog food brands with high reviews?",
+        "apiResponse": "Okay, let's break down some of the best dog food brands with consistently high reviews. It's important to remember that \"best\" is subjective and depends on your dog's individual needs (age, breed, activity level, health conditions, etc.).  **Always consult with your veterinarian before making significant changes to your dog's diet.**\n\nHere's a list of brands often praised, categorized for clarity:\n\n**I. Generally Highly-Rated & Popular Brands (Good Starting Points):**\n\n*   **Purina Pro Plan:** T...",
+        "webResponse": "What is the highest rated dog food brand?\nWhich is the No 1 dog food in India?\nWhat is the #1 dog food in the world?\nWhat are the top 10 healthiest foods for dogs?",
+        "difference": "API brands: Royal Canin, Orijen, Acana, Hill's, Purina, Blue Buffalo, Wellness, Taste of the Wild, Amazon, Petco, PetSmart, Web brands: none"
+      },
+      {
+        "query": "Which are the best dog food brands recommended by vets?",
+        "apiResponse": "Veterinarian recommendations for dog food brands often center around a few key factors: quality ingredients, scientific backing, rigorous testing, and consistency in formulation.  It's important to remember that *individual* dog needs vary based on breed, age, activity level, and health conditions, so the \"best\" food is always the one that works best for *your* dog.\n\nHowever, here are some of the brands most frequently recommended by veterinarians, and why:\n\n**Key Brands Frequently Recommended &...",
+        "webResponse": "What is the highest rated dog food by vets?\nWhat food brands do vets recommend?\nWhat dog food is vet-recommended in India?\nWhat do vets recommend to feed your dog?",
+        "difference": "API brands: Royal Canin, Hill's, Purina, Iams, Web brands: none"
+      },
+      {
+        "query": "Can you list some popular pet food brands with good meat content?",
+        "apiResponse": "Okay, listing pet food brands with \"good meat content\" is tricky because \"good\" is subjective and depends on what you consider ideal.  Generally, we're looking for brands that:\n\n*   **List named meat sources as primary ingredients:** Avoid generic terms like \"meat by-products\" or \"animal fat.\"  Look for things like \"Chicken,\" \"Beef,\" \"Salmon,\" \"Lamb,\" etc. as the first few ingredients.\n*   **Have a decent protein percentage:**  Cats generally need higher protein than dogs.\n*   **Consider the ove...",
+        "webResponse": "What is the most popular brand of pet food?\nWhich is the best pet food brand?\nWhat are the top 5 brands of dog food?\nWhat is the best meat food for dogs?",
+        "difference": "API brands: Royal Canin, Orijen, Acana, Hill's, Purina, Blue Buffalo, Taste of the Wild, Canidae, Web brands: none"
+      },
+      {
+        "query": "Which brands offer gluten-free dog treats my dog will enjoy?",
+        "apiResponse": "Okay, finding gluten-free treats your dog will love can be a bit of a trial and error process, as every dog has their own preferences!  Here's a breakdown of popular brands, ingredients to look for, and some tips to help you find the perfect treat:\n\n**Popular Brands with Gluten-Free Options:**\n\n*   **Wellness Pet Food:**\n    *   **Specifically Look For:** Their \"WellBites\" and \"Grain-Free\" lines.  They have soft treats and jerky treats that are often gluten-free.\n    *   **What Makes Them Good:*...",
+        "webResponse": "Which dog treats are gluten-free?\nWhat treats do dogs enjoy the most?\nWhat's in dog treats that makes dogs like them?\nIs parle g biscuit ok for dogs?",
+        "difference": "API brands: Orijen, Acana, Blue Buffalo, Wellness, Zuke's, Chewy, Web brands: none"
+      }
+    ]
+  },
+  "brandVisibility": {
+    "openaiApi": {
+      "Blue Buffalo": 50,
+      "Wellness": 40,
+      "Royal Canin": 21,
+      "Purina": 20,
+      "Hill's": 20,
+      "Chewy": 19,
+      "Zuke's": 14,
+      "Orijen": 11,
+      "Amazon": 11,
+      "Canidae": 10,
+      "Taste of the Wild": 8,
+      "Drools": 8,
+      "Petco": 8,
+      "Pedigree": 7,
+      "Greenies": 7
+    },
+    "chatgptWeb": {
+      "Supertails": 128,
+      "Amazon": 95,
+      "Heads Up For Tails": 62,
+      "HUFT": 29,
+      "Pedigree": 27,
+      "Drools": 24,
+      "Royal Canin": 22,
+      "Farmina": 21,
+      "Purina": 20,
+      "Chewy": 18,
+      "Zigly": 16,
+      "Dogsee": 13,
+      "Orijen": 13,
+      "Chip Chops": 11,
+      "Wellness": 8
+    },
+    "googleAiOverviews": {
+      "Royal Canin": 2,
+      "Whiskas": 1,
+      "Pedigree": 1,
+      "Drools": 1,
+      "Chewy": 1
+    },
+    "geminiApi": {
+      "Chewy": 48,
+      "Blue Buffalo": 48,
+      "Amazon": 44,
+      "Wellness": 41,
+      "Purina": 38,
+      "Hill's": 28,
+      "Petco": 27,
+      "PetSmart": 26,
+      "Royal Canin": 25,
+      "Zuke's": 21,
+      "Orijen": 17,
+      "Acana": 13,
+      "Greenies": 12,
+      "Taste of the Wild": 9,
+      "Pedigree": 8
+    }
+  },
+  "keyInsights": [
+    "ChatGPT Web adds \"Amazon\" 84 more times than the raw OpenAI API response",
+    "ChatGPT Web adds emojis in 98% of responses (API rarely uses emojis)",
+    "Google AI Overviews prominently feature \"Pedigree\" 1 more times than Gemini API alone",
+    "Google shows AI Overviews for 97% of pet product queries from India",
+    "Different brands lead on different platforms: \"Supertails\" on ChatGPT vs \"Royal Canin\" on Google"
+  ],
+  "recommendations": [
+    "Ensure brand is mentioned in structured data and schema markup for Google AI Overview visibility",
+    "Create content that directly answers common pet product questions in the format AI models prefer",
+    "Focus on being cited in authoritative sources that AI models reference",
+    "Use clear, factual claims that AI can confidently attribute to your brand",
+    "Optimize for both API-level visibility (training data) and web-layer visibility (citations/links)",
+    "Monitor brand mentions across both ChatGPT and Google AI Overviews as they differ"
+  ]
+}

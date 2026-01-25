@@ -1,0 +1,113 @@
+{
+  "results": [
+    {
+      "query": "Which are the best budget dog food brands online?",
+      "queryIndex": 0,
+      "surface": "google-search-india-bangalore",
+      "success": true,
+      "aiOverview": "What is the best but affordable dog food?\nWhat is the best online dog food brand?\nWhich is the No 1 dog food in India?\nIs it cheaper to buy dog food online?",
+      "organicResults": [],
+      "response": "What is the best but affordable dog food?\nWhat is the best online dog food brand?\nWhich is the No 1 dog food in India?\nIs it cheaper to buy dog food online?",
+      "timestamp": "2026-01-19T02:09:23.029Z",
+      "responseTimeMs": 13060
+    },
+    {
+      "query": "Can you suggest the best treat brands for dogs online?",
+      "queryIndex": 1,
+      "surface": "google-search-india-bangalore",
+      "success": false,
+      "error": "page.evaluate: Execution context was destroyed, most likely because of a navigation",
+      "timestamp": "2026-01-19T02:10:03.552Z",
+      "responseTimeMs": 20521
+    },
+    {
+      "query": "Which are the best dog food brands with high reviews?",
+      "queryIndex": 2,
+      "surface": "google-search-india-bangalore",
+      "success": true,
+      "aiOverview": "What is the highest rated dog food brand?\nWhich is the No 1 dog food in India?\nWhat is the #1 dog food in the world?\nWhat are the top 10 healthiest foods for dogs?",
+      "organicResults": [],
+      "response": "What is the highest rated dog food brand?\nWhich is the No 1 dog food in India?\nWhat is the #1 dog food in the world?\nWhat are the top 10 healthiest foods for dogs?",
+      "timestamp": "2026-01-19T02:10:18.369Z",
+      "responseTimeMs": 14817
+    },
+    {
+      "query": "Which are the best dog food brands recommended by vets?",
+      "queryIndex": 3,
+      "surface": "google-search-india-bangalore",
+      "success": true,
+      "aiOverview": "What is the highest rated dog food by vets?\nWhat food brands do vets recommend?\nWhat dog food is vet-recommended in India?\nWhat do vets recommend to feed your dog?",
+      "organicResults": [],
+      "response": "What is the highest rated dog food by vets?\nWhat food brands do vets recommend?\nWhat dog food is vet-recommended in India?\nWhat do vets recommend to feed your dog?",
+      "timestamp": "2026-01-19T02:10:46.869Z",
+      "responseTimeMs": 8500
+    },
+    {
+      "query": "Can you list some popular pet food brands with good meat content?",
+      "queryIndex": 4,
+      "surface": "google-search-india-bangalore",
+      "success": true,
+      "aiOverview": "What is the most popular brand of pet food?\nWhich is the best pet food brand?\nWhat are the top 5 brands of dog food?\nWhat is the best meat food for dogs?",
+      "organicResults": [],
+      "response": "What is the most popular brand of pet food?\nWhich is the best pet food brand?\nWhat are the top 5 brands of dog food?\nWhat is the best meat food for dogs?",
+      "timestamp": "2026-01-19T02:11:15.332Z",
+      "responseTimeMs": 8460
+    },
+    {
+      "query": "Which brands offer gluten-free dog treats my dog will enjoy?",
+      "queryIndex": 5,
+      "surface": "google-search-india-bangalore",
+      "success": true,
+      "aiOverview": "Which dog treats are gluten-free?\nWhat treats do dogs enjoy the most?\nWhat's in dog treats that makes dogs like them?\nIs parle g biscuit ok for dogs?",
+      "organicResults": [],
+      "response": "Which dog treats are gluten-free?\nWhat treats do dogs enjoy the most?\nWhat's in dog treats that makes dogs like them?\nIs parle g biscuit ok for dogs?",
+      "timestamp": "2026-01-19T02:11:43.872Z",
+      "responseTimeMs": 8539
+    },
+    {
+      "query": "Can you suggest the best dog biscuit brands for dogs with sensitive stomachs?",
+      "queryIndex": 6,
+      "surface": "google-search-india-bangalore",
+      "success": true,
+      "aiOverview": "What dog treats are good for dogs with sensitive stomachs?\nWhat's the best dry dog food for sensitive stomachs?\nIs parle g biscuit ok for dogs?\nWhat do vets recommend for dogs with sensitive stomachs?",
+      "organicResults": [],
+      "response": "What dog treats are good for dogs with sensitive stomachs?\nWhat's the best dry dog food for sensitive stomachs?\nIs parle g biscuit ok for dogs?\nWhat do vets recommend for dogs with sensitive stomachs?",
+      "timestamp": "2026-01-19T02:12:12.389Z",
+      "responseTimeMs": 8514
+    },
+    {
+      "query": "Which are the top healthy vegetarian dog biscuit brands available online?",
+      "queryIndex": 7,
+      "surface": "google-search-india-bangalore",
+      "success": true,
+      "aiOverview": "Which biscuits are healthy for dogs?\nWhat is the best online dog food brand?\nWhich vegetarian food is good for dogs?\nWhat are the top 5 brands of dog food?",
+      "organicResults": [],
+      "response": "Which biscuits are healthy for dogs?\nWhat is the best online dog food brand?\nWhich vegetarian food is good for dogs?\nWhat are the top 5 brands of dog food?",
+      "timestamp": "2026-01-19T02:12:40.884Z",
+      "responseTimeMs": 8495
+    },
+    {
+      "query": "What are the best-tasting treat brands for dogs under ₹1000?",
+      "queryIndex": 8,
+      "surface": "google-search-india-bangalore",
+      "success": true,
+      "aiOverview": "What is the tastiest treat for a dog?\nWhat are some tasty treats for dogs?\nWhat's the best treat brand for dogs?\nWhat is a tasty treat for dogs?",
+      "organicResults": [],
+      "response": "What is the tastiest treat for a dog?\nWhat are some tasty treats for dogs?\nWhat's the best treat brand for dogs?\nWhat is a tasty treat for dogs?",
+      "timestamp": "2026-01-19T02:13:09.410Z",
+      "responseTimeMs": 8525
+    },
+    {
+      "query": "Which brands offer low-calorie chicken dog treats?",
+      "queryIndex": 9,
+      "surface": "google-search-india-bangalore",
+      "success": true,
+      "aiOverview": "What are the healthiest low calorie treats for dogs?\nWhat are good treats for dogs that need to lose weight?\nIs chicken high in calories for dogs?\nAre dog treats high in calories?",
+      "organicResults": [],
+      "response": "What are the healthiest low calorie treats for dogs?\nWhat are good treats for dogs that need to lose weight?\nIs chicken high in calories for dogs?\nAre dog treats high in calories?",
+      "timestamp": "2026-01-19T02:13:37.925Z",
+      "responseTimeMs": 8515
+    }
+  ],
+  "lastQuery": 9
+}

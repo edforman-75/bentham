@@ -1,0 +1,450 @@
+{
+  "analyses": [
+    {
+      "queryText": "What's the best dog food for your dog if they are picky?",
+      "queryIndex": 0,
+      "openaiLength": 1156,
+      "webLength": 1904,
+      "lengthRatio": 1.6470588235294117,
+      "hasEmojis": true,
+      "emojiCount": 3,
+      "emojisFound": [
+        "🥇",
+        "🍲",
+        "🧠"
+      ],
+      "hasShoppingResults": false,
+      "shoppingProducts": [],
+      "pricesFound": [],
+      "hasCitations": false,
+      "citationsFound": [],
+      "hasFollowUpPrompt": true,
+      "followUpText": "If you share your dog’s age, size, and any dietary sensitivities (e.",
+      "hasBrowsingIndicators": false,
+      "browsingIndicators": [],
+      "hasStructuredHeaders": true,
+      "headersFound": [
+        "🥇 Top Picks for Picky Eaters",
+        "🍲 Tips to Get Picky Dogs to Eat",
+        "🧠 Quick Guidance"
+      ],
+      "openaiOnlyBrands": [
+        "Royal Canin",
+        "Hill's",
+        "Wellness"
+      ],
+      "webOnlyBrands": [
+        "Taste of the Wild",
+        "Instinct",
+        "Weruva",
+        "JustFoodForDogs"
+      ],
+      "sharedBrands": [
+        "Blue Buffalo",
+        "Purina"
+      ],
+      "openaiResponseTimeMs": 6508,
+      "webResponseTimeMs": 11712,
+      "timingRatio": 1.7996312231100184
+    },
+    {
+      "queryText": "What is the best wet dog food for dogs for regular feeding?",
+      "queryIndex": 1,
+      "openaiLength": 721,
+      "webLength": 1350,
+      "lengthRatio": 1.8723994452149793,
+      "hasEmojis": true,
+      "emojiCount": 2,
+      "emojisFound": [
+        "🐶",
+        "🍲"
+      ],
+      "hasShoppingResults": false,
+      "shoppingProducts": [],
+      "pricesFound": [],
+      "hasCitations": false,
+      "citationsFound": [],
+      "hasFollowUpPrompt": true,
+      "followUpText": "If you tell me your dog’s age, size, and any dietary sensitivities (e.",
+      "hasBrowsingIndicators": false,
+      "browsingIndicators": [],
+      "hasStructuredHeaders": true,
+      "headersFound": [
+        "🐶 Top Everyday Wet Dog Food Picks",
+        "🍲 How to Choose the Best One"
+      ],
+      "openaiOnlyBrands": [
+        "Nutro",
+        "Natural Balance"
+      ],
+      "webOnlyBrands": [
+        "Purina",
+        "Instinct"
+      ],
+      "sharedBrands": [
+        "Blue Buffalo",
+        "Wellness"
+      ],
+      "openaiResponseTimeMs": 4581,
+      "webResponseTimeMs": 11263,
+      "timingRatio": 2.458633486138398
+    },
+    {
+      "queryText": "What are the best options for dry dog food for dogs with allergies?",
+      "queryIndex": 2,
+      "openaiLength": 1562,
+      "webLength": 2820,
+      "lengthRatio": 1.8053777208706787,
+      "hasEmojis": true,
+      "emojiCount": 3,
+      "emojisFound": [
+        "🐶",
+        "🐩",
+        "🧠"
+      ],
+      "hasShoppingResults": true,
+      "shoppingProducts": [
+        "Petcurean Go! Sensitivities Limited Ingredient Dry Dog Food",
+        "Blue Buffalo Basics Adult Salmon & Potato Recipe Dry Dog Food",
+        "Pure Balance Pro+ Sensitive Skin and Stomach Salmon & Rice Dry Dog Food",
+        "Nutro Limited Ingredient Diet Grain Free Lamb & Sweet Potato",
+        "Victor Sensitive Skin & Stomach Dry Dog Food",
+        "Royal Canin Veterinary Diet Skintopic Adult Dry Dog Food",
+        "Derm Complete Hill's Prescription Diet Dry Dog Food",
+        "Merrick Limited Ingredient Diet Grain Free Salmon & Sweet Potato"
+      ],
+      "pricesFound": [
+        "$21.99",
+        "$44.98",
+        "$25.96",
+        "$27.98",
+        "$17.99",
+        "$30.80",
+        "$47.99",
+        "$25.99"
+      ],
+      "hasCitations": false,
+      "citationsFound": [],
+      "hasFollowUpPrompt": false,
+      "followUpText": null,
+      "hasBrowsingIndicators": true,
+      "browsingIndicators": [
+        "Retailer links",
+        "Price + store format",
+        "Multi-retailer aggregation"
+      ],
+      "hasStructuredHeaders": true,
+      "headersFound": [
+        "🐶 Supportive Skin & Digestive Health Formulas",
+        "🐩 Vet-Oriented / Prescription Diets (for Diagnosed Allergies)",
+        "🧠 Tips for Choosing Allergy-Friendly Dry Food"
+      ],
+      "openaiOnlyBrands": [
+        "Wellness",
+        "Canidae",
+        "Natural Balance",
+        "Zignature"
+      ],
+      "webOnlyBrands": [
+        "Royal Canin",
+        "Hill's",
+        "Nutro",
+        "Victor",
+        "Petcurean",
+        "Pure Balance"
+      ],
+      "sharedBrands": [
+        "Blue Buffalo",
+        "Merrick"
+      ],
+      "openaiResponseTimeMs": 10383,
+      "webResponseTimeMs": 18328,
+      "timingRatio": 1.7651931041124915
+    },
+    {
+      "queryText": "Can you list popular pet food brands with good meat content?",
+      "queryIndex": 3,
+      "openaiLength": 552,
+      "webLength": 2691,
+      "lengthRatio": 4.875,
+      "hasEmojis": true,
+      "emojiCount": 4,
+      "emojisFound": [
+        "🥇",
+        "💪",
+        "🍖",
+        "🧠"
+      ],
+      "hasShoppingResults": true,
+      "shoppingProducts": [
+        "Taste of the Wild High Prairie Dog Food",
+        "Taste of the Wild Pacific Stream Dog Food",
+        "Blue Buffalo Wilderness Adult Dry Dog Food Chicken",
+        "Blue Buffalo Wilderness Adult Dry Dog Food Salmon",
+        "Bully Max High Protein Dog Food",
+        "Acana Red Meat Dry Dog Food",
+        "Victor Hi‑Pro Plus Dog Food",
+        "Rachael Ray Nutrish Real Beef Dry Dog Food"
+      ],
+      "pricesFound": [
+        "$58.99",
+        "$20.98",
+        "$21.98",
+        "$26.47",
+        "$22.99",
+        "$34.99",
+        "$25.99"
+      ],
+      "hasCitations": false,
+      "citationsFound": [],
+      "hasFollowUpPrompt": true,
+      "followUpText": "If you tell me your dog’s size, age, and activity level, I can narrow this down to the best pick for your specific pup!",
+      "hasBrowsingIndicators": true,
+      "browsingIndicators": [
+        "Retailer links",
+        "Price + store format",
+        "Multi-retailer aggregation"
+      ],
+      "hasStructuredHeaders": true,
+      "headersFound": [
+        "🥇 High-Protein & Meat-Rich Main Meals",
+        "💪 Active / Performance & Premium Picks",
+        "🍖 Everyday & Well-Rounded Options",
+        "🧠 Tips for Choosing High-Meat Dog Foods"
+      ],
+      "openaiOnlyBrands": [
+        "Royal Canin",
+        "Hill's",
+        "Wellness",
+        "Nutro",
+        "Merrick",
+        "Canidae",
+        "Natural Balance",
+        "Instinct",
+        "Stella & Chewy",
+        "Fromm",
+        "NutriSource",
+        "Solid Gold",
+        "Nulo",
+        "Ziwi Peak"
+      ],
+      "webOnlyBrands": [
+        "Rachael Ray",
+        "Victor",
+        "Bully Max"
+      ],
+      "sharedBrands": [
+        "Blue Buffalo",
+        "Taste of the Wild",
+        "Orijen",
+        "Acana"
+      ],
+      "openaiResponseTimeMs": 4424,
+      "webResponseTimeMs": 18160,
+      "timingRatio": 4.104882459312839
+    },
+    {
+      "queryText": "What are good allergy chews for dogs with food sensitivities?",
+      "queryIndex": 4,
+      "openaiLength": 1083,
+      "webLength": 2734,
+      "lengthRatio": 2.5244690674053554,
+      "hasEmojis": true,
+      "emojiCount": 3,
+      "emojisFound": [
+        "🐶",
+        "🌱",
+        "🧠"
+      ],
+      "hasShoppingResults": true,
+      "shoppingProducts": [
+        "Zesty Paws Lamb Allergy & Immune Bites",
+        "Native Pet Allergy Air‑Dried Chews",
+        "Greenies Allergy & Immune Support",
+        "VetIQ Allergy Pro Dog Chews",
+        "Royal Canin Hydrolyzed Protein Treats",
+        "Hill's Prescription Diet Hypo Dog Treats",
+        "Just Food For Dogs Skin & Allergy Aid Chews",
+        "Only Natural Pet Hemp Allergy Skin & Coat Chews"
+      ],
+      "pricesFound": [
+        "$19.99",
+        "$14.99",
+        "$19.98",
+        "$11.94",
+        "$12.49",
+        "$13.99",
+        "$15.00",
+        "$22.99"
+      ],
+      "hasCitations": false,
+      "citationsFound": [],
+      "hasFollowUpPrompt": false,
+      "followUpText": null,
+      "hasBrowsingIndicators": true,
+      "browsingIndicators": [
+        "Retailer links",
+        "Price + store format",
+        "Multi-retailer aggregation"
+      ],
+      "hasStructuredHeaders": true,
+      "headersFound": [
+        "🐶 Top Everyday Allergy Support Treats",
+        "🌱 Other Supportive Allergy Aid Chews",
+        "🧠 Notes on Allergy Chews"
+      ],
+      "openaiOnlyBrands": [
+        "PetHonesty",
+        "NaturVet",
+        "FurroLandia",
+        "Dr. Lyon"
+      ],
+      "webOnlyBrands": [
+        "Royal Canin",
+        "Hill's",
+        "JustFoodForDogs",
+        "Native Pet",
+        "Greenies",
+        "VetIQ"
+      ],
+      "sharedBrands": [
+        "Zesty Paws"
+      ],
+      "openaiResponseTimeMs": 5092,
+      "webResponseTimeMs": 13014,
+      "timingRatio": 2.5557737627651216
+    }
+  ],
+  "pairs": [
+    {
+      "queryText": "What's the best dog food for your dog if they are picky?",
+      "queryIndex": 0,
+      "openaiApi": {
+        "id": "c63e2f65-337c-43f1-8e19-842693364d59",
+        "queryIndex": 0,
+        "queryText": "What's the best dog food for your dog if they are picky?",
+        "surfaceId": "openai-api",
+        "locationId": "us-west",
+        "status": "complete",
+        "attempts": 1,
+        "responseText": "The best dog food for picky eaters would depend on their specific preferences, dietary needs, and any allergies. However, some highly rated options include:\n\n1. \"Blue Buffalo Wilderness High Protein Dry Dog Food\" - praised for its real chicken and healthy fruits and vegetables.\n\n2. \"Rachel Ray Nutrish Natural Dry Dog Food\" - it provides natural prebiotics to help support digestion and is a favorite among such dogs.\n\n3. \"Royal Canin Size Health Nutrition Mini Adult Dry Dog Food\" - it has a mixture of flavors and texture that dogs commonly enjoy. \n\n4. \"Hill's Science Diet Dry Dog Food, Adult for Small & Toy Breeds\" - it appeals to many dogs and is specially designed for small breeds.\n\n5. \"Purina Pro Plan SAVOR Shredded Blend With Probiotics\" - it has both soft pieces and crunchy bites which provide variety to the dog. \n\n6. \"Wellness Core Natural Grain Free Dry Dog Food\" – it helps support your dog’s optimal health without any grains, fillers, or meat by-products.\n\nThe \"best\" food may vary so it's recommended to try out a few different ones to see which your dog prefers. Please consult with a vet before making any changes to your pet's diet.",
+        "responseTimeMs": 6508
+      },
+      "chatgptWeb": {
+        "id": "5b30c104-9932-445a-a672-57aa75d4a603",
+        "queryIndex": 0,
+        "queryText": "What's the best dog food for your dog if they are picky?",
+        "surfaceId": "chatgpt-web",
+        "locationId": "us-west",
+        "status": "complete",
+        "attempts": 1,
+        "responseText": "When it comes to picky eaters, the “best” dog food tends to be one that’s highly palatable with strong aroma and real meat first ingredients — foods that smell and taste good are often easier to get finicky dogs to eat consistently. Many dog owners find success with formulas that feature wet food, protein-rich dry food, or a mix of both.\n\n🥇 Top Picks for Picky Eaters\n\n1. Purina ONE True Instinct Tender Cuts in Gravy – Tender cuts with rich gravy that many picky dogs love.\n2. Purina ONE Classic Wet or Ground Entrée – Soft texture and savory flavor often entice even finicky eaters.\n3. Blue Buffalo Homestyle Recipe (Beef or Chicken) – Real meat with hearty broth and appealing texture.\n4. Taste of the Wild Pacific Stream (Salmon) – Strong aroma and novel protein that appeals to many picky palates.\n5. Weruva Best Fido Friend Wet Meals – Wet, meaty meals with real chunks in broth — often irresistible for selective eaters.\n6. JustFoodForDogs Pantry Fresh Recipes – Fresh, whole-food meals with familiar flavors that appeal to many dogs.\n\n🍲 Tips to Get Picky Dogs to Eat\n\nMix Wet + Dry: Adding a bit of wet food or broth to dry kibble increases aroma and texture appeal.\n\nWarm It Up: Slightly warming food (especially wet) boosts scent and can trigger interest.\n\nRotate Proteins: Offer variety like chicken, beef, or fish to keep meals exciting.\n\nTry Toppers: Add a small amount of plain cooked meat, bone broth, or a commercial food topper to boost flavor.\n\n🧠 Quick Guidance\n\nThere isn’t a single best food that works for every picky dog — but brands/formulas with strong flavors, real meat first ingredients, and moist texture tend to work best overall. Wet foods or high-quality dry foods with gravy also improve palatability.\n\nIf you share your dog’s age, size, and any dietary sensitivities (e.g., allergies or stomach issues), I can tailor this list to what’s likely to work best for them.",
+        "responseTimeMs": 11712
+      }
+    },
+    {
+      "queryText": "What is the best wet dog food for dogs for regular feeding?",
+      "queryIndex": 1,
+      "openaiApi": {
+        "id": "b694cfd5-4dd2-40ad-9a2d-49883d8b7dda",
+        "queryIndex": 1,
+        "queryText": "What is the best wet dog food for dogs for regular feeding?",
+        "surfaceId": "openai-api",
+        "locationId": "us-west",
+        "status": "complete",
+        "attempts": 1,
+        "responseText": "One of the best wet dog food for regular feeding is Hills Science Diet Wet Dog Food. It's specifically designed for adult dogs and offers balanced nutrition. It is made from high-quality ingredients and is often recommended by veterinarians. This dog food provides complete nutrition, supports healthy organs, and assists in maintaining the optimal body weight.\n\nOther options include:\n\nBlue Buffalo Homestyle Recipe\nNatural Balance L.I.D. Limited Ingredient Diets\nWellness Core Grain Free Dog Food\nNutro Ultra Grain Free Dog Food.\n\nRemember, each dog is unique, and their needs might differ based on their breed, age, size, and health condition. Therefore, always consult the vet before deciding the diet for your pooch.",
+        "responseTimeMs": 4581
+      },
+      "chatgptWeb": {
+        "id": "82d2887e-f052-46bd-8c9e-18520624cbc2",
+        "queryIndex": 1,
+        "queryText": "What is the best wet dog food for dogs for regular feeding?",
+        "surfaceId": "chatgpt-web",
+        "locationId": "us-west",
+        "status": "complete",
+        "attempts": 1,
+        "responseText": "The best wet dog food for regular feeding depends on your dog’s size, age, and dietary needs, but generally the top choices are ones that are complete & balanced, list real meat as the first ingredient, and have good digestibility and palatability.\n\n🐶 Top Everyday Wet Dog Food Picks\n\nPurina ONE Classic Wet Dog Food — real meat first, complete nutrition, and excellent palatability.\n\nBlue Buffalo Homestyle Recipe (Chicken or Beef) — hearty, natural recipes with real meat and added vitamins/minerals.\n\nPurina ONE True Instinct Tender Cuts in Gravy — rich texture and savory flavors many dogs enjoy.\n\nPurina Beneful Prepared Meals Variety Pack — balanced nutrition and a variety of flavors to keep meals interesting.\n\nWellness Complete Health Wet Dog Food — quality protein with supportive nutrients for overall health.\n\n🍲 How to Choose the Best One\n\nLook for “complete & balanced” on the label — this means it meets AAFCO standards for your dog’s life stage.\n\nReal meat as the first ingredient is a strong sign of quality nutrition.\n\nMix with dry food or serve alone depending on your dog’s preference; many picky eaters prefer some wet food mixed in for moisture and aroma.\n\nIf you tell me your dog’s age, size, and any dietary sensitivities (e.g., allergies or digestion issues), I can tailor a specific recommendation that matches their needs.",
+        "responseTimeMs": 11263
+      }
+    },
+    {
+      "queryText": "What are the best options for dry dog food for dogs with allergies?",
+      "queryIndex": 2,
+      "openaiApi": {
+        "id": "c6a59821-50f5-4b61-9d5f-e5468dd7551a",
+        "queryIndex": 2,
+        "queryText": "What are the best options for dry dog food for dogs with allergies?",
+        "surfaceId": "openai-api",
+        "locationId": "us-west",
+        "status": "complete",
+        "attempts": 1,
+        "responseText": "1. Canidae Grain-Free Pure Real Salmon & Sweet Potato Recipe: This diet includes whole foods for gentle digestion and features a simple recipe for dogs with sensitivities.\n\n2. Blue Buffalo Natural Veterinary Diet Hydrolyzed for Food Intolerance: It is hydrolyzed, so it should cause no allergenic reactions. \n\n3. Wellness Simple Natural Limited Ingredient Dry Dog Food: This food is made to support a balanced diet in dogs with food sensitivities due to a limited ingredient diet.\n\n4. Natural Balance L.I.D. Limited Ingredient Diets Sweet Potato & Fish Formula Grain-Free Dry Dog Food: It's easy to digest, and it supports a healthy coat due to the high omega-3 content.\n\n5. Zignature Limited Ingredient Lamb Formula Grain-Free Dry Dog Food: This is a limited ingredient product which avoids the use of common allergens such as chicken, corn, wheat, soy, and potatoes.\n\n6. Ps For Dogs 100% Hypoallergenic Dog Food: This diet is specifically formulated for dogs with allergies and uses only a single source of protein.\n\n7. Hill’s Science Diet Dry Dog Food Sensitive Stomach & Skin: It’s specially designed for dogs with sensitive stomachs and skin issues, which are often allergy symptoms.\n\n8. Merrick Limited Ingredient Diet Grain-Free Turkey Dry Dog Food: This grain and gluten-free formula provides balanced nutrition with just a single source of protein and minimal ingredients.\n\nAlways remember to gradually switch over the dog food and consult with your vet for any dietary changes. Remember that what works best may depend on your dog's specific allergies.",
+        "responseTimeMs": 10383
+      },
+      "chatgptWeb": {
+        "id": "50adde9d-5a6c-4454-a5a5-ea817c95cdb7",
+        "queryIndex": 2,
+        "queryText": "What are the best options for dry dog food for dogs with allergies?",
+        "surfaceId": "chatgpt-web",
+        "locationId": "us-west",
+        "status": "complete",
+        "attempts": 1,
+        "responseText": "Here are some excellent dry dog food options suited for dogs with food sensitivities or allergies — including limited-ingredient diets, sensitive-skin/stomach formulas, and veterinary-focused prescriptions that vets commonly recommend to help reduce reactions and support overall digestion and skin health. \nSploot Vets\n+1\n\nPetcurean Go! Sensitivities Limited Ingredient Dry Dog Food\n$21.99\n•\nChewy.com + others\nBlue Buffalo Basics Adult Salmon & Potato Recipe Dry Dog Food\n$44.98\n•\nChewy.com + others\nPure Balance Pro+ Sensitive Skin and Stomach Salmon & Rice Dry Dog Food\n$25.96\n•\nWalmart + others\nNutro Limited Ingredient Diet Grain Free Lamb & Sweet Potato\n$27.98\n•\nWalmart + others\nVictor Sensitive Skin & Stomach Dry Dog Food\n$17.99\n•\nTractor Supply Company + others\nRoyal Canin Veterinary Diet Skintopic Adult Dry Dog Food\n$30.80\n•\nRoyal Canin + others\nDerm Complete Hill's Prescription Diet Dry Dog Food\n$47.99\n•\nPetco.com + others\nMerrick Limited Ingredient Diet Grain Free Salmon & Sweet Potato\n$25.99\n•\nPetSmart + others\n🩹 Sensitive & Allergy-Friendly Everyday Options\n\nPetcurean Go! Sensitivities Limited Ingredient Dry Dog Food: Highly rated limited-ingredient formula with salmon as a single protein source — great for reducing common triggers.\n\nBlue Buffalo Basics Adult Salmon & Potato Recipe Dry Dog Food: A balanced limited-ingredient diet formulated to minimize sensitivity reactions (salmon & potato).\n\nPure Balance Pro+ Sensitive Skin and Stomach Salmon & Rice Dry Dog Food: Gentle, digestible formula with salmon and rice that’s affordable and vet friendly for sensitive tummies.\n\nNutro Limited Ingredient Diet Grain Free Lamb & Sweet Potato: Limited ingredient grain-free option with lamb — simple recipe and easy on digestion.\n\n🐶 Supportive Skin & Digestive Health Formulas\n\nVictor Sensitive Skin & Stomach Dry Dog Food: Salmon-based protein and absence of common allergens like chicken/corn/soy help support sensitive dogs.\n\nMerrick Limited Ingredient Diet Grain Free Salmon & Sweet Potato: Limited-ingredient diet with a single protein and easily digestible carbs for allergy-prone pups.\n\n🐩 Vet-Oriented / Prescription Diets (for Diagnosed Allergies)\n\nRoyal Canin Veterinary Diet Skintopic Adult Dry Dog Food: Clinically formulated to support skin health in dogs with environmental or food sensitivities. \nChewy\n\nDerm Complete Hill's Prescription Diet Dry Dog Food: Prescription diet designed specifically for environmental and food sensitivities and related symptoms such as itchy skin and GI upset. \nSploot Vets\n\n🧠 Tips for Choosing Allergy-Friendly Dry Food\n\nLimited-Ingredient Diets (LID): These contain fewer ingredients and focus on a single novel protein (like salmon or lamb), which can reduce exposure to allergens.\n\nNovel/Single Proteins: Proteins dogs haven’t been exposed to (e.",
+        "responseTimeMs": 18328
+      }
+    },
+    {
+      "queryText": "Can you list popular pet food brands with good meat content?",
+      "queryIndex": 3,
+      "openaiApi": {
+        "id": "fd49b9eb-9a17-49b3-8eac-abbd0572237c",
+        "queryIndex": 3,
+        "queryText": "Can you list popular pet food brands with good meat content?",
+        "surfaceId": "openai-api",
+        "locationId": "us-west",
+        "status": "complete",
+        "attempts": 1,
+        "responseText": "1. Blue Buffalo\n2. Taste of the Wild\n3. Orijen\n4. Wellness Natural Pet Food\n5. Canidae\n6. Merrick\n7. Royal Canin\n8. Nutro\n9. Natural Balance\n10. Instinct\n11. Stella & Chewy's\n12. Fromm Family Pet Foods\n13. NutriSource\n14. Hill's Science Diet\n15. Acana\n16. Primal Pet Foods\n17. Eagle Pack\n18. The Honest Kitchen\n19. A Pup Above\n20. Ziwi Peak\n21. Tiki Pets\n22. I and Love and You\n23. Castor & Pollux Organix \n24. Nulo \n25. Solid Gold.\n  \nRemember to consult with your vet before changing your pet's diet as certain breeds may have specific dietary needs.",
+        "responseTimeMs": 4424
+      },
+      "chatgptWeb": {
+        "id": "768756ae-65b5-49d7-a683-53307f36a68b",
+        "queryIndex": 3,
+        "queryText": "Can you list popular pet food brands with good meat content?",
+        "surfaceId": "chatgpt-web",
+        "locationId": "us-west",
+        "status": "complete",
+        "attempts": 1,
+        "responseText": "Here are some popular dry dog food options with good meat content — meaning they’re high in protein and list real animal proteins (like beef, chicken, salmon, venison, etc.) near the top of the ingredient list — ideal for dogs that benefit from hearty meat-forward nutrition. High-meat diets support muscle, energy, coat health, and overall wellbeing. \nDog Food Advisor\n+1\n\nTaste of the Wild High Prairie Dog Food\n$58.99\n•\nChewy.com + others\nTaste of the Wild Pacific Stream Dog Food\n$58.99\n•\nPetco.com + others\nBlue Buffalo Wilderness Adult Dry Dog Food Chicken\n$20.98\n•\nBlain's Farm & Fleet + others\nBlue Buffalo Wilderness Adult Dry Dog Food Salmon\n$21.98\n•\nPetsense + others\nBully Max High Protein Dog Food\n$26.47\n•\nbullymax.com + others\nAcana Red Meat Dry Dog Food\n$22.99\n•\nChewy.com + others\nVictor Hi‑Pro Plus Dog Food\n$34.99\n•\nCoastal Farm & Ranch + others\nRachael Ray Nutrish Real Beef Dry Dog Food\n$25.99\n•\nAlbertsons + others\n🥇 High-Protein & Meat-Rich Main Meals\n\nTaste of the Wild High Prairie Dog Food – Grain-free with roasted bison & venison; real meat as the top ingredient and excellent protein levels. \nChewy\n\nTaste of the Wild Pacific Stream Dog Food – Salmon-first formula with omega-rich fish protein and strong meat content. \nChewy\n\nBlue Buffalo Wilderness Adult Dry Dog Food Chicken – Real deboned chicken first, high protein recipe inspired by ancestral diets. \nBlue Buffalo\n\nBlue Buffalo Wilderness Adult Dry Dog Food Salmon – Salmon-first, protein-rich formula with antioxidants for overall health. \nBlue Buffalo\n\n💪 Active / Performance & Premium Picks\n\nBully Max High Protein Dog Food – High-calorie, high-protein food great for energetic or working dogs needing extra meat and calories. \nChewy\n\nAcana Red Meat Dry Dog Food – Packs ~60% animal ingredients like beef & pork for robust protein support. \nOrijen Pet Foods\n\nVictor Hi‑Pro Plus Dog Food – Multi-meat formula with beef, chicken, pork and fish meals for balanced high protein. \nChewy\n\n🍖 Everyday & Well-Rounded Options\n\nRachael Ray Nutrish Real Beef Dry Dog Food – Real beef first with balanced nutrition for everyday feeding. \nChewy\n\n🧠 Tips for Choosing High-Meat Dog Foods\n\nLook for real meat first: Ingredients like “deboned chicken,” “salmon,” or “beef” at the top signal good meat content. \nChewy\n\nCheck protein levels: High-meat foods often list crude protein ≥30% on the guaranteed analysis. \nChewy\n\nMatch to your dog’s needs: Active or working dogs benefit from especially high protein, while seniors may need balanced formula with easier digestibility. \nDog Food Advisor\n\nIf you tell me your dog’s size, age, and activity level, I can narrow this down to the best pick for your specific pup!",
+        "responseTimeMs": 18160
+      }
+    },
+    {
+      "queryText": "What are good allergy chews for dogs with food sensitivities?",
+      "queryIndex": 4,
+      "openaiApi": {
+        "id": "14068394-5642-4b2a-8624-f6fbcda28579",
+        "queryIndex": 4,
+        "queryText": "What are good allergy chews for dogs with food sensitivities?",
+        "surfaceId": "openai-api",
+        "locationId": "us-west",
+        "status": "complete",
+        "attempts": 1,
+        "responseText": "1. Zesty Paws Allergy Immune Supplement for Dogs - Chewable bites with digestion prebiotics, antioxidants, omega-3 salmon fish oil, and wild Alaskan salmon oil.\n\n2. FurroLandia Allergy Relief Immune Supplement for Dogs - All natural chewable dog allergies treatment and anti itch bites for dogs of all sizes.\n\n3. PetHonesty Allergy Support Supplement for Dogs - Supports immune health and digestion and promotes healthy skin and coat.\n\n4. Dr. Lyon's Skin + Coat Chewy Bites - This product promotes a healthy skin and coat with its Omega-3 fatty acids.\n\n5. NaturVet – Aller-911 Allergy Aid Plus Antioxidants – Soft Chew – Supports Immune System, Skin Moisture & Respiratory Health.\n\n6. Nutri-Vet Allerg-Eze Dog Chews – Soft Chews specifically formulated to support a normal immune system and maintain the health and integrity of the dish bowls.\n\nRemember, it's always best to consult with a vet before introducing new supplements into your pet's diet. Not all supplements will work for all dogs, and what works best will depend on your dog's specific allergies and health conditions.\n",
+        "responseTimeMs": 5092
+      },
+      "chatgptWeb": {
+        "id": "84f4b4c5-882c-4957-b867-b559a8f8ee74",
+        "queryIndex": 4,
+        "queryText": "What are good allergy chews for dogs with food sensitivities?",
+        "surfaceId": "chatgpt-web",
+        "locationId": "us-west",
+        "status": "complete",
+        "attempts": 1,
+        "responseText": "Here are some good allergy-support chews and supplements that many dog owners use to help with itchy skin, seasonal or food sensitivity symptoms, immune support, and histamine response (these often include probiotics, omega-3s, colostrum, and other supportive ingredients): \nChewy\n+1\n\nZesty Paws Lamb Allergy & Immune Bites\n$19.99\n•\nTarget + others\nNative Pet Allergy Air‑Dried Chews\n$14.99\n•\nWalmart - Native Pet, Inc. + others\nGreenies Allergy & Immune Support\n$19.98\n•\nGreenies US + others\nVetIQ Allergy Pro Dog Chews\n$11.94\n•\nChewy.com + others\nRoyal Canin Hydrolyzed Protein Treats\n$12.49\n•\nPetco.com + others\nHill's Prescription Diet Hypo Dog Treats\n$13.99\n•\nPetSmart + others\nJust Food For Dogs Skin & Allergy Aid Chews\n$15.00\n•\nJustFoodForDogs + others\nOnly Natural Pet Hemp Allergy Skin & Coat Chews\n$22.99\n•\nOnly Natural Pet + others\n🐶 Top Everyday Allergy Support Treats\n\nZesty Paws Lamb Allergy & Immune Bites — Soft chews with probiotics, omega-3s and immune support; great for skin and seasonal itch support. \nZesty Paws\n\nNative Pet Allergy Air‑Dried Chews — Air-dried chews with spirulina, colostrum and algae oil to help reduce itching and support long-term immunity. \nPetco\n\nGreenies Allergy & Immune Support — Focused on immune and allergy support in a gentle soft-chew form. \nChewy\n\nVetIQ Allergy Pro Dog Chews — Budget-friendly chews with colostrum and astragalus root to support immunity and skin comfort. \nChewy\n\n🩺 Sensitive & Allergy-Friendly Reward Treats\n\nRoyal Canin Hydrolyzed Protein Treats — Hydrolyzed protein treats ideal for dogs on elimination diets or true food allergies (great during allergy diet trials). \nChewy\n\nHill's Prescription Diet Hypo Dog Treats — Vet-recommended hypoallergenic treats that pair well with special diets for dogs with sensitivities. \nChewy\n\n🌱 Other Supportive Allergy Aid Chews\n\nJust Food For Dogs Skin & Allergy Aid Chews — Whole-food–based chews with natural ingredients to help skin, immune, and itch support — good for dogs with animal protein sensitivities. \nJust Food For Dogs\n\nOnly Natural Pet Hemp Allergy Skin & Coat Chews — Hemp-based option aimed at skin and coat relief with anti-inflammatory potential. \nPetSmart\n\n🧠 Notes on Allergy Chews\n\nThese supplements help manage symptoms like itching, paw licking, and seasonal/environmental discomfort, but they aren’t a cure for diagnosed food allergies. True food allergies are best addressed by an elimination diet or a veterinarian-guided treatment plan. \nChewy\n\nIngredients like probiotics, omega-3 fatty acids, colostrum, and antioxidants are common in allergy chews and can support immune and skin health, which may reduce the severity of reactions. \nZesty Paws\n\nIf you tell me your dog’s **specific symptom",
+        "responseTimeMs": 13014
+      }
+    }
+  ]
+}

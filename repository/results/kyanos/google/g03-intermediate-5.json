@@ -1,0 +1,649 @@
+{
+  "run": {
+    "runId": "b8d7b79e-2c76-49c2-87c8-2f20e5351f2f",
+    "parentRunId": "32c5e037-7ac2-4f54-bd81-d86dd794e491",
+    "batchSequence": 1,
+    "batchTotal": 2,
+    "initiatedAt": "2026-01-24T22:22:36.512Z",
+    "trigger": "manual"
+  },
+  "study": "g03",
+  "studyName": "Google Search + AI Overview - US IP - Original",
+  "surface": "google-search",
+  "location": "us-national",
+  "expectedLocation": "us-national",
+  "promptSuffix": null,
+  "captureAiOverview": true,
+  "timestamp": "2026-01-24T22:22:56.984Z",
+  "timing": {
+    "startTime": "2026-01-24T22:22:36.774Z",
+    "endTime": "2026-01-24T22:22:56.984Z",
+    "durationMs": 20210
+  },
+  "ipVerification": {
+    "ipInfo": {
+      "ip": "184.183.124.126",
+      "country": "US",
+      "city": "Sun Valley",
+      "region": "Idaho",
+      "org": "AS22773 Cox Communications Inc.",
+      "timezone": "America/Boise",
+      "loc": "43.6971,-114.3517",
+      "postal": "83353",
+      "hostname": "ip184-183-124-126.sv.om.cox.net"
+    },
+    "expectedLocation": "us-national",
+    "expectedCountry": "US",
+    "verified": true,
+    "verifiedAt": "2026-01-24T22:22:36.774Z",
+    "lookupDurationMs": 261
+  },
+  "results": [
+    {
+      "queryIndex": 0,
+      "originalQuery": "Which are the best budget dog food brands online?",
+      "submittedQuery": "Which are the best budget dog food brands online?",
+      "response": "AI Overview:\nTop budget-friendly dog food brands available online include Purina ONE, Iams, and Diamond Naturals, which are praised for balancing quality ingredients with affordability. Other reliable, cost-effective options for various needs include Nature's Recipe, Rachael Ray Nutrish, and American Journey, often available on sites like Chewy, Amazon, or Petco.\n\nBest Overall Budget: Purina ONE SmartBlend and Iams Proactive Health are highly rated for providing solid nutrition, often meeting WSAVA guidelines.\nBest High-Quality Budget: Diamond Naturals and Nutrisource are recognized for using higher-quality ingredients at a relatively lower price point.\nBest for Sensitive Stomachs: Purina ONE SmartBlend Sensitive Systems and Purina Pro Plan Sensitive Skin & Stomach offer good value.\nBest for Specific Needs: Iams provides specialized formulas for large breeds and seniors, while Nature’s Recipe is a strong option for varied proteins.\nTop Online Retailers: Chewy, Amazon, and Petco are top destinations, offering subscription discounts (often 5%–10% off) for added savings.\n\nKey Considerations for Budgeting:\n\nNutrient Density: More expensive, high-quality food sometimes requires smaller, less frequent feedings, potentially lowering daily costs.\nGrain-Inclusive: Opting for reputable brands that include grains is often safer and more budget-friendly than budget-brand grain-free options.\nCheck Ingredients: Look for real meat as the first ingredient rather than fillers.\n\nOrganic Results:\n1. Recommendations for healthy yet affordable dog food?\n2. Best Budget-Friendly Dog Foods 2026\n3. The Best Affordable Dog Foods in 2026\n4. Best affordable dog food options?\n5. Shop best dog food under $1 per pound Clearance 10 ...\n6. Affordable USDA-Approved Dry Dog Foods\n7. What is the best cheap dry dog food?\n8. Best Dry Dog Food from Top Brands\n9. Leerburg Webboard | Best affordable dry dog food",
+      "aiOverview": "Top budget-friendly dog food brands available online include Purina ONE, Iams, and Diamond Naturals, which are praised for balancing quality ingredients with affordability. Other reliable, cost-effective options for various needs include Nature's Recipe, Rachael Ray Nutrish, and American Journey, often available on sites like Chewy, Amazon, or Petco.\n\nBest Overall Budget: Purina ONE SmartBlend and Iams Proactive Health are highly rated for providing solid nutrition, often meeting WSAVA guidelines.\nBest High-Quality Budget: Diamond Naturals and Nutrisource are recognized for using higher-quality ingredients at a relatively lower price point.\nBest for Sensitive Stomachs: Purina ONE SmartBlend Sensitive Systems and Purina Pro Plan Sensitive Skin & Stomach offer good value.\nBest for Specific Needs: Iams provides specialized formulas for large breeds and seniors, while Nature’s Recipe is a strong option for varied proteins.\nTop Online Retailers: Chewy, Amazon, and Petco are top destinations, offering subscription discounts (often 5%–10% off) for added savings.\n\nKey Considerations for Budgeting:\n\nNutrient Density: More expensive, high-quality food sometimes requires smaller, less frequent feedings, potentially lowering daily costs.\nGrain-Inclusive: Opting for reputable brands that include grains is often safer and more budget-friendly than budget-brand grain-free options.\nCheck Ingredients: Look for real meat as the first ingredient rather than fillers.",
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Recommendations for healthy yet affordable dog food?",
+          "url": "https://www.reddit.com/r/dogs/comments/1bnnko3/recommendations_for_healthy_yet_affordable_dog/",
+          "snippet": "Iams, Purina One, Beneful, and Dog Chow all have significantly more expertise and research behind them at a low price point than pure balance."
+        },
+        {
+          "position": 2,
+          "title": "Best Budget-Friendly Dog Foods 2026",
+          "url": "https://www.dogfoodadvisor.com/best-dog-foods/budget-friendly/",
+          "snippet": "Canidae All Life Stages Chicken Meal and Rice is the best budget-friendly food, suitable for all dogs of all ages, breeds and size, including puppies."
+        },
+        {
+          "position": 3,
+          "title": "The Best Affordable Dog Foods in 2026",
+          "url": "https://www.businessinsider.com/guides/pets/best-budget-friendly-dog-foods",
+          "snippet": "Johnson says most veterinarians recommend the \"big four brands\" — Hill's, Royal Canin, Purina, and Eukanuba — and she would add budget-friendly ..."
+        },
+        {
+          "position": 4,
+          "title": "Best affordable dog food options?",
+          "url": "https://www.facebook.com/groups/1174860322567068/posts/24278000175159756/",
+          "snippet": "My dogs ate the purina pure one and the vets always said it was great! ... Costco has a good quality food that is decent price! ... Tractor Supply ..."
+        },
+        {
+          "position": 5,
+          "title": "Shop best dog food under $1 per pound Clearance 10 ...",
+          "url": "https://www.forummagazine.org/?f=top-91775823",
+          "snippet": "Bag Pet Supplies, The 7 Best Budget Dog Foods of 2024, Best Dog Foods 2024 Forbes Vetted, Purina One Plus Puppy Dry Dog Food for Large Dogs High Protein Growth ..."
+        },
+        {
+          "position": 6,
+          "title": "Affordable USDA-Approved Dry Dog Foods",
+          "url": "https://bouquetcanyonkennels.com/blog/f/affordable-usda-approved-dry-dog-foods-top-choices-for-your-pet?blogcategory=Pet+Nutrition",
+          "snippet": "Brands like Rachael Ray Nutrish, Whole Earth Farms, and American Journey meet USDA standards, offering affordable, high-quality options that ..."
+        },
+        {
+          "position": 7,
+          "title": "What is the best cheap dry dog food?",
+          "url": "https://www.quora.com/What-is-the-best-cheap-dry-dog-food",
+          "snippet": "Nestle's Alpo and Dog Chow & Mars Candy's Ol' Roy and Pedigree are the most affordable, but far from the best. Both companies make many more ..."
+        },
+        {
+          "position": 8,
+          "title": "Best Dry Dog Food from Top Brands",
+          "url": "https://www.chewy.com/b/dry-food-294",
+          "snippet": "Discover the best dry dog food from top brands like Purina, Blue Buffalo, Hills Science Diet and more. We offer grain-free, organic & sensitive skin and ..."
+        },
+        {
+          "position": 9,
+          "title": "Leerburg Webboard | Best affordable dry dog food",
+          "url": "https://leerburg.com/webboard/thread.php?topic_id=35551&srsltid=AfmBOorF59sx7qe8bMzCa72Z3wwDwAKWX7fPE6c877K2fWp_0zTEined",
+          "snippet": "Diamond Naturals 40-lb, which is around $43. So $10 less but 10 more pounds of food. ... The Dog Food Advisor is a good site for checking out dry foods (as well ..."
+        }
+      ],
+      "sources": [
+        {
+          "index": 1,
+          "title": "Pet Nutritionist Compares the Best and Worst Affordable Dog ...",
+          "url": "https://www.youtube.com/watch?v=kRjb9kQhw-A&t=666"
+        },
+        {
+          "index": 2,
+          "title": "The Best Affordable Dog Foods in 2026 - Business Insider",
+          "url": "https://www.businessinsider.com/guides/pets/best-budget-friendly-dog-foods#:~:text=Our%20top%20picks%20for%20the,Check%20price%20at%20Chewy"
+        },
+        {
+          "index": 3,
+          "title": "What Dog Food is good and cheap? - Reddit",
+          "url": "https://www.reddit.com/r/dogs/comments/zn6te3/what_dog_food_is_good_and_cheap/#:~:text=Of%20the%20dog%20food%20lines,work%20out%20to%20be%20similar."
+        },
+        {
+          "index": 4,
+          "title": "Affordable USDA-Approved Dry Dog Foods: Top Choices for ...",
+          "url": "https://bouquetcanyonkennels.com/blog/f/affordable-usda-approved-dry-dog-foods-top-choices-for-your-pet?blogcategory=Pet+Nutrition#:~:text=When%20choosing%20an%20affordable%20dry,Jan%2011%2C%202026"
+        },
+        {
+          "index": 5,
+          "title": "Best Dog Food Online Shopping Sites in the USA for Every Budget",
+          "url": "https://honcoopetmeals.com/usa-dog-food-online-shopping-sites/#:~:text=4.,Membership%20rewards%20and%20discounts"
+        },
+        {
+          "index": 6,
+          "title": "The Best Budget Dog Food Options in 2024 - Mighty Pet",
+          "url": "https://www.mightypet.net/the-best-budget-dog-food-options-in-2024/"
+        },
+        {
+          "index": 7,
+          "title": "Affordable dog food suggestions? - Facebook",
+          "url": "https://www.facebook.com/groups/I.Have.Standards/posts/9036631979709453/#:~:text=The%20math:%20My%2050%20lb,etc%20but%20everyone%20is%20different.&text=I%20feed%20orijen%2C%20Stella%20and,will%20forever%20be%20my%20favorite!&text=Priya%20Santiago%20another%20vote%20for%20orijen!&text=Elliot%20Gee%20they%20are%20great,open%20farm%20during%20the%20winters.&text=Priya%20Santiago%20I%20switched%20because,Now%20everyone%20enjoys%20it!&text=Remember%20as%20well%20often%20with,but%20will%20also%20last%20longer.&text=High%20quality%20food%20=%20Fewer%20poops!&text=We%20use%20Prob%20B%20from,but%20love%20the%20chicken%20flavor.&text=No%20to%20all%20kibble.,We%20feed%20all%20homemade.&text=Honest%20Kitchen%20Turkey.,grade%2C%20pricy%20but%20work%20it.&text=Diamond%20naturals!&text=Fromm%20invented%20kibble%20and%20are%20still%20family%20owned%20to%20this%20day!&text=Open%20Farm...,cooked%20egg%20whites%2C%20etc."
+        },
+        {
+          "index": 8,
+          "title": "The 8 Best Budget Dog Foods of 2026 - The Spruce Pets",
+          "url": "https://www.thesprucepets.com/best-budget-dog-foods-5270232"
+        },
+        {
+          "index": 9,
+          "title": "The 10 Best Dog Food Brands of 2025 - The Spruce Pets",
+          "url": "https://www.thesprucepets.com/best-dog-food-brands-4843452#:~:text=Purina%20ONE%20Dog%20Food&text=Purina%20ONE%20is%20more%20widely,pick%20for%20dog%20food%20brands."
+        }
+      ],
+      "timestamp": "2026-01-24T22:22:37.121Z",
+      "durationMs": 347,
+      "success": true,
+      "responseSizeBytes": 1908
+    },
+    {
+      "queryIndex": 1,
+      "originalQuery": "Can you suggest the best treat brands for dogs online?",
+      "submittedQuery": "Can you suggest the best treat brands for dogs online?",
+      "response": "AI Overview:\nTop-rated dog treat brands available online for 2026 include Portland Pet Food Company (best overall), Cloud Star (training), and Greenies (dental), according to expert reviews. For high-quality, specialized, or natural options, popular choices include Ziwi Peak, Zuke's, Pupford, and Maev, commonly found on sites like Chewy and Amazon.\n\nTop Recommended Dog Treat Brands\n\nBest Overall: Portland Pet Food Company (Pumpkin Biscuits).\nBest for Training: Cloud Star Tricky Trainers and Pet Botanics Training Rewards.\nBest Freeze-Dried/Raw: Maev Human-Grade and Vital Essentials.\nBest Dental Chews: Greenies and Virbac C.E.T. VeggieDent.\nBest Long-Lasting/Natural: Pupford Bully Sticks and Polkadog Cod Skins.\nBest for Small Dogs/Puppies: Zuke's Mini Naturals and Bil-Jac Little-Jacs.\nBest for Sensitive Stomachs: Purina Pro Plan Veterinary Diets Gentle Snackers.\n\nKey Considerations\n\nIngredients: Prioritize brands with real meat, no artificial preservatives, and minimal, wholesome ingredients.\nSpecial Needs: Use specialized brands for specific needs, such as Buddy Boosters for senior joint health.\nWhere to Buy: Chewy, Amazon, and brand-specific websites like JustFoodForDogs.\n\nOrganic Results:\n1. 13 Best Dog Treats in 2026, Recommended by Vets\n2. The best dog treats, approved by our editors' pups\n3. Best Dog Treats | Organic & Natural Dog Food | DOGDELI\n4. Dog Treats & Chews\n5. Vet Ranks Popular Dog Treats From Best to WORST\n6. Best Dog Treats 2026\n7. Dog Treat Brands You Can Trust: A Pet Parent's Guide\n8. What are your favorite dog treat brands? : r/DogCare\n9. Healthy Dog Treats",
+      "aiOverview": "Top-rated dog treat brands available online for 2026 include Portland Pet Food Company (best overall), Cloud Star (training), and Greenies (dental), according to expert reviews. For high-quality, specialized, or natural options, popular choices include Ziwi Peak, Zuke's, Pupford, and Maev, commonly found on sites like Chewy and Amazon.\n\nTop Recommended Dog Treat Brands\n\nBest Overall: Portland Pet Food Company (Pumpkin Biscuits).\nBest for Training: Cloud Star Tricky Trainers and Pet Botanics Training Rewards.\nBest Freeze-Dried/Raw: Maev Human-Grade and Vital Essentials.\nBest Dental Chews: Greenies and Virbac C.E.T. VeggieDent.\nBest Long-Lasting/Natural: Pupford Bully Sticks and Polkadog Cod Skins.\nBest for Small Dogs/Puppies: Zuke's Mini Naturals and Bil-Jac Little-Jacs.\nBest for Sensitive Stomachs: Purina Pro Plan Veterinary Diets Gentle Snackers.\n\nKey Considerations\n\nIngredients: Prioritize brands with real meat, no artificial preservatives, and minimal, wholesome ingredients.\nSpecial Needs: Use specialized brands for specific needs, such as Buddy Boosters for senior joint health.\nWhere to Buy: Chewy, Amazon, and brand-specific websites like JustFoodForDogs.",
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "13 Best Dog Treats in 2026, Recommended by Vets",
+          "url": "https://www.petmd.com/dog/vet-verified/best-dog-treats",
+          "snippet": "Everything Our Vets Recommend ; Purina Pro Plan Veterinary Diets Digestive Health Bites. Our Vet Pick: Best in Show Dog Treat ; Nutramax Solliquin Behavioral ..."
+        },
+        {
+          "position": 2,
+          "title": "The best dog treats, approved by our editors' pups",
+          "url": "https://www.nbcnews.com/select/shopping/dogs-favorite-treats-ncna1234429",
+          "snippet": "Vets and editors share the best dog treats from healthy, tasty picks for training, rewards and more from Blue Buffalo, Greenies and Zuke's."
+        },
+        {
+          "position": 3,
+          "title": "Best Dog Treats | Organic & Natural Dog Food | DOGDELI",
+          "url": "https://dogdelitreats.com/",
+          "snippet": "Dogdeli has the best dog treats available online. We're one of the most trusted dog treat brands because of our natural and organic ingredients and our premium ..."
+        },
+        {
+          "position": 4,
+          "title": "Dog Treats & Chews",
+          "url": "https://www.chewy.com/b/treats-335",
+          "snippet": "Shop our most popular brands · milkbone dog treats · Blue Buffalo dog treats · American journey dog treats · greenies dog treats · good n' fun dog treats · bones n' ..."
+        },
+        {
+          "position": 5,
+          "title": "Vet Ranks Popular Dog Treats From Best to WORST",
+          "url": "https://www.youtube.com/watch?v=eUn2U8s3RHI",
+          "snippet": "I asked you guys on Instagram what dog treats you would like me to rank and you didn't disappoint i got over a hundred responses."
+        },
+        {
+          "position": 6,
+          "title": "Best Dog Treats 2026",
+          "url": "https://www.dogfoodadvisor.com/best-dog-foods/best-dog-treats/",
+          "snippet": "We want to share the Dog Food Advisor's favorite dog treats and have included recommendations on the best treats for calming and for dental health too."
+        },
+        {
+          "position": 7,
+          "title": "Dog Treat Brands You Can Trust: A Pet Parent's Guide",
+          "url": "https://remysk9kitchen.com/dog-treat-brands-you-can-trust-a-pet-parents-guide/?srsltid=AfmBOoodfSxhQOLeDufmajJVlIOwOnDumVIxUJWs4XZ3LQUUlutC3YfF",
+          "snippet": "Selecting trusted dog treat brands and cat treat ingredients that prioritize natural, high-quality ingredients ensures your pet gets the best."
+        },
+        {
+          "position": 8,
+          "title": "What are your favorite dog treat brands? : r/DogCare",
+          "url": "https://www.reddit.com/r/DogCare/comments/1wuwjl/what_are_your_favorite_dog_treat_brands/",
+          "snippet": "I went to petco today to get some dog treats and I came across some new brands I've never heard of before; Isle of Dogs and Wet Noses."
+        },
+        {
+          "position": 9,
+          "title": "Healthy Dog Treats",
+          "url": "https://farmtopettreats.com/collections/dog-treats?srsltid=AfmBOopOZYtI8-xGOCv7kB-GAwOKb8XNnfJ_XRzMXVS7F_0ZJcxHDgK9",
+          "snippet": "Our all-natural dog treats are made with a single ingredient: pure human-grade chicken, turkey, beef or fish, free of additives, preservatives or anything ..."
+        }
+      ],
+      "sources": [
+        {
+          "index": 1,
+          "title": "The best dog treats, with advice from veterinarians - Business Insider",
+          "url": "https://www.businessinsider.com/guides/pets/best-dog-treats"
+        },
+        {
+          "index": 2,
+          "title": "The best dog treats, approved by our editors' pups",
+          "url": "https://www.nbcnews.com/select/shopping/dogs-favorite-treats-ncna1234429#:~:text=Selected.-,Our%20top%20picks,Learn%20more"
+        },
+        {
+          "index": 3,
+          "title": "The 8 Best Dog Treats - The Spruce Pets",
+          "url": "https://www.thesprucepets.com/best-dog-treats-4687079#:~:text=Pupford%20Bully%20Stick%20Dog%20Treats,treat%20in%20only%20five%20minutes."
+        },
+        {
+          "index": 4,
+          "title": "13 Best Dog Treats in 2026, Recommended by Vets - PetMD",
+          "url": "https://www.petmd.com/dog/vet-verified/best-dog-treats#:~:text=Our%20Vet%20Pick:%20Best%20Dog%20Treats%20for%20Sensitive%20Stomachs,take%20some%20trial%20and%20error."
+        },
+        {
+          "index": 5,
+          "title": "How to Choose Healthy Dog Treats - Wilbraham Animal Hospital",
+          "url": "https://wilbrahamanimalhospital.com/healthy-pet-tips/how-to-choose-healthy-treats-for-your-dog/#:~:text=Check%20the%20Ingredients&text=Avoid%20treats%20that%20contain%20artificial,and%20stomach%20issues%20in%20dogs."
+        },
+        {
+          "index": 6,
+          "title": "The 9 Best Dog Treats for Training of 2026 - The Spruce Pets",
+          "url": "https://www.thesprucepets.com/best-dog-treats-for-training-7560297#:~:text=The%20Winners,reward%20at%20a%20bargain%20price."
+        },
+        {
+          "index": 7,
+          "title": "The 16 Best Healthy Dog Treats of 2026 - The Spruce Pets",
+          "url": "https://www.thesprucepets.com/best-healthy-dog-treats-4165650#:~:text=Final%20Verdict,perfect%20size%20for%20training%20time."
+        },
+        {
+          "index": 8,
+          "title": "Your Most Recommended Dog Treats? | Dog Food Advisor",
+          "url": "https://www.dogfoodadvisor.com/forums/topic/your-most-recommended-dog-treats/page/3/#:~:text=Most%20dogs%20seem%20to%20really%20like%20freeze%2Ddried%20stuff.&text=I%20also%20use%20vital%20essentials,I%20HIGHLY%20recommend%20those%20brands."
+        },
+        {
+          "index": 9,
+          "title": "Best Dog Food Delivery Services 2026",
+          "url": "https://www.forbes.com/sites/forbes-personal-shopper/article/best-dog-food-delivery-service/#:~:text=JustFoodForDogs%20What%20we%20love:%20Available%20at%20brick%2Dand%2Dmortar,the%20name%20of%20the%20game%20with%20JustFoodForDogs."
+        }
+      ],
+      "timestamp": "2026-01-24T22:22:41.892Z",
+      "durationMs": 181,
+      "success": true,
+      "responseSizeBytes": 1602
+    },
+    {
+      "queryIndex": 2,
+      "originalQuery": "Which are the best dog food brands with high reviews?",
+      "submittedQuery": "Which are the best dog food brands with high reviews?",
+      "response": "AI Overview:\nTop-rated dog food brands, often recommended by veterinarians and experts, prioritize high-quality ingredients and research-backed formulas to meet AAFCO standards. Top choices include Purina Pro Plan, Hill’s Science Diet, and Royal Canin for specialized nutrition, while Orijen, Stella & Chewy's, and Open Farm are highly rated for premium, protein-rich diets. For fresh options, The Farmer’s Dog and JustFoodForDogs are top contenders.\n\nTop-Rated Dog Food Brands\n\nBest Overall (Vet Recommended): Purina Pro Plan, Hill’s Science Diet, and Royal Canin are frequently cited for being developed with veterinary nutritionists, providing balanced, science-backed nutrition.\nPremium/High-Protein: Orijen, Acana, and Taste of the Wild are popular for using real, whole meats and, in some cases, grain-free formulas.\nBest Fresh/Frozen: The Farmer's Dog, JustFoodForDogs, and Nom Nom offer high-quality, human-grade, fresh-cooked meals.\nBest Raw/Freeze-Dried: Stella & Chewy's and Open Farm are praised for their ingredient quality.\nBest Budget-Friendly: Iams and Diamond Naturals offer reputable, high-quality, budget-friendly options.\n\nKey Considerations for Choosing\n\nIngredients: Look for brands that list real meat (beef, chicken, fish) as the first ingredient.\nAAFCO Statement: Ensure the food meets AAFCO nutritional guidelines for your dog's life stage (puppy, adult, senior).\nSafety & Testing: Brands like Purina, Hill's, and Royal Canin are often favored for rigorous, consistent safety testing.\n\nNote: While some raw foods are highly rated, Consumer Reports has identified potential bacteria risks (such as Listeria) in some raw products.\n\nOrganic Results:\n1. Dog Food Advisor: Dog Food Reviews and Ratings\n2. Best Dry Dog Food from Top Brands\n3. Best Dog Food Brand According to Reddit?\n4. The 10 Best Dog Food Brands\n5. 5 of the Best Dog Food Brands\n6. The Best Dog Food by Reviews.com - Doolittle's Doghouse\n7. Top Rated Dog Foods of 2026\n8. The Best Fresh Dog Food Brands in 2026, Tested and ...",
+      "aiOverview": "Top-rated dog food brands, often recommended by veterinarians and experts, prioritize high-quality ingredients and research-backed formulas to meet AAFCO standards. Top choices include Purina Pro Plan, Hill’s Science Diet, and Royal Canin for specialized nutrition, while Orijen, Stella & Chewy's, and Open Farm are highly rated for premium, protein-rich diets. For fresh options, The Farmer’s Dog and JustFoodForDogs are top contenders.\n\nTop-Rated Dog Food Brands\n\nBest Overall (Vet Recommended): Purina Pro Plan, Hill’s Science Diet, and Royal Canin are frequently cited for being developed with veterinary nutritionists, providing balanced, science-backed nutrition.\nPremium/High-Protein: Orijen, Acana, and Taste of the Wild are popular for using real, whole meats and, in some cases, grain-free formulas.\nBest Fresh/Frozen: The Farmer's Dog, JustFoodForDogs, and Nom Nom offer high-quality, human-grade, fresh-cooked meals.\nBest Raw/Freeze-Dried: Stella & Chewy's and Open Farm are praised for their ingredient quality.\nBest Budget-Friendly: Iams and Diamond Naturals offer reputable, high-quality, budget-friendly options.\n\nKey Considerations for Choosing\n\nIngredients: Look for brands that list real meat (beef, chicken, fish) as the first ingredient.\nAAFCO Statement: Ensure the food meets AAFCO nutritional guidelines for your dog's life stage (puppy, adult, senior).\nSafety & Testing: Brands like Purina, Hill's, and Royal Canin are often favored for rigorous, consistent safety testing.\n\nNote: While some raw foods are highly rated, Consumer Reports has identified potential bacteria risks (such as Listeria) in some raw products.",
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Dog Food Advisor: Dog Food Reviews and Ratings",
+          "url": "https://www.dogfoodadvisor.com/",
+          "snippet": "The Dog Food Advisor's unbiased dog food reviews and ratings searchable by brand or star rating. Find the best dry, canned or raw food for your dog."
+        },
+        {
+          "position": 2,
+          "title": "Best Dry Dog Food from Top Brands",
+          "url": "https://www.chewy.com/b/dry-food-294",
+          "snippet": "Discover the best dry dog food from top brands like Purina, Blue Buffalo, Hills Science Diet and more. We offer grain-free, organic & sensitive skin and ..."
+        },
+        {
+          "position": 3,
+          "title": "Best Dog Food Brand According to Reddit?",
+          "url": "https://www.reddit.com/r/DOG/comments/1l982rz/best_dog_food_brand_according_to_reddit/",
+          "snippet": "Mine recommended Purina Pro Plan and said to stick with: purina, hill science, royal canin, or eukanuba. He also advised against grain free or ..."
+        },
+        {
+          "position": 4,
+          "title": "The 10 Best Dog Food Brands",
+          "url": "https://www.thesprucepets.com/best-dog-food-brands-4843452",
+          "snippet": "The 10 Best Dog Food Brands, According to More Than 400 Dogs ; Best Overall. Hill's Science Diet."
+        },
+        {
+          "position": 5,
+          "title": "5 of the Best Dog Food Brands",
+          "url": "https://peakcitypuppy.com/5-of-the-best-dog-food-brands/",
+          "snippet": "1. Royal Canin: Royal Canin is a trusted brand that offers a variety of dog food options for different breeds, sizes, and life stages."
+        },
+        {
+          "position": 6,
+          "title": "The Best Dog Food by Reviews.com - Doolittle's Doghouse",
+          "url": "https://doolittlesdoghouse.com/the-best-dog-food-by-reviews-com/",
+          "snippet": "The Best Dog Food by Reviews.com · Nutri Life · Orijen Tundra · Signature Pet Products: Leonard Powell Signature Series · Tender & True · Ziwi Peak."
+        },
+        {
+          "position": 7,
+          "title": "Top Rated Dog Foods of 2026",
+          "url": "https://www.tractorsupply.com/a/top-rated-dog-foods",
+          "snippet": "6. Blue Buffalo Life Protection Adult Beef and Brown Rice Recipe Dry Dog Food Best Brand of ... A top-rated dog food is one that has received high reviews from ..."
+        },
+        {
+          "position": 8,
+          "title": "The Best Fresh Dog Food Brands in 2026, Tested and ...",
+          "url": "https://www.businessinsider.com/guides/pets/best-fresh-dog-food",
+          "snippet": "The best fresh dog food brands offer home delivery and subscriptions. Our top tested picks are JustFoodForDogs, Farmer's Dog, Freshpet, ..."
+        }
+      ],
+      "sources": [
+        {
+          "index": 1,
+          "title": "9 Best Dog Foods of 2026, Recommended by Vets - PetMD",
+          "url": "https://www.petmd.com/dog/vet-verified/best-dog-food#:~:text=The%20best%20dog%20food%20brands,Pro%20Plan%2C%20and%20Royal%20Canin."
+        },
+        {
+          "index": 2,
+          "title": "The 10 Best Dog Food Brands - The Spruce Pets",
+          "url": "https://www.thesprucepets.com/best-dog-food-brands-4843452#:~:text=Dog%20Food%20Brands.-,Top%20Picks,Jump%20to%20Review"
+        },
+        {
+          "index": 3,
+          "title": "Best Dry Dog Foods 2026 - Forbes Vetted",
+          "url": "https://www.forbes.com/sites/forbes-personal-shopper/article/best-dry-dog-food/#:~:text=High%2DQuality%20Animal%20Protein,digestible%20nutrition%20from%20trusted%20sources."
+        },
+        {
+          "index": 4,
+          "title": "Dog Food Advisor: Dog Food Reviews and Ratings",
+          "url": "https://www.dogfoodadvisor.com/#:~:text=Redbarn%20Grain%20Free%20Dog%20Food,Dog%20Food%20Review%20(Raw%20Frozen)"
+        },
+        {
+          "index": 5,
+          "title": "5 Best KIBBLE Brands?! Official Dog Food Review!",
+          "url": "https://www.youtube.com/watch?v=HkXc2AtJlfk"
+        },
+        {
+          "index": 6,
+          "title": "The Best Fresh Dog Food Brands in 2026, Tested and Reviewed",
+          "url": "https://www.businessinsider.com/guides/pets/best-fresh-dog-food#:~:text=Our%20top%20picks%20for%20the,JustFoodForDogs%20Check%20price%20at%20Chewy"
+        },
+        {
+          "index": 7,
+          "title": "Best Dog Food Brand According to Reddit?",
+          "url": "https://www.reddit.com/r/DOG/comments/1l982rz/best_dog_food_brand_according_to_reddit/#:~:text=Orijen%20is%20probably%20one%20of,13%20years%20with%20no%20issues."
+        },
+        {
+          "index": 8,
+          "title": "Which dog food should you buy? 58 of the most popular dog ...",
+          "url": "https://www.youtube.com/watch?v=3CeO1BZ8SPs&t=11"
+        },
+        {
+          "index": 9,
+          "title": "5 of the Best Dog Food Brands - Peak City Puppy",
+          "url": "https://peakcitypuppy.com/5-of-the-best-dog-food-brands/#:~:text=Orijen%20is%20a%20premium%20dog,nutrition%20for%20all%20life%20stages."
+        },
+        {
+          "index": 10,
+          "title": "10 Popular Pet Food Brands Usually Referred By Veterinarians",
+          "url": "https://www.petcarerx.com/article/10-popular-pet-food-brands-usually-referred-by-veterinarians/6188"
+        },
+        {
+          "index": 11,
+          "title": "Best Dog Food According to Customer Reviews",
+          "url": "https://www.petco.com/c/top-dog-food#:~:text=Hill's%20Science%20Diet%20is%20a%20favorite%20brand,look%20at%20other%20veterinary%20diet%20dog%20foods."
+        },
+        {
+          "index": 12,
+          "title": "Which brand of kibbles is the most premium out of the WSAVA certified brands? : r/dogs",
+          "url": "https://www.reddit.com/r/dogs/comments/14q8wr0/which_brand_of_kibbles_is_the_most_premium_out_of/#:~:text=Hills%2C%20Royal%20Canin%2C%20and%20Purina%20are%20the,to%20ensure%20they%20catch%20any%20recalls%20early."
+        }
+      ],
+      "timestamp": "2026-01-24T22:22:47.275Z",
+      "durationMs": 178,
+      "success": true,
+      "responseSizeBytes": 2021
+    },
+    {
+      "queryIndex": 3,
+      "originalQuery": "Which are the best dog food brands recommended by vets?",
+      "submittedQuery": "Which are the best dog food brands recommended by vets?",
+      "response": "AI Overview:\nVeterinarians commonly recommend science-backed brands like Hill's Science Diet, Royal Canin, and Purina Pro Plan for their rigorous testing, high-quality standards, and specialized nutrition for different life stages and health conditions. Other frequently recommended, reliable, and high-quality brands include Eukanuba, Iams, and Wellness.\n\nTop Vet-Recommended Dog Food Brands\n\nHill’s Science Diet: Highly recommended for consistent, balanced, and research-driven nutrition, including specialized options for dental and weight management.\nPurina Pro Plan: Frequently cited for its extensive, specialized formulas, including, probiotics for digestive health and options for sensitive skin and stomachs.\nRoyal Canin: Known for providing breed-specific and life-stage-specific formulas, which are particularly recommended for picky eaters or dogs with specific health needs.\nEukanuba: Frequently recognized for its high-quality ingredients, particularly for active dogs and joint health.\nIams: A highly reputable, more affordable, but still nutrient-dense option.\nWellness: Recommended for premium ingredients and offering grain-free or limited-ingredient options for sensitive dogs.\n\nWhy These Brands?Vets typically recommend these brands because they are backed by scientific studies, employ veterinary nutritionists, and adhere to strict feeding trials to ensure complete and balanced nutrition.\n\nOrganic Results:\n1. 9 Best Dog Foods of 2026, Recommended by Vets\n2. Best Puppy Food Brands Recommended by US Vets\n3. The 7 Best Dry Dog Foods, According To Veterinarians\n4. What's Really in Your Dog's Food?\n5. Top 3 Vet Recommended Dog Food Brands\n6. Dog Food Advisor: Dog Food Reviews and Ratings\n7. 5 Best Dog Food Brands - AAFCO & WSAVA Compliance\n8. VET RECOMMENDED DRY DOG FOOD (Free Shipping)\n9. Which dog food should you buy? 58 of the most popular dog ...",
+      "aiOverview": "Veterinarians commonly recommend science-backed brands like Hill's Science Diet, Royal Canin, and Purina Pro Plan for their rigorous testing, high-quality standards, and specialized nutrition for different life stages and health conditions. Other frequently recommended, reliable, and high-quality brands include Eukanuba, Iams, and Wellness.\n\nTop Vet-Recommended Dog Food Brands\n\nHill’s Science Diet: Highly recommended for consistent, balanced, and research-driven nutrition, including specialized options for dental and weight management.\nPurina Pro Plan: Frequently cited for its extensive, specialized formulas, including, probiotics for digestive health and options for sensitive skin and stomachs.\nRoyal Canin: Known for providing breed-specific and life-stage-specific formulas, which are particularly recommended for picky eaters or dogs with specific health needs.\nEukanuba: Frequently recognized for its high-quality ingredients, particularly for active dogs and joint health.\nIams: A highly reputable, more affordable, but still nutrient-dense option.\nWellness: Recommended for premium ingredients and offering grain-free or limited-ingredient options for sensitive dogs.\n\nWhy These Brands?Vets typically recommend these brands because they are backed by scientific studies, employ veterinary nutritionists, and adhere to strict feeding trials to ensure complete and balanced nutrition.",
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "9 Best Dog Foods of 2026, Recommended by Vets",
+          "url": "https://www.petmd.com/dog/vet-verified/best-dog-food",
+          "snippet": "Top vet-recommended dog foods are made by Hill's Science Diet, Purina Pro Plan, and Royal Canin. Subscribe to Get Pet Health Tips and ..."
+        },
+        {
+          "position": 2,
+          "title": "Best Puppy Food Brands Recommended by US Vets",
+          "url": "https://westervillepets.com/best-puppy-food-brands-recommended-by-us-vets/",
+          "snippet": "Top Puppy Food Brands Backed by US Vets · 1. Hill's Science Diet Puppy · 2. Royal Canin Puppy · 3. Blue Buffalo Life Protection · 4. Purina Pro Plan ..."
+        },
+        {
+          "position": 3,
+          "title": "The 7 Best Dry Dog Foods, According To Veterinarians",
+          "url": "https://www.forbes.com/sites/forbes-personal-shopper/article/best-dry-dog-food/",
+          "snippet": "Our Top Recommendations ; Best Dry Dog Food Overall: Open Farm Grass-Fed Beef & Ancient Grains ; Best Grain-Free Dry Dog Food: Merrick Limited ..."
+        },
+        {
+          "position": 4,
+          "title": "What's Really in Your Dog's Food?",
+          "url": "https://www.consumerreports.org/health/pet-food/whats-really-in-your-dogs-food-a1115304393/",
+          "snippet": "CR tested 58 dog foods from brands including Blue Buffalo, Hill's Science Diet, and Purina for key nutrients and dangerous contaminants. Here's what we found."
+        },
+        {
+          "position": 5,
+          "title": "Top 3 Vet Recommended Dog Food Brands",
+          "url": "https://ponderosavetclinic.com/what-is-the-best-vet-recommended-dog-food/",
+          "snippet": "Our three go-to prescription dog food brands are Hill's Pet Nutrition, Royal Canin and Purina Pro Plan because they offer countless varieties to target any ..."
+        },
+        {
+          "position": 6,
+          "title": "Dog Food Advisor: Dog Food Reviews and Ratings",
+          "url": "https://www.dogfoodadvisor.com/",
+          "snippet": "The Dog Food Advisor's unbiased dog food reviews and ratings searchable by brand or star rating. Find the best dry, canned or raw food for your dog."
+        },
+        {
+          "position": 7,
+          "title": "5 Best Dog Food Brands - AAFCO & WSAVA Compliance",
+          "url": "https://www.splootvets.com/post/best-dog-food-brands-aafco-wsava",
+          "snippet": "III. 5 Best Dog Food Brands [With AAFCO & WSAVA Details] · 1. Royal Canin · 2. Hill's Pet Nutrition · 3. Purina · 4. Eukanuba · 5. IAMS."
+        },
+        {
+          "position": 8,
+          "title": "VET RECOMMENDED DRY DOG FOOD (Free Shipping)",
+          "url": "https://www.chewy.com/f/vet-recommended-dry-dog-food_c459_f2v9069",
+          "snippet": "... Brands. Purina Pro Plan. Hill's. Blue Buffalo. Frisco. Royal Canin. Bark. A cut above the rest. Try Maev Raw Food for dogs. Shop now. Cat. Food · Wet Food · Dry ..."
+        },
+        {
+          "position": 9,
+          "title": "Which dog food should you buy? 58 of the most popular dog ...",
+          "url": "https://www.youtube.com/watch?v=3CeO1BZ8SPs",
+          "snippet": "A new Consumer Report is investigating some of the most popular brands and discovering you may not be feeding your pet what you think."
+        }
+      ],
+      "sources": [
+        {
+          "index": 1,
+          "title": "Best Puppy Food Brands Recommended by US Vets",
+          "url": "https://westervillepets.com/best-puppy-food-brands-recommended-by-us-vets/#:~:text=Top%20Puppy%20Food%20Brands%20Backed,ingredient%20options%20for%20sensitive%20puppies."
+        },
+        {
+          "index": 2,
+          "title": "7 Best Dog Foods in 2025, Recommended by Vets",
+          "url": "https://petcarepartners.co/7-best-dog-foods-in-2025-recommended-by-vets/#:~:text=What%20dog%20food%20brand%20is,recognized%20for%20complete%2C%20balanced%20vitamins."
+        },
+        {
+          "index": 3,
+          "title": "What's the Scoop on the Best Dog Food Brands? - Emancipet",
+          "url": "https://emancipet.org/blog/2022/07/whats-the-scoop-on-the-best-dog-food-brands/#:~:text=The%20Top%204%20Brands%20Of,Eukanuba"
+        },
+        {
+          "index": 4,
+          "title": "Best Puppy Food Brands Recommended by US Vets",
+          "url": "https://aspenanimalwellness.com/best-puppy-food-vet-recommended/#:~:text=Science%2DDriven%20Premium%20Brands,for%20immune%20and%20digestive%20health."
+        },
+        {
+          "index": 5,
+          "title": "Vet-Recommended Pet Food Brands | PetSafe®",
+          "url": "https://www.petsafe.com/blog/vet-recommended-pet-food-brands/"
+        },
+        {
+          "index": 6,
+          "title": "2021 Vet Recommended Dog Food Brands | SMS Frederick",
+          "url": "https://sitmeanssit.com/dog-training-mu/dog-training-frederick/2021-vet-recommended-dog-food-brands/"
+        },
+        {
+          "index": 7,
+          "title": "Choosing the Best Diet for Your Pet: Science Over Marketing",
+          "url": "https://mountainviewvet.com/choosing-the-best-diet-for-your-pet/#:~:text=Science%2DBacked%20Pet%20Food%20Recommendations,provide%20complete%20and%20balanced%20nutrition."
+        },
+        {
+          "index": 8,
+          "title": "9 Best Dog Foods of 2026, Recommended by Vets - PetMD",
+          "url": "https://www.petmd.com/dog/vet-verified/best-dog-food"
+        },
+        {
+          "index": 9,
+          "title": "Accepted Products - Veterinary Oral Health Council",
+          "url": "https://vohc.org/accepted-products/#:~:text=Hill's%20Science%20Diet%20Canine%20Oral%20Care%20Chews&text=Company:%20Hill's%20Pet%20Nutrition%2C%20Inc."
+        }
+      ],
+      "timestamp": "2026-01-24T22:22:51.742Z",
+      "durationMs": 298,
+      "success": true,
+      "responseSizeBytes": 1879
+    },
+    {
+      "queryIndex": 4,
+      "originalQuery": "Can you list a popular pet food brand with good meat content?",
+      "submittedQuery": "Can you list a popular pet food brand with good meat content?",
+      "response": "AI Overview:\nPopular pet food brands with high meat content and quality ingredients include Orijen, Acana, and Open Farm. These brands are known for using high-quality animal proteins, such as free-run chicken, turkey, and wild-caught fish, with Orijen featuring up to 85% animal ingredients in some formulas.\n\nTop High-Meat Content Brands:\n\nOrijen: Known for high-protein, \"biologically appropriate\" diets containing up to 85% meat, including organs and cartilage.\nAcana: Part of the same family as Orijen, focusing on protein-rich diets with human-grade meats.\nOpen Farm: Offers ethically sourced, high-meat options, including raw mix kibble.\nWellness Core: A popular, widely available grain-free option with high protein levels.\nMerrick: Often features deboned meat as the first ingredient.\nTaste of the Wild: Provides high-protein, grain-free options with varied protein sources.\n\nFor more budget-friendly or widely available options, Diamond Naturals is frequently recommended for using real meat.\n\nConsiderations for Selecting:\n\nMeat First: Look for products where the first ingredient is a specific meat (e.g., \"chicken\" rather than \"chicken meal\" or \"by-products\").\nProtein Percentage: High-meat foods often feature protein levels around 30% or higher, particularly in sport or performance formulas.\nAAFCO Compliance: Ensure the food meets AAFCO nutrient profiles for your pet's life stage.\n\nOrganic Results:\n1. 10 Popular Pet Food Brands Usually Referred By ...\n2. The List\n3. The Best Dry Dog Food Brands 2026\n4. Which is the best quality dog food (without considering ...\n5. Conscientiously sourced pet foods\n6. What is the brand of dog food with the highest meat content ...\n7. Is there something that lists best and worst cat food ...\n8. The Best Fresh Dog Food Brands in 2026, Tested and ...\n9. 10 Popular Pet Food Brands Your Customers Will Love\n10. Top 15 Best Dog Food Brands",
+      "aiOverview": "Popular pet food brands with high meat content and quality ingredients include Orijen, Acana, and Open Farm. These brands are known for using high-quality animal proteins, such as free-run chicken, turkey, and wild-caught fish, with Orijen featuring up to 85% animal ingredients in some formulas.\n\nTop High-Meat Content Brands:\n\nOrijen: Known for high-protein, \"biologically appropriate\" diets containing up to 85% meat, including organs and cartilage.\nAcana: Part of the same family as Orijen, focusing on protein-rich diets with human-grade meats.\nOpen Farm: Offers ethically sourced, high-meat options, including raw mix kibble.\nWellness Core: A popular, widely available grain-free option with high protein levels.\nMerrick: Often features deboned meat as the first ingredient.\nTaste of the Wild: Provides high-protein, grain-free options with varied protein sources.\n\nFor more budget-friendly or widely available options, Diamond Naturals is frequently recommended for using real meat.\n\nConsiderations for Selecting:\n\nMeat First: Look for products where the first ingredient is a specific meat (e.g., \"chicken\" rather than \"chicken meal\" or \"by-products\").\nProtein Percentage: High-meat foods often feature protein levels around 30% or higher, particularly in sport or performance formulas.\nAAFCO Compliance: Ensure the food meets AAFCO nutrient profiles for your pet's life stage.",
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "10 Popular Pet Food Brands Usually Referred By ...",
+          "url": "https://www.petcarerx.com/article/10-popular-pet-food-brands-usually-referred-by-veterinarians/6188?srsltid=AfmBOoo6E3F2Ufbktyz-l-F4gi0teH5u9ixh8s2CXTx4FPwiFAGasTu3",
+          "snippet": "Iams ProActive Health has become one of the top-rated dog foods on Amazon because it contains all-natural ingredients. It includes real chicken ..."
+        },
+        {
+          "position": 2,
+          "title": "The List",
+          "url": "https://truthaboutpetfood.com/the-list/",
+          "snippet": "We've spent countless hours cross-checking claims, and verifying ingredient standards so you get the information you need to make a quality pet ..."
+        },
+        {
+          "position": 3,
+          "title": "The Best Dry Dog Food Brands 2026",
+          "url": "https://www.dogfoodadvisor.com/best-dog-foods/best-dry-dog-foods/",
+          "snippet": "Here are the Dog Food Advisor's top 20 best dry dog food brands for the current month. Includes our detailed review and star rating."
+        },
+        {
+          "position": 4,
+          "title": "Which is the best quality dog food (without considering ...",
+          "url": "https://www.reddit.com/r/dogs/comments/17k0m3q/which_is_the_best_quality_dog_food_without/",
+          "snippet": "The number one brand seems to be Royal Canin followed by Pedigree, which is why I am here. I've heard of other brands like Woof and Orijen, as natural brands."
+        },
+        {
+          "position": 5,
+          "title": "Conscientiously sourced pet foods",
+          "url": "https://www.allthebestpetcare.com/products/conscientiously-sourced-pet-foods/",
+          "snippet": "Find dog and cat foods that are sustainable, organic, humanely-raised, free-range, cage-free, GMO-free, antibiotic-free, and conscientiously sourced."
+        },
+        {
+          "position": 6,
+          "title": "What is the brand of dog food with the highest meat content ...",
+          "url": "https://www.quora.com/What-is-the-brand-of-dog-food-with-the-highest-meat-content-Is-it-recommended-to-feed-dogs-a-diet-of-only-raw-meat-or-a-mix-of-raw-meat-and-kibble",
+          "snippet": "They include Purina (pro plan sport would be the one to look at and is by far the most popular), Eukanuba, Science Diet, and Royal Canin."
+        },
+        {
+          "position": 7,
+          "title": "Is there something that lists best and worst cat food ...",
+          "url": "https://www.facebook.com/groups/mainecoonsuk/posts/852435873732476/",
+          "snippet": "Seems dry food of any type is a baddie and important whatever you buy to check the meat content . Go Cat has long been said to be rubbish ..."
+        },
+        {
+          "position": 8,
+          "title": "The Best Fresh Dog Food Brands in 2026, Tested and ...",
+          "url": "https://www.businessinsider.com/guides/pets/best-fresh-dog-food",
+          "snippet": "The best fresh dog food brands offer home delivery and subscriptions. Our top tested picks are JustFoodForDogs, Farmer's Dog, Freshpet, ..."
+        },
+        {
+          "position": 9,
+          "title": "10 Popular Pet Food Brands Your Customers Will Love",
+          "url": "https://etailpet.io/blog/popular-pet-food-brands",
+          "snippet": "Orijen is the ultra-premium leader in biologically appropriate pet food with fresh, regional ingredients and high meat content. ... Key selling points: ... Orijen ..."
+        },
+        {
+          "position": 10,
+          "title": "Top 15 Best Dog Food Brands",
+          "url": "https://www.thepetexpress.co.uk/blog/dogs/top-10-dog-foods/",
+          "snippet": "... best. With a high meat content to provide plenty of protein, Symply dog food is not only good for your dog's insides but their outsides too; as the rich ..."
+        }
+      ],
+      "sources": [
+        {
+          "index": 1,
+          "title": "2026 Best & Worst Dog Foods",
+          "url": "https://www.youtube.com/watch?v=kOoFoyhN1ts&t=797"
+        },
+        {
+          "index": 2,
+          "title": "Open Farm: Best Ethically Sourced Dog & Cat Food",
+          "url": "https://openfarmpet.com/"
+        },
+        {
+          "index": 3,
+          "title": "Conscientiously sourced pet foods",
+          "url": "https://www.allthebestpetcare.com/products/conscientiously-sourced-pet-foods/#:~:text=Acana%20and%20Orijen,producers%20Champion%20knows%20and%20trusts."
+        },
+        {
+          "index": 4,
+          "title": "10 Popular Pet Food Brands Your Customers Will Love - Etailpet",
+          "url": "https://etailpet.io/blog/popular-pet-food-brands"
+        },
+        {
+          "index": 5,
+          "title": "10 Popular Pet Food Brands Usually Referred By Veterinarians",
+          "url": "https://www.petcarerx.com/article/10-popular-pet-food-brands-usually-referred-by-veterinarians/6188#:~:text=Diamond%20Naturals%20is%20a%20brand,in%20various%20flavors%20and%20sizes."
+        },
+        {
+          "index": 6,
+          "title": "What is the brand of dog food with the highest meat content ... - Quora",
+          "url": "https://www.quora.com/What-is-the-brand-of-dog-food-with-the-highest-meat-content-Is-it-recommended-to-feed-dogs-a-diet-of-only-raw-meat-or-a-mix-of-raw-meat-and-kibble#:~:text=When%20you%20look%20at%20quality,Science%20Diet%2C%20and%20Royal%20Canin."
+        },
+        {
+          "index": 7,
+          "title": "The 21 Best Dog Foods of 2026",
+          "url": "https://www.thesprucepets.com/best-dog-foods-4165114#:~:text=Hill's%20Pet%20Nutrition%20has%20been%20in%20business,fish%20(salmon%20or%20whitefish)%20as%20the%20first"
+        },
+        {
+          "index": 8,
+          "title": "4 Protein Options for Dog Food Without Chicken",
+          "url": "https://www.wellnesspetfood.com/blog/4-protein-options-for-dog-food-without-chicken/"
+        },
+        {
+          "index": 9,
+          "title": "2025 Top 10 Best Dog Foods (according to animaldocrea)",
+          "url": "https://www.youtube.com/watch?v=SR0_4aDFLL0&vl=en&t=128"
+        },
+        {
+          "index": 10,
+          "title": "Best Dog Food: How to Choose The Right Food For Your Dog",
+          "url": "https://blog.myollie.com/best-dog-food-how-to-choose-the-right-food-for-your-dog/#:~:text=Animal%20protein%20sources%20%E2%80%94%20Whole%20protein%20such,indicate%20lesser%20quality%20cuts%20or%20animal%20parts."
+        }
+      ],
+      "timestamp": "2026-01-24T22:22:56.984Z",
+      "durationMs": 320,
+      "success": true,
+      "responseSizeBytes": 1892
+    }
+  ],
+  "summary": {
+    "total": 5,
+    "successful": 5,
+    "failed": 0,
+    "avgDurationMs": 264.8,
+    "medianDurationMs": 298,
+    "p95DurationMs": 347,
+    "failureRate": 0
+  },
+  "environment": {
+    "nodeVersion": "v22.19.0",
+    "platform": "darwin",
+    "benthamVersion": "0.0.1",
+    "timezone": "America/Boise"
+  },
+  "schemaVersion": "1.0"
+}
