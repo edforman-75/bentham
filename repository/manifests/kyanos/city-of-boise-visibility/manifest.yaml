@@ -1,0 +1,119 @@
+# City of Boise Visibility Study Manifest
+# Client: Kyanos Electoral Analysis
+# Purpose: Measure government entity visibility across AI surfaces
+
+version: "1.0"
+id: "city-of-boise-visibility"
+name: "City of Boise Government Visibility Study"
+description: |
+  Study measuring the visibility of City of Boise government services,
+  officials, and initiatives across AI-powered surfaces. Tests how
+  accurately AI chatbots represent government information.
+
+tenant:
+  id: "kyanos"
+  name: "Kyanos Electoral Analysis"
+
+# Query Configuration
+queries:
+  source: "inline"
+  items:
+    - "Who is the mayor of Boise, Idaho?"
+    - "What services does the City of Boise provide?"
+    - "How do I pay my Boise water bill?"
+    - "What are the hours for Boise City Hall?"
+    - "How do I report a pothole in Boise?"
+    - "What is the Boise city budget?"
+    - "How do I get a building permit in Boise?"
+    - "What are Boise's public transportation options?"
+    - "How do I register to vote in Boise?"
+    - "What parks are in Boise?"
+    - "How do I contact Boise police non-emergency?"
+    - "What is Boise's recycling schedule?"
+    - "How do I file a complaint with City of Boise?"
+    - "What economic development programs does Boise offer?"
+    - "How do I start a business in Boise?"
+
+# Surfaces to query
+surfaces:
+  - id: "chatgpt-web"
+    enabled: true
+    priority: 1
+
+  - id: "openai-api"
+    enabled: true
+    priority: 2
+    config:
+      model: "gpt-4o"
+
+  - id: "google-search"
+    enabled: true
+    priority: 3
+    config:
+      captureAiOverview: true
+      useSerpApi: true
+
+  - id: "meta-ai-web"
+    enabled: true
+    priority: 4
+
+  - id: "bing-search"
+    enabled: true
+    priority: 5
+    config:
+      captureCopilot: true
+
+  - id: "perplexity-api"
+    enabled: true
+    priority: 6
+
+# Geographic locations
+locations:
+  - id: "us-boi"
+    enabled: true
+    proxyRequired: false
+    description: "Boise, Idaho - Local perspective"
+
+  - id: "us-national"
+    enabled: true
+    proxyRequired: false
+    description: "United States - National perspective"
+
+# Execution configuration
+execution:
+  concurrency: 1
+  retryConfig:
+    maxRetries: 3
+    backoffStrategy: "exponential"
+    initialDelayMs: 2000
+    maxDelayMs: 60000
+  checkpointEnabled: true
+  checkpointIntervalQueries: 5
+  timeouts:
+    queryMs: 60000
+    surfaceMs: 120000
+
+# Output configuration
+output:
+  format: "json"
+  directory: "./results/city-of-boise"
+  filePattern: "{study}-{surface}-{timestamp}.json"
+  includeRawResponses: true
+  includeTimings: true
+
+# Quality gates
+qualityGates:
+  minSuccessRate: 75
+  maxFailureStreak: 3
+
+# Metadata
+metadata:
+  client: "City of Boise / Kyanos"
+  project: "Government Visibility Q1 2026"
+  owner: "Kyanos Research Team"
+  created: "2026-01-25"
+  tags:
+    - "government"
+    - "local-services"
+    - "municipal"
+    - "ai-accuracy"

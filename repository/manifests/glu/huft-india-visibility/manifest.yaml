@@ -1,0 +1,148 @@
+# HUFT India Visibility Study Manifest
+# Client: Heads Up For Tails (HUFT)
+# Purpose: Measure brand visibility across AI surfaces in India market
+
+version: "1.0"
+id: "huft-india-visibility"
+name: "HUFT India Brand Visibility Study"
+description: |
+  Comprehensive study measuring Heads Up For Tails (HUFT) brand visibility
+  across AI chatbots and search engines from India IP addresses. Tests both
+  original queries and queries with India suffix for localization impact.
+
+tenant:
+  id: "glu"
+  name: "GLU Brand Analysis"
+
+# Query Configuration
+queries:
+  source: "file"
+  file: "./queries.yaml"
+  transformations:
+    - type: "suffix"
+      value: " in India"
+      condition: "variant:india-suffix"
+
+# Surfaces to query
+surfaces:
+  - id: "chatgpt-web"
+    enabled: true
+    priority: 1
+    config:
+      waitForStreaming: true
+      captureScreenshot: false
+
+  - id: "openai-api"
+    enabled: true
+    priority: 2
+    config:
+      model: "gpt-4o"
+      maxTokens: 2000
+
+  - id: "google-search"
+    enabled: true
+    priority: 3
+    config:
+      captureAiOverview: true
+      useSerpApi: true
+
+  - id: "gemini-api"
+    enabled: true
+    priority: 4
+    config:
+      model: "gemini-2.0-flash"
+
+  - id: "meta-ai-web"
+    enabled: true
+    priority: 5
+
+  - id: "perplexity-api"
+    enabled: true
+    priority: 6
+
+# Geographic locations
+locations:
+  - id: "in-mum"
+    enabled: true
+    proxyRequired: true
+    proxyProvider: "cherry-proxy"
+    description: "Mumbai, India - Primary India location"
+
+  - id: "in-blr"
+    enabled: false
+    proxyRequired: true
+    proxyProvider: "cherry-proxy"
+    description: "Bangalore, India - Secondary India location"
+
+  - id: "us-national"
+    enabled: true
+    proxyRequired: false
+    description: "United States - Baseline comparison"
+
+# Execution configuration
+execution:
+  concurrency: 1
+  retryConfig:
+    maxRetries: 3
+    backoffStrategy: "exponential"
+    initialDelayMs: 2000
+    maxDelayMs: 60000
+  checkpointEnabled: true
+  checkpointIntervalQueries: 5
+  timeouts:
+    queryMs: 60000
+    surfaceMs: 120000
+    totalMs: 7200000  # 2 hours max
+
+# Output configuration
+output:
+  format: "json"
+  directory: "./results/huft-india-visibility"
+  filePattern: "{study}-{surface}-{location}-{timestamp}.json"
+  includeRawResponses: true
+  includeTimings: true
+
+# Quality gates
+qualityGates:
+  minSuccessRate: 80
+  maxFailureStreak: 3
+  requiredSurfaces:
+    - "chatgpt-web"
+    - "openai-api"
+
+# Study variants
+variants:
+  - id: "original"
+    description: "Original queries without modification"
+    queryTransformation: null
+
+  - id: "india-suffix"
+    description: "Queries with ' in India' suffix"
+    queryTransformation:
+      type: "suffix"
+      value: " in India"
+
+# Cost tracking
+costTracking:
+  enabled: true
+  budgetUsd: 50.00
+  alertThresholdPercent: 80
+
+# Scheduling (optional)
+schedule:
+  enabled: false
+  cron: "0 6 * * 1"  # Weekly on Monday at 6 AM
+  timezone: "Asia/Kolkata"
+
+# Metadata
+metadata:
+  client: "Heads Up For Tails"
+  project: "AI Visibility Analysis Q1 2026"
+  owner: "GLU Research Team"
+  created: "2026-01-25"
+  lastModified: "2026-01-25"
+  tags:
+    - "pet-food"
+    - "india-market"
+    - "brand-visibility"
+    - "ai-chatbots"
