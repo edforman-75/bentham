@@ -65,7 +65,6 @@ async function testApiSurface(
 
     const response = await adapter.query({
       query,
-      conversationId: `test-${Date.now()}`,
     });
 
     // Close if method exists
@@ -127,7 +126,6 @@ async function testWebSurface(
 
     const response = await adapter.query({
       query,
-      conversationId: `test-${Date.now()}`,
     });
 
     // Close if method exists

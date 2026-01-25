@@ -1,0 +1,33 @@
+{
+  "name": "@bentham/cli",
+  "version": "0.1.0",
+  "description": "Bentham CLI - Run AI surface queries with location control",
+  "type": "module",
+  "bin": {
+    "bentham": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "lint": "eslint src/",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@bentham/core": "workspace:*",
+    "@bentham/proxy-manager": "workspace:*",
+    "@bentham/surface-adapters": "workspace:*",
+    "commander": "^12.0.0",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.0",
+    "yaml": "^2.3.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0",
+    "tsx": "^4.7.0",
+    "vitest": "^1.0.0"
+  }
+}
