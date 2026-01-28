@@ -88,6 +88,7 @@ export {
   type OpenGraphTags,
   type TwitterCardTags,
   type ProductMetadata,
+  type CollectionMetadata,
 } from './collectors/metadata-collector.js';
 
 // LLM Reachability

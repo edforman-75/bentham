@@ -91,6 +91,26 @@ export interface ProductMetadata {
 }
 
 /**
+ * Collection-specific metadata (extracted from page content)
+ */
+export interface CollectionMetadata {
+  /** Collection name/title */
+  name: string | null;
+  /** Collection description */
+  description: string | null;
+  /** Number of products in collection */
+  productCount: number | null;
+  /** Subcategories or filter options */
+  subcategories: string[];
+  /** Product URLs found in the collection */
+  productUrls: string[];
+  /** Breadcrumb path */
+  breadcrumbs: string[];
+  /** Sort/filter options available */
+  filters: string[];
+}
+
+/**
  * Complete page metadata result
  */
 export interface PageMetadataResult {
@@ -125,6 +145,12 @@ export interface PageMetadataResult {
 
   /** Extracted product metadata */
   product: ProductMetadata | null;
+
+  /** Extracted collection metadata */
+  collection: CollectionMetadata | null;
+
+  /** ItemList/CollectionPage schema from JSON-LD (if present) */
+  collectionSchema: any | null;
 
   /** Page type detection */
   pageType: 'product' | 'collection' | 'article' | 'homepage' | 'other';
@@ -423,6 +449,103 @@ async function extractProductMetadata(
 }
 
 /**
+ * Extract collection-specific metadata from the page
+ */
+async function extractCollectionMetadata(
+  page: Page,
+  jsonLd: any[],
+): Promise<CollectionMetadata | null> {
+  // Get ItemList or CollectionPage schema
+  const collectionSchema = jsonLd.find(item =>
+    item['@type'] === 'ItemList' ||
+    item['@type'] === 'CollectionPage' ||
+    (Array.isArray(item['@type']) && (item['@type'].includes('ItemList') || item['@type'].includes('CollectionPage')))
+  );
+
+  // Extract from DOM
+  const domData = await page.evaluate(() => {
+    const result: any = {
+      subcategories: [] as string[],
+      productUrls: [] as string[],
+      breadcrumbs: [] as string[],
+      filters: [] as string[],
+    };
+
+    // Get collection name from h1 or title
+    result.name = document.querySelector('h1')?.textContent?.trim() ||
+      document.querySelector('[data-collection-title]')?.textContent?.trim() ||
+      null;
+
+    // Get collection description
+    result.description =
+      document.querySelector('[data-collection-description]')?.textContent?.trim() ||
+      document.querySelector('.collection-description')?.textContent?.trim() ||
+      document.querySelector('.category-description')?.textContent?.trim() ||
+      null;
+
+    // Count products (look for product grid items)
+    const productElements = document.querySelectorAll(
+      '[data-product-id], .product-card, .product-item, .product-grid-item, [class*="ProductCard"], [class*="product-card"]'
+    );
+    result.productCount = productElements.length || null;
+
+    // Extract product URLs from the collection
+    document.querySelectorAll('a[href*="/products/"], a[href*="/product/"], a[href*="/p/"]').forEach(link => {
+      const href = (link as HTMLAnchorElement).href;
+      if (href && !result.productUrls.includes(href)) {
+        result.productUrls.push(href);
+      }
+    });
+
+    // Get subcategories (links within the collection that lead to other collections)
+    document.querySelectorAll('.subcategory a, .sub-collection a, [data-subcategory] a, .category-nav a').forEach(link => {
+      const text = link.textContent?.trim();
+      if (text && !result.subcategories.includes(text)) {
+        result.subcategories.push(text);
+      }
+    });
+
+    // Get breadcrumbs
+    document.querySelectorAll('.breadcrumb a, nav[aria-label="Breadcrumb"] a, [class*="breadcrumb"] a').forEach(el => {
+      const text = el.textContent?.trim();
+      if (text && !result.breadcrumbs.includes(text)) {
+        result.breadcrumbs.push(text);
+      }
+    });
+
+    // Get available filters
+    document.querySelectorAll('.filter-option, [data-filter], .facet-option, [class*="filter"] label, [class*="Filter"] label').forEach(el => {
+      const text = el.textContent?.trim();
+      if (text && text.length < 50 && !result.filters.includes(text)) {
+        result.filters.push(text);
+      }
+    });
+
+    return result;
+  });
+
+  // If no collection data found, return null
+  if (!collectionSchema && !domData.name && domData.productUrls.length === 0) {
+    return null;
+  }
+
+  // Get product count from ItemList if available
+  const schemaProductCount = collectionSchema?.numberOfItems ||
+    collectionSchema?.itemListElement?.length ||
+    null;
+
+  return {
+    name: collectionSchema?.name || domData.name,
+    description: collectionSchema?.description || domData.description,
+    productCount: schemaProductCount || domData.productCount,
+    subcategories: domData.subcategories,
+    productUrls: domData.productUrls.slice(0, 50), // Limit to first 50
+    breadcrumbs: domData.breadcrumbs,
+    filters: domData.filters,
+  };
+}
+
+/**
  * Extract complete metadata from a page
  */
 export async function extractPageMetadata(page: Page, url?: string): Promise<PageMetadataResult> {
@@ -456,9 +579,20 @@ export async function extractPageMetadata(page: Page, url?: string): Promise<Pag
       item['@type'] === 'BreadcrumbList'
     ) || null;
 
+    const collectionSchema = jsonLd.find(item =>
+      item['@type'] === 'ItemList' ||
+      item['@type'] === 'CollectionPage' ||
+      (Array.isArray(item['@type']) && (item['@type'].includes('ItemList') || item['@type'].includes('CollectionPage')))
+    ) || null;
+
     // Extract product metadata if it's a product page
     const product = pageType === 'product'
       ? await extractProductMetadata(page, jsonLd, platform)
+      : null;
+
+    // Extract collection metadata if it's a collection page
+    const collection = pageType === 'collection'
+      ? await extractCollectionMetadata(page, jsonLd)
       : null;
 
     return {
@@ -473,7 +607,9 @@ export async function extractPageMetadata(page: Page, url?: string): Promise<Pag
       productSchema,
       organizationSchema,
       breadcrumbSchema,
+      collectionSchema,
       product,
+      collection,
       pageType,
       platform,
     };
@@ -501,7 +637,9 @@ export async function extractPageMetadata(page: Page, url?: string): Promise<Pag
       productSchema: null,
       organizationSchema: null,
       breadcrumbSchema: null,
+      collectionSchema: null,
       product: null,
+      collection: null,
       pageType: 'other',
       platform: 'unknown',
     };

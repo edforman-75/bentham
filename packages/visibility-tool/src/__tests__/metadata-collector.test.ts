@@ -70,6 +70,8 @@ describe('Metadata Collector', () => {
           '@type': 'BreadcrumbList',
           itemListElement: [],
         },
+        collectionSchema: null,
+        collection: null,
         product: {
           name: 'Test Product',
           description: 'A great test product',
@@ -135,7 +137,9 @@ describe('Metadata Collector', () => {
         productSchema: null,
         organizationSchema: null,
         breadcrumbSchema: null,
+        collectionSchema: null,
         product: null,
+        collection: null,
         pageType: 'product',
         platform: 'unknown',
       };
@@ -191,7 +195,9 @@ describe('Metadata Collector', () => {
         productSchema: null,
         organizationSchema: { '@type': 'Organization', name: 'Example Store' },
         breadcrumbSchema: null,
+        collectionSchema: null,
         product: null,
+        collection: null,
         pageType: 'homepage',
         platform: 'shopify',
       };
@@ -242,6 +248,7 @@ describe('Metadata Collector', () => {
         productSchema: { '@type': 'Product', name: 'Test' },
         organizationSchema: null,
         breadcrumbSchema: null,
+        collectionSchema: null,
         product: {
           name: 'Test Product',
           description: null,
@@ -256,6 +263,7 @@ describe('Metadata Collector', () => {
           rating: { value: null, count: null },
           images: [],
         },
+        collection: null,
         pageType: 'product',
         platform: 'custom',
       };
@@ -270,6 +278,89 @@ describe('Metadata Collector', () => {
       expect(result.missing).toContain('canonical URL');
       expect(result.missing).toContain('og:description');
       expect(result.missing).toContain('og:image');
+    });
+  });
+
+  describe('CollectionMetadata interface', () => {
+    it('should have correct structure for collection pages', () => {
+      const metadata: PageMetadataResult = {
+        url: 'https://example.com/collections/shoes',
+        timestamp: new Date().toISOString(),
+        success: true,
+        pageTitle: 'Shoes Collection - Example Store',
+        metaTags: {
+          title: 'Shoes Collection - Example Store',
+          description: 'Browse our shoes collection',
+          keywords: null,
+          robots: null,
+          canonical: 'https://example.com/collections/shoes',
+          author: null,
+          viewport: null,
+        },
+        openGraph: {
+          title: 'Shoes Collection',
+          description: 'Browse our shoes collection',
+          image: 'https://example.com/images/shoes.jpg',
+          url: 'https://example.com/collections/shoes',
+          type: 'website',
+          siteName: 'Example Store',
+          locale: null,
+          'product:price:amount': null,
+          'product:price:currency': null,
+        },
+        twitterCard: {
+          card: 'summary',
+          title: 'Shoes Collection',
+          description: null,
+          image: null,
+          site: null,
+          creator: null,
+        },
+        jsonLd: [{
+          '@type': 'ItemList',
+          name: 'Shoes',
+          numberOfItems: 24,
+        }],
+        productSchema: null,
+        organizationSchema: null,
+        breadcrumbSchema: null,
+        collectionSchema: {
+          '@type': 'ItemList',
+          name: 'Shoes',
+          numberOfItems: 24,
+        },
+        product: null,
+        collection: {
+          name: 'Shoes',
+          description: 'Browse our shoes collection',
+          productCount: 24,
+          subcategories: ['Running', 'Casual', 'Formal'],
+          productUrls: [
+            'https://example.com/products/shoe-1',
+            'https://example.com/products/shoe-2',
+          ],
+          breadcrumbs: ['Home', 'Shop', 'Shoes'],
+          filters: ['Size', 'Color', 'Price'],
+        },
+        pageType: 'collection',
+        platform: 'shopify',
+      };
+
+      // Verify collection metadata structure
+      expect(metadata.collection).not.toBeNull();
+      expect(metadata.collection?.name).toBe('Shoes');
+      expect(metadata.collection?.productCount).toBe(24);
+      expect(metadata.collection?.subcategories).toHaveLength(3);
+      expect(metadata.collection?.productUrls).toHaveLength(2);
+      expect(metadata.collection?.breadcrumbs).toContain('Shoes');
+      expect(metadata.collection?.filters).toContain('Size');
+
+      // Verify page type
+      expect(metadata.pageType).toBe('collection');
+
+      // Collection pages should get full product score
+      const result = scoreMetadataCompleteness(metadata);
+      expect(result.breakdown.productData).toBe(15);
     });
   });
 });
