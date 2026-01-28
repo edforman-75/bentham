@@ -1,0 +1,1958 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLU/GEO Product Positioning | Strategic Recommendation</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --navy: #003366;
+            --gold: #C9A227;
+            --charcoal: #2C2C2C;
+            --light-gray: #F5F5F5;
+            --medium-gray: #E0E0E0;
+            --text-primary: #1A1A1A;
+            --text-secondary: #666666;
+            --accent-blue: #0066CC;
+            --accent-red: #CC3333;
+            --accent-green: #228B22;
+        }
+
+        body {
+            font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: white;
+            color: var(--text-primary);
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        /* Cover Page */
+        .cover {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, var(--navy) 0%, #001a33 100%);
+            color: white;
+            text-align: center;
+            padding: 60px;
+            page-break-after: always;
+        }
+
+        .cover-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 14px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 80px;
+        }
+
+        .cover h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 400;
+            line-height: 1.2;
+            margin-bottom: 30px;
+            max-width: 800px;
+        }
+
+        .cover-subtitle {
+            font-size: 22px;
+            font-weight: 300;
+            color: rgba(255,255,255,0.8);
+            margin-bottom: 60px;
+        }
+
+        .cover-meta {
+            margin-top: auto;
+            font-size: 14px;
+            color: rgba(255,255,255,0.6);
+        }
+
+        .cover-meta p {
+            margin: 5px 0;
+        }
+
+        .gold-line {
+            width: 80px;
+            height: 2px;
+            background: var(--gold);
+            margin: 40px auto;
+        }
+
+        /* Page Layout */
+        .page {
+            min-height: 100vh;
+            padding: 60px 80px;
+            page-break-after: always;
+            position: relative;
+        }
+
+        .page-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--medium-gray);
+        }
+
+        .page-number {
+            font-size: 12px;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .section-label {
+            font-size: 11px;
+            color: var(--navy);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 600;
+        }
+
+        /* Typography */
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            font-weight: 400;
+            color: var(--navy);
+            margin-bottom: 30px;
+            line-height: 1.2;
+        }
+
+        h3 {
+            font-size: 22px;
+            font-weight: 600;
+            color: var(--charcoal);
+            margin: 30px 0 15px 0;
+        }
+
+        h4 {
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-secondary);
+            margin: 25px 0 10px 0;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: var(--text-primary);
+        }
+
+        .lead {
+            font-size: 20px;
+            font-weight: 300;
+            color: var(--text-secondary);
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        /* Key Insight Box */
+        .insight-box {
+            background: var(--navy);
+            color: white;
+            padding: 35px 40px;
+            margin: 30px 0;
+            position: relative;
+        }
+
+        .insight-box::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: var(--gold);
+        }
+
+        .insight-box h4 {
+            color: var(--gold);
+            margin-top: 0;
+        }
+
+        .insight-box p {
+            color: white;
+            font-size: 18px;
+            margin-bottom: 0;
+        }
+
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .stats-grid.three {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .stat-card {
+            text-align: center;
+            padding: 30px 20px;
+            background: var(--light-gray);
+            border-top: 3px solid var(--navy);
+        }
+
+        .stat-card .number {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: var(--navy);
+        }
+
+        .stat-card .number.negative {
+            color: var(--accent-red);
+        }
+
+        .stat-card .number.positive {
+            color: var(--accent-green);
+        }
+
+        .stat-card .label {
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-secondary);
+            margin-top: 10px;
+        }
+
+        /* Tables */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 14px;
+        }
+
+        .data-table th {
+            text-align: left;
+            padding: 15px 20px;
+            background: var(--navy);
+            color: white;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+
+        .data-table td {
+            padding: 15px 20px;
+            border-bottom: 1px solid var(--medium-gray);
+        }
+
+        .data-table tr:nth-child(even) {
+            background: var(--light-gray);
+        }
+
+        .data-table .highlight {
+            color: var(--accent-blue);
+            font-weight: 600;
+        }
+
+        .data-table .negative {
+            color: var(--accent-red);
+            font-weight: 600;
+        }
+
+        .data-table .positive {
+            color: var(--accent-green);
+            font-weight: 600;
+        }
+
+        /* Two Column Layout */
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            margin: 30px 0;
+        }
+
+        .three-col {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin: 30px 0;
+        }
+
+        /* Callout */
+        .callout {
+            background: var(--light-gray);
+            padding: 25px 30px;
+            border-left: 4px solid var(--navy);
+            margin: 25px 0;
+        }
+
+        .callout.warning {
+            background: #FFF8E6;
+            border-left-color: var(--gold);
+        }
+
+        .callout.critical {
+            background: #FFE6E6;
+            border-left-color: var(--accent-red);
+        }
+
+        .callout.success {
+            background: #E6FFE6;
+            border-left-color: var(--accent-green);
+        }
+
+        .callout h4 {
+            margin-top: 0;
+            color: var(--navy);
+        }
+
+        /* Quote */
+        .quote {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-style: italic;
+            color: var(--navy);
+            text-align: center;
+            padding: 40px 60px;
+            margin: 40px 0;
+            border-top: 1px solid var(--medium-gray);
+            border-bottom: 1px solid var(--medium-gray);
+        }
+
+        /* Recommendation Cards */
+        .rec-card {
+            border: 1px solid var(--medium-gray);
+            padding: 25px;
+            margin: 20px 0;
+            position: relative;
+        }
+
+        .rec-card.priority-critical {
+            border-left: 4px solid var(--accent-red);
+        }
+
+        .rec-card.priority-high {
+            border-left: 4px solid var(--gold);
+        }
+
+        .rec-card.priority-medium {
+            border-left: 4px solid var(--accent-blue);
+        }
+
+        .rec-number {
+            position: absolute;
+            top: -12px;
+            left: 20px;
+            background: var(--navy);
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .rec-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 15px;
+        }
+
+        .rec-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--charcoal);
+        }
+
+        .priority-badge {
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 4px 12px;
+            font-weight: 600;
+        }
+
+        .priority-badge.critical {
+            background: var(--accent-red);
+            color: white;
+        }
+
+        .priority-badge.high {
+            background: var(--gold);
+            color: var(--charcoal);
+        }
+
+        .priority-badge.medium {
+            background: var(--accent-blue);
+            color: white;
+        }
+
+        /* Exhibit Label */
+        .exhibit-label {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--navy);
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        /* Footer */
+        .page-footer {
+            position: absolute;
+            bottom: 30px;
+            left: 80px;
+            right: 80px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 11px;
+            color: var(--text-secondary);
+            padding-top: 15px;
+            border-top: 1px solid var(--medium-gray);
+        }
+
+        /* Lists */
+        ul, ol {
+            margin: 15px 0 15px 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Comparison boxes */
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin: 30px 0;
+        }
+
+        .comparison-box {
+            padding: 25px;
+            border: 2px solid var(--medium-gray);
+        }
+
+        .comparison-box.api {
+            border-color: var(--accent-blue);
+            background: #F0F7FF;
+        }
+
+        .comparison-box.web {
+            border-color: var(--accent-green);
+            background: #F0FFF0;
+        }
+
+        .comparison-box h4 {
+            margin-top: 0;
+        }
+
+        /* Decision matrix */
+        .decision-option {
+            border: 2px solid var(--medium-gray);
+            padding: 25px;
+            margin: 20px 0;
+        }
+
+        .decision-option.recommended {
+            border-color: var(--accent-green);
+            background: #F0FFF0;
+        }
+
+        .decision-option h4 {
+            margin-top: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .decision-option .badge {
+            font-size: 10px;
+            background: var(--accent-green);
+            color: white;
+            padding: 4px 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Section divider */
+        .section-divider {
+            height: 1px;
+            background: var(--medium-gray);
+            margin: 40px 0;
+        }
+
+        @media print {
+            .page {
+                page-break-after: always;
+            }
+            .cover {
+                page-break-after: always;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover">
+    <div class="cover-logo">Bentham Research</div>
+    <h1>GLU/GEO Product Positioning</h1>
+    <div class="gold-line"></div>
+    <p class="cover-subtitle">Strategic Recommendation for Go-to-Market</p>
+    <div class="cover-meta">
+        <p>Prepared for GLU/GEO Co-Founders</p>
+        <p>January 2026</p>
+        <p>Confidential</p>
+    </div>
+</div>
+
+<!-- EXECUTIVE SUMMARY -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">Executive Summary</span>
+        <span class="page-number">Page 1</span>
+    </div>
+
+    <h2>The Central Question</h2>
+
+    <p class="lead">GLU/GEO measures brand visibility through foundation model APIs—not through consumer-facing web surfaces like ChatGPT.com or Google AI Overviews. Given what we learned from the HUFT study about API vs. web surface divergence, how should we position this product for a two-week launch?</p>
+
+    <div class="insight-box">
+        <h4>Our Recommendation</h4>
+        <p>Position GLU/GEO as <strong>"Foundation Model Visibility"</strong>—the stable, reproducible measurement of what AI systems actually know about your brand. This is the training data floor: brands invisible to APIs will never surface in consumer experiences. Be transparent that web surfaces add layers we don't yet measure, and frame this as a roadmap item.</p>
+    </div>
+
+    <h3>What the HUFT Study Revealed</h3>
+
+    <div class="stats-grid three">
+        <div class="stat-card">
+            <div class="number">+83</div>
+            <div class="label">HUFT mentions added<br>by ChatGPT Web layer</div>
+        </div>
+        <div class="stat-card">
+            <div class="number negative">-97%</div>
+            <div class="label">Brand mentions reduced<br>in Google AI Overviews</div>
+        </div>
+        <div class="stat-card">
+            <div class="number">2</div>
+            <div class="label">Distinct augmentation<br>behaviors observed</div>
+        </div>
+    </div>
+
+    <p>The HUFT study compared foundation model APIs (OpenAI GPT-4o, Google Gemini) with consumer-facing web surfaces (ChatGPT.com, Google AI Overviews). We found two fundamentally different augmentation patterns:</p>
+
+    <div class="comparison-grid">
+        <div class="comparison-box api">
+            <h4>ChatGPT Web vs OpenAI API</h4>
+            <p><strong>Web layer ADDS visibility.</strong> ChatGPT.com incorporates real-time search, adding +56 "Heads Up For Tails" and +27 "HUFT" mentions versus API baseline. India-focused e-commerce sites are surfaced.</p>
+        </div>
+        <div class="comparison-box web">
+            <h4>Google AI Overview vs Gemini API</h4>
+            <p><strong>Web layer REDUCES visibility.</strong> Google AI Overviews are more conservative than Gemini API—showing only 4 brand mentions total while Gemini API shows 40+. Google curates aggressively.</p>
+        </div>
+    </div>
+
+    <div class="callout warning">
+        <h4>The Implication for GLU/GEO</h4>
+        <p>API measurement captures what the model knows—but consumer experience differs. For ChatGPT, API is a floor (web adds more). For Google, API overstates (web shows less). We must be honest about this.</p>
+    </div>
+
+    <div class="page-footer">
+        <span>Confidential — GLU/GEO</span>
+        <span>Bentham Research</span>
+    </div>
+</div>
+
+<!-- WHAT API MEASUREMENT CAPTURES -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">1. Understanding the Product</span>
+        <span class="page-number">Page 2</span>
+    </div>
+
+    <h2>What API Measurement Actually Captures</h2>
+
+    <p class="lead">GLU/GEO queries foundation models directly via their APIs. This measures the model's internalized knowledge—what it "knows" from training data, without real-time augmentation.</p>
+
+    <h3>The Foundation Model Layer</h3>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Characteristic</th>
+                <th>Foundation Model (API)</th>
+                <th>Web Surface</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Knowledge source</td>
+                <td>Training data (pre-trained knowledge)</td>
+                <td>Training data + real-time search + citations</td>
+            </tr>
+            <tr>
+                <td>Reproducibility</td>
+                <td class="positive">High (same query → similar response)</td>
+                <td class="negative">Low (varies by session, location, history)</td>
+            </tr>
+            <tr>
+                <td>Controllability</td>
+                <td class="positive">Full (parameters, temperature, etc.)</td>
+                <td class="negative">None (black box)</td>
+            </tr>
+            <tr>
+                <td>Cost</td>
+                <td>Per-token pricing, predictable</td>
+                <td>Scraping required, fragile</td>
+            </tr>
+            <tr>
+                <td>Geographic targeting</td>
+                <td class="negative">Limited (some APIs allow location hints)</td>
+                <td class="positive">Natural (IP-based localization)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Why Foundation Model Visibility Matters</h3>
+
+    <div class="callout success">
+        <h4>The Training Data Floor</h4>
+        <p>If a brand doesn't appear in API responses, it is not in the model's training data. No amount of web layer augmentation can create knowledge that isn't there. API visibility represents the <strong>minimum guaranteed presence</strong> in the AI's knowledge base.</p>
+    </div>
+
+    <p>Consider the implications:</p>
+
+    <ul>
+        <li><strong>For ChatGPT:</strong> API visibility is the floor. If you're visible in API, you'll be visible in ChatGPT.com (likely more so). If you're invisible in API, you're relying entirely on real-time search to surface your brand.</li>
+        <li><strong>For Google:</strong> API visibility is an upper bound. Google AI Overviews are more conservative than Gemini API—so if you're invisible in API, you definitely won't appear in AI Overviews.</li>
+        <li><strong>For all models:</strong> API visibility reflects training data quality. This is the lever brands can actually influence through content strategy.</li>
+    </ul>
+
+    <div class="insight-box">
+        <h4>Key Insight</h4>
+        <p>Foundation model visibility is actionable. Brands can improve their presence in training data through better content, authoritative citations, and structured data. Web layer augmentation is largely outside brand control—it depends on platform decisions and real-time search rankings.</p>
+    </div>
+
+    <div class="page-footer">
+        <span>Confidential — GLU/GEO</span>
+        <span>Bentham Research</span>
+    </div>
+</div>
+
+<!-- ENTITY COHERENCE -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">2. The Entity Coherence Insight</span>
+        <span class="page-number">Page 3</span>
+    </div>
+
+    <h2>Why Some Brands Are Invisible to AI</h2>
+
+    <p class="lead">Our research reveals a critical pattern: AI systems don't just count mentions—they evaluate the coherence of brand signals across multiple independent sources. Brands with fragmented presence get systematically deprioritized.</p>
+
+    <div class="insight-box">
+        <h4>The Entity Coherence Principle</h4>
+        <p>When AI models encounter a brand mentioned consistently across Wikipedia, authoritative news sources, e-commerce platforms, and official brand properties—with aligned messaging and accurate information—they treat that brand as a reliable entity worth recommending. Fragmented or contradictory signals create uncertainty, and AI systems default to silence.</p>
+    </div>
+
+    <h3>What Creates Strong Entity Coherence</h3>
+
+    <div class="comparison-grid">
+        <div class="comparison-box api">
+            <h4>High Coherence (Blue Buffalo)</h4>
+            <ul>
+                <li>Consistent brand story across Amazon, website, Wikipedia</li>
+                <li>Optimized A+ content on marketplace</li>
+                <li>Authoritative citations in pet nutrition sources</li>
+                <li>Direct-to-consumer commerce capability</li>
+                <li>Strong owned property (SSOT)</li>
+            </ul>
+            <p style="margin-top: 15px;"><strong>Result:</strong> 42% Google organic visibility, 25% ChatGPT visibility</p>
+        </div>
+        <div class="comparison-box web">
+            <h4>Low Coherence (Natural Balance)</h4>
+            <ul>
+                <li>Fragmented messaging across channels</li>
+                <li>No direct-to-consumer shopping</li>
+                <li>Amazon content not brand-controlled</li>
+                <li>Weak owned property presence</li>
+                <li>No single source of truth</li>
+            </ul>
+            <p style="margin-top: 15px;"><strong>Result:</strong> 12% Google organic visibility, 4% Amazon Rufus visibility</p>
+        </div>
+    </div>
+
+    <h3>The Measurement-to-Optimization Bridge</h3>
+
+    <p>This insight transforms GLU/GEO's value proposition. We don't just measure visibility—we can diagnose <em>why</em> visibility is low and prescribe <em>what to fix</em>.</p>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Coherence Problem</th>
+                <th>Visibility Symptom</th>
+                <th>Optimization Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>No single source of truth</td>
+                <td>Inconsistent brand info in AI responses</td>
+                <td>Strengthen owned property with canonical brand data</td>
+            </tr>
+            <tr>
+                <td>Weak Amazon presence</td>
+                <td>Missing from e-commerce AI queries</td>
+                <td>Optimize A+ content, bullet points, brand store</td>
+            </tr>
+            <tr>
+                <td>No authoritative citations</td>
+                <td>AI doesn't trust brand claims</td>
+                <td>Earn mentions in authoritative industry sources</td>
+            </tr>
+            <tr>
+                <td>Inconsistent messaging</td>
+                <td>AI hedges or omits brand</td>
+                <td>Align messaging across all digital touchpoints</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="callout success">
+        <h4>Strategic Implication</h4>
+        <p>Entity coherence is <strong>actionable</strong>. Unlike web surface augmentation (which platforms control), brands can directly improve their coherence through content strategy, owned property optimization, and marketplace content management. This is the lever GLU/GEO helps brands pull.</p>
+    </div>
+
+    <div class="page-footer">
+        <span>Confidential — GLU/GEO</span>
+        <span>Bentham Research</span>
+    </div>
+</div>
+
+<!-- POSITIONING OPTIONS -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">3. Positioning Options</span>
+        <span class="page-number">Page 4</span>
+    </div>
+
+    <h2>Three Positioning Strategies</h2>
+
+    <p class="lead">We evaluated three approaches to representing GLU/GEO's measurement capability. Each has distinct implications for market positioning, customer expectations, and competitive differentiation.</p>
+
+    <div class="decision-option">
+        <h4>
+            Option A: "AI Visibility Platform"
+            <span style="color: var(--accent-red); font-size: 12px;">NOT RECOMMENDED</span>
+        </h4>
+        <p>Position as comprehensive AI visibility measurement without distinguishing API from web surfaces.</p>
+        <p><strong>Risk:</strong> Customers will expect measurement of what consumers actually see (ChatGPT.com, Google AI Overviews). When they discover we only measure APIs, trust erodes. HUFT-style studies reveal the gap.</p>
+        <p><strong>Verdict:</strong> Overpromises. Creates expectation debt that will be called in.</p>
+    </div>
+
+    <div class="decision-option recommended">
+        <h4>
+            Option B: "Foundation Model Visibility"
+            <span class="badge">Recommended</span>
+        </h4>
+        <p>Position as measurement of what AI models actually know—the training data layer that underpins all AI responses.</p>
+        <p><strong>Messaging:</strong> "GLU/GEO measures your brand's presence in the AI knowledge base—what models like GPT-4 and Gemini actually know about you. This is the foundation that all AI-generated content builds upon."</p>
+        <p><strong>Advantage:</strong> Honest, differentiated, and defensible. Creates a category we can own. Web surface measurement becomes a natural roadmap expansion, not an admission of missing features.</p>
+        <p><strong>Verdict:</strong> Clear value proposition with room to grow.</p>
+    </div>
+
+    <div class="decision-option">
+        <h4>
+            Option C: "AI Training Data Audit"
+            <span style="color: var(--text-secondary); font-size: 12px;">VIABLE ALTERNATIVE</span>
+        </h4>
+        <p>Position as diagnostic tool for understanding how your brand is represented in AI training data.</p>
+        <p><strong>Advantage:</strong> Appeals to technical buyers. Clear about what we measure.</p>
+        <p><strong>Risk:</strong> May feel too narrow. "Training data" is jargon that CMOs may not connect with.</p>
+        <p><strong>Verdict:</strong> Good for technical segment, but limits TAM. Consider for enterprise positioning.</p>
+    </div>
+
+    <div class="callout">
+        <h4>Why "Foundation Model Visibility" Wins</h4>
+        <p>It's honest about scope, creates a defensible category, and positions web surface measurement as expansion rather than gap-filling. The name is accessible to non-technical buyers while being precise enough for technical validation.</p>
+    </div>
+
+    <div class="page-footer">
+        <span>Confidential — GLU/GEO</span>
+        <span>Bentham Research</span>
+    </div>
+</div>
+
+<!-- MESSAGING FRAMEWORK -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">4. Messaging Framework</span>
+        <span class="page-number">Page 5</span>
+    </div>
+
+    <h2>Recommended Messaging</h2>
+
+    <p class="lead">Clear, honest messaging that sets appropriate expectations while conveying genuine value.</p>
+
+    <h3>Primary Value Proposition</h3>
+
+    <div class="insight-box">
+        <h4>The Pitch</h4>
+        <p>"GLU/GEO measures your brand's visibility in the AI knowledge base—what foundation models like GPT-4, Gemini, and Claude actually know about you. This is the stable, reproducible baseline that all AI-generated content builds upon."</p>
+    </div>
+
+    <h3>Key Messages</h3>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Message</th>
+                <th>Supporting Point</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Measure the source, not the surface</strong></td>
+                <td>Consumer AI experiences vary by session, location, and platform decisions. Foundation model knowledge is stable and measurable.</td>
+            </tr>
+            <tr>
+                <td><strong>Training data is the lever you can pull</strong></td>
+                <td>You can't control platform augmentation, but you can influence training data through content strategy, authoritative citations, and structured data.</td>
+            </tr>
+            <tr>
+                <td><strong>If you're invisible in the model, you're invisible everywhere</strong></td>
+                <td>Brands not in the foundation model's knowledge base rely entirely on real-time search—a volatile, uncontrollable dependency.</td>
+            </tr>
+            <tr>
+                <td><strong>Reproducible, comparable measurement</strong></td>
+                <td>API queries produce consistent results. Track visibility over time. Compare before/after content changes. Benchmark against competitors.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>What to Say About Web Surfaces</h3>
+
+    <div class="callout warning">
+        <h4>Transparency Script</h4>
+        <p>"GLU/GEO currently measures foundation model APIs—not consumer-facing web surfaces like ChatGPT.com or Google AI Overviews. Our research shows these surfaces add layers on top of the foundation model: ChatGPT adds real-time search citations, while Google AI Overviews curate more conservatively. Web surface measurement is on our roadmap. For now, we help you optimize the foundation—the knowledge base that all these surfaces build upon."</p>
+    </div>
+
+    <h3>Objection Handling</h3>
+
+    <p><strong>"But consumers use ChatGPT.com, not the API."</strong></p>
+    <p>Response: "Exactly right. ChatGPT.com adds a web layer on top of the foundation model—including real-time search. But that web layer can only enhance what the model already knows. If your brand isn't in the foundation model's training data, you're relying entirely on web search to surface you. We measure the knowledge base itself."</p>
+
+    <p><strong>"Google AI Overviews are what matter for SEO."</strong></p>
+    <p>Response: "Our research found that Google AI Overviews are actually more conservative than the Gemini foundation model—they show fewer brands, not more. If you're not visible in Gemini, you definitely won't appear in AI Overviews. We help you understand and improve your baseline visibility."</p>
+
+    <div class="page-footer">
+        <span>Confidential — GLU/GEO</span>
+        <span>Bentham Research</span>
+    </div>
+</div>
+
+<!-- EVIDENCE FROM HUFT -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">5. Evidence Base</span>
+        <span class="page-number">Page 6</span>
+    </div>
+
+    <h2>What the HUFT Study Proved</h2>
+
+    <p class="lead">The HUFT study provides concrete evidence for our positioning. Here's how to use it.</p>
+
+    <h3>ChatGPT: Web Layer Adds Visibility</h3>
+
+    <p class="exhibit-label">Exhibit 1: Brand Mentions Added by ChatGPT Web Layer (vs OpenAI API)</p>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Brand</th>
+                <th>OpenAI API Mentions</th>
+                <th>ChatGPT Web Mentions</th>
+                <th>Delta</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Amazon</td>
+                <td>11</td>
+                <td>95</td>
+                <td class="positive">+84</td>
+            </tr>
+            <tr>
+                <td>Supertails</td>
+                <td>64</td>
+                <td>128</td>
+                <td class="positive">+64</td>
+            </tr>
+            <tr>
+                <td>Heads Up For Tails</td>
+                <td>6</td>
+                <td>62</td>
+                <td class="positive">+56</td>
+            </tr>
+            <tr>
+                <td>HUFT</td>
+                <td>2</td>
+                <td>29</td>
+                <td class="positive">+27</td>
+            </tr>
+            <tr>
+                <td>Blue Buffalo</td>
+                <td>50</td>
+                <td>4</td>
+                <td class="negative">-46</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><strong>Interpretation:</strong> ChatGPT's web layer significantly augments foundation model responses with real-time search results. India-focused brands (Supertails, HUFT) benefit enormously. US-focused brands (Blue Buffalo) are de-prioritized. API measurement captures the baseline; web layer adds locality.</p>
+
+    <h3>Google: Web Layer Reduces Visibility</h3>
+
+    <p class="exhibit-label">Exhibit 2: Brand Mentions in Gemini API vs Google AI Overviews</p>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Brand</th>
+                <th>Gemini API Mentions</th>
+                <th>AI Overview Mentions</th>
+                <th>Delta</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Blue Buffalo</td>
+                <td>48</td>
+                <td>0</td>
+                <td class="negative">-48</td>
+            </tr>
+            <tr>
+                <td>Chewy</td>
+                <td>48</td>
+                <td>1</td>
+                <td class="negative">-47</td>
+            </tr>
+            <tr>
+                <td>Amazon</td>
+                <td>44</td>
+                <td>0</td>
+                <td class="negative">-44</td>
+            </tr>
+            <tr>
+                <td>Royal Canin</td>
+                <td>25</td>
+                <td>2</td>
+                <td class="negative">-23</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><strong>Interpretation:</strong> Google AI Overviews are dramatically more conservative than Gemini API. The AI Overview layer curates and filters—showing only a handful of brands while the underlying model knows many more. API measurement represents an upper bound for Google visibility.</p>
+
+    <div class="callout">
+        <h4>The Positioning Proof Point</h4>
+        <p>These two platforms behave oppositely—ChatGPT adds, Google subtracts. But in both cases, foundation model knowledge is the necessary condition. You can't be surfaced if you're not in the training data. API measurement captures this floor.</p>
+    </div>
+
+    <div class="page-footer">
+        <span>Confidential — GLU/GEO</span>
+        <span>Bentham Research</span>
+    </div>
+</div>
+
+<!-- GO-TO-MARKET -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">6. Go-to-Market Plan</span>
+        <span class="page-number">Page 7</span>
+    </div>
+
+    <h2>Two-Week Launch Recommendation</h2>
+
+    <p class="lead">A focused launch that establishes the "Foundation Model Visibility" category while being transparent about current scope.</p>
+
+    <h3>Launch Positioning</h3>
+
+    <div class="rec-card priority-critical">
+        <div class="rec-number">1</div>
+        <div class="rec-header">
+            <span class="rec-title">Lead with "Foundation Model Visibility"</span>
+            <span class="priority-badge critical">Critical</span>
+        </div>
+        <p>All messaging, landing pages, and sales materials should use this framing. Avoid "AI visibility" without qualification—it overpromises. Create a glossary defining foundation model vs. web surface to educate the market.</p>
+    </div>
+
+    <div class="rec-card priority-critical">
+        <div class="rec-number">2</div>
+        <div class="rec-header">
+            <span class="rec-title">Publish the API vs. Web Surface Research</span>
+            <span class="priority-badge critical">Critical</span>
+        </div>
+        <p>Release a public version of the HUFT web layer analysis. This establishes thought leadership, demonstrates we understand the nuance, and preempts criticism. Frame it as: "We measure foundation models. Here's why that matters—and how web surfaces differ."</p>
+    </div>
+
+    <div class="rec-card priority-high">
+        <div class="rec-number">3</div>
+        <div class="rec-header">
+            <span class="rec-title">Create Comparison Documentation</span>
+            <span class="priority-badge high">High</span>
+        </div>
+        <p>Produce clear documentation explaining: (1) What GLU/GEO measures today, (2) What it doesn't measure yet, (3) Why foundation model measurement is valuable on its own, (4) Roadmap for web surface measurement.</p>
+    </div>
+
+    <div class="rec-card priority-high">
+        <div class="rec-number">4</div>
+        <div class="rec-header">
+            <span class="rec-title">Target Technical Early Adopters</span>
+            <span class="priority-badge high">High</span>
+        </div>
+        <p>For launch, prioritize customers who understand the API/web surface distinction—SEO technologists, growth engineers, AI-forward marketing teams. They'll validate the product and generate case studies for broader market.</p>
+    </div>
+
+    <h3>What to Build Before Launch</h3>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Asset</th>
+                <th>Purpose</th>
+                <th>Priority</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Landing page with honest scope description</td>
+                <td>Set expectations correctly from first touch</td>
+                <td class="highlight">Must have</td>
+            </tr>
+            <tr>
+                <td>API vs Web Surface explainer (blog/docs)</td>
+                <td>Educate market, establish thought leadership</td>
+                <td class="highlight">Must have</td>
+            </tr>
+            <tr>
+                <td>FAQ: "Why API measurement?"</td>
+                <td>Preempt objections with evidence</td>
+                <td class="highlight">Must have</td>
+            </tr>
+            <tr>
+                <td>Roadmap page mentioning web surfaces</td>
+                <td>Show trajectory without overpromising</td>
+                <td>Nice to have</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="page-footer">
+        <span>Confidential — GLU/GEO</span>
+        <span>Bentham Research</span>
+    </div>
+</div>
+
+<!-- ROADMAP -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">7. Product Roadmap: From Measurement to Optimization</span>
+        <span class="page-number">Page 8</span>
+    </div>
+
+    <h2>The Strategic Destination: Web Presence Optimization</h2>
+
+    <p class="lead">Foundation model visibility is Phase 1. The strategic destination is <strong>Web Presence Optimization (WPO)</strong>—helping brands fix the entity coherence problems that cause low visibility.</p>
+
+    <h3>The Four-Phase Journey</h3>
+
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="number">1</div>
+            <div class="label">Visibility<br>Measurement<br>(Launch)</div>
+        </div>
+        <div class="stat-card">
+            <div class="number">2</div>
+            <div class="label">Diagnostic<br>Analysis<br>(Q2 2026)</div>
+        </div>
+        <div class="stat-card">
+            <div class="number">3</div>
+            <div class="label">Web Presence<br>Optimization<br>(Q3 2026)</div>
+        </div>
+        <div class="stat-card">
+            <div class="number">4</div>
+            <div class="label">Brand Content<br>PIM<br>(Q4 2026)</div>
+        </div>
+    </div>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Phase</th>
+                <th>Capability</th>
+                <th>Customer Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Phase 1: Measure</strong></td>
+                <td>Foundation model visibility across GPT-4, Gemini, Claude</td>
+                <td class="positive">"See what AI knows about your brand"</td>
+            </tr>
+            <tr>
+                <td><strong>Phase 2: Diagnose</strong></td>
+                <td>Entity coherence analysis, content gap identification</td>
+                <td class="highlight">"Understand why your visibility is low"</td>
+            </tr>
+            <tr>
+                <td><strong>Phase 3: Optimize</strong></td>
+                <td>Actionable WPO recommendations, content optimization playbooks</td>
+                <td class="positive">"Fix the problems that cause invisibility"</td>
+            </tr>
+            <tr>
+                <td><strong>Phase 4: Manage</strong></td>
+                <td>Brand Content PIM—canonical text, images, claims</td>
+                <td class="positive">"Maintain your SSOT and syndicate everywhere"</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="insight-box">
+        <h4>The Full Vision: Measure → Diagnose → Optimize → Manage</h4>
+        <p>Measurement tools commoditize quickly. Infrastructure doesn't. By building toward a Brand Content PIM, GLU/GEO becomes the system of record for entity coherence—the single source of truth that syndicates consistent brand content to Amazon, owned properties, and everywhere AI systems learn about brands.</p>
+    </div>
+
+    <h3>What Web Presence Optimization Includes</h3>
+
+    <div class="comparison-grid">
+        <div class="comparison-box api">
+            <h4>Owned Property Optimization</h4>
+            <ul>
+                <li>Single Source of Truth audit</li>
+                <li>Structured data implementation</li>
+                <li>Content consistency analysis</li>
+                <li>Authority signal development</li>
+            </ul>
+        </div>
+        <div class="comparison-box web">
+            <h4>Marketplace Optimization</h4>
+            <ul>
+                <li>Amazon A+ content assessment</li>
+                <li>Bullet point optimization</li>
+                <li>Brand store evaluation</li>
+                <li>Cross-channel messaging alignment</li>
+            </ul>
+        </div>
+    </div>
+
+    <h3>Phase 4: The Brand Content PIM</h3>
+
+    <p>Entity coherence requires consistency at scale. A Brand Content PIM becomes the infrastructure that makes this sustainable:</p>
+
+    <div class="comparison-grid">
+        <div class="comparison-box api">
+            <h4>Content Management</h4>
+            <ul>
+                <li>Canonical product descriptions</li>
+                <li>Approved brand images with metadata</li>
+                <li>Verified claims and certifications</li>
+                <li>Ingredient/spec data (structured)</li>
+                <li>Version control and approval workflows</li>
+            </ul>
+        </div>
+        <div class="comparison-box web">
+            <h4>Syndication & Monitoring</h4>
+            <ul>
+                <li>Push to Amazon, website, retailers</li>
+                <li>Monitor for content drift/inconsistency</li>
+                <li>Alert when third parties misrepresent</li>
+                <li>Track content freshness across channels</li>
+                <li>Measure coherence improvement over time</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="callout success">
+        <h4>Revised Roadmap Messaging</h4>
+        <p>"GLU/GEO starts by showing you what AI systems know about your brand. Then we diagnose why your visibility looks the way it does. We give you the playbook to fix it. And ultimately, we become your system of record—the single source of truth that ensures AI always gets your brand right. <strong>Measurement is the beginning, not the end.</strong>"</p>
+    </div>
+
+    <div class="page-footer">
+        <span>Confidential — GLU/GEO</span>
+        <span>Bentham Research</span>
+    </div>
+</div>
+
+<!-- COMPETITIVE LANDSCAPE -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">8. Competitive Positioning</span>
+        <span class="page-number">Page 9</span>
+    </div>
+
+    <h2>Differentiation in Market</h2>
+
+    <p class="lead">The "Foundation Model Visibility" positioning creates a defensible category distinct from existing players.</p>
+
+    <h3>Competitive Landscape</h3>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Competitor Type</th>
+                <th>What They Measure</th>
+                <th>Our Differentiation</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Traditional SEO tools (Ahrefs, SEMrush)</td>
+                <td>Organic search rankings, backlinks</td>
+                <td>We measure AI systems, not traditional search</td>
+            </tr>
+            <tr>
+                <td>AI Overview trackers</td>
+                <td>Google AI Overview appearances (via scraping)</td>
+                <td>We measure foundation knowledge, not just Google surface</td>
+            </tr>
+            <tr>
+                <td>Brand monitoring (Brandwatch, Mention)</td>
+                <td>Social/media mentions</td>
+                <td>We measure AI model knowledge, not human-generated content</td>
+            </tr>
+            <tr>
+                <td>LLM evaluation tools</td>
+                <td>Model performance benchmarks</td>
+                <td>We measure brand visibility, not model capability</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Category Creation Opportunity</h3>
+
+    <div class="insight-box">
+        <h4>The Category We Can Own</h4>
+        <p><strong>"AI-Era Brand Infrastructure"</strong>—the end-to-end system from visibility measurement through content management. No player owns this full stack. Traditional PIM vendors don't understand AI visibility. AI visibility tools don't manage content. By building the bridge, we create a category that's defensible at both ends.</p>
+    </div>
+
+    <h3>The PIM Differentiator</h3>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Player Type</th>
+                <th>What They Do</th>
+                <th>What They Miss</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Traditional PIM (Salsify, Akeneo)</td>
+                <td>Manage product content for e-commerce syndication</td>
+                <td class="negative">No AI visibility measurement; don't understand entity coherence</td>
+            </tr>
+            <tr>
+                <td>AI Visibility Tools</td>
+                <td>Measure brand presence in AI responses</td>
+                <td class="negative">Measurement only; no content management capability</td>
+            </tr>
+            <tr>
+                <td><strong>GLU/GEO (Full Vision)</strong></td>
+                <td>Measure → Diagnose → Optimize → Manage</td>
+                <td class="positive">Owns the full loop from insight to action to infrastructure</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Defensibility</h3>
+
+    <ul>
+        <li><strong>Thought leadership:</strong> Our research (HUFT study, web layer analysis) establishes credibility and expertise</li>
+        <li><strong>Technical precision:</strong> API-based measurement is reproducible and verifiable—competitors using scraping can't match consistency</li>
+        <li><strong>Honest positioning:</strong> Being transparent about scope builds trust; competitors who overpromise will face credibility issues</li>
+        <li><strong>Roadmap narrative:</strong> Framing web surfaces as expansion (not gap) positions us for growth while launching quickly</li>
+    </ul>
+
+    <div class="callout success">
+        <h4>The Honest Advantage</h4>
+        <p>In a market full of vague "AI visibility" claims, clear and honest positioning stands out. Customers increasingly distrust overpromising. "We measure foundation models, here's what that means, here's what we're adding next" is refreshingly clear.</p>
+    </div>
+
+    <div class="page-footer">
+        <span>Confidential — GLU/GEO</span>
+        <span>Bentham Research</span>
+    </div>
+</div>
+
+<!-- RISKS AND MITIGATIONS -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">9. Risks & Mitigations</span>
+        <span class="page-number">Page 10</span>
+    </div>
+
+    <h2>Risk Assessment</h2>
+
+    <p class="lead">Honest acknowledgment of risks and our mitigation strategies.</p>
+
+    <div class="callout critical">
+        <h4>Existential Risk: The Credibility Gap</h4>
+        <p>If the difference between API and web surface measurement becomes widely understood—and GLU/GEO is seen as having obscured this distinction—the company could be labeled as misleading or fraudulent. This is not a messaging problem. It's a fundamental question about whether the product delivers what customers actually need.</p>
+    </div>
+
+    <h3>Key Risks</h3>
+
+    <div class="rec-card priority-critical" style="border-left-color: #990000; background: #FFF0F0;">
+        <div class="rec-number" style="background: #990000;">!</div>
+        <div class="rec-header">
+            <span class="rec-title">Reputation destruction if API/web gap becomes common knowledge</span>
+            <span class="priority-badge critical">Existential</span>
+        </div>
+        <p><strong>Risk:</strong> The HUFT study proves API and web surfaces diverge dramatically (+83 mentions on ChatGPT Web vs API; -97% mentions on Google AI Overview vs Gemini API). If this distinction becomes industry common knowledge—through competitor research, analyst reports, or customer discoveries—and GLU/GEO is seen as having sold "AI visibility" when we only measured APIs, we could be branded as charlatans. This would destroy the company's reputation and future prospects.</p>
+        <p><strong>Why this is different:</strong> Other risks are about customer churn or competitive positioning. This risk is about being seen as fundamentally dishonest—the kind of reputational damage that follows founders to future ventures.</p>
+        <p><strong>Mitigation options:</strong></p>
+        <ul style="margin-top: 10px;">
+            <li><strong>Option A (Recommended): Radical transparency.</strong> Publish the API vs web research ourselves FIRST. Own the narrative. Be the company that discovered and disclosed the gap, not the company that hid it. Position as thought leaders, not obfuscators.</li>
+            <li><strong>Option B: Accelerate web surface measurement.</strong> Delay launch until we can measure at least one web surface (ChatGPT.com via browser automation). Ship "Foundation Model + ChatGPT Web" as V1.</li>
+            <li><strong>Option C: Pivot positioning entirely.</strong> Don't call it "visibility" at all. Call it "AI Training Data Audit" or "Foundation Model Content Analysis"—terms that don't imply consumer-facing measurement.</li>
+        </ul>
+        <p style="margin-top: 15px;"><strong>Our assessment:</strong> Option A is necessary regardless. Option B may be worth the delay. Option C feels like defensive retreat rather than category creation.</p>
+    </div>
+
+    <div class="rec-card priority-critical">
+        <div class="rec-number">2</div>
+        <div class="rec-header">
+            <span class="rec-title">Customers expect web surface measurement</span>
+            <span class="priority-badge critical">High Impact</span>
+        </div>
+        <p><strong>Risk:</strong> Despite clear messaging, customers may still expect ChatGPT.com or Google AI Overview measurement, leading to churn when they realize the scope.</p>
+        <p><strong>Mitigation:</strong> Explicit scope callouts at every customer touchpoint—landing page, signup, onboarding, first report. Use HUFT research to explain why API measurement is valuable on its own.</p>
+    </div>
+
+    <div class="rec-card priority-high">
+        <div class="rec-number">3</div>
+        <div class="rec-header">
+            <span class="rec-title">Competitor launches web surface measurement</span>
+            <span class="priority-badge high">Medium Impact</span>
+        </div>
+        <p><strong>Risk:</strong> A well-funded competitor could launch web surface measurement and position us as incomplete.</p>
+        <p><strong>Mitigation:</strong> Our research shows web surfaces differ in unpredictable ways (ChatGPT adds, Google subtracts). We can argue that foundation model visibility is the stable, actionable baseline—web surfaces are volatile. Accelerate roadmap.</p>
+    </div>
+
+    <div class="rec-card priority-medium">
+        <div class="rec-number">4</div>
+        <div class="rec-header">
+            <span class="rec-title">"Foundation model" terminology confuses buyers</span>
+            <span class="priority-badge medium">Low Impact</span>
+        </div>
+        <p><strong>Risk:</strong> Non-technical buyers may not understand "foundation model" and miss the value proposition.</p>
+        <p><strong>Mitigation:</strong> Develop accessible explanations: "What AI systems actually know vs. what they show." Use analogies: "Foundation model visibility is like measuring the encyclopedia's content, not what the librarian recommends."</p>
+    </div>
+
+    <h3>Risk Summary Matrix</h3>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Risk</th>
+                <th>Likelihood</th>
+                <th>Impact</th>
+                <th>Mitigation Quality</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background: #FFE0E0;">
+                <td><strong>Credibility destruction (API/web gap exposed)</strong></td>
+                <td class="negative">Medium-High</td>
+                <td class="negative">Existential</td>
+                <td class="highlight">Requires decision (Options A/B/C)</td>
+            </tr>
+            <tr>
+                <td>Customer scope expectations</td>
+                <td>High</td>
+                <td>High</td>
+                <td class="positive">Strong (transparency)</td>
+            </tr>
+            <tr>
+                <td>Competitor web surface launch</td>
+                <td>Medium</td>
+                <td>Medium</td>
+                <td class="highlight">Moderate (roadmap acceleration)</td>
+            </tr>
+            <tr>
+                <td>Terminology confusion</td>
+                <td>Medium</td>
+                <td>Low</td>
+                <td class="positive">Strong (education content)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="insight-box" style="background: #990000;">
+        <h4>Decision Required</h4>
+        <p>The credibility gap risk requires a strategic decision before launch. We recommend <strong>Option A (radical transparency)</strong> combined with an aggressive timeline for <strong>Option B (web surface measurement)</strong>. The question for founders: Is a two-week launch worth the existential risk, or should we delay to ship with at least partial web surface coverage?</p>
+    </div>
+
+    <div class="page-footer">
+        <span>Confidential — GLU/GEO</span>
+        <span>Bentham Research</span>
+    </div>
+</div>
+
+<!-- SUMMARY RECOMMENDATION -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">10. Summary Recommendation</span>
+        <span class="page-number">Page 11</span>
+    </div>
+
+    <h2>The Path Forward</h2>
+
+    <div class="insight-box">
+        <h4>Bottom Line</h4>
+        <p>Launch GLU/GEO as <strong>"Foundation Model Visibility"</strong>—the measurement layer. But tell the bigger story: we're building toward <strong>Web Presence Optimization</strong> and ultimately a <strong>Brand Content PIM</strong> that becomes the infrastructure for entity coherence. Measurement is the wedge; infrastructure is the moat. Lead with honesty about current scope while painting the vision that earns long-term customer commitment.</p>
+    </div>
+
+    <h3>Immediate Actions (Before Launch)</h3>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Action</th>
+                <th>Owner</th>
+                <th>Deadline</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Finalize "Foundation Model Visibility" messaging</td>
+                <td>Marketing</td>
+                <td>Day 1</td>
+            </tr>
+            <tr>
+                <td>Update landing page with clear scope description</td>
+                <td>Product Marketing</td>
+                <td>Day 3</td>
+            </tr>
+            <tr>
+                <td>Publish API vs Web Surface research blog</td>
+                <td>Content</td>
+                <td>Day 5</td>
+            </tr>
+            <tr>
+                <td>Create FAQ for sales team</td>
+                <td>Sales Enablement</td>
+                <td>Day 7</td>
+            </tr>
+            <tr>
+                <td>Brief early customers on positioning</td>
+                <td>Customer Success</td>
+                <td>Day 10</td>
+            </tr>
+            <tr>
+                <td>Launch</td>
+                <td>All</td>
+                <td>Day 14</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="section-divider"></div>
+
+    <div class="quote">
+        "The brands that control their entity coherence today will shape how AI represents them for years to come. GLU/GEO gives them the measurement to see, the diagnosis to understand, and ultimately the infrastructure to ensure AI always gets their brand right."
+    </div>
+
+    <div style="text-align: center; margin-top: 50px;">
+        <p style="font-size: 14px; color: var(--text-secondary);">Prepared by Bentham Research</p>
+        <p style="font-size: 14px; color: var(--text-secondary);">For questions or clarification, please contact the engagement lead.</p>
+        <div class="gold-line"></div>
+        <p style="font-family: 'Playfair Display', serif; font-size: 18px; color: var(--navy);">Bentham Research</p>
+    </div>
+
+    <div class="page-footer">
+        <span>Confidential — GLU/GEO</span>
+        <span>Bentham Research</span>
+    </div>
+</div>
+
+<!-- DETAILED ACTION PLAN -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">11. Detailed Action Plan</span>
+        <span class="page-number">Page 12</span>
+    </div>
+
+    <h2>14-Day Launch Sprint</h2>
+
+    <p class="lead">A detailed, day-by-day action plan to take GLU/GEO from current state to market launch with proper positioning.</p>
+
+    <h3>Week 1: Foundation (Days 1-7)</h3>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Deliverable</th>
+                <th>Owner</th>
+                <th>Success Criteria</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Day 1</strong></td>
+                <td>Core messaging document finalized</td>
+                <td>Founders + Marketing</td>
+                <td>One-pager with value prop, key messages, objection handling approved</td>
+            </tr>
+            <tr>
+                <td><strong>Day 2</strong></td>
+                <td>Landing page wireframe</td>
+                <td>Product Marketing</td>
+                <td>Clear scope section, "What we measure" vs "Coming soon" distinction</td>
+            </tr>
+            <tr>
+                <td><strong>Day 3</strong></td>
+                <td>Landing page live</td>
+                <td>Engineering + Marketing</td>
+                <td>Page deployed with waitlist/signup, analytics tracking</td>
+            </tr>
+            <tr>
+                <td><strong>Day 4</strong></td>
+                <td>API vs Web Surface blog draft</td>
+                <td>Content</td>
+                <td>2,000-word explainer based on HUFT research, reviewed by founders</td>
+            </tr>
+            <tr>
+                <td><strong>Day 5</strong></td>
+                <td>Blog published + promoted</td>
+                <td>Content + Social</td>
+                <td>Posted on blog, shared on LinkedIn/Twitter, submitted to Hacker News</td>
+            </tr>
+            <tr>
+                <td><strong>Day 6</strong></td>
+                <td>Sales FAQ and objection deck</td>
+                <td>Sales Enablement</td>
+                <td>10 common objections with evidence-based responses</td>
+            </tr>
+            <tr>
+                <td><strong>Day 7</strong></td>
+                <td>Week 1 review + course correct</td>
+                <td>All</td>
+                <td>Review early signup metrics, blog engagement, iterate messaging if needed</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Week 2: Activation (Days 8-14)</h3>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Deliverable</th>
+                <th>Owner</th>
+                <th>Success Criteria</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Day 8</strong></td>
+                <td>Documentation site live</td>
+                <td>Engineering + Docs</td>
+                <td>API docs, getting started guide, scope clarification</td>
+            </tr>
+            <tr>
+                <td><strong>Day 9</strong></td>
+                <td>Demo video recorded</td>
+                <td>Product</td>
+                <td>3-minute walkthrough showing foundation model visibility in action</td>
+            </tr>
+            <tr>
+                <td><strong>Day 10</strong></td>
+                <td>Early customer briefings complete</td>
+                <td>Customer Success</td>
+                <td>5-10 beta users briefed on positioning, feedback collected</td>
+            </tr>
+            <tr>
+                <td><strong>Day 11</strong></td>
+                <td>Launch announcement drafted</td>
+                <td>Marketing</td>
+                <td>Press release, Product Hunt copy, email to waitlist</td>
+            </tr>
+            <tr>
+                <td><strong>Day 12</strong></td>
+                <td>Final QA and staging review</td>
+                <td>Engineering</td>
+                <td>All launch assets reviewed, load tested, go/no-go decision</td>
+            </tr>
+            <tr>
+                <td><strong>Day 13</strong></td>
+                <td>Soft launch to waitlist</td>
+                <td>All</td>
+                <td>Email sent to waitlist, signups opened, support ready</td>
+            </tr>
+            <tr>
+                <td><strong>Day 14</strong></td>
+                <td>Public launch</td>
+                <td>All</td>
+                <td>Product Hunt, social media push, PR outreach</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="page-footer">
+        <span>Confidential — GLU/GEO</span>
+        <span>Bentham Research</span>
+    </div>
+</div>
+
+<!-- ACTION PLAN PAGE 2 -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">11. Detailed Action Plan (continued)</span>
+        <span class="page-number">Page 13</span>
+    </div>
+
+    <h3>Content Deliverables Checklist</h3>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Asset</th>
+                <th>Format</th>
+                <th>Primary Message</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Landing page</td>
+                <td>Web</td>
+                <td>"Measure your brand's visibility in the AI knowledge base"</td>
+                <td>To build</td>
+            </tr>
+            <tr>
+                <td>API vs Web Surface explainer</td>
+                <td>Blog post</td>
+                <td>"Why foundation model visibility is the stable, actionable baseline"</td>
+                <td>To write</td>
+            </tr>
+            <tr>
+                <td>Scope clarification page</td>
+                <td>Docs</td>
+                <td>"What GLU/GEO measures today, and what's coming"</td>
+                <td>To build</td>
+            </tr>
+            <tr>
+                <td>Sales FAQ</td>
+                <td>Internal doc</td>
+                <td>Objection handling with HUFT evidence</td>
+                <td>To write</td>
+            </tr>
+            <tr>
+                <td>Demo video</td>
+                <td>Video (3 min)</td>
+                <td>Product walkthrough with real data</td>
+                <td>To record</td>
+            </tr>
+            <tr>
+                <td>Launch email</td>
+                <td>Email</td>
+                <td>"GLU/GEO is live: see what AI knows about your brand"</td>
+                <td>To write</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Post-Launch: First 30 Days</h3>
+
+    <div class="three-col">
+        <div class="callout">
+            <h4>Week 3: Learn</h4>
+            <ul>
+                <li>Analyze signup funnel</li>
+                <li>Conduct 5 user interviews</li>
+                <li>Identify messaging gaps</li>
+                <li>Track objection frequency</li>
+            </ul>
+        </div>
+        <div class="callout">
+            <h4>Week 4: Iterate</h4>
+            <ul>
+                <li>Refine messaging based on feedback</li>
+                <li>Publish case study from beta user</li>
+                <li>A/B test landing page copy</li>
+                <li>Scope web surface roadmap</li>
+            </ul>
+        </div>
+        <div class="callout">
+            <h4>Week 5+: Expand</h4>
+            <ul>
+                <li>Begin web surface R&D</li>
+                <li>Expand sales outreach</li>
+                <li>Publish competitive comparison</li>
+                <li>Develop enterprise tier</li>
+            </ul>
+        </div>
+    </div>
+
+    <h3>Success Metrics</h3>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Metric</th>
+                <th>Day 14 Target</th>
+                <th>Day 30 Target</th>
+                <th>Measurement</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Waitlist signups</td>
+                <td>100</td>
+                <td>500</td>
+                <td>Email list count</td>
+            </tr>
+            <tr>
+                <td>Blog post views</td>
+                <td>1,000</td>
+                <td>5,000</td>
+                <td>Analytics</td>
+            </tr>
+            <tr>
+                <td>Activated accounts</td>
+                <td>20</td>
+                <td>100</td>
+                <td>Users who run first query</td>
+            </tr>
+            <tr>
+                <td>Scope confusion rate</td>
+                <td><10%</td>
+                <td><5%</td>
+                <td>Support tickets asking about web surfaces</td>
+            </tr>
+            <tr>
+                <td>NPS from beta users</td>
+                <td>40+</td>
+                <td>50+</td>
+                <td>Survey</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="insight-box">
+        <h4>Key Success Indicator</h4>
+        <p>The most important metric is <strong>scope confusion rate</strong>. If fewer than 10% of support inquiries ask "why can't I see ChatGPT.com results?"—our messaging is working. Track this closely and iterate messaging if the rate exceeds threshold.</p>
+    </div>
+
+    <div class="page-footer">
+        <span>Confidential — GLU/GEO</span>
+        <span>Bentham Research</span>
+    </div>
+</div>
+
+<!-- APPENDIX: HUFT DATA -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">Appendix: Supporting Data from HUFT Study</span>
+        <span class="page-number">Page 14</span>
+    </div>
+
+    <h2>Full Web Layer Analysis Data</h2>
+
+    <h3>ChatGPT Web Layer: Brands Added</h3>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Brand</th>
+                <th>API Mentions</th>
+                <th>Web Mentions</th>
+                <th>Delta</th>
+                <th>Interpretation</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Amazon</td>
+                <td>11</td>
+                <td>95</td>
+                <td class="positive">+84</td>
+                <td>Marketplace boosted by search</td>
+            </tr>
+            <tr>
+                <td>Supertails</td>
+                <td>64</td>
+                <td>128</td>
+                <td class="positive">+64</td>
+                <td>India e-commerce prominence</td>
+            </tr>
+            <tr>
+                <td>Heads Up For Tails</td>
+                <td>6</td>
+                <td>62</td>
+                <td class="positive">+56</td>
+                <td>India locality boost</td>
+            </tr>
+            <tr>
+                <td>HUFT</td>
+                <td>2</td>
+                <td>29</td>
+                <td class="positive">+27</td>
+                <td>Brand abbreviation also boosted</td>
+            </tr>
+            <tr>
+                <td>Drools</td>
+                <td>4</td>
+                <td>24</td>
+                <td class="positive">+20</td>
+                <td>India-market brand</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>ChatGPT Web Layer: Brands Reduced</h3>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Brand</th>
+                <th>API Mentions</th>
+                <th>Web Mentions</th>
+                <th>Delta</th>
+                <th>Interpretation</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Blue Buffalo</td>
+                <td>50</td>
+                <td>4</td>
+                <td class="negative">-46</td>
+                <td>US brand de-prioritized for India</td>
+            </tr>
+            <tr>
+                <td>Wellness</td>
+                <td>40</td>
+                <td>6</td>
+                <td class="negative">-34</td>
+                <td>US brand de-prioritized</td>
+            </tr>
+            <tr>
+                <td>Hill's</td>
+                <td>20</td>
+                <td>3</td>
+                <td class="negative">-17</td>
+                <td>Global brand reduced for locality</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Google AI Overview: Dramatic Reduction from Gemini API</h3>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Brand</th>
+                <th>Gemini API</th>
+                <th>AI Overview</th>
+                <th>Delta</th>
+                <th>Interpretation</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Blue Buffalo</td>
+                <td>48</td>
+                <td>0</td>
+                <td class="negative">-48</td>
+                <td>Completely filtered out</td>
+            </tr>
+            <tr>
+                <td>Chewy</td>
+                <td>48</td>
+                <td>1</td>
+                <td class="negative">-47</td>
+                <td>Nearly eliminated</td>
+            </tr>
+            <tr>
+                <td>Amazon</td>
+                <td>44</td>
+                <td>0</td>
+                <td class="negative">-44</td>
+                <td>Marketplace filtered</td>
+            </tr>
+            <tr>
+                <td>Wellness</td>
+                <td>41</td>
+                <td>0</td>
+                <td class="negative">-41</td>
+                <td>Completely filtered</td>
+            </tr>
+            <tr>
+                <td>Purina</td>
+                <td>38</td>
+                <td>0</td>
+                <td class="negative">-38</td>
+                <td>Major brand filtered</td>
+            </tr>
+            <tr>
+                <td>Royal Canin</td>
+                <td>25</td>
+                <td>2</td>
+                <td class="negative">-23</td>
+                <td>Only top brand partially preserved</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="callout">
+        <h4>Key Takeaway</h4>
+        <p>Google AI Overviews show only 4 total brand mentions across 100 queries, while Gemini API shows 300+. The curation layer eliminates nearly all brand references. API measurement is an upper bound for Google visibility.</p>
+    </div>
+
+    <div class="page-footer">
+        <span>Confidential — GLU/GEO</span>
+        <span>Bentham Research</span>
+    </div>
+</div>
+
+<!-- BACK COVER -->
+<div class="cover" style="min-height: 100vh;">
+    <div style="margin-top: auto; margin-bottom: auto;">
+        <div class="cover-logo">Bentham Research</div>
+        <div class="gold-line" style="margin: 30px auto;"></div>
+        <p style="font-size: 16px; color: rgba(255,255,255,0.7); max-width: 400px; line-height: 1.8;">
+            Evidence-based insights for the AI era.<br>
+            Helping brands navigate the shift from search to synthesis.
+        </p>
+    </div>
+    <div class="cover-meta" style="margin-top: auto;">
+        <p>&copy; 2026 Bentham Research. All rights reserved.</p>
+        <p>This document contains confidential information.</p>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural Balance US Digital Visibility | Strategic Report to CEO</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --navy: #003366;
+            --gold: #C9A227;
+            --charcoal: #2C2C2C;
+            --light-gray: #F5F5F5;
+            --medium-gray: #E0E0E0;
+            --text-primary: #1A1A1A;
+            --text-secondary: #666666;
+            --accent-blue: #0066CC;
+            --accent-red: #CC3333;
+            --accent-green: #228B22;
+            --brand-teal: #2E8B57;
+        }
+
+        body {
+            font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: white;
+            color: var(--text-primary);
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        /* Cover Page */
+        .cover {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, var(--navy) 0%, #001a33 100%);
+            color: white;
+            text-align: center;
+            padding: 60px;
+            page-break-after: always;
+        }
+
+        .cover-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 14px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 80px;
+        }
+
+        .cover h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 400;
+            line-height: 1.2;
+            margin-bottom: 30px;
+            max-width: 800px;
+        }
+
+        .cover-subtitle {
+            font-size: 22px;
+            font-weight: 300;
+            color: rgba(255,255,255,0.8);
+            margin-bottom: 60px;
+        }
+
+        .cover-meta {
+            margin-top: auto;
+            font-size: 14px;
+            color: rgba(255,255,255,0.6);
+        }
+
+        .cover-meta p {
+            margin: 5px 0;
+        }
+
+        .gold-line {
+            width: 80px;
+            height: 2px;
+            background: var(--gold);
+            margin: 40px auto;
+        }
+
+        /* Page Layout */
+        .page {
+            min-height: 100vh;
+            padding: 60px 80px;
+            page-break-after: always;
+            position: relative;
+        }
+
+        .page-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--medium-gray);
+        }
+
+        .page-number {
+            font-size: 12px;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .section-label {
+            font-size: 11px;
+            color: var(--navy);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 600;
+        }
+
+        /* Typography */
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            font-weight: 400;
+            color: var(--navy);
+            margin-bottom: 30px;
+            line-height: 1.2;
+        }
+
+        h3 {
+            font-size: 22px;
+            font-weight: 600;
+            color: var(--charcoal);
+            margin: 30px 0 15px 0;
+        }
+
+        h4 {
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-secondary);
+            margin: 25px 0 10px 0;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: var(--text-primary);
+        }
+
+        .lead {
+            font-size: 20px;
+            font-weight: 300;
+            color: var(--text-secondary);
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        /* Key Insight Box */
+        .insight-box {
+            background: var(--navy);
+            color: white;
+            padding: 35px 40px;
+            margin: 30px 0;
+            position: relative;
+        }
+
+        .insight-box::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: var(--gold);
+        }
+
+        .insight-box h4 {
+            color: var(--gold);
+            margin-top: 0;
+        }
+
+        .insight-box p {
+            color: white;
+            font-size: 18px;
+            margin-bottom: 0;
+        }
+
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .stat-card {
+            text-align: center;
+            padding: 30px 20px;
+            background: var(--light-gray);
+            border-top: 3px solid var(--navy);
+        }
+
+        .stat-card .number {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: var(--navy);
+        }
+
+        .stat-card .number.negative {
+            color: var(--accent-red);
+        }
+
+        .stat-card .number.positive {
+            color: var(--accent-green);
+        }
+
+        .stat-card .label {
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-secondary);
+            margin-top: 10px;
+        }
+
+        /* Tables */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 14px;
+        }
+
+        .data-table th {
+            text-align: left;
+            padding: 15px 20px;
+            background: var(--navy);
+            color: white;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+
+        .data-table td {
+            padding: 15px 20px;
+            border-bottom: 1px solid var(--medium-gray);
+        }
+
+        .data-table tr:nth-child(even) {
+            background: var(--light-gray);
+        }
+
+        .data-table .highlight {
+            color: var(--accent-blue);
+            font-weight: 600;
+        }
+
+        .data-table .negative {
+            color: var(--accent-red);
+            font-weight: 600;
+        }
+
+        .data-table .positive {
+            color: var(--accent-green);
+            font-weight: 600;
+        }
+
+        /* Two Column Layout */
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            margin: 30px 0;
+        }
+
+        .three-col {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin: 30px 0;
+        }
+
+        /* Callout */
+        .callout {
+            background: var(--light-gray);
+            padding: 25px 30px;
+            border-left: 4px solid var(--navy);
+            margin: 25px 0;
+        }
+
+        .callout.warning {
+            background: #FFF8E6;
+            border-left-color: var(--gold);
+        }
+
+        .callout.critical {
+            background: #FFE6E6;
+            border-left-color: var(--accent-red);
+        }
+
+        .callout h4 {
+            margin-top: 0;
+            color: var(--navy);
+        }
+
+        /* Progress Bar */
+        .progress-bar {
+            display: flex;
+            align-items: center;
+            margin: 12px 0;
+        }
+
+        .progress-label {
+            width: 160px;
+            font-size: 14px;
+        }
+
+        .progress-track {
+            flex: 1;
+            height: 24px;
+            background: var(--medium-gray);
+            margin: 0 15px;
+            position: relative;
+        }
+
+        .progress-fill {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 8px;
+            font-size: 12px;
+            font-weight: 600;
+            color: white;
+        }
+
+        .progress-fill.navy { background: var(--navy); }
+        .progress-fill.red { background: var(--accent-red); }
+        .progress-fill.green { background: var(--accent-green); }
+        .progress-fill.gold { background: var(--gold); color: var(--charcoal); }
+
+        /* Recommendation Cards */
+        .rec-card {
+            border: 1px solid var(--medium-gray);
+            padding: 25px;
+            margin: 20px 0;
+            position: relative;
+        }
+
+        .rec-card.priority-critical {
+            border-left: 4px solid var(--accent-red);
+        }
+
+        .rec-card.priority-high {
+            border-left: 4px solid var(--gold);
+        }
+
+        .rec-card.priority-medium {
+            border-left: 4px solid var(--accent-blue);
+        }
+
+        .rec-number {
+            position: absolute;
+            top: -12px;
+            left: 20px;
+            background: var(--navy);
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .rec-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 15px;
+        }
+
+        .rec-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--charcoal);
+        }
+
+        .priority-badge {
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 4px 12px;
+            font-weight: 600;
+        }
+
+        .priority-badge.critical {
+            background: var(--accent-red);
+            color: white;
+        }
+
+        .priority-badge.high {
+            background: var(--gold);
+            color: var(--charcoal);
+        }
+
+        .priority-badge.medium {
+            background: var(--accent-blue);
+            color: white;
+        }
+
+        /* Timeline */
+        .timeline {
+            display: flex;
+            margin: 40px 0;
+            position: relative;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 25px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--medium-gray);
+        }
+
+        .timeline-item {
+            flex: 1;
+            text-align: center;
+            position: relative;
+            padding: 0 15px;
+        }
+
+        .timeline-marker {
+            width: 50px;
+            height: 50px;
+            background: var(--navy);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 15px;
+            font-weight: 600;
+            font-size: 18px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .timeline-content {
+            background: var(--light-gray);
+            padding: 20px;
+            margin-top: 10px;
+        }
+
+        .timeline-content h5 {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .timeline-content p {
+            font-size: 13px;
+            margin: 0;
+        }
+
+        /* Exhibit Label */
+        .exhibit-label {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--navy);
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        /* Footer */
+        .page-footer {
+            position: absolute;
+            bottom: 30px;
+            left: 80px;
+            right: 80px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 11px;
+            color: var(--text-secondary);
+            padding-top: 15px;
+            border-top: 1px solid var(--medium-gray);
+        }
+
+        /* List styling */
+        ul, ol {
+            margin: 15px 0 15px 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Print styles */
+        @media print {
+            .page {
+                page-break-after: always;
+            }
+            body {
+                font-size: 14px;
+            }
+        }
+
+        /* Divider */
+        .section-divider {
+            height: 3px;
+            background: linear-gradient(90deg, var(--navy) 0%, var(--gold) 50%, var(--navy) 100%);
+            margin: 40px 0;
+        }
+
+        /* Quote */
+        .quote {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-style: italic;
+            color: var(--navy);
+            padding: 30px 0 30px 40px;
+            border-left: 3px solid var(--gold);
+            margin: 30px 0;
+        }
+
+        /* Metric comparison */
+        .metric-compare {
+            display: flex;
+            justify-content: space-around;
+            margin: 40px 0;
+            text-align: center;
+        }
+
+        .metric-item {
+            padding: 20px;
+        }
+
+        .metric-item .vs {
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        .metric-item .value {
+            font-family: 'Playfair Display', serif;
+            font-size: 56px;
+            font-weight: 700;
+        }
+
+        .metric-item .context {
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover">
+    <div class="cover-logo">Bentham Research</div>
+    <h1>The Invisible Brand Problem</h1>
+    <p class="cover-subtitle">Natural Balance US Digital Visibility Assessment</p>
+    <div class="gold-line"></div>
+    <p style="font-size: 18px; max-width: 600px; line-height: 1.6; color: rgba(255,255,255,0.8);">
+        Natural Balance has strong brand equity with pet parents, but is nearly invisible where modern consumers discover dog food—AI assistants, voice search, and recommendation engines. This report maps the visibility gap and charts a path forward.
+    </p>
+    <div class="cover-meta">
+        <p><strong>Prepared for:</strong> CEO, Natural Balance Pet Foods</p>
+        <p><strong>Date:</strong> January 2026</p>
+        <p><strong>Classification:</strong> Confidential</p>
+    </div>
+</div>
+
+<!-- EXECUTIVE SUMMARY -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">Executive Summary</span>
+        <span class="page-number">Page 2</span>
+    </div>
+
+    <h2>The 90-Second Brief</h2>
+
+    <p class="lead">Natural Balance is being outcompeted on the digital surfaces that increasingly determine which brands consumers consider. The gap is fixable—but requires strategic investment in AI and e-commerce visibility.</p>
+
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="number negative">4%</div>
+            <div class="label">Amazon Rufus Visibility</div>
+        </div>
+        <div class="stat-card">
+            <div class="number negative">6%</div>
+            <div class="label">Google AI Overview</div>
+        </div>
+        <div class="stat-card">
+            <div class="number">12%</div>
+            <div class="label">Google Organic</div>
+        </div>
+        <div class="stat-card">
+            <div class="number">8</div>
+            <div class="label">AI Surfaces Studied</div>
+        </div>
+    </div>
+
+    <h3>What We Found</h3>
+
+    <div class="two-col">
+        <div>
+            <div class="callout critical">
+                <h4>The Visibility Crisis</h4>
+                <p>Blue Buffalo appears in <strong>46-72%</strong> of AI responses. Purina in <strong>32-68%</strong>. Natural Balance appears in just <strong>4-25%</strong>. When consumers ask AI "what's the best dog food?", Natural Balance is rarely mentioned.</p>
+            </div>
+        </div>
+        <div>
+            <div class="callout warning">
+                <h4>The E-Commerce Gap</h4>
+                <p>Natural Balance's website has <strong>no direct shopping</strong>—only "Where to Buy" links. Meanwhile, 6 competitors (Blue Buffalo, Canidae, Nutro, Taste of the Wild, Pedigree, Iams) sell directly on their own sites, capturing customer data and margins.</p>
+            </div>
+        </div>
+    </div>
+
+    <h3>The Competitive Reality</h3>
+
+    <p>We studied 17 premium dog food brands across 8 AI and search surfaces, running 100 queries on each. Natural Balance consistently ranks in the bottom third for visibility:</p>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>AI Surface</th>
+                <th>Blue Buffalo</th>
+                <th>Purina</th>
+                <th>Royal Canin</th>
+                <th>Natural Balance</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>OpenAI API (GPT-4o)</td>
+                <td class="positive">72%</td>
+                <td>41%</td>
+                <td>51%</td>
+                <td class="negative">25%</td>
+            </tr>
+            <tr>
+                <td>Gemini API</td>
+                <td class="positive">69%</td>
+                <td class="positive">68%</td>
+                <td>57%</td>
+                <td class="negative">25%</td>
+            </tr>
+            <tr>
+                <td>ChatGPT Web</td>
+                <td class="positive">46%</td>
+                <td>38%</td>
+                <td>29%</td>
+                <td class="negative">12%</td>
+            </tr>
+            <tr>
+                <td>Amazon Rufus</td>
+                <td>4%</td>
+                <td>4%</td>
+                <td>5%</td>
+                <td class="negative">4%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="page-footer">
+        <span>Confidential — Natural Balance</span>
+        <span>Bentham Research</span>
+    </div>
+</div>
+
+<!-- THE AI DISCOVERY LANDSCAPE -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">1. The AI Discovery Landscape</span>
+        <span class="page-number">Page 3</span>
+    </div>
+
+    <h2>How Consumers Find Dog Food in 2026</h2>
+
+    <p class="lead">The way American consumers discover and evaluate dog food has fundamentally shifted. AI assistants and recommendation engines now mediate a significant share of the discovery journey.</p>
+
+    <div class="exhibit-label">Exhibit 1: Brand Visibility Across AI Surfaces</div>
+
+    <div style="margin: 30px 0;">
+        <div class="progress-bar">
+            <span class="progress-label">Blue Buffalo</span>
+            <div class="progress-track">
+                <div class="progress-fill green" style="width: 72%;"><span>72%</span></div>
+            </div>
+        </div>
+        <div class="progress-bar">
+            <span class="progress-label">Purina</span>
+            <div class="progress-track">
+                <div class="progress-fill navy" style="width: 68%;"><span>68%</span></div>
+            </div>
+        </div>
+        <div class="progress-bar">
+            <span class="progress-label">Wellness</span>
+            <div class="progress-track">
+                <div class="progress-fill navy" style="width: 61%;"><span>61%</span></div>
+            </div>
+        </div>
+        <div class="progress-bar">
+            <span class="progress-label">Royal Canin</span>
+            <div class="progress-track">
+                <div class="progress-fill navy" style="width: 57%;"><span>57%</span></div>
+            </div>
+        </div>
+        <div class="progress-bar">
+            <span class="progress-label">Hill's Science Diet</span>
+            <div class="progress-track">
+                <div class="progress-fill navy" style="width: 54%;"><span>54%</span></div>
+            </div>
+        </div>
+        <div class="progress-bar">
+            <span class="progress-label" style="color: var(--accent-red); font-weight: 600;">Natural Balance</span>
+            <div class="progress-track">
+                <div class="progress-fill red" style="width: 25%;"><span>25%</span></div>
+            </div>
+        </div>
+    </div>
+
+    <p><em>Chart shows maximum visibility across AI surfaces (Gemini API data). Natural Balance trails the top 5 competitors by 29-47 percentage points.</em></p>
+
+    <h3>The Surfaces That Matter</h3>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Discovery Surface</th>
+                <th>Role in Consumer Journey</th>
+                <th>Natural Balance Visibility</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>OpenAI / ChatGPT</td>
+                <td>Research & comparison queries</td>
+                <td class="negative">12-25%</td>
+            </tr>
+            <tr>
+                <td>Google Gemini</td>
+                <td>Android users, Google Assistant</td>
+                <td>25%</td>
+            </tr>
+            <tr>
+                <td>Google AI Overview</td>
+                <td>Search result summaries</td>
+                <td class="negative">6%</td>
+            </tr>
+            <tr>
+                <td>Amazon Rufus</td>
+                <td>Shopping assistant on Amazon</td>
+                <td class="negative">4%</td>
+            </tr>
+            <tr>
+                <td>Google Organic</td>
+                <td>Traditional search results</td>
+                <td>12%</td>
+            </tr>
+            <tr>
+                <td>Bing Search</td>
+                <td>Microsoft ecosystem, Copilot</td>
+                <td class="negative">2%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="insight-box">
+        <h4>The Amazon Rufus Problem</h4>
+        <p>Amazon's AI shopping assistant "Rufus" influences purchasing decisions at the critical moment of purchase. With only 4% visibility, Natural Balance is essentially invisible when consumers ask Rufus "what's the best limited ingredient dog food?" or "which dog food is good for sensitive stomachs?" — queries where Natural Balance should dominate.</p>
+    </div>
+
+    <div class="page-footer">
+        <span>Confidential — Natural Balance</span>
+        <span>Bentham Research</span>
+    </div>
+</div>
+
+<!-- DETAILED AI VISIBILITY -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">2. Detailed AI Visibility Analysis</span>
+        <span class="page-number">Page 4</span>
+    </div>
+
+    <h2>Surface-by-Surface Assessment</h2>
+
+    <p class="lead">We analyzed 100 queries across 8 discovery surfaces, tracking which brands AI systems recommend. The results reveal consistent underperformance for Natural Balance.</p>
+
+    <div class="exhibit-label">Exhibit 2: Natural Balance Rank by AI Surface</div>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>AI Surface</th>
+                <th>NB Visibility</th>
+                <th>Rank (of 17)</th>
+                <th>Leader</th>
+                <th>Leader Visibility</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>OpenAI Chat Completions API</td>
+                <td>25%</td>
+                <td>#9</td>
+                <td>Blue Buffalo</td>
+                <td class="positive">72%</td>
+            </tr>
+            <tr>
+                <td>OpenAI Responses API</td>
+                <td>22%</td>
+                <td>#8</td>
+                <td>Blue Buffalo</td>
+                <td class="positive">66%</td>
+            </tr>
+            <tr>
+                <td>Gemini API</td>
+                <td>25%</td>
+                <td>#9</td>
+                <td>Blue Buffalo</td>
+                <td class="positive">69%</td>
+            </tr>
+            <tr>
+                <td>ChatGPT Web</td>
+                <td>12%</td>
+                <td>#11</td>
+                <td>Blue Buffalo</td>
+                <td class="positive">46%</td>
+            </tr>
+            <tr>
+                <td>Google AI Overview</td>
+                <td class="negative">6%</td>
+                <td>#11</td>
+                <td>Purina</td>
+                <td class="positive">62%</td>
+            </tr>
+            <tr>
+                <td>Google Organic</td>
+                <td>12%</td>
+                <td>#13</td>
+                <td>Purina</td>
+                <td class="positive">61%</td>
+            </tr>
+            <tr>
+                <td>Bing Search</td>
+                <td class="negative">2%</td>
+                <td>#14</td>
+                <td>Chewy/Purina</td>
+                <td>10%</td>
+            </tr>
+            <tr>
+                <td>Amazon Rufus</td>
+                <td class="negative">4%</td>
+                <td>#8 (tie)</td>
+                <td>Amazon</td>
+                <td>15%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>The Queries Where Natural Balance Should Win</h3>
+
+    <p>Natural Balance's positioning as a "limited ingredient" brand should give it an advantage for specific query types. Our analysis shows this positioning is not translating to AI visibility:</p>
+
+    <div class="two-col">
+        <div>
+            <div class="callout critical">
+                <h4>Limited Ingredient Queries</h4>
+                <p>"Best limited ingredient dog food" — Natural Balance mentioned in only <strong>4 of 100</strong> AI responses, despite this being core positioning.</p>
+            </div>
+        </div>
+        <div>
+            <div class="callout critical">
+                <h4>Sensitive Stomach Queries</h4>
+                <p>"Dog food for sensitive stomach" — Natural Balance rarely surfaces, with Hill's Science Diet and Royal Canin dominating.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="insight-box">
+        <h4>Why Is Natural Balance Invisible?</h4>
+        <p>AI systems learn from the web. Natural Balance has lower online presence than competitors in the content types AI models train on: reviews, comparisons, expert articles, and user-generated content. The brand's messaging hasn't saturated the content ecosystem the way Blue Buffalo's and Purina's have.</p>
+    </div>
+
+    <div class="page-footer">
+        <span>Confidential — Natural Balance</span>
+        <span>Bentham Research</span>
+    </div>
+</div>
+
+<!-- AMAZON ANALYSIS -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">3. Amazon Ecosystem Analysis</span>
+        <span class="page-number">Page 5</span>
+    </div>
+
+    <h2>The Amazon Opportunity Gap</h2>
+
+    <p class="lead">Amazon is the dominant e-commerce platform for pet food. Natural Balance has presence—but is underutilizing Amazon's brand-building tools.</p>
+
+    <h3>Amazon Brand Store Status</h3>
+
+    <p>All 17 tracked brands have Amazon Brand Stores. Natural Balance has one, but the critical question is: <strong>how is the content being optimized for Amazon's AI systems?</strong></p>
+
+    <div class="exhibit-label">Exhibit 3: Amazon Rufus Brand Visibility</div>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Brand</th>
+                <th>Rufus Mentions</th>
+                <th>% of Queries</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Amazon (self-referential)</td>
+                <td>15</td>
+                <td class="highlight">15%</td>
+            </tr>
+            <tr>
+                <td>Royal Canin</td>
+                <td>5</td>
+                <td>5%</td>
+            </tr>
+            <tr>
+                <td>Blue Buffalo</td>
+                <td>4</td>
+                <td>4%</td>
+            </tr>
+            <tr>
+                <td>Wellness</td>
+                <td>4</td>
+                <td>4%</td>
+            </tr>
+            <tr>
+                <td>Natural Balance</td>
+                <td>4</td>
+                <td>4%</td>
+            </tr>
+            <tr>
+                <td>Purina</td>
+                <td>4</td>
+                <td>4%</td>
+            </tr>
+            <tr>
+                <td>Orijen</td>
+                <td>4</td>
+                <td>4%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><em>Note: Amazon Rufus frequently recommends "Amazon's Choice" products rather than specific brands, making brand visibility low across the board. However, Natural Balance still underperforms given its category positioning.</em></p>
+
+    <h3>Competitor Amazon Content Analysis</h3>
+
+    <p>We analyzed Amazon product listings for 6 leading competitors. Their content strategies reveal best practices Natural Balance should adopt:</p>
+
+    <div class="exhibit-label">Exhibit 4: Amazon Listing Content Comparison</div>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Brand</th>
+                <th>Key Messaging Themes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Blue Buffalo</strong></td>
+                <td>Real meat #1 ingredient, LifeSource Bits antioxidants, no by-products/corn/wheat/soy</td>
+            </tr>
+            <tr>
+                <td><strong>Canidae</strong></td>
+                <td>Multi-protein, HealthPlus probiotics, regenerative agriculture, sustainable packaging</td>
+            </tr>
+            <tr>
+                <td><strong>Nutro</strong></td>
+                <td>Omega 3/6 for skin & coat, prebiotics for digestion, no common allergens</td>
+            </tr>
+            <tr>
+                <td><strong>Taste of the Wild</strong></td>
+                <td>Roasted bison & venison, 32% protein, proprietary K9 probiotics, made in USA</td>
+            </tr>
+            <tr>
+                <td><strong>Pedigree</strong></td>
+                <td>36 vitamins/minerals, prebiotic fiber, Omega 6 + Zinc for coat</td>
+            </tr>
+            <tr>
+                <td><strong>Iams</strong></td>
+                <td>"Proactive 5" health benefits, prebiotics, chicken/egg protein</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="callout">
+        <h4>Key Observation</h4>
+        <p>Competitors use <strong>specific, quantifiable claims</strong> in their Amazon bullets: "32% protein", "36 vitamins", "5-in-1 health support". Natural Balance's limited ingredient messaging needs similar specificity to compete in Amazon's AI-driven recommendation engine.</p>
+    </div>
+
+    <div class="page-footer">
+        <span>Confidential — Natural Balance</span>
+        <span>Bentham Research</span>
+    </div>
+</div>
+
+<!-- WEBSITE & E-COMMERCE GAP -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">4. Website & E-Commerce Analysis</span>
+        <span class="page-number">Page 6</span>
+    </div>
+
+    <h2>The Direct-to-Consumer Gap</h2>
+
+    <p class="lead">Natural Balance's website lacks direct e-commerce functionality—a strategic disadvantage as competitors build owned customer relationships.</p>
+
+    <div class="exhibit-label">Exhibit 5: Brand Website E-Commerce Capabilities</div>
+
+    <div class="two-col">
+        <div>
+            <h4 style="color: var(--accent-green);">Brands WITH Direct Shopping (6)</h4>
+            <ul>
+                <li><strong>Blue Buffalo</strong> — Cart + Store Locator</li>
+                <li><strong>Canidae</strong> — Full E-Commerce</li>
+                <li><strong>Nutro</strong> — Shop by Category</li>
+                <li><strong>Taste of the Wild</strong> — Cart + Where to Buy</li>
+                <li><strong>Pedigree</strong> — Shop All Dog Food</li>
+                <li><strong>Iams</strong> — Full E-Commerce</li>
+            </ul>
+        </div>
+        <div>
+            <h4 style="color: var(--accent-red);">Brands WITHOUT Direct Shopping (11)</h4>
+            <ul>
+                <li><strong>Natural Balance</strong> — "Where To Buy" only</li>
+                <li>Wellness</li>
+                <li>Merrick</li>
+                <li>Orijen / Acana</li>
+                <li>Fromm</li>
+                <li>Nulo</li>
+                <li>Purina / Hill's / Royal Canin</li>
+                <li>Rachael Ray Nutrish</li>
+            </ul>
+        </div>
+    </div>
+
+    <h3>What Competitors Are Doing on Their Websites</h3>
+
+    <p>We analyzed the brand messaging on competitor websites versus their Amazon listings:</p>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Brand</th>
+                <th>Amazon Focus</th>
+                <th>Website Focus</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Blue Buffalo</strong></td>
+                <td>Ingredient claims, health benefits</td>
+                <td>Brand story, loyalty program, "Love them like family"</td>
+            </tr>
+            <tr>
+                <td><strong>Canidae</strong></td>
+                <td>Multi-protein, probiotics, all life stages</td>
+                <td>Sustainability, regenerative agriculture, testimonials</td>
+            </tr>
+            <tr>
+                <td><strong>Iams</strong></td>
+                <td>Proactive 5 benefits, high protein</td>
+                <td>Free puppy guide, $3 rebate signup, newsletter</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="insight-box">
+        <h4>The Strategic Implication</h4>
+        <p>Competitors use Amazon for <strong>conversion</strong> (benefit-driven, claims-focused) and their own websites for <strong>relationship building</strong> (loyalty programs, email capture, brand story). Natural Balance's "Where to Buy" approach means it's <strong>missing both opportunities</strong>—neither optimizing for Amazon's algorithms nor building direct customer relationships.</p>
+    </div>
+
+    <div class="callout warning">
+        <h4>The Data Gap</h4>
+        <p>Without direct e-commerce, Natural Balance lacks first-party customer data. This limits ability to: retarget customers, build subscription revenue, personalize marketing, and reduce dependence on retailer relationships.</p>
+    </div>
+
+    <div class="page-footer">
+        <span>Confidential — Natural Balance</span>
+        <span>Bentham Research</span>
+    </div>
+</div>
+
+<!-- ENTITY COHERENCE & BRAND CONTROL -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">5. The Entity Coherence Problem</span>
+        <span class="page-number">Page 7</span>
+    </div>
+
+    <h2>Why AI Systems Distrust Natural Balance</h2>
+
+    <p class="lead">AI systems don't just count brand mentions—they evaluate consistency across sources. When a brand tells a coherent story across multiple channels, AI gains confidence in recommending it. Natural Balance's fragmented presence sends weak signals.</p>
+
+    <div class="exhibit-label">Exhibit 7: How AI Evaluates Brand Authority</div>
+
+    <div class="insight-box">
+        <h4>The Entity Coherence Principle</h4>
+        <p>When AI systems see the same brand information confirmed across multiple independent sources—website, Amazon, reviews, expert content, user discussions—they treat that brand as more authoritative and trustworthy. <strong>Complementary sources create a positive signal.</strong> Fragmented or inconsistent presence creates doubt.</p>
+    </div>
+
+    <h3>Natural Balance's Signal Fragmentation</h3>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Source Type</th>
+                <th>Blue Buffalo</th>
+                <th>Natural Balance</th>
+                <th>AI Signal Strength</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Own Website</strong></td>
+                <td class="positive">Rich content, e-commerce, loyalty program</td>
+                <td class="negative">Thin content, no e-commerce</td>
+                <td>Weak</td>
+            </tr>
+            <tr>
+                <td><strong>Amazon Brand Store</strong></td>
+                <td class="positive">Optimized A+ content, consistent messaging</td>
+                <td>Has store, optimization unclear</td>
+                <td>Medium</td>
+            </tr>
+            <tr>
+                <td><strong>Amazon PDPs</strong></td>
+                <td class="positive">Strong bullets, specific claims</td>
+                <td>Present but not differentiated</td>
+                <td>Medium</td>
+            </tr>
+            <tr>
+                <td><strong>Review Sites</strong></td>
+                <td class="positive">Saturated presence in "best of" lists</td>
+                <td class="negative">Inconsistent presence</td>
+                <td>Weak</td>
+            </tr>
+            <tr>
+                <td><strong>Expert Content</strong></td>
+                <td class="positive">Vet mentions, nutritionist citations</td>
+                <td class="negative">Limited expert endorsement</td>
+                <td>Weak</td>
+            </tr>
+            <tr>
+                <td><strong>User Forums</strong></td>
+                <td class="positive">Active Reddit/Quora presence</td>
+                <td class="negative">Minimal organic discussion</td>
+                <td>Weak</td>
+            </tr>
+            <tr>
+                <td><strong>Google Organic SEO</strong></td>
+                <td class="positive">42% visibility</td>
+                <td class="negative">12% visibility</td>
+                <td>Weak</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>The Single Source of Truth Problem</h3>
+
+    <p>Natural Balance lacks a <strong>Single Source of Truth (SSOT)</strong> for its brand online. Without strong owned properties:</p>
+
+    <div class="two-col">
+        <div>
+            <div class="callout critical">
+                <h4>What Happens Without SSOT</h4>
+                <ul>
+                    <li>Retailers control product descriptions</li>
+                    <li>Third parties define brand narrative</li>
+                    <li>Inconsistent messaging across channels</li>
+                    <li>AI sees fragmented, low-confidence signals</li>
+                    <li>Brand can't correct misinformation</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="callout">
+                <h4>What Competitors Do Right</h4>
+                <ul>
+                    <li>Rich owned website as authoritative source</li>
+                    <li>Consistent messaging: web → Amazon → reviews</li>
+                    <li>Active content seeding across channels</li>
+                    <li>AI sees reinforcing signals everywhere</li>
+                    <li>Brand controls the narrative</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="quote">
+        "AI systems are pattern matchers. When they see the same story told consistently across 10 sources, they believe it. When they see fragments and gaps, they recommend someone else."
+    </div>
+
+    <h3>The Coherence Gap: Natural Balance vs. Leaders</h3>
+
+    <p>Blue Buffalo appears in <strong>42% of Google organic results</strong> AND <strong>72% of OpenAI responses</strong> AND <strong>46% of ChatGPT Web</strong>. This consistency across surfaces reinforces AI confidence. Natural Balance's numbers—<strong>12%, 25%, 12%</strong>—show a brand that hasn't achieved entity coherence.</p>
+
+    <div class="page-footer">
+        <span>Confidential — Natural Balance</span>
+        <span>Bentham Research</span>
+    </div>
+</div>
+
+<!-- STRATEGIC RECOMMENDATIONS -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">6. Strategic Recommendations</span>
+        <span class="page-number">Page 8</span>
+    </div>
+
+    <h2>The Path Forward</h2>
+
+    <p class="lead">Natural Balance needs a comprehensive digital visibility strategy across three fronts: AI presence, Amazon optimization, and direct-to-consumer capabilities.</p>
+
+    <div class="rec-card priority-critical" style="margin-top: 30px;">
+        <div class="rec-number">1</div>
+        <div class="rec-header">
+            <span class="rec-title">AI Visibility Campaign: "Own the Limited Ingredient Conversation"</span>
+            <span class="priority-badge critical">Critical Priority</span>
+        </div>
+        <p><strong>What:</strong> Systematically increase Natural Balance's presence in the content ecosystem that AI models learn from—expert reviews, comparison articles, user-generated content, and authoritative pet nutrition resources.</p>
+        <p><strong>Why:</strong> AI systems recommend brands they've "learned about" from training data. Blue Buffalo appears in 72% of AI responses because their brand saturates the web.</p>
+        <p><strong>How:</strong></p>
+        <ul>
+            <li>Pitch Natural Balance to 20+ pet food review sites for inclusion in "best limited ingredient dog food" articles</li>
+            <li>Partner with veterinary nutritionists for authoritative content</li>
+            <li>Launch influencer program targeting pet health content creators</li>
+            <li>Seed discussions on Reddit (r/dogs, r/dogfood) and pet forums</li>
+        </ul>
+        <p style="margin-top: 10px; padding: 10px; background: #f0f0f0; font-size: 13px;"><strong>Expected Impact:</strong> 15-25 percentage point improvement in AI visibility within 6-12 months</p>
+    </div>
+
+    <div class="rec-card priority-critical">
+        <div class="rec-number">2</div>
+        <div class="rec-header">
+            <span class="rec-title">Amazon Optimization Program</span>
+            <span class="priority-badge critical">Critical Priority</span>
+        </div>
+        <p><strong>What:</strong> Overhaul Amazon listings with AI-optimized content, enhanced A+ pages, and strategic keyword targeting for Rufus recommendations.</p>
+        <p><strong>Why:</strong> Amazon Rufus influences purchase decisions at the moment of transaction. Current 4% visibility is unacceptable for a brand of Natural Balance's caliber.</p>
+        <p><strong>How:</strong></p>
+        <ul>
+            <li>Rewrite all product bullets with specific, quantifiable claims ("12 real food ingredients", "0 artificial preservatives", "100% grain-free")</li>
+            <li>Optimize A+ content for Rufus extraction—use clear tables, comparison charts, and benefit lists</li>
+            <li>Target "limited ingredient" keywords in backend search terms</li>
+            <li>Invest in Amazon Ads for category visibility</li>
+        </ul>
+        <p style="margin-top: 10px; padding: 10px; background: #f0f0f0; font-size: 13px;"><strong>Expected Impact:</strong> 2-3x improvement in Rufus recommendations; measurable sales lift</p>
+    </div>
+
+    <div class="page-footer">
+        <span>Confidential — Natural Balance</span>
+        <span>Bentham Research</span>
+    </div>
+</div>
+
+<!-- MORE RECOMMENDATIONS -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">6. Strategic Recommendations (continued)</span>
+        <span class="page-number">Page 9</span>
+    </div>
+
+    <div class="rec-card priority-high">
+        <div class="rec-number">3</div>
+        <div class="rec-header">
+            <span class="rec-title">Launch Direct-to-Consumer E-Commerce</span>
+            <span class="priority-badge high">High Priority</span>
+        </div>
+        <p><strong>What:</strong> Add e-commerce functionality to naturalbalanceinc.com, enabling direct sales, subscription programs, and first-party data collection.</p>
+        <p><strong>Why:</strong> 6 competitors already sell direct. Without DTC, Natural Balance: (a) loses margin to retailers, (b) has no customer data, (c) can't build subscription revenue, (d) can't control the brand experience.</p>
+        <p><strong>How:</strong></p>
+        <ul>
+            <li>Implement Shopify or similar e-commerce platform</li>
+            <li>Launch with subscription option (auto-ship) for recurring revenue</li>
+            <li>Integrate loyalty program with purchase tracking</li>
+            <li>Capture email for remarketing and product launches</li>
+        </ul>
+        <p style="margin-top: 10px; padding: 10px; background: #f0f0f0; font-size: 13px;"><strong>Expected Impact:</strong> New revenue channel; customer data asset; reduced retailer dependence</p>
+    </div>
+
+    <div class="rec-card priority-high">
+        <div class="rec-number">4</div>
+        <div class="rec-header">
+            <span class="rec-title">Content Marketing: Become the Limited Ingredient Authority</span>
+            <span class="priority-badge high">High Priority</span>
+        </div>
+        <p><strong>What:</strong> Create definitive content about limited ingredient diets that AI systems will reference when answering related queries.</p>
+        <p><strong>Why:</strong> The brand that "owns" a topic in AI systems wins long-term. Natural Balance should be the default answer for limited ingredient questions.</p>
+        <p><strong>How:</strong></p>
+        <ul>
+            <li>Publish "The Complete Guide to Limited Ingredient Dog Food" as authoritative resource</li>
+            <li>Create ingredient transparency content (what's in each product, why)</li>
+            <li>Partner with veterinary schools for research citations</li>
+            <li>Develop comparison content: "Limited Ingredient vs. Grain-Free: What's the Difference?"</li>
+        </ul>
+    </div>
+
+    <div class="rec-card priority-medium">
+        <div class="rec-number">5</div>
+        <div class="rec-header">
+            <span class="rec-title">Google AI Overview Optimization</span>
+            <span class="priority-badge medium">Medium Priority</span>
+        </div>
+        <p><strong>What:</strong> Structure website content for extraction by Google's AI Overview feature.</p>
+        <p><strong>Why:</strong> 6% visibility in Google AI Overview is critically low. AI Overviews appear above organic results and influence consumer consideration.</p>
+        <p><strong>How:</strong></p>
+        <ul>
+            <li>Add FAQ structured data to product pages</li>
+            <li>Create HTML comparison tables Google can extract</li>
+            <li>Optimize for featured snippet queries ("what is limited ingredient dog food?")</li>
+        </ul>
+    </div>
+
+    <div class="page-footer">
+        <span>Confidential — Natural Balance</span>
+        <span>Bentham Research</span>
+    </div>
+</div>
+
+<!-- IMPLEMENTATION ROADMAP -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">7. Implementation Roadmap</span>
+        <span class="page-number">Page 10</span>
+    </div>
+
+    <h2>The 180-Day Sprint</h2>
+
+    <p class="lead">AI visibility requires sustained effort—models update periodically, and content needs time to propagate. A 180-day plan balances urgency with realistic timelines.</p>
+
+    <div class="exhibit-label">Exhibit 6: Implementation Timeline</div>
+
+    <div class="timeline">
+        <div class="timeline-item">
+            <div class="timeline-marker">1</div>
+            <div class="timeline-content">
+                <h5>Days 1-60: Foundation</h5>
+                <p>Audit current content. Rewrite Amazon listings. Begin review site outreach. Scope DTC platform.</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-marker">2</div>
+            <div class="timeline-content">
+                <h5>Days 61-120: Execution</h5>
+                <p>Launch Amazon A+ content. Publish authority content. Secure 10+ review site placements. Begin DTC development.</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-marker">3</div>
+            <div class="timeline-content">
+                <h5>Days 121-180: Scale</h5>
+                <p>Launch DTC site. Measure AI visibility changes. Expand influencer program. Iterate based on results.</p>
+            </div>
+        </div>
+    </div>
+
+    <h3>Target Metrics</h3>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Metric</th>
+                <th>Current</th>
+                <th>60 Days</th>
+                <th>120 Days</th>
+                <th>180 Days</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>AI Surface Avg. Visibility</td>
+                <td class="negative">~14%</td>
+                <td>16%</td>
+                <td>22%</td>
+                <td class="positive">30%</td>
+            </tr>
+            <tr>
+                <td>Amazon Rufus Visibility</td>
+                <td class="negative">4%</td>
+                <td>6%</td>
+                <td>10%</td>
+                <td class="positive">15%</td>
+            </tr>
+            <tr>
+                <td>Review Site Placements</td>
+                <td>Unknown</td>
+                <td>5</td>
+                <td>15</td>
+                <td class="positive">25+</td>
+            </tr>
+            <tr>
+                <td>DTC Revenue</td>
+                <td>$0</td>
+                <td>$0</td>
+                <td>Soft launch</td>
+                <td class="positive">Live</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Resource Requirements</h3>
+
+    <div class="two-col">
+        <div>
+            <h4>Personnel</h4>
+            <ul>
+                <li>1 Digital Marketing Lead (full-time)</li>
+                <li>Content Writer / SEO Specialist</li>
+                <li>Amazon Marketplace Manager</li>
+                <li>E-commerce Developer (contract)</li>
+                <li>Agency support for outreach</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Budget (Estimated)</h4>
+            <ul>
+                <li>Amazon optimization: $50-75K</li>
+                <li>Content & PR: $75-100K</li>
+                <li>DTC platform: $100-150K</li>
+                <li>Paid media (Amazon Ads): $100K+</li>
+                <li><strong>Total: $325-425K for 180 days</strong></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="page-footer">
+        <span>Confidential — Natural Balance</span>
+        <span>Bentham Research</span>
+    </div>
+</div>
+
+<!-- CONCLUSION -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">Conclusion</span>
+        <span class="page-number">Page 11</span>
+    </div>
+
+    <h2>Three Things to Remember</h2>
+
+    <p class="lead">As you consider this report and discuss with your team, we leave you with three essential takeaways.</p>
+
+    <div style="margin: 50px 0;">
+        <div style="display: flex; align-items: flex-start; margin-bottom: 40px;">
+            <div style="width: 80px; height: 80px; background: var(--navy); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'Playfair Display', serif; font-size: 36px; flex-shrink: 0;">1</div>
+            <div style="margin-left: 30px;">
+                <h3 style="margin-top: 0;">Natural Balance is invisible to AI.</h3>
+                <p>With 4-25% visibility across AI surfaces, Natural Balance is being outcompeted 3-18x by Blue Buffalo and other leaders. When consumers ask AI "what's the best dog food?", Natural Balance is rarely part of the answer—even for limited ingredient queries where it should dominate.</p>
+            </div>
+        </div>
+
+        <div style="display: flex; align-items: flex-start; margin-bottom: 40px;">
+            <div style="width: 80px; height: 80px; background: var(--navy); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'Playfair Display', serif; font-size: 36px; flex-shrink: 0;">2</div>
+            <div style="margin-left: 30px;">
+                <h3 style="margin-top: 0;">The e-commerce gap is strategic risk.</h3>
+                <p>Natural Balance has no direct-to-consumer channel. Competitors are building owned customer relationships, subscription revenue, and first-party data. Without DTC, Natural Balance remains dependent on retailers and blind to customer behavior.</p>
+            </div>
+        </div>
+
+        <div style="display: flex; align-items: flex-start; margin-bottom: 40px;">
+            <div style="width: 80px; height: 80px; background: var(--navy); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'Playfair Display', serif; font-size: 36px; flex-shrink: 0;">3</div>
+            <div style="margin-left: 30px;">
+                <h3 style="margin-top: 0;">The fix requires content, not just technical SEO.</h3>
+                <p>AI visibility comes from being mentioned across the web—reviews, comparisons, user discussions. Natural Balance needs to flood the content ecosystem with brand mentions, not just optimize its own website. This is a marketing and PR challenge, not a technical one.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-divider"></div>
+
+    <div class="quote">
+        "Natural Balance has earned its reputation with pet parents over decades. Now it needs to earn visibility with the AI systems that increasingly guide those pet parents to their next purchase."
+    </div>
+
+    <div style="text-align: center; margin-top: 50px;">
+        <p style="font-size: 14px; color: var(--text-secondary);">We appreciate the opportunity to serve Natural Balance.</p>
+        <p style="font-size: 14px; color: var(--text-secondary);">For questions or clarification, please contact your engagement lead.</p>
+        <div class="gold-line"></div>
+        <p style="font-family: 'Playfair Display', serif; font-size: 18px; color: var(--navy);">Bentham Research</p>
+    </div>
+
+    <div class="page-footer">
+        <span>Confidential — Natural Balance</span>
+        <span>Bentham Research</span>
+    </div>
+</div>
+
+<!-- APPENDIX: METHODOLOGY -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">Appendix A: Methodology</span>
+        <span class="page-number">Page 11</span>
+    </div>
+
+    <h2>Research Methodology</h2>
+
+    <h3>Data Collection</h3>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Component</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Query Set</td>
+                <td>100 US dog food queries covering: brand comparisons, breed-specific, health conditions, life stages, shopping intent</td>
+            </tr>
+            <tr>
+                <td>AI Surfaces Studied</td>
+                <td>8 surfaces: ChatGPT Web, OpenAI API (Chat Completions), OpenAI Responses API, Gemini API, Google AI Overview, Google Organic, Bing Search, Amazon Rufus</td>
+            </tr>
+            <tr>
+                <td>Brands Tracked</td>
+                <td>17 brands including Natural Balance, Blue Buffalo, Purina, Royal Canin, Hill's, Wellness, and competitors</td>
+            </tr>
+            <tr>
+                <td>Amazon Content Analysis</td>
+                <td>6 brands with direct website shopping: Blue Buffalo, Canidae, Nutro, Taste of the Wild, Pedigree, Iams</td>
+            </tr>
+            <tr>
+                <td>Website Shopping Audit</td>
+                <td>17 brand websites checked for e-commerce functionality</td>
+            </tr>
+            <tr>
+                <td>Study Date</td>
+                <td>January 2026</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Brand Detection Methodology</h3>
+
+    <ul>
+        <li><strong>Case-insensitive matching:</strong> All brand name variations counted</li>
+        <li><strong>Counting method:</strong> Binary presence per query (brand mentioned = 1)</li>
+        <li><strong>Visibility calculation:</strong> % of queries where brand appears in response</li>
+    </ul>
+
+    <h3>Amazon Rufus Data Collection</h3>
+
+    <ul>
+        <li>Chrome browser with Amazon session, connected via CDP</li>
+        <li>Rufus panel activated for each query</li>
+        <li>Response text captured and analyzed for brand mentions</li>
+        <li>100 queries executed with human-like delays</li>
+    </ul>
+
+    <h3>Limitations</h3>
+
+    <ul>
+        <li><strong>Point-in-time:</strong> AI systems evolve; results may shift</li>
+        <li><strong>Query sample:</strong> 100 queries may not capture full search demand</li>
+        <li><strong>Rufus variability:</strong> Amazon Rufus responses vary by user history</li>
+        <li><strong>US market only:</strong> Results may differ in other geographies</li>
+    </ul>
+
+    <h3>Data Files Available</h3>
+
+    <ul>
+        <li><code>amazon-rufus-results.json</code> — Full Rufus query results</li>
+        <li><code>chatgpt-web-results.json</code> — ChatGPT study results</li>
+        <li><code>gemini-api-results.json</code> — Gemini API results</li>
+        <li><code>google-ai-overview-results.json</code> — Google AI Overview data</li>
+        <li><code>brand-content-comparison.json</code> — Amazon vs website content</li>
+        <li><code>brand-website-shopping.json</code> — E-commerce capability audit</li>
+    </ul>
+
+    <div class="page-footer">
+        <span>Confidential — Natural Balance</span>
+        <span>Bentham Research</span>
+    </div>
+</div>
+
+<!-- BACK COVER -->
+<div class="cover" style="min-height: 100vh;">
+    <div style="margin-top: auto; margin-bottom: auto;">
+        <div class="cover-logo">Bentham Research</div>
+        <div class="gold-line" style="margin: 30px auto;"></div>
+        <p style="font-size: 16px; color: rgba(255,255,255,0.7); max-width: 400px; line-height: 1.8;">
+            Evidence-based insights for the AI era.<br>
+            Helping brands navigate the shift from search to synthesis.
+        </p>
+    </div>
+    <div class="cover-meta" style="margin-top: auto;">
+        <p>&copy; 2026 Bentham Research. All rights reserved.</p>
+        <p>This document contains confidential information.</p>
+    </div>
+</div>
+
+</body>
+</html>

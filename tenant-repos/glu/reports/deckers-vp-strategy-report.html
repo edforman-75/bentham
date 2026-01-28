@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deckers Brands US AI Visibility | Strategic Report</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --navy: #003366;
+            --gold: #C9A227;
+            --charcoal: #2C2C2C;
+            --light-gray: #F5F5F5;
+            --medium-gray: #E0E0E0;
+            --text-primary: #1A1A1A;
+            --text-secondary: #666666;
+            --accent-blue: #0066CC;
+            --accent-red: #CC3333;
+            --accent-green: #228B22;
+            --brand-teal: #2E8B57;
+        }
+
+        body {
+            font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: white;
+            color: var(--text-primary);
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        .cover {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, var(--navy) 0%, #001a33 100%);
+            color: white;
+            text-align: center;
+            padding: 60px;
+            page-break-after: always;
+        }
+
+        .cover-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 14px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 80px;
+        }
+
+        .cover h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 400;
+            line-height: 1.2;
+            margin-bottom: 30px;
+            max-width: 800px;
+        }
+
+        .cover-subtitle {
+            font-size: 22px;
+            font-weight: 300;
+            color: rgba(255,255,255,0.8);
+            margin-bottom: 60px;
+        }
+
+        .cover-meta {
+            margin-top: auto;
+            font-size: 14px;
+            color: rgba(255,255,255,0.6);
+        }
+
+        .gold-line {
+            width: 80px;
+            height: 2px;
+            background: var(--gold);
+            margin: 40px auto;
+        }
+
+        .page {
+            min-height: 100vh;
+            padding: 60px 80px;
+            page-break-after: always;
+            position: relative;
+        }
+
+        .page-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--medium-gray);
+        }
+
+        .page-number {
+            font-size: 12px;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .section-label {
+            font-size: 11px;
+            color: var(--navy);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 600;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            font-weight: 400;
+            color: var(--navy);
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            font-size: 22px;
+            font-weight: 600;
+            color: var(--charcoal);
+            margin: 30px 0 15px 0;
+        }
+
+        h4 {
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-secondary);
+            margin: 25px 0 10px 0;
+        }
+
+        p { margin-bottom: 15px; }
+
+        .lead {
+            font-size: 20px;
+            font-weight: 300;
+            color: var(--text-secondary);
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        .insight-box {
+            background: var(--navy);
+            color: white;
+            padding: 35px 40px;
+            margin: 30px 0;
+            position: relative;
+        }
+
+        .insight-box::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: var(--gold);
+        }
+
+        .insight-box h4 { color: var(--gold); margin-top: 0; }
+        .insight-box p { color: white; font-size: 18px; margin-bottom: 0; }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .stat-card {
+            text-align: center;
+            padding: 30px 20px;
+            background: var(--light-gray);
+            border-top: 3px solid var(--navy);
+        }
+
+        .stat-card .number {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: var(--navy);
+        }
+
+        .stat-card .number.negative { color: var(--accent-red); }
+        .stat-card .number.positive { color: var(--accent-green); }
+
+        .stat-card .label {
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-secondary);
+            margin-top: 10px;
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 14px;
+        }
+
+        .data-table th {
+            text-align: left;
+            padding: 15px 20px;
+            background: var(--navy);
+            color: white;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .data-table td {
+            padding: 15px 20px;
+            border-bottom: 1px solid var(--medium-gray);
+        }
+
+        .data-table tr:nth-child(even) { background: var(--light-gray); }
+        .data-table .highlight { color: var(--accent-blue); font-weight: 600; }
+        .data-table .negative { color: var(--accent-red); font-weight: 600; }
+        .data-table .positive { color: var(--accent-green); font-weight: 600; }
+
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            margin: 30px 0;
+        }
+
+        .callout {
+            background: var(--light-gray);
+            padding: 25px 30px;
+            border-left: 4px solid var(--navy);
+            margin: 25px 0;
+        }
+
+        .callout.warning { background: #FFF8E6; border-left-color: var(--gold); }
+        .callout.critical { background: #FFE6E6; border-left-color: var(--accent-red); }
+        .callout h4 { margin-top: 0; color: var(--navy); }
+
+        .progress-bar {
+            display: flex;
+            align-items: center;
+            margin: 12px 0;
+        }
+
+        .progress-label { width: 140px; font-size: 14px; }
+
+        .progress-track {
+            flex: 1;
+            height: 24px;
+            background: var(--medium-gray);
+            margin: 0 15px;
+        }
+
+        .progress-fill {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 8px;
+            font-size: 12px;
+            font-weight: 600;
+            color: white;
+        }
+
+        .progress-fill.navy { background: var(--navy); }
+        .progress-fill.red { background: var(--accent-red); }
+        .progress-fill.green { background: var(--accent-green); }
+        .progress-fill.gold { background: var(--gold); color: var(--charcoal); }
+        .progress-fill.teal { background: var(--brand-teal); }
+
+        .rec-card {
+            border: 1px solid var(--medium-gray);
+            padding: 25px;
+            margin: 20px 0;
+        }
+
+        .rec-card.priority-critical { border-left: 4px solid var(--accent-red); }
+        .rec-card.priority-high { border-left: 4px solid var(--gold); }
+
+        ul { margin-left: 25px; margin-bottom: 15px; }
+        li { margin-bottom: 8px; }
+
+        @media print {
+            .page { page-break-after: always; }
+            .cover { page-break-after: always; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover">
+    <div class="cover-logo">Bentham Research</div>
+    <h1>Deckers Brands<br>US AI Visibility Assessment</h1>
+    <div class="gold-line"></div>
+    <p class="cover-subtitle">Web Presence Strategy for the AI Era</p>
+    <div class="cover-meta">
+        <p>VP Strategy Report</p>
+        <p>January 2026</p>
+        <p>Confidential</p>
+    </div>
+</div>
+
+<!-- EXECUTIVE SUMMARY -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">Executive Summary</span>
+        <span class="page-number">Page 2</span>
+    </div>
+
+    <h2>ChatGPT Leader, Amazon Laggard</h2>
+
+    <p class="lead">HOKA and UGG dominate ChatGPT recommendations—134 and 105 mentions respectively—establishing Deckers as the AI visibility leader in footwear. Yet on Amazon Search and Amazon Rufus, Brooks and other competitors significantly outperform Deckers brands, revealing a critical platform execution gap.</p>
+
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="number positive">134</div>
+            <div class="label">HOKA on ChatGPT<br>(#1 Running Brand)</div>
+        </div>
+        <div class="stat-card">
+            <div class="number positive">105</div>
+            <div class="label">UGG on ChatGPT<br>(#1 Boots Brand)</div>
+        </div>
+        <div class="stat-card">
+            <div class="number negative">31</div>
+            <div class="label">HOKA Amazon Search<br>(vs Brooks: 85)</div>
+        </div>
+        <div class="stat-card">
+            <div class="number negative">22</div>
+            <div class="label">HOKA Amazon Rufus<br>(vs Brooks: 34)</div>
+        </div>
+    </div>
+
+    <div class="insight-box">
+        <h4>The Web Presence Problem</h4>
+        <p>HOKA dominates ChatGPT (134 mentions) because AI systems learned from quality web content Deckers controls. But Amazon and Google are foundational data sources—and on Amazon, 3P resellers with inconsistent descriptions fragment Deckers' entity signals. This hurts visibility across <em>all</em> AI surfaces, not just Amazon.</p>
+    </div>
+
+    <h3>Portfolio Update</h3>
+    <table class="data-table">
+        <tr>
+            <th>Brand</th>
+            <th>FY2025 Revenue</th>
+            <th>Status</th>
+            <th>AI Visibility</th>
+        </tr>
+        <tr>
+            <td><strong>HOKA</strong></td>
+            <td>$2.23B</td>
+            <td>Core Brand</td>
+            <td class="positive">Strong (except Amazon)</td>
+        </tr>
+        <tr>
+            <td><strong>UGG</strong></td>
+            <td>$2.53B</td>
+            <td>Core Brand</td>
+            <td class="positive">Strong (except Amazon)</td>
+        </tr>
+        <tr>
+            <td><strong>Teva</strong></td>
+            <td>~$150M</td>
+            <td>Core Brand</td>
+            <td class="highlight">Moderate</td>
+        </tr>
+        <tr>
+            <td>Sanuk</td>
+            <td>—</td>
+            <td>Sold (Aug 2024)</td>
+            <td>N/A</td>
+        </tr>
+        <tr>
+            <td>Koolaburra</td>
+            <td>—</td>
+            <td>Shut Down (Dec 2025)</td>
+            <td>N/A</td>
+        </tr>
+    </table>
+</div>
+
+<!-- SURFACE COMPARISON -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">AI Surface Analysis</span>
+        <span class="page-number">Page 3</span>
+    </div>
+
+    <h2>Eight Surfaces, One Clear Pattern</h2>
+
+    <p class="lead">We tested 100 consumer queries across 8 AI and e-commerce surfaces. The data reveals a consistent story: Deckers brands excel on general AI platforms but struggle on Amazon-specific surfaces.</p>
+
+    <h3>Brand Mentions by Surface</h3>
+    <table class="data-table">
+        <tr>
+            <th>Surface</th>
+            <th>HOKA</th>
+            <th>UGG</th>
+            <th>Teva</th>
+            <th>Total</th>
+            <th>Assessment</th>
+        </tr>
+        <tr style="background: #E6F4EA;">
+            <td><strong>ChatGPT Web</strong></td>
+            <td class="positive">134</td>
+            <td class="positive">105</td>
+            <td>45</td>
+            <td><strong>284</strong></td>
+            <td class="positive">Excellent</td>
+        </tr>
+        <tr>
+            <td>Perplexity API</td>
+            <td class="positive">167</td>
+            <td class="positive">118</td>
+            <td>43</td>
+            <td><strong>328</strong></td>
+            <td class="positive">Excellent</td>
+        </tr>
+        <tr>
+            <td>Gemini API</td>
+            <td class="positive">151</td>
+            <td class="positive">147</td>
+            <td>65</td>
+            <td><strong>363</strong></td>
+            <td class="positive">Excellent</td>
+        </tr>
+        <tr>
+            <td>Google AI Overview</td>
+            <td>65</td>
+            <td>37</td>
+            <td>18</td>
+            <td>120</td>
+            <td class="highlight">Good</td>
+        </tr>
+        <tr>
+            <td>OpenAI Responses</td>
+            <td>63</td>
+            <td>90</td>
+            <td>21</td>
+            <td>174</td>
+            <td class="highlight">Good</td>
+        </tr>
+        <tr style="background: #FFE6E6;">
+            <td><strong>Amazon Search</strong></td>
+            <td class="negative">31</td>
+            <td class="negative">40</td>
+            <td>43</td>
+            <td class="negative">114</td>
+            <td class="negative">Critical Gap</td>
+        </tr>
+        <tr style="background: #FFE6E6;">
+            <td><strong>Amazon Rufus</strong></td>
+            <td class="negative">22</td>
+            <td class="negative">15</td>
+            <td class="negative">6</td>
+            <td class="negative">43</td>
+            <td class="negative">Critical Gap</td>
+        </tr>
+        <tr>
+            <td>Zappos Search</td>
+            <td>17</td>
+            <td>23</td>
+            <td>18</td>
+            <td>58</td>
+            <td>Moderate</td>
+        </tr>
+    </table>
+
+    <div class="callout critical">
+        <h4>ChatGPT vs Amazon: The Core Finding</h4>
+        <p>On ChatGPT, HOKA leads with 134 mentions and UGG with 105—both #1 in their categories. On Amazon Search, HOKA drops to 31 (vs Brooks at 85) and UGG to 40 (vs Sorel at 44). This 4:1 ChatGPT-to-Amazon ratio reveals the platform strategy gap.</p>
+    </div>
+
+    <h3>HOKA: ChatGPT vs Amazon</h3>
+    <div class="progress-bar">
+        <span class="progress-label">ChatGPT</span>
+        <div class="progress-track"><div class="progress-fill navy" style="width: 100%;">134</div></div>
+    </div>
+    <div class="progress-bar">
+        <span class="progress-label">Perplexity</span>
+        <div class="progress-track"><div class="progress-fill navy" style="width: 100%;">167</div></div>
+    </div>
+    <div class="progress-bar">
+        <span class="progress-label">Gemini</span>
+        <div class="progress-track"><div class="progress-fill navy" style="width: 90%;">151</div></div>
+    </div>
+    <div class="progress-bar">
+        <span class="progress-label">Amazon Search</span>
+        <div class="progress-track"><div class="progress-fill red" style="width: 23%;">31</div></div>
+    </div>
+    <div class="progress-bar">
+        <span class="progress-label">Amazon Rufus</span>
+        <div class="progress-track"><div class="progress-fill red" style="width: 16%;">22</div></div>
+    </div>
+</div>
+
+<!-- AMAZON DEEP DIVE -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">Amazon Analysis</span>
+        <span class="page-number">Page 4</span>
+    </div>
+
+    <h2>The Amazon Strategy Question</h2>
+
+    <p class="lead">Deckers has <strong>deliberately stayed out of Amazon</strong>—a strategic choice that made sense while building premium brand positioning. But third-party resellers now sell HOKA and UGG on Amazon with inconsistent descriptions, and this fragmentation hurts Deckers visibility across <em>all</em> AI surfaces, not just Amazon.</p>
+
+    <div class="two-col">
+        <div>
+            <h3>The Historical Rationale</h3>
+            <ul>
+                <li>Protect premium brand positioning</li>
+                <li>Maintain DTC channel control</li>
+                <li>Avoid Amazon's margin pressure</li>
+                <li>Prevent brand dilution during growth phase</li>
+                <li>Focus on owned retail experience</li>
+            </ul>
+        </div>
+        <div>
+            <h3>The Current Reality</h3>
+            <ul>
+                <li>3P resellers sell HOKA/UGG on Amazon anyway</li>
+                <li>Product descriptions differ from Deckers' official messaging</li>
+                <li>Inconsistent data fragments brand entity signals</li>
+                <li>AI systems trained on Amazon data see conflicting information</li>
+                <li>Competitors (Brooks) control their Amazon narrative</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="insight-box">
+        <h4>Why This Matters Beyond Amazon</h4>
+        <p>Amazon and Google are foundational data sources for AI systems. When ChatGPT, Perplexity, or Gemini answer product queries, they draw on web data that includes Amazon listings. Inconsistent 3P descriptions on Amazon don't just hurt Rufus—they create entity fragmentation that degrades Deckers' visibility across <em>every</em> AI surface.</p>
+    </div>
+
+    <h3>Amazon Search: Competitor Dominance</h3>
+    <table class="data-table">
+        <tr>
+            <th>Brand</th>
+            <th>Amazon Search Appearances</th>
+            <th>Category</th>
+        </tr>
+        <tr>
+            <td class="highlight">Brooks</td>
+            <td class="positive"><strong>85</strong></td>
+            <td>Running</td>
+        </tr>
+        <tr>
+            <td class="highlight">New Balance</td>
+            <td class="positive">78</td>
+            <td>Running/Athletic</td>
+        </tr>
+        <tr>
+            <td>Skechers</td>
+            <td>65</td>
+            <td>Comfort</td>
+        </tr>
+        <tr>
+            <td>Sorel</td>
+            <td>44</td>
+            <td>Boots</td>
+        </tr>
+        <tr>
+            <td><strong>Teva</strong></td>
+            <td>43</td>
+            <td>Sandals</td>
+        </tr>
+        <tr>
+            <td><strong>UGG</strong></td>
+            <td>40</td>
+            <td>Boots/Slippers</td>
+        </tr>
+        <tr>
+            <td><strong>HOKA</strong></td>
+            <td class="negative">31</td>
+            <td>Running</td>
+        </tr>
+    </table>
+
+    <div class="callout warning">
+        <h4>The Strategic Question</h4>
+        <p>The "no Amazon" strategy made sense while HOKA and UGG were establishing premium positioning. But with 3P sellers already on the platform using inconsistent messaging, the question becomes: <strong>Is continued absence better than controlled presence?</strong> Brooks' success suggests formal Amazon engagement—with proper Brand Registry, A+ Content, and authorized seller controls—may now be the stronger strategic posture.</p>
+    </div>
+</div>
+
+<!-- BRAND ANALYSIS: HOKA -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">Brand Analysis</span>
+        <span class="page-number">Page 5</span>
+    </div>
+
+    <h2>HOKA: ChatGPT Champion, Amazon Laggard</h2>
+
+    <p class="lead">HOKA dominates ChatGPT recommendations with 134 mentions—#1 in running footwear. Yet on Amazon Search, Brooks leads with 85 vs HOKA's 31. This bifurcation represents both Deckers' greatest AI asset and most urgent operational gap.</p>
+
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="number positive">134</div>
+            <div class="label">ChatGPT Mentions<br>#1 Running Brand</div>
+        </div>
+        <div class="stat-card">
+            <div class="number positive">167</div>
+            <div class="label">Perplexity<br>#1 Overall</div>
+        </div>
+        <div class="stat-card">
+            <div class="number negative">31</div>
+            <div class="label">Amazon Search<br>(Brooks: 85)</div>
+        </div>
+        <div class="stat-card">
+            <div class="number negative">22</div>
+            <div class="label">Amazon Rufus<br>(Brooks: 34)</div>
+        </div>
+    </div>
+
+    <h3>Where HOKA Wins</h3>
+    <p>Perplexity recommends HOKA for:</p>
+    <ul>
+        <li><strong>Professional use:</strong> Nurses, teachers, warehouse work, standing all day</li>
+        <li><strong>Running:</strong> Trail, marathon, cushioned, stability, daily trainer</li>
+        <li><strong>Health:</strong> Plantar fasciitis, back pain, arch support, foot health</li>
+        <li><strong>Recovery:</strong> Post-workout slides, recovery shoes</li>
+        <li><strong>Lifestyle:</strong> Travel, theme parks, comfortable everyday</li>
+    </ul>
+
+    <h3>HOKA vs Brooks: ChatGPT vs Amazon</h3>
+    <table class="data-table">
+        <tr>
+            <th>Surface</th>
+            <th>HOKA</th>
+            <th>Brooks</th>
+            <th>Winner</th>
+        </tr>
+        <tr style="background: #E6F4EA;">
+            <td><strong>ChatGPT Web</strong></td>
+            <td class="positive">134</td>
+            <td>~80</td>
+            <td class="positive">HOKA (+68%)</td>
+        </tr>
+        <tr>
+            <td>Perplexity API</td>
+            <td class="positive">167</td>
+            <td>81</td>
+            <td class="positive">HOKA (+106%)</td>
+        </tr>
+        <tr>
+            <td>Gemini API</td>
+            <td class="positive">151</td>
+            <td>94</td>
+            <td class="positive">HOKA (+61%)</td>
+        </tr>
+        <tr style="background: #FFE6E6;">
+            <td><strong>Amazon Search</strong></td>
+            <td class="negative">31</td>
+            <td>85</td>
+            <td class="negative">Brooks (+174%)</td>
+        </tr>
+        <tr style="background: #FFE6E6;">
+            <td><strong>Amazon Rufus</strong></td>
+            <td class="negative">22</td>
+            <td>34</td>
+            <td class="negative">Brooks (+55%)</td>
+        </tr>
+    </table>
+
+    <div class="insight-box">
+        <h4>Strategic Implication</h4>
+        <p>HOKA's AI dominance proves Deckers has mastered web presence where it controls the narrative. The Amazon gap reflects a <em>deliberate absence</em>—but 3P sellers are there anyway with inconsistent messaging. The strategic question: Does controlled Amazon presence now serve HOKA better than continued absence with uncontrolled 3P fragmentation?</p>
+    </div>
+</div>
+
+<!-- BRAND ANALYSIS: UGG -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">Brand Analysis</span>
+        <span class="page-number">Page 6</span>
+    </div>
+
+    <h2>UGG: Category Leader, Platform Vulnerable</h2>
+
+    <p class="lead">UGG demonstrates strong AI visibility in its core categories—boots, slippers, comfort footwear—but faces the same Amazon platform gap as HOKA, compounded by counterfeit exposure.</p>
+
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="number positive">147</div>
+            <div class="label">Gemini Mentions<br>#1 in Boots</div>
+        </div>
+        <div class="stat-card">
+            <div class="number positive">118</div>
+            <div class="label">Perplexity<br>#2 Overall</div>
+        </div>
+        <div class="stat-card">
+            <div class="number">40</div>
+            <div class="label">Amazon Search<br>Behind Sorel (44)</div>
+        </div>
+        <div class="stat-card">
+            <div class="number negative">15</div>
+            <div class="label">Amazon Rufus<br>Critical Gap</div>
+        </div>
+    </div>
+
+    <h3>Where UGG Wins</h3>
+    <p>AI surfaces recommend UGG for:</p>
+    <ul>
+        <li><strong>Winter footwear:</strong> Winter boots, snow boots, cold weather</li>
+        <li><strong>Slippers:</strong> Men's slippers, women's slippers, luxury slippers</li>
+        <li><strong>Comfort:</strong> Comfortable brands, quality brands</li>
+        <li><strong>Sheepskin:</strong> Dominates sheepskin category queries</li>
+    </ul>
+
+    <h3>UGG: Surface Performance</h3>
+    <div class="progress-bar">
+        <span class="progress-label">Gemini</span>
+        <div class="progress-track"><div class="progress-fill navy" style="width: 100%;">147</div></div>
+    </div>
+    <div class="progress-bar">
+        <span class="progress-label">Perplexity</span>
+        <div class="progress-track"><div class="progress-fill navy" style="width: 80%;">118</div></div>
+    </div>
+    <div class="progress-bar">
+        <span class="progress-label">ChatGPT</span>
+        <div class="progress-track"><div class="progress-fill navy" style="width: 73%;">108</div></div>
+    </div>
+    <div class="progress-bar">
+        <span class="progress-label">OpenAI Responses</span>
+        <div class="progress-track"><div class="progress-fill teal" style="width: 61%;">90</div></div>
+    </div>
+    <div class="progress-bar">
+        <span class="progress-label">Amazon Search</span>
+        <div class="progress-track"><div class="progress-fill gold" style="width: 27%;">40</div></div>
+    </div>
+    <div class="progress-bar">
+        <span class="progress-label">Amazon Rufus</span>
+        <div class="progress-track"><div class="progress-fill red" style="width: 10%;">15</div></div>
+    </div>
+
+    <div class="callout critical">
+        <h4>Counterfeit Vulnerability</h4>
+        <p>UGG's premium positioning makes it a prime counterfeit target. Without official Amazon Brand Store and strict seller authorization, counterfeit listings fragment UGG's product data and reduce AI recommendation confidence.</p>
+    </div>
+</div>
+
+<!-- TEVA ANALYSIS -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">Brand Analysis</span>
+        <span class="page-number">Page 7</span>
+    </div>
+
+    <h2>Teva: Sandal Specialist, Niche Strong</h2>
+
+    <p class="lead">Teva shows consistent mid-tier visibility across all surfaces—neither dominating like HOKA nor suffering critical gaps. The brand holds its own against Keen and Chaco in the outdoor sandal category.</p>
+
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="number">65</div>
+            <div class="label">Gemini<br>Best Surface</div>
+        </div>
+        <div class="stat-card">
+            <div class="number">43</div>
+            <div class="label">Amazon Search<br>Best Deckers Brand</div>
+        </div>
+        <div class="stat-card">
+            <div class="number">43</div>
+            <div class="label">Perplexity<br>Consistent</div>
+        </div>
+        <div class="stat-card">
+            <div class="number">18</div>
+            <div class="label">Zappos<br>Behind Merrell (28)</div>
+        </div>
+    </div>
+
+    <h3>Teva vs Outdoor Sandal Competitors</h3>
+    <table class="data-table">
+        <tr>
+            <th>Brand</th>
+            <th>Perplexity</th>
+            <th>Gemini</th>
+            <th>Amazon Search</th>
+            <th>Zappos</th>
+        </tr>
+        <tr>
+            <td><strong>Teva</strong></td>
+            <td>43</td>
+            <td>65</td>
+            <td class="positive">43</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>Keen</td>
+            <td>50</td>
+            <td>37</td>
+            <td>37</td>
+            <td class="positive">23</td>
+        </tr>
+        <tr>
+            <td>Chaco</td>
+            <td>30</td>
+            <td>~25</td>
+            <td>~20</td>
+            <td>~15</td>
+        </tr>
+        <tr>
+            <td>Merrell</td>
+            <td>~20</td>
+            <td>35</td>
+            <td>17</td>
+            <td class="positive">28</td>
+        </tr>
+    </table>
+
+    <div class="callout">
+        <h4>Strategic Position</h4>
+        <p>Teva's relatively balanced performance across surfaces suggests adequate brand infrastructure. Focus should be on maintaining competitive position against Keen and leveraging summer/adventure sandal queries where Teva shows strength.</p>
+    </div>
+
+    <h3>Where Teva Appears</h3>
+    <ul>
+        <li><strong>Summer/Beach:</strong> Best summer sandals, best beach shoes</li>
+        <li><strong>Hiking:</strong> Hiking sandals, adventure sandals, trail sandals</li>
+        <li><strong>Comfort:</strong> Comfortable sandals, indoor/outdoor slippers</li>
+        <li><strong>Comparisons:</strong> Teva vs Chaco, Teva vs Keen (Teva often wins)</li>
+    </ul>
+</div>
+
+<!-- STRATEGIC RECOMMENDATIONS -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">Strategic Recommendations</span>
+        <span class="page-number">Page 8</span>
+    </div>
+
+    <h2>Four Priority Actions</h2>
+
+    <div class="rec-card priority-critical">
+        <h3>1. Evaluate Formal Amazon Presence</h3>
+        <h4>Priority: Critical | Timeline: Q1 Strategic Decision</h4>
+        <p>The "no Amazon" strategy made sense during brand establishment. Now the question is whether continued absence serves Deckers better than controlled presence. Consider:</p>
+        <ul>
+            <li><strong>Option A: Formal Entry</strong> — Official Brand Stores with A+ Content, authorized seller policy, consistent messaging that aligns with DTC</li>
+            <li><strong>Option B: Enhanced Control</strong> — Remain off-Amazon but aggressively police 3P listings, enforce Brand Registry rights, ensure description consistency</li>
+            <li><strong>Option C: Status Quo</strong> — Accept 3P fragmentation as cost of premium positioning</li>
+        </ul>
+        <p><strong>Key Insight:</strong> Amazon data feeds AI systems everywhere. Inconsistent 3P descriptions don't just hurt Amazon visibility—they degrade entity coherence across ChatGPT, Perplexity, and Gemini.</p>
+    </div>
+
+    <div class="rec-card priority-critical">
+        <h3>2. Product Data Optimization</h3>
+        <h4>Priority: Critical | Timeline: 30-60 Days</h4>
+        <p>AI systems (especially Rufus) rely on structured product data. Ensure:</p>
+        <ul>
+            <li>Consistent brand names across all Amazon ASINs</li>
+            <li>Complete product attributes (materials, use cases, features)</li>
+            <li>High-quality images with lifestyle context</li>
+            <li>Category-appropriate keywords in titles and bullets</li>
+        </ul>
+    </div>
+
+    <div class="rec-card priority-high">
+        <h3>3. Protect AI Leadership</h3>
+        <h4>Priority: High | Timeline: Ongoing</h4>
+        <p>HOKA and UGG's AI visibility is a competitive moat. Protect it by:</p>
+        <ul>
+            <li>Monitoring AI surfaces monthly for visibility trends</li>
+            <li>Ensuring website content is AI-crawlable and structured</li>
+            <li>Maintaining strong earned media presence (reviews, expert coverage)</li>
+            <li>Responding to brand comparison queries (HOKA vs Brooks, UGG vs Bearpaw)</li>
+        </ul>
+    </div>
+
+    <div class="rec-card priority-high">
+        <h3>4. Teva Competitive Defense</h3>
+        <h4>Priority: High | Timeline: Q2 2026</h4>
+        <p>Teva faces strong competition from Keen and Merrell. Strengthen position by:</p>
+        <ul>
+            <li>Increasing adventure/outdoor content marketing</li>
+            <li>Targeting summer season queries proactively</li>
+            <li>Building presence on outdoor-focused platforms</li>
+        </ul>
+    </div>
+</div>
+
+<!-- CONCLUSION -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">Conclusion</span>
+        <span class="page-number">Page 9</span>
+    </div>
+
+    <h2>The Path Forward</h2>
+
+    <p class="lead">Deckers has built exceptional AI visibility for HOKA and UGG through strong brand equity, quality products, and controlled web presence. The Amazon absence was a deliberate strategy—but with 3P sellers fragmenting brand data on a platform that feeds all AI systems, it's time to ask whether that strategy still serves Deckers.</p>
+
+    <div class="insight-box">
+        <h4>The Core Insight</h4>
+        <p>This study is about <strong>web presence</strong>, not just AI surfaces. Amazon and Google are foundational data sources—when 3P resellers describe HOKA differently than Deckers does, that inconsistency propagates to ChatGPT, Perplexity, and every other AI system trained on web data. The question isn't whether to "fix" Amazon—it's whether to control the narrative there.</p>
+    </div>
+
+    <h3>Success Metrics by Strategy</h3>
+    <table class="data-table">
+        <tr>
+            <th>Metric</th>
+            <th>Current State</th>
+            <th>If Formal Amazon Entry</th>
+            <th>If Enhanced 3P Control</th>
+        </tr>
+        <tr>
+            <td>Amazon Brand Messaging</td>
+            <td class="negative">Fragmented (3P varies)</td>
+            <td class="positive">Controlled (official)</td>
+            <td class="highlight">Improved (enforced)</td>
+        </tr>
+        <tr>
+            <td>Entity Coherence</td>
+            <td class="negative">Degraded by 3P</td>
+            <td class="positive">Unified</td>
+            <td class="highlight">Partially improved</td>
+        </tr>
+        <tr>
+            <td>AI Visibility (non-Amazon)</td>
+            <td class="positive">Strong</td>
+            <td class="positive">Strengthened</td>
+            <td class="positive">Maintained</td>
+        </tr>
+        <tr>
+            <td>Amazon Rufus/Search</td>
+            <td class="negative">Weak</td>
+            <td class="positive">Strong</td>
+            <td class="highlight">Moderate</td>
+        </tr>
+        <tr>
+            <td>Premium Positioning</td>
+            <td class="positive">Protected</td>
+            <td class="highlight">Risk to manage</td>
+            <td class="positive">Protected</td>
+        </tr>
+    </table>
+
+    <h3>The Foundational Data Source Problem</h3>
+    <p>Amazon and Google aren't just discovery surfaces—they're <strong>foundational data sources</strong> that feed every AI system. When users ask ChatGPT or Perplexity about running shoes, those systems draw on training data that includes Amazon product descriptions. Inconsistent 3P listings don't just hurt Amazon visibility—they inject conflicting signals into the entire AI ecosystem.</p>
+
+    <p>The AI visibility leadership HOKA and UGG have built came from controlling their web narrative. The question now: <strong>Can that leadership be sustained when Amazon—the largest product database on the web—tells a fragmented story?</strong></p>
+
+    <div class="callout">
+        <h4>Next Steps</h4>
+        <p>Bentham Research recommends a strategic working session to:</p>
+        <ul>
+            <li>Assess the full scope of 3P seller activity and messaging inconsistency</li>
+            <li>Model the AI visibility impact of formal Amazon entry vs. enhanced 3P control</li>
+            <li>Evaluate premium positioning risks of each approach</li>
+            <li>Develop decision framework for Amazon strategy</li>
+        </ul>
+    </div>
+</div>
+
+<!-- APPENDIX -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">Appendix</span>
+        <span class="page-number">Page 10</span>
+    </div>
+
+    <h2>Methodology & Data</h2>
+
+    <h3>Study Parameters</h3>
+    <ul>
+        <li><strong>Queries Tested:</strong> 100 consumer-intent queries across 8 categories</li>
+        <li><strong>Categories:</strong> Running/Athletic, Outdoor/Hiking, Boots/Winter, Casual/Lifestyle, Brand Comparisons, Activity/Use Case, Slippers/Comfort, Shopping/Quality</li>
+        <li><strong>Surfaces Tested:</strong> 8 (Perplexity API, Gemini API, ChatGPT Web, OpenAI Responses API, Google AI Overview, Amazon Rufus, Amazon Search, Zappos Search)</li>
+        <li><strong>Date:</strong> January 25-26, 2026</li>
+        <li><strong>Location:</strong> United States</li>
+    </ul>
+
+    <h3>Brands Tracked</h3>
+    <p><strong>Deckers (3):</strong> HOKA, UGG, Teva</p>
+    <p><strong>Competitors (28):</strong> Nike, Adidas, New Balance, Brooks, ASICS, Saucony, On Running, Merrell, Salomon, Keen, Columbia, The North Face, Birkenstock, Crocs, Allbirds, Vans, Converse, Timberland, Dr. Martens, Clarks, Sorel, Skechers, Reebok, Puma, Under Armour, Chaco, Bearpaw, EMU</p>
+
+    <h3>Data Collection Methods</h3>
+    <table class="data-table">
+        <tr>
+            <th>Surface</th>
+            <th>Method</th>
+            <th>Success Rate</th>
+        </tr>
+        <tr>
+            <td>Perplexity API</td>
+            <td>API (sonar model)</td>
+            <td>100/100</td>
+        </tr>
+        <tr>
+            <td>Gemini API</td>
+            <td>API</td>
+            <td>100/100</td>
+        </tr>
+        <tr>
+            <td>ChatGPT Web</td>
+            <td>Browser automation (CDP)</td>
+            <td>100/100</td>
+        </tr>
+        <tr>
+            <td>OpenAI Responses API</td>
+            <td>API with web search</td>
+            <td>100/100</td>
+        </tr>
+        <tr>
+            <td>Google AI Overview</td>
+            <td>SerpAPI</td>
+            <td>100/100</td>
+        </tr>
+        <tr>
+            <td>Amazon Rufus</td>
+            <td>Browser automation (CDP)</td>
+            <td>98/100</td>
+        </tr>
+        <tr>
+            <td>Amazon Search</td>
+            <td>Browser automation (CDP)</td>
+            <td>100/100</td>
+        </tr>
+        <tr>
+            <td>Zappos Search</td>
+            <td>Browser automation (CDP)</td>
+            <td>100/100</td>
+        </tr>
+    </table>
+
+    <h3>Correlation Analysis</h3>
+    <p>Statistical correlation between Amazon Search and AI surfaces:</p>
+    <ul>
+        <li>Amazon Search ↔ Gemini: r = 0.248 (weak)</li>
+        <li>Amazon Search ↔ OpenAI: r = -0.022 (none)</li>
+        <li>Gemini ↔ OpenAI: r = 0.863 (very strong)</li>
+    </ul>
+    <p><em>Interpretation: AI surfaces correlate strongly with each other but not with Amazon Search, indicating Amazon uses different ranking signals.</em></p>
+
+    <div style="margin-top: 60px; padding-top: 30px; border-top: 1px solid var(--medium-gray); text-align: center; color: var(--text-secondary);">
+        <p><strong>Bentham Research</strong></p>
+        <p>AI Visibility Intelligence</p>
+        <p style="font-size: 12px; margin-top: 20px;">© 2026 Bentham Research. All Rights Reserved. Confidential.</p>
+        <p style="font-size: 10px; color: #999; margin-top: 10px;">This report and its contents are proprietary to Bentham Research. Unauthorized reproduction, distribution, or disclosure is prohibited.</p>
+    </div>
+</div>
+
+</body>
+</html>

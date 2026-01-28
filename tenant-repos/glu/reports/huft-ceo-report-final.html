@@ -859,6 +859,13 @@
         <p>HUFT's brand is strongly associated with India in AI training data, which is positive. However, this means HUFT is vulnerable on surfaces that don't pass geographic context—including the critical Google AI Overview feature, which often synthesizes global information regardless of user location.</p>
     </div>
 
+    <div class="insight-box" style="margin-top: 30px;">
+        <h4>Web Layer Analysis: ChatGPT vs Google Behave Differently</h4>
+        <p><strong>ChatGPT Web boosts HUFT:</strong> ChatGPT's web interface (chatgpt.com) significantly augments visibility compared to the raw OpenAI API. ChatGPT Web adds <strong>+56 mentions</strong> of "Heads Up For Tails" and <strong>+27 mentions</strong> of "HUFT" versus API baseline. This occurs because ChatGPT's web layer incorporates real-time search and citations from India-focused e-commerce sites. HUFT ranks #3 on ChatGPT Web with 62 mentions.</p>
+        <p style="margin-top: 15px;"><strong>Google AI Overview is more conservative:</strong> In contrast, Google AI Overviews <em>reduce</em> brand mentions compared to raw Gemini API. While Gemini API mentions brands like Blue Buffalo (48 times), Chewy (48), and Amazon (44), Google AI Overviews strip most of this—showing only Royal Canin (2), Whiskas (1), Pedigree (1), and Drools (1). Google's responses are shorter and more conservative than the underlying model.</p>
+        <p style="margin-top: 15px;"><strong>Strategic implication:</strong> HUFT should prioritize ChatGPT visibility (where web layer augmentation helps) while recognizing that Google AI Overview visibility requires being in the curated, conservative citation layer—not just the foundation model's training data.</p>
+    </div>
+
     <div class="page-footer">
         <span>Confidential — Heads Up For Tails</span>
         <span>Bentham Research</span>
@@ -1501,7 +1508,7 @@
 <!-- APPENDIX: METHODOLOGY -->
 <div class="page">
     <div class="page-header">
-        <span class="section-label">Appendix A: Methodology</span>
+        <span class="section-label">Appendix A: Methodology & Assumptions</span>
         <span class="page-number">Page 14</span>
     </div>
 
@@ -1522,45 +1529,162 @@
                 <td>100 pet food queries via SerpAPI, Mumbai location, Google.co.in, January 2026</td>
             </tr>
             <tr>
+                <td>OpenAI API (GPT-4o)</td>
+                <td>100 queries direct to API, foundation model baseline without web augmentation</td>
+            </tr>
+            <tr>
+                <td>ChatGPT Web</td>
+                <td>100 queries via chatgpt.com interface, captures web layer augmentation</td>
+            </tr>
+            <tr>
+                <td>Gemini API</td>
+                <td>100 queries direct to Google Gemini API, foundation model baseline</td>
+            </tr>
+            <tr>
                 <td>JSON-LD Correlation Audit</td>
                 <td>78 unique domains (39 AI-cited, 39 organic-only), HTTP fetch with schema extraction</td>
             </tr>
             <tr>
-                <td>Competitive Analysis</td>
-                <td>480 queries across Google, ChatGPT, Gemini; 24 surface configurations</td>
-            </tr>
-            <tr>
                 <td>Brand Mention Analysis</td>
-                <td>Text extraction and pattern matching for 20 tracked brands</td>
+                <td>Text extraction and pattern matching for 20 tracked brands across all surfaces</td>
             </tr>
         </tbody>
     </table>
 
+    <h3>Key Assumptions (Not Empirically Validated in This Study)</h3>
+
+    <p>The following assumptions underpin our strategic analysis but were not directly measured:</p>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Assumption</th>
+                <th>Value Used</th>
+                <th>Source/Rationale</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Zero-click search rate</td>
+                <td>~60%</td>
+                <td>SparkToro/Fishkin industry research (2024); actual rate in India pet food vertical unknown</td>
+            </tr>
+            <tr>
+                <td>AI Overview appearance rate</td>
+                <td>23% (measured)</td>
+                <td>Directly measured: 23/100 queries showed AI Overviews in our study</td>
+            </tr>
+            <tr>
+                <td>AI visibility → brand consideration</td>
+                <td>Assumed correlation</td>
+                <td>Not measured; based on prior search marketing research showing visibility impacts consideration</td>
+            </tr>
+            <tr>
+                <td>Query set representativeness</td>
+                <td>Approximation</td>
+                <td>100 queries selected by domain expertise; actual consumer query distribution unknown</td>
+            </tr>
+            <tr>
+                <td>Revenue impact estimate</td>
+                <td>₹1.5-3 Cr/year</td>
+                <td>Illustrative range based on assumed discovery share loss; not validated against actual sales data</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Brand Detection Methodology</h3>
+
+    <ul>
+        <li><strong>Case-insensitive matching:</strong> "HUFT", "huft", "Huft" all counted as same brand</li>
+        <li><strong>Variant handling:</strong> "HUFT" and "Heads Up For Tails" tracked separately, combined for total visibility</li>
+        <li><strong>Counting method:</strong> Binary presence per query (brand mentioned = 1, not mentioned = 0)</li>
+        <li><strong>Tracked brands:</strong> 20 brands including major players (Royal Canin, Pedigree, Drools) and competitors (Supertails, Zigly)</li>
+    </ul>
+
+    <div class="page-footer">
+        <span>Confidential — Heads Up For Tails</span>
+        <span>Bentham Research</span>
+    </div>
+</div>
+
+<!-- APPENDIX: METHODOLOGY PAGE 2 -->
+<div class="page">
+    <div class="page-header">
+        <span class="section-label">Appendix A: Methodology & Assumptions (continued)</span>
+        <span class="page-number">Page 15</span>
+    </div>
+
+    <h3>Geographic & Technical Configuration</h3>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Parameter</th>
+                <th>Configuration</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Location targeting</td>
+                <td>Mumbai, India via residential proxy (Oxylabs)</td>
+            </tr>
+            <tr>
+                <td>Google domain</td>
+                <td>google.co.in with gl=in, hl=en parameters</td>
+            </tr>
+            <tr>
+                <td>IP verification</td>
+                <td>Each study session verified via ipinfo.io to confirm India location</td>
+            </tr>
+            <tr>
+                <td>API provider for Google</td>
+                <td>SerpAPI with ai_overview extraction enabled</td>
+            </tr>
+            <tr>
+                <td>ChatGPT data collection</td>
+                <td>Automated browser session via chatgpt.com interface</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Web Layer Comparison Methodology</h3>
+
+    <p>To understand how web surfaces augment foundation model responses:</p>
+
+    <ul>
+        <li><strong>OpenAI comparison:</strong> Same 100 queries sent to both OpenAI API (GPT-4o) and ChatGPT Web interface</li>
+        <li><strong>Google comparison:</strong> Same 100 queries sent to both Gemini API and collected from Google AI Overviews</li>
+        <li><strong>Delta calculation:</strong> Brand mentions in web surface minus brand mentions in API baseline</li>
+        <li><strong>Finding:</strong> ChatGPT Web adds significant brand mentions (+56 HUFT); Google AI Overview reduces them vs Gemini API</li>
+    </ul>
+
     <h3>Statistical Methods</h3>
 
     <ul>
-        <li><strong>Chi-square test</strong> for independence (JSON-LD correlation)</li>
-        <li><strong>Odds ratio</strong> calculation with interpretation</li>
+        <li><strong>Chi-square test</strong> for independence (JSON-LD correlation analysis)</li>
+        <li><strong>Odds ratio</strong> calculation with confidence intervals</li>
         <li><strong>Significance threshold:</strong> p < 0.05</li>
     </ul>
 
-    <h3>Limitations</h3>
+    <h3>Limitations & Caveats</h3>
 
     <ul>
-        <li><strong>Single market:</strong> India only; findings may differ in other markets</li>
-        <li><strong>Single vertical:</strong> Pet food/products; may not generalize to other categories</li>
-        <li><strong>Point-in-time:</strong> January 2026 snapshot; AI systems evolve rapidly</li>
-        <li><strong>Correlation ≠ Causation:</strong> Cannot prove JSON-LD doesn't help, only that no correlation exists</li>
-        <li><strong>Sample size:</strong> 78 sites for correlation study; larger sample could reveal small effects</li>
+        <li><strong>Single market:</strong> India only; findings may differ in other markets where HUFT doesn't operate</li>
+        <li><strong>Single vertical:</strong> Pet food/products; may not generalize to other product categories</li>
+        <li><strong>Point-in-time:</strong> January 2026 snapshot; AI systems evolve rapidly and rankings may shift</li>
+        <li><strong>Correlation ≠ Causation:</strong> Cannot prove JSON-LD schema doesn't help, only that no correlation exists in our sample</li>
+        <li><strong>Revenue estimates are illustrative:</strong> Not based on HUFT internal sales data; actual impact requires integration with conversion data</li>
+        <li><strong>Query volume unknown:</strong> We do not have actual search volume data for India pet food queries</li>
+        <li><strong>AI response variability:</strong> AI systems produce variable outputs; a single snapshot may not capture full response distribution</li>
     </ul>
 
-    <h3>Data Files</h3>
+    <h3>Data Files Available</h3>
 
     <ul>
         <li><code>pet-food-100-study-results.json</code> — Full Google AI Overview query results</li>
+        <li><code>pet-food-100-india-results.json</code> — ChatGPT study results</li>
+        <li><code>huft-web-layer-augmentation-report.md</code> — API vs Web surface comparison</li>
         <li><code>jsonld-correlation-audit.json</code> — Site-by-site schema audit data</li>
-        <li><code>jsonld-correlation-findings.md</code> — Detailed analysis report</li>
-        <li><code>huft-web-presence-overview.md</code> — Comprehensive strategic document</li>
     </ul>
 
     <div class="page-footer">
@@ -1573,7 +1697,7 @@
 <div class="page">
     <div class="page-header">
         <span class="section-label">Appendix B: Supporting Data</span>
-        <span class="page-number">Page 15</span>
+        <span class="page-number">Page 16</span>
     </div>
 
     <h2>Brand Mention Rates in AI Overviews</h2>

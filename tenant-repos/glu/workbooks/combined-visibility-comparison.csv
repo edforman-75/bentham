@@ -1,0 +1,25 @@
+Platform,Study,Surface,IP,Query Type,HUFT Rate,HUFT Mentions,Notes
+OpenAI,S01,ChatGPT Web,India,Original,70%,70,Consumer web interface
+OpenAI,S02,ChatGPT Web,India,"in India",73%,73,Consumer web interface
+OpenAI,S03,ChatGPT Web,US,Original,31%,31,Consumer web interface
+OpenAI,S04,ChatGPT Web,US,"in India",50%,50,Consumer web interface
+OpenAI,S05,Chat API,India,Original,3%,3,Developer API (gpt-4o)
+OpenAI,S06,Chat API,India,"in India",18%,18,Developer API (gpt-4o)
+OpenAI,S07,Chat API,US,Original,7%,7,Developer API (gpt-4o)
+OpenAI,S08,Chat API,US,"in India",22%,22,Developer API (gpt-4o)
+OpenAI,S09,Web Search API,India,Original,1%,1,API with web search tool
+OpenAI,S10,Web Search API,India,"in India",36%,36,API with web search tool
+OpenAI,S11,Web Search API,US,Original,8%,8,API with web search tool
+OpenAI,S12,Web Search API,US,"in India",30%,30,API with web search tool
+Google,G01,Search + AI Overview,India,Original,70%,14,AI Overview 42% / Organic Top 3 50%
+Google,G02,Search + AI Overview,India,"in India",90%,18,AI Overview 50% / Organic Top 3 45%
+Google,G03,Search + AI Overview,US,Original,15%,3,AI Overview 16% / Organic Top 3 10%
+Google,G04,Search + AI Overview,US,"in India",80%,16,AI Overview 55% / Organic Top 3 35%
+Google,G05,Search Organic,India,Original,75%,15,Organic Top 10 75%
+Google,G06,Search Organic,India,"in India",85%,17,Organic Top 10 85%
+Google,G07,Search Organic,US,Original,10%,2,Organic Top 10 10%
+Google,G08,Search Organic,US,"in India",75%,15,Organic Top 10 75%
+Google,G09,Gemini API,US,Original,15%,3,Direct API call
+Google,G10,Gemini API,US,"in India",70%,14,Direct API call
+Google,G11,Gemini API,India,Original,15%,3,Direct API call
+Google,G12,Gemini API,India,"in India",85%,17,Direct API call
