@@ -20,7 +20,7 @@ import type { SurfaceMetadata } from '../types.js';
  */
 export interface AmazonRufusAdapterConfig extends WebAdapterConfig {
   /** Amazon domain to use */
-  domain?: 'amazon.com' | 'amazon.co.uk' | 'amazon.de';
+  domain?: 'amazon.com' | 'amazon.co.uk' | 'amazon.de' | 'amazon.in';
 }
 
 /**

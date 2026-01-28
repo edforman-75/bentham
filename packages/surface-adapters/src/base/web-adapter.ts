@@ -18,6 +18,14 @@ import type {
   CapturedImage,
   ResponseTiming,
 } from '../types.js';
+import {
+  type HumanBehaviorConfig,
+  DEFAULT_HUMAN_BEHAVIOR,
+  randomDelay,
+  randomSleep,
+  preInteractionDelay,
+  postInteractionDelay,
+} from '../utils/human-behavior.js';
 
 /**
  * Web adapter configuration
@@ -41,6 +49,10 @@ export interface WebAdapterConfig extends Partial<BaseAdapterConfig> {
   captureImages?: boolean;
   /** Capture full HTML content */
   captureHtml?: boolean;
+  /** Enable human-like behavior (default: true) */
+  enableHumanBehavior?: boolean;
+  /** Human behavior configuration */
+  humanBehavior?: Partial<HumanBehaviorConfig>;
 }
 
 /**
@@ -55,7 +67,29 @@ export const DEFAULT_WEB_CONFIG: WebAdapterConfig = {
   captureScreenshots: false,
   captureImages: false,
   captureHtml: false,
+  enableHumanBehavior: true,
+  humanBehavior: DEFAULT_HUMAN_BEHAVIOR,
 };
+
+/**
+ * Keyboard interface for human-like typing
+ */
+export interface BrowserKeyboard {
+  /** Type a single character or string with optional delay */
+  type(text: string, options?: { delay?: number }): Promise<void>;
+  /** Press a key (like Enter, Backspace) */
+  press(key: string): Promise<void>;
+}
+
+/**
+ * Mouse interface for human-like movements
+ */
+export interface BrowserMouse {
+  /** Move mouse to coordinates */
+  move(x: number, y: number, options?: { steps?: number }): Promise<void>;
+  /** Scroll the page */
+  wheel(deltaX: number, deltaY: number): Promise<void>;
+}
 
 /**
  * Browser page interface (abstraction over Playwright)
@@ -94,6 +128,12 @@ export interface BrowserPage {
   isVisible(selector: string): Promise<boolean>;
   /** Get URL */
   url(): string;
+  /** Keyboard interface for direct typing */
+  keyboard?: BrowserKeyboard;
+  /** Mouse interface for movements */
+  mouse?: BrowserMouse;
+  /** Get viewport size */
+  viewportSize?(): { width: number; height: number } | null;
 }
 
 /**
@@ -152,6 +192,15 @@ export class MockBrowserProvider implements BrowserProvider {
           async newPage(): Promise<BrowserPage> {
             let currentUrl = '';
             return {
+              keyboard: {
+                async type() {},
+                async press() {},
+              },
+              mouse: {
+                async move() {},
+                async wheel() {},
+              },
+              viewportSize() { return { width: 1280, height: 720 }; },
               async goto(url: string) { currentUrl = url; },
               async waitForSelector() {},
               async click() {},
@@ -363,26 +412,114 @@ export abstract class BaseWebAdapter extends BaseSurfaceAdapter {
 
   /**
    * Submit a query (can be overridden)
+   * Uses human-like behavior by default for bot detection avoidance
    */
   protected async submitQuery(query: string): Promise<void> {
     const selectors = this.getSelectors();
+    const useHuman = this.webConfig.enableHumanBehavior !== false;
+    const humanConfig = { ...DEFAULT_HUMAN_BEHAVIOR, ...this.webConfig.humanBehavior };
 
-    // Type query
-    await this.page!.fill(selectors.queryInput, query);
+    if (useHuman) {
+      // Human-like query submission
+      await preInteractionDelay();
 
-    // Click submit or press Enter
-    if (selectors.submitButton) {
-      await this.page!.click(selectors.submitButton);
+      // Click input field first
+      await this.page!.click(selectors.queryInput);
+      await randomSleep(100, 300);
+
+      // Clear existing content
+      if (this.page!.keyboard) {
+        await this.page!.keyboard.press('Meta+a');
+        await randomSleep(50, 150);
+      }
+
+      // Type with human-like delays
+      await this.humanTypeText(query, humanConfig);
+      await randomSleep(200, 400);
+
+      // Click submit or press Enter
+      if (selectors.submitButton) {
+        await this.page!.click(selectors.submitButton);
+      } else {
+        await this.page!.press(selectors.queryInput, 'Enter');
+      }
+
+      await postInteractionDelay();
     } else {
-      await this.page!.press(selectors.queryInput, 'Enter');
+      // Fast mode - instant fill
+      await this.page!.fill(selectors.queryInput, query);
+
+      if (selectors.submitButton) {
+        await this.page!.click(selectors.submitButton);
+      } else {
+        await this.page!.press(selectors.queryInput, 'Enter');
+      }
+    }
+  }
+
+  /**
+   * Type text with human-like variable delays
+   */
+  protected async humanTypeText(
+    text: string,
+    config: HumanBehaviorConfig
+  ): Promise<void> {
+    if (!this.page?.keyboard) {
+      // Fallback to fill if keyboard not available
+      await this.page!.fill(this.getSelectors().queryInput, text);
+      return;
+    }
+
+    const hesitationChars = new Set([' ', '.', ',', '?', '!', "'", '"']);
+    const typoPairs: Record<string, string> = {
+      'a': 's', 's': 'a', 'd': 'f', 'f': 'd',
+      'e': 'r', 'r': 'e', 't': 'y', 'y': 't',
+      'i': 'o', 'o': 'i', 'n': 'm', 'm': 'n',
+    };
+
+    for (let i = 0; i < text.length; i++) {
+      const char = text[i];
+
+      // Simulate occasional typo + correction
+      if (config.typoChance > 0 && Math.random() < config.typoChance && typoPairs[char.toLowerCase()]) {
+        const typo = char === char.toUpperCase()
+          ? typoPairs[char.toLowerCase()].toUpperCase()
+          : typoPairs[char.toLowerCase()];
+
+        await this.page!.keyboard.type(typo, {
+          delay: randomDelay(config.minTypingDelayMs, config.maxTypingDelayMs)
+        });
+        await this.page!.waitForTimeout(randomDelay(100, 250));
+        await this.page!.keyboard.press('Backspace');
+        await this.page!.waitForTimeout(randomDelay(50, 150));
+        await this.page!.keyboard.type(char, {
+          delay: randomDelay(config.minTypingDelayMs, config.maxTypingDelayMs)
+        });
+      } else {
+        await this.page!.keyboard.type(char, {
+          delay: randomDelay(config.minTypingDelayMs, config.maxTypingDelayMs)
+        });
+      }
+
+      // Occasional longer pause
+      if (Math.random() < config.pauseChance) {
+        await this.page!.waitForTimeout(randomDelay(config.minPauseMs, config.maxPauseMs));
+      }
+
+      // Extra slight pause after certain characters
+      if (hesitationChars.has(char) && Math.random() < 0.3) {
+        await this.page!.waitForTimeout(randomDelay(50, 150));
+      }
     }
   }
 
   /**
    * Wait for response to load
+   * Includes human-like idle behavior during wait periods
    */
   protected async waitForResponse(): Promise<void> {
     const selectors = this.getSelectors();
+    const useHuman = this.webConfig.enableHumanBehavior !== false;
 
     // Wait for loading to complete if indicator exists
     if (selectors.loadingIndicator) {
@@ -408,8 +545,22 @@ export abstract class BaseWebAdapter extends BaseSurfaceAdapter {
       state: 'visible',
     });
 
-    // Additional wait for content to stabilize
-    await this.page!.waitForTimeout(500);
+    // Additional wait for content to stabilize with human-like behavior
+    if (useHuman) {
+      // Variable stabilization wait (more natural than fixed 500ms)
+      const stabilizeWait = randomDelay(800, 1500);
+      await this.page!.waitForTimeout(stabilizeWait);
+
+      // Occasionally do idle behavior while waiting
+      if (this.page?.mouse && Math.random() < 0.2) {
+        const viewport = this.page.viewportSize?.() || { width: 1200, height: 800 };
+        const x = randomDelay(200, viewport.width - 200);
+        const y = randomDelay(200, viewport.height - 200);
+        await this.page.mouse.move(x, y, { steps: randomDelay(5, 12) });
+      }
+    } else {
+      await this.page!.waitForTimeout(500);
+    }
   }
 
   /**

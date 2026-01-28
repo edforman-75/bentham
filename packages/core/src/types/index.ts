@@ -2,6 +2,9 @@
  * Type exports for @bentham/core
  */
 
+// Execution Metadata (IP, timing, costs, failures, debugging)
+export * from './execution-metadata.js';
+
 // Common types
 export type {
   Query,
