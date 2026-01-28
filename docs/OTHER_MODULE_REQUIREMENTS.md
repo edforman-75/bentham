@@ -16,6 +16,7 @@ This document tracks requirements that emerged from customer feature requests bu
 | Products optimized count | GEO Analytics #6 | Track how many products have been through optimization workflow (optimized vs pending) |
 | Approval vs rejection rates | GEO Analytics #6 | Track approve/reject actions on staged content, identify patterns to improve recommendation quality |
 | Confidence scores on recommendations | GEO Analytics #6 | Output confidence level on content recommendations, quality metric for optimization engine |
+| **llms.txt generation** | Task #11 | Generate llms.txt content from crawled site data. Bentham discovers existing llms.txt (#23) and crawls content; PIM generates the file. |
 
 ---
 

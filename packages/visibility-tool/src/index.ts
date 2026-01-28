@@ -100,6 +100,18 @@ export {
   type ContentComparison,
 } from './collectors/reachability-collector.js';
 
+// Site Crawler
+export {
+  crawlSite,
+  classifyPageType,
+  summarizeDiscoveredPages,
+  filterPagesByType,
+  getPagesByType,
+  type DiscoveredPage,
+  type PageType,
+  type CrawlOptions,
+} from './collectors/site-crawler.js';
+
 // Scoring
 export {
   scoreJsonLd,
