@@ -178,5 +178,35 @@ export {
   type ReportContext,
 } from './report-types/index.js';
 
+// Oxylabs Web Scraper API
+export {
+  oxylabsRequest,
+  scrapeAmazonProduct,
+  scrapeAmazonSearch,
+  scrapeWalmartProduct,
+  scrapeWalmartSearch,
+  scrapeGoogleSearch,
+  scrapeGoogleShopping,
+  scrapeUrl,
+  scrapeWithLocations,
+  scrapeBatch,
+  summarizeResults as summarizeOxylabsResults,
+  type OxylabsSource,
+  type OxylabsRequest,
+  type OxylabsResult,
+  type OxylabsCredentials,
+  type AmazonRequest,
+  type GoogleRequest,
+  type WalmartRequest,
+  type UniversalRequest,
+  type AmazonProductData,
+  type AmazonSearchData,
+  type GoogleSearchData,
+  type WalmartProductData,
+  type AmazonDomain,
+  type GoogleDomain,
+  type BatchOptions,
+} from './collectors/oxylabs-collector.js';
+
 // API server
 export { startServer } from './api.js';
