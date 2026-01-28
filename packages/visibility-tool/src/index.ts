@@ -68,6 +68,38 @@ export {
   type DiscoveryOptions,
 } from './collectors/url-discovery.js';
 
+// AI Files Discovery
+export {
+  collectAIFiles,
+  collectAIFilesFromDomains,
+  compareAIReadiness,
+  type AIFilesResult,
+  type LlmsTxtContent,
+  type RobotsTxtContent,
+  type AIBotRule,
+} from './collectors/ai-files-collector.js';
+
+// Metadata Extraction
+export {
+  extractPageMetadata,
+  scoreMetadataCompleteness,
+  type PageMetadataResult,
+  type MetaTags,
+  type OpenGraphTags,
+  type TwitterCardTags,
+  type ProductMetadata,
+} from './collectors/metadata-collector.js';
+
+// LLM Reachability
+export {
+  analyzeReachability,
+  analyzeReachabilityBatch,
+  summarizeReachability,
+  type ReachabilityResult,
+  type PageContent,
+  type ContentComparison,
+} from './collectors/reachability-collector.js';
+
 // Scoring
 export {
   scoreJsonLd,
