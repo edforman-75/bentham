@@ -54,5 +54,26 @@ export {
   type AISurfaceResult,
   type AISurfaceOptions,
 } from './ai-surfaces-collector.js';
+export {
+  searchGoogle,
+  searchBing,
+  searchBingCopilot,
+  searchMultipleEngines,
+  searchAcrossLocations,
+  summarizeSerpApiResults,
+  filterCitationsForBrand as filterSerpApiCitations,
+  serpApiRequest,
+  type SerpApiEngine,
+  type SerpApiRequest,
+  type SerpApiResult,
+  type SerpApiCredentials,
+  type GoogleSearchResponse,
+  type BingSearchResponse,
+  type BingCopilotResponse,
+  type OrganicResult,
+  type AIOverviewResult,
+  type CopilotTextBlock,
+  type CopilotCitation,
+} from './serpapi-collector.js';
 // Future: export * from './gemini-api.js';
 // Future: export * from './serpapi.js';

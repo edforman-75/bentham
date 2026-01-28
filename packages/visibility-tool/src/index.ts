@@ -224,5 +224,28 @@ export {
   type AISurfaceOptions,
 } from './collectors/ai-surfaces-collector.js';
 
+// SerpApi (Google, Bing, Bing Copilot)
+export {
+  searchGoogle,
+  searchBing,
+  searchBingCopilot,
+  searchMultipleEngines,
+  searchAcrossLocations,
+  summarizeSerpApiResults,
+  filterCitationsForBrand as filterSerpApiCitations,
+  serpApiRequest,
+  type SerpApiEngine,
+  type SerpApiRequest,
+  type SerpApiResult,
+  type SerpApiCredentials,
+  type GoogleSearchResponse,
+  type BingSearchResponse,
+  type BingCopilotResponse,
+  type OrganicResult,
+  type AIOverviewResult,
+  type CopilotTextBlock,
+  type CopilotCitation,
+} from './collectors/serpapi-collector.js';
+
 // API server
 export { startServer } from './api.js';
