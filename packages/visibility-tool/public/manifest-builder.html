@@ -1,0 +1,2404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visibility Study Builder | Bentham</title>
+  <style>
+    :root {
+      --primary: #1e40af;
+      --primary-light: #3b82f6;
+      --primary-dark: #1e3a8a;
+      --success: #059669;
+      --warning: #d97706;
+      --danger: #dc2626;
+      --gray-50: #f9fafb;
+      --gray-100: #f3f4f6;
+      --gray-200: #e5e7eb;
+      --gray-300: #d1d5db;
+      --gray-400: #9ca3af;
+      --gray-500: #6b7280;
+      --gray-600: #4b5563;
+      --gray-700: #374151;
+      --gray-800: #1f2937;
+      --gray-900: #111827;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--gray-100);
+      color: var(--gray-800);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--primary-light));
+      color: white;
+      padding: 1.5rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    header p {
+      opacity: 0.9;
+      font-size: 0.875rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 2px solid var(--gray-100);
+    }
+
+    .card-header h2 {
+      font-size: 1.125rem;
+      color: var(--gray-900);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .card-header .badge {
+      background: var(--primary-light);
+      color: white;
+      font-size: 0.75rem;
+      padding: 0.125rem 0.5rem;
+      border-radius: 9999px;
+    }
+
+    .form-group {
+      margin-bottom: 1rem;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: 500;
+      margin-bottom: 0.375rem;
+      color: var(--gray-700);
+      font-size: 0.875rem;
+    }
+
+    .form-group .hint {
+      font-size: 0.75rem;
+      color: var(--gray-500);
+      margin-top: 0.25rem;
+    }
+
+    input[type="text"],
+    input[type="url"],
+    input[type="number"],
+    textarea,
+    select {
+      width: 100%;
+      padding: 0.625rem 0.875rem;
+      border: 1px solid var(--gray-300);
+      border-radius: 8px;
+      font-size: 0.9375rem;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+
+    input:focus,
+    textarea:focus,
+    select:focus {
+      outline: none;
+      border-color: var(--primary-light);
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 80px;
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    @media (max-width: 640px) {
+      .row { grid-template-columns: 1fr; }
+    }
+
+    button {
+      padding: 0.625rem 1.25rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 0.875rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.15s;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-dark);
+    }
+
+    .btn-secondary {
+      background: var(--gray-200);
+      color: var(--gray-700);
+    }
+
+    .btn-secondary:hover {
+      background: var(--gray-300);
+    }
+
+    .btn-success {
+      background: var(--success);
+      color: white;
+    }
+
+    .btn-success:hover {
+      background: #047857;
+    }
+
+    .btn-danger {
+      background: transparent;
+      color: var(--danger);
+      padding: 0.375rem 0.625rem;
+    }
+
+    .btn-danger:hover {
+      background: #fef2f2;
+    }
+
+    .btn-sm {
+      padding: 0.375rem 0.75rem;
+      font-size: 0.8125rem;
+    }
+
+    .brand-card {
+      background: var(--gray-50);
+      border: 1px solid var(--gray-200);
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    /* Report type selection */
+    .report-type-option {
+      cursor: pointer;
+    }
+
+    .report-type-card {
+      background: var(--gray-50);
+      border: 2px solid var(--gray-200);
+      border-radius: 8px;
+      padding: 1rem;
+      transition: all 0.15s ease;
+    }
+
+    .report-type-option:hover .report-type-card {
+      border-color: var(--primary-light);
+      background: #f8fafc;
+    }
+
+    .report-type-option.selected .report-type-card {
+      border-color: var(--primary);
+      background: #eff6ff;
+    }
+
+    .report-type-option.selected .report-type-card strong {
+      color: var(--primary);
+    }
+
+    .brand-card.primary {
+      border-left: 4px solid var(--primary);
+    }
+
+    .brand-card.competitor {
+      border-left: 4px solid var(--gray-400);
+    }
+
+    .brand-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.75rem;
+    }
+
+    .brand-header h3 {
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .brand-header .tag {
+      font-size: 0.6875rem;
+      padding: 0.125rem 0.5rem;
+      border-radius: 4px;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    .tag-primary {
+      background: #dbeafe;
+      color: var(--primary);
+    }
+
+    .tag-competitor {
+      background: var(--gray-200);
+      color: var(--gray-600);
+    }
+
+    .url-list {
+      list-style: none;
+    }
+
+    .url-list li {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.375rem 0;
+      font-size: 0.8125rem;
+      color: var(--gray-600);
+      border-bottom: 1px dashed var(--gray-200);
+    }
+
+    .url-list li:last-child {
+      border-bottom: none;
+    }
+
+    .url-input-group {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 0.5rem;
+    }
+
+    .url-input-group input {
+      flex: 1;
+    }
+
+    .surface-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .surface-item {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.75rem;
+      background: var(--gray-50);
+      border: 1px solid var(--gray-200);
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .surface-item:hover {
+      border-color: var(--primary-light);
+    }
+
+    .surface-item.active {
+      background: #eff6ff;
+      border-color: var(--primary-light);
+    }
+
+    .surface-item input[type="checkbox"] {
+      width: 1.125rem;
+      height: 1.125rem;
+      accent-color: var(--primary);
+    }
+
+    .surface-item label {
+      font-size: 0.875rem;
+      cursor: pointer;
+      flex: 1;
+    }
+
+    .surface-item .desc {
+      font-size: 0.75rem;
+      color: var(--gray-500);
+    }
+
+    .actions {
+      display: flex;
+      gap: 1rem;
+      justify-content: flex-end;
+      padding-top: 1rem;
+      border-top: 1px solid var(--gray-200);
+      margin-top: 1rem;
+    }
+
+    .preview-section {
+      position: sticky;
+      bottom: 0;
+      background: white;
+      border-top: 1px solid var(--gray-200);
+      padding: 1rem 2rem;
+      box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
+    }
+
+    .preview-bar {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .preview-stats {
+      display: flex;
+      gap: 2rem;
+      font-size: 0.875rem;
+      color: var(--gray-600);
+    }
+
+    .preview-stats strong {
+      color: var(--gray-900);
+    }
+
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.2s;
+    }
+
+    .modal-overlay.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .modal {
+      background: white;
+      border-radius: 12px;
+      width: 90%;
+      max-width: 600px;
+      max-height: 90vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .modal-header {
+      padding: 1rem 1.5rem;
+      border-bottom: 1px solid var(--gray-200);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-header h3 {
+      font-size: 1.125rem;
+    }
+
+    .modal-body {
+      padding: 1.5rem;
+      overflow-y: auto;
+      flex: 1;
+    }
+
+    .modal-footer {
+      padding: 1rem 1.5rem;
+      border-top: 1px solid var(--gray-200);
+      display: flex;
+      justify-content: flex-end;
+      gap: 0.75rem;
+    }
+
+    pre {
+      background: var(--gray-900);
+      color: #e5e7eb;
+      padding: 1rem;
+      border-radius: 8px;
+      overflow-x: auto;
+      font-size: 0.8125rem;
+      line-height: 1.5;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 2rem;
+      color: var(--gray-500);
+    }
+
+    .empty-state p {
+      margin-bottom: 1rem;
+    }
+
+    .config-location {
+      display: inline-block;
+      background: var(--gray-100);
+      border: 1px solid var(--gray-200);
+      border-radius: 6px;
+      padding: 0.25rem 0.5rem;
+      font-size: 0.8125rem;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .config-location:hover {
+      background: #fef2f2;
+      border-color: var(--danger);
+      color: var(--danger);
+    }
+
+    .icon {
+      width: 1.25em;
+      height: 1.25em;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container" style="padding: 0;">
+      <h1>Visibility Study Builder</h1>
+      <p>Create a manifest file for the Bentham Visibility Tool</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <!-- Study Info -->
+    <div class="card">
+      <div class="card-header">
+        <h2>Study Information</h2>
+      </div>
+      <div class="row">
+        <div class="form-group">
+          <label for="studyName">Study Name *</label>
+          <input type="text" id="studyName" placeholder="e.g., Deckers Brands AI Visibility Study" required>
+        </div>
+        <div class="form-group">
+          <label for="clientName">Client Name</label>
+          <input type="text" id="clientName" placeholder="e.g., Deckers Brands">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="studyDescription">Description</label>
+        <textarea id="studyDescription" placeholder="Brief description of the study goals..."></textarea>
+      </div>
+      <div class="row">
+        <div class="form-group">
+          <label for="outputDir">Output Directory *</label>
+          <input type="text" id="outputDir" placeholder="./results/my-study" value="./results">
+        </div>
+        <div class="form-group">
+          <label for="reportTitle">Report Title</label>
+          <input type="text" id="reportTitle" placeholder="AI Visibility Assessment">
+        </div>
+      </div>
+    </div>
+
+    <!-- Brands -->
+    <div class="card">
+      <div class="card-header">
+        <h2>Brands <span class="badge" id="brandCount">0</span></h2>
+        <button class="btn-primary btn-sm" onclick="openAddBrandModal()">+ Add Brand</button>
+      </div>
+      <div id="brandsList">
+        <div class="empty-state">
+          <p>No brands added yet</p>
+          <button class="btn-secondary btn-sm" onclick="openAddBrandModal()">Add your first brand</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Test Configurations (Surface + Location pairs) -->
+    <div class="card">
+      <div class="card-header">
+        <h2>Test Configurations <span class="badge" id="configCount">0</span></h2>
+        <button class="btn-primary btn-sm" onclick="openAddConfigModal()">+ Add Test</button>
+      </div>
+      <p style="color: var(--gray-600); font-size: 0.875rem; margin-bottom: 1rem;">Each test specifies an AI surface + location pair. A manifest creates a job composed of one or more tests.</p>
+
+      <!-- Product Analysis Options -->
+      <div style="background: var(--gray-50); border: 1px solid var(--gray-200); border-radius: 8px; padding: 1rem; margin-bottom: 1rem;">
+        <strong style="font-size: 0.875rem; color: var(--gray-700);">Product Page Analysis (optional)</strong>
+        <p style="font-size: 0.8125rem; color: var(--gray-500); margin: 0.25rem 0 0.75rem;">Analyze structured data on product pages - the source AI crawlers use to understand products.</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
+          <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+            <input type="checkbox" id="enableBrandPdp" onchange="updateStats()">
+            <span style="font-size: 0.875rem;">📄 Brand Site PDPs (JSON-LD SSOT)</span>
+          </label>
+          <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+            <input type="checkbox" id="enableAmazonPdp" onchange="updateStats()">
+            <span style="font-size: 0.875rem;">📦 Amazon PDPs</span>
+          </label>
+        </div>
+      </div>
+
+      <div id="configList">
+        <!-- Will be populated by JS -->
+      </div>
+    </div>
+
+    <!-- Report Type Selection -->
+    <div class="card">
+      <div class="card-header">
+        <h2>Report Type</h2>
+      </div>
+      <p style="color: var(--gray-600); font-size: 0.875rem; margin-bottom: 1rem;">Choose the type of report Claude will generate from your study data.</p>
+
+      <div id="reportTypeOptions" style="display: flex; flex-direction: column; gap: 1rem;">
+        <!-- CEO Strategic Report -->
+        <label class="report-type-option selected" onclick="selectReportType('ceo-strategic')">
+          <input type="radio" name="reportType" value="ceo-strategic" checked style="display: none;">
+          <div class="report-type-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+              <div>
+                <strong style="font-size: 1rem;">CEO Strategic Report</strong>
+                <span class="tag tag-primary" style="margin-left: 0.5rem;">Recommended</span>
+              </div>
+              <span style="color: var(--gray-500); font-size: 0.8125rem;">15-25 pages</span>
+            </div>
+            <p style="font-size: 0.875rem; color: var(--gray-600); margin-top: 0.5rem;">
+              VP/CEO-level strategic analysis with competitive benchmarking, gap analysis, and prioritized recommendations.
+              Similar to the Deckers, Natural Balance, and HUFT executive briefings.
+            </p>
+            <div style="margin-top: 0.75rem; font-size: 0.8125rem; color: var(--gray-500);">
+              <strong>Sections:</strong> Executive Summary, AI Discovery Landscape, Brand Analysis, Competitive Positioning,
+              SSOT Assessment, Amazon Analysis, Strategic Recommendations, Implementation Roadmap
+            </div>
+          </div>
+        </label>
+
+        <!-- Competitive Intel Brief -->
+        <label class="report-type-option" onclick="selectReportType('competitive-intel')">
+          <input type="radio" name="reportType" value="competitive-intel" style="display: none;">
+          <div class="report-type-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+              <div>
+                <strong style="font-size: 1rem;">Competitive Intelligence Brief</strong>
+              </div>
+              <span style="color: var(--gray-500); font-size: 0.8125rem;">8-12 pages</span>
+            </div>
+            <p style="font-size: 0.875rem; color: var(--gray-600); margin-top: 0.5rem;">
+              Focused competitive analysis showing where you win and lose against specific competitors in AI visibility.
+            </p>
+            <div style="margin-top: 0.75rem; font-size: 0.8125rem; color: var(--gray-500);">
+              <strong>Sections:</strong> Executive Summary, Competitive Landscape, Head-to-Head Analysis, Gap Analysis, Quick Wins
+            </div>
+          </div>
+        </label>
+
+        <!-- Technical Audit -->
+        <label class="report-type-option" onclick="selectReportType('technical-audit')">
+          <input type="radio" name="reportType" value="technical-audit" style="display: none;">
+          <div class="report-type-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+              <div>
+                <strong style="font-size: 1rem;">Technical SEO Audit</strong>
+              </div>
+              <span style="color: var(--gray-500); font-size: 0.8125rem;">10-15 pages</span>
+            </div>
+            <p style="font-size: 0.875rem; color: var(--gray-600); margin-top: 0.5rem;">
+              Detailed technical analysis of structured data and schema markup with specific implementation recommendations.
+            </p>
+            <div style="margin-top: 0.75rem; font-size: 0.8125rem; color: var(--gray-500);">
+              <strong>Sections:</strong> Summary, Schema Quality Assessment, Field Analysis, Implementation Priorities, Code Examples
+            </div>
+          </div>
+        </label>
+      </div>
+    </div>
+
+    <!-- Job Settings -->
+    <div class="card">
+      <div class="card-header">
+        <h2>Job Settings</h2>
+      </div>
+      <p style="color: var(--gray-600); font-size: 0.875rem; margin-bottom: 1rem;">A manifest creates a job. Set when you need results.</p>
+
+      <div class="row">
+        <div class="form-group">
+          <label for="studyDeadline">Job Deadline</label>
+          <input type="date" id="studyDeadline">
+          <div class="hint">When do you need results by? (optional)</div>
+        </div>
+        <div class="form-group">
+          <label for="defaultCompletion">Default Completion Target</label>
+          <div style="display: flex; align-items: center; gap: 0.5rem;">
+            <input type="number" id="defaultCompletion" value="90" min="50" max="100" style="width: 80px;">
+            <span>%</span>
+          </div>
+          <div class="hint">Default for new tests (each test can override)</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Queries (optional) -->
+    <div class="card">
+      <div class="card-header">
+        <h2>Search Queries <span class="badge" id="queryCount">0</span></h2>
+        <div style="display: flex; gap: 0.5rem;">
+          <button class="btn-secondary btn-sm" onclick="bulkGenerateAmazonQueries()" title="Auto-generate Amazon variants for all queries">Gen Amazon</button>
+          <label class="btn-primary btn-sm" style="cursor: pointer;">
+            Upload CSV
+            <input type="file" id="csvUpload" accept=".csv,.txt" style="display: none;" onchange="handleCsvUpload(event)">
+          </label>
+          <button class="btn-secondary btn-sm" onclick="openAddQueryModal()">+ Add</button>
+        </div>
+      </div>
+      <div id="queriesList">
+        <div class="empty-state">
+          <p>No queries added (optional for JSON-LD analysis)</p>
+          <p style="font-size: 0.75rem; color: var(--gray-400); margin-top: 0.5rem;">Upload a CSV or add manually</p>
+          <div style="display: flex; gap: 0.5rem; justify-content: center; margin-top: 0.75rem;">
+            <label class="btn-primary btn-sm" style="cursor: pointer;">
+              Upload CSV
+              <input type="file" accept=".csv,.txt" style="display: none;" onchange="handleCsvUpload(event)">
+            </label>
+            <button class="btn-secondary btn-sm" onclick="openAddQueryModal()">Add manually</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Preview Bar -->
+  <div class="preview-section">
+    <div class="preview-bar">
+      <div class="preview-stats">
+        <span><strong id="statBrands">0</strong> brands</span>
+        <span><strong id="statUrls">0</strong> URLs</span>
+        <span><strong id="statConfigs">0</strong> tests</span>
+        <span><strong id="statQueries">0</strong> queries</span>
+        <span style="border-left: 1px solid var(--gray-300); padding-left: 1rem; margin-left: 0.5rem;">
+          Est. Cost: <strong id="statCost">$0.00</strong>
+          <button onclick="showCostBreakdown()" style="background: none; border: none; color: var(--primary); cursor: pointer; font-size: 0.75rem; text-decoration: underline;">details</button>
+        </span>
+      </div>
+      <div>
+        <button class="btn-secondary" onclick="previewManifest()">Preview JSON</button>
+        <button class="btn-success" onclick="downloadManifest()">Download Manifest</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add Brand Modal -->
+  <div class="modal-overlay" id="addBrandModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h3>Add Brand</h3>
+        <button class="btn-danger" onclick="closeModal('addBrandModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="form-group">
+            <label for="brandName">Brand Name *</label>
+            <input type="text" id="brandName" placeholder="e.g., HOKA">
+          </div>
+          <div class="form-group">
+            <label for="brandCategory">Category *</label>
+            <select id="brandCategory">
+              <option value="primary">Primary (Your Brand)</option>
+              <option value="competitor">Competitor</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="brandSegment">Segment</label>
+          <input type="text" id="brandSegment" placeholder="e.g., running, boots, sandals">
+        </div>
+
+        <hr style="border: none; border-top: 1px solid var(--gray-200); margin: 1rem 0;">
+        <strong style="font-size: 0.875rem; color: var(--gray-700);">Where Does This Brand Sell Online?</strong>
+
+        <div class="form-group" style="margin-top: 0.75rem;">
+          <label for="brandSiteUrl">Brand Site URL *</label>
+          <input type="url" id="brandSiteUrl" placeholder="https://www.hoka.com">
+          <div class="hint">The brand's own website where they sell products</div>
+        </div>
+
+        <div class="form-group">
+          <label for="brandAmazonStore">Amazon Brand Store URL</label>
+          <input type="url" id="brandAmazonStore" placeholder="https://www.amazon.com/stores/HOKA">
+          <div class="hint">Leave blank if brand doesn't have an Amazon store</div>
+        </div>
+
+        <hr style="border: none; border-top: 1px solid var(--gray-200); margin: 1rem 0;">
+        <strong style="font-size: 0.875rem; color: var(--gray-700);">Product Pages to Analyze</strong>
+
+        <div class="form-group" style="margin-top: 0.75rem;">
+          <label style="display: block; margin-bottom: 0.5rem;">Product Scope</label>
+          <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+            <label style="display: flex; align-items: center; gap: 0.5rem; font-weight: normal; cursor: pointer;">
+              <input type="radio" name="productScope" value="all" checked onchange="toggleProductUrlFields()">
+              <span>All products <span style="color: var(--gray-500); font-size: 0.8125rem;">(auto-discover during study)</span></span>
+            </label>
+            <label style="display: flex; align-items: center; gap: 0.5rem; font-weight: normal; cursor: pointer;">
+              <input type="radio" name="productScope" value="specific" onchange="toggleProductUrlFields()">
+              <span>Specific products only</span>
+            </label>
+          </div>
+        </div>
+
+        <div id="specificProductFields" style="display: none;">
+          <div class="form-group">
+            <label>Brand Site Product URLs</label>
+            <textarea id="brandUrls" rows="4" placeholder="https://www.hoka.com/products/clifton-9&#10;https://www.hoka.com/products/bondi-8"></textarea>
+          </div>
+          <div class="form-group">
+            <label>Amazon Product URLs</label>
+            <textarea id="brandAmazonUrls" rows="4" placeholder="https://www.amazon.com/dp/B0BX1234&#10;https://www.amazon.com/dp/B0BX5678"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-secondary" onclick="closeModal('addBrandModal')">Cancel</button>
+        <button class="btn-primary" onclick="addBrand()">Add Brand</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add Query Modal -->
+  <div class="modal-overlay" id="addQueryModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h3>Add Search Query</h3>
+        <button class="btn-danger" onclick="closeModal('addQueryModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="queryText">Query Text *</label>
+          <input type="text" id="queryText" placeholder="e.g., what are the best running shoes for beginners">
+        </div>
+        <div class="form-group">
+          <label for="amazonQuery">Amazon Query (2-3 words)</label>
+          <div style="display: flex; gap: 0.5rem;">
+            <input type="text" id="amazonQuery" placeholder="e.g., running shoes beginners" style="flex: 1;">
+            <button type="button" class="btn-secondary btn-sm" onclick="autoGenerateAmazonQuery()">Auto-generate</button>
+          </div>
+          <div class="hint">Short product-focused version for Amazon search (auto-generated or manual)</div>
+        </div>
+        <div class="row">
+          <div class="form-group">
+            <label for="queryCategory">Category</label>
+            <input type="text" id="queryCategory" placeholder="e.g., running, comparison">
+          </div>
+          <div class="form-group">
+            <label for="queryIntent">Intent</label>
+            <select id="queryIntent">
+              <option value="commercial">Commercial</option>
+              <option value="informational">Informational</option>
+              <option value="navigational">Navigational</option>
+              <option value="transactional">Transactional</option>
+            </select>
+          </div>
+        </div>
+        <hr style="border: none; border-top: 1px solid var(--gray-200); margin: 1rem 0;">
+        <div class="form-group">
+          <label>Bulk Add</label>
+          <div class="hint" style="margin-bottom: 0.5rem;">One per line. Optional: add Amazon variant after a pipe | character</div>
+          <textarea id="bulkQueries" rows="5" placeholder="best running shoes for marathon training | marathon running shoes&#10;HOKA vs Brooks running shoes | HOKA Brooks comparison&#10;most comfortable winter boots"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-secondary" onclick="closeModal('addQueryModal')">Cancel</button>
+        <button class="btn-primary" onclick="addQuery()">Add Query</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add Test Configuration Modal -->
+  <div class="modal-overlay" id="addConfigModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h3>Add Test Configuration</h3>
+        <button class="btn-danger" onclick="closeModal('addConfigModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="configSurface">AI Surface *</label>
+          <select id="configSurface">
+            <option value="">Select a surface...</option>
+            <optgroup label="AI Assistants">
+              <option value="chatgpt-web" data-icon="🤖" data-desc="OpenAI's consumer chatbot">ChatGPT Web</option>
+              <option value="openai-api" data-icon="⚡" data-desc="GPT-4o API responses">OpenAI API</option>
+              <option value="gemini-api" data-icon="✨" data-desc="Google's AI model">Gemini API</option>
+              <option value="perplexity" data-icon="🔮" data-desc="AI-powered search engine">Perplexity</option>
+              <option value="meta-ai" data-icon="Ⓜ️" data-desc="Meta's AI assistant">Meta AI</option>
+            </optgroup>
+            <optgroup label="Search Engines">
+              <option value="google-ai-overview" data-icon="🔍" data-desc="AI summaries in search">Google AI Overview</option>
+              <option value="google-organic" data-icon="🌐" data-desc="Traditional search results">Google Search</option>
+              <option value="bing-search" data-icon="🅱️" data-desc="Microsoft search">Bing Search</option>
+            </optgroup>
+            <optgroup label="Shopping">
+              <option value="amazon-search" data-icon="📦" data-desc="Product search results">Amazon Search</option>
+              <option value="amazon-rufus" data-icon="🛒" data-desc="Amazon's shopping AI">Amazon Rufus</option>
+            </optgroup>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="configCountry">Location *</label>
+          <select id="configCountry" onchange="updateConfigCities()">
+            <option value="">Select a country...</option>
+            <option value="us" data-flag="🇺🇸" data-name="United States">🇺🇸 United States</option>
+            <option value="uk" data-flag="🇬🇧" data-name="United Kingdom">🇬🇧 United Kingdom</option>
+            <option value="in" data-flag="🇮🇳" data-name="India">🇮🇳 India</option>
+            <option value="de" data-flag="🇩🇪" data-name="Germany">🇩🇪 Germany</option>
+            <option value="fr" data-flag="🇫🇷" data-name="France">🇫🇷 France</option>
+            <option value="ca" data-flag="🇨🇦" data-name="Canada">🇨🇦 Canada</option>
+            <option value="au" data-flag="🇦🇺" data-name="Australia">🇦🇺 Australia</option>
+            <option value="jp" data-flag="🇯🇵" data-name="Japan">🇯🇵 Japan</option>
+            <option value="br" data-flag="🇧🇷" data-name="Brazil">🇧🇷 Brazil</option>
+            <option value="mx" data-flag="🇲🇽" data-name="Mexico">🇲🇽 Mexico</option>
+            <option value="ae" data-flag="🇦🇪" data-name="UAE">🇦🇪 UAE</option>
+            <option value="sg" data-flag="🇸🇬" data-name="Singapore">🇸🇬 Singapore</option>
+            <option value="kr" data-flag="🇰🇷" data-name="South Korea">🇰🇷 South Korea</option>
+            <option value="nl" data-flag="🇳🇱" data-name="Netherlands">🇳🇱 Netherlands</option>
+            <option value="it" data-flag="🇮🇹" data-name="Italy">🇮🇹 Italy</option>
+            <option value="es" data-flag="🇪🇸" data-name="Spain">🇪🇸 Spain</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="configCity">City (optional)</label>
+          <select id="configCity">
+            <option value="">Country-wide (no specific city)</option>
+          </select>
+          <div class="hint">Specific city for more granular regional testing</div>
+        </div>
+
+        <div class="form-group">
+          <label for="configCompletion">Completion Target</label>
+          <div style="display: flex; align-items: center; gap: 0.5rem;">
+            <input type="number" id="configCompletion" value="" min="50" max="100" style="width: 80px;" placeholder="90">
+            <span>%</span>
+            <span style="color: var(--gray-500); font-size: 0.8125rem;">(leave blank for default)</span>
+          </div>
+          <div class="hint">Minimum % of queries that must succeed for this configuration</div>
+        </div>
+
+        <div class="form-group" style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--gray-200);">
+          <label>Quick Add Multiple</label>
+          <div class="hint" style="margin-bottom: 0.5rem;">Add the selected surface to multiple locations at once</div>
+          <div id="quickAddLocations" class="surface-grid" style="max-height: 150px; overflow-y: auto;"></div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-secondary" onclick="closeModal('addConfigModal')">Cancel</button>
+        <button class="btn-secondary" onclick="addConfigMultiple()">Add to All Selected</button>
+        <button class="btn-primary" onclick="addConfig()">Add Single</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add Location Modal (legacy - not used in surface-location pair model) -->
+  <div class="modal-overlay" id="addLocationModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h3>Add Location</h3>
+        <button class="btn-danger" onclick="closeModal('addLocationModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="locationCountry">Country</label>
+          <select id="locationCountry" onchange="updateCityOptions()">
+            <option value="">Select a country...</option>
+            <option value="us" data-flag="🇺🇸" data-name="United States">🇺🇸 United States</option>
+            <option value="uk" data-flag="🇬🇧" data-name="United Kingdom">🇬🇧 United Kingdom</option>
+            <option value="in" data-flag="🇮🇳" data-name="India">🇮🇳 India</option>
+            <option value="de" data-flag="🇩🇪" data-name="Germany">🇩🇪 Germany</option>
+            <option value="fr" data-flag="🇫🇷" data-name="France">🇫🇷 France</option>
+            <option value="ca" data-flag="🇨🇦" data-name="Canada">🇨🇦 Canada</option>
+            <option value="au" data-flag="🇦🇺" data-name="Australia">🇦🇺 Australia</option>
+            <option value="jp" data-flag="🇯🇵" data-name="Japan">🇯🇵 Japan</option>
+            <option value="br" data-flag="🇧🇷" data-name="Brazil">🇧🇷 Brazil</option>
+            <option value="mx" data-flag="🇲🇽" data-name="Mexico">🇲🇽 Mexico</option>
+            <option value="ae" data-flag="🇦🇪" data-name="UAE">🇦🇪 UAE</option>
+            <option value="sg" data-flag="🇸🇬" data-name="Singapore">🇸🇬 Singapore</option>
+            <option value="kr" data-flag="🇰🇷" data-name="South Korea">🇰🇷 South Korea</option>
+            <option value="nl" data-flag="🇳🇱" data-name="Netherlands">🇳🇱 Netherlands</option>
+            <option value="it" data-flag="🇮🇹" data-name="Italy">🇮🇹 Italy</option>
+            <option value="es" data-flag="🇪🇸" data-name="Spain">🇪🇸 Spain</option>
+            <option value="se" data-flag="🇸🇪" data-name="Sweden">🇸🇪 Sweden</option>
+            <option value="ch" data-flag="🇨🇭" data-name="Switzerland">🇨🇭 Switzerland</option>
+            <option value="id" data-flag="🇮🇩" data-name="Indonesia">🇮🇩 Indonesia</option>
+            <option value="ph" data-flag="🇵🇭" data-name="Philippines">🇵🇭 Philippines</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Cities (optional)</label>
+          <div class="hint" style="margin-bottom: 0.5rem;">Select specific cities or leave empty for country-wide</div>
+          <div id="cityCheckboxes" class="surface-grid" style="max-height: 200px; overflow-y: auto;">
+            <p style="color: var(--gray-400); padding: 1rem;">Select a country first</p>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="customCity">Custom City</label>
+          <div style="display: flex; gap: 0.5rem;">
+            <input type="text" id="customCity" placeholder="e.g., seattle, austin" style="flex: 1;">
+            <button class="btn-secondary btn-sm" onclick="addCustomCityToSelection()">Add</button>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-secondary" onclick="closeModal('addLocationModal')">Cancel</button>
+        <button class="btn-primary" onclick="addLocation()">Add Location</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add City Modal (for existing locations) -->
+  <div class="modal-overlay" id="addCityModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h3>Add Cities to <span id="cityModalCountryName"></span></h3>
+        <button class="btn-danger" onclick="closeModal('addCityModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div id="existingCityCheckboxes" class="surface-grid" style="max-height: 250px; overflow-y: auto;"></div>
+        <div class="form-group" style="margin-top: 1rem;">
+          <label for="existingCustomCity">Custom City</label>
+          <div style="display: flex; gap: 0.5rem;">
+            <input type="text" id="existingCustomCity" placeholder="e.g., seattle, austin" style="flex: 1;">
+            <button class="btn-secondary btn-sm" onclick="addCustomCityToExisting()">Add</button>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-secondary" onclick="closeModal('addCityModal')">Cancel</button>
+        <button class="btn-primary" onclick="saveCitiesToLocation()">Save Cities</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cost Breakdown Modal -->
+  <div class="modal-overlay" id="costModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h3>Cost Estimate Breakdown</h3>
+        <button class="btn-danger" onclick="closeModal('costModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p style="color: var(--gray-600); font-size: 0.875rem; margin-bottom: 1rem;">Estimated costs based on queries × test configurations. Actual costs may vary.</p>
+        <div id="costBreakdownContent"></div>
+        <div style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--gray-200);">
+          <div style="display: flex; justify-content: space-between; font-weight: 600;">
+            <span>Total Estimated Cost</span>
+            <span id="costTotal">$0.00</span>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-secondary" onclick="closeModal('costModal')">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Preview Modal -->
+  <div class="modal-overlay" id="previewModal">
+    <div class="modal" style="max-width: 800px;">
+      <div class="modal-header">
+        <h3>Manifest Preview</h3>
+        <button class="btn-danger" onclick="closeModal('previewModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <pre id="manifestPreview"></pre>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-secondary" onclick="copyManifest()">Copy to Clipboard</button>
+        <button class="btn-success" onclick="downloadManifest(); closeModal('previewModal')">Download</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // State
+    const state = {
+      brands: [],
+      queries: [],
+      testConfigs: [],
+      reportType: 'ceo-strategic',
+      options: {
+        stealthMode: true,
+        screenshots: true,
+        autoRotateOnBlock: true,
+      }
+    };
+
+    // Report type selection
+    function selectReportType(typeId) {
+      state.reportType = typeId;
+
+      // Update UI
+      document.querySelectorAll('.report-type-option').forEach(opt => {
+        opt.classList.remove('selected');
+        opt.querySelector('input').checked = false;
+      });
+
+      const selected = document.querySelector(`input[value="${typeId}"]`);
+      if (selected) {
+        selected.checked = true;
+        selected.closest('.report-type-option').classList.add('selected');
+      }
+    }
+
+    // Surface metadata
+    const SURFACES = {
+      'chatgpt-web': { name: 'ChatGPT Web', icon: '🤖', category: 'AI Assistants' },
+      'openai-api': { name: 'OpenAI API', icon: '⚡', category: 'AI Assistants' },
+      'gemini-api': { name: 'Gemini API', icon: '✨', category: 'AI Assistants' },
+      'perplexity': { name: 'Perplexity', icon: '🔮', category: 'AI Assistants' },
+      'meta-ai': { name: 'Meta AI', icon: 'Ⓜ️', category: 'AI Assistants' },
+      'google-ai-overview': { name: 'Google AI Overview', icon: '🔍', category: 'Search' },
+      'google-organic': { name: 'Google Search', icon: '🌐', category: 'Search' },
+      'bing-search': { name: 'Bing Search', icon: '🅱️', category: 'Search' },
+      'amazon-search': { name: 'Amazon Search', icon: '📦', category: 'Shopping' },
+      'amazon-rufus': { name: 'Amazon Rufus', icon: '🛒', category: 'Shopping' },
+    };
+
+    // Country metadata
+    const COUNTRIES = {
+      'us': { name: 'United States', flag: '🇺🇸' },
+      'uk': { name: 'United Kingdom', flag: '🇬🇧' },
+      'in': { name: 'India', flag: '🇮🇳' },
+      'de': { name: 'Germany', flag: '🇩🇪' },
+      'fr': { name: 'France', flag: '🇫🇷' },
+      'ca': { name: 'Canada', flag: '🇨🇦' },
+      'au': { name: 'Australia', flag: '🇦🇺' },
+      'jp': { name: 'Japan', flag: '🇯🇵' },
+      'br': { name: 'Brazil', flag: '🇧🇷' },
+      'mx': { name: 'Mexico', flag: '🇲🇽' },
+      'ae': { name: 'UAE', flag: '🇦🇪' },
+      'sg': { name: 'Singapore', flag: '🇸🇬' },
+      'kr': { name: 'South Korea', flag: '🇰🇷' },
+      'nl': { name: 'Netherlands', flag: '🇳🇱' },
+      'it': { name: 'Italy', flag: '🇮🇹' },
+      'es': { name: 'Spain', flag: '🇪🇸' },
+    };
+
+    // Cost per query by surface type (in USD)
+    const COST_PER_QUERY = {
+      // API-based (cheapest - just API calls)
+      'openai-api': 0.015,        // GPT-4o API tokens
+      'gemini-api': 0.008,        // Gemini API tokens
+
+      // Search APIs via SerpAPI or similar
+      'google-ai-overview': 0.025, // SerpAPI + processing
+      'google-organic': 0.020,     // SerpAPI
+      'bing-search': 0.015,        // Bing API
+
+      // CDP-based (browser automation - more expensive)
+      'chatgpt-web': 0.05,         // Playwright + proxy + time
+      'perplexity': 0.04,          // Playwright + proxy
+      'meta-ai': 0.04,             // Playwright + proxy
+      'amazon-search': 0.03,       // Playwright + proxy
+      'amazon-rufus': 0.06,        // Playwright + proxy + more complex
+
+      // JSON-LD (product pages)
+      'jsonld-pdp': 0.02,          // Playwright per URL
+    };
+
+    // Base cost for study setup
+    const BASE_COST = 25.00;
+
+    // Cost per screenshot
+    const SCREENSHOT_COST = 0.005;
+
+    // Update stats
+    function updateStats() {
+      const brandUrlCount = state.brands.reduce((sum, b) => sum + (b.productUrls?.length || 0), 0);
+      const amazonUrlCount = state.brands.reduce((sum, b) => sum + (b.amazonProductUrls?.length || 0), 0);
+      const totalUrls = brandUrlCount + amazonUrlCount;
+      const autoDiscoverBrands = state.brands.filter(b => b.productScope === 'all').length;
+
+      document.getElementById('statBrands').textContent = state.brands.length;
+      // Show URL count or "auto" indicator when auto-discovery is enabled
+      document.getElementById('statUrls').textContent = autoDiscoverBrands > 0
+        ? (totalUrls > 0 ? `${totalUrls}+` : 'auto')
+        : totalUrls;
+      document.getElementById('statConfigs').textContent = state.testConfigs.length;
+      document.getElementById('statQueries').textContent = state.queries.length;
+      document.getElementById('brandCount').textContent = state.brands.length;
+      document.getElementById('queryCount').textContent = state.queries.length;
+      document.getElementById('configCount').textContent = state.testConfigs.length;
+
+      // Update cost estimate
+      const cost = calculateCost();
+      document.getElementById('statCost').textContent = formatCurrency(cost.total);
+    }
+
+    // Calculate cost breakdown
+    function calculateCost() {
+      const brandUrlCount = state.brands.reduce((sum, b) => sum + (b.productUrls?.length || 0), 0);
+      const amazonUrlCount = state.brands.reduce((sum, b) => sum + (b.amazonProductUrls?.length || 0), 0);
+      const queryCount = state.queries.length;
+
+      const enableBrandPdp = document.getElementById('enableBrandPdp')?.checked || false;
+      const enableAmazonPdp = document.getElementById('enableAmazonPdp')?.checked || false;
+
+      const breakdown = {
+        base: BASE_COST,
+        surfaces: {},
+        brandPdp: 0,
+        amazonPdp: 0,
+        screenshots: 0,
+        total: BASE_COST
+      };
+
+      // Cost for Brand Site PDP analysis (if enabled)
+      if (enableBrandPdp && brandUrlCount > 0) {
+        breakdown.brandPdp = brandUrlCount * COST_PER_QUERY['jsonld-pdp'];
+        breakdown.total += breakdown.brandPdp;
+      }
+
+      // Cost for Amazon PDP analysis (if enabled)
+      if (enableAmazonPdp && amazonUrlCount > 0) {
+        breakdown.amazonPdp = amazonUrlCount * COST_PER_QUERY['amazon-search']; // Similar cost to scraping Amazon
+        breakdown.total += breakdown.amazonPdp;
+      }
+
+      // Cost for each surface-location config
+      state.testConfigs.forEach(config => {
+        const surfaceCost = COST_PER_QUERY[config.surface] || 0.02;
+        const queryCost = queryCount * surfaceCost;
+
+        if (!breakdown.surfaces[config.surface]) {
+          breakdown.surfaces[config.surface] = {
+            name: config.surfaceName,
+            icon: config.icon,
+            costPerQuery: surfaceCost,
+            locations: 0,
+            queries: queryCount,
+            subtotal: 0
+          };
+        }
+
+        breakdown.surfaces[config.surface].locations++;
+        breakdown.surfaces[config.surface].subtotal += queryCost;
+        breakdown.total += queryCost;
+      });
+
+      // Screenshot costs
+      // Screenshots for PDP pages
+      if (enableBrandPdp) {
+        breakdown.screenshots += brandUrlCount * SCREENSHOT_COST;
+      }
+      if (enableAmazonPdp) {
+        breakdown.screenshots += amazonUrlCount * SCREENSHOT_COST;
+      }
+
+      // Screenshots for CDP-based surfaces
+      const cdpSurfaces = ['chatgpt-web', 'perplexity', 'meta-ai', 'amazon-search', 'amazon-rufus'];
+      state.testConfigs.forEach(config => {
+        if (cdpSurfaces.includes(config.surface)) {
+          breakdown.screenshots += queryCount * SCREENSHOT_COST;
+        }
+      });
+
+      breakdown.total += breakdown.screenshots;
+
+      return breakdown;
+    }
+
+    // Format currency
+    function formatCurrency(amount) {
+      return '$' + amount.toFixed(2);
+    }
+
+    // Show cost breakdown modal
+    function showCostBreakdown() {
+      const breakdown = calculateCost();
+      const brandUrlCount = state.brands.reduce((sum, b) => sum + (b.productUrls?.length || 0), 0);
+      const amazonUrlCount = state.brands.reduce((sum, b) => sum + (b.amazonProductUrls?.length || 0), 0);
+      const queryCount = state.queries.length;
+
+      const enableBrandPdp = document.getElementById('enableBrandPdp')?.checked || false;
+      const enableAmazonPdp = document.getElementById('enableAmazonPdp')?.checked || false;
+
+      let html = `
+        <table style="width: 100%; border-collapse: collapse; font-size: 0.875rem;">
+          <thead>
+            <tr style="text-align: left; border-bottom: 2px solid var(--gray-200);">
+              <th style="padding: 0.5rem 0;">Item</th>
+              <th style="padding: 0.5rem 0; text-align: right;">Qty</th>
+              <th style="padding: 0.5rem 0; text-align: right;">Rate</th>
+              <th style="padding: 0.5rem 0; text-align: right;">Subtotal</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid var(--gray-100);">
+              <td style="padding: 0.5rem 0;">Base study setup</td>
+              <td style="padding: 0.5rem 0; text-align: right;">1</td>
+              <td style="padding: 0.5rem 0; text-align: right;">${formatCurrency(BASE_COST)}</td>
+              <td style="padding: 0.5rem 0; text-align: right;">${formatCurrency(breakdown.base)}</td>
+            </tr>
+      `;
+
+      // Brand Site PDP
+      if (enableBrandPdp && brandUrlCount > 0) {
+        html += `
+            <tr style="border-bottom: 1px solid var(--gray-100);">
+              <td style="padding: 0.5rem 0;">📄 Brand Site PDPs (JSON-LD)</td>
+              <td style="padding: 0.5rem 0; text-align: right;">${brandUrlCount} URLs</td>
+              <td style="padding: 0.5rem 0; text-align: right;">${formatCurrency(COST_PER_QUERY['jsonld-pdp'])}/URL</td>
+              <td style="padding: 0.5rem 0; text-align: right;">${formatCurrency(breakdown.brandPdp)}</td>
+            </tr>
+        `;
+      } else if (enableBrandPdp && brandUrlCount === 0) {
+        html += `
+            <tr style="border-bottom: 1px solid var(--gray-100); color: var(--gray-400);">
+              <td style="padding: 0.5rem 0;">📄 Brand Site PDPs (JSON-LD)</td>
+              <td style="padding: 0.5rem 0; text-align: right;" colspan="3"><em>No brand site URLs added</em></td>
+            </tr>
+        `;
+      }
+
+      // Amazon PDP
+      if (enableAmazonPdp && amazonUrlCount > 0) {
+        html += `
+            <tr style="border-bottom: 1px solid var(--gray-100);">
+              <td style="padding: 0.5rem 0;">📦 Amazon PDPs</td>
+              <td style="padding: 0.5rem 0; text-align: right;">${amazonUrlCount} URLs</td>
+              <td style="padding: 0.5rem 0; text-align: right;">${formatCurrency(COST_PER_QUERY['amazon-search'])}/URL</td>
+              <td style="padding: 0.5rem 0; text-align: right;">${formatCurrency(breakdown.amazonPdp)}</td>
+            </tr>
+        `;
+      } else if (enableAmazonPdp && amazonUrlCount === 0) {
+        html += `
+            <tr style="border-bottom: 1px solid var(--gray-100); color: var(--gray-400);">
+              <td style="padding: 0.5rem 0;">📦 Amazon PDPs</td>
+              <td style="padding: 0.5rem 0; text-align: right;" colspan="3"><em>No Amazon URLs added</em></td>
+            </tr>
+        `;
+      }
+
+      // Surface costs
+      Object.values(breakdown.surfaces).forEach(surface => {
+        const locText = surface.locations === 1 ? '1 location' : `${surface.locations} locations`;
+        html += `
+            <tr style="border-bottom: 1px solid var(--gray-100);">
+              <td style="padding: 0.5rem 0;">${surface.icon} ${surface.name}</td>
+              <td style="padding: 0.5rem 0; text-align: right;">${surface.queries} × ${locText}</td>
+              <td style="padding: 0.5rem 0; text-align: right;">${formatCurrency(surface.costPerQuery)}/query</td>
+              <td style="padding: 0.5rem 0; text-align: right;">${formatCurrency(surface.subtotal)}</td>
+            </tr>
+        `;
+      });
+
+      // Screenshots
+      if (breakdown.screenshots > 0) {
+        html += `
+            <tr style="border-bottom: 1px solid var(--gray-100);">
+              <td style="padding: 0.5rem 0;">📸 Screenshots</td>
+              <td style="padding: 0.5rem 0; text-align: right;">—</td>
+              <td style="padding: 0.5rem 0; text-align: right;">${formatCurrency(SCREENSHOT_COST)}/each</td>
+              <td style="padding: 0.5rem 0; text-align: right;">${formatCurrency(breakdown.screenshots)}</td>
+            </tr>
+        `;
+      }
+
+      html += `
+          </tbody>
+        </table>
+      `;
+
+      // Add notes
+      const notes = [];
+      if (queryCount === 0 && state.testConfigs.length > 0) {
+        notes.push('Add search queries to see AI surface testing costs.');
+      }
+      if (!enableBrandPdp && !enableAmazonPdp) {
+        notes.push('Enable Product Page Analysis to analyze brand/Amazon PDPs.');
+      }
+
+      if (notes.length > 0) {
+        html += `
+          <p style="color: var(--warning); font-size: 0.8125rem; margin-top: 1rem;">
+            <strong>Note:</strong> ${notes.join(' ')}
+          </p>
+        `;
+      }
+
+      document.getElementById('costBreakdownContent').innerHTML = html;
+      document.getElementById('costTotal').textContent = formatCurrency(breakdown.total);
+      document.getElementById('costModal').classList.add('active');
+    }
+
+    // Render test configurations
+    function renderConfigs() {
+      const container = document.getElementById('configList');
+
+      if (state.testConfigs.length === 0) {
+        container.innerHTML = `
+          <div class="empty-state">
+            <p>No tests added yet</p>
+            <button class="btn-primary btn-sm" onclick="openAddConfigModal()">Add your first test</button>
+          </div>
+        `;
+        updateStats();
+        return;
+      }
+
+      const defaultCompletion = parseInt(document.getElementById('defaultCompletion').value) || 90;
+
+      // Render each test as its own row
+      container.innerHTML = `
+        <table style="width: 100%; border-collapse: collapse; font-size: 0.875rem;">
+          <thead>
+            <tr style="text-align: left; border-bottom: 2px solid var(--gray-200);">
+              <th style="padding: 0.5rem 0;">Surface</th>
+              <th style="padding: 0.5rem 0;">Location</th>
+              <th style="padding: 0.5rem 0; width: 100px;">Target %</th>
+              <th style="padding: 0.5rem 0; width: 60px;"></th>
+            </tr>
+          </thead>
+          <tbody>
+            ${state.testConfigs.map((config, idx) => {
+              const surfaceInfo = SURFACES[config.surface] || { name: config.surface, icon: '📊' };
+              const locText = config.city ? `${config.flag} ${config.city}, ${config.countryName}` : `${config.flag} ${config.countryName}`;
+              const completionVal = config.completionTarget || defaultCompletion;
+
+              return `
+                <tr style="border-bottom: 1px solid var(--gray-100);">
+                  <td style="padding: 0.5rem 0;">
+                    <span style="font-size: 1.125rem; margin-right: 0.375rem;">${surfaceInfo.icon}</span>
+                    ${surfaceInfo.name}
+                  </td>
+                  <td style="padding: 0.5rem 0;">${locText}</td>
+                  <td style="padding: 0.5rem 0;">
+                    <input type="number" value="${completionVal}" min="50" max="100"
+                           style="width: 60px; padding: 0.25rem; border: 1px solid var(--gray-300); border-radius: 4px;"
+                           onchange="updateConfigCompletion(${idx}, this.value)">%
+                  </td>
+                  <td style="padding: 0.5rem 0; text-align: right;">
+                    <button class="btn-danger btn-sm" onclick="removeConfig(${idx})" title="Delete test">🗑️</button>
+                  </td>
+                </tr>
+              `;
+            }).join('')}
+          </tbody>
+        </table>
+      `;
+
+      updateStats();
+    }
+
+    // Update completion target for a config
+    function updateConfigCompletion(idx, value) {
+      const val = parseInt(value);
+      if (val >= 50 && val <= 100) {
+        state.testConfigs[idx].completionTarget = val;
+      }
+    }
+
+    // Open add config modal
+    function openAddConfigModal() {
+      document.getElementById('configSurface').value = '';
+      document.getElementById('configCountry').value = '';
+      document.getElementById('configCity').innerHTML = '<option value="">Country-wide (no specific city)</option>';
+
+      // Populate quick add locations
+      const quickAdd = document.getElementById('quickAddLocations');
+      quickAdd.innerHTML = Object.entries(COUNTRIES).map(([code, info]) => `
+        <div class="surface-item" onclick="toggleQuickAdd(this, '${code}')" style="padding: 0.5rem;">
+          <input type="checkbox" id="quick-${code}">
+          <label style="font-size: 0.8125rem;">${info.flag} ${info.name}</label>
+        </div>
+      `).join('');
+
+      document.getElementById('addConfigModal').classList.add('active');
+    }
+
+    // Update city dropdown when country changes
+    function updateConfigCities() {
+      const country = document.getElementById('configCountry').value;
+      const citySelect = document.getElementById('configCity');
+
+      citySelect.innerHTML = '<option value="">Country-wide (no specific city)</option>';
+
+      if (country && CITIES_BY_COUNTRY[country]) {
+        CITIES_BY_COUNTRY[country].forEach(city => {
+          const option = document.createElement('option');
+          option.value = city;
+          option.textContent = city;
+          citySelect.appendChild(option);
+        });
+      }
+    }
+
+    // Toggle quick add location
+    function toggleQuickAdd(el, code) {
+      const checkbox = el.querySelector('input[type="checkbox"]');
+      checkbox.checked = !checkbox.checked;
+      el.classList.toggle('active', checkbox.checked);
+    }
+
+    // Add single config
+    function addConfig() {
+      const surface = document.getElementById('configSurface').value;
+      const country = document.getElementById('configCountry').value;
+      const city = document.getElementById('configCity').value || null;
+      const completionInput = document.getElementById('configCompletion').value;
+      const completionTarget = completionInput ? parseInt(completionInput) : null;
+
+      if (!surface || !country) {
+        alert('Please select both a surface and location');
+        return;
+      }
+
+      const surfaceInfo = SURFACES[surface];
+      const countryInfo = COUNTRIES[country];
+
+      // Check for duplicate
+      const exists = state.testConfigs.find(c =>
+        c.surface === surface && c.country === country && c.city === city
+      );
+
+      if (exists) {
+        alert('This configuration already exists');
+        return;
+      }
+
+      state.testConfigs.push({
+        surface,
+        surfaceName: surfaceInfo.name,
+        icon: surfaceInfo.icon,
+        country,
+        countryName: countryInfo.name,
+        flag: countryInfo.flag,
+        city,
+        completionTarget
+      });
+
+      renderConfigs();
+      closeModal('addConfigModal');
+    }
+
+    // Add config to multiple locations
+    function addConfigMultiple() {
+      const surface = document.getElementById('configSurface').value;
+
+      if (!surface) {
+        alert('Please select a surface first');
+        return;
+      }
+
+      const surfaceInfo = SURFACES[surface];
+      const checkboxes = document.querySelectorAll('#quickAddLocations input[type="checkbox"]:checked');
+
+      if (checkboxes.length === 0) {
+        alert('Please select at least one location');
+        return;
+      }
+
+      let added = 0;
+      checkboxes.forEach(cb => {
+        const code = cb.id.replace('quick-', '');
+        const countryInfo = COUNTRIES[code];
+
+        const exists = state.testConfigs.find(c =>
+          c.surface === surface && c.country === code && c.city === null
+        );
+
+        if (!exists) {
+          state.testConfigs.push({
+            surface,
+            surfaceName: surfaceInfo.name,
+            icon: surfaceInfo.icon,
+            country: code,
+            countryName: countryInfo.name,
+            flag: countryInfo.flag,
+            city: null
+          });
+          added++;
+        }
+      });
+
+      renderConfigs();
+      closeModal('addConfigModal');
+      if (added > 0) {
+        alert(`Added ${added} test configuration${added > 1 ? 's' : ''}`);
+      }
+    }
+
+    // Remove config
+    function removeConfig(idx) {
+      state.testConfigs.splice(idx, 1);
+      renderConfigs();
+    }
+
+    // Render brands
+    function renderBrands() {
+      const container = document.getElementById('brandsList');
+
+      if (state.brands.length === 0) {
+        container.innerHTML = `
+          <div class="empty-state">
+            <p>No brands added yet</p>
+            <button class="btn-secondary btn-sm" onclick="openAddBrandModal()">Add your first brand</button>
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = state.brands.map((brand, index) => {
+        const brandUrlCount = (brand.productUrls?.length || 0);
+        const amazonUrlCount = (brand.amazonProductUrls?.length || 0);
+
+        return `
+        <div class="brand-card ${brand.category}">
+          <div class="brand-header">
+            <h3>
+              ${brand.name}
+              <span class="tag tag-${brand.category}">${brand.category}</span>
+              ${brand.segment ? `<span style="font-size: 0.75rem; color: var(--gray-500);">(${brand.segment})</span>` : ''}
+            </h3>
+            <button class="btn-danger btn-sm" onclick="removeBrand(${index})">Remove</button>
+          </div>
+
+          <div style="font-size: 0.8125rem; color: var(--gray-600); margin-bottom: 0.5rem; display: flex; flex-wrap: wrap; gap: 1rem;">
+            ${brand.brandSiteUrl ? `<span>🛒 <a href="${brand.brandSiteUrl}" target="_blank" style="color: var(--primary);">Brand Site</a></span>` : ''}
+            ${brand.amazonStoreUrl ? `<span>📦 <a href="${brand.amazonStoreUrl}" target="_blank" style="color: var(--primary);">Amazon Store</a></span>` : '<span style="color: var(--gray-400);">No Amazon Store</span>'}
+          </div>
+
+          ${brand.productScope === 'all' ? `
+            <div style="font-size: 0.8125rem; color: var(--gray-500); margin-top: 0.5rem;">
+              <span>🔍 All products (auto-discover during study)</span>
+            </div>
+          ` : (brandUrlCount > 0 || amazonUrlCount > 0 ? `
+            <div style="font-size: 0.8125rem; color: var(--gray-500); margin-top: 0.5rem;">
+              ${brandUrlCount > 0 ? `<span style="margin-right: 1rem;">📄 ${brandUrlCount} brand site product${brandUrlCount > 1 ? 's' : ''}</span>` : ''}
+              ${amazonUrlCount > 0 ? `<span>📦 ${amazonUrlCount} Amazon product${amazonUrlCount > 1 ? 's' : ''}</span>` : ''}
+            </div>
+          ` : '<div style="font-size: 0.8125rem; color: var(--gray-400);">No product URLs specified</div>')}
+        </div>
+      `}).join('');
+
+      updateStats();
+    }
+
+    // Render queries
+    function renderQueries() {
+      const container = document.getElementById('queriesList');
+
+      if (state.queries.length === 0) {
+        container.innerHTML = `
+          <div class="empty-state">
+            <p>No queries added (optional for JSON-LD analysis)</p>
+            <button class="btn-secondary btn-sm" onclick="openAddQueryModal()">Add search queries</button>
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = `
+        <ul class="url-list">
+          ${state.queries.map((q, i) => `
+            <li style="justify-content: space-between; flex-wrap: wrap;">
+              <div style="flex: 1;">
+                <span>"${q.text}"</span>
+                ${q.amazonQuery ? `<span style="color: var(--primary); font-size: 0.75rem; margin-left: 0.5rem;">AMZ: "${q.amazonQuery}"</span>` : ''}
+                <span style="color: var(--gray-400); font-size: 0.75rem; margin-left: 0.5rem;">(${q.category || 'uncategorized'})</span>
+              </div>
+              <button class="btn-danger btn-sm" onclick="removeQuery(${i})">×</button>
+            </li>
+          `).join('')}
+        </ul>
+      `;
+
+      updateStats();
+    }
+
+    // Modal functions
+    function openAddBrandModal() {
+      document.getElementById('brandName').value = '';
+      document.getElementById('brandCategory').value = 'primary';
+      document.getElementById('brandSegment').value = '';
+      document.getElementById('brandSiteUrl').value = '';
+      document.getElementById('brandAmazonStore').value = '';
+      document.getElementById('brandUrls').value = '';
+      document.getElementById('brandAmazonUrls').value = '';
+      // Reset product scope to "all" and hide specific fields
+      document.querySelector('input[name="productScope"][value="all"]').checked = true;
+      document.getElementById('specificProductFields').style.display = 'none';
+      document.getElementById('addBrandModal').classList.add('active');
+    }
+
+    function openAddQueryModal() {
+      document.getElementById('queryText').value = '';
+      document.getElementById('queryCategory').value = '';
+      document.getElementById('bulkQueries').value = '';
+      document.getElementById('addQueryModal').classList.add('active');
+    }
+
+    function closeModal(id) {
+      document.getElementById(id).classList.remove('active');
+    }
+
+    // Toggle product URL fields visibility
+    function toggleProductUrlFields() {
+      const scope = document.querySelector('input[name="productScope"]:checked').value;
+      const fields = document.getElementById('specificProductFields');
+      fields.style.display = scope === 'specific' ? 'block' : 'none';
+    }
+
+    // Add brand
+    function addBrand() {
+      const name = document.getElementById('brandName').value.trim();
+      if (!name) {
+        alert('Brand name is required');
+        return;
+      }
+
+      const brandSiteUrl = document.getElementById('brandSiteUrl').value.trim();
+      if (!brandSiteUrl) {
+        alert('Brand Site URL is required');
+        return;
+      }
+
+      const productScope = document.querySelector('input[name="productScope"]:checked').value;
+
+      // Only parse URLs if user selected specific products
+      let urls = [];
+      let amazonUrls = [];
+      if (productScope === 'specific') {
+        const urlsText = document.getElementById('brandUrls').value.trim();
+        urls = urlsText ? urlsText.split('\n').map(u => u.trim()).filter(Boolean) : [];
+
+        const amazonUrlsText = document.getElementById('brandAmazonUrls').value.trim();
+        amazonUrls = amazonUrlsText ? amazonUrlsText.split('\n').map(u => u.trim()).filter(Boolean) : [];
+      }
+
+      state.brands.push({
+        name,
+        category: document.getElementById('brandCategory').value,
+        segment: document.getElementById('brandSegment').value.trim() || undefined,
+        brandSiteUrl: brandSiteUrl,
+        amazonStoreUrl: document.getElementById('brandAmazonStore').value.trim() || undefined,
+        productScope: productScope,  // 'all' or 'specific'
+        productUrls: urls.length > 0 ? urls : undefined,
+        amazonProductUrls: amazonUrls.length > 0 ? amazonUrls : undefined,
+      });
+
+      renderBrands();
+      closeModal('addBrandModal');
+    }
+
+    // Remove brand
+    function removeBrand(index) {
+      state.brands.splice(index, 1);
+      renderBrands();
+    }
+
+    // Add query
+    function addQuery() {
+      const text = document.getElementById('queryText').value.trim();
+      const amazonQuery = document.getElementById('amazonQuery').value.trim();
+      const bulk = document.getElementById('bulkQueries').value.trim();
+      const category = document.getElementById('queryCategory').value.trim();
+      const intent = document.getElementById('queryIntent').value;
+
+      if (bulk) {
+        const lines = bulk.split('\n').map(q => q.trim()).filter(Boolean);
+        lines.forEach(line => {
+          // Support "query | amazon query" format
+          const parts = line.split('|').map(p => p.trim());
+          const queryText = parts[0];
+          const amazonVariant = parts[1] || generateAmazonQuery(queryText);
+
+          if (queryText) {
+            state.queries.push({
+              text: queryText,
+              amazonQuery: amazonVariant || undefined,
+              category: category || 'general',
+              intent
+            });
+          }
+        });
+      } else if (text) {
+        // Auto-generate Amazon query if not provided
+        const finalAmazonQuery = amazonQuery || generateAmazonQuery(text);
+
+        state.queries.push({
+          text,
+          amazonQuery: finalAmazonQuery || undefined,
+          category: category || 'general',
+          intent
+        });
+      } else {
+        alert('Enter a query or bulk queries');
+        return;
+      }
+
+      renderQueries();
+      closeModal('addQueryModal');
+    }
+
+    // Remove query
+    function removeQuery(index) {
+      state.queries.splice(index, 1);
+      renderQueries();
+    }
+
+    // Auto-generate Amazon query from main query
+    function generateAmazonQuery(text) {
+      if (!text) return '';
+
+      // Words to remove (conversational/filler words)
+      const stopWords = new Set([
+        'what', 'which', 'who', 'where', 'when', 'why', 'how',
+        'are', 'is', 'the', 'a', 'an', 'for', 'to', 'of', 'in', 'on', 'with',
+        'best', 'top', 'most', 'good', 'great', 'recommend', 'recommended',
+        'should', 'would', 'could', 'can', 'do', 'does', 'did',
+        'i', 'me', 'my', 'you', 'your', 'we', 'our',
+        'buy', 'get', 'find', 'looking', 'need', 'want',
+        'some', 'any', 'all', 'very', 'really', 'highly',
+        '2024', '2025', '2026', '2027',
+        'right', 'now', 'today', 'currently'
+      ]);
+
+      // Clean and tokenize
+      const words = text
+        .toLowerCase()
+        .replace(/[?!.,;:'"]/g, '')
+        .split(/\s+/)
+        .filter(word => word.length > 1 && !stopWords.has(word));
+
+      // Keep max 4 words, prioritizing nouns/products
+      const result = words.slice(0, 4).join(' ');
+
+      return result;
+    }
+
+    function autoGenerateAmazonQuery() {
+      const mainQuery = document.getElementById('queryText').value.trim();
+      if (!mainQuery) {
+        alert('Enter a query first');
+        return;
+      }
+      document.getElementById('amazonQuery').value = generateAmazonQuery(mainQuery);
+    }
+
+    // Auto-generate Amazon queries for all queries that don't have one
+    function bulkGenerateAmazonQueries() {
+      let generated = 0;
+      for (const query of state.queries) {
+        if (!query.amazonQuery) {
+          query.amazonQuery = generateAmazonQuery(query.text);
+          if (query.amazonQuery) generated++;
+        }
+      }
+      renderQueries();
+      alert(`Generated ${generated} Amazon query variants`);
+    }
+
+    // Toggle surface
+    function toggleSurface(el, name) {
+      const checkbox = el.querySelector('input[type="checkbox"]');
+      checkbox.checked = !checkbox.checked;
+      state.surfaces[name] = checkbox.checked;
+      el.classList.toggle('active', checkbox.checked);
+      updateStats();
+    }
+
+    // City data by country
+    const CITIES_BY_COUNTRY = {
+      us: ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix', 'San Francisco', 'Seattle', 'Boston', 'Miami', 'Denver', 'Atlanta', 'Dallas', 'Austin', 'Portland', 'San Diego'],
+      uk: ['London', 'Manchester', 'Birmingham', 'Leeds', 'Glasgow', 'Liverpool', 'Edinburgh', 'Bristol', 'Cardiff', 'Belfast'],
+      in: ['Mumbai', 'Delhi', 'Bangalore', 'Chennai', 'Hyderabad', 'Kolkata', 'Pune', 'Ahmedabad', 'Jaipur', 'Lucknow'],
+      de: ['Berlin', 'Munich', 'Hamburg', 'Frankfurt', 'Cologne', 'Stuttgart', 'Düsseldorf', 'Leipzig', 'Dresden'],
+      fr: ['Paris', 'Lyon', 'Marseille', 'Toulouse', 'Nice', 'Bordeaux', 'Lille', 'Strasbourg', 'Nantes'],
+      ca: ['Toronto', 'Vancouver', 'Montreal', 'Calgary', 'Ottawa', 'Edmonton', 'Winnipeg', 'Quebec City'],
+      au: ['Sydney', 'Melbourne', 'Brisbane', 'Perth', 'Adelaide', 'Gold Coast', 'Canberra'],
+      jp: ['Tokyo', 'Osaka', 'Yokohama', 'Nagoya', 'Kyoto', 'Fukuoka', 'Sapporo', 'Kobe'],
+      br: ['São Paulo', 'Rio de Janeiro', 'Brasília', 'Salvador', 'Fortaleza', 'Belo Horizonte', 'Curitiba'],
+      mx: ['Mexico City', 'Guadalajara', 'Monterrey', 'Cancún', 'Puebla', 'Tijuana'],
+      ae: ['Dubai', 'Abu Dhabi', 'Sharjah'],
+      sg: ['Singapore'],
+      kr: ['Seoul', 'Busan', 'Incheon', 'Daegu', 'Daejeon'],
+      nl: ['Amsterdam', 'Rotterdam', 'The Hague', 'Utrecht', 'Eindhoven'],
+      it: ['Rome', 'Milan', 'Naples', 'Turin', 'Florence', 'Venice'],
+      es: ['Madrid', 'Barcelona', 'Valencia', 'Seville', 'Bilbao', 'Málaga'],
+      se: ['Stockholm', 'Gothenburg', 'Malmö', 'Uppsala'],
+      ch: ['Zurich', 'Geneva', 'Basel', 'Bern', 'Lausanne'],
+      id: ['Jakarta', 'Surabaya', 'Bandung', 'Bali', 'Medan'],
+      ph: ['Manila', 'Cebu City', 'Davao', 'Quezon City'],
+    };
+
+    let currentCityModalCountry = null;
+    let selectedCitiesTemp = [];
+
+    // Render locations list
+    function renderLocations() {
+      const container = document.getElementById('locationsList');
+
+      if (state.locations.length === 0) {
+        container.innerHTML = `
+          <div class="empty-state">
+            <p>No locations configured</p>
+            <button class="btn-secondary btn-sm" onclick="openAddLocationModal()">Add a location</button>
+          </div>
+        `;
+        updateStats();
+        return;
+      }
+
+      container.innerHTML = state.locations.map((loc, idx) => {
+        const citiesText = loc.cities.length > 0
+          ? loc.cities.join(', ')
+          : 'Country-wide (no specific cities)';
+
+        return `
+          <div class="brand-card ${idx === 0 ? 'primary' : ''}" data-location="${loc.country}">
+            <div class="brand-header">
+              <h3>
+                <span style="font-size: 1.25rem;">${loc.flag}</span> ${loc.name}
+                ${idx === 0 ? '<span class="tag tag-primary">DEFAULT</span>' : ''}
+              </h3>
+              <button class="btn-danger btn-sm" onclick="removeLocation('${loc.country}')">Remove</button>
+            </div>
+            <div style="font-size: 0.8125rem; color: var(--gray-600);">
+              <span>${citiesText}</span>
+              <button class="btn-secondary btn-sm" style="margin-left: 0.5rem; padding: 0.125rem 0.5rem; font-size: 0.75rem;" onclick="openCityModal('${loc.country}', '${loc.name}')">Edit Cities</button>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      updateStats();
+    }
+
+    // Open add location modal
+    function openAddLocationModal() {
+      document.getElementById('locationCountry').value = '';
+      document.getElementById('cityCheckboxes').innerHTML = '<p style="color: var(--gray-400); padding: 1rem;">Select a country first</p>';
+      document.getElementById('customCity').value = '';
+      selectedCitiesTemp = [];
+      document.getElementById('addLocationModal').classList.add('active');
+    }
+
+    // Update city options when country changes
+    function updateCityOptions() {
+      const select = document.getElementById('locationCountry');
+      const country = select.value;
+      const container = document.getElementById('cityCheckboxes');
+
+      if (!country) {
+        container.innerHTML = '<p style="color: var(--gray-400); padding: 1rem;">Select a country first</p>';
+        return;
+      }
+
+      const cities = CITIES_BY_COUNTRY[country] || [];
+      selectedCitiesTemp = [];
+
+      if (cities.length === 0) {
+        container.innerHTML = '<p style="color: var(--gray-400); padding: 1rem;">No predefined cities. Add custom cities below.</p>';
+        return;
+      }
+
+      container.innerHTML = cities.map(city => `
+        <div class="surface-item" onclick="toggleCitySelection(this, '${city}')" style="padding: 0.5rem;">
+          <input type="checkbox" id="city-${city.replace(/\s+/g, '-')}">
+          <label for="city-${city.replace(/\s+/g, '-')}" style="font-size: 0.8125rem;">${city}</label>
+        </div>
+      `).join('');
+    }
+
+    // Toggle city selection
+    function toggleCitySelection(el, city) {
+      const checkbox = el.querySelector('input[type="checkbox"]');
+      checkbox.checked = !checkbox.checked;
+      el.classList.toggle('active', checkbox.checked);
+
+      if (checkbox.checked) {
+        if (!selectedCitiesTemp.includes(city)) selectedCitiesTemp.push(city);
+      } else {
+        selectedCitiesTemp = selectedCitiesTemp.filter(c => c !== city);
+      }
+    }
+
+    // Add custom city to selection
+    function addCustomCityToSelection() {
+      const input = document.getElementById('customCity');
+      const city = input.value.trim();
+
+      if (!city) return;
+
+      if (!selectedCitiesTemp.includes(city)) {
+        selectedCitiesTemp.push(city);
+
+        const container = document.getElementById('cityCheckboxes');
+        const div = document.createElement('div');
+        div.className = 'surface-item active';
+        div.style.padding = '0.5rem';
+        div.onclick = function() { toggleCitySelection(this, city); };
+        div.innerHTML = `
+          <input type="checkbox" checked>
+          <label style="font-size: 0.8125rem;">${city} (custom)</label>
+        `;
+        container.appendChild(div);
+      }
+
+      input.value = '';
+    }
+
+    // Add location
+    function addLocation() {
+      const select = document.getElementById('locationCountry');
+      const option = select.options[select.selectedIndex];
+      const country = select.value;
+
+      if (!country) {
+        alert('Select a country');
+        return;
+      }
+
+      // Check if already exists
+      if (state.locations.find(l => l.country === country)) {
+        alert('Location already added');
+        return;
+      }
+
+      state.locations.push({
+        country,
+        name: option.dataset.name,
+        flag: option.dataset.flag,
+        cities: [...selectedCitiesTemp]
+      });
+
+      renderLocations();
+      closeModal('addLocationModal');
+    }
+
+    // Remove location
+    function removeLocation(country) {
+      state.locations = state.locations.filter(l => l.country !== country);
+      renderLocations();
+    }
+
+    // Open city modal for existing location
+    function openCityModal(country, name) {
+      currentCityModalCountry = country;
+      document.getElementById('cityModalCountryName').textContent = name;
+
+      const location = state.locations.find(l => l.country === country);
+      selectedCitiesTemp = location ? [...location.cities] : [];
+
+      const cities = CITIES_BY_COUNTRY[country] || [];
+      const container = document.getElementById('existingCityCheckboxes');
+
+      const allCities = [...new Set([...cities, ...selectedCitiesTemp])];
+
+      container.innerHTML = allCities.map(city => {
+        const isSelected = selectedCitiesTemp.includes(city);
+        const isCustom = !cities.includes(city);
+        return `
+          <div class="surface-item ${isSelected ? 'active' : ''}" onclick="toggleExistingCity(this, '${city}')" style="padding: 0.5rem;">
+            <input type="checkbox" ${isSelected ? 'checked' : ''}>
+            <label style="font-size: 0.8125rem;">${city}${isCustom ? ' (custom)' : ''}</label>
+          </div>
+        `;
+      }).join('');
+
+      if (allCities.length === 0) {
+        container.innerHTML = '<p style="color: var(--gray-400); padding: 1rem;">No predefined cities. Add custom cities below.</p>';
+      }
+
+      document.getElementById('existingCustomCity').value = '';
+      document.getElementById('addCityModal').classList.add('active');
+    }
+
+    // Toggle existing city
+    function toggleExistingCity(el, city) {
+      const checkbox = el.querySelector('input[type="checkbox"]');
+      checkbox.checked = !checkbox.checked;
+      el.classList.toggle('active', checkbox.checked);
+
+      if (checkbox.checked) {
+        if (!selectedCitiesTemp.includes(city)) selectedCitiesTemp.push(city);
+      } else {
+        selectedCitiesTemp = selectedCitiesTemp.filter(c => c !== city);
+      }
+    }
+
+    // Add custom city to existing location
+    function addCustomCityToExisting() {
+      const input = document.getElementById('existingCustomCity');
+      const city = input.value.trim();
+
+      if (!city) return;
+
+      if (!selectedCitiesTemp.includes(city)) {
+        selectedCitiesTemp.push(city);
+
+        const container = document.getElementById('existingCityCheckboxes');
+        const div = document.createElement('div');
+        div.className = 'surface-item active';
+        div.style.padding = '0.5rem';
+        div.onclick = function() { toggleExistingCity(this, city); };
+        div.innerHTML = `
+          <input type="checkbox" checked>
+          <label style="font-size: 0.8125rem;">${city} (custom)</label>
+        `;
+        container.appendChild(div);
+      }
+
+      input.value = '';
+    }
+
+    // Save cities to location
+    function saveCitiesToLocation() {
+      const location = state.locations.find(l => l.country === currentCityModalCountry);
+      if (location) {
+        location.cities = [...selectedCitiesTemp];
+      }
+      renderLocations();
+      closeModal('addCityModal');
+    }
+
+    // Toggle option
+    function toggleOption(el, name) {
+      const checkbox = el.querySelector('input[type="checkbox"]');
+      checkbox.checked = !checkbox.checked;
+      state.options[name] = checkbox.checked;
+      el.classList.toggle('active', checkbox.checked);
+    }
+
+    // Update proxy fields visibility
+    function updateProxyFields() {
+      const provider = document.getElementById('proxyProvider').value;
+      const configFields = document.getElementById('proxyConfigFields');
+      const customFields = document.getElementById('customProxyFields');
+
+      state.proxy.provider = provider;
+
+      if (provider === 'none') {
+        configFields.style.display = 'none';
+        customFields.style.display = 'none';
+      } else if (provider === 'custom') {
+        configFields.style.display = 'none';
+        customFields.style.display = 'block';
+      } else {
+        configFields.style.display = 'block';
+        customFields.style.display = 'none';
+
+        // Set default hosts/ports for known providers
+        const defaults = {
+          brightdata: { host: 'brd.superproxy.io', port: '22225' },
+          oxylabs: { host: 'pr.oxylabs.io', port: '7777' },
+          smartproxy: { host: 'gate.smartproxy.com', port: '7000' },
+          webshare: { host: 'proxy.webshare.io', port: '80' },
+        };
+
+        if (defaults[provider]) {
+          document.getElementById('proxyHost').value = defaults[provider].host;
+          document.getElementById('proxyPort').value = defaults[provider].port;
+        }
+      }
+    }
+
+    // Get proxy configuration
+    function getProxyConfig() {
+      const provider = document.getElementById('proxyProvider').value;
+
+      if (provider === 'none') {
+        return undefined;
+      }
+
+      if (provider === 'custom') {
+        const listText = document.getElementById('proxyList').value.trim();
+        const proxies = listText ? listText.split('\n').map(p => p.trim()).filter(Boolean) : [];
+        return {
+          provider: 'custom',
+          proxies,
+          autoRotateOnBlock: state.options.autoRotateOnBlock,
+          maxRotationsPerUrl: parseInt(document.getElementById('maxRotations').value) || 3,
+        };
+      }
+
+      return {
+        provider,
+        host: document.getElementById('proxyHost').value.trim(),
+        port: document.getElementById('proxyPort').value.trim(),
+        username: document.getElementById('proxyUsername').value.trim(),
+        password: document.getElementById('proxyPassword').value.trim(),
+        autoRotateOnBlock: state.options.autoRotateOnBlock,
+        maxRotationsPerUrl: parseInt(document.getElementById('maxRotations').value) || 3,
+      };
+    }
+
+    // Generate manifest
+    function generateManifest() {
+      const studyName = document.getElementById('studyName').value.trim() || 'Untitled Study';
+      const clientName = document.getElementById('clientName').value.trim();
+      const deadline = document.getElementById('studyDeadline').value || undefined;
+      const defaultCompletion = parseInt(document.getElementById('defaultCompletion').value) || 90;
+
+      const enableBrandPdp = document.getElementById('enableBrandPdp').checked;
+      const enableAmazonPdp = document.getElementById('enableAmazonPdp').checked;
+
+      // Build tests array
+      const tests = [];
+
+      // Add Brand Site PDP analysis if enabled
+      if (enableBrandPdp) {
+        tests.push({
+          surface: 'jsonld-pdp',
+          type: 'brand-site',
+          completionTarget: defaultCompletion,
+          note: 'Brand Site Product Pages (JSON-LD SSOT)'
+        });
+      }
+
+      // Add Amazon PDP analysis if enabled
+      if (enableAmazonPdp) {
+        tests.push({
+          surface: 'amazon-pdp',
+          type: 'amazon',
+          completionTarget: defaultCompletion,
+          note: 'Amazon Product Pages'
+        });
+      }
+
+      // Add AI surface tests
+      state.testConfigs.forEach(c => {
+        tests.push({
+          surface: c.surface,
+          country: c.country,
+          city: c.city || undefined,
+          completionTarget: c.completionTarget || defaultCompletion,
+        });
+      });
+
+      return {
+        id: `study-${Date.now()}`,
+        name: studyName,
+        description: document.getElementById('studyDescription').value.trim() || undefined,
+        version: '1.0',
+        createdAt: new Date().toISOString(),
+
+        brands: state.brands,
+        queries: state.queries.length > 0 ? state.queries : [],
+        tests: tests,
+
+        outputDir: document.getElementById('outputDir').value.trim() || './results',
+
+        report: {
+          title: document.getElementById('reportTitle').value.trim() || 'AI Visibility Assessment',
+          clientName: clientName || undefined,
+          reportType: state.reportType,
+          includeCharts: true,
+          includeRawData: true,
+          theme: 'corporate',
+        },
+
+        job: {
+          deadline: deadline,
+          defaultCompletionTarget: defaultCompletion,
+        },
+
+        // Internal options (we handle these, not the user)
+        options: {
+          parallelSurfaces: false,
+          retryAttempts: 3,
+          delayBetweenRequests: 2000,
+          screenshotEnabled: true,
+          stealthMode: true,
+        },
+      };
+    }
+
+    // Preview manifest
+    function previewManifest() {
+      const manifest = generateManifest();
+      document.getElementById('manifestPreview').textContent = JSON.stringify(manifest, null, 2);
+      document.getElementById('previewModal').classList.add('active');
+    }
+
+    // Copy manifest
+    function copyManifest() {
+      const manifest = generateManifest();
+      navigator.clipboard.writeText(JSON.stringify(manifest, null, 2));
+      alert('Copied to clipboard!');
+    }
+
+    // Download manifest
+    function downloadManifest() {
+      const manifest = generateManifest();
+      const blob = new Blob([JSON.stringify(manifest, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `${manifest.name.toLowerCase().replace(/\s+/g, '-')}.json`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+
+    // Handle CSV upload
+    function handleCsvUpload(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        const text = e.target.result;
+        const lines = text.split(/\r?\n/);
+        let added = 0;
+
+        for (const line of lines) {
+          let rawLine = line.trim();
+          if (!rawLine) continue;
+
+          // Skip header rows that look like column names
+          const lowerLine = rawLine.toLowerCase();
+          if (lowerLine === 'query' ||
+              lowerLine === 'prompt' ||
+              lowerLine === 'question' ||
+              lowerLine.startsWith('query,') ||
+              lowerLine.startsWith('prompt,') ||
+              lowerLine.includes('amazon query') ||
+              lowerLine.includes('amazon_query')) {
+            continue;
+          }
+
+          let query = rawLine;
+          let amazonQuery = undefined;
+
+          // Handle pipe-separated format: "query | amazon query"
+          if (query.includes('|')) {
+            const parts = query.split('|').map(p => p.trim());
+            query = parts[0];
+            amazonQuery = parts[1] || undefined;
+          }
+          // Handle CSV with multiple columns
+          else if (query.includes(',')) {
+            const parts = parseCSVLine(query);
+            query = parts[0]?.trim() || '';
+            amazonQuery = parts[1]?.trim() || undefined;
+          }
+
+          // Strip number prefixes: "1.", "1)", "1 ", "1- ", "1: ", etc.
+          query = query.replace(/^\d+[\.\)\-:\s]+\s*/, '');
+
+          // Remove quotes if present
+          query = query.replace(/^["']|["']$/g, '');
+          if (amazonQuery) {
+            amazonQuery = amazonQuery.replace(/^["']|["']$/g, '');
+          }
+
+          if (query && query.length > 2) {
+            // Check for duplicate
+            if (!state.queries.find(q => q.text.toLowerCase() === query.toLowerCase())) {
+              // Auto-generate Amazon query if not provided
+              const finalAmazonQuery = amazonQuery || generateAmazonQuery(query);
+
+              state.queries.push({
+                text: query,
+                amazonQuery: finalAmazonQuery || undefined,
+                category: 'imported',
+                intent: 'commercial'
+              });
+              added++;
+            }
+          }
+        }
+
+        renderQueries();
+        alert(`Imported ${added} queries from CSV`);
+
+        // Reset file input so same file can be uploaded again
+        event.target.value = '';
+      };
+
+      reader.readAsText(file);
+    }
+
+    // Parse CSV line handling quoted values
+    function parseCSVLine(line) {
+      const result = [];
+      let current = '';
+      let inQuotes = false;
+
+      for (let i = 0; i < line.length; i++) {
+        const char = line[i];
+
+        if (char === '"' && (i === 0 || line[i-1] !== '\\')) {
+          inQuotes = !inQuotes;
+        } else if (char === ',' && !inQuotes) {
+          result.push(current.trim());
+          current = '';
+        } else {
+          current += char;
+        }
+      }
+
+      result.push(current.trim());
+      return result;
+    }
+
+    // Close modals on escape
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        document.querySelectorAll('.modal-overlay.active').forEach(m => m.classList.remove('active'));
+      }
+    });
+
+    // Close modals on overlay click
+    document.querySelectorAll('.modal-overlay').forEach(overlay => {
+      overlay.addEventListener('click', (e) => {
+        if (e.target === overlay) {
+          overlay.classList.remove('active');
+        }
+      });
+    });
+
+    // Set default deadline to 2 weeks from now
+    function setDefaultDeadline() {
+      const twoWeeksFromNow = new Date();
+      twoWeeksFromNow.setDate(twoWeeksFromNow.getDate() + 14);
+      const dateStr = twoWeeksFromNow.toISOString().split('T')[0];
+      document.getElementById('studyDeadline').value = dateStr;
+    }
+
+    // Initial render
+    setDefaultDeadline();
+    renderBrands();
+    renderQueries();
+    renderConfigs();
+    updateStats();
+  </script>
+</body>
+</html>

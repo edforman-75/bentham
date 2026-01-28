@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TASC Visibility Study - Dashboard</title>
+  <meta charset="UTF-8">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, sans-serif; background: #1a1a2e; color: #fff; padding: 20px; }
+    h1 { text-align: center; margin-bottom: 20px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; max-width: 1400px; margin: 0 auto; }
+    .card { background: rgba(255,255,255,0.05); border-radius: 12px; padding: 20px; border: 1px solid rgba(255,255,255,0.1); }
+    .card h3 { margin-bottom: 10px; }
+    .status { display: inline-block; padding: 3px 10px; border-radius: 10px; font-size: 0.75em; font-weight: 600; }
+    .complete { background: #10b981; }
+    .running { background: #f59e0b; color: #000; }
+    .pending { background: #6b7280; }
+    .progress-bar { background: rgba(255,255,255,0.1); border-radius: 4px; height: 8px; margin: 10px 0; }
+    .progress-fill { height: 100%; border-radius: 4px; background: linear-gradient(90deg, #00d4ff, #7b2cbf); }
+    .stats { display: flex; justify-content: space-between; }
+    .stat-val { font-size: 1.5em; font-weight: 700; color: #00d4ff; }
+    .stat-label { font-size: 0.8em; color: #888; }
+    .brands { margin-top: 10px; font-size: 0.85em; }
+    .brand { display: flex; justify-content: space-between; padding: 3px 0; }
+    .client { color: #10b981; font-weight: 600; }
+    .updated { text-align: center; color: #666; margin-top: 20px; font-size: 0.85em; }
+    .alert { background: rgba(239,68,68,0.2); border: 1px solid rgba(239,68,68,0.5); padding: 15px; border-radius: 8px; margin-bottom: 20px; text-align: center; }
+    .alert strong { color: #f87171; }
+  </style>
+</head>
+<body>
+  <h1>TASC Performance AI Visibility Study</h1>
+  <div class="alert">
+    <strong>KEY FINDING:</strong> TASC has excellent AI visibility (~80%) but only 2.2% visibility in Bing Search - a critical gap to address.
+  </div>
+  <div class="grid" id="cards"></div>
+  <div class="updated" id="time"></div>
+  <script>
+const data = {
+  'google-ai-overview': { total: 90, success: 90, brands: {"TASC":{"queriesAppearing":72,"percentOfQueries":"80.0%"},"BAM":{"queriesAppearing":71,"percentOfQueries":"78.9%"},"TASC Performance":{"queriesAppearing":64,"percentOfQueries":"71.1%"},"REI":{"queriesAppearing":13,"percentOfQueries":"14.4%"},"Lululemon":{"queriesAppearing":13,"percentOfQueries":"14.4%"},"Vuori":{"queriesAppearing":11,"percentOfQueries":"12.2%"},"Nike":{"queriesAppearing":10,"percentOfQueries":"11.1%"},"Amazon":{"queriesAppearing":9,"percentOfQueries":"10.0%"},"Under Armour":{"queriesAppearing":8,"percentOfQueries":"8.9%"},"Free Fly":{"queriesAppearing":7,"percentOfQueries":"7.8%"},"Rhone":{"queriesAppearing":6,"percentOfQueries":"6.7%"},"Patagonia":{"queriesAppearing":6,"percentOfQueries":"6.7%"},"Cariloha":{"queriesAppearing":5,"percentOfQueries":"5.6%"},"Boody":{"queriesAppearing":5,"percentOfQueries":"5.6%"},"Girlfriend Collective":{"queriesAppearing":4,"percentOfQueries":"4.4%"},"Nordstrom":{"queriesAppearing":3,"percentOfQueries":"3.3%"},"Allbirds":{"queriesAppearing":2,"percentOfQueries":"2.2%"},"Everlane":{"queriesAppearing":2,"percentOfQueries":"2.2%"},"Ibex":{"queriesAppearing":1,"percentOfQueries":"1.1%"},"Bamtech":{"queriesAppearing":1,"percentOfQueries":"1.1%"},"Cotopaxi":{"queriesAppearing":1,"percentOfQueries":"1.1%"}} },
+  'google-organic': { total: 90, success: 90, brands: {"TASC":{"queriesAppearing":72,"percentOfQueries":"80.0%"},"BAM":{"queriesAppearing":69,"percentOfQueries":"76.7%"},"TASC Performance":{"queriesAppearing":64,"percentOfQueries":"71.1%"},"REI":{"queriesAppearing":13,"percentOfQueries":"14.4%"},"Lululemon":{"queriesAppearing":11,"percentOfQueries":"12.2%"},"Vuori":{"queriesAppearing":11,"percentOfQueries":"12.2%"},"Nike":{"queriesAppearing":11,"percentOfQueries":"12.2%"},"Under Armour":{"queriesAppearing":9,"percentOfQueries":"10.0%"},"Amazon":{"queriesAppearing":7,"percentOfQueries":"7.8%"},"Rhone":{"queriesAppearing":7,"percentOfQueries":"7.8%"},"Free Fly":{"queriesAppearing":6,"percentOfQueries":"6.7%"},"Boody":{"queriesAppearing":5,"percentOfQueries":"5.6%"},"Cariloha":{"queriesAppearing":4,"percentOfQueries":"4.4%"},"Patagonia":{"queriesAppearing":4,"percentOfQueries":"4.4%"},"Girlfriend Collective":{"queriesAppearing":4,"percentOfQueries":"4.4%"},"Nordstrom":{"queriesAppearing":3,"percentOfQueries":"3.3%"},"Everlane":{"queriesAppearing":3,"percentOfQueries":"3.3%"},"Allbirds":{"queriesAppearing":2,"percentOfQueries":"2.2%"},"Bamtech":{"queriesAppearing":2,"percentOfQueries":"2.2%"},"Ibex":{"queriesAppearing":1,"percentOfQueries":"1.1%"},"Cotopaxi":{"queriesAppearing":1,"percentOfQueries":"1.1%"}} },
+  'bing-search': { total: 90, success: 90, brands: {"BAM":{"queriesAppearing":6,"percentOfQueries":"6.7%"},"Lululemon":{"queriesAppearing":3,"percentOfQueries":"3.3%"},"Vuori":{"queriesAppearing":2,"percentOfQueries":"2.2%"},"Under Armour":{"queriesAppearing":2,"percentOfQueries":"2.2%"},"TASC":{"queriesAppearing":2,"percentOfQueries":"2.2%"},"TASC Performance":{"queriesAppearing":2,"percentOfQueries":"2.2%"},"REI":{"queriesAppearing":2,"percentOfQueries":"2.2%"},"Rhone":{"queriesAppearing":1,"percentOfQueries":"1.1%"},"Cariloha":{"queriesAppearing":1,"percentOfQueries":"1.1%"},"Bamtech":{"queriesAppearing":1,"percentOfQueries":"1.1%"}} },
+  'chatgpt-web': { total: 90, success: 72, brands: {"TASC":{"queriesAppearing":57,"percentOfQueries":"79.2%","totalMentions":550},"TASC Performance":{"queriesAppearing":55,"percentOfQueries":"76.4%","totalMentions":331},"BAM":{"queriesAppearing":54,"percentOfQueries":"75.0%","totalMentions":185},"REI":{"queriesAppearing":16,"percentOfQueries":"22.2%","totalMentions":25},"Under Armour":{"queriesAppearing":12,"percentOfQueries":"16.7%","totalMentions":95},"Lululemon":{"queriesAppearing":10,"percentOfQueries":"13.9%","totalMentions":79},"Vuori":{"queriesAppearing":6,"percentOfQueries":"8.3%","totalMentions":35},"Nike":{"queriesAppearing":5,"percentOfQueries":"6.9%","totalMentions":16},"Amazon":{"queriesAppearing":5,"percentOfQueries":"6.9%","totalMentions":7},"Free Fly":{"queriesAppearing":3,"percentOfQueries":"4.2%","totalMentions":26},"Rhone":{"queriesAppearing":3,"percentOfQueries":"4.2%","totalMentions":9},"Cariloha":{"queriesAppearing":2,"percentOfQueries":"2.8%","totalMentions":4},"Ibex":{"queriesAppearing":2,"percentOfQueries":"2.8%","totalMentions":23},"Patagonia":{"queriesAppearing":2,"percentOfQueries":"2.8%","totalMentions":5},"Girlfriend Collective":{"queriesAppearing":2,"percentOfQueries":"2.8%","totalMentions":6},"Boody":{"queriesAppearing":2,"percentOfQueries":"2.8%","totalMentions":3},"Bamtech":{"queriesAppearing":1,"percentOfQueries":"1.4%","totalMentions":1},"Everlane":{"queriesAppearing":1,"percentOfQueries":"1.4%","totalMentions":4},"Nordstrom":{"queriesAppearing":1,"percentOfQueries":"1.4%","totalMentions":18}} },
+  'gemini-api': { total: 90, success: 90, brands: {"TASC":{"queriesAppearing":71,"percentOfQueries":"78.9%"},"BAM":{"queriesAppearing":70,"percentOfQueries":"77.8%"},"TASC Performance":{"queriesAppearing":66,"percentOfQueries":"73.3%"},"Nike":{"queriesAppearing":13,"percentOfQueries":"14.4%"},"Lululemon":{"queriesAppearing":11,"percentOfQueries":"12.2%"},"Under Armour":{"queriesAppearing":11,"percentOfQueries":"12.2%"},"Rhone":{"queriesAppearing":8,"percentOfQueries":"8.9%"},"Patagonia":{"queriesAppearing":7,"percentOfQueries":"7.8%"},"REI":{"queriesAppearing":7,"percentOfQueries":"7.8%"},"Amazon":{"queriesAppearing":6,"percentOfQueries":"6.7%"},"Vuori":{"queriesAppearing":5,"percentOfQueries":"5.6%"},"Girlfriend Collective":{"queriesAppearing":5,"percentOfQueries":"5.6%"},"Free Fly":{"queriesAppearing":4,"percentOfQueries":"4.4%"},"Cariloha":{"queriesAppearing":3,"percentOfQueries":"3.3%"},"Allbirds":{"queriesAppearing":3,"percentOfQueries":"3.3%"},"Boody":{"queriesAppearing":3,"percentOfQueries":"3.3%"},"Ibex":{"queriesAppearing":2,"percentOfQueries":"2.2%"},"Everlane":{"queriesAppearing":2,"percentOfQueries":"2.2%"},"Nordstrom":{"queriesAppearing":2,"percentOfQueries":"2.2%"},"Bamtech":{"queriesAppearing":1,"percentOfQueries":"1.1%"},"Cotopaxi":{"queriesAppearing":1,"percentOfQueries":"1.1%"}} },
+  'amazon-search': { total: 90, success: 85, brands: {"TASC":{"queriesAppearing":26,"percentOfQueries":"30.6%","totalMentions":98},"BAM":{"queriesAppearing":26,"percentOfQueries":"30.6%","totalMentions":125},"TASC Performance":{"queriesAppearing":10,"percentOfQueries":"11.8%","totalMentions":79},"Amazon":{"queriesAppearing":4,"percentOfQueries":"4.7%","totalMentions":4},"REI":{"queriesAppearing":3,"percentOfQueries":"3.5%","totalMentions":3},"Under Armour":{"queriesAppearing":3,"percentOfQueries":"3.5%","totalMentions":8},"Free Fly":{"queriesAppearing":3,"percentOfQueries":"3.5%","totalMentions":10},"Lululemon":{"queriesAppearing":2,"percentOfQueries":"2.4%","totalMentions":3},"Rhone":{"queriesAppearing":2,"percentOfQueries":"2.4%","totalMentions":3},"Nike":{"queriesAppearing":1,"percentOfQueries":"1.2%","totalMentions":1}} },
+  'brand-sites': { total: 14, success: 10, brands: {} },
+  'openai-api': { total: 90, success: 90, brands: {"TASC":{"queriesAppearing":72,"percentOfQueries":"80.0%"},"BAM":{"queriesAppearing":70,"percentOfQueries":"77.8%"},"TASC Performance":{"queriesAppearing":54,"percentOfQueries":"60.0%"},"Lululemon":{"queriesAppearing":11,"percentOfQueries":"12.2%"},"Nike":{"queriesAppearing":11,"percentOfQueries":"12.2%"},"Under Armour":{"queriesAppearing":10,"percentOfQueries":"11.1%"},"Patagonia":{"queriesAppearing":10,"percentOfQueries":"11.1%"},"Vuori":{"queriesAppearing":6,"percentOfQueries":"6.7%"},"Rhone":{"queriesAppearing":6,"percentOfQueries":"6.7%"},"REI":{"queriesAppearing":5,"percentOfQueries":"5.6%"},"Free Fly":{"queriesAppearing":5,"percentOfQueries":"5.6%"},"Allbirds":{"queriesAppearing":5,"percentOfQueries":"5.6%"},"Cariloha":{"queriesAppearing":4,"percentOfQueries":"4.4%"},"Girlfriend Collective":{"queriesAppearing":4,"percentOfQueries":"4.4%"},"Boody":{"queriesAppearing":3,"percentOfQueries":"3.3%"},"Everlane":{"queriesAppearing":2,"percentOfQueries":"2.2%"},"Ibex":{"queriesAppearing":1,"percentOfQueries":"1.1%"},"Bamtech":{"queriesAppearing":1,"percentOfQueries":"1.1%"},"Cotopaxi":{"queriesAppearing":1,"percentOfQueries":"1.1%"},"Amazon":{"queriesAppearing":1,"percentOfQueries":"1.1%"},"Nordstrom":{"queriesAppearing":1,"percentOfQueries":"1.1%"}} },
+};
+
+const surfaces = [
+  { id: 'google-ai-overview', name: 'Google AI Overview' },
+  { id: 'google-organic', name: 'Google Organic' },
+  { id: 'bing-search', name: 'Bing Search' },
+  { id: 'chatgpt-web', name: 'ChatGPT Web' },
+  { id: 'gemini-api', name: 'Gemini API' },
+  { id: 'amazon-search', name: 'Amazon Search' },
+  { id: 'brand-sites', name: 'Brand Sites (JSON-LD)' },
+  { id: 'openai-api', name: 'OpenAI API' },
+];
+
+let html = '';
+surfaces.forEach(s => {
+  const d = data[s.id] || { total: 90, success: 0, brands: {} };
+  const pct = Math.round((d.success / d.total) * 100);
+  const status = pct >= 100 ? 'complete' : pct > 0 ? 'running' : 'pending';
+  const statusText = pct >= 100 ? 'COMPLETE' : pct > 0 ? 'RUNNING' : 'PENDING';
+  
+  let brandsHtml = '';
+  const brandEntries = Object.entries(d.brands || {}).slice(0, 4);
+  brandEntries.forEach(([brand, info]) => {
+    const isClient = brand.toLowerCase().includes('tasc');
+    brandsHtml += `<div class="brand"><span class="${isClient ? 'client' : ''}">${brand}${isClient ? ' (CLIENT)' : ''}</span><span>${info.queriesAppearing || 0}</span></div>`;
+  });
+
+  html += `
+    <div class="card">
+      <h3>${s.name} <span class="status ${status}">${statusText}</span></h3>
+      <div class="progress-bar"><div class="progress-fill" style="width:${pct}%"></div></div>
+      <div class="stats">
+        <div><div class="stat-val">${d.success}</div><div class="stat-label">Complete</div></div>
+        <div><div class="stat-val">${d.total}</div><div class="stat-label">Total</div></div>
+        <div><div class="stat-val">${pct}%</div><div class="stat-label">Progress</div></div>
+      </div>
+      ${brandsHtml ? '<div class="brands">' + brandsHtml + '</div>' : ''}
+    </div>
+  `;
+});
+
+document.getElementById('cards').innerHTML = html;
+document.getElementById('time').textContent = 'Study completed: ' + new Date().toLocaleString();
+  </script>
+</body>
+</html>

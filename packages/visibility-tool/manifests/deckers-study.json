@@ -1,0 +1,125 @@
+{
+  "id": "deckers-visibility-2026",
+  "name": "Deckers Brands AI Visibility Study",
+  "description": "Comprehensive AI visibility assessment for Deckers Brands (HOKA, UGG, Teva) vs key competitors",
+  "version": "1.0",
+  "createdAt": "2026-01-26T00:00:00.000Z",
+
+  "brands": [
+    {
+      "name": "HOKA",
+      "category": "primary",
+      "segment": "running",
+      "website": "https://www.hoka.com",
+      "productUrls": [
+        "https://www.hoka.com/en/us/mens-road/bondi-9/1152005.html",
+        "https://www.hoka.com/en/us/mens-road/clifton-9/1127895.html",
+        "https://www.hoka.com/en/us/mens-road/mach-6/1147790.html",
+        "https://www.hoka.com/en/us/womens-road/bondi-9/1152006.html",
+        "https://www.hoka.com/en/us/mens-trail/speedgoat-6/1160053.html",
+        "https://www.hoka.com/en/us/mens-sandals-and-slides/ora-recovery-slide-3/1135061.html"
+      ]
+    },
+    {
+      "name": "UGG",
+      "category": "primary",
+      "segment": "boots",
+      "website": "https://www.ugg.com",
+      "productUrls": [
+        "https://www.ugg.com/women-boots-classic-boots/classic-short-ii-boot/1016223.html",
+        "https://www.ugg.com/women-boots-classic-boots/classic-mini-ii-boot/1016222.html",
+        "https://www.ugg.com/women-boots-classic-boots/classic-ultra-mini-boot/1116109.html",
+        "https://www.ugg.com/men-slippers/tasman-slipper/5950.html",
+        "https://www.ugg.com/women-slippers/scuffette-ii-slipper/1106872.html"
+      ]
+    },
+    {
+      "name": "Teva",
+      "category": "primary",
+      "segment": "sandals",
+      "website": "https://www.teva.com",
+      "productUrls": [
+        "https://www.teva.com/women-sandals/hurricane-xlt2/1019235.html",
+        "https://www.teva.com/women-sandals/original-universal/1003987.html",
+        "https://www.teva.com/women-sandals/tirra/4266.html",
+        "https://www.teva.com/men-sandals/hurricane-xlt2/1019234.html",
+        "https://www.teva.com/women-sandals/midform-universal/1090969.html"
+      ]
+    },
+    {
+      "name": "Brooks",
+      "category": "competitor",
+      "segment": "running",
+      "website": "https://www.brooksrunning.com",
+      "productUrls": [
+        "https://www.brooksrunning.com/en_us/ghost-16-mens-road-running-shoe/110418.html",
+        "https://www.brooksrunning.com/en_us/glycerin-21-mens-road-running-shoe/110419.html",
+        "https://www.brooksrunning.com/en_us/adrenaline-gts-24-mens-road-running-shoe/110418.html",
+        "https://www.brooksrunning.com/en_us/ghost-16-womens-road-running-shoe/120407.html"
+      ]
+    },
+    {
+      "name": "Sorel",
+      "category": "competitor",
+      "segment": "boots",
+      "website": "https://www.sorel.com",
+      "productUrls": [
+        "https://www.sorel.com/p/mens-caribou-boot-NM1000.html",
+        "https://www.sorel.com/p/womens-joan-of-arctic-next-boot-1966571.html",
+        "https://www.sorel.com/p/womens-kinetic-impact-conquest-waterproof-boot-2058161.html"
+      ]
+    },
+    {
+      "name": "Keen",
+      "category": "competitor",
+      "segment": "sandals",
+      "website": "https://www.keenfootwear.com",
+      "productUrls": [
+        "https://www.keenfootwear.com/p/W-NEWPORT-H2.html",
+        "https://www.keenfootwear.com/p/M-NEWPORT-H2.html",
+        "https://www.keenfootwear.com/p/W-WHISPER.html",
+        "https://www.keenfootwear.com/p/M-CLEARWATER-CNX.html"
+      ]
+    }
+  ],
+
+  "queries": [
+    { "text": "best running shoes 2026", "category": "running", "intent": "commercial" },
+    { "text": "most comfortable running shoes", "category": "running", "intent": "commercial" },
+    { "text": "HOKA vs Brooks running shoes", "category": "comparison", "intent": "commercial" },
+    { "text": "best winter boots", "category": "boots", "intent": "commercial" },
+    { "text": "UGG vs Sorel winter boots", "category": "comparison", "intent": "commercial" },
+    { "text": "best hiking sandals", "category": "sandals", "intent": "commercial" },
+    { "text": "Teva vs Keen sandals", "category": "comparison", "intent": "commercial" },
+    { "text": "best shoes for nurses", "category": "use-case", "intent": "commercial" },
+    { "text": "most comfortable slippers", "category": "slippers", "intent": "commercial" },
+    { "text": "best recovery shoes after running", "category": "recovery", "intent": "commercial" }
+  ],
+
+  "surfaces": [
+    { "name": "jsonld-pdp", "enabled": true },
+    { "name": "openai-api", "enabled": true, "config": { "model": "gpt-4o" } },
+    { "name": "gemini-api", "enabled": false },
+    { "name": "google-ai-overview", "enabled": false },
+    { "name": "chatgpt-web", "enabled": false }
+  ],
+
+  "outputDir": "/Users/edf/bentham/repository/results/glu/deckers-visibility-tool-output",
+
+  "report": {
+    "title": "Deckers Brands AI Visibility Assessment",
+    "subtitle": "HOKA | UGG | Teva vs Key Competitors",
+    "clientName": "Deckers Brands",
+    "includeCharts": true,
+    "includeRawData": true,
+    "theme": "corporate"
+  },
+
+  "options": {
+    "parallelSurfaces": false,
+    "retryAttempts": 2,
+    "delayBetweenRequests": 3000,
+    "screenshotEnabled": true,
+    "stealthMode": true
+  }
+}

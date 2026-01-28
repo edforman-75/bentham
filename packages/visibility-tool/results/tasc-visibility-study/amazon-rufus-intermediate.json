@@ -1,0 +1,211 @@
+{
+  "studyName": "TASC Performance Visibility Study - Amazon Rufus",
+  "surface": "amazon-rufus",
+  "location": "United States",
+  "startTime": "2026-01-27T18:46:54.552Z",
+  "totalQueries": 90,
+  "completedQueries": 20,
+  "successfulQueries": 0,
+  "results": [
+    {
+      "queryIndex": 0,
+      "query": "What is TASC Performance?",
+      "timestamp": "2026-01-27T18:46:54.916Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 3184,
+      "brandMentions": [],
+      "error": "Rufus chat interface not found - may not be available in this region/account"
+    },
+    {
+      "queryIndex": 1,
+      "query": "Who makes TASC Performance clothing?",
+      "timestamp": "2026-01-27T18:47:01.489Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 67536,
+      "brandMentions": [],
+      "error": "No response received from Rufus"
+    },
+    {
+      "queryIndex": 2,
+      "query": "Where is TASC Performance made?",
+      "timestamp": "2026-01-27T18:48:12.392Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 3116,
+      "brandMentions": [],
+      "error": "Rufus chat interface not found - may not be available in this region/account"
+    },
+    {
+      "queryIndex": 3,
+      "query": "Is TASC Performance a good brand?",
+      "timestamp": "2026-01-27T18:48:18.516Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 67447,
+      "brandMentions": [],
+      "error": "No response received from Rufus"
+    },
+    {
+      "queryIndex": 4,
+      "query": "What does TASC stand for?",
+      "timestamp": "2026-01-27T18:49:29.711Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 3112,
+      "brandMentions": [],
+      "error": "Rufus chat interface not found - may not be available in this region/account"
+    },
+    {
+      "queryIndex": 5,
+      "query": "Is TASC Performance an American company?",
+      "timestamp": "2026-01-27T18:49:36.060Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 67402,
+      "brandMentions": [],
+      "error": "No response received from Rufus"
+    },
+    {
+      "queryIndex": 6,
+      "query": "What is TASC Performance known for?",
+      "timestamp": "2026-01-27T18:50:47.410Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 3128,
+      "brandMentions": [],
+      "error": "Rufus chat interface not found - may not be available in this region/account"
+    },
+    {
+      "queryIndex": 7,
+      "query": "Who founded TASC Performance?",
+      "timestamp": "2026-01-27T18:50:54.667Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 3110,
+      "brandMentions": [],
+      "error": "Rufus chat interface not found - may not be available in this region/account"
+    },
+    {
+      "queryIndex": 8,
+      "query": "TASC Performance vs Lululemon",
+      "timestamp": "2026-01-27T18:51:02.641Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 67731,
+      "brandMentions": [],
+      "error": "No response received from Rufus"
+    },
+    {
+      "queryIndex": 9,
+      "query": "TASC Performance vs Vuori",
+      "timestamp": "2026-01-27T18:52:13.503Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 3180,
+      "brandMentions": [],
+      "error": "Rufus chat interface not found - may not be available in this region/account"
+    },
+    {
+      "queryIndex": 10,
+      "query": "Is TASC better than Lululemon?",
+      "timestamp": "2026-01-27T18:52:21.506Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 67734,
+      "brandMentions": [],
+      "error": "No response received from Rufus"
+    },
+    {
+      "queryIndex": 11,
+      "query": "TASC vs Vuori which is softer?",
+      "timestamp": "2026-01-27T18:53:32.769Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 3126,
+      "brandMentions": [],
+      "error": "Rufus chat interface not found - may not be available in this region/account"
+    },
+    {
+      "queryIndex": 12,
+      "query": "TASC Performance vs Rhone",
+      "timestamp": "2026-01-27T18:53:39.752Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 67534,
+      "brandMentions": [],
+      "error": "No response received from Rufus"
+    },
+    {
+      "queryIndex": 13,
+      "query": "Rhone vs TASC for golf shirts",
+      "timestamp": "2026-01-27T18:54:51.741Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 3147,
+      "brandMentions": [],
+      "error": "Rufus chat interface not found - may not be available in this region/account"
+    },
+    {
+      "queryIndex": 14,
+      "query": "Is Vuori or TASC more sustainable?",
+      "timestamp": "2026-01-27T18:54:59.253Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 67520,
+      "brandMentions": [],
+      "error": "No response received from Rufus"
+    },
+    {
+      "queryIndex": 15,
+      "query": "TASC vs Lululemon for men's shirts",
+      "timestamp": "2026-01-27T18:56:10.828Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 3131,
+      "brandMentions": [],
+      "error": "Rufus chat interface not found - may not be available in this region/account"
+    },
+    {
+      "queryIndex": 16,
+      "query": "Vuori vs TASC vs Lululemon comparison",
+      "timestamp": "2026-01-27T18:56:17.068Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 67921,
+      "brandMentions": [],
+      "error": "No response received from Rufus"
+    },
+    {
+      "queryIndex": 17,
+      "query": "Which is better TASC or Rhone for working out?",
+      "timestamp": "2026-01-27T18:57:28.742Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 3151,
+      "brandMentions": [],
+      "error": "Rufus chat interface not found - may not be available in this region/account"
+    },
+    {
+      "queryIndex": 18,
+      "query": "TASC Performance vs Vuori joggers",
+      "timestamp": "2026-01-27T18:57:35.244Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 67616,
+      "brandMentions": [],
+      "error": "No response received from Rufus"
+    },
+    {
+      "queryIndex": 19,
+      "query": "Lululemon vs TASC bamboo shirts",
+      "timestamp": "2026-01-27T18:58:47.756Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 3142,
+      "brandMentions": [],
+      "error": "Rufus chat interface not found - may not be available in this region/account"
+    }
+  ]
+}

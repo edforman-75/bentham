@@ -1,0 +1,1018 @@
+{
+  "timestamp": "2026-01-27T19:15:04.189Z",
+  "studyName": "TASC Performance Visibility Study - Brand Sites",
+  "surface": "brand-sites",
+  "summary": {
+    "totalSites": 14,
+    "successful": 10,
+    "withJsonLd": 7,
+    "withOrganization": 7,
+    "withProduct": 0,
+    "withSustainability": 7
+  },
+  "results": [
+    {
+      "brand": "TASC Performance",
+      "url": "https://www.tascperformance.com",
+      "isClient": true,
+      "timestamp": "2026-01-27T19:14:43.265Z",
+      "success": true,
+      "responseTimeMs": 385,
+      "title": "Activewear &amp; Athletic Clothing: Comfortable Apparel Made Better\n &ndash; tasc Performance",
+      "metaDescription": "We make better t-shirts, pants, golf polos, yoga clothes, and more, so you can move better, feel better, and live better.",
+      "jsonLd": [
+        {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "tasc Performance",
+          "logo": "https:files/Mobile-8_1.png",
+          "sameAs": [
+            "",
+            "https://www.facebook.com/tascperformance",
+            "",
+            "https://www.instagram.com/tascperformance/",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "url": "https://www.tascperformance.com"
+        },
+        {
+          "@context": "http://schema.org",
+          "@type": "WebSite",
+          "name": "tasc Performance",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.tascperformance.com/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          },
+          "url": "https://www.tascperformance.com"
+        }
+      ],
+      "hasOrganization": true,
+      "hasProduct": false,
+      "hasBreadcrumb": false,
+      "hasWebSite": true,
+      "ogTitle": "Activewear &amp; Athletic Clothing: Comfortable Apparel Made Better",
+      "ogDescription": "We make better t-shirts, pants, golf polos, yoga clothes, and more, so you can move better, feel better, and live better.",
+      "ogImage": "http://www.tascperformance.com/cdn/shop/files/tasc_logo_green.png?height=628&pad_color=fff&v=1658524316&width=1200",
+      "wordCount": 1638,
+      "hasAboutPage": false,
+      "hasSustainabilityPage": true
+    },
+    {
+      "brand": "TASC Performance - Men",
+      "url": "https://www.tascperformance.com/collections/men",
+      "isClient": true,
+      "timestamp": "2026-01-27T19:14:44.651Z",
+      "success": false,
+      "responseTimeMs": 189,
+      "error": "HTTP 404"
+    },
+    {
+      "brand": "TASC Performance - Bamboo",
+      "url": "https://www.tascperformance.com/pages/bamboo",
+      "isClient": true,
+      "timestamp": "2026-01-27T19:14:45.841Z",
+      "success": false,
+      "responseTimeMs": 129,
+      "error": "HTTP 404"
+    },
+    {
+      "brand": "Lululemon",
+      "url": "https://shop.lululemon.com",
+      "isClient": false,
+      "timestamp": "2026-01-27T19:14:46.972Z",
+      "success": false,
+      "responseTimeMs": 398,
+      "error": "HTTP 403"
+    },
+    {
+      "brand": "Vuori",
+      "url": "https://www.vuoriclothing.com",
+      "isClient": false,
+      "timestamp": "2026-01-27T19:14:48.372Z",
+      "success": true,
+      "responseTimeMs": 668,
+      "title": "Athletic Clothing &amp; Activewear Apparel for Performance | Vuori",
+      "metaDescription": "Vuori provides a new perspective for athletic and performance clothing. Shop our men&#x27;s and women&#x27;s apparel that is Built to move in. Styled for life.™",
+      "h1": "Every Move. Every Form. Every You.",
+      "jsonLd": [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "Vuori",
+          "url": "https://vuoriclothing.com",
+          "potentialAction": [
+            {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://vuoriclothing.com/search?q={search_term_string}"
+              },
+              "query-input": "required name=search_term_string"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://vuoriclothing.com/#organization",
+          "foundingDate": "2015",
+          "founder": {
+            "@type": "Person",
+            "name": "Joe Kudla"
+          },
+          "url": "https://vuoriclothing.com",
+          "sameAs": [
+            "https://www.instagram.com/vuoriclothing/",
+            "https://www.facebook.com/vuoriclothing/",
+            "https://www.tiktok.com/@vuoriclothing",
+            "https://www.youtube.com/vuoriclothing",
+            "https://www.linkedin.com/company/vuori-inc-/",
+            "https://x.com/vuoriclothing"
+          ],
+          "logo": "https://vuoriclothing.com/vuori_gradient_logo.png",
+          "name": "Vuori",
+          "description": "Vuori draws inspiration from the coastal California lifestyle—an integration of fitness, surf, sport and art. We make products that stand the test of time and hope to inspire others to live vibrant, healthy lives. A new perspective on performance apparel, Vuori is much more than a brand. It's a way of life.",
+          "email": "support@vuori.com",
+          "telephone": "+1-844-880-5355",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "5600 Avenida Encinas Suite 100",
+            "addressLocality": "Carlsbad",
+            "addressCountry": "United States",
+            "addressRegion": "CA",
+            "postalCode": "92008"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-844-880-5355",
+            "contactType": "Customer Service",
+            "email": "support@vuori.com",
+            "areaServed": "US",
+            "availableLanguage": [
+              "English"
+            ]
+          }
+        }
+      ],
+      "hasOrganization": true,
+      "hasProduct": false,
+      "hasBreadcrumb": false,
+      "hasWebSite": true,
+      "ogTitle": "Athletic Clothing &amp; Activewear Apparel for Performance | Vuori",
+      "ogDescription": "Vuori provides a new perspective for athletic and performance clothing. Shop our men&#x27;s and women&#x27;s apparel that is Built to move in. Styled for life.™",
+      "wordCount": 312,
+      "hasAboutPage": true,
+      "hasSustainabilityPage": false
+    },
+    {
+      "brand": "Rhone",
+      "url": "https://www.rhone.com",
+      "isClient": false,
+      "timestamp": "2026-01-27T19:14:50.042Z",
+      "success": false,
+      "responseTimeMs": 216,
+      "error": "HTTP 403"
+    },
+    {
+      "brand": "Free Fly",
+      "url": "https://www.freeflyapparel.com",
+      "isClient": false,
+      "timestamp": "2026-01-27T19:14:51.259Z",
+      "success": true,
+      "responseTimeMs": 570,
+      "title": "Free Fly Apparel | Bamboo &amp; Sun Protective Clothing",
+      "metaDescription": "Free Fly Apparel creates versatility &amp; sustainability through performance clothing. Crafted from bamboo, sun protective, and ultra-comfortable fabrics.",
+      "hasOrganization": false,
+      "hasProduct": false,
+      "hasBreadcrumb": false,
+      "hasWebSite": false,
+      "ogTitle": "Free Fly Apparel | Bamboo &amp; Sun Protective Clothing",
+      "ogDescription": "Free Fly Apparel creates versatility &amp; sustainability through performance clothing. Crafted from bamboo, sun protective, and ultra-comfortable fabrics.",
+      "ogImage": "http://freeflyapparel.com/cdn/shop/files/GG_Nav_Mobile_copy.webp?v=1762965340",
+      "wordCount": 1895,
+      "hasAboutPage": true,
+      "hasSustainabilityPage": true
+    },
+    {
+      "brand": "Cariloha",
+      "url": "https://www.cariloha.com",
+      "isClient": false,
+      "timestamp": "2026-01-27T19:14:52.829Z",
+      "success": true,
+      "responseTimeMs": 731,
+      "title": "Bamboo Bedding, Bath, Clothing and More | Cariloha",
+      "metaDescription": "Experience Cariloha’s luxuriously soft bedding, clothing, and bath goods made from bamboo viscose, one of the most renewable resources on the planet.",
+      "jsonLd": [
+        {
+          "@context": "http://schema.org/",
+          "@type": "WebPage",
+          "description": "Experience Cariloha’s luxuriously soft bedding, clothing, and bath goods made from bamboo viscose, one of the most renewable resources on the planet.",
+          "image": "https://cdn11.bigcommerce.com/s-ph0s11yw4g/images/stencil/250x100/cariloha-logo-lg_1616175926__95301.original.png",
+          "name": "Cariloha",
+          "potentialAction": "SearchAction",
+          "url": "https://www.cariloha.com/"
+        },
+        {
+          "@context": "http://schema.org/",
+          "@type": "Organization",
+          "contactPoints": {
+            "@type": "ContactPoint",
+            "areaServed": "US",
+            "contactType": "Customer Support",
+            "telephone": "1-800-884-5815"
+          },
+          "description": "Experience Cariloha’s luxuriously soft bedding, clothing, and bath goods made from bamboo viscose, one of the most renewable resources on the planet.",
+          "image": "https://cdn11.bigcommerce.com/s-ph0s11yw4g/images/stencil/250x100/cariloha-logo-lg_1616175926__95301.original.png",
+          "logo": "https://cdn11.bigcommerce.com/s-ph0s11yw4g/images/stencil/250x100/cariloha-logo-lg_1616175926__95301.original.png",
+          "name": "Cariloha",
+          "potentialAction": "SearchAction",
+          "url": "https://www.cariloha.com/"
+        },
+        {
+          "@context": "http://schema.org/",
+          "@type": "WebSite",
+          "description": "Experience Cariloha’s luxuriously soft bedding, clothing, and bath goods made from bamboo viscose, one of the most renewable resources on the planet.",
+          "image": "https://cdn11.bigcommerce.com/s-ph0s11yw4g/images/stencil/250x100/cariloha-logo-lg_1616175926__95301.original.png",
+          "name": "Cariloha",
+          "potentialAction": "SearchAction",
+          "url": "https://www.cariloha.com/"
+        }
+      ],
+      "hasOrganization": true,
+      "hasProduct": false,
+      "hasBreadcrumb": false,
+      "hasWebSite": true,
+      "wordCount": 1047,
+      "hasAboutPage": true,
+      "hasSustainabilityPage": true
+    },
+    {
+      "brand": "BAM",
+      "url": "https://bambooclothing.co.uk",
+      "isClient": false,
+      "timestamp": "2026-01-27T19:14:54.561Z",
+      "success": true,
+      "responseTimeMs": 805,
+      "title": "BAM Clothing: Activewear that moves us forward",
+      "metaDescription": "Designed for performance, led by innovation. Super-soft natural, organic and circular fabrics. B Corp Certified. Yoga pants, leggings...",
+      "h1": "BAM Clothing - New In",
+      "jsonLd": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://bambooclothing.co.uk/",
+              "url": "https://bambooclothing.co.uk/",
+              "name": "BAM Clothing: Activewear that moves us forward",
+              "isPartOf": {
+                "@id": "https://bambooclothing.co.uk/#website"
+              },
+              "about": {
+                "@id": "https://bambooclothing.co.uk/#organization"
+              },
+              "datePublished": "2017-01-06T15:42:09+00:00",
+              "dateModified": "2026-01-27T08:55:52+00:00",
+              "description": "Designed for performance, led by innovation. Super-soft natural, organic and circular fabrics. B Corp Certified. Yoga pants, leggings...",
+              "breadcrumb": {
+                "@id": "https://bambooclothing.co.uk/#breadcrumb"
+              },
+              "inLanguage": "en-GB",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://bambooclothing.co.uk/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://bambooclothing.co.uk/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Homepage"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://bambooclothing.co.uk/#website",
+              "url": "https://bambooclothing.co.uk/",
+              "name": "BAM Clothing",
+              "description": "Activewear that moves us forward. Designed for performance, led by innovation.",
+              "publisher": {
+                "@id": "https://bambooclothing.co.uk/#organization"
+              },
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://bambooclothing.co.uk/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-GB"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://bambooclothing.co.uk/#organization",
+              "name": "BAM Clothing.",
+              "url": "https://bambooclothing.co.uk/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "en-GB",
+                "@id": "https://bambooclothing.co.uk/#/schema/logo/image/",
+                "url": "https://bambooclothing.co.uk/wp-content/uploads/gen/BAM-Clothing-Logo-128-128.jpg",
+                "contentUrl": "https://bambooclothing.co.uk/wp-content/uploads/gen/BAM-Clothing-Logo-128-128.jpg",
+                "width": 256,
+                "height": 256,
+                "caption": "BAM Clothing."
+              },
+              "image": {
+                "@id": "https://bambooclothing.co.uk/#/schema/logo/image/"
+              },
+              "sameAs": [
+                "https://facebook.com/BambooClothing",
+                "https://x.com/bam_clothing",
+                "https://instagram.com/bamboo_clothing/",
+                "https://www.pinterest.com/BambooClothing/",
+                "https://www.youtube.com/channel/UCjth-L-vbJ35FeiOaOxhdSw/videos"
+              ]
+            }
+          ]
+        }
+      ],
+      "hasOrganization": true,
+      "hasProduct": false,
+      "hasBreadcrumb": true,
+      "hasWebSite": true,
+      "ogTitle": "Homepage",
+      "ogDescription": "Designed for performance, led by innovation. Super-soft natural, organic and circular fabrics. B Corp Certified. Yoga pants, leggings...",
+      "wordCount": 1932,
+      "hasAboutPage": true,
+      "hasSustainabilityPage": true
+    },
+    {
+      "brand": "Nike",
+      "url": "https://www.nike.com",
+      "isClient": false,
+      "timestamp": "2026-01-27T19:14:56.367Z",
+      "success": true,
+      "responseTimeMs": 940,
+      "title": "Nike. Just Do It. Nike.com",
+      "metaDescription": "Inspiring the world&#x27;s athletes, Nike delivers innovative products, experiences and services.",
+      "h1": "",
+      "jsonLd": [
+        {
+          "@context": "http://schema.org",
+          "@type": "WebPage",
+          "@id": "https://www.nike.com/#webpage",
+          "name": "nike",
+          "url": "https://www.nike.com/"
+        },
+        {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "@id": "https://www.nike.com/#organization",
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "areaServed": "US",
+              "availableLanguage": "English",
+              "contactType": "customer support",
+              "telephone": "+1-800-806-6453"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "AT",
+              "availableLanguage": [
+                "English",
+                "German"
+              ],
+              "contactType": "customer support",
+              "telephone": "+43 (0) 13602773720"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "BE",
+              "availableLanguage": [
+                "English",
+                "Dutch",
+                "French",
+                "German"
+              ],
+              "contactType": "customer support",
+              "telephone": "+32 (0) 26200166"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "CN",
+              "availableLanguage": "Simplified Chinese",
+              "contactOption": "Mobile",
+              "contactType": "customer support",
+              "telephone": "+86 400-880-6453"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "CN",
+              "availableLanguage": "Simplified Chinese",
+              "contactOption": "Landline",
+              "contactType": "customer support",
+              "telephone": "+86 800-820-8865"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "CZ",
+              "availableLanguage": [
+                "English",
+                "Czech"
+              ],
+              "contactType": "customer support",
+              "telephone": "+420 225376453"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "DK",
+              "availableLanguage": [
+                "English",
+                "Danish"
+              ],
+              "contactType": "customer support",
+              "telephone": "+45 82333183"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "FI",
+              "availableLanguage": "English",
+              "contactType": "customer support",
+              "telephone": "+358 (0) 981710428"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "FR",
+              "availableLanguage": "French",
+              "contactType": "customer support",
+              "telephone": "+33 (0) 170489073"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "DE",
+              "availableLanguage": "German",
+              "contactType": "customer support",
+              "telephone": "+49 (0) 6995206453"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "GR",
+              "availableLanguage": "Greek",
+              "contactType": "customer support",
+              "telephone": "+30 2111813851"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "HU",
+              "availableLanguage": [
+                "English",
+                "Hungarian"
+              ],
+              "contactType": "customer support",
+              "telephone": "+36 13285338"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "IE",
+              "availableLanguage": "English",
+              "contactType": "customer support",
+              "telephone": "+353 (0) 15251800"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "IT",
+              "availableLanguage": "Italian",
+              "contactType": "customer support",
+              "telephone": "+39 0 238591453"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "JP",
+              "availableLanguage": "Japanese",
+              "contactType": "customer support",
+              "telephone": "+81 0120-6453-77"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "LU",
+              "availableLanguage": [
+                "English",
+                "French",
+                "German"
+              ],
+              "contactType": "customer support",
+              "telephone": "+352 27302076"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "NL",
+              "availableLanguage": [
+                "English",
+                "Dutch"
+              ],
+              "contactType": "customer support",
+              "telephone": "+31 (0) 207219453"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "PL",
+              "availableLanguage": "Polish",
+              "contactType": "customer support",
+              "telephone": "+48 (0) 225844279"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "PT",
+              "availableLanguage": [
+                "English",
+                "Portuguese"
+              ],
+              "contactType": "customer support",
+              "telephone": "+351 213180051"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "SI",
+              "availableLanguage": "English",
+              "contactType": "customer support",
+              "telephone": "+386 (0) 1600 1436"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "ES",
+              "availableLanguage": [
+                "Spanish",
+                "Catalan"
+              ],
+              "contactType": "customer support",
+              "telephone": "+34 913753366"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "SE",
+              "availableLanguage": [
+                "English",
+                "Swedish"
+              ],
+              "contactType": "customer support",
+              "telephone": "+46 (0) 851992310"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "GB",
+              "availableLanguage": "English",
+              "contactType": "customer support",
+              "telephone": "+44 (0) 2076604453"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "AU",
+              "availableLanguage": "English",
+              "contactType": "customer support",
+              "telephone": "+61 1300 656 453"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "BG",
+              "availableLanguage": "English",
+              "contactType": "customer support",
+              "telephone": "+35929358236"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "CA",
+              "availableLanguage": [
+                "English",
+                "French"
+              ],
+              "contactType": "customer support",
+              "telephone": "+1-844-430-6453"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "CL",
+              "availableLanguage": "Spanish",
+              "contactType": "customer support",
+              "telephone": "+56 800-395-180"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "HR",
+              "availableLanguage": "English",
+              "contactType": "customer support",
+              "telephone": "+38517776390"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "EG",
+              "availableLanguage": "English",
+              "contactType": "customer support",
+              "telephone": "+20 08000009360"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "IN",
+              "availableLanguage": "English",
+              "contactType": "customer support",
+              "telephone": "+91 000 800 100 9538"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "ID",
+              "availableLanguage": "English",
+              "contactType": "customer support",
+              "telephone": "+62 001-803-65-6453"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "IL",
+              "availableLanguage": "English",
+              "contactType": "customer support",
+              "telephone": "+972 09-9720922"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "MY",
+              "availableLanguage": "English",
+              "contactType": "customer support",
+              "telephone": "+1-800-80-6453"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "MX",
+              "availableLanguage": "Spanish",
+              "contactType": "customer support",
+              "telephone": "+52 01-800-062-3550"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "MA",
+              "availableLanguage": [
+                "English",
+                "French"
+              ],
+              "contactType": "customer support",
+              "telephone": "+212 520 480072"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "NZ",
+              "availableLanguage": "English",
+              "contactType": "customer support",
+              "telephone": "+64 0800 113 661"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "NO",
+              "availableLanguage": [
+                "English",
+                "Norwegian"
+              ],
+              "contactType": "customer support",
+              "telephone": "+47 (0) 23500397"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "PR",
+              "availableLanguage": "Spanish",
+              "contactType": "customer support",
+              "telephone": "+1 844-301-7028"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "RO",
+              "availableLanguage": "English",
+              "contactType": "customer support",
+              "telephone": "+40311305016"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "RU",
+              "availableLanguage": "Russian",
+              "contactType": "customer support",
+              "telephone": "+7 8 (495) 926-72-53"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "SA",
+              "availableLanguage": "English",
+              "contactType": "customer support",
+              "telephone": "+966 8008140085"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "SG",
+              "availableLanguage": "English",
+              "contactType": "customer support",
+              "telephone": "+65 1800 811 6453"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "SK",
+              "availableLanguage": "English",
+              "contactType": "customer support",
+              "telephone": "+421250112158"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "ZA",
+              "availableLanguage": "English",
+              "contactType": "customer support",
+              "telephone": "+27 011 256 0701"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "CH",
+              "availableLanguage": [
+                "English",
+                "German",
+                "French",
+                "Italian"
+              ],
+              "contactType": "customer support",
+              "telephone": "+41 (0) 225675466"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "TW",
+              "availableLanguage": "Traditional Chinese",
+              "contactType": "customer support",
+              "telephone": "+886 0800-886-453"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "TH",
+              "availableLanguage": "Thai",
+              "contactType": "customer support",
+              "telephone": "+66 001-800-65-6453"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "TR",
+              "availableLanguage": "Turkish",
+              "contactType": "customer support",
+              "telephone": "+90 (212) 365 04 90"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "AE",
+              "availableLanguage": "English",
+              "contactType": "customer support",
+              "telephone": "+971 800035703048"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "VN",
+              "availableLanguage": "English",
+              "contactOption": "Viettel",
+              "contactType": "customer support",
+              "telephone": "+84 12032484"
+            },
+            {
+              "@type": "ContactPoint",
+              "areaServed": "VN",
+              "availableLanguage": "English",
+              "contactOption": "VTI",
+              "contactType": "customer support",
+              "telephone": "+84 12032487"
+            }
+          ],
+          "logo": "https://static.nike.com/a/images/f_jpg,q_auto:eco/61b4738b-e1e1-4786-8f6c-26aa0008e80b/swoosh-logo-black.png",
+          "name": "Nike",
+          "sameAs": [
+            "https://www.wikidata.org/wiki/Q483915",
+            "https://en.wikipedia.org/wiki/Nike,_Inc.",
+            "https://www.youtube.com/user/nike",
+            "https://www.linkedin.com/company/nike",
+            "https://www.facebook.com/nike",
+            "https://twitter.com/nike",
+            "https://www.instagram.com/nike/"
+          ],
+          "subOrganization": [
+            {
+              "@type": "Organization",
+              "name": "Converse",
+              "sameAs": [
+                "https://www.wikidata.org/wiki/Q319515",
+                "https://en.wikipedia.org/wiki/Converse_(shoe_company)",
+                "https://www.youtube.com/channel/UCfigptVgX1LGgUKZkQ2BZMQ",
+                "https://www.linkedin.com/company/converse",
+                "https://www.facebook.com/converse/",
+                "https://twitter.com/converse",
+                "https://www.instagram.com/converse/"
+              ],
+              "url": "https://www.converse.com/"
+            },
+            {
+              "@type": "Organization",
+              "name": "Jordan Brand",
+              "sameAs": [
+                "https://www.wikidata.org/wiki/Q420953",
+                "https://en.wikipedia.org/wiki/Air_Jordan",
+                "https://www.youtube.com/channel/UCqnGgTN0ajGp0LaoKkyxAxA",
+                "https://www.linkedin.com/company/jumpman23",
+                "https://www.facebook.com/jumpman23/",
+                "https://twitter.com/jumpman23",
+                "https://www.instagram.com/jumpman23/"
+              ],
+              "url": "https://www.nike.com/us/en_us/c/jordan"
+            }
+          ],
+          "url": "https://www.nike.com/"
+        },
+        {
+          "@context": "http://schema.org",
+          "@type": "WebSite",
+          "@id": "https://www.nike.com/#website",
+          "name": "Nike",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "query-input": "required name=search_term_string",
+            "target": "https://www.nike.com/w?q={search_term_string}&vst={search_term_string}&cp=91120261542_sea_"
+          },
+          "url": "https://www.nike.com/"
+        }
+      ],
+      "hasOrganization": true,
+      "hasProduct": false,
+      "hasBreadcrumb": false,
+      "hasWebSite": true,
+      "ogTitle": "Nike. Just Do It",
+      "ogDescription": "Nike delivers innovative products, experiences and services to inspire athletes.",
+      "ogImage": "https://c.static-nike.com/a/images/w_1920,c_limit/bzl2wmsfh7kgdkufrrjq/image.jpg",
+      "wordCount": 1206,
+      "hasAboutPage": true,
+      "hasSustainabilityPage": true
+    },
+    {
+      "brand": "Under Armour",
+      "url": "https://www.underarmour.com",
+      "isClient": false,
+      "timestamp": "2026-01-27T19:14:58.308Z",
+      "success": true,
+      "responseTimeMs": 840,
+      "title": "Under Armour® Official Store | FREE Shipping Available",
+      "metaDescription": "Under Armour builds game-changing sportswear, athletic shirts, shoes and more. FREE SHIPPING available and FREE returns on workout clothes, shoes, and gear.",
+      "jsonLd": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Under Armour",
+          "alternateName": "UA",
+          "url": "https://www.underarmour.com/en-us/",
+          "logo": "https://www.underarmour.co.uk/on/demandware.static/Sites-UKIE-Site/-/default/dwc66610a8/images/logo.svg",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "1-888-727-6687",
+            "contactType": "customer service",
+            "contactOption": "TollFree",
+            "areaServed": "US",
+            "availableLanguage": "en"
+          },
+          "sameAs": [
+            "https://www.facebook.com/UnderArmour/",
+            "https://twitter.com/UnderArmour",
+            "https://www.instagram.com/underarmour/",
+            "https://www.youtube.com/user/underarmour"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": "https://www.underarmour.com/en-us#webpage",
+          "name": "Under Armour® Official Store | FREE Shipping Available",
+          "url": "https://www.underarmour.com/en-us",
+          "inLanguage": "en-US",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Under Armour",
+            "url": "https://www.underarmour.com/"
+          },
+          "speakable": {
+            "@type": "SpeakableSpecification",
+            "cssSelector": [
+              "section[class*='HeroMini']",
+              "section[class*='LoyaltyOverlay']",
+              "[class*='PromoBanner'] [class*='promo-banner-message']"
+            ]
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "url": "https://www.underarmour.com/en-us/",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://www.underarmour.com/en-us/search?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+          }
+        }
+      ],
+      "hasOrganization": true,
+      "hasProduct": false,
+      "hasBreadcrumb": false,
+      "hasWebSite": true,
+      "ogTitle": "Under Armour® Official Store | FREE Shipping Available",
+      "ogDescription": "Under Armour builds game-changing sportswear, athletic shirts, shoes and more. FREE SHIPPING available and FREE returns on workout clothes, shoes, and gear.",
+      "ogImage": "https://www.underarmour.com/images/ua-logo-bg.png",
+      "wordCount": 1765,
+      "hasAboutPage": true,
+      "hasSustainabilityPage": false
+    },
+    {
+      "brand": "Allbirds",
+      "url": "https://www.allbirds.com",
+      "isClient": false,
+      "timestamp": "2026-01-27T19:15:00.149Z",
+      "success": true,
+      "responseTimeMs": 285,
+      "title": "Allbirds: Comfortable, Sustainable Shoes &amp; Apparel",
+      "metaDescription": "Allbirds: The world’s most comfortable shoes, flats, and clothing made with natural materials like merino wool and eucalyptus. FREE shipping &amp; returns.",
+      "hasOrganization": false,
+      "hasProduct": false,
+      "hasBreadcrumb": false,
+      "hasWebSite": false,
+      "ogTitle": "The World’s Most Comfortable Shoes",
+      "ogDescription": "The world’s most comfortable shoes, made with natural materials like merino wool, eucalyptus tree fiber, and sugar cane, Allbirds has created the comfiest shoes on the planet.",
+      "ogImage": "http://www.allbirds.com/cdn/shop/files/logo-seo.jpg?v=1753720776",
+      "wordCount": 16436,
+      "hasAboutPage": true,
+      "hasSustainabilityPage": true
+    },
+    {
+      "brand": "Patagonia",
+      "url": "https://www.patagonia.com",
+      "isClient": false,
+      "timestamp": "2026-01-27T19:15:01.434Z",
+      "success": true,
+      "responseTimeMs": 529,
+      "title": "Hang Tight! Routing to checkout...",
+      "hasOrganization": false,
+      "hasProduct": false,
+      "hasBreadcrumb": false,
+      "hasWebSite": false,
+      "wordCount": 162,
+      "hasAboutPage": false,
+      "hasSustainabilityPage": false
+    },
+    {
+      "brand": "Cotopaxi",
+      "url": "https://www.cotopaxi.com",
+      "isClient": false,
+      "timestamp": "2026-01-27T19:15:02.964Z",
+      "success": true,
+      "responseTimeMs": 225,
+      "title": "Cotopaxi - Gear For Good | Free shipping on orders $99+",
+      "metaDescription": "We create innovative outdoor products and experiences that fund sustainable poverty relief, move people to do good, and inspire adventure.",
+      "h1": "HOLIDAY GIFT WITH PURCHASE",
+      "jsonLd": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Cotopaxi",
+          "url": "https://www.cotopaxi.com",
+          "logo": "https://www.cotopaxi.com//www.cotopaxi.com/cdn/shopifycloud/storefront/assets/no-image-2048-a2addb12.gif",
+          "sameAs": [
+            "https://www.facebook.com/Cotopaxi-507703575971618/",
+            "https://www.instagram.com/cotopaxi/",
+            "https://twitter.com/cotopaxi"
+          ]
+        }
+      ],
+      "hasOrganization": true,
+      "hasProduct": false,
+      "hasBreadcrumb": false,
+      "hasWebSite": false,
+      "ogTitle": "\n\t\tCotopaxi - Gear For Good | Free shipping on orders $99+\n\t\t   ",
+      "ogDescription": "We create innovative outdoor products and experiences that fund sustainable poverty relief, move people to do good, and inspire adventure.",
+      "ogImage": "//www.cotopaxi.com/cdn/shop/files/Campaign_Hero_-_RAIN_WIND_1200x630.png?v=1740506850",
+      "wordCount": 878,
+      "hasAboutPage": true,
+      "hasSustainabilityPage": true
+    }
+  ]
+}

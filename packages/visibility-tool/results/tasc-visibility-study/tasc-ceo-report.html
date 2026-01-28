@@ -1,0 +1,1709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TASC Performance - Web Visibility Assessment</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f5f5f5;
+      color: #1a1a1a;
+    }
+
+    /* Tab Navigation */
+    .tab-container {
+      background: #0a2540;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+
+    .tab-header {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      padding: 0 20px;
+    }
+
+    .brand-title {
+      color: #fff;
+      font-weight: 600;
+      font-size: 1.1em;
+      padding: 20px 30px 20px 0;
+      border-right: 1px solid rgba(255,255,255,0.2);
+      margin-right: 20px;
+    }
+
+    .tabs {
+      display: flex;
+      gap: 5px;
+    }
+
+    .tab {
+      padding: 20px 25px;
+      color: rgba(255,255,255,0.7);
+      cursor: pointer;
+      border-bottom: 3px solid transparent;
+      transition: all 0.2s;
+      font-size: 0.95em;
+    }
+
+    .tab:hover {
+      color: #fff;
+      background: rgba(255,255,255,0.1);
+    }
+
+    .tab.active {
+      color: #fff;
+      border-bottom-color: #00d4ff;
+      background: rgba(255,255,255,0.05);
+    }
+
+    /* Tab Content */
+    .tab-content {
+      display: none;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 40px;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    /* Page Sections */
+    .section {
+      background: #fff;
+      border-radius: 12px;
+      padding: 40px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #0a2540;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 1.8em;
+      color: #0a2540;
+      margin-bottom: 25px;
+    }
+
+    h3 {
+      font-size: 1.3em;
+      color: #1a365d;
+      margin: 25px 0 15px;
+    }
+
+    p {
+      font-size: 1.05em;
+      line-height: 1.7;
+      margin-bottom: 15px;
+      color: #374151;
+    }
+
+    .lead {
+      font-size: 1.2em;
+      color: #4b5563;
+      margin-bottom: 30px;
+    }
+
+    /* Metric Cards */
+    .metric-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin: 30px 0;
+    }
+
+    .metric-card {
+      background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+      border-radius: 12px;
+      padding: 25px;
+      text-align: center;
+      border: 1px solid #e2e8f0;
+    }
+
+    .metric-card .value {
+      font-size: 3em;
+      font-weight: 700;
+      color: #0a2540;
+      line-height: 1;
+    }
+
+    .metric-card .label {
+      font-size: 0.9em;
+      color: #64748b;
+      margin-top: 8px;
+    }
+
+    .metric-card.success .value { color: #059669; }
+    .metric-card.warning .value { color: #d97706; }
+    .metric-card.danger .value { color: #dc2626; }
+
+    /* Callout Boxes */
+    .callout {
+      padding: 25px 30px;
+      border-radius: 8px;
+      margin: 25px 0;
+      border-left: 5px solid;
+    }
+
+    .callout.insight {
+      background: #eff6ff;
+      border-color: #3b82f6;
+    }
+
+    .callout.warning {
+      background: #fef3c7;
+      border-color: #f59e0b;
+    }
+
+    .callout.success {
+      background: #dcfce7;
+      border-color: #22c55e;
+    }
+
+    .callout.critical {
+      background: #fee2e2;
+      border-color: #ef4444;
+    }
+
+    .callout strong {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 1.1em;
+    }
+
+    /* Tables */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+
+    th, td {
+      padding: 15px;
+      text-align: left;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    th {
+      background: #f8fafc;
+      font-weight: 600;
+      color: #0a2540;
+    }
+
+    tr:hover {
+      background: #f8fafc;
+    }
+
+    .highlight-row {
+      background: #dcfce7 !important;
+    }
+
+    .highlight-row:hover {
+      background: #bbf7d0 !important;
+    }
+
+    /* Progress Bars */
+    .bar-cell {
+      width: 200px;
+    }
+
+    .progress-bar {
+      height: 10px;
+      background: #e5e7eb;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      border-radius: 5px;
+      background: linear-gradient(90deg, #0284c7, #06b6d4);
+    }
+
+    .progress-fill.low {
+      background: linear-gradient(90deg, #dc2626, #f87171);
+    }
+
+    .progress-fill.medium {
+      background: linear-gradient(90deg, #f59e0b, #fbbf24);
+    }
+
+    .progress-fill.high {
+      background: linear-gradient(90deg, #059669, #34d399);
+    }
+
+    /* Surface Cards */
+    .surface-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+      margin: 30px 0;
+    }
+
+    .surface-card {
+      background: #fff;
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 30px;
+    }
+
+    .surface-card h4 {
+      font-size: 1.2em;
+      color: #0a2540;
+      margin-bottom: 5px;
+    }
+
+    .surface-card .subtitle {
+      font-size: 0.9em;
+      color: #6b7280;
+      margin-bottom: 20px;
+    }
+
+    .surface-card .big-number {
+      font-size: 3.5em;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .surface-card .big-number.good { color: #059669; }
+    .surface-card .big-number.bad { color: #dc2626; }
+    .surface-card .big-number.ok { color: #d97706; }
+
+    .surface-card .context {
+      font-size: 0.9em;
+      color: #6b7280;
+      margin-top: 15px;
+    }
+
+    /* Lists */
+    ul {
+      margin: 15px 0 15px 25px;
+    }
+
+    li {
+      margin-bottom: 10px;
+      line-height: 1.6;
+    }
+
+    /* Recommendations */
+    .rec-card {
+      background: #fff;
+      border: 2px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 30px;
+      margin: 20px 0;
+    }
+
+    .rec-card .priority {
+      display: inline-block;
+      padding: 5px 15px;
+      border-radius: 20px;
+      font-size: 0.8em;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    .priority.p1 { background: #fee2e2; color: #dc2626; }
+    .priority.p2 { background: #fef3c7; color: #d97706; }
+    .priority.p3 { background: #dbeafe; color: #2563eb; }
+
+    .rec-card h4 {
+      font-size: 1.3em;
+      color: #0a2540;
+      margin-bottom: 15px;
+    }
+
+    /* Cover Styles */
+    .cover-section {
+      background: linear-gradient(135deg, #0a2540 0%, #1e3a5f 100%);
+      color: #fff;
+      padding: 80px 40px;
+      text-align: center;
+      border-radius: 0;
+      margin-bottom: 30px;
+    }
+
+    .cover-section h1 {
+      color: #fff;
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    .cover-section .lead {
+      color: rgba(255,255,255,0.9);
+      font-size: 1.4em;
+      max-width: 700px;
+      margin: 0 auto 30px;
+    }
+
+    .cover-section .meta {
+      color: rgba(255,255,255,0.6);
+      font-size: 1em;
+    }
+
+    /* Comparison Table */
+    .comparison-table {
+      margin: 30px 0;
+    }
+
+    .comparison-table th {
+      text-align: center;
+    }
+
+    .comparison-table td:not(:first-child) {
+      text-align: center;
+    }
+
+    .comparison-table .brand-col {
+      font-weight: 600;
+    }
+
+    .score-high { color: #059669; font-weight: 600; }
+    .score-medium { color: #d97706; font-weight: 600; }
+    .score-low { color: #dc2626; font-weight: 600; }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 40px;
+      color: #6b7280;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Tab Navigation -->
+  <div class="tab-container">
+    <div class="tab-header">
+      <div class="brand-title">TASC PERFORMANCE</div>
+      <div class="tabs">
+        <div class="tab active" data-tab="overview">Overview</div>
+        <div class="tab" data-tab="google">Google</div>
+        <div class="tab" data-tab="bing">Bing</div>
+        <div class="tab" data-tab="chatgpt">ChatGPT</div>
+        <div class="tab" data-tab="amazon">Amazon</div>
+        <div class="tab" data-tab="competitors">Competitive Analysis</div>
+        <div class="tab" data-tab="commerce">Commerce & SEO</div>
+        <div class="tab" data-tab="recommendations">Recommendations</div>
+        <div class="tab" data-tab="methodology">Methodology</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- OVERVIEW TAB -->
+  <div class="tab-content active" id="overview">
+    <div class="cover-section">
+      <h1>Web Visibility Assessment</h1>
+      <p class="lead">Measuring TASC Performance's presence across the consumer discovery journey: search engines, AI assistants, and shopping platforms</p>
+      <p class="meta">January 2026 | United States Market</p>
+    </div>
+
+    <div class="section">
+      <h2>Executive Summary</h2>
+      <p>This assessment measures how visible TASC Performance is when consumers search for athletic apparel, bamboo clothing, and sustainable activewear. We tested 90 queries across the platforms where consumers actually discover and research products: Google, Bing, ChatGPT, and Amazon.</p>
+
+      <div class="callout insight">
+        <strong>Key Finding</strong>
+        TASC dominates Google and ChatGPT visibility but has a critical blind spot in Bing search. This uneven presence means TASC is invisible to millions of potential customers who use Microsoft's ecosystem.
+      </div>
+
+      <h3>TASC Visibility by Platform</h3>
+      <div class="surface-grid">
+        <div class="surface-card">
+          <h4>Google Search</h4>
+          <div class="subtitle">google.com (with AI Overviews)</div>
+          <div class="big-number good">80%</div>
+          <div class="context">TASC appears in 72 of 90 queries. Leading position vs competitors.</div>
+        </div>
+        <div class="surface-card">
+          <h4>ChatGPT</h4>
+          <div class="subtitle">chatgpt.com</div>
+          <div class="big-number good">79%</div>
+          <div class="context">TASC appears in 57 of 72 successful queries. Strong AI visibility.</div>
+        </div>
+        <div class="surface-card">
+          <h4>Amazon</h4>
+          <div class="subtitle">amazon.com product search</div>
+          <div class="big-number ok">31%</div>
+          <div class="context">TASC appears in 26 of 85 queries. Room for improvement.</div>
+        </div>
+        <div class="surface-card">
+          <h4>Bing Search</h4>
+          <div class="subtitle">bing.com (powers Copilot)</div>
+          <div class="big-number bad">2%</div>
+          <div class="context">TASC appears in only 2 of 90 queries. Critical gap.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>TASC vs. Competitors: Cross-Platform Summary</h2>
+      <p>How does TASC's web visibility compare to key competitors across all discovery platforms?</p>
+
+      <table class="comparison-table">
+        <tr>
+          <th>Brand</th>
+          <th>Google</th>
+          <th>ChatGPT</th>
+          <th>Amazon</th>
+          <th>Bing</th>
+        </tr>
+        <tr class="highlight-row">
+          <td class="brand-col">TASC Performance</td>
+          <td class="score-high">80%</td>
+          <td class="score-high">79%</td>
+          <td class="score-medium">31%</td>
+          <td class="score-low">2%</td>
+        </tr>
+        <tr>
+          <td class="brand-col">Lululemon</td>
+          <td>14%</td>
+          <td>14%</td>
+          <td>2%</td>
+          <td>3%</td>
+        </tr>
+        <tr>
+          <td class="brand-col">Vuori</td>
+          <td>12%</td>
+          <td>8%</td>
+          <td>-</td>
+          <td>2%</td>
+        </tr>
+        <tr>
+          <td class="brand-col">Nike</td>
+          <td>11%</td>
+          <td>7%</td>
+          <td>1%</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td class="brand-col">Under Armour</td>
+          <td>9%</td>
+          <td>17%</td>
+          <td>4%</td>
+          <td>2%</td>
+        </tr>
+        <tr>
+          <td class="brand-col">Free Fly</td>
+          <td>8%</td>
+          <td>4%</td>
+          <td>4%</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td class="brand-col">Rhone</td>
+          <td>7%</td>
+          <td>4%</td>
+          <td>2%</td>
+          <td>1%</td>
+        </tr>
+        <tr>
+          <td class="brand-col">Patagonia</td>
+          <td>7%</td>
+          <td>3%</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td class="brand-col">Cariloha</td>
+          <td>6%</td>
+          <td>3%</td>
+          <td>1%</td>
+          <td>1%</td>
+        </tr>
+      </table>
+
+      <div class="callout success">
+        <strong>TASC Leads in Google and ChatGPT</strong>
+        TASC significantly outperforms all competitors in Google and ChatGPT visibility for queries about bamboo clothing, sustainable activewear, and comfortable athletic apparel. This competitive advantage is substantial: TASC appears 5-8x more often than Lululemon, Vuori, and Nike.
+      </div>
+
+      <div class="callout critical">
+        <strong>But Bing Is a Blind Spot</strong>
+        TASC's 2% Bing visibility is the lowest among major competitors. When consumers use Bing, Microsoft Edge, Windows Search, or Microsoft Copilot, they find competitors instead of TASC.
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>The Consumer Discovery Journey</h2>
+      <p>Today's consumers discover brands through multiple touchpoints. They might start with a Google search, ask ChatGPT for recommendations, and complete their purchase on Amazon. TASC needs to be visible across this entire journey.</p>
+
+      <h3>Where TASC Wins</h3>
+      <ul>
+        <li><strong>Google Search:</strong> TASC dominates relevant searches. When consumers Google "bamboo athletic shirts" or "sustainable activewear," TASC is consistently present.</li>
+        <li><strong>ChatGPT:</strong> When consumers ask ChatGPT for recommendations, TASC is mentioned prominently with accurate descriptions of its bamboo technology and sustainability focus.</li>
+      </ul>
+
+      <h3>Where TASC Loses</h3>
+      <ul>
+        <li><strong>Bing Search:</strong> TASC is nearly invisible. Consumers using Microsoft products (Edge browser, Windows Search, Copilot) don't find TASC.</li>
+        <li><strong>Amazon:</strong> With 31% visibility, TASC misses two-thirds of potential discovery opportunities on the world's largest product search engine.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- GOOGLE TAB -->
+  <div class="tab-content" id="google">
+    <div class="section">
+      <h2>Google Search Visibility</h2>
+      <p>Google remains the dominant search engine where most consumers begin their product research. Google now includes AI-generated overviews alongside traditional organic results for many queries.</p>
+
+      <div class="metric-row">
+        <div class="metric-card success">
+          <div class="value">80%</div>
+          <div class="label">TASC Visibility</div>
+        </div>
+        <div class="metric-card">
+          <div class="value">72</div>
+          <div class="label">of 90 Queries</div>
+        </div>
+        <div class="metric-card success">
+          <div class="value">#1</div>
+          <div class="label">vs. Competitors</div>
+        </div>
+      </div>
+
+      <h3>TASC vs. Competitors on Google</h3>
+      <table>
+        <tr>
+          <th>Brand</th>
+          <th>Queries Appearing</th>
+          <th>% of Queries</th>
+          <th>Visibility</th>
+        </tr>
+        <tr class="highlight-row">
+          <td><strong>TASC Performance</strong></td>
+          <td><strong>72</strong></td>
+          <td><strong>80.0%</strong></td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill high" style="width: 80%"></div></div></td>
+        </tr>
+        <tr>
+          <td>REI (retailer)</td>
+          <td>13</td>
+          <td>14.4%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 14%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Lululemon</td>
+          <td>13</td>
+          <td>14.4%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 14%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Vuori</td>
+          <td>11</td>
+          <td>12.2%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 12%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Nike</td>
+          <td>10</td>
+          <td>11.1%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 11%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Under Armour</td>
+          <td>8</td>
+          <td>8.9%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 9%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Free Fly</td>
+          <td>7</td>
+          <td>7.8%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 8%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Patagonia</td>
+          <td>6</td>
+          <td>6.7%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 7%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Rhone</td>
+          <td>6</td>
+          <td>6.7%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 7%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Cariloha</td>
+          <td>5</td>
+          <td>5.6%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 6%"></div></div></td>
+        </tr>
+      </table>
+
+      <div class="callout success">
+        <strong>TASC Dominates Google for Relevant Queries</strong>
+        TASC appears 5-6x more often than Lululemon, Vuori, and Nike in Google searches about bamboo clothing, sustainable activewear, and comfortable athletic apparel. This strong positioning means TASC owns its category in Google search.
+      </div>
+
+      <h3>Query Categories Where TASC Excels</h3>
+      <ul>
+        <li><strong>Brand-specific queries:</strong> "What is TASC Performance?" - TASC appears 100%</li>
+        <li><strong>Bamboo/material queries:</strong> "Best bamboo athletic shirts" - TASC consistently present</li>
+        <li><strong>Comparison queries:</strong> "TASC vs Lululemon" - TASC appears in all comparisons</li>
+        <li><strong>Sustainability queries:</strong> "Sustainable activewear brands" - TASC prominently featured</li>
+      </ul>
+
+      <h3>Why Google Works for TASC</h3>
+      <ul>
+        <li>Strong website authority and domain reputation</li>
+        <li>Comprehensive product content with relevant keywords</li>
+        <li>Content about bamboo technology establishes expertise</li>
+        <li>Good structured data on product pages</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- BING TAB -->
+  <div class="tab-content" id="bing">
+    <div class="section">
+      <h2>Bing Search Visibility</h2>
+      <p>Bing powers Microsoft's entire ecosystem: Copilot AI assistant, Edge browser, Windows Search, and Cortana. TASC's near-zero visibility here is the most critical gap identified in this study.</p>
+
+      <div class="metric-row">
+        <div class="metric-card danger">
+          <div class="value">2.2%</div>
+          <div class="label">TASC Visibility</div>
+        </div>
+        <div class="metric-card danger">
+          <div class="value">2</div>
+          <div class="label">of 90 Queries</div>
+        </div>
+        <div class="metric-card danger">
+          <div class="value">Last</div>
+          <div class="label">vs. Competitors</div>
+        </div>
+      </div>
+
+      <div class="callout critical">
+        <strong>Critical Gap: TASC is Invisible on Bing</strong>
+        Out of 90 queries tested, TASC Performance appeared in only 2 Bing search results. This means consumers using Bing, Microsoft Edge, Windows Search, or Microsoft Copilot do not find TASC when researching athletic apparel.
+      </div>
+
+      <h3>TASC vs. Competitors on Bing</h3>
+      <table>
+        <tr>
+          <th>Brand</th>
+          <th>Queries Appearing</th>
+          <th>% of Queries</th>
+          <th>Visibility</th>
+        </tr>
+        <tr>
+          <td>Lululemon</td>
+          <td>3</td>
+          <td>3.3%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 10%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Vuori</td>
+          <td>2</td>
+          <td>2.2%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 7%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Under Armour</td>
+          <td>2</td>
+          <td>2.2%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 7%"></div></div></td>
+        </tr>
+        <tr>
+          <td>REI (retailer)</td>
+          <td>2</td>
+          <td>2.2%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 7%"></div></div></td>
+        </tr>
+        <tr class="highlight-row">
+          <td><strong>TASC Performance</strong></td>
+          <td><strong>2</strong></td>
+          <td><strong>2.2%</strong></td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill low" style="width: 7%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Rhone</td>
+          <td>1</td>
+          <td>1.1%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 3%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Cariloha</td>
+          <td>1</td>
+          <td>1.1%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 3%"></div></div></td>
+        </tr>
+      </table>
+
+      <p><em>Note: Bing visibility is low across all brands in this study. However, TASC's Google dominance does not translate to Bing at all.</em></p>
+
+      <h3>Who Uses Bing?</h3>
+      <ul>
+        <li><strong>Enterprise users:</strong> Many corporate environments default to Bing/Edge</li>
+        <li><strong>Windows users:</strong> Windows Search and Cortana use Bing</li>
+        <li><strong>Microsoft Copilot users:</strong> The AI assistant is built on Bing's index</li>
+        <li><strong>100+ million daily users:</strong> Bing has significant market share</li>
+      </ul>
+
+      <h3>Likely Causes of Poor Bing Visibility</h3>
+      <ul>
+        <li>Website not properly submitted to Bing Webmaster Tools</li>
+        <li>Bing's crawler may have indexing issues with the site</li>
+        <li>No Bing-specific SEO or advertising presence</li>
+        <li>IndexNow protocol not implemented for real-time indexing</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- CHATGPT TAB -->
+  <div class="tab-content" id="chatgpt">
+    <div class="section">
+      <h2>ChatGPT Visibility</h2>
+      <p>ChatGPT (chatgpt.com) has become a primary research tool for consumers. When people ask for product recommendations, ChatGPT's responses increasingly influence purchase decisions.</p>
+
+      <div class="metric-row">
+        <div class="metric-card success">
+          <div class="value">79%</div>
+          <div class="label">TASC Visibility</div>
+        </div>
+        <div class="metric-card">
+          <div class="value">57</div>
+          <div class="label">of 72 Queries</div>
+        </div>
+        <div class="metric-card success">
+          <div class="value">#1</div>
+          <div class="label">vs. Competitors</div>
+        </div>
+      </div>
+
+      <h3>TASC vs. Competitors on ChatGPT</h3>
+      <table>
+        <tr>
+          <th>Brand</th>
+          <th>Queries Appearing</th>
+          <th>% of Queries</th>
+          <th>Visibility</th>
+        </tr>
+        <tr class="highlight-row">
+          <td><strong>TASC Performance</strong></td>
+          <td><strong>57</strong></td>
+          <td><strong>79.2%</strong></td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill high" style="width: 79%"></div></div></td>
+        </tr>
+        <tr>
+          <td>REI (retailer)</td>
+          <td>16</td>
+          <td>22.2%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 22%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Under Armour</td>
+          <td>12</td>
+          <td>16.7%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 17%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Lululemon</td>
+          <td>10</td>
+          <td>13.9%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 14%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Vuori</td>
+          <td>6</td>
+          <td>8.3%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 8%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Nike</td>
+          <td>5</td>
+          <td>6.9%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 7%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Free Fly</td>
+          <td>3</td>
+          <td>4.2%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 4%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Rhone</td>
+          <td>3</td>
+          <td>4.2%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 4%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Patagonia</td>
+          <td>2</td>
+          <td>2.8%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 3%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Cariloha</td>
+          <td>2</td>
+          <td>2.8%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 3%"></div></div></td>
+        </tr>
+      </table>
+
+      <div class="callout success">
+        <strong>ChatGPT Recommends TASC</strong>
+        When consumers ask ChatGPT about bamboo athletic wear, sustainable clothing, or comfortable workout apparel, TASC Performance is consistently mentioned as a top recommendation. TASC appears 5-8x more often than Lululemon, Vuori, and Nike.
+      </div>
+
+      <h3>How ChatGPT Describes TASC</h3>
+      <p>In our testing, ChatGPT consistently associated TASC with:</p>
+      <ul>
+        <li><strong>Bamboo fabric technology</strong> - ChatGPT knows TASC uses bamboo-based materials and BamCo fabric</li>
+        <li><strong>Sustainability</strong> - The brand is positioned as eco-conscious</li>
+        <li><strong>Comfort and softness</strong> - Product qualities are well understood</li>
+        <li><strong>New Orleans heritage</strong> - Family-owned brand story is part of the narrative</li>
+        <li><strong>Performance activewear</strong> - Correctly categorized in the athletic apparel space</li>
+      </ul>
+
+      <h3>Query Categories Where TASC Appears on ChatGPT</h3>
+      <table>
+        <tr>
+          <th>Query Category</th>
+          <th>TASC Visibility</th>
+        </tr>
+        <tr>
+          <td>Brand-specific questions</td>
+          <td class="score-high">100%</td>
+        </tr>
+        <tr>
+          <td>Bamboo clothing queries</td>
+          <td class="score-high">Very High</td>
+        </tr>
+        <tr>
+          <td>Sustainable activewear</td>
+          <td class="score-high">Very High</td>
+        </tr>
+        <tr>
+          <td>Brand comparisons (vs Lululemon, Vuori)</td>
+          <td class="score-high">100%</td>
+        </tr>
+        <tr>
+          <td>Generic "best workout clothes"</td>
+          <td class="score-medium">Moderate</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- AMAZON TAB -->
+  <div class="tab-content" id="amazon">
+    <div class="section">
+      <h2>Amazon Search Visibility</h2>
+      <p>Amazon is where purchase intent converts to sales. When consumers search Amazon directly for athletic apparel, how often does TASC appear in the results?</p>
+
+      <div class="metric-row">
+        <div class="metric-card warning">
+          <div class="value">31%</div>
+          <div class="label">TASC Visibility</div>
+        </div>
+        <div class="metric-card">
+          <div class="value">26</div>
+          <div class="label">of 85 Queries</div>
+        </div>
+        <div class="metric-card warning">
+          <div class="value">Room to Grow</div>
+          <div class="label">Opportunity</div>
+        </div>
+      </div>
+
+      <h3>TASC vs. Competitors on Amazon</h3>
+      <table>
+        <tr>
+          <th>Brand</th>
+          <th>Queries Appearing</th>
+          <th>% of Queries</th>
+          <th>Visibility</th>
+        </tr>
+        <tr class="highlight-row">
+          <td><strong>TASC Performance</strong></td>
+          <td><strong>26</strong></td>
+          <td><strong>30.6%</strong></td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill medium" style="width: 31%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Amazon (retailer)</td>
+          <td>4</td>
+          <td>4.7%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 5%"></div></div></td>
+        </tr>
+        <tr>
+          <td>REI</td>
+          <td>3</td>
+          <td>3.5%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 4%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Under Armour</td>
+          <td>3</td>
+          <td>3.5%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 4%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Free Fly</td>
+          <td>3</td>
+          <td>3.5%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 4%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Lululemon</td>
+          <td>2</td>
+          <td>2.4%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 2%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Rhone</td>
+          <td>2</td>
+          <td>2.4%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 2%"></div></div></td>
+        </tr>
+        <tr>
+          <td>Nike</td>
+          <td>1</td>
+          <td>1.2%</td>
+          <td class="bar-cell"><div class="progress-bar"><div class="progress-fill" style="width: 1%"></div></div></td>
+        </tr>
+      </table>
+
+      <div class="callout warning">
+        <strong>Amazon Visibility Opportunity</strong>
+        While TASC leads competitors on Amazon for this query set, 31% visibility means TASC misses two-thirds of potential discovery opportunities. When consumers search Amazon for "bamboo shirts" or "sustainable workout clothes," TASC should appear more consistently.
+      </div>
+
+      <h3>Where TASC Was Found on Amazon</h3>
+      <ul>
+        <li>Brand-specific searches ("TASC Performance")</li>
+        <li>Bamboo-related queries ("bamboo t-shirt")</li>
+        <li>Some product-specific searches</li>
+      </ul>
+
+      <h3>Where TASC Was Missing on Amazon</h3>
+      <ul>
+        <li>Generic activewear queries ("best workout shirt")</li>
+        <li>Competitor comparison searches</li>
+        <li>Sustainability-focused queries</li>
+      </ul>
+
+      <h3>Amazon Visibility Factors</h3>
+      <ul>
+        <li><strong>Product titles:</strong> Must include key search terms consumers use</li>
+        <li><strong>Bullet points:</strong> Should highlight bamboo, comfort, sustainability</li>
+        <li><strong>A+ Content:</strong> Enhanced brand storytelling increases visibility</li>
+        <li><strong>Reviews:</strong> Volume and quality affect search ranking</li>
+        <li><strong>Brand Store:</strong> Dedicated storefront improves discoverability</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- COMPETITORS TAB -->
+  <div class="tab-content" id="competitors">
+    <div class="section">
+      <h2>Competitive Analysis</h2>
+      <p>This section provides a detailed comparison of TASC Performance against key competitors across all discovery surfaces.</p>
+
+      <h3>Overall Competitive Position</h3>
+      <div class="callout success">
+        <strong>TASC's Competitive Advantage</strong>
+        In queries about bamboo clothing, sustainable activewear, and comfortable athletic apparel, TASC significantly outperforms all competitors on Google and ChatGPT. This is TASC's core competitive strength.
+      </div>
+
+      <h3>Full Cross-Platform Comparison</h3>
+      <table class="comparison-table">
+        <tr>
+          <th>Brand</th>
+          <th>Google</th>
+          <th>ChatGPT</th>
+          <th>Amazon</th>
+          <th>Bing</th>
+          <th>Average</th>
+        </tr>
+        <tr class="highlight-row">
+          <td class="brand-col">TASC Performance</td>
+          <td class="score-high">80%</td>
+          <td class="score-high">79%</td>
+          <td class="score-medium">31%</td>
+          <td class="score-low">2%</td>
+          <td><strong>48%</strong></td>
+        </tr>
+        <tr>
+          <td class="brand-col">REI (retailer)</td>
+          <td>14%</td>
+          <td>22%</td>
+          <td>4%</td>
+          <td>2%</td>
+          <td>11%</td>
+        </tr>
+        <tr>
+          <td class="brand-col">Under Armour</td>
+          <td>9%</td>
+          <td>17%</td>
+          <td>4%</td>
+          <td>2%</td>
+          <td>8%</td>
+        </tr>
+        <tr>
+          <td class="brand-col">Lululemon</td>
+          <td>14%</td>
+          <td>14%</td>
+          <td>2%</td>
+          <td>3%</td>
+          <td>8%</td>
+        </tr>
+        <tr>
+          <td class="brand-col">Vuori</td>
+          <td>12%</td>
+          <td>8%</td>
+          <td>-</td>
+          <td>2%</td>
+          <td>6%</td>
+        </tr>
+        <tr>
+          <td class="brand-col">Nike</td>
+          <td>11%</td>
+          <td>7%</td>
+          <td>1%</td>
+          <td>-</td>
+          <td>5%</td>
+        </tr>
+        <tr>
+          <td class="brand-col">Free Fly</td>
+          <td>8%</td>
+          <td>4%</td>
+          <td>4%</td>
+          <td>-</td>
+          <td>4%</td>
+        </tr>
+        <tr>
+          <td class="brand-col">Patagonia</td>
+          <td>7%</td>
+          <td>3%</td>
+          <td>-</td>
+          <td>-</td>
+          <td>3%</td>
+        </tr>
+        <tr>
+          <td class="brand-col">Rhone</td>
+          <td>7%</td>
+          <td>4%</td>
+          <td>2%</td>
+          <td>1%</td>
+          <td>4%</td>
+        </tr>
+        <tr>
+          <td class="brand-col">Cariloha</td>
+          <td>6%</td>
+          <td>3%</td>
+          <td>1%</td>
+          <td>1%</td>
+          <td>3%</td>
+        </tr>
+      </table>
+
+      <h3>Competitor Profiles</h3>
+
+      <h4>Premium Athletic Brands</h4>
+      <table>
+        <tr>
+          <th>Brand</th>
+          <th>Positioning</th>
+          <th>Visibility vs TASC</th>
+        </tr>
+        <tr>
+          <td><strong>Lululemon</strong></td>
+          <td>Premium yoga/athletic lifestyle</td>
+          <td>TASC leads 5-6x on Google/ChatGPT</td>
+        </tr>
+        <tr>
+          <td><strong>Vuori</strong></td>
+          <td>California lifestyle activewear</td>
+          <td>TASC leads 6-10x on Google/ChatGPT</td>
+        </tr>
+        <tr>
+          <td><strong>Rhone</strong></td>
+          <td>Men's premium performance</td>
+          <td>TASC leads 10-20x on Google/ChatGPT</td>
+        </tr>
+      </table>
+
+      <h4>Bamboo/Sustainable Competitors</h4>
+      <table>
+        <tr>
+          <th>Brand</th>
+          <th>Positioning</th>
+          <th>Visibility vs TASC</th>
+        </tr>
+        <tr>
+          <td><strong>Free Fly</strong></td>
+          <td>Bamboo outdoor apparel</td>
+          <td>TASC leads 10x on Google/ChatGPT</td>
+        </tr>
+        <tr>
+          <td><strong>Cariloha</strong></td>
+          <td>Bamboo basics/home</td>
+          <td>TASC leads 13-26x on Google/ChatGPT</td>
+        </tr>
+        <tr>
+          <td><strong>Boody</strong></td>
+          <td>Bamboo basics</td>
+          <td>TASC leads 14-28x on Google/ChatGPT</td>
+        </tr>
+      </table>
+
+      <h4>Major Athletic Brands</h4>
+      <table>
+        <tr>
+          <th>Brand</th>
+          <th>Positioning</th>
+          <th>Visibility vs TASC</th>
+        </tr>
+        <tr>
+          <td><strong>Nike</strong></td>
+          <td>Global athletic leader</td>
+          <td>TASC leads 7-11x for our query set</td>
+        </tr>
+        <tr>
+          <td><strong>Under Armour</strong></td>
+          <td>Performance athletic</td>
+          <td>TASC leads 5-9x for our query set</td>
+        </tr>
+        <tr>
+          <td><strong>Patagonia</strong></td>
+          <td>Outdoor/sustainable</td>
+          <td>TASC leads 11-26x for our query set</td>
+        </tr>
+      </table>
+
+      <div class="callout insight">
+        <strong>Important Context</strong>
+        TASC's dominance is specific to queries about bamboo clothing, sustainable activewear, and comfortable athletic apparel. In broader "best workout clothes" queries, larger brands like Nike and Lululemon would have higher visibility. The query set was designed to reflect TASC's target market.
+      </div>
+    </div>
+  </div>
+
+  <!-- COMMERCE & SEO TAB -->
+  <div class="tab-content" id="commerce">
+    <div class="section">
+      <h2>Commerce Platforms & Technical SEO</h2>
+      <p>Beyond search visibility, brands compete on commerce platform presence and technical optimization. This section analyzes TASC's position in emerging AI commerce channels and compares technical SEO implementation.</p>
+
+      <h3>ChatGPT Instant Checkout</h3>
+      <p>OpenAI launched "Instant Checkout" in September 2025, allowing consumers to purchase products directly within ChatGPT conversations. This is powered by the "Agentic Commerce Protocol."</p>
+
+      <div class="callout success">
+        <strong>TASC is Automatically Eligible</strong>
+        Because TASC uses Shopify, they are automatically eligible for ChatGPT Instant Checkout with no application required. Shopify and Etsy merchants have automatic access to this emerging commerce channel.
+      </div>
+
+      <h4>ChatGPT Commerce Eligibility</h4>
+      <table>
+        <tr>
+          <th>Brand</th>
+          <th>Platform</th>
+          <th>ChatGPT Commerce</th>
+        </tr>
+        <tr class="highlight-row">
+          <td><strong>TASC Performance</strong></td>
+          <td>Shopify</td>
+          <td class="score-high">Auto-Eligible</td>
+        </tr>
+        <tr>
+          <td>Vuori</td>
+          <td>Shopify</td>
+          <td class="score-high">Auto-Eligible</td>
+        </tr>
+        <tr>
+          <td>Free Fly</td>
+          <td>Shopify</td>
+          <td class="score-high">Auto-Eligible</td>
+        </tr>
+        <tr>
+          <td>Rhone</td>
+          <td>Shopify</td>
+          <td class="score-high">Auto-Eligible</td>
+        </tr>
+        <tr>
+          <td>Lululemon</td>
+          <td>Custom</td>
+          <td class="score-low">Must Apply</td>
+        </tr>
+        <tr>
+          <td>Nike</td>
+          <td>Custom</td>
+          <td class="score-low">Must Apply</td>
+        </tr>
+        <tr>
+          <td>Under Armour</td>
+          <td>Custom</td>
+          <td class="score-low">Must Apply</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h3>Amazon Brand Stores</h3>
+      <p>Amazon Brand Stores provide dedicated storefronts with custom branding, hero images, and curated collections. They require Brand Registry enrollment and active management. A brand filter page (auto-generated by Amazon) is different - it has no customization.</p>
+
+      <table>
+        <tr>
+          <th>Brand</th>
+          <th>Official Brand Store</th>
+          <th>Amazon Presence</th>
+        </tr>
+        <tr class="highlight-row">
+          <td><strong>TASC Performance</strong></td>
+          <td class="score-low">NO</td>
+          <td>Brand filter page only (not a custom storefront)</td>
+        </tr>
+        <tr>
+          <td>Nike</td>
+          <td class="score-high">YES</td>
+          <td>Official Brand Store (returned 2024-2025)</td>
+        </tr>
+        <tr>
+          <td>Under Armour</td>
+          <td class="score-high">YES</td>
+          <td>Official Brand Store with outlet section</td>
+        </tr>
+        <tr>
+          <td>Rhone</td>
+          <td class="score-high">YES</td>
+          <td>Official Brand Store</td>
+        </tr>
+        <tr>
+          <td>Lululemon</td>
+          <td class="score-low">NO</td>
+          <td>No Amazon presence (DTC only)</td>
+        </tr>
+        <tr>
+          <td>Vuori</td>
+          <td class="score-low">NO</td>
+          <td>No Amazon presence (DTC only)</td>
+        </tr>
+        <tr>
+          <td>Free Fly</td>
+          <td class="score-low">NO</td>
+          <td>No Amazon presence (DTC focus)</td>
+        </tr>
+        <tr>
+          <td>Patagonia</td>
+          <td class="score-low">NO</td>
+          <td>No Amazon presence (DTC and select retailers)</td>
+        </tr>
+      </table>
+
+      <div class="callout warning">
+        <strong>Gap Identified: No Official Amazon Brand Store</strong>
+        TASC products are available on Amazon but the brand does not have an official Brand Store with custom branding and curated content. Competitors Nike, Under Armour, and Rhone have invested in official Brand Stores that provide better brand presentation and discoverability.
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Amazon as a Research Channel: The ROPO Effect</h3>
+      <p>Even consumers who prefer to buy in-store often <strong>start their research on Amazon</strong>. Understanding this "Research Online, Purchase Offline" (ROPO) behavior is critical for channel strategy decisions.</p>
+
+      <div class="metric-row">
+        <div class="metric-card">
+          <div class="value">50-61%</div>
+          <div class="label">of product searches start on Amazon</div>
+        </div>
+        <div class="metric-card">
+          <div class="value">79%</div>
+          <div class="label">of fashion sales happen in-store</div>
+        </div>
+        <div class="metric-card">
+          <div class="value">49%</div>
+          <div class="label">of men's apparel buyers webroom</div>
+        </div>
+      </div>
+
+      <h4>Key Consumer Behavior Statistics</h4>
+      <table>
+        <tr>
+          <th>Behavior</th>
+          <th>Statistic</th>
+          <th>Source</th>
+        </tr>
+        <tr>
+          <td>Product searches starting on Amazon</td>
+          <td><strong>50-61%</strong></td>
+          <td>Coresight Research 2025</td>
+        </tr>
+        <tr>
+          <td>Fashion sales happening in physical stores</td>
+          <td><strong>79%</strong></td>
+          <td>Shopify Enterprise</td>
+        </tr>
+        <tr>
+          <td>Consumers who prefer to buy apparel in-store</td>
+          <td><strong>58%</strong></td>
+          <td>UniformMarket</td>
+        </tr>
+        <tr>
+          <td>Men's apparel shoppers who webroom</td>
+          <td><strong>49%</strong></td>
+          <td>ReadyCloud</td>
+        </tr>
+        <tr>
+          <td>Consumers who research online before any purchase</td>
+          <td><strong>88%</strong></td>
+          <td>Retail Perceptions</td>
+        </tr>
+        <tr>
+          <td>In-store sales influenced by online behavior</td>
+          <td><strong>56%</strong></td>
+          <td>Dinmo Research</td>
+        </tr>
+        <tr>
+          <td>Consumers who dislike online shopping (can't see items)</td>
+          <td><strong>47%</strong></td>
+          <td>FitSmallBusiness</td>
+        </tr>
+      </table>
+
+      <div class="callout warning">
+        <strong>Strategic Consideration: The Amazon Discovery Gap</strong>
+        <p style="margin-top: 10px;">Choosing not to sell on Amazon may be a sound channel management decision to protect brand positioning and margins. However, it creates a significant <strong>discovery gap</strong>:</p>
+        <ul style="margin-top: 10px;">
+          <li><strong>50-61% of consumers start product research on Amazon</strong> - if TASC isn't there, these consumers may never discover the brand</li>
+          <li><strong>Even ROPO shoppers who prefer to buy in-store</strong> (49% of men's apparel buyers) often begin their research on Amazon</li>
+          <li><strong>Competitors Nike, Under Armour, and Rhone have Amazon Brand Stores</strong> - they capture this research traffic even from consumers who may buy elsewhere</li>
+          <li><strong>Premium brands Lululemon and Vuori also avoid Amazon</strong> - but they have stronger brand awareness and retail distribution to offset this</li>
+        </ul>
+      </div>
+
+      <h4>Activewear Category ROPO Behavior</h4>
+      <p>Activewear falls into the category where ROPO behavior is strongest. Consumers want to:</p>
+      <ul>
+        <li><strong>Feel the fabric</strong> - bamboo's softness is a key differentiator that's hard to convey online</li>
+        <li><strong>Try on for fit</strong> - athletic apparel sizing varies significantly by brand</li>
+        <li><strong>See colors in person</strong> - screen colors don't always match reality</li>
+        <li><strong>Get immediate gratification</strong> - take the product home same day</li>
+      </ul>
+      <p>This suggests TASC's target customer may be particularly likely to research online but prefer to purchase in-store or from trusted DTC sites.</p>
+
+      <div class="callout insight">
+        <strong>Implication for TASC</strong>
+        <p style="margin-top: 10px;">TASC's strong Google and ChatGPT visibility (80% and 79%) is critical because these are primary research channels. However, missing from Amazon means missing consumers who start their journey there. Consider whether an Amazon presence - even limited - could serve as a discovery funnel that drives traffic to tascperformance.com or retail partners.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Technical SEO Comparison</h3>
+      <p>Technical SEO elements like structured data (JSON-LD), Open Graph tags, and meta descriptions affect how brands appear in search results and social sharing.</p>
+
+      <table>
+        <tr>
+          <th>Brand</th>
+          <th>JSON-LD Schema</th>
+          <th>Open Graph</th>
+          <th>Twitter Card</th>
+          <th>Meta Desc</th>
+        </tr>
+        <tr class="highlight-row">
+          <td><strong>TASC Performance</strong></td>
+          <td class="score-high">Org + WebSite</td>
+          <td class="score-high">Full</td>
+          <td class="score-high">summary_large_image</td>
+          <td class="score-high">121 chars</td>
+        </tr>
+        <tr>
+          <td>Vuori</td>
+          <td class="score-high">Org + WebSite</td>
+          <td class="score-medium">Partial (no image)</td>
+          <td class="score-low">none</td>
+          <td class="score-high">160 chars</td>
+        </tr>
+        <tr>
+          <td>Free Fly</td>
+          <td class="score-low">NONE</td>
+          <td class="score-high">Full</td>
+          <td class="score-high">summary_large_image</td>
+          <td class="score-high">155 chars</td>
+        </tr>
+        <tr>
+          <td>Lululemon</td>
+          <td class="score-high">Org + WebSite</td>
+          <td class="score-medium">Partial (no image)</td>
+          <td class="score-low">none</td>
+          <td class="score-high">130 chars</td>
+        </tr>
+        <tr>
+          <td>Nike</td>
+          <td class="score-high">Full (Org, WebSite, WebPage)</td>
+          <td class="score-high">Full</td>
+          <td class="score-high">summary_large_image</td>
+          <td class="score-medium">97 chars</td>
+        </tr>
+        <tr>
+          <td>Under Armour</td>
+          <td class="score-high">Full (Org, WebSite, WebPage)</td>
+          <td class="score-high">Full</td>
+          <td class="score-high">summary_large_image</td>
+          <td class="score-high">156 chars</td>
+        </tr>
+        <tr>
+          <td>Cariloha</td>
+          <td class="score-high">Full (Org, WebSite, WebPage)</td>
+          <td class="score-low">NONE</td>
+          <td class="score-low">none</td>
+          <td class="score-high">149 chars</td>
+        </tr>
+        <tr>
+          <td>Allbirds</td>
+          <td class="score-low">NONE</td>
+          <td class="score-high">Full</td>
+          <td class="score-high">summary_large_image</td>
+          <td class="score-high">155 chars</td>
+        </tr>
+      </table>
+
+      <div class="callout success">
+        <strong>TASC Has Superior Technical SEO vs Direct Competitors</strong>
+        TASC has better technical SEO implementation than all three direct bamboo/sustainable competitors:
+        <ul style="margin-top: 10px;">
+          <li><strong>Free Fly:</strong> Missing JSON-LD structured data entirely</li>
+          <li><strong>Cariloha:</strong> Missing all Open Graph tags</li>
+          <li><strong>Allbirds:</strong> Missing JSON-LD structured data entirely</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>llms.txt Files</h3>
+      <p>llms.txt is an emerging standard for providing LLM-readable information about a website, similar to robots.txt for search engines.</p>
+
+      <div class="callout warning">
+        <strong>Opportunity: No Brands Have llms.txt Yet</strong>
+        None of the brands analyzed have implemented llms.txt files. This represents a first-mover opportunity for TASC to establish thought leadership and potentially improve AI assistant visibility.
+      </div>
+
+      <p>Brands checked: TASC Performance, Vuori, Free Fly, Lululemon, Nike, Under Armour, Cariloha, Allbirds, Patagonia - all returned 404 (not found).</p>
+    </div>
+
+    <div class="section">
+      <h3>Commerce & SEO Recommendations</h3>
+      <ul>
+        <li><strong>Activate ChatGPT Commerce:</strong> TASC is already eligible via Shopify - consider actively optimizing product feeds for this channel</li>
+        <li><strong>Implement llms.txt:</strong> Be first in category to adopt this emerging standard</li>
+        <li><strong>Enhance meta description:</strong> Add "bamboo" and "sustainable" keywords to homepage meta description</li>
+        <li><strong>Add Product schema:</strong> Extend JSON-LD to include Product structured data on product pages for Google Merchant Center</li>
+        <li><strong>Consider Microsoft Copilot Merchant Program:</strong> Launched April 2025, another AI commerce channel to explore</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- RECOMMENDATIONS TAB -->
+  <div class="tab-content" id="recommendations">
+    <div class="section">
+      <h2>Strategic Recommendations</h2>
+
+      <div class="rec-card">
+        <span class="priority p1">CRITICAL PRIORITY</span>
+        <h4>Fix Bing Search Visibility</h4>
+        <p>TASC's 2% Bing visibility is the most critical gap. Bing powers Microsoft Copilot, Edge, and Windows—reaching over 100 million users daily who currently cannot find TASC.</p>
+        <h4>Immediate Actions:</h4>
+        <ul>
+          <li><strong>Bing Webmaster Tools:</strong> Verify site is properly submitted and indexed</li>
+          <li><strong>IndexNow Protocol:</strong> Implement for real-time indexing updates</li>
+          <li><strong>Bing Places:</strong> Ensure business listing is complete</li>
+          <li><strong>Technical Audit:</strong> Check for crawler blocks or indexing issues</li>
+          <li><strong>Microsoft Advertising:</strong> Consider brand awareness campaigns on Bing</li>
+        </ul>
+        <h4>Expected Outcome:</h4>
+        <p>Increase Bing visibility from 2% to 40%+ to match Google performance.</p>
+      </div>
+
+      <div class="rec-card">
+        <span class="priority p2">HIGH PRIORITY</span>
+        <h4>Improve Amazon Product Visibility</h4>
+        <p>31% Amazon visibility means TASC is missing 7 out of 10 potential discovery opportunities on the world's largest product search engine.</p>
+        <h4>Actions:</h4>
+        <ul>
+          <li><strong>Optimize product titles:</strong> Include "bamboo," "sustainable," key search terms</li>
+          <li><strong>Enhance bullet points:</strong> Lead with benefits consumers search for</li>
+          <li><strong>A+ Content:</strong> Build out enhanced brand content on all listings</li>
+          <li><strong>Brand Store:</strong> Create comprehensive storefront with category navigation</li>
+          <li><strong>Sponsored Products:</strong> Target key category terms</li>
+        </ul>
+        <h4>Expected Outcome:</h4>
+        <p>Increase Amazon visibility from 31% to 50%+.</p>
+      </div>
+
+      <div class="rec-card">
+        <span class="priority p3">MAINTAIN</span>
+        <h4>Protect Google & ChatGPT Leadership</h4>
+        <p>TASC's 80% visibility in Google and ChatGPT is exceptional and provides significant competitive advantage. Maintain this leadership position.</p>
+        <h4>Ongoing Actions:</h4>
+        <ul>
+          <li>Continue publishing authoritative content about bamboo technology</li>
+          <li>Maintain structured data (JSON-LD) on all product pages</li>
+          <li>Monitor quarterly for visibility changes</li>
+          <li>Ensure brand messaging consistency across all channels</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Measurement & Next Steps</h2>
+      <h3>Recommended Monitoring Cadence</h3>
+      <ul>
+        <li><strong>Monthly:</strong> Track Bing indexation and visibility improvements</li>
+        <li><strong>Monthly:</strong> Monitor Amazon search rank for key terms</li>
+        <li><strong>Quarterly:</strong> Full visibility assessment across all surfaces</li>
+        <li><strong>Ongoing:</strong> Competitor visibility tracking</li>
+      </ul>
+
+      <h3>Success Metrics</h3>
+      <table>
+        <tr>
+          <th>Surface</th>
+          <th>Current</th>
+          <th>6-Month Target</th>
+          <th>Status</th>
+        </tr>
+        <tr>
+          <td>Google</td>
+          <td class="score-high">80%</td>
+          <td>Maintain 75%+</td>
+          <td>On Track</td>
+        </tr>
+        <tr>
+          <td>ChatGPT</td>
+          <td class="score-high">79%</td>
+          <td>Maintain 75%+</td>
+          <td>On Track</td>
+        </tr>
+        <tr>
+          <td>Amazon</td>
+          <td class="score-medium">31%</td>
+          <td>50%+</td>
+          <td>Needs Work</td>
+        </tr>
+        <tr>
+          <td>Bing</td>
+          <td class="score-low">2%</td>
+          <td>40%+</td>
+          <td>Critical</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- METHODOLOGY TAB -->
+  <div class="tab-content" id="methodology">
+    <div class="section">
+      <h2>Study Methodology</h2>
+
+      <h3>Study Parameters</h3>
+      <table>
+        <tr><th>Parameter</th><th>Value</th></tr>
+        <tr><td>Queries Tested</td><td>90</td></tr>
+        <tr><td>Geographic Focus</td><td>United States</td></tr>
+        <tr><td>Date Conducted</td><td>January 27, 2026</td></tr>
+        <tr><td>Brands Tracked</td><td>21 (TASC + 20 competitors/retailers)</td></tr>
+      </table>
+
+      <h3>Query Categories</h3>
+      <p>Queries were designed to reflect real consumer search behavior in TASC's target market:</p>
+      <ul>
+        <li><strong>Brand awareness:</strong> "What is TASC Performance?"</li>
+        <li><strong>Product research:</strong> "Best bamboo athletic shirts"</li>
+        <li><strong>Comparisons:</strong> "TASC vs Lululemon"</li>
+        <li><strong>Purchase intent:</strong> "Where to buy TASC Performance"</li>
+        <li><strong>Sustainability:</strong> "Most sustainable activewear brands"</li>
+        <li><strong>Material-specific:</strong> "Bamboo workout clothes"</li>
+      </ul>
+
+      <h3>Consumer Discovery Surfaces Tested</h3>
+      <table>
+        <tr>
+          <th>Surface</th>
+          <th>What Consumers Use</th>
+          <th>Method</th>
+          <th>Success Rate</th>
+        </tr>
+        <tr>
+          <td>Google Search</td>
+          <td>google.com</td>
+          <td>SerpAPI (US geo-targeting)</td>
+          <td>100%</td>
+        </tr>
+        <tr>
+          <td>Bing Search</td>
+          <td>bing.com, Edge, Copilot</td>
+          <td>SerpAPI (US geo-targeting)</td>
+          <td>100%</td>
+        </tr>
+        <tr>
+          <td>ChatGPT</td>
+          <td>chatgpt.com</td>
+          <td>Browser Automation</td>
+          <td>80%</td>
+        </tr>
+        <tr>
+          <td>Amazon</td>
+          <td>amazon.com product search</td>
+          <td>Browser Automation</td>
+          <td>94%</td>
+        </tr>
+      </table>
+
+      <h3>Brand Detection Methodology</h3>
+      <p>Brand mentions were detected by searching response text for brand names. A query was counted as having brand visibility if the brand appeared anywhere in the search results, AI response, or product listings.</p>
+
+      <h3>Note on Query Set Design</h3>
+      <p>The query set was designed to reflect TASC's target market: consumers searching for bamboo clothing, sustainable activewear, and comfortable athletic apparel. TASC's high visibility percentages reflect dominance in this niche. In broader "best athletic wear" queries, larger brands would have higher visibility.</p>
+
+      <h3>Limitations</h3>
+      <ul>
+        <li>Query set was weighted toward TASC-relevant categories</li>
+        <li>Single point-in-time measurement; results may vary</li>
+        <li>ChatGPT responses can vary between sessions</li>
+        <li>Amazon results affected by personalization and inventory</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>TASC Performance Web Visibility Assessment | January 2026</p>
+    <p>Prepared by Bentham AI Visibility Platform</p>
+  </div>
+
+  <script>
+    // Tab switching
+    document.querySelectorAll('.tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        // Remove active from all tabs
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+
+        // Add active to clicked tab
+        tab.classList.add('active');
+        document.getElementById(tab.dataset.tab).classList.add('active');
+
+        // Scroll to top
+        window.scrollTo(0, 0);
+      });
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+/**
+ * Bentham Visibility Tool
+ * Public API exports
+ */
+
+// Schema and types
+export {
+  ManifestSchema,
+  BrandSchema,
+  QuerySchema,
+  TestSchema,
+  ReportConfigSchema,
+  JobSettingsSchema,
+  ExecutionOptionsSchema,
+  SurfaceType,
+  validateManifest,
+  createManifestTemplate,
+  type Manifest,
+  type Brand,
+  type Query,
+  type Test,
+  type ReportConfig,
+  type JobSettings,
+  type ExecutionOptions,
+} from './manifest-schema.js';
+
+// Executor
+export {
+  createJob,
+  executeJob,
+  isDeadlineExceeded,
+  saveJobState,
+  loadJobState,
+  formatTestSummary,
+  formatJobSummary,
+  type Job,
+  type JobResult,
+  type TestExecution,
+  type TestStatus,
+  type ProgressCallback,
+} from './executor/index.js';
+
+// Collectors
+export {
+  collectFromUrl,
+  collectFromUrls,
+  extractJsonLd,
+  summarizeResults,
+  type CollectionResult,
+  type CollectorOptions,
+} from './collectors/jsonld-collector.js';
+
+export {
+  queryOpenAI,
+  runQueries,
+  countBrandMentions,
+  summarizeOpenAIResults,
+  type OpenAIResult,
+  type OpenAICollectorOptions,
+} from './collectors/openai-api.js';
+
+// URL Discovery
+export {
+  discoverBrandSiteProducts,
+  discoverAmazonProducts,
+  discoverAllProducts,
+  type DiscoveredProduct,
+  type DiscoveryOptions,
+} from './collectors/url-discovery.js';
+
+// Scoring
+export {
+  scoreJsonLd,
+  getGradeColor,
+  type ScoringResult,
+  type ScoreBreakdown,
+} from './scoring/jsonld-scorer.js';
+
+// Report generation
+export {
+  generateReport,
+  saveReport,
+  saveResults,
+  type StudyResults,
+} from './report/generator.js';
+
+// Report types
+export {
+  ceoStrategicReport,
+  competitiveIntelReport,
+  technicalAuditReport,
+  reportTypes,
+  getReportType,
+  listReportTypes,
+  generateReportPrompt,
+  buildReportContext,
+  type ReportType,
+  type ReportContext,
+} from './report-types/index.js';
+
+// API server
+export { startServer } from './api.js';

@@ -1,0 +1,2040 @@
+{
+  "studyName": "TASC Performance Visibility Study - OpenAI GPT-4o API",
+  "surface": "openai-api",
+  "location": "United States",
+  "timestamp": "2026-01-27T18:29:56.773Z",
+  "totalQueries": 90,
+  "successfulQueries": 90,
+  "results": [
+    {
+      "queryIndex": 0,
+      "query": "What is TASC Performance?",
+      "success": true,
+      "response": "TASC Performance is a clothing brand known for its focus on creating high-performance athletic and lifestyle apparel. The company is particularly noted for its use of natural fibers, such as bamboo, in combination with other materials to enhance comfort, breathability, and moisture-wicking properties. TASC Performance aims to offer sustainable and environmentally friendly alternatives to traditional synthetic activewear, providing products that are soft, durable, and suitable for a range of activities. The brand often highlights its commitment to quality, innovation, and eco-conscious practices in the design and production of its clothing.",
+      "responseTimeMs": 4009,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 2
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 2
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 1,
+      "query": "Who makes TASC Performance clothing?",
+      "success": true,
+      "response": "TASC Performance is a family-owned company that was founded by the Andrews family in New Orleans. They are known for creating activewear using sustainable materials like bamboo and organic cotton, focusing on comfort, performance, and environmentally friendly practices.",
+      "responseTimeMs": 2349,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 1
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 1
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 2,
+      "query": "Where is TASC Performance made?",
+      "success": true,
+      "response": "TASC Performance is known for its sustainable and eco-friendly apparel, often made from natural fibers like bamboo. However, specific details about where their products are manufactured may not be readily available, as companies often have multiple production locations. For the most reliable and up-to-date information, it's best to contact TASC Performance directly or visit their official website.",
+      "responseTimeMs": 2156,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 2
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 2
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 3,
+      "query": "Is TASC Performance a good brand?",
+      "success": true,
+      "response": "TASC Performance is a clothing brand known for its focus on comfort, performance, and sustainability. They use unique fabric blends, often incorporating bamboo, organic cotton, and other natural fibers, which are designed to offer moisture-wicking, anti-odor, and UPF protection features. The brand is appreciated for its commitment to environmentally friendly practices and producing high-quality, durable activewear.\n\nWhether TASC Performance is a \"good\" brand can depend on your specific needs and values. Here are a few aspects to consider:\n\n1. **Quality and Comfort**: Many customers praise TASC for the quality and comfort of their products. The use of bamboo and other natural fibers often results in soft, breathable clothing that performs well during physical activities.\n\n2. **Sustainability**: If sustainability is important to you, TASC Performance's commitment to using eco-friendly materials and processes might align with your values.\n\n3. **Price**: TASC Performance products tend to be priced higher than some other activewear brands, which might be a consideration depending on your budget.\n\n4. **Style and Fit**: Personal preference regarding style and fit can also play a role. Checking reviews or trying their products in person can help determine if they suit your tastes and body type.\n\n5. **Customer Feedback**: Reading customer reviews and testimonials can provide insight into others' experiences with the brand, which can help gauge satisfaction levels.\n\nUltimately, if the brand's offerings align with your priorities in terms of quality, sustainability, and style, TASC Performance could be a good choice for you.",
+      "responseTimeMs": 6724,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 6
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 5
+        },
+        {
+          "brand": "BAM",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 4,
+      "query": "What does TASC stand for?",
+      "success": true,
+      "response": "TASC can stand for different things depending on the context. Some common meanings include:\n\n1. **Test Assessing Secondary Completion**: This is a high school equivalency test that serves as an alternative to the GED in some U.S. states.\n   \n2. **Technical Assistance and Support Center**: Often used in the context of IT support or customer service.\n\n3. **Treatment Alternatives for Safe Communities**: A program focused on providing alternatives to incarceration through treatment and support services.\n\n4. **The After-School Corporation**: An organization focused on expanding educational opportunities beyond the school day.\n\nIf you have a specific context in mind, let me know for a more tailored explanation!",
+      "responseTimeMs": 3315,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 5,
+      "query": "Is TASC Performance an American company?",
+      "success": true,
+      "response": "Yes, TASC Performance is an American company. It is known for producing performance apparel, especially activewear, using natural fibers and sustainable materials. The company is based in the United States.",
+      "responseTimeMs": 1960,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 1
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 6,
+      "query": "What is TASC Performance known for?",
+      "success": true,
+      "response": "TASC Performance is known for its high-quality athletic and leisure apparel, which is particularly notable for its use of natural and sustainable materials. The company emphasizes comfort, performance, and environmental responsibility by utilizing fabrics made from bamboo and other organic fibers. TASC's products cater to a wide range of activities, including running, yoga, and general fitness, and are appreciated for their breathability, moisture-wicking properties, and soft feel.",
+      "responseTimeMs": 1471,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 2
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 1
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 7,
+      "query": "Who founded TASC Performance?",
+      "success": true,
+      "response": "TASC Performance was founded by Al Andrews and his son Todd Andrews in 2009. The company is known for its focus on creating athletic apparel using natural fibers, particularly bamboo, for enhanced comfort and performance.",
+      "responseTimeMs": 1042,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 1
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 1
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 8,
+      "query": "TASC Performance vs Lululemon",
+      "success": true,
+      "response": "Comparing TASC Performance and Lululemon involves looking at various aspects such as product offerings, target market, brand positioning, and customer perceptions. Here’s an overview of both brands:\n\n### TASC Performance\n\n**Product Offerings:**\n- TASC Performance is known for its use of natural fibers, particularly bamboo, in its activewear. The brand emphasizes comfort, breathability, and sustainability.\n- Their product line includes a range of activewear for both men and women, like tops, bottoms, outerwear, and accessories.\n\n**Target Market:**\n- TASC appeals to consumers who prioritize eco-friendly products and sustainable practices.\n- They cater to fitness enthusiasts who value comfort and natural materials in their workout gear.\n\n**Brand Positioning:**\n- TASC positions itself as a brand that combines performance with sustainability.\n- They focus heavily on the benefits of bamboo fabric, such as moisture-wicking, odor resistance, and UV protection.\n\n**Customer Perception:**\n- Customers often appreciate the brand for its commitment to sustainability and the comfort of its products.\n- TASC is seen as a niche player in the market, appealing to those specifically interested in eco-friendly options.\n\n### Lululemon\n\n**Product Offerings:**\n- Lululemon is a well-known brand in the athletic apparel industry, offering a wide range of products including yoga pants, tops, jackets, and accessories.\n- The brand is known for its high-quality, stylish, and performance-oriented products.\n\n**Target Market:**\n- Lululemon targets a broad audience that includes yoga practitioners, athletes, and fitness enthusiasts.\n- Their customer base is often described as fashion-forward, with an interest in both style and functionality.\n\n**Brand Positioning:**\n- Lululemon positions itself as a premium athletic apparel brand, often associated with a lifestyle of health and wellness.\n- They emphasize innovation in fabric technology and design, as well as community involvement through events and classes.\n\n**Customer Perception:**\n- Lululemon enjoys a strong brand loyalty and is often praised for the quality and fit of its products.\n- However, it is sometimes critiqued for its higher price point.\n\n### Comparison\n\n- **Sustainability:** TASC Performance has a stronger emphasis on sustainability with its use of bamboo and other natural materials. Lululemon has been making strides towards sustainability but is not as focused on it as TASC.\n- **Market Position:** Lululemon is a larger, more established brand with a global presence, whereas TASC is more niche and focused on a specific segment of the market.\n- **Product Range:** Lululemon offers a broader range of products and has a larger market share, while TASC focuses on a smaller, more specialized range of products.\n- **Price Point:** Lululemon typically has a higher price point compared to TASC, reflecting its premium brand positioning.\n\nIn summary, while both brands cater to activewear consumers, TASC Performance is more focused on sustainability and natural materials, whereas Lululemon emphasizes premium quality, style, and a broader appeal in the fitness and lifestyle market.",
+      "responseTimeMs": 8603,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 12
+        },
+        {
+          "brand": "Lululemon",
+          "count": 11
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 5
+        },
+        {
+          "brand": "BAM",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "queryIndex": 9,
+      "query": "TASC Performance vs Vuori",
+      "success": true,
+      "response": "When comparing TASC Performance and Vuori, two popular activewear brands, there are several factors you might consider, such as materials, style, sustainability, and price. Here's a general overview of each brand:\n\n### TASC Performance\n\n- **Materials**: TASC Performance is known for using natural fibers, particularly bamboo, in their clothing. Bamboo is praised for its softness, breathability, and moisture-wicking properties. The brand often blends bamboo with organic cotton and other sustainable materials.\n\n- **Sustainability**: TASC places a strong emphasis on sustainability. Their use of bamboo and organic cotton helps reduce their environmental footprint, and they focus on ethical manufacturing processes.\n\n- **Style**: TASC offers a range of activewear that includes tops, bottoms, and outerwear. Their style is typically classic and functional, catering to both men and women. They often focus on versatile pieces that can transition from workout to casual wear.\n\n- **Price**: TASC Performance is generally priced in the mid-range for activewear. Their focus on sustainable materials can sometimes mean slightly higher prices compared to brands that use synthetic materials.\n\n### Vuori\n\n- **Materials**: Vuori uses a variety of materials, including recycled polyester, elastane, and cotton. Their fabrics are designed to be soft, stretchy, and high-performance, suitable for a range of activities.\n\n- **Sustainability**: Vuori is committed to sustainability, using recycled materials and reducing waste. They aim to offset their carbon footprint and use sustainable packaging.\n\n- **Style**: Vuori’s style is often described as a blend of performance and West Coast casual. They offer a wide range of products including shorts, joggers, tops, and outerwear. The brand is known for its modern, stylish designs that appeal to a younger demographic.\n\n- **Price**: Vuori is also positioned in the mid-range to premium pricing tier. The brand's focus on style and performance, along with sustainable practices, can reflect in their pricing.\n\n### Considerations\n\n- **Purpose**: If you prefer natural fibers and classic styles, TASC may be more appealing. If you prioritize modern aesthetics and performance fabrics, Vuori might be a better fit.\n\n- **Sustainability**: Both brands have strong commitments to sustainability, but they approach it differently. Consider which approach aligns more with your personal values.\n\n- **Price**: Both brands are similarly priced, but there may be variations depending on specific products and collections.\n\nUltimately, the choice between TASC Performance and Vuori will depend on your personal preferences regarding materials, style, and brand values. If possible, trying out items from both brands can help determine which one better meets your needs.",
+      "responseTimeMs": 6658,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 8
+        },
+        {
+          "brand": "Vuori",
+          "count": 8
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 5
+        },
+        {
+          "brand": "BAM",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "queryIndex": 10,
+      "query": "Is TASC better than Lululemon?",
+      "success": true,
+      "response": "Determining whether TASC is better than Lululemon depends on several factors, including what specific attributes you're comparing and individual preferences. Here are some aspects to consider:\n\n1. **Product Range**: Lululemon is well-known for its high-quality athletic wear, particularly yoga and fitness apparel. TASC is also focused on activewear but emphasizes natural and sustainable materials, like bamboo.\n\n2. **Material and Quality**: Lululemon is praised for its technical fabrics and the durability of its products. TASC stands out for its use of eco-friendly materials, which some customers may prefer for their softness and sustainability.\n\n3. **Price**: Both brands are positioned in the premium segment of the market. Prices may vary depending on the specific products, but generally, Lululemon is considered to be more expensive.\n\n4. **Sustainability**: TASC places a strong emphasis on sustainability, which can be a significant factor for environmentally conscious consumers. Lululemon has also been working on sustainability initiatives, but TASC's brand identity is more closely tied to eco-friendly practices.\n\n5. **Brand Reputation and Image**: Lululemon has a strong brand presence and is widely recognized in the athletic wear industry. TASC is lesser-known but appeals to a niche market focused on sustainability.\n\n6. **Customer Experience**: Customer service, return policies, and shopping experiences can vary between the two brands. Personal experiences and reviews can provide insight into which brand might offer a better customer experience.\n\nUltimately, \"better\" is subjective and will depend on what aspects are most important to you as a consumer. If sustainability and natural materials are your priority, TASC might be the better choice. If you're looking for a wide range of high-performance athletic wear and are willing to pay a premium, Lululemon might be more suitable.",
+      "responseTimeMs": 8911,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 7
+        },
+        {
+          "brand": "Lululemon",
+          "count": 7
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 11,
+      "query": "TASC vs Vuori which is softer?",
+      "success": true,
+      "response": "When comparing the softness of activewear from TASC and Vuori, it's important to consider the materials and personal preferences, as softness can be subjective. \n\n**TASC Performance** primarily uses bamboo-based fabrics, which are known for their softness and comfort. Bamboo fibers are naturally smooth and round, which can make TASC clothing feel very soft against the skin. Additionally, bamboo fabric is breathable, moisture-wicking, and has natural antimicrobial properties.\n\n**Vuori**, on the other hand, often uses a blend of fabrics including polyester, elastane, and sometimes cotton. Vuori is known for its ultra-soft fabric blends that feel comfortable and luxurious, often described as having a plush, buttery feel. The brand emphasizes a soft hand-feel in many of their products, particularly their popular joggers and performance tops.\n\nUltimately, the perception of softness can vary from person to person. Some may prefer the natural softness of bamboo from TASC, while others might favor the plush softness of Vuori’s fabric blends. If possible, trying on items from both brands or reading customer reviews can provide a better sense of which brand’s softness aligns more with your personal preference.",
+      "responseTimeMs": 10718,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 4
+        },
+        {
+          "brand": "Vuori",
+          "count": 4
+        },
+        {
+          "brand": "BAM",
+          "count": 4
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 12,
+      "query": "TASC Performance vs Rhone",
+      "success": true,
+      "response": "To compare TASC Performance and Rhone, we should look at various factors such as product offerings, quality, style, pricing, and customer feedback. Both brands specialize in performance apparel, but they might cater to slightly different markets or preferences. Here's a general overview:\n\n### TASC Performance:\n- **Product Focus**: TASC Performance is known for using bamboo fabric blends in their activewear. They emphasize natural, sustainable materials that offer moisture-wicking, breathability, and odor resistance.\n- **Quality and Comfort**: Customers often praise TASC for the comfort and softness of their fabrics. The use of bamboo is a key selling point for those looking for eco-friendly and comfortable workout gear.\n- **Style**: Their designs are generally more classic and versatile, suitable for both athletic and casual wear.\n- **Pricing**: TASC products are priced at a mid-range level, offering good value for the quality, especially considering the sustainable materials.\n- **Customer Feedback**: Reviews typically highlight the comfort and quality of the materials, with some noting that the fit can vary by product line.\n\n### Rhone:\n- **Product Focus**: Rhone specializes in premium men's activewear and has expanded into lifestyle clothing. Their products are designed for performance, focusing on fit, function, and style.\n- **Quality and Comfort**: Rhone is known for high-quality fabrics that include features like anti-odor technology and moisture management. Their clothing is often praised for its durability and comfort.\n- **Style**: Rhone's designs tend to be sleek and modern, appealing to those who want a more polished look in their athletic wear.\n- **Pricing**: Rhone is generally positioned at a higher price point, reflecting its focus on premium materials and design.\n- **Customer Feedback**: Rhone receives positive reviews for its style, fit, and the technical features of its fabrics. Some customers may find the pricing on the higher side but feel it is justified by the quality.\n\n### Conclusion:\n- **Target Audience**: TASC might appeal more to those looking for sustainable, comfortable, and versatile performance wear, while Rhone targets consumers looking for premium, stylish, and technically advanced activewear.\n- **Purchase Decision**: The choice between TASC Performance and Rhone could depend on budget, material preference, style, and specific needs in performance features.\n\nBoth brands have their unique strengths, and the best choice depends on individual priorities such as sustainability, price, or technical performance.",
+      "responseTimeMs": 10978,
+      "brandMentions": [
+        {
+          "brand": "Rhone",
+          "count": 9
+        },
+        {
+          "brand": "TASC",
+          "count": 7
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 4
+        },
+        {
+          "brand": "BAM",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 13,
+      "query": "Rhone vs TASC for golf shirts",
+      "success": true,
+      "response": "When deciding between Rhone and TASC for golf shirts, it's essential to consider several factors such as material, fit, style, performance features, and price. Here's a brief comparison to help you make an informed decision:\n\n### Rhone:\n1. **Material**: Rhone is known for using high-quality technical fabrics that often include a blend of polyester, nylon, and spandex, providing a balance of comfort, stretch, and durability.\n2. **Fit**: Rhone typically offers a modern athletic fit, which is slightly more tailored and designed to complement an active lifestyle.\n3. **Style**: The brand emphasizes a sleek, minimalist aesthetic with a focus on versatility, suitable for both on and off the golf course.\n4. **Performance Features**: Rhone shirts often feature moisture-wicking, odor control, and UV protection technologies, making them well-suited for outdoor activities like golf.\n5. **Price**: Generally positioned at the higher end of the market, reflecting the brand's premium materials and design.\n\n### TASC:\n1. **Material**: TASC is renowned for its use of natural fibers, particularly bamboo-based fabrics, which are soft, breathable, and environmentally friendly.\n2. **Fit**: TASC offers a comfortable fit that tends to be more relaxed compared to some other athletic brands, focusing on freedom of movement.\n3. **Style**: The brand integrates a casual, eco-friendly aesthetic that appeals to those who prioritize sustainability and comfort.\n4. **Performance Features**: TASC shirts also include moisture-wicking and UPF protection, with the added benefit of being hypoallergenic due to the natural fibers.\n5. **Price**: Typically, TASC is more moderately priced, offering good value for the quality and sustainability of the materials used.\n\n### Conclusion:\n- **Choose Rhone** if you prioritize a more tailored athletic fit, advanced technical features, and a sleek design.\n- **Choose TASC** if you prefer natural, eco-friendly materials, value comfort and breathability, and are looking for a more relaxed fit.\n\nUltimately, the best choice will depend on your personal preferences for fit, style, and material, as well as your budget.",
+      "responseTimeMs": 8703,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 7
+        },
+        {
+          "brand": "Rhone",
+          "count": 6
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 14,
+      "query": "Is Vuori or TASC more sustainable?",
+      "success": true,
+      "response": "Determining which brand is more sustainable, Vuori or TASC, involves looking at several factors, such as materials used, production processes, labor practices, and corporate sustainability initiatives. Here's a general overview of both:\n\n### Vuori\n- **Materials**: Vuori uses a variety of sustainable materials, including recycled polyester, organic cotton, and other eco-friendly fabrics. They focus on reducing the environmental impact of their production processes.\n- **Production**: Vuori emphasizes ethical manufacturing and has made efforts to ensure fair labor practices throughout their supply chain.\n- **Sustainability Initiatives**: Vuori has committed to sustainability goals, including reducing their carbon footprint and increasing the use of sustainable materials.\n\n### TASC\n- **Materials**: TASC is known for its use of natural and organic materials, particularly bamboo and organic cotton. These materials are chosen for their lower environmental impact compared to conventional fabrics.\n- **Production**: TASC focuses on responsible manufacturing processes that aim to minimize environmental harm. They emphasize transparency in their supply chain.\n- **Sustainability Initiatives**: TASC is committed to creating eco-friendly products and reducing their overall environmental impact through sustainable sourcing and production practices.\n\n### Comparison\n- **Material Use**: TASC has a strong emphasis on natural fibers like bamboo, which are renewable and biodegradable, while Vuori uses a mix of recycled and organic materials.\n- **Production Practices**: Both brands highlight ethical production, but specific details on factory conditions and third-party certifications can provide clearer insights into their sustainability.\n- **Corporate Initiatives**: Both companies have sustainability goals, but the specifics of their commitments can vary. It's essential to look at their public reports or statements for detailed information.\n\nIn summary, both Vuori and TASC have sustainability as a core part of their business practices, but they approach it in slightly different ways. To determine which is more sustainable, you may want to look at third-party assessments, certifications, and detailed sustainability reports from each company.",
+      "responseTimeMs": 7268,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 7
+        },
+        {
+          "brand": "Vuori",
+          "count": 7
+        },
+        {
+          "brand": "BAM",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 15,
+      "query": "TASC vs Lululemon for men's shirts",
+      "success": true,
+      "response": "When comparing TASC and Lululemon for men's shirts, there are several factors to consider, such as material quality, style, performance, and price. Here's a breakdown of each brand's offerings:\n\n### TASC:\n- **Material**: TASC is known for using natural fibers, especially bamboo, in their clothing. This results in shirts that are soft, breathable, and moisture-wicking. Bamboo fabric is also naturally antimicrobial, which can help reduce odor.\n- **Style**: TASC offers a more casual and relaxed style, with a focus on comfort and everyday wear. Their designs are often simple and versatile.\n- **Performance**: While their shirts are comfortable and breathable, TASC may not have the same level of performance-oriented features as some of the high-tech fabrics used by other athletic brands.\n- **Price**: Generally, TASC shirts are moderately priced, often offering good value for the quality of materials used.\n\n### Lululemon:\n- **Material**: Lululemon is known for its high-performance fabrics, which are engineered for specific activities. Their shirts often include features like four-way stretch, sweat-wicking technology, and quick-drying properties.\n- **Style**: Lululemon combines athletic performance with contemporary style. Their designs tend to be more fashion-forward, often appealing to those looking for both functionality and modern aesthetics.\n- **Performance**: Lululemon's shirts are designed with specific activities in mind, such as running, training, or yoga. This focus on performance means their shirts often include features that enhance comfort and movement during exercise.\n- **Price**: Lululemon shirts are typically priced higher than TASC, reflecting their focus on performance technology and brand reputation.\n\n### Conclusion:\n- **Choose TASC** if you prioritize natural materials, comfort for everyday wear, and affordability. Their shirts are ideal for those who value sustainability and softness.\n- **Choose Lululemon** if you are looking for high-performance shirts that are suitable for athletic activities and appreciate modern, stylish designs. Be prepared for a higher price point, which reflects the advanced fabric technology and brand prestige.\n\nUltimately, the choice between TASC and Lululemon will depend on your specific needs and preferences, whether you prioritize natural materials and comfort or advanced performance features and style.",
+      "responseTimeMs": 14266,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 9
+        },
+        {
+          "brand": "Lululemon",
+          "count": 8
+        },
+        {
+          "brand": "BAM",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 16,
+      "query": "Vuori vs TASC vs Lululemon comparison",
+      "success": true,
+      "response": "When comparing Vuori, TASC, and Lululemon, it's essential to consider factors such as product offerings, materials, sustainability, price, and brand ethos. Here's an overview of each brand:\n\n### Vuori\n- **Product Offerings**: Vuori specializes in activewear with a focus on performance and comfort. They offer a variety of products for both men and women, including shorts, pants, tops, and outerwear.\n- **Materials**: Vuori is known for using high-quality, durable materials that are soft and comfortable. They emphasize performance fabrics that are moisture-wicking and quick-drying.\n- **Sustainability**: Vuori is committed to sustainability, using recycled and sustainable materials in their products. They also implement responsible manufacturing practices.\n- **Price**: Vuori products are generally mid-to-high range in terms of pricing, reflecting their quality and sustainable practices.\n- **Brand Ethos**: Vuori promotes a lifestyle of health, wellness, and balance, appealing to consumers looking for both performance and comfort.\n\n### TASC\n- **Product Offerings**: TASC focuses on natural performance apparel, offering products for men and women such as tops, bottoms, and accessories designed for active and everyday wear.\n- **Materials**: TASC is known for using bamboo and organic cotton blends, which are soft, breathable, and naturally moisture-wicking. They emphasize natural fibers.\n- **Sustainability**: The brand places a strong emphasis on sustainability, using eco-friendly materials and manufacturing processes.\n- **Price**: TASC products are typically in the mid-price range, offering a good balance of quality, performance, and sustainability.\n- **Brand Ethos**: TASC's ethos centers around natural, sustainable performance wear that is comfortable and good for the environment.\n\n### Lululemon\n- **Product Offerings**: Lululemon is a well-established brand in the activewear market, offering a wide range of athletic apparel for men and women, including yoga pants, leggings, tops, jackets, and accessories.\n- **Materials**: Known for their proprietary fabrics like Luon and Nulu, Lululemon focuses on technical, high-performance materials that offer stretch, support, and comfort.\n- **Sustainability**: Lululemon has been increasingly focusing on sustainability, aiming to use more sustainable materials and reduce their environmental footprint through various initiatives.\n- **Price**: Lululemon is positioned in the higher price range, reflecting the brand's focus on quality, innovation, and brand prestige.\n- **Brand Ethos**: Lululemon is synonymous with the yoga and fitness lifestyle, promoting a culture of mindfulness, self-improvement, and community.\n\n### Conclusion\n- **Vuori** is ideal for those seeking stylish, comfortable activewear with a focus on sustainability and performance.\n- **TASC** suits consumers who prioritize natural materials and sustainability, offering comfortable and eco-friendly performance wear.\n- **Lululemon** is a go-to for high-performance, premium activewear with a broad range of products and a strong brand presence in the fitness community.\n\nUltimately, the choice between these brands will depend on personal preferences regarding materials, sustainability, price, and the specific type of activewear you're seeking.",
+      "responseTimeMs": 12246,
+      "brandMentions": [
+        {
+          "brand": "Lululemon",
+          "count": 8
+        },
+        {
+          "brand": "Vuori",
+          "count": 8
+        },
+        {
+          "brand": "TASC",
+          "count": 7
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 17,
+      "query": "Which is better TASC or Rhone for working out?",
+      "success": true,
+      "response": "When choosing between TASC and Rhone for workout apparel, consider the following factors to determine which brand might be better for you:\n\n1. **Material and Comfort**:\n   - **TASC**: Known for its sustainable and eco-friendly materials, TASC often uses bamboo and organic cotton blends, which are soft, breathable, and moisture-wicking.\n   - **Rhone**: Focuses on performance-driven apparel with premium materials like Italian fabrics and advanced moisture-wicking technology. Rhone is often praised for its durability and comfort.\n\n2. **Style and Design**:\n   - **TASC**: Offers a more casual and laid-back style that emphasizes comfort and natural materials.\n   - **Rhone**: Known for its sleek, modern, and athletic designs, appealing to those who prefer a more polished look during workouts.\n\n3. **Durability**:\n   - **TASC**: Generally durable due to the quality of its natural fabrics, but may not withstand the same level of high-intensity workouts as Rhone.\n   - **Rhone**: Typically praised for its durability, especially in high-performance and intense workout situations.\n\n4. **Price**:\n   - **TASC**: Generally more affordable, making it a good option if you're looking for quality on a budget.\n   - **Rhone**: Tends to be on the higher end of the price spectrum, reflecting its focus on premium materials and design.\n\n5. **Sustainability**:\n   - **TASC**: Strong emphasis on sustainability and eco-friendly practices, which may appeal to environmentally conscious consumers.\n   - **Rhone**: While Rhone does consider sustainability, it may not be as central to their brand as it is for TASC.\n\nUltimately, the choice between TASC and Rhone will depend on your personal preferences, budget, and priorities. If sustainability and comfort from natural materials are important to you, TASC might be the better choice. However, if you're seeking high-performance, durable, and stylish workout gear, Rhone could be more suitable.",
+      "responseTimeMs": 5870,
+      "brandMentions": [
+        {
+          "brand": "Rhone",
+          "count": 11
+        },
+        {
+          "brand": "TASC",
+          "count": 10
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 18,
+      "query": "TASC Performance vs Vuori joggers",
+      "success": true,
+      "response": "When comparing TASC Performance and Vuori joggers, several factors come into play, such as fabric, fit, style, performance, and price. Here's a general overview of each brand's offerings in the jogger category:\n\n### TASC Performance Joggers\n- **Fabric**: TASC Performance is known for using natural and sustainable materials. Their joggers often feature a bamboo blend, which is soft, breathable, moisture-wicking, and has natural odor-resistant properties.\n- **Fit**: Typically, TASC Performance joggers are designed with a relaxed fit, providing comfort and ease of movement.\n- **Style**: Their joggers often have a more classic, minimalist design, suitable for both casual wear and light athletic activities.\n- **Performance**: The natural fibers offer good breathability and comfort, making them suitable for low to moderate intensity activities.\n- **Price**: Generally, TASC products are mid-range in terms of pricing, reflecting their sustainable and eco-friendly materials.\n\n### Vuori Joggers\n- **Fabric**: Vuori is known for its performance-oriented fabrics, which are often a blend of synthetic materials like polyester and elastane. This gives their joggers excellent stretch, durability, and moisture-wicking capabilities.\n- **Fit**: Vuori joggers are usually designed with a modern, athletic fit, often featuring a tapered leg that provides a more streamlined look.\n- **Style**: Vuori offers a contemporary aesthetic with vibrant colors and sleek designs, making them popular for both gym wear and athleisure.\n- **Performance**: Their joggers are highly regarded for high-intensity workouts due to their flexibility and sweat-wicking properties.\n- **Price**: Vuori joggers are typically priced at a premium level, reflecting their performance features and trendy designs.\n\n### Conclusion\nThe choice between TASC Performance and Vuori joggers largely depends on your priorities:\n\n- If you value sustainability, natural materials, and a more relaxed fit for casual or light activities, TASC Performance might be the better choice.\n- If you prioritize high-performance features, modern style, and a more athletic fit for intense workouts or a fashionable look, Vuori joggers could be more suitable.\n\nUltimately, both brands offer quality products, so your decision should be based on your specific needs and preferences.",
+      "responseTimeMs": 14251,
+      "brandMentions": [
+        {
+          "brand": "Vuori",
+          "count": 8
+        },
+        {
+          "brand": "TASC",
+          "count": 7
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 6
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 19,
+      "query": "Lululemon vs TASC bamboo shirts",
+      "success": true,
+      "response": "When comparing Lululemon and TASC bamboo shirts, there are several factors to consider, including material, comfort, performance, style, and price. Here's a breakdown of these two brands:\n\n### Materials and Comfort\n\n- **Lululemon**: Known for its high-performance athletic wear, Lululemon uses a variety of synthetic materials designed to enhance performance, such as their proprietary Luon and Nulu fabrics. These materials are often praised for their moisture-wicking properties, stretch, and durability. While they do offer some pieces with natural fibers, the majority are synthetics engineered for specific athletic needs.\n\n- **TASC**: TASC Performance is known for its use of bamboo fabric blends. Bamboo is a natural fiber that is soft, breathable, and has natural moisture-wicking and anti-odor properties. Many people find bamboo fabrics to be extremely comfortable, particularly for casual wear and light athletic activities.\n\n### Performance\n\n- **Lululemon**: Their shirts are designed with high-intensity workouts in mind. They often feature technical details like ventilation panels, four-way stretch, and quick-drying properties. This makes them highly suitable for activities like running, yoga, and gym workouts.\n\n- **TASC**: While TASC shirts are comfortable and perform well in terms of moisture management and breathability, they might not offer the same level of technical performance as Lululemon shirts for high-intensity activities. However, they are excellent for activities like walking, hiking, and casual sports.\n\n### Style and Fit\n\n- **Lululemon**: Offers a wide range of styles and fits, often with a more athletic and tailored look. They focus on creating a flattering fit for activewear, with options ranging from fitted to relaxed.\n\n- **TASC**: Typically offers a more relaxed and casual fit. Their styles are often versatile, suitable for both athletic and everyday wear, but may lack the sleek, athletic-focused design of Lululemon.\n\n### Price\n\n- **Lululemon**: Generally considered a premium brand, Lululemon's pricing reflects its position in the market. Their shirts tend to be on the higher end of the price spectrum for activewear.\n\n- **TASC**: Generally more affordable than Lululemon, though still positioned as a premium product due to the use of quality natural materials like bamboo.\n\n### Sustainability\n\n- **Lululemon**: Has been making strides towards more sustainable practices, but the majority of their products are still made with synthetic materials.\n\n- **TASC**: Bamboo is a more sustainable resource compared to traditional cotton or synthetic fibers, as it grows quickly and requires fewer resources. TASC's commitment to using bamboo and organic cotton blends highlights their focus on sustainability.\n\n### Conclusion\n\nChoosing between Lululemon and TASC bamboo shirts largely depends on your needs and preferences:\n\n- If you prioritize high-performance clothing for intense workouts and prefer a sleek, athletic fit, Lululemon might be the better choice.\n- If you value natural materials, comfort, sustainability, and versatility for both athletic and everyday wear, TASC could be more appealing.\n\nBoth brands offer quality products, so your decision may ultimately come down to which attributes you value most in your activewear.",
+      "responseTimeMs": 14374,
+      "brandMentions": [
+        {
+          "brand": "Lululemon",
+          "count": 13
+        },
+        {
+          "brand": "TASC",
+          "count": 11
+        },
+        {
+          "brand": "BAM",
+          "count": 8
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 20,
+      "query": "TASC Performance vs Nike Dri-Fit",
+      "success": true,
+      "response": "When comparing TASC Performance apparel to Nike Dri-Fit, there are several factors to consider, including material, performance, comfort, and style. Here’s a general overview of each:\n\n### TASC Performance\n1. **Material**: TASC Performance is known for using natural fibers, primarily organic cotton and bamboo. Their fabrics, like the Bamboo Performance Technology, are designed to be sustainable, soft, and breathable.\n\n2. **Performance**: TASC focuses on creating moisture-wicking, anti-odor, and UPF protective clothing. The bamboo-based fabric is naturally antibacterial and offers a different kind of breathability compared to synthetic fibers.\n\n3. **Comfort**: The use of natural fibers often results in a softer feel on the skin. Many users find TASC clothing to be extremely comfortable, particularly for casual wear and low to moderate intensity activities.\n\n4. **Style**: TASC offers a more understated, classic style. Their designs are often simple and versatile, suitable for both active and casual settings.\n\n5. **Sustainability**: TASC emphasizes sustainability and eco-friendliness in their production process, which appeals to environmentally-conscious consumers.\n\n### Nike Dri-Fit\n1. **Material**: Nike Dri-Fit apparel is made from high-performance microfiber polyester fabric. This synthetic fiber is engineered to wick moisture away from the body.\n\n2. **Performance**: Known for its moisture-wicking properties, Dri-Fit technology helps keep athletes dry and comfortable during high-intensity workouts. Nike also integrates other technologies for specific sports requirements.\n\n3. **Comfort**: While synthetic, the Dri-Fit technology offers a lightweight and breathable feel. It’s designed for optimal performance during strenuous activities.\n\n4. **Style**: Nike offers a wide range of styles with bold designs and branding. They have a vast selection that caters to different sports and fashion preferences.\n\n5. **Brand Recognition**: As a global leader in sportswear, Nike has significant brand recognition and a reputation for innovation in sports technology.\n\n### Conclusion\nThe choice between TASC Performance and Nike Dri-Fit will largely depend on personal preferences and specific needs. If you prioritize natural materials, sustainability, and comfort for everyday wear, TASC might be the better option. If you’re looking for high-performance gear for intense sports activities with a wide variety of styles, you might lean towards Nike Dri-Fit. Both brands have their strengths, so it’s worth trying products from each to see which aligns best with your lifestyle and activity level.",
+      "responseTimeMs": 19802,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 9
+        },
+        {
+          "brand": "Nike",
+          "count": 8
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 4
+        },
+        {
+          "brand": "BAM",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "queryIndex": 21,
+      "query": "TASC Performance vs Under Armour",
+      "success": true,
+      "response": "When comparing TASC Performance and Under Armour, it is important to consider various aspects such as product offerings, target market, sustainability practices, and brand positioning. Here’s a general overview:\n\n### TASC Performance:\n- **Focus**: TASC Performance is known for its sustainable approach to athletic wear, primarily focusing on natural and eco-friendly materials. They emphasize comfort and performance with a strong commitment to using organic and natural fibers.\n- **Materials**: They often use bamboo and organic cotton blends, which are touted for their breathability, moisture-wicking properties, and softness.\n- **Target Market**: TASC attracts consumers who are environmentally conscious and prefer natural materials in their workout gear.\n- **Sustainability**: The brand highlights its sustainable practices, from material sourcing to manufacturing processes, appealing to eco-conscious consumers.\n- **Product Range**: Their products include a variety of athletic and casual wear, including tops, bottoms, and accessories designed for both men and women.\n\n### Under Armour:\n- **Focus**: Under Armour is a well-established brand in the athletic apparel and footwear industry, known for its innovative use of synthetic materials to enhance athletic performance.\n- **Materials**: They are known for their proprietary technologies such as HeatGear, ColdGear, and UA RUSH, which are designed to improve athletic performance by regulating body temperature and enhancing endurance.\n- **Target Market**: Under Armour targets a broad range of athletes, from professionals to amateurs, and is popular among those looking for performance-driven apparel.\n- **Sustainability**: While Under Armour has made strides in incorporating sustainable practices, their primary focus remains on innovation and performance enhancement. They have initiatives aimed at reducing environmental impact, but sustainability is not their core brand message.\n- **Product Range**: The brand offers a wide range of products including apparel, footwear, and accessories, catering to various sports and activities.\n\n### Key Differences:\n- **Material Use**: TASC emphasizes natural materials, whereas Under Armour focuses on synthetic, performance-enhancing fabrics.\n- **Brand Positioning**: TASC markets itself as a sustainable and eco-friendly brand, while Under Armour is positioned as a high-performance athletic brand.\n- **Market Presence**: Under Armour has a significantly larger market presence and brand recognition globally compared to TASC, which is more niche.\n\nBoth brands offer quality products, but the choice between them often comes down to personal preferences regarding material, brand values, and specific performance needs.",
+      "responseTimeMs": 10858,
+      "brandMentions": [
+        {
+          "brand": "Under Armour",
+          "count": 8
+        },
+        {
+          "brand": "TASC",
+          "count": 7
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 3
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 22,
+      "query": "Is TASC better than Nike for golf?",
+      "success": true,
+      "response": "Determining whether TASC or Nike is better for golf depends on what specific products or aspects you're comparing and what your personal preferences and needs are.\n\n1. **Apparel and Comfort**: \n   - **TASC** is known for its focus on natural and sustainable materials, offering comfortable and eco-friendly apparel. Their products are often praised for being breathable and suitable for a wide range of activities, including golf.\n   - **Nike**, on the other hand, offers a wide range of athletic apparel specifically designed for performance. Nike’s golf clothing often incorporates advanced technology for moisture-wicking, UV protection, and flexibility.\n\n2. **Footwear**:\n   - Nike is a major player in the footwear industry, including golf shoes. They offer a variety of styles that incorporate cutting-edge technology for comfort, support, and traction on the golf course.\n   - TASC does not specialize in footwear, so if shoes are a priority, Nike would likely be the better option.\n\n3. **Equipment**:\n   - Nike used to manufacture golf equipment, but they exited the golf equipment business in 2016. So if you’re looking for clubs or balls, neither TASC nor Nike would be applicable; you might consider other brands like Titleist, Callaway, or TaylorMade.\n\n4. **Sustainability**:\n   - TASC is known for its commitment to sustainability and uses organic and environmentally friendly materials. If eco-friendly products are important to you, TASC may have an edge in this area.\n   - Nike has sustainability initiatives, but it is generally more focused on high-tech performance gear.\n\nUltimately, \"better\" will depend on what you value more: advanced technology and a broad range of products (Nike) or sustainability and comfort (TASC). If possible, try both brands to see which aligns best with your golfing needs.",
+      "responseTimeMs": 8779,
+      "brandMentions": [
+        {
+          "brand": "Nike",
+          "count": 9
+        },
+        {
+          "brand": "TASC",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "queryIndex": 23,
+      "query": "Under Armour vs TASC moisture wicking",
+      "success": true,
+      "response": "When comparing Under Armour and TASC in terms of moisture-wicking capabilities, there are several factors to consider. Both brands are known for their performance apparel, but they use different materials and technologies to achieve moisture management.\n\n### Under Armour:\n- **Material Technology**: Under Armour is well-known for its proprietary fabric technologies like HeatGear and ColdGear. These materials are designed to wick moisture away from the body, keeping the wearer dry and comfortable during physical activities.\n- **Synthetic Fabrics**: Most of Under Armour’s moisture-wicking products are made from synthetic fibers like polyester and elastane, which are engineered to quickly pull sweat away from the skin.\n- **Performance**: Under Armour's garments are often praised for their breathability and rapid drying times, which are crucial for high-intensity workouts.\n\n### TASC:\n- **Material Technology**: TASC uses Bamboo Performance Technology, which incorporates organic cotton and bamboo viscose. Bamboo fiber is naturally moisture-wicking and has antimicrobial properties.\n- **Eco-Friendly**: TASC emphasizes sustainability, and its use of eco-friendly materials is a significant selling point. Bamboo is a renewable resource that requires less water and pesticides compared to traditional cotton.\n- **Performance**: TASC garments are often noted for their softness and natural feel, providing comfort along with moisture management. The natural fibers in TASC products can offer good breathability and odor resistance.\n\n### Comparison:\n- **Moisture-Wicking**: Both brands offer effective moisture-wicking properties, but Under Armour’s synthetic fabrics might provide a slight edge in terms of rapid moisture transport and drying speed.\n- **Comfort**: TASC may be preferred by those looking for a more natural, softer feel against the skin, as well as those with sensitive skin due to its use of natural fibers.\n- **Sustainability**: TASC has a stronger focus on sustainability, which might appeal to environmentally conscious consumers.\n- **Use Case**: The choice between the two might also depend on the specific activity. Under Armour might be better for very intense workouts, while TASC could be more comfortable for everyday wear or yoga.\n\nUltimately, the best choice depends on personal preference, the type of activity, and any specific material preferences or sensitivities. Both brands have a strong reputation for quality and performance in their respective niches.",
+      "responseTimeMs": 8024,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 9
+        },
+        {
+          "brand": "Under Armour",
+          "count": 7
+        },
+        {
+          "brand": "BAM",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "queryIndex": 24,
+      "query": "TASC bamboo vs Nike synthetic shirts",
+      "success": true,
+      "response": "When comparing TASC bamboo shirts to Nike synthetic shirts, there are several factors to consider, including material properties, performance, comfort, and sustainability.\n\n### TASC Bamboo Shirts\n\n**Material:**\n- TASC uses bamboo-based fabric, often blended with organic cotton and other natural fibers.\n- Bamboo fabric is known for its softness and breathability.\n\n**Performance:**\n- Bamboo fabrics are naturally moisture-wicking and breathable, which helps in keeping you cool and dry.\n- They also have natural antibacterial properties, reducing odor even after prolonged use.\n\n**Comfort:**\n- Bamboo fibers are soft and comfortable against the skin, making them suitable for sensitive skin.\n- The material is often described as feeling similar to silk or cashmere.\n\n**Sustainability:**\n- Bamboo is a highly sustainable resource, growing quickly without the need for pesticides or excessive water.\n- TASC emphasizes eco-friendly production processes.\n\n### Nike Synthetic Shirts\n\n**Material:**\n- Nike typically uses synthetic materials like polyester or nylon, often with proprietary technologies like Dri-FIT.\n- These fabrics are engineered for specific performance characteristics.\n\n**Performance:**\n- Synthetic fabrics are designed for excellent moisture management, quickly wicking sweat away from the body.\n- They are often lightweight and durable, making them suitable for intense physical activities.\n\n**Comfort:**\n- Modern synthetic fabrics are engineered to be soft and comfortable, though they may not match the natural feel of bamboo.\n- They can be less breathable than natural fibers, potentially leading to a warmer feel.\n\n**Sustainability:**\n- Synthetic materials are derived from petroleum, which is less sustainable than bamboo.\n- However, companies like Nike are increasingly incorporating recycled materials and sustainable practices in their production.\n\n### Conclusion\n\n- **Choose TASC Bamboo** if you prioritize natural materials, sustainability, softness, and antibacterial properties. These shirts are excellent for those with sensitive skin or who prefer eco-friendly products.\n- **Choose Nike Synthetic** if you prioritize advanced performance features, durability, and moisture-wicking capabilities, especially for high-intensity sports and activities. Nike's use of technology in fabric design can offer specific benefits for athletic performance.\n\nUltimately, the choice depends on your personal preferences and priorities regarding comfort, sustainability, and performance.",
+      "responseTimeMs": 6891,
+      "brandMentions": [
+        {
+          "brand": "BAM",
+          "count": 10
+        },
+        {
+          "brand": "Nike",
+          "count": 6
+        },
+        {
+          "brand": "TASC",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "queryIndex": 25,
+      "query": "Is TASC Performance better than Under Armour Tech?",
+      "success": true,
+      "response": "When comparing TASC Performance and Under Armour Tech, it's important to consider various factors such as material quality, comfort, performance features, price, and personal preferences. Here’s a breakdown of these aspects:\n\n1. **Material**:\n   - **TASC Performance**: Known for using natural fibers, TASC Performance often incorporates bamboo and organic cotton in their products. These materials are praised for their softness, breathability, and moisture-wicking properties.\n   - **Under Armour Tech**: Typically uses synthetic materials like polyester designed to wick sweat and dry quickly. These are engineered for athletic performance and durability.\n\n2. **Comfort**:\n   - **TASC Performance**: The natural fibers used in TASC garments usually provide a soft and comfortable feel, often favored for their breathability and hypoallergenic properties.\n   - **Under Armour Tech**: These are designed for a snug fit and efficient moisture management, providing comfort during high-intensity activities.\n\n3. **Performance Features**:\n   - **TASC Performance**: Focuses on natural comfort and everyday wear, suitable for low to moderate activity levels.\n   - **Under Armour Tech**: Engineered for high performance, offering features like anti-odor technology and quick-drying fabric, making them suitable for intense workouts.\n\n4. **Durability**:\n   - **TASC Performance**: The use of natural fibers can sometimes mean less durability compared to synthetic materials, but they are often more sustainable.\n   - **Under Armour Tech**: Generally more durable due to the use of synthetic fibers, which tend to withstand frequent washing and intense use better.\n\n5. **Price**:\n   - Pricing can vary, but Under Armour Tech is generally positioned as more affordable, especially for entry-level products. TASC Performance might be priced higher due to the use of premium, eco-friendly materials.\n\n6. **Sustainability**:\n   - **TASC Performance**: Strong emphasis on sustainability and eco-friendly practices, appealing to environmentally-conscious consumers.\n   - **Under Armour Tech**: While Under Armour has sustainability initiatives, it's often seen as less focused on this aspect compared to TASC.\n\n7. **Personal Preference**:\n   - Ultimately, the choice between TASC Performance and Under Armour Tech may come down to personal preference regarding fabric feel, brand values, and specific activity requirements.\n\nBoth brands have their strengths, and the better option depends on your specific needs and values, such as preferring natural materials and sustainability (TASC) versus high-performance athletic features (Under Armour).",
+      "responseTimeMs": 10697,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 12
+        },
+        {
+          "brand": "Under Armour",
+          "count": 10
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 9
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 26,
+      "query": "Nike vs TASC for hot weather",
+      "success": true,
+      "response": "When considering athletic wear for hot weather, both Nike and TASC offer options designed to keep you cool and comfortable. Here's a comparison to help you decide which might be better for your needs:\n\n### Nike\n1. **Dri-FIT Technology**: Nike is known for its Dri-FIT technology, which is designed to wick moisture away from the body, helping you stay dry and comfortable during workouts. This can be particularly beneficial in hot weather.\n\n2. **Variety**: Nike offers a wide range of products specifically designed for different sports and activities, including running, training, and yoga. This variety allows you to choose clothing that is not only suitable for hot weather but also for the specific activity you have in mind.\n\n3. **Innovative Fabrics**: Nike frequently develops new materials and technologies aimed at enhancing athletic performance and comfort. This includes lightweight and breathable fabrics that are ideal for heat.\n\n4. **Style and Design**: Nike products often come with contemporary designs and styles that appeal to a broad audience. If aesthetics are important to you, Nike generally offers more trendy options.\n\n### TASC\n1. **Natural Materials**: TASC is known for using natural fibers, particularly bamboo and organic cotton, in its products. These materials are naturally breathable, moisture-wicking, and have anti-odor properties, which can be advantageous in hot weather.\n\n2. **Eco-Friendly**: TASC emphasizes sustainability and eco-friendliness in its production processes. If environmental impact is a concern for you, TASC’s use of natural and renewable resources might be appealing.\n\n3. **Comfort**: The natural fibers used by TASC are often very soft and comfortable against the skin, which can be a significant advantage in hot, sticky weather.\n\n4. **Simple Designs**: TASC tends to offer more understated and classic designs compared to Nike. If you prefer a more minimalist aesthetic, TASC might be more aligned with your tastes.\n\n### Considerations\n- **Activity Type**: If you're engaging in high-intensity sports or activities that require specific technical apparel, Nike's specialized gear might be more suitable.\n- **Environmental Concerns**: If sustainability is a priority, TASC's commitment to using eco-friendly materials could be a deciding factor.\n- **Personal Preference**: Ultimately, personal comfort and style preferences will play a significant role. It may be worthwhile to try products from both brands to see which feels best to you.\n\nBoth brands offer high-quality options for hot weather, so your choice may ultimately come down to which brand aligns more closely with your values and specific needs.",
+      "responseTimeMs": 10940,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 9
+        },
+        {
+          "brand": "Nike",
+          "count": 9
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 27,
+      "query": "Under Armour vs TASC which lasts longer?",
+      "success": true,
+      "response": "When comparing the longevity of athletic wear brands like Under Armour and Tasc, several factors need to be considered, including material quality, garment construction, usage, and care.\n\n1. **Material Quality**: \n   - **Under Armour** is known for its synthetic fabrics, including polyester and elastane blends. These materials are designed for moisture-wicking and durability but can degrade over time, especially with frequent washing.\n   - **Tasc** focuses on natural fibers, particularly bamboo-based fabrics. Bamboo has natural antibacterial properties and is known for its softness and breathability. Tasc's blends often include organic cotton and a bit of elastane for stretch.\n\n2. **Garment Construction**:\n   - Both brands invest in quality construction, but the specific product lines and their intended use (e.g., high-performance sports vs. casual wear) can affect durability. Seams, stitching, and reinforcements vary across different lines.\n\n3. **Usage**:\n   - How the garments are used significantly impacts their lifespan. High-intensity activities, frequent use, and exposure to harsh conditions (like chlorine in pools or UV rays from the sun) can wear down fabrics more quickly, regardless of the brand.\n\n4. **Care and Maintenance**:\n   - Proper care can extend the life of both Under Armour and Tasc products. Washing according to the care instructions, avoiding harsh detergents, and minimizing tumble drying can help maintain fabric integrity.\n\nIn general, experiences with longevity can vary widely among consumers. Some users might find that Under Armour's synthetic fabrics hold up well over time, while others prefer the feel and durability of Tasc's natural fiber blends. Ultimately, the best choice depends on personal preferences regarding fabric feel, usage patterns, and how the garments will be cared for. It's often helpful to read reviews or try out products from both brands to determine which suits your needs better.",
+      "responseTimeMs": 7088,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 5
+        },
+        {
+          "brand": "Under Armour",
+          "count": 4
+        },
+        {
+          "brand": "BAM",
+          "count": 2
+        },
+        {
+          "brand": "REI",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 28,
+      "query": "TASC vs Free Fly bamboo shirts",
+      "success": true,
+      "response": "When comparing TASC and Free Fly bamboo shirts, there are several factors to consider, such as material quality, comfort, style, durability, and price. Here’s a general overview of both brands:\n\n### TASC Performance\n- **Material**: TASC uses a proprietary blend of bamboo and organic cotton, often mixed with other fibers like elastane for stretch. Their fabric, called BamCo®, is designed to enhance moisture-wicking, breathability, and softness.\n- **Comfort**: Known for being soft and comfortable, TASC shirts are often praised for their natural feel and ability to regulate temperature.\n- **Style**: Offers a variety of styles and colors suitable for both activewear and casual wear. \n- **Durability**: The blend of materials is designed to be durable and maintain its shape over time.\n- **Sustainability**: TASC emphasizes eco-friendly practices, using organic and sustainable materials.\n- **Price**: Generally mid-range, reflecting the quality of materials and sustainable practices.\n\n### Free Fly Apparel\n- **Material**: Free Fly specializes in bamboo-based fabrics, often combined with other fibers like spandex for flexibility. Their blends are known for being ultra-soft and lightweight.\n- **Comfort**: Highly regarded for comfort, Free Fly shirts are soft, breathable, and designed to minimize odor.\n- **Style**: Offers a range of casual and outdoor styles, often with a focus on versatility for activities like fishing or hiking.\n- **Durability**: While soft, the fabric is designed to withstand outdoor activities, though some users report it may show wear over time with heavy use.\n- **Sustainability**: Committed to using sustainable materials and processes, though the specifics may vary.\n- **Price**: Typically in the mid to slightly higher range, reflecting the quality and niche market.\n\n### Conclusion\nBoth TASC and Free Fly offer high-quality bamboo shirts with a focus on comfort and sustainability. TASC might appeal more to those looking for performance athletic wear with a sustainable edge, while Free Fly is often favored by those who enjoy outdoor activities and seek comfort and versatility. The choice between the two might ultimately come down to personal preference regarding fit, style, and specific use cases.",
+      "responseTimeMs": 9011,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 7
+        },
+        {
+          "brand": "Free Fly",
+          "count": 6
+        },
+        {
+          "brand": "BAM",
+          "count": 5
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 29,
+      "query": "TASC Performance vs Cariloha",
+      "success": true,
+      "response": "When comparing TASC Performance and Cariloha, you're looking at two brands that both emphasize comfort and sustainability in their clothing lines, but they have different focuses and product offerings.\n\n### TASC Performance:\n1. **Core Focus**: TASC Performance is primarily known for its activewear and performance apparel. The brand emphasizes moisture-wicking, breathability, and comfort, which are essential for athletic endeavors.\n   \n2. **Materials**: TASC uses a proprietary blend of bamboo and organic cotton, known as BamCo® fabric, which is designed to be soft, durable, and environmentally friendly. This blend is particularly noted for its natural moisture-wicking and anti-odor properties.\n\n3. **Product Range**: The brand offers a variety of activewear products including tops, bottoms, and outerwear for both men and women. Their offerings are designed for activities like running, yoga, and general fitness.\n\n4. **Sustainability**: TASC emphasizes eco-friendly practices, using sustainable materials and processes in their production.\n\n### Cariloha:\n1. **Core Focus**: Cariloha is renowned for its luxurious bamboo-based products, which include not only clothing but also bedding, bath items, and home goods. Their focus is on softness and sustainability, with a broader range of home and lifestyle products.\n\n2. **Materials**: The brand uses bamboo viscose, which is known for being incredibly soft and comfortable. Bamboo is a fast-growing, sustainable resource, and Cariloha markets its products as being both eco-friendly and of high quality.\n\n3. **Product Range**: While they do offer some apparel like socks, shirts, and activewear, Cariloha is more widely recognized for its home goods, especially its bedding and towels, which highlight the softness and cooling properties of bamboo.\n\n4. **Sustainability**: Cariloha places a strong emphasis on sustainability, promoting their use of bamboo as a renewable resource. They also have initiatives in place to ensure environmentally responsible manufacturing processes.\n\n### Conclusion:\n- **TASC Performance** is ideal if you are looking for high-quality activewear that combines performance with sustainability.\n- **Cariloha** is better suited if you are interested in a broader range of bamboo-based products, especially if you are looking for soft and sustainable home goods in addition to clothing.\n\nYour choice between the two will likely depend on whether you are primarily seeking activewear or a more diverse range of bamboo-based products.",
+      "responseTimeMs": 9287,
+      "brandMentions": [
+        {
+          "brand": "BAM",
+          "count": 9
+        },
+        {
+          "brand": "Cariloha",
+          "count": 7
+        },
+        {
+          "brand": "TASC",
+          "count": 6
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "queryIndex": 30,
+      "query": "Free Fly vs TASC which is better?",
+      "success": true,
+      "response": "Choosing between Free Fly and TASC can depend on a few factors, including personal preference, specific needs, and intended use. Both brands are known for producing comfortable and versatile clothing, often with a focus on active and outdoor wear. Here are some points to consider when comparing the two:\n\n### Free Fly\n- **Material**: Free Fly is known for its use of bamboo fabric, which offers benefits like softness, breathability, and moisture-wicking properties. This makes their clothing particularly comfortable and well-suited for warm weather.\n- **Style**: Free Fly tends to focus on simple, functional designs that are versatile for both casual wear and outdoor activities.\n- **Sustainability**: The use of bamboo is often marketed as a more sustainable choice compared to traditional cotton, due to bamboo's rapid growth and lower need for pesticides.\n\n### TASC\n- **Material**: TASC uses a blend of bamboo and organic cotton, which also offers comfort, breathability, and moisture-wicking. Their fabrics are designed to be durable and suitable for a range of activities.\n- **Style**: TASC offers a variety of styles that cater to active lifestyles, including options for running, yoga, and general fitness.\n- **Sustainability**: Like Free Fly, TASC emphasizes sustainability in its choice of materials, focusing on eco-friendly production processes.\n\n### Considerations\n- **Comfort**: Both brands prioritize comfort, but the specific feel of the fabric might differ slightly. Trying on garments from both brands can help determine personal preference.\n- **Purpose**: Consider what activities you will be using the clothing for. If you need something more suited to high-intensity workouts, TASC might offer more specialized options.\n- **Design and Fit**: Evaluate the styles and fits offered by both brands to see which aligns better with your taste and body type.\n\nUltimately, deciding which brand is better will come down to individual needs and preferences. If possible, try out products from both to see which aligns best with your expectations for comfort, style, and functionality.",
+      "responseTimeMs": 9760,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 6
+        },
+        {
+          "brand": "Free Fly",
+          "count": 5
+        },
+        {
+          "brand": "BAM",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "queryIndex": 31,
+      "query": "TASC vs Ibex outdoor clothing",
+      "success": true,
+      "response": "TASC and Ibex are both companies that specialize in outdoor clothing, but they have different focuses and unique features that set them apart.\n\n### TASC Performance:\n1. **Material**: TASC is known for its use of bamboo-based fabrics. The company emphasizes sustainability and comfort, using a blend of bamboo and other natural fibers to create soft, breathable, and moisture-wicking clothing. The bamboo fabric is also naturally anti-odor and offers UV protection.\n\n2. **Product Range**: TASC offers a variety of activewear and casual clothing, including tops, bottoms, and accessories for both men and women. Their products are designed for a range of activities, from yoga and running to everyday wear.\n\n3. **Sustainability**: TASC places a strong emphasis on eco-friendly practices, sourcing sustainable materials and ensuring their production processes minimize environmental impact.\n\n4. **Style and Fit**: TASC's clothing is often characterized by a modern, minimalist aesthetic, focusing on comfort and functionality.\n\n### Ibex:\n1. **Material**: Ibex specializes in merino wool fabrics. Merino wool is known for its excellent thermal regulation, moisture-wicking properties, and natural odor resistance. It is a versatile material that performs well in both cold and warm conditions.\n\n2. **Product Range**: Ibex offers a wide range of outdoor clothing primarily made from merino wool, including base layers, mid-layers, outerwear, and accessories. Their products are designed for various outdoor activities like hiking, skiing, and camping.\n\n3. **Sustainability**: Ibex is committed to sustainability, focusing on ethical sourcing of wool and environmentally responsible manufacturing practices.\n\n4. **Style and Fit**: Ibex clothing typically features a classic outdoor aesthetic, often with a focus on performance and durability. Their garments are designed to provide comfort and protection in various outdoor conditions.\n\n### Comparison:\n- **Material Choice**: TASC's emphasis on bamboo-based fabrics contrasts with Ibex's focus on merino wool. The choice between the two may depend on personal preferences for fabric feel and performance in different weather conditions.\n  \n- **Activity Focus**: While both brands cater to outdoor enthusiasts, TASC leans more towards activewear suitable for fitness and casual wear, whereas Ibex is more focused on traditional outdoor activities like hiking and skiing.\n\n- **Sustainability**: Both companies prioritize sustainability, but through different materials and processes. TASC focuses on bamboo, while Ibex highlights ethical wool sourcing.\n\n- **Pricing**: Both brands offer premium products, so pricing can be relatively similar, though specific product lines and materials may vary in cost.\n\nUltimately, the choice between TASC and Ibex will depend on your specific needs, preferences for fabric, and the types of activities you plan to engage in.",
+      "responseTimeMs": 11575,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 10
+        },
+        {
+          "brand": "Ibex",
+          "count": 10
+        },
+        {
+          "brand": "BAM",
+          "count": 5
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 32,
+      "query": "TASC Performance vs Allbirds",
+      "success": true,
+      "response": "TASC Performance and Allbirds are both companies in the apparel industry, but they have distinct focuses and brand philosophies.\n\n### TASC Performance:\n- **Focus**: Primarily on activewear and performance apparel.\n- **Materials**: Emphasizes sustainable materials, particularly bamboo-based fabrics, which are marketed for their softness, moisture-wicking, and anti-odor properties.\n- **Product Range**: Includes a variety of athletic clothing such as tops, bottoms, and outerwear for both men and women.\n- **Brand Philosophy**: TASC Performance is known for its commitment to comfort, sustainability, and performance. Their use of natural fabrics is a significant part of their identity.\n- **Target Audience**: Active individuals who are looking for comfortable, sustainable, and versatile activewear.\n\n### Allbirds:\n- **Focus**: Known primarily for its footwear but has expanded into apparel.\n- **Materials**: Famous for using sustainable materials like merino wool, eucalyptus fiber, and sugarcane-based EVA for their shoes. Their apparel line also follows this sustainable approach.\n- **Product Range**: Initially started with shoes but now includes clothing items such as t-shirts, sweaters, and socks.\n- **Brand Philosophy**: Strong emphasis on sustainability, environmental responsibility, and comfort. Allbirds markets itself as a leader in eco-friendly fashion, with a commitment to reducing carbon footprints.\n- **Target Audience**: Consumers who prioritize sustainability and comfort in their fashion choices, often appealing to environmentally conscious city dwellers.\n\n### Comparison:\n- **Sustainability**: Both brands have a strong commitment to sustainability, though Allbirds has a more prominent reputation in this area due to its aggressive marketing and innovative use of materials.\n- **Product Focus**: TASC is more focused on performance and activewear, while Allbirds started with footwear and is expanding into casual apparel.\n- **Innovation**: Both brands are innovative in their use of materials, but Allbirds is particularly noted for its pioneering eco-friendly materials in the footwear industry.\n- **Market Position**: Allbirds has gained significant attention and market presence, partly due to its high-profile advocacy for sustainability, whereas TASC Performance is more niche, focusing on the active lifestyle segment.\n\nIn summary, while both companies share a commitment to sustainability, their product focuses and market strategies differ, catering to slightly different segments within the broader market for sustainable apparel.",
+      "responseTimeMs": 11819,
+      "brandMentions": [
+        {
+          "brand": "Allbirds",
+          "count": 7
+        },
+        {
+          "brand": "TASC",
+          "count": 5
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 4
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 33,
+      "query": "Cariloha vs TASC bamboo quality",
+      "success": true,
+      "response": "When comparing Cariloha and TASC in terms of bamboo quality, it’s important to consider various aspects such as material composition, product offerings, and customer feedback. Both companies are known for their use of bamboo in different types of products, but they focus on distinct markets and product types.\n\n### Cariloha\n1. **Material**: Cariloha specializes in apparel, bedding, and bath goods made from bamboo viscose. Bamboo viscose is known for its softness, breathability, and moisture-wicking properties.\n   \n2. **Product Offerings**: Cariloha offers a range of products, including sheets, towels, clothing, and mattresses. Their products emphasize luxury and comfort, often highlighted for their silky feel.\n\n3. **Sustainability**: Cariloha places a strong emphasis on sustainability, highlighting the eco-friendly nature of bamboo as a renewable resource. The company often discusses its sustainable practices in sourcing and manufacturing.\n\n4. **Customer Feedback**: Generally, Cariloha receives positive reviews for the softness and quality of its products, especially in the bedding category. Customers appreciate the luxurious feel and cooling properties.\n\n### TASC\n1. **Material**: TASC focuses on performance apparel, utilizing a blend of bamboo viscose and organic cotton or other fibers. The blend is designed to enhance performance attributes such as moisture-wicking, UV protection, and odor resistance.\n\n2. **Product Offerings**: TASC primarily offers activewear, including shirts, shorts, leggings, and other athletic wear. Their products are designed with athletes in mind, emphasizing comfort and functionality.\n\n3. **Sustainability**: TASC also promotes its use of bamboo as a sustainable material. They emphasize eco-friendly practices in their manufacturing processes, although their focus is more on performance than luxury.\n\n4. **Customer Feedback**: TASC is generally praised for the comfort and functionality of its activewear. Customers often highlight the durability and performance of the materials, particularly for workouts and outdoor activities.\n\n### Conclusion\n- **Cariloha** is likely the better choice if you are looking for luxury and comfort, particularly in bedding and bath products. Their products are often described as very soft and luxurious, making them ideal for relaxation and home use.\n- **TASC** is more suitable if you are in the market for performance-oriented activewear. Their bamboo blends are designed to meet the needs of active individuals, providing comfort and functionality.\n\nUltimately, the choice between Cariloha and TASC will depend on your specific needs—whether you prioritize luxury and comfort or performance and functionality.",
+      "responseTimeMs": 11001,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 8
+        },
+        {
+          "brand": "Cariloha",
+          "count": 8
+        },
+        {
+          "brand": "BAM",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "queryIndex": 34,
+      "query": "Is Free Fly or TASC more comfortable?",
+      "success": true,
+      "response": "Comfort is subjective and can vary from person to person, but both Free Fly and TASC are known for producing comfortable, high-quality activewear. Here are some general points to consider about each brand:\n\n### Free Fly\n- **Material**: Free Fly is known for using bamboo-based fabrics which are soft, breathable, and moisture-wicking. Bamboo fabric is also known for its natural odor resistance and UV protection.\n- **Design**: Their apparel often features a relaxed fit, catering to those who prioritize comfort and ease of movement.\n- **Target Activities**: Free Fly gear is popular among outdoors enthusiasts, particularly those who engage in activities like fishing, hiking, and casual wear.\n\n### TASC\n- **Material**: TASC uses a blend of bamboo and organic cotton, which is also soft and environmentally friendly. Their fabrics are designed to be breathable, moisture-wicking, and odor-resistant.\n- **Design**: TASC focuses on athletic and athleisure wear, offering a range of products that balance performance and comfort.\n- **Target Activities**: Their products are suitable for a variety of activities, from high-intensity workouts to leisure and casual wear.\n\n### Considerations\n- **Personal Preference**: Some people might prefer the feel of one material over the other, so it might be worth trying on products from both brands if possible.\n- **Activity Type**: Consider what activities you’ll be using the clothing for, as this might influence which brand's design and material properties are more suitable for you.\n- **Climate**: The breathability and moisture-wicking properties of both brands are beneficial, but if you tend to be in warmer climates, you might want to focus more on these aspects.\n\nUltimately, the best way to determine which brand is more comfortable for you is to try on items from both and see which feels better for your specific needs and preferences.",
+      "responseTimeMs": 6999,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 4
+        },
+        {
+          "brand": "Free Fly",
+          "count": 4
+        },
+        {
+          "brand": "BAM",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "queryIndex": 35,
+      "query": "TASC vs BAM bamboo clothing",
+      "success": true,
+      "response": "When comparing TASC Performance and BAM Bamboo Clothing, both brands focus on sustainable and eco-friendly apparel, often utilizing bamboo fibers. Here's a general overview of the two:\n\n### TASC Performance\n\n1. **Material**: \n   - TASC uses a proprietary fabric blend called BamCo® which combines bamboo viscose with organic cotton and other fibers. This blend is designed to enhance comfort, moisture-wicking, and breathability.\n\n2. **Product Range**:\n   - TASC offers a variety of activewear and casual apparel, including tops, bottoms, and outerwear for both men and women. The focus is on performance wear that can transition from workouts to everyday activities.\n\n3. **Sustainability**:\n   - The brand emphasizes sustainable practices, from the materials used to the production processes. Bamboo is a key component due to its rapid renewability and minimal environmental impact.\n\n4. **Key Features**:\n   - Softness, UV protection, odor resistance, and moisture-wicking properties are commonly highlighted in TASC's product descriptions.\n\n### BAM Bamboo Clothing\n\n1. **Material**:\n   - BAM specializes in clothing made primarily from bamboo viscose, promoting the fabric's softness, breathability, and sustainability.\n\n2. **Product Range**:\n   - The brand offers a wide range of clothing, from activewear like leggings and tops to casual wear including underwear and socks. They cater to both men and women.\n\n3. **Sustainability**:\n   - BAM places a strong emphasis on sustainability, aiming to be impact positive by 2030. This includes carbon footprint reduction, ethical production, and sustainable sourcing of materials.\n\n4. **Key Features**:\n   - Their products highlight the comfort, breathability, thermoregulation, and moisture-wicking properties of bamboo viscose.\n\n### Comparison\n\n- **Sustainability**: Both brands are committed to sustainability, with a focus on bamboo as a key material due to its eco-friendly properties.\n- **Product Offering**: TASC leans more towards performance and activewear, while BAM offers a broader range of everyday wear alongside their activewear.\n- **Material Innovation**: TASC uses a specific fabric blend (BamCo®) while BAM focuses on bamboo viscose.\n- **Market Position**: Both brands target eco-conscious consumers looking for comfortable, high-performance clothing options.\n\nUltimately, the choice between TASC and BAM Bamboo Clothing may come down to personal preference in style, specific product needs, and brand loyalty. Both offer quality products with a commitment to environmental responsibility.",
+      "responseTimeMs": 11342,
+      "brandMentions": [
+        {
+          "brand": "BAM",
+          "count": 19
+        },
+        {
+          "brand": "TASC",
+          "count": 8
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 36,
+      "query": "TASC Performance vs Boody activewear",
+      "success": true,
+      "response": "When comparing TASC Performance and Boody activewear, it's important to consider several factors such as materials, sustainability, comfort, style, and pricing. Here's a general overview of these two brands:\n\n### TASC Performance\n\n1. **Materials**: TASC Performance is known for its use of bamboo-based fabrics. The brand emphasizes natural and eco-friendly materials, combining bamboo with organic cotton or other fibers to create soft, breathable, and moisture-wicking garments.\n\n2. **Sustainability**: TASC places a strong emphasis on sustainability. Bamboo is a renewable resource that requires fewer chemicals and water to grow compared to traditional cotton. This eco-friendly approach is a key selling point for the brand.\n\n3. **Comfort and Performance**: The use of bamboo blends provides a soft feel and good performance characteristics, such as moisture-wicking and odor resistance, making TASC apparel suitable for activewear.\n\n4. **Style**: TASC offers a range of activewear that tends to have a classic and versatile style, suitable for both athletic and casual wear. Their designs are often understated with a focus on functionality.\n\n5. **Pricing**: TASC Performance is generally positioned in the mid to upper price range for activewear, reflecting the quality of materials and sustainable practices.\n\n### Boody\n\n1. **Materials**: Boody also focuses on eco-friendly materials, using organic bamboo yarn in their products. The bamboo is spun into a soft, stretchy fabric that is comfortable against the skin.\n\n2. **Sustainability**: Similar to TASC, Boody is committed to sustainability. They use organically grown bamboo and adhere to sustainable manufacturing processes. Boody also prioritizes ethical labor practices.\n\n3. **Comfort and Performance**: Boody is known for its ultra-soft, seamless designs that offer comfort and a good fit. The fabric is breathable and moisture-wicking, making it ideal for everyday wear and low-impact activities.\n\n4. **Style**: Boody’s style is minimalist and functional, focusing on essentials and basics that are versatile and easy to integrate into any wardrobe. Their designs emphasize simplicity and comfort.\n\n5. **Pricing**: Boody is generally more affordable compared to some other eco-friendly brands, offering good value for sustainable basics and activewear.\n\n### Conclusion\n\nBoth TASC Performance and Boody emphasize sustainability and comfort in their activewear lines, using bamboo as a primary material. TASC might appeal more to those looking for performance-oriented activewear with a slightly higher price point, while Boody offers more affordable, everyday basics with a focus on comfort and simplicity. Your choice between the two may depend on your specific needs, whether it be performance features or budget-friendly, sustainable basics.",
+      "responseTimeMs": 15788,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 10
+        },
+        {
+          "brand": "Boody",
+          "count": 10
+        },
+        {
+          "brand": "BAM",
+          "count": 8
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "queryIndex": 37,
+      "query": "Bamtech vs TASC Performance",
+      "success": true,
+      "response": "It seems like you are looking to compare Bamtech and TASC Performance, but it's important to note that these two entities operate in different industries and are not directly comparable.\n\n1. **Bamtech**:\n   - **Industry**: Technology/Streaming Services\n   - **Overview**: Bamtech Media, now part of the Disney Streaming Services, is known for providing streaming technology and solutions. It was a subsidiary of Major League Baseball Advanced Media (MLBAM) before being acquired by The Walt Disney Company. Bamtech has been instrumental in the development of platforms like ESPN+ and Disney+.\n   - **Focus**: Its focus is on delivering high-quality streaming experiences, ensuring platform stability, and scaling technology to support millions of users.\n\n2. **TASC Performance**:\n   - **Industry**: Apparel\n   - **Overview**: TASC Performance is a company that specializes in activewear and performance apparel. They are known for using natural fibers like bamboo in their products to enhance comfort, moisture-wicking, and odor resistance.\n   - **Focus**: TASC Performance emphasizes sustainable and eco-friendly materials, aiming to provide high-quality athletic wear that performs well in various activities while being comfortable and environmentally conscious.\n\nIf you are interested in specific aspects of their performance, such as financial results, market growth, or product development, it would be beneficial to look at industry reports, financial statements, and consumer reviews specific to each company.",
+      "responseTimeMs": 6004,
+      "brandMentions": [
+        {
+          "brand": "BAM",
+          "count": 6
+        },
+        {
+          "brand": "TASC",
+          "count": 4
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 4
+        },
+        {
+          "brand": "Bamtech",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "queryIndex": 38,
+      "query": "TASC Performance vs Everlane",
+      "success": true,
+      "response": "When comparing TASC Performance and Everlane, it's essential to consider various factors such as product offerings, sustainability practices, pricing, and overall brand ethos. Both companies are known for their commitment to quality and sustainability, but they cater to slightly different markets and have distinct approaches.\n\n### TASC Performance\n- **Product Focus**: TASC Performance specializes in activewear made from natural fibers, particularly their signature bamboo-based fabrics. Their products include clothing for running, yoga, golf, and other athletic activities.\n- **Sustainability**: TASC emphasizes eco-friendly practices by using sustainable materials like bamboo. They focus on reducing environmental impact throughout their production processes.\n- **Quality and Comfort**: Known for their soft, breathable, and moisture-wicking fabrics, TASC products are designed for comfort and performance.\n- **Pricing**: TASC products are generally positioned at a mid-to-high price point, reflecting their focus on quality materials and sustainable practices.\n\n### Everlane\n- **Product Focus**: Everlane offers a range of clothing and accessories, including basics like jeans, t-shirts, and outerwear. Their style leans more towards minimalist and timeless fashion.\n- **Sustainability**: Everlane is known for its radical transparency about production costs and ethical manufacturing practices. They focus on sustainable materials and partner with factories that meet high ethical standards.\n- **Quality and Design**: Everlane emphasizes classic designs and high-quality materials, aiming for durability and long-lasting wear.\n- **Pricing**: Everlane is known for its transparent pricing model, often offering premium-quality goods at a more accessible mid-range price point due to their direct-to-consumer model.\n\n### Key Differences\n- **Market Focus**: TASC primarily targets activewear consumers, while Everlane caters to those looking for everyday essentials with a focus on ethical fashion.\n- **Material Use**: TASC is distinctive for its use of bamboo and other natural fibers, whereas Everlane uses a variety of sustainable materials, including recycled fabrics.\n- **Transparency and Ethics**: Both brands emphasize sustainability and ethical production, but Everlane is particularly noted for its transparency in pricing and production processes.\n\nChoosing between TASC Performance and Everlane often depends on what you're specifically looking for—whether it's high-performance activewear with natural fibers or timeless fashion basics with a focus on ethical production.",
+      "responseTimeMs": 8926,
+      "brandMentions": [
+        {
+          "brand": "Everlane",
+          "count": 10
+        },
+        {
+          "brand": "TASC",
+          "count": 9
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 4
+        },
+        {
+          "brand": "BAM",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "queryIndex": 39,
+      "query": "TASC vs Patagonia sustainability",
+      "success": true,
+      "response": "When comparing the sustainability efforts of TASC and Patagonia, it's important to look at various aspects such as materials, production processes, corporate practices, and overall environmental impact. Here's a general overview of each company's approach to sustainability:\n\n### TASC Performance\n\n1. **Materials**: TASC Performance focuses on using natural materials, particularly bamboo, which is known for its sustainability. Bamboo grows rapidly, requires minimal water, and doesn’t need pesticides, making it an eco-friendly raw material.\n\n2. **Production**: TASC emphasizes eco-friendly production processes. They use a proprietary fabric blend called BamCo®, which combines bamboo with organic cotton and other fibers to create performance apparel. The production processes aim to minimize environmental impact.\n\n3. **Corporate Practices**: TASC is committed to reducing its carbon footprint and promoting sustainable practices across its supply chain. However, detailed information about their corporate sustainability initiatives might not be as widely available as for larger companies like Patagonia.\n\n### Patagonia\n\n1. **Materials**: Patagonia is renowned for its use of recycled and organic materials. The company has been a pioneer in using recycled polyester and organic cotton, and it continues to explore innovative materials like hemp and wool.\n\n2. **Production**: Patagonia has a strong focus on ethical production and reducing environmental impact. They are transparent about their supply chain and work closely with factories to ensure fair labor practices. Patagonia also invests heavily in reducing waste and energy use in their production facilities.\n\n3. **Corporate Practices**: Patagonia is widely recognized for its sustainability efforts. The company donates 1% of its sales to environmental causes and has committed to being carbon neutral by 2025. It also encourages consumers to buy less and repair more, offering repair services and promoting a responsible consumption ethos.\n\n4. **Advocacy and Impact**: Patagonia is actively involved in environmental advocacy, often taking political stances on issues related to climate change and conservation. Their \"Worn Wear\" program encourages recycling and repairing clothing.\n\n### Conclusion\n\nWhile both TASC Performance and Patagonia are committed to sustainability, Patagonia is generally seen as a leader in the industry with a long-standing reputation for environmental advocacy and innovation in sustainable practices. They have a comprehensive approach to sustainability that includes not only materials and production but also corporate responsibility and consumer education.\n\nTASC is also making significant strides, particularly with its focus on bamboo and eco-friendly materials, but it may not have the same level of transparency, advocacy, or widespread recognition as Patagonia. The choice between the two might depend on specific values, such as material preference or support for environmental activism.",
+      "responseTimeMs": 11024,
+      "brandMentions": [
+        {
+          "brand": "Patagonia",
+          "count": 11
+        },
+        {
+          "brand": "TASC",
+          "count": 7
+        },
+        {
+          "brand": "BAM",
+          "count": 5
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "queryIndex": 40,
+      "query": "Is TASC more eco-friendly than Everlane?",
+      "success": true,
+      "response": "When comparing the eco-friendliness of TASC and Everlane, it's important to consider several factors, such as materials used, production processes, supply chain transparency, and sustainability initiatives.\n\n**TASC Performance:**\n- TASC is known for its focus on natural and sustainable materials, primarily using bamboo and organic cotton for its clothing. Bamboo is often praised for its environmental benefits, such as requiring less water and pesticides compared to conventional cotton, and its ability to grow quickly.\n- The brand emphasizes the use of eco-friendly dyes and processes that reduce environmental impact.\n\n**Everlane:**\n- Everlane is committed to transparency in its supply chain and aims to provide information about the factories where its products are made. This transparency helps consumers understand the social and environmental practices involved in production.\n- The brand has been increasing its use of sustainable materials, such as recycled polyester and organic cotton, and has set goals to eliminate new plastic from its supply chain.\n- Everlane also focuses on ethical production and fair wages for workers.\n\n**Comparison:**\n- Both brands have strong commitments to sustainability, but they focus on different aspects. TASC highlights its use of natural materials like bamboo, while Everlane emphasizes supply chain transparency and ethical production.\n- The overall eco-friendliness of each brand can depend on which aspects of sustainability are most important to you, such as material sourcing, production ethics, or supply chain transparency.\n\nUltimately, both brands have made strides toward being more eco-friendly, but the best choice depends on your personal values and priorities regarding sustainability.",
+      "responseTimeMs": 6026,
+      "brandMentions": [
+        {
+          "brand": "Everlane",
+          "count": 5
+        },
+        {
+          "brand": "TASC",
+          "count": 4
+        },
+        {
+          "brand": "BAM",
+          "count": 3
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 41,
+      "query": "TASC Performance vs Cotopaxi",
+      "success": true,
+      "response": "TASC Performance and Cotopaxi are two companies in the outdoor apparel and gear industry, but they have different focuses and brand identities.\n\n### TASC Performance\n\n- **Focus**: TASC Performance specializes in activewear that emphasizes comfort, sustainability, and performance. They are known for their use of bamboo fabric blends, which are marketed as eco-friendly and highly breathable.\n- **Product Range**: Their product line includes a variety of activewear items, such as tops, bottoms, and accessories designed for activities like running, yoga, and general fitness.\n- **Sustainability**: TASC places a strong emphasis on sustainability and the natural qualities of their materials, particularly bamboo, which is touted for its renewable nature and comfort.\n- **Target Audience**: Typically appeals to fitness enthusiasts and individuals seeking comfortable, eco-friendly activewear.\n\n### Cotopaxi\n\n- **Focus**: Cotopaxi is an outdoor gear and apparel company that is highly focused on social impact and sustainability. They are well-known for their colorful, distinctive designs and commitment to ethical manufacturing.\n- **Product Range**: Cotopaxi offers a wide range of products, including backpacks, jackets, and other outdoor gear. They also have a line of apparel suited for both casual and outdoor use.\n- **Sustainability and Social Impact**: Cotopaxi is a certified B Corporation and dedicates a portion of its profits to support various humanitarian initiatives. Their “Gear for Good” philosophy emphasizes sustainable production and social responsibility.\n- **Target Audience**: Appeals to outdoor enthusiasts and socially conscious consumers who value sustainability and ethical business practices.\n\n### Comparison\n\n1. **Sustainability**: Both companies emphasize sustainability, but Cotopaxi integrates social impact more directly into its business model with a focus on ethical practices and charitable contributions.\n   \n2. **Product Offerings**: TASC Performance is more focused on activewear, while Cotopaxi offers a broader range of outdoor equipment and apparel.\n\n3. **Brand Image**: TASC is positioned as a performance and comfort-driven brand with eco-friendly materials, while Cotopaxi emphasizes vibrant, unique designs and a strong commitment to social causes.\n\n4. **Customer Base**: TASC targets fitness enthusiasts looking for functional, comfortable wear, whereas Cotopaxi attracts outdoor adventurers and ethically minded shoppers.\n\nOverall, both brands cater to consumers interested in sustainable and ethically produced products, but they differentiate themselves through their specific product offerings and brand philosophies.",
+      "responseTimeMs": 7989,
+      "brandMentions": [
+        {
+          "brand": "Cotopaxi",
+          "count": 9
+        },
+        {
+          "brand": "TASC",
+          "count": 7
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 4
+        },
+        {
+          "brand": "BAM",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 42,
+      "query": "Most sustainable athletic wear brand",
+      "success": true,
+      "response": "Identifying the \"most\" sustainable athletic wear brand can be subjective, as it depends on various factors such as materials used, manufacturing processes, labor practices, carbon footprint, and company transparency. However, several brands are recognized for their significant efforts in sustainability within the athletic wear industry:\n\n1. **Patagonia**: Known for its environmental activism, Patagonia uses recycled materials, organic cotton, and fair trade practices. It also encourages repairing and recycling products through its Worn Wear program.\n\n2. **Girlfriend Collective**: This brand focuses on transparency and sustainability by using recycled materials like old water bottles to make their clothing. They also ensure ethical labor practices in their supply chain.\n\n3. **Allbirds**: While primarily known for footwear, Allbirds offers activewear made from sustainable materials like merino wool and eucalyptus fiber. They emphasize reducing carbon emissions and have a carbon footprint labeling system.\n\n4. **Outerknown**: Co-founded by surfer Kelly Slater, Outerknown emphasizes sustainability through the use of organic, recycled, and regenerated materials. They also adhere to fair labor practices.\n\n5. **Pangaia**: This brand uses innovative materials like bio-based fibers and recycled materials. Pangaia is committed to creating sustainable products with a focus on environmental impact.\n\n6. **tentree**: This brand plants ten trees for every item sold and uses sustainable materials such as organic cotton, Tencel, and recycled polyester. They focus on transparency and ethical manufacturing.\n\nWhen evaluating sustainability, it's important to consider your personal values and priorities, such as environmental impact, ethical labor practices, or support for innovative materials. Additionally, many brands are making strides in improving their sustainability practices, so it's worth researching their current initiatives.",
+      "responseTimeMs": 7779,
+      "brandMentions": [
+        {
+          "brand": "Allbirds",
+          "count": 2
+        },
+        {
+          "brand": "Patagonia",
+          "count": 2
+        },
+        {
+          "brand": "Girlfriend Collective",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 43,
+      "query": "TASC vs Girlfriend Collective which is greener?",
+      "success": true,
+      "response": "When comparing the sustainability and environmental friendliness of TASC and Girlfriend Collective, it's important to consider several factors such as materials used, manufacturing processes, supply chain transparency, and company policies on sustainability.\n\n### TASC Performance\n- **Materials**: TASC focuses on using natural fibers such as bamboo, organic cotton, and merino wool. Bamboo, in particular, is known for its rapid growth and minimal need for pesticides, making it a more sustainable option compared to conventional cotton.\n- **Manufacturing**: TASC claims to use environmentally friendly processes and emphasizes the importance of sustainable practices in their supply chain. However, specific details about their manufacturing processes and certifications are less publicly detailed compared to some other brands.\n- **Certifications**: The level of third-party sustainability certifications for TASC is not as prominently highlighted, which can make it harder to assess their overall environmental impact.\n\n### Girlfriend Collective\n- **Materials**: Girlfriend Collective is known for using recycled materials, particularly post-consumer recycled plastic bottles and fishing nets, to create their fabrics. This recycling approach helps reduce waste and repurpose materials that would otherwise contribute to pollution.\n- **Manufacturing**: The company is transparent about its manufacturing processes, emphasizing ethical labor practices and environmentally friendly production methods. They also provide information about their factory conditions and the steps they take to minimize environmental impact.\n- **Certifications**: Girlfriend Collective often highlights its certifications and partnerships with organizations that promote sustainability, which can provide additional assurance of their environmental commitment.\n\n### Conclusion\nOverall, Girlfriend Collective tends to have a stronger emphasis on transparency and specific sustainable practices, especially with their use of recycled materials and detailed disclosure about their manufacturing processes. TASC, while also committed to sustainability, primarily focuses on natural fibers and may not provide as much detailed information about their entire supply chain and certifications.\n\nFor consumers particularly interested in sustainability, Girlfriend Collective might be considered \"greener\" due to their comprehensive approach and transparency in using recycled materials and promoting fair labor practices. However, both brands have made significant efforts towards sustainability in their own ways, and the decision might also depend on personal values and priorities regarding sustainability.",
+      "responseTimeMs": 8736,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 6
+        },
+        {
+          "brand": "Girlfriend Collective",
+          "count": 6
+        },
+        {
+          "brand": "BAM",
+          "count": 2
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 44,
+      "query": "Best bamboo athletic clothing brands",
+      "success": true,
+      "response": "Bamboo fabric is popular in athletic clothing due to its breathability, moisture-wicking properties, and eco-friendliness. Here are some notable brands known for their bamboo athletic clothing:\n\n1. **Boody**: Known for its sustainable and comfortable bamboo basics, Boody offers a range of activewear that includes leggings, tops, and sports bras made from bamboo.\n\n2. **Cariloha**: This brand emphasizes eco-friendly clothing and offers a selection of bamboo-based activewear that is soft, breathable, and designed for performance.\n\n3. **Free Fly Apparel**: Specializing in casual and outdoor clothing made from bamboo, Free Fly Apparel offers activewear options that are lightweight and ideal for various activities.\n\n4. **Tasc Performance**: Tasc combines bamboo with other natural fibers to create performance fabrics that are moisture-wicking and odor-resistant, ideal for athletic wear.\n\n5. **BAM Bamboo Clothing**: Based in the UK, BAM offers a wide range of bamboo clothing, including activewear designed for comfort and performance during workouts.\n\n6. **Yala**: Known for its sustainable and ethically made clothing, Yala offers bamboo-based apparel that includes versatile activewear.\n\nThese brands focus on sustainability and performance, making them popular choices for those seeking eco-friendly and comfortable athletic clothing options.",
+      "responseTimeMs": 5204,
+      "brandMentions": [
+        {
+          "brand": "BAM",
+          "count": 12
+        },
+        {
+          "brand": "TASC",
+          "count": 2
+        },
+        {
+          "brand": "Free Fly",
+          "count": 2
+        },
+        {
+          "brand": "Boody",
+          "count": 2
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 1
+        },
+        {
+          "brand": "Cariloha",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 45,
+      "query": "Best golf shirts for hot weather",
+      "success": true,
+      "response": "When looking for the best golf shirts for hot weather, several factors are important, including breathability, moisture-wicking properties, UV protection, and comfort. Here are some top options that have been highly rated for their performance in hot conditions:\n\n1. **Nike Dri-FIT Polo**: Known for its excellent moisture-wicking properties, the Dri-FIT technology helps keep you dry and comfortable. The fabric is lightweight and breathable, making it ideal for hot weather.\n\n2. **Under Armour Playoff Polo**: This shirt is designed with a four-way stretch fabric, providing flexibility and comfort. It also features moisture-wicking technology and offers UV protection, which is beneficial for sunny days on the course.\n\n3. **adidas Ultimate365 Polo**: Made with a breathable and moisture-wicking fabric, this shirt offers UPF 50+ protection against UV rays. It also has a modern fit and a comfortable feel, making it a great choice for hot weather.\n\n4. **PUMA Golf Jackpot Polo**: This polo features DRYCELL technology to keep you dry and comfortable. The lightweight fabric is breathable and comes with UV protection. It also offers a stylish look with a variety of color options.\n\n5. **Callaway Opti-Dri Golf Polo**: Known for its Opti-Dri technology, this shirt effectively wicks away moisture. It also provides UV protection and has a comfortable fit, making it suitable for hot weather conditions.\n\n6. **FootJoy ProDry Performance Polo**: This shirt is designed with ProDry moisture-wicking technology and offers excellent breathability. It also provides UV protection and is known for its durability and comfort.\n\n7. **Lululemon Metal Vent Tech Polo**: While not a traditional golf brand, Lululemon offers this polo with excellent ventilation and moisture management. The seamless construction adds to the comfort, making it a great option for warm days.\n\nWhen choosing a golf shirt for hot weather, consider your personal style preferences, fit, and any specific features you prioritize, such as additional UV protection or stretchability.",
+      "responseTimeMs": 8483,
+      "brandMentions": [
+        {
+          "brand": "Lululemon",
+          "count": 2
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "Under Armour",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 46,
+      "query": "Best moisture wicking shirts for sweating",
+      "success": true,
+      "response": "When it comes to moisture-wicking shirts, the key is to look for materials and designs that effectively move sweat away from your skin, keeping you dry and comfortable. Here are some of the best options available:\n\n1. **Nike Dri-FIT**: Nike's Dri-FIT technology is well-regarded for its ability to wick moisture away from the body. These shirts are lightweight and breathable, making them ideal for workouts or hot weather.\n\n2. **Under Armour HeatGear**: Known for its quick-drying and lightweight fabric, HeatGear is perfect for keeping you cool during intense activities. Under Armour offers a range of styles and fits to suit different preferences.\n\n3. **Adidas Climalite/Climacool**: Adidas offers moisture-wicking technology in their Climalite and Climacool lines. These shirts are designed to manage sweat and maintain comfort, even during intense exercise.\n\n4. **Lululemon Metal Vent Tech**: Lululemon's Metal Vent Tech shirts are popular for their seamless design and anti-odor properties, in addition to their excellent moisture-wicking capabilities.\n\n5. **Reebok ActivChill**: Reebok's ActivChill fabric is designed to promote airflow and wick moisture, making it a great choice for high-intensity workouts.\n\n6. **Patagonia Capilene**: Known for its environmental consciousness, Patagonia offers Capilene shirts that are not only effective at moisture management but also made from recycled materials.\n\n7. **Columbia Omni-Wick**: Columbia's Omni-Wick technology effectively pulls moisture away from the skin and spreads it across the surface of the fabric for quick evaporation.\n\n8. **Rhone Reign**: Rhone's Reign collection features moisture-wicking technology and anti-odor properties, making them a good option for both workouts and casual wear.\n\n9. **Baleaf Activewear**: Baleaf offers budget-friendly options with effective moisture-wicking properties. Their shirts are well-suited for a variety of activities.\n\n10. **Champion Vapor**: Known for its affordability and effectiveness, Champion's Vapor technology helps to keep you dry by evaporating sweat quickly.\n\nWhen choosing a moisture-wicking shirt, consider the fit, fabric blend, and any additional features like UV protection or anti-microbial treatments to find the best option for your needs.",
+      "responseTimeMs": 11265,
+      "brandMentions": [
+        {
+          "brand": "Lululemon",
+          "count": 2
+        },
+        {
+          "brand": "Rhone",
+          "count": 2
+        },
+        {
+          "brand": "Nike",
+          "count": 2
+        },
+        {
+          "brand": "Under Armour",
+          "count": 2
+        },
+        {
+          "brand": "Patagonia",
+          "count": 2
+        },
+        {
+          "brand": "REI",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 47,
+      "query": "Best workout shirts that don't smell",
+      "success": true,
+      "response": "When looking for workout shirts that resist odors, it's important to focus on materials and technologies designed for moisture-wicking and odor control. Here are some popular options that are well-regarded for staying fresh:\n\n1. **Merino Wool Shirts**: Merino wool is naturally odor-resistant and breathable. Brands like Icebreaker and Smartwool offer high-quality merino wool workout shirts that can handle sweat without retaining smell.\n\n2. **Lululemon**: Their Silverescent technology infuses silver fibers into the fabric to prevent odor-causing bacteria. Shirts like the Lululemon Metal Vent Tech are popular choices.\n\n3. **Under Armour**: Known for their anti-odor technology, Under Armour offers shirts like the UA Tech and UA RUSH, which are designed to wick moisture and prevent odor.\n\n4. **Patagonia Capilene**: Patagonia's Capilene shirts are made with recycled polyester and feature Polygiene odor control technology, making them a great choice for workouts.\n\n5. **Rhone**: Rhone's workout shirts often incorporate GoldFusion technology, which uses gold particles to combat odor and improve fabric durability.\n\n6. **Nike Dri-FIT**: Nike's Dri-FIT technology is designed to wick sweat away and keep you dry, and many of their shirts also include antimicrobial treatments to reduce odor.\n\n7. **Adidas AEROREADY**: Adidas offers shirts with AEROREADY technology that keeps you dry and includes odor-resistant treatments.\n\n8. **Baleaf**: This brand offers affordable options with moisture-wicking and quick-drying properties that help minimize odor.\n\nWhen selecting workout shirts, consider your specific needs, such as the intensity and type of workouts you do, the climate you live in, and personal comfort preferences. It's also a good idea to read reviews and possibly try a few different brands to see which works best for you.",
+      "responseTimeMs": 9417,
+      "brandMentions": [
+        {
+          "brand": "Lululemon",
+          "count": 2
+        },
+        {
+          "brand": "Rhone",
+          "count": 2
+        },
+        {
+          "brand": "Nike",
+          "count": 2
+        },
+        {
+          "brand": "Under Armour",
+          "count": 2
+        },
+        {
+          "brand": "Patagonia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 48,
+      "query": "Best sustainable activewear brands",
+      "success": true,
+      "response": "There are several sustainable activewear brands that focus on eco-friendly practices, ethical labor, and high-quality materials. Here are some of the best sustainable activewear brands:\n\n1. **Patagonia**: Known for its strong commitment to environmental sustainability, Patagonia uses recycled materials and promotes fair labor practices. They also encourage customers to repair and recycle their products.\n\n2. **Girlfriend Collective**: This brand is popular for its stylish activewear made from recycled materials like old water bottles and fishing nets. They emphasize body positivity and inclusivity in their sizing.\n\n3. **Outdoor Voices**: Outdoor Voices focuses on creating versatile, sustainable activewear. They use recycled and responsibly sourced materials and promote transparency in their production processes.\n\n4. **Tentree**: For every item purchased, Tentree plants ten trees, reflecting their commitment to environmental conservation. Their activewear is made from sustainable materials such as organic cotton and recycled polyester.\n\n5. **Wolven Threads**: This brand creates vibrant and unique activewear using recycled materials. They have a carbon-offset program and focus on reducing waste in their production process.\n\n6. **Allbirds**: While primarily known for their footwear, Allbirds has expanded into activewear. They use sustainable materials like merino wool and eucalyptus fibers and prioritize carbon neutrality.\n\n7. **Nimble Activewear**: Nimble Activewear's products are made from recycled plastic bottles and other sustainable materials. The brand is committed to ethical manufacturing and reducing their carbon footprint.\n\n8. **Pact**: Pact offers a range of activewear made from organic cotton. They focus on fair trade and sustainable farming practices, ensuring minimal environmental impact.\n\n9. **Prana**: Known for their yoga and outdoor gear, Prana uses sustainable materials and fair trade practices. They are committed to reducing their plastic use and have a strong focus on corporate responsibility.\n\n10. **TALA**: This brand offers trendy activewear with a focus on sustainability. TALA uses upcycled materials and emphasizes transparency in their supply chain.\n\nWhen choosing sustainable activewear, it's important to consider the materials used, the ethical practices of the company, and the durability of the products. Supporting brands that prioritize sustainability helps promote a more eco-friendly fashion industry.",
+      "responseTimeMs": 9987,
+      "brandMentions": [
+        {
+          "brand": "Allbirds",
+          "count": 2
+        },
+        {
+          "brand": "Patagonia",
+          "count": 2
+        },
+        {
+          "brand": "Girlfriend Collective",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 49,
+      "query": "Best bamboo polo shirts for golf",
+      "success": true,
+      "response": "Bamboo polo shirts have become popular among golfers due to their softness, breathability, and eco-friendly properties. Here are some of the best bamboo polo shirts for golf:\n\n1. **Free Fly Apparel**: Known for their use of bamboo, Free Fly offers polo shirts that are lightweight, breathable, and moisture-wicking. They provide a comfortable fit that is ideal for golf.\n\n2. **Cariloha**: Cariloha specializes in bamboo clothing and their polo shirts are no exception. They are soft, breathable, and offer great temperature regulation, making them perfect for a day on the golf course.\n\n3. **Bamboo Cay**: While Bamboo Cay is more known for their casual island wear, they do offer polo shirts made from bamboo that are stylish and comfortable, suitable for golf.\n\n4. **Coalatree**: Coalatree produces eco-minded apparel, and their bamboo polos are designed for outdoor activities, providing comfort and flexibility.\n\n5. **Tasc Performance**: Tasc combines bamboo with organic cotton to create polo shirts that are soft, durable, and perfect for active wear. Their polos offer UV protection and are moisture-wicking, which is great for golfers.\n\n6. **Panda Polos (by Bamboo Supply Co.)**: These polo shirts are crafted from bamboo viscose, offering a silky feel and excellent breathability. They are designed to be lightweight and comfortable for outdoor activities like golf.\n\nWhen choosing a bamboo polo shirt for golf, consider factors such as fit, breathability, moisture-wicking properties, and UV protection. Additionally, make sure to check for any specific care instructions to maintain the shirt's quality.",
+      "responseTimeMs": 7929,
+      "brandMentions": [
+        {
+          "brand": "BAM",
+          "count": 12
+        },
+        {
+          "brand": "TASC",
+          "count": 2
+        },
+        {
+          "brand": "Free Fly",
+          "count": 2
+        },
+        {
+          "brand": "Cariloha",
+          "count": 2
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 50,
+      "query": "Best chemical-free workout clothes",
+      "success": true,
+      "response": "When looking for chemical-free workout clothes, it's important to focus on brands that prioritize natural, organic, and sustainable materials while avoiding harmful chemicals. Here are some brands that offer chemical-free or low-chemical workout clothes:\n\n1. **Pact**: Known for their organic cotton clothing, Pact offers a range of activewear that is both comfortable and environmentally friendly.\n\n2. **Organic Basics**: This brand offers activewear made from organic cotton and TENCEL™, focusing on sustainability and low-impact production.\n\n3. **Prana**: Prana uses materials like organic cotton and recycled polyester in their activewear, and they are committed to fair trade and environmentally conscious practices.\n\n4. **Patagonia**: While not exclusively chemical-free, Patagonia is committed to sustainable and ethical practices and offers some organic and recycled material options.\n\n5. **Groceries Apparel**: This brand emphasizes sustainability and uses organic and recycled materials, including non-toxic dyes and sustainable manufacturing processes.\n\n6. **Boody**: Specializing in bamboo-based clothing, Boody offers eco-friendly activewear that is soft, breathable, and made from organic materials.\n\n7. **Threads 4 Thought**: This brand focuses on sustainable fabrics such as organic cotton and recycled polyester, with a commitment to ethical manufacturing.\n\nWhen searching for chemical-free workout clothes, look for certifications like GOTS (Global Organic Textile Standard) for organic textiles or OEKO-TEX® Standard 100, which ensures that the clothing is free from harmful chemicals. Additionally, consider checking the brand’s commitment to sustainability and ethical production practices.",
+      "responseTimeMs": 7266,
+      "brandMentions": [
+        {
+          "brand": "Boody",
+          "count": 2
+        },
+        {
+          "brand": "Patagonia",
+          "count": 2
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 51,
+      "query": "Best anti-odor athletic shirts",
+      "success": true,
+      "response": "When looking for the best anti-odor athletic shirts, it's important to consider materials, technology, and brand reputation. Here are some popular options known for their anti-odor properties:\n\n1. **Under Armour Tech 2.0** - Under Armour is known for its moisture-wicking and anti-odor technology. Their Tech 2.0 shirts feature anti-odor fabric that helps prevent the growth of odor-causing microbes.\n\n2. **Nike Dri-FIT** - Nike's Dri-FIT technology not only wicks away sweat but also includes anti-odor properties to help keep you fresh during workouts.\n\n3. **Patagonia Capilene Cool** - Patagonia uses a blend of recycled polyester treated with an anti-microbial finish to reduce odor. Their Capilene Cool series is well-regarded for comfort and odor resistance.\n\n4. **Lululemon Metal Vent Tech** - Lululemon's shirts are designed with Silverescent technology, which incorporates silver fibers to inhibit the growth of odor-causing bacteria.\n\n5. **Icebreaker Merino Wool Shirts** - Merino wool naturally resists odors, making Icebreaker's shirts a great choice. They offer breathability and comfort while keeping odors at bay.\n\n6. **Rhone Reign Tech Tee** - Rhone uses GoldFusion technology, which infuses gold particles to provide long-lasting odor protection. Their shirts are soft, breathable, and stylish.\n\n7. **Adidas AEROREADY** - Adidas offers AEROREADY shirts that manage moisture and include anti-microbial treatments to help control odors.\n\nWhen selecting an anti-odor athletic shirt, consider the type of activity you'll be doing, the climate you'll be in, and personal preferences for fit and feel. Each brand and technology might suit different needs, so it might be helpful to try a few to see which works best for you.",
+      "responseTimeMs": 9552,
+      "brandMentions": [
+        {
+          "brand": "Lululemon",
+          "count": 2
+        },
+        {
+          "brand": "Rhone",
+          "count": 2
+        },
+        {
+          "brand": "Nike",
+          "count": 2
+        },
+        {
+          "brand": "Under Armour",
+          "count": 2
+        },
+        {
+          "brand": "Patagonia",
+          "count": 2
+        },
+        {
+          "brand": "REI",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 52,
+      "query": "Best eco-friendly men's activewear",
+      "success": true,
+      "response": "Choosing eco-friendly men's activewear involves looking for brands that prioritize sustainability in their materials, manufacturing processes, and overall business practices. Here are some notable brands and tips to consider:\n\n1. **Patagonia**: Known for its environmental activism and commitment to sustainability, Patagonia offers a range of activewear made from recycled materials and organic cotton. They also emphasize fair trade practices and ethical manufacturing.\n\n2. **prAna**: prAna is committed to using organic cotton, recycled polyester, and other sustainable materials. They focus on fair trade and offer a variety of activewear options suitable for different activities.\n\n3. **Outerknown**: Founded by professional surfer Kelly Slater, Outerknown emphasizes sustainable materials such as organic cotton and recycled polyester. They are transparent about their supply chain and focus on fair labor practices.\n\n4. **tentree**: This brand plants ten trees for every item purchased. They use eco-friendly materials like Tencel, organic cotton, and recycled polyester in their products.\n\n5. **Vuori**: Vuori combines style with sustainability, using recycled materials and focusing on ethical manufacturing. Their activewear is designed for versatility, suitable for both workouts and casual wear.\n\n6. **Girlfriend Collective**: Although they initially started with women's activewear, Girlfriend Collective now offers men's options. They use recycled materials, such as plastic bottles, to make their products and are transparent about their production process.\n\n7. **Pact**: Known for its organic cotton products, Pact offers activewear that is both comfortable and sustainable. They focus on fair trade practices and environmentally friendly manufacturing.\n\n8. **Allbirds**: While primarily known for their shoes, Allbirds has expanded into activewear. They use sustainable materials like merino wool and recycled polyester, and are committed to reducing their carbon footprint.\n\n9. **Nike Move to Zero**: Nike's Move to Zero initiative aims to reduce waste and carbon emissions. They offer products made from recycled materials, including polyester and rubber.\n\nWhen selecting eco-friendly activewear, consider the following tips:\n\n- **Materials**: Look for products made from organic cotton, recycled polyester, Tencel, hemp, or other sustainable fibers.\n- **Certifications**: Check for certifications such as Global Organic Textile Standard (GOTS), Fair Trade Certified, or Bluesign to ensure sustainability and ethical practices.\n- **Transparency**: Choose brands that are transparent about their supply chain and manufacturing processes.\n- **Durability**: Prioritize high-quality products designed to last, reducing the need for frequent replacements.\n\nBy supporting brands that prioritize sustainability, you can contribute to a more eco-friendly lifestyle while enjoying high-performance activewear.",
+      "responseTimeMs": 11555,
+      "brandMentions": [
+        {
+          "brand": "Vuori",
+          "count": 2
+        },
+        {
+          "brand": "Nike",
+          "count": 2
+        },
+        {
+          "brand": "Allbirds",
+          "count": 2
+        },
+        {
+          "brand": "Patagonia",
+          "count": 2
+        },
+        {
+          "brand": "Girlfriend Collective",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 53,
+      "query": "Best natural fiber performance clothing",
+      "success": true,
+      "response": "When looking for high-performance clothing made from natural fibers, you'll want to consider materials that offer breathability, moisture-wicking properties, temperature regulation, and durability. Here are some of the best natural fibers used in performance clothing:\n\n1. **Merino Wool**: \n   - Known for its excellent temperature regulation, moisture-wicking, and odor-resistant properties.\n   - Keeps you warm in cold conditions and cool in warm conditions.\n   - Soft and comfortable against the skin, making it ideal for base layers, socks, and even outerwear.\n\n2. **Cotton**: \n   - While traditional cotton is not often associated with performance due to its water-retention properties, newer technologies like Pima cotton or cotton blends have improved its functionality.\n   - Offers comfort and breathability, especially when blended with synthetic fibers for added performance.\n\n3. **Bamboo**:\n   - Naturally moisture-wicking, breathable, and soft.\n   - Has antibacterial properties, which help in odor control.\n   - Often used in activewear and base layers.\n\n4. **Hemp**:\n   - Strong and durable with natural antimicrobial properties.\n   - Becomes softer with each wash.\n   - Often blended with other fibers to enhance comfort and performance.\n\n5. **Silk**:\n   - Naturally thermoregulating and lightweight.\n   - Provides a comfortable and soft feel on the skin.\n   - Best used in moderate activity levels or as a base layer for its comfort.\n\n6. **Tencel (Lyocell)**:\n   - Made from sustainably sourced wood pulp, often eucalyptus.\n   - Known for its breathability and moisture-wicking properties.\n   - Soft, comfortable, and has a silky feel, often used in performance underwear and shirts.\n\n7. **Linen**:\n   - Highly breathable and strong.\n   - Ideal for hot weather conditions due to its cooling properties.\n   - Often blended with other fibers to improve flexibility and comfort.\n\nWhen selecting performance clothing made from natural fibers, consider what activities you'll be using them for and the environmental conditions. Many brands now offer garments that blend these natural fibers with synthetic materials to enhance their performance attributes, providing the best of both worlds. Some popular brands that focus on natural fiber performance clothing include Icebreaker, Smartwool, Patagonia, and Allbirds.",
+      "responseTimeMs": 9716,
+      "brandMentions": [
+        {
+          "brand": "Allbirds",
+          "count": 1
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        },
+        {
+          "brand": "Patagonia",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 54,
+      "query": "What is TASC bamboo fabric made of?",
+      "success": true,
+      "response": "TASC bamboo fabric is made from a blend of bamboo fibers and other natural or synthetic materials. Typically, the process involves converting bamboo pulp into a viscose or rayon, which is then combined with other fibers like organic cotton or elastane to enhance the fabric's properties. This blend results in a fabric that is soft, breathable, moisture-wicking, and sustainable, often used in activewear and casual clothing. TASC Performance, the company behind this fabric, emphasizes eco-friendly production and high-performance qualities.",
+      "responseTimeMs": 2193,
+      "brandMentions": [
+        {
+          "brand": "BAM",
+          "count": 3
+        },
+        {
+          "brand": "TASC",
+          "count": 2
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 55,
+      "query": "Is TASC Performance really chemical-free?",
+      "success": true,
+      "response": "TASC Performance is a brand known for its commitment to creating high-quality, eco-friendly athletic apparel. They emphasize using natural and sustainable materials, such as bamboo and organic cotton, in their products. The company aims to minimize the use of chemical treatments and synthetic materials in their manufacturing processes. However, it is essential to understand that \"chemical-free\" can be a nuanced term. While TASC Performance strives to use fewer chemicals compared to traditional athletic apparel brands, some level of processing and treatment is usually necessary in textile production to ensure durability, colorfastness, and performance characteristics. \n\nFor the most accurate and detailed information regarding their claims about being \"chemical-free,\" it would be best to consult TASC Performance's official website or contact the company directly for specifics on their materials and processes.",
+      "responseTimeMs": 6007,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 3
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 3
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 56,
+      "query": "What is BamCo fabric?",
+      "success": true,
+      "response": "BamCo fabric is a type of textile made primarily from bamboo fibers. Bamboo is a sustainable and eco-friendly resource because it grows quickly without the need for pesticides or fertilizers. The process of turning bamboo into fabric involves breaking down the bamboo stalks and extracting the cellulose, which is then spun into yarn and woven into fabric.\n\nBamCo fabric is known for its softness, breathability, and moisture-wicking properties, making it a popular choice for clothing, bedding, and other textile products. Additionally, bamboo fabric has natural antibacterial and hypoallergenic qualities, which add to its appeal for use in products that come into direct contact with the skin.",
+      "responseTimeMs": 2390,
+      "brandMentions": [
+        {
+          "brand": "BAM",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "queryIndex": 57,
+      "query": "Is bamboo clothing better than polyester?",
+      "success": true,
+      "response": "The preference between bamboo clothing and polyester depends on various factors, including environmental impact, comfort, durability, and specific use cases. Here's a comparison of both materials:\n\n### Bamboo Clothing\n\n**Pros:**\n1. **Eco-Friendly:** Bamboo is a renewable resource that grows quickly and requires less water and pesticides compared to cotton.\n2. **Biodegradable:** Bamboo fabric is biodegradable, making it a more sustainable option.\n3. **Comfort:** Bamboo fabric is soft, breathable, and often more comfortable against the skin compared to synthetic materials.\n4. **Moisture-Wicking:** It has natural moisture-wicking properties, which can keep you dry and comfortable.\n5. **Antibacterial Properties:** Bamboo has natural antibacterial qualities, which can help reduce odors.\n\n**Cons:**\n1. **Processing:** The process to turn bamboo into fabric can be chemically intensive, particularly for bamboo viscose, which can negate some environmental benefits.\n2. **Durability:** Bamboo fabric may not be as durable as synthetic fibers like polyester, especially for high-wear applications.\n3. **Cost:** Bamboo clothing can be more expensive than polyester.\n\n### Polyester Clothing\n\n**Pros:**\n1. **Durability:** Polyester is strong, durable, and resistant to stretching and shrinking, making it ideal for activewear and outdoor use.\n2. **Cost-Effective:** Generally, polyester is less expensive than bamboo and other natural fibers.\n3. **Quick-Drying:** It dries faster than natural fibers, which is beneficial for athletic and outdoor clothing.\n4. **Wide Availability:** Polyester is widely available and used in a variety of clothing items.\n\n**Cons:**\n1. **Environmental Impact:** Polyester is derived from petroleum, a non-renewable resource, and its production and degradation can contribute to environmental pollution.\n2. **Breathability:** It is less breathable than natural fibers, which can make it less comfortable in hot weather.\n3. **Microplastics:** Washing polyester clothing releases microplastics into water systems, contributing to pollution.\n\n### Conclusion\n\nIf your primary concern is environmental impact and comfort, bamboo clothing might be preferable. However, if you prioritize durability, cost-effectiveness, or need performance gear, polyester could be the better choice. It's also worth considering blends, which can offer a balance of benefits from both materials.",
+      "responseTimeMs": 9679,
+      "brandMentions": [
+        {
+          "brand": "BAM",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "queryIndex": 58,
+      "query": "Does bamboo fabric smell less than synthetic?",
+      "success": true,
+      "response": "Bamboo fabric generally tends to smell less than synthetic fabrics. This is primarily because bamboo has natural antibacterial and antifungal properties, which help to reduce the growth of odor-causing bacteria. As a result, bamboo fabric can stay fresher for longer periods without developing unpleasant smells.\n\nIn contrast, synthetic fabrics like polyester can trap moisture and bacteria, which can lead to odors developing more quickly. Additionally, bamboo fabric is often more breathable and moisture-wicking compared to synthetic fibers, further contributing to its ability to resist odors.\n\nHowever, it's important to note that the overall odor resistance of a fabric can also depend on its quality, treatment during manufacturing, and how well it is maintained and laundered.",
+      "responseTimeMs": 3232,
+      "brandMentions": [
+        {
+          "brand": "BAM",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "queryIndex": 59,
+      "query": "Is TASC Performance fabric anti-odor?",
+      "success": true,
+      "response": "Yes, TASC Performance fabric is known for its anti-odor properties. TASC Performance uses a proprietary fabric blend that often includes bamboo, which naturally possesses anti-microbial and moisture-wicking qualities. This helps in reducing odor by minimizing bacterial growth and keeping the fabric fresh.",
+      "responseTimeMs": 2337,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 2
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 2
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 60,
+      "query": "What is MOSOtech fabric?",
+      "success": true,
+      "response": "MOSOtech is a proprietary fabric technology that is often used in performance apparel. It is designed to offer a combination of moisture-wicking, odor resistance, and comfort. The fabric typically incorporates a blend of materials, which may include bamboo, spandex, and polyester, to provide these features. MOSOtech fabric is popular in activewear because it helps keep the wearer dry and comfortable by efficiently managing sweat and reducing odors during physical activities. The specific composition and characteristics can vary depending on the manufacturer, but the overarching goal is to enhance the wearability and functionality of sports and fitness clothing.",
+      "responseTimeMs": 3057,
+      "brandMentions": [
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 61,
+      "query": "Is TASC Performance clothing UPF rated?",
+      "success": true,
+      "response": "Yes, TASC Performance clothing is known for incorporating UPF (Ultraviolet Protection Factor) ratings into many of their products. They use natural fibers like bamboo in their fabrics, which naturally provide sun protection. It's always a good idea to check the specific product details on their website or labels to confirm the UPF rating for individual items, as not every piece may be rated.",
+      "responseTimeMs": 3434,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 1
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 1
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 62,
+      "query": "Is TASC Performance good for running?",
+      "success": true,
+      "response": "TASC Performance is known for its high-quality, eco-friendly athletic apparel, which many people find suitable for running. Their clothing often features a blend of bamboo and other natural fibers, offering benefits like moisture-wicking, breathability, and odor resistance. These qualities can make TASC Performance a good choice for running, as they help keep you comfortable and dry during your workout.\n\nHowever, the suitability of TASC Performance for running can depend on personal preferences and specific needs. Some runners might prioritize compression, while others might focus on lightweight materials or specific fit. It's always a good idea to try out different brands and materials to see what works best for you personally.",
+      "responseTimeMs": 3267,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 3
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 3
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 63,
+      "query": "Is TASC Performance good for CrossFit?",
+      "success": true,
+      "response": "TASC Performance is known for producing high-quality, comfortable, and sustainable activewear using natural fibers such as bamboo. Their clothing is designed to be breathable, moisture-wicking, and durable, which are all important qualities for CrossFit workouts. \n\nCrossFit involves a variety of high-intensity exercises, including weightlifting, cardio, and bodyweight movements, so having apparel that can handle a wide range of activities is essential. TASC Performance offers a good range of activewear items, such as shorts, leggings, tops, and sports bras, which can be suitable for CrossFit.\n\nHowever, whether TASC Performance is the best choice for CrossFit depends on personal preferences regarding fit, style, and specific performance needs. Some individuals might prefer more compression in their clothing or specific features like extra pockets or reinforced seams, which other brands might offer. It's always a good idea to try out different brands and styles to see what works best for your specific workouts and comfort.",
+      "responseTimeMs": 3579,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 3
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 3
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        },
+        {
+          "brand": "REI",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 64,
+      "query": "Can you wear TASC Performance to the office?",
+      "success": true,
+      "response": "TASC Performance is primarily known for its athletic and casual wear, which emphasizes comfort and performance. Whether you can wear TASC Performance to the office largely depends on your workplace dress code. \n\nIf your office has a business casual or casual dress code, you might be able to incorporate some TASC Performance pieces, especially their more understated or neutral items. For example, their polos, plain tees, or certain types of pants might be acceptable in a more relaxed office setting. However, if your office requires business professional attire, TASC Performance clothing might not be appropriate, as it is designed more for athletic and leisure purposes rather than formal or semi-formal business settings.\n\nIt's always a good idea to review your company's dress code policy or observe what others typically wear to ensure you make appropriate clothing choices for your office environment.",
+      "responseTimeMs": 8780,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 4
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "queryIndex": 65,
+      "query": "Is bamboo clothing good for hiking?",
+      "success": true,
+      "response": "Bamboo clothing can be a good option for hiking, depending on your specific needs and preferences. Here are some factors to consider:\n\n1. **Comfort**: Bamboo fabric is known for being soft and comfortable against the skin, which can be beneficial for long hikes.\n\n2. **Breathability**: Bamboo is a breathable fabric, helping to regulate body temperature by wicking moisture away from the skin, which can keep you cool and dry during physical activity.\n\n3. **Antimicrobial Properties**: Bamboo has natural antimicrobial properties, which can help reduce odors, a useful feature for multi-day hikes.\n\n4. **Eco-Friendliness**: Bamboo is a more sustainable material compared to many synthetic fabrics. It grows quickly and requires fewer pesticides and fertilizers.\n\n5. **UV Protection**: Some bamboo fabrics offer natural UV protection, which can be beneficial for hiking in sunny conditions.\n\n6. **Durability**: While bamboo fabric is generally durable, it may not be as abrasion-resistant as some synthetic materials designed specifically for rugged outdoor use.\n\n7. **Moisture Management**: While bamboo wicks moisture well, it may not dry as quickly as some synthetic materials, which can be a consideration in wet or humid conditions.\n\nOverall, bamboo clothing can be a good choice for hiking if you prioritize comfort, breathability, and sustainability. However, for more extreme conditions, you might want to combine it with or choose specialized hiking gear made from synthetic fibers for better durability and moisture management.",
+      "responseTimeMs": 7284,
+      "brandMentions": [
+        {
+          "brand": "BAM",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "queryIndex": 66,
+      "query": "Best shirts for sweaty golfers",
+      "success": true,
+      "response": "When it comes to choosing the best shirts for sweaty golfers, you'll want to look for options that prioritize moisture-wicking, breathability, and comfort. Here are some features and brands to consider:\n\n### Features to Look For:\n1. **Moisture-Wicking Fabric**: Helps pull sweat away from the body, keeping you dry and comfortable. Look for materials like polyester blends, spandex, or specialized fabrics like Nike's Dri-FIT or Under Armour's HeatGear.\n\n2. **Breathability**: Mesh panels or ventilation holes are great for promoting airflow.\n\n3. **Lightweight**: Choose lightweight materials that won’t weigh you down.\n\n4. **UV Protection**: Some shirts offer UPF protection to shield you from harmful sun rays.\n\n5. **Anti-Odor Technology**: Helps prevent the build-up of odor-causing bacteria.\n\n6. **Stretch**: A bit of spandex or elastane in the fabric allows for better movement and comfort.\n\n### Recommended Brands:\n1. **Nike Golf**: Known for its Dri-FIT technology, which offers excellent moisture management and comfort.\n\n2. **Under Armour**: Their HeatGear line is designed to keep you cool and dry even on hot days.\n\n3. **Adidas Golf**: Offers Climalite and Climacool technology for moisture management and breathability.\n\n4. **Puma Golf**: Known for stylish designs and technical fabrics that enhance comfort and performance.\n\n5. **FootJoy**: Offers ProDry fabric, which is excellent for moisture control and has a traditional golf aesthetic.\n\n6. **Callaway**: Known for Opti-Dri technology, which pulls moisture to the fabric's surface for quick evaporation.\n\n7. **Lululemon**: Although traditionally known for yoga wear, they offer high-performance golf shirts with excellent moisture-wicking properties.\n\n8. **TravisMathew**: Combines style and performance with moisture-wicking fabrics and a modern look.\n\nWhen selecting a shirt, consider the climate you typically play in and your personal comfort preferences. Trying on different brands and styles can also help you find the best fit for your needs.",
+      "responseTimeMs": 11854,
+      "brandMentions": [
+        {
+          "brand": "Nike",
+          "count": 2
+        },
+        {
+          "brand": "Under Armour",
+          "count": 2
+        },
+        {
+          "brand": "Lululemon",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 67,
+      "query": "Is TASC good for yoga?",
+      "success": true,
+      "response": "TASC, or Tactical Athletic Strength and Conditioning, is a fitness approach that focuses on functional strength, conditioning, and overall fitness, often with an emphasis on military or tactical training. Whether TASC is good for yoga depends on your specific goals and preferences. \n\n1. **Complementary Benefits**: \n   - TASC can improve overall fitness, strength, and endurance, which may enhance your yoga practice by providing better stamina and physical resilience.\n   - The focus on functional movements in TASC can complement the flexibility and balance aspects of yoga.\n\n2. **Differences**:\n   - Yoga emphasizes flexibility, balance, and mindfulness, while TASC focuses more on strength and conditioning.\n   - If your primary goal is to improve your yoga practice, you might want to integrate more specific yoga-focused workouts rather than relying solely on TASC.\n\n3. **Combining Both**:\n   - Many people find that combining different fitness approaches, like yoga and TASC, offers a well-rounded fitness regimen.\n   - Yoga can help with recovery and flexibility, which are beneficial after intense TASC workouts.\n\n4. **Personal Goals**:\n   - Consider what you want to achieve with your fitness routine. If your priority is enhancing your yoga skills, incorporating more yoga sessions might be beneficial.\n   - If you aim for overall fitness with a balance of strength and flexibility, combining TASC and yoga could be a good strategy.\n\nUltimately, whether TASC is \"good\" for yoga depends on your personal fitness goals and how you choose to integrate it with your yoga practice.",
+      "responseTimeMs": 9437,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "queryIndex": 68,
+      "query": "Can I wear TASC Performance for tennis?",
+      "success": true,
+      "response": "Yes, you can wear TASC Performance clothing for tennis. TASC Performance is known for its comfortable, high-quality activewear made from natural fibers like bamboo, which offer moisture-wicking, breathability, and anti-odor properties. These features make TASC Performance apparel suitable for tennis, as they can help keep you comfortable and dry on the court. Just make sure to choose items that offer the range of motion and support you need for playing tennis.",
+      "responseTimeMs": 2478,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 3
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 3
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 69,
+      "query": "Best athletic shirts for hot humid weather",
+      "success": true,
+      "response": "When choosing athletic shirts for hot and humid weather, it's important to look for materials and features that promote breathability, moisture-wicking, and comfort. Here are some options to consider:\n\n1. **Nike Dri-FIT Technology Shirts**: Nike's Dri-FIT technology is designed to wick sweat away from your skin and onto the surface of the fabric, where it evaporates quickly. This helps keep you dry and comfortable during workouts.\n\n2. **Under Armour HeatGear**: Under Armour's HeatGear line is specifically designed for hot weather. The fabric is lightweight, breathable, and has excellent moisture-wicking properties.\n\n3. **Adidas Climalite/Climacool**: Adidas offers both Climalite and Climacool technologies. Climalite helps to wick moisture away, while Climacool provides ventilation and cooling.\n\n4. **Lululemon Metal Vent Tech Shirts**: Known for their seamless construction, these shirts offer great breathability and are designed to minimize chafing. They also incorporate anti-odor technology.\n\n5. **Patagonia Capilene Cool Lightweight Shirts**: Made with lightweight, recycled polyester, these shirts are breathable and have a soft feel. They are great for high-output activities in hot weather.\n\n6. **Columbia Omni-Freeze Zero**: Columbia employs a special cooling technology that activates when you sweat, helping to lower the temperature of the fabric.\n\n7. **Brooks Distance Graphic Tee**: Made with moisture-wicking DriLayer fabric, this shirt is lightweight and breathable, making it suitable for running in the heat.\n\n8. **Reebok ACTIVCHILL**: Designed with a mesh-like fabric that enhances ventilation, ACTIVCHILL shirts are great for keeping cool during intense workouts.\n\n9. **Asics Cool 2 Shortsleeve**: With a focus on cooling and ventilation, Asics offers shirts that are ideal for running in hot climates. They feature strategically placed mesh panels for added breathability.\n\n10. **Outdoor Voices Sweatee T-Shirt**: Made from a lightweight, breathable fabric blend, these shirts are designed for moisture management and comfort.\n\nWhen selecting a shirt, also consider the fit and style that best suits your activity and personal comfort. Look for features like mesh panels, vented sides, and UPF protection if you'll be outdoors for extended periods.",
+      "responseTimeMs": 10062,
+      "brandMentions": [
+        {
+          "brand": "Nike",
+          "count": 2
+        },
+        {
+          "brand": "Under Armour",
+          "count": 2
+        },
+        {
+          "brand": "Lululemon",
+          "count": 1
+        },
+        {
+          "brand": "Patagonia",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 70,
+      "query": "Does TASC Performance run small or large?",
+      "success": true,
+      "response": "TASC Performance generally tends to run true to size. However, individual experiences may vary based on body type and personal preference. It's always a good idea to check their specific sizing chart and read customer reviews for any particular item you are considering, as these can provide additional insight into fit and sizing.",
+      "responseTimeMs": 1670,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 1
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 71,
+      "query": "TASC Performance size chart",
+      "success": true,
+      "response": "TASC Performance is a brand known for its athletic and casual apparel, often using bamboo-based fabrics for comfort and sustainability. Their sizing can vary slightly depending on the type of clothing, so it's always a good idea to refer to the specific size chart provided by the manufacturer for the most accurate fit. However, I can give you a general idea of what their size chart might look like:\n\n### Men's Sizes\n\n- **Small (S)**:\n  - Chest: 34-36 inches\n  - Waist: 28-30 inches\n  - Hip: 34-36 inches\n\n- **Medium (M)**:\n  - Chest: 38-40 inches\n  - Waist: 32-34 inches\n  - Hip: 38-40 inches\n\n- **Large (L)**:\n  - Chest: 42-44 inches\n  - Waist: 36-38 inches\n  - Hip: 42-44 inches\n\n- **X-Large (XL)**:\n  - Chest: 46-48 inches\n  - Waist: 40-42 inches\n  - Hip: 46-48 inches\n\n- **XX-Large (XXL)**:\n  - Chest: 50-52 inches\n  - Waist: 44-46 inches\n  - Hip: 50-52 inches\n\n### Women's Sizes\n\n- **X-Small (XS)**:\n  - Bust: 31-32 inches\n  - Waist: 24-25 inches\n  - Hip: 34-35 inches\n\n- **Small (S)**:\n  - Bust: 33-34 inches\n  - Waist: 26-27 inches\n  - Hip: 36-37 inches\n\n- **Medium (M)**:\n  - Bust: 35-36 inches\n  - Waist: 28-29 inches\n  - Hip: 38-39 inches\n\n- **Large (L)**:\n  - Bust: 37-38.5 inches\n  - Waist: 30-31.5 inches\n  - Hip: 40-41.5 inches\n\n- **X-Large (XL)**:\n  - Bust: 40-41.5 inches\n  - Waist: 33-34.5 inches\n  - Hip: 43-44.5 inches\n\nKeep in mind that these are general guidelines and actual sizes may vary slightly by style. For the most accurate information, visiting the TASC Performance website or contacting their customer service can be helpful. Additionally, when trying new brands, it might be beneficial to read customer reviews, as they can provide insights into how the clothing fits.",
+      "responseTimeMs": 8174,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 2
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 2
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 72,
+      "query": "Do TASC shirts shrink after washing?",
+      "success": true,
+      "response": "TASC shirts are generally made from bamboo-based fabrics, which are known for their softness, breathability, and moisture-wicking properties. These fabrics are typically designed to minimize shrinkage. However, like most natural fiber garments, there is still a possibility of slight shrinkage after washing, especially if the care instructions are not followed properly.\n\nTo minimize the risk of shrinkage, it is recommended to wash TASC shirts in cold water and either hang them to dry or use a low heat setting in the dryer. Always refer to the specific care instructions provided on the garment's label for the best results.",
+      "responseTimeMs": 2650,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 2
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 73,
+      "query": "How does TASC Carrollton t-shirt fit?",
+      "success": true,
+      "response": "TASC Carrollton t-shirts are generally known for their comfortable and relaxed fit. They are often praised for their softness and breathability, owing to the bamboo and cotton blend fabric used in their construction. This results in a t-shirt that is lightweight and offers a bit of stretch, which can contribute to a more tailored yet not overly tight fit. Many users find them true to size, but if you prefer a looser fit, you might consider sizing up. It's always a good idea to check the specific sizing chart provided by TASC or read customer reviews for additional insights on fit.",
+      "responseTimeMs": 2778,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 2
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 74,
+      "query": "Is TASC Performance true to size?",
+      "success": true,
+      "response": "TASC Performance is generally considered to run true to size, but there can be some variation depending on the specific garment or style. Many customers find that their usual size fits well, but it's always a good idea to check the brand's sizing chart and read customer reviews for specific items. If you're between sizes or prefer a looser or tighter fit, you might consider sizing up or down accordingly. Additionally, some retailers offer free returns or exchanges, which can be helpful if you're unsure about sizing.",
+      "responseTimeMs": 3700,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 1
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 75,
+      "query": "How long does TASC Performance clothing last?",
+      "success": true,
+      "response": "The longevity of TASC Performance clothing, like any apparel, depends on several factors, including the frequency of use, the type of activities it's used for, and how well it's cared for. TASC Performance is known for using high-quality materials, such as bamboo and organic cotton blends, designed to be durable and comfortable. \n\nWith proper care—such as following washing instructions, avoiding high-heat drying, and not using fabric softeners—TASC Performance clothing can maintain its functionality and appearance for several years. However, activewear typically experiences more wear and tear than casual clothing, so if worn frequently for high-intensity activities, it might show signs of wear sooner. Customers generally report being satisfied with the durability of their TASC clothing, but personal experiences can vary.",
+      "responseTimeMs": 4026,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 4
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 3
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 76,
+      "query": "How do you wash bamboo athletic clothing?",
+      "success": true,
+      "response": "Washing bamboo athletic clothing properly helps maintain its softness, durability, and performance. Here are some general guidelines to follow:\n\n1. **Read the Care Label**: Always start by checking the care label on your bamboo clothing for any specific instructions provided by the manufacturer.\n\n2. **Use Cold Water**: Wash bamboo athletic clothing in cold water. Hot water can cause the fibers to break down more quickly and may lead to shrinking.\n\n3. **Gentle Cycle**: Use a gentle or delicate cycle on your washing machine to prevent excess wear and tear.\n\n4. **Mild Detergent**: Use a mild, eco-friendly detergent to preserve the natural properties of bamboo fabric. Avoid using bleach or fabric softeners, as they can damage the fibers.\n\n5. **Avoid Fabric Softeners**: Fabric softeners can coat the bamboo fibers, reducing their moisture-wicking abilities and breathability.\n\n6. **Wash with Similar Colors**: To avoid color bleeding, wash bamboo clothing with similar colors.\n\n7. **Avoid High Heat**: If you choose to tumble dry, use a low heat setting. However, air drying is preferable as it extends the life of the fabric and maintains its softness.\n\n8. **Avoid Overloading the Machine**: Washing too many garments at once can cause friction and damage the fabric. Wash bamboo clothing with like fabrics to minimize abrasion.\n\n9. **Iron on Low Heat**: If ironing is necessary, use a low heat setting. Bamboo fabric can burn easily, so it's best to place a cloth between the iron and the garment.\n\nBy following these guidelines, you can help ensure that your bamboo athletic clothing remains comfortable and functional for as long as possible.",
+      "responseTimeMs": 6484,
+      "brandMentions": [
+        {
+          "brand": "BAM",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "queryIndex": 77,
+      "query": "Does TASC Performance pill after washing?",
+      "success": true,
+      "response": "TASC Performance is known for using high-quality fabrics designed to be durable and maintain their performance over time. However, like most fabrics, some pilling can occur depending on the washing and care methods used. To minimize pilling, it's recommended to follow the care instructions provided by TASC Performance, which typically include:\n\n1. Washing in cold water.\n2. Using a gentle cycle.\n3. Washing garments inside out.\n4. Avoiding the use of fabric softeners and bleach.\n5. Drying on a low heat setting or air drying.\n\nBy following these guidelines, you can help reduce the likelihood of pilling and extend the life of your TASC Performance garments.",
+      "responseTimeMs": 2753,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 3
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "queryIndex": 78,
+      "query": "Is TASC Performance clothing durable?",
+      "success": true,
+      "response": "TASC Performance clothing is generally known for its durability and quality. The brand focuses on producing athletic and lifestyle apparel using natural and sustainable materials, such as bamboo and organic cotton. These materials are not only environmentally friendly but also tend to provide good durability and comfort. Many customers have reported that TASC Performance clothing holds up well over time, even with frequent use and washing.\n\nHowever, as with any brand, individual experiences can vary based on factors such as how the clothing is cared for, the specific activities it's used for, and personal preferences. To ensure longevity, it's always a good idea to follow the care instructions provided by the manufacturer. Checking customer reviews for specific products you are interested in can also provide additional insights into their durability.",
+      "responseTimeMs": 2969,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 2
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 2
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 79,
+      "query": "Can you put TASC Performance in the dryer?",
+      "success": true,
+      "response": "TASC Performance garments are typically made from a blend of bamboo and other natural fibers, which are designed to be comfortable and moisture-wicking. To maintain their quality, it is generally recommended to follow the care instructions provided on the garment's label. \n\nMost TASC Performance items suggest machine washing in cold water and avoiding the use of fabric softeners or bleach. When it comes to drying, it's often advised to either tumble dry on a low setting or hang dry to preserve the fabric's integrity and prolong the life of the garment. However, specific care instructions can vary between different products, so it's always best to check the label of each item for the most accurate guidance.",
+      "responseTimeMs": 2384,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 2
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 2
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 80,
+      "query": "Is TASC Performance sustainable?",
+      "success": true,
+      "response": "TASC Performance is a brand known for its activewear, particularly its use of natural fibers. The company emphasizes sustainability in its product lines, primarily through its use of bamboo-based fabrics. Bamboo is a renewable resource that requires less water and pesticides compared to traditional cotton, making it a more sustainable textile option. Additionally, TASC Performance focuses on eco-friendly production processes and materials to reduce environmental impact.\n\nWhile TASC Performance appears to be committed to sustainability, the overall sustainability of any brand can be influenced by various factors such as manufacturing practices, supply chain transparency, labor conditions, and the lifecycle of their products. It's always a good idea to research the latest initiatives and third-party certifications, if any, that support the brand's sustainability claims.\n\nFor the most current assessment of TASC Performance's sustainability efforts, you might want to look for recent reports, reviews from environmental organizations, or other third-party evaluations.",
+      "responseTimeMs": 3777,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 4
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 4
+        },
+        {
+          "brand": "BAM",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 81,
+      "query": "Is bamboo clothing eco-friendly?",
+      "success": true,
+      "response": "Bamboo clothing is often marketed as an eco-friendly option, but the environmental impact can vary depending on how the bamboo is processed. Here are some factors to consider:\n\n1. **Renewability**: Bamboo is a highly renewable resource. It grows quickly, requires minimal water, and doesn't need pesticides or fertilizers, which makes it a potentially sustainable raw material.\n\n2. **Processing**: The environmental friendliness of bamboo clothing largely depends on the processing methods used:\n   - **Mechanical Processing**: This method is more environmentally friendly. It involves crushing bamboo into a pulp and then using natural enzymes to break it down further, resulting in a textile known as bamboo linen. However, this process is labor-intensive and expensive, so it's less common.\n   - **Chemical Processing**: The more common method involves using chemicals like sodium hydroxide and carbon disulfide to dissolve the bamboo into a viscose or rayon. This process can be harmful to both the environment and workers if not managed properly, as it may release toxic chemicals into the air and water.\n\n3. **Biodegradability**: Bamboo fabric is biodegradable, which means it can break down naturally in the environment, reducing waste.\n\n4. **Certifications**: Some bamboo products come with certifications like OEKO-TEX or the Global Organic Textile Standard (GOTS), which ensure certain environmental and ethical standards are met.\n\n5. **Misleading Claims**: Be cautious of greenwashing. Some products may be labeled as \"eco-friendly\" without substantiating the claim, especially if they are produced through chemical processes.\n\nIn summary, bamboo clothing can be eco-friendly, especially if produced through mechanical processing or with strict environmental controls in place for chemical processing. Consumers should look for certifications and ask questions about the production methods to make more informed choices.",
+      "responseTimeMs": 8811,
+      "brandMentions": [
+        {
+          "brand": "BAM",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "queryIndex": 82,
+      "query": "Does TASC Performance use recycled materials?",
+      "success": true,
+      "response": "Yes, TASC Performance is known for its commitment to sustainability and often uses recycled materials in its products. They focus on creating eco-friendly apparel by integrating sustainable practices and materials like organic cotton, bamboo, and recycled polyester. This approach helps reduce their environmental footprint and promotes more sustainable fashion choices.",
+      "responseTimeMs": 2192,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 1
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 1
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 83,
+      "query": "Is TASC Performance non-toxic?",
+      "success": true,
+      "response": "TASC Performance is a clothing brand known for its use of natural and sustainable materials, such as bamboo and organic cotton, in their apparel. These materials are generally considered non-toxic and eco-friendly, especially compared to synthetic fabrics that may involve chemical treatments. However, if you're concerned about specific aspects such as allergies or sensitivities, it would be a good idea to check the product labels or contact the company directly for detailed information about their manufacturing processes and any treatments their fabrics may undergo.",
+      "responseTimeMs": 2151,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 1
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 1
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 84,
+      "query": "What makes TASC Performance environmentally friendly?",
+      "success": true,
+      "response": "TASC Performance is considered environmentally friendly due to several key practices and product attributes:\n\n1. **Sustainable Materials**: TASC Performance uses organic and sustainable materials, such as bamboo, in their fabric production. Bamboo is a fast-growing, renewable resource that requires less water and pesticides compared to traditional cotton.\n\n2. **Eco-Friendly Manufacturing**: The company employs eco-friendly manufacturing processes that minimize the use of harmful chemicals and reduce waste. This includes using non-toxic dyes and energy-efficient production methods.\n\n3. **Reduced Carbon Footprint**: By sourcing materials responsibly and optimizing their supply chain, TASC Performance aims to reduce its overall carbon footprint. They may also focus on local sourcing to minimize transportation emissions.\n\n4. **Recyclable and Biodegradable Products**: Some of their products are designed to be recyclable or biodegradable, contributing to a circular economy and reducing landfill waste.\n\n5. **Ethical Labor Practices**: TASC Performance is committed to maintaining ethical labor practices, ensuring fair treatment and wages for workers involved in their supply chain.\n\n6. **Community and Environmental Initiatives**: The brand often engages in initiatives that support environmental conservation and community development, further emphasizing their commitment to sustainability.\n\nThese efforts collectively contribute to TASC Performance's reputation as an environmentally friendly apparel brand.",
+      "responseTimeMs": 5480,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 5
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 5
+        },
+        {
+          "brand": "BAM",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 85,
+      "query": "Is TASC Performance worth the price?",
+      "success": true,
+      "response": "Determining whether TASC Performance apparel is worth the price depends on several factors, including your personal preferences, needs, and budget. Here are some considerations to help you decide:\n\n1. **Quality**: TASC Performance is known for using high-quality materials, particularly bamboo-based fabrics, which are soft, breathable, and moisture-wicking. Customers often find the clothing durable and comfortable.\n\n2. **Sustainability**: If sustainability is important to you, TASC Performance focuses on environmentally friendly practices, using renewable resources and eco-friendly production processes.\n\n3. **Price**: TASC Performance products are generally priced higher than average activewear brands. Consider whether the benefits, such as comfort and sustainability, justify the cost for you.\n\n4. **Performance**: Many users report that TASC Performance clothing performs well for various activities, including running, yoga, and casual wear. Assess whether the performance features align with your intended use.\n\n5. **Style**: The brand offers a range of styles that might appeal to you. Check if their aesthetic matches your personal style.\n\n6. **Reviews**: Look for customer reviews to see what others think about the fit, feel, and durability of the products.\n\nUltimately, whether TASC Performance is worth the price is a personal decision based on how much you value the brand's features and whether they meet your specific needs.",
+      "responseTimeMs": 5296,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 6
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 6
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 86,
+      "query": "Where to buy TASC Performance?",
+      "success": true,
+      "response": "TASC Performance apparel can be purchased through several channels:\n\n1. **Official Website**: You can buy directly from the TASC Performance website, which offers the full range of their products.\n\n2. **Retail Stores**: TASC Performance products are available at various sporting goods stores and specialty retailers. Check their website for a store locator to find a nearby location.\n\n3. **Online Retailers**: Websites like Amazon, REI, and Zappos may carry TASC Performance clothing.\n\n4. **Department Stores**: Some department stores may carry TASC Performance products, either in-store or online.\n\nBefore purchasing, you might want to check for any ongoing promotions or discounts to get the best deal.",
+      "responseTimeMs": 2735,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 5
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 5
+        },
+        {
+          "brand": "Amazon",
+          "count": 1
+        },
+        {
+          "brand": "REI",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 87,
+      "query": "Does TASC Performance go on sale?",
+      "success": true,
+      "response": "TASC Performance, like many apparel brands, may have sales and promotions at various times throughout the year. These sales can occur during major retail events such as Black Friday, Cyber Monday, end-of-season clearances, or during holiday sales. Additionally, TASC Performance might offer discounts through their newsletter or loyalty programs. It's a good idea to check their official website, subscribe to their newsletter, or follow them on social media to stay informed about any upcoming sales or promotions. Additionally, third-party retailers that carry TASC Performance products might also have their own sales events.",
+      "responseTimeMs": 2099,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 3
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "queryIndex": 88,
+      "query": "TASC Performance discount code",
+      "success": true,
+      "response": "I'm sorry, but I can't provide specific discount codes for TASC Performance or any other brand. However, you can often find discount codes by signing up for the brand's newsletter, checking their social media pages, or visiting coupon websites. Additionally, during holiday sales or special promotions, brands may offer discounts directly on their websites.",
+      "responseTimeMs": 2113,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 1
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 89,
+      "query": "Is TASC Performance sold at Nordstrom?",
+      "success": true,
+      "response": "As of the latest information available, TASC Performance products are not typically sold at Nordstrom. TASC Performance is known for its bamboo-based activewear and is often found in specialty sports and outdoor retailers, as well as through their own website. However, inventory can vary, so it's always a good idea to check directly with Nordstrom or visit their website to see if they have started carrying TASC Performance products.",
+      "responseTimeMs": 1768,
+      "brandMentions": [
+        {
+          "brand": "TASC",
+          "count": 3
+        },
+        {
+          "brand": "TASC Performance",
+          "count": 3
+        },
+        {
+          "brand": "Nordstrom",
+          "count": 2
+        },
+        {
+          "brand": "BAM",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "analysis": {
+    "brandVisibility": {
+      "TASC": {
+        "queriesAppearing": 72,
+        "percentOfQueries": "80.0%"
+      },
+      "BAM": {
+        "queriesAppearing": 70,
+        "percentOfQueries": "77.8%"
+      },
+      "TASC Performance": {
+        "queriesAppearing": 54,
+        "percentOfQueries": "60.0%"
+      },
+      "Lululemon": {
+        "queriesAppearing": 11,
+        "percentOfQueries": "12.2%"
+      },
+      "Nike": {
+        "queriesAppearing": 11,
+        "percentOfQueries": "12.2%"
+      },
+      "Under Armour": {
+        "queriesAppearing": 10,
+        "percentOfQueries": "11.1%"
+      },
+      "Patagonia": {
+        "queriesAppearing": 10,
+        "percentOfQueries": "11.1%"
+      },
+      "Vuori": {
+        "queriesAppearing": 6,
+        "percentOfQueries": "6.7%"
+      },
+      "Rhone": {
+        "queriesAppearing": 6,
+        "percentOfQueries": "6.7%"
+      },
+      "REI": {
+        "queriesAppearing": 5,
+        "percentOfQueries": "5.6%"
+      },
+      "Free Fly": {
+        "queriesAppearing": 5,
+        "percentOfQueries": "5.6%"
+      },
+      "Allbirds": {
+        "queriesAppearing": 5,
+        "percentOfQueries": "5.6%"
+      },
+      "Cariloha": {
+        "queriesAppearing": 4,
+        "percentOfQueries": "4.4%"
+      },
+      "Girlfriend Collective": {
+        "queriesAppearing": 4,
+        "percentOfQueries": "4.4%"
+      },
+      "Boody": {
+        "queriesAppearing": 3,
+        "percentOfQueries": "3.3%"
+      },
+      "Everlane": {
+        "queriesAppearing": 2,
+        "percentOfQueries": "2.2%"
+      },
+      "Ibex": {
+        "queriesAppearing": 1,
+        "percentOfQueries": "1.1%"
+      },
+      "Bamtech": {
+        "queriesAppearing": 1,
+        "percentOfQueries": "1.1%"
+      },
+      "Cotopaxi": {
+        "queriesAppearing": 1,
+        "percentOfQueries": "1.1%"
+      },
+      "Amazon": {
+        "queriesAppearing": 1,
+        "percentOfQueries": "1.1%"
+      },
+      "Nordstrom": {
+        "queriesAppearing": 1,
+        "percentOfQueries": "1.1%"
+      }
+    }
+  }
+}
