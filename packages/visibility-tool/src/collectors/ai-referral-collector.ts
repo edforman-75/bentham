@@ -311,3 +311,240 @@ export async function collectAIReferrals(
 export function getKnownAISources(): Array<{ domain: string; name: string; type: string }> {
   return [...AI_REFERRAL_SOURCES];
 }
+
+/**
+ * Page performance data point
+ */
+export interface PagePerformanceEntry {
+  /** Page path */
+  pagePath: string;
+  /** Page title */
+  pageTitle: string;
+  /** Number of pageviews */
+  pageviews: number;
+  /** Unique users */
+  users: number;
+  /** Average time on page in seconds */
+  avgTimeOnPage: number;
+  /** Bounce rate (0-1) */
+  bounceRate: number;
+  /** Exit rate (0-1) */
+  exitRate: number;
+  /** E-commerce: number of transactions */
+  transactions: number;
+  /** E-commerce: total revenue */
+  revenue: number;
+  /** E-commerce: conversion rate (0-1) */
+  conversionRate: number;
+  /** E-commerce: add-to-cart events */
+  addToCarts: number;
+  /** Date of the data (YYYY-MM-DD) */
+  date: string;
+}
+
+/**
+ * Result of page performance collection
+ */
+export interface PagePerformanceResult {
+  /** GA4 property ID */
+  propertyId: string;
+  /** Date range start */
+  startDate: string;
+  /** Date range end */
+  endDate: string;
+  /** Timestamp of collection */
+  timestamp: string;
+  /** Whether collection succeeded */
+  success: boolean;
+  /** Error message if failed */
+  error?: string;
+  /** Raw performance data by page */
+  pages: PagePerformanceEntry[];
+  /** Summary totals */
+  totals: {
+    totalPageviews: number;
+    totalUsers: number;
+    totalTransactions: number;
+    totalRevenue: number;
+  };
+}
+
+/**
+ * Options for collecting page performance data
+ */
+export interface PagePerformanceOptions {
+  /** GA4 property ID (e.g., 'properties/123456789') */
+  propertyId: string;
+  /** Path to service account JSON key file */
+  credentialsPath?: string;
+  /** Service account credentials object (alternative to path) */
+  credentials?: {
+    client_email: string;
+    private_key: string;
+    project_id?: string;
+  };
+  /** Start date (YYYY-MM-DD or relative like '30daysAgo') */
+  startDate: string;
+  /** End date (YYYY-MM-DD or 'today') */
+  endDate: string;
+  /** Filter to specific page paths (regex patterns) */
+  pagePathFilters?: string[];
+  /** Page types to filter (e.g., '/products/', '/collections/') */
+  pageTypes?: string[];
+}
+
+/**
+ * Collect page performance data from GA4
+ *
+ * Note: Requires @google-analytics/data package and valid credentials.
+ */
+export async function collectPagePerformance(
+  options: PagePerformanceOptions
+): Promise<PagePerformanceResult> {
+  const timestamp = new Date().toISOString();
+
+  try {
+    // Dynamic import to avoid requiring the package if not used
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    let BetaAnalyticsDataClient: any;
+    try {
+      // @ts-expect-error - Optional dependency, may not be installed
+      const module = await import('@google-analytics/data');
+      BetaAnalyticsDataClient = module.BetaAnalyticsDataClient;
+    } catch {
+      return {
+        propertyId: options.propertyId,
+        startDate: options.startDate,
+        endDate: options.endDate,
+        timestamp,
+        success: false,
+        error: 'Google Analytics Data API package not installed. Run: pnpm add @google-analytics/data',
+        pages: [],
+        totals: { totalPageviews: 0, totalUsers: 0, totalTransactions: 0, totalRevenue: 0 },
+      };
+    }
+
+    // Initialize the client
+    const clientOptions: any = {};
+    if (options.credentialsPath) {
+      clientOptions.keyFilename = options.credentialsPath;
+    } else if (options.credentials) {
+      clientOptions.credentials = options.credentials;
+    }
+
+    const analyticsDataClient = new BetaAnalyticsDataClient(clientOptions);
+
+    // Build dimension filter for page types if specified
+    let dimensionFilter;
+    if (options.pageTypes && options.pageTypes.length > 0) {
+      dimensionFilter = {
+        orGroup: {
+          expressions: options.pageTypes.map(pageType => ({
+            filter: {
+              fieldName: 'pagePath',
+              stringFilter: {
+                matchType: 'CONTAINS',
+                value: pageType,
+                caseSensitive: false,
+              },
+            },
+          })),
+        },
+      };
+    }
+
+    // Run the report
+    const [response] = await analyticsDataClient.runReport({
+      property: options.propertyId.startsWith('properties/')
+        ? options.propertyId
+        : `properties/${options.propertyId}`,
+      dateRanges: [{ startDate: options.startDate, endDate: options.endDate }],
+      dimensions: [
+        { name: 'pagePath' },
+        { name: 'pageTitle' },
+        { name: 'date' },
+      ],
+      metrics: [
+        { name: 'screenPageViews' },
+        { name: 'totalUsers' },
+        { name: 'userEngagementDuration' },
+        { name: 'bounceRate' },
+        { name: 'sessions' },
+        { name: 'ecommercePurchases' },
+        { name: 'purchaseRevenue' },
+        { name: 'addToCarts' },
+      ],
+      dimensionFilter,
+      orderBys: [{ metric: { metricName: 'screenPageViews' }, desc: true }],
+      limit: 10000,
+    });
+
+    // Parse response into performance entries
+    const pages: PagePerformanceEntry[] = [];
+
+    for (const row of response.rows || []) {
+      const pagePath = row.dimensionValues?.[0]?.value || '';
+      const pageTitle = row.dimensionValues?.[1]?.value || '';
+      const date = row.dimensionValues?.[2]?.value || '';
+
+      // Apply page path filters if specified
+      if (options.pagePathFilters && options.pagePathFilters.length > 0) {
+        const matchesFilter = options.pagePathFilters.some(pattern =>
+          new RegExp(pattern).test(pagePath)
+        );
+        if (!matchesFilter) continue;
+      }
+
+      const pageviews = parseInt(row.metricValues?.[0]?.value || '0', 10);
+      const users = parseInt(row.metricValues?.[1]?.value || '0', 10);
+      const engagementDuration = parseFloat(row.metricValues?.[2]?.value || '0');
+      const sessions = parseInt(row.metricValues?.[4]?.value || '1', 10);
+      const transactions = parseInt(row.metricValues?.[5]?.value || '0', 10);
+
+      pages.push({
+        pagePath,
+        pageTitle,
+        pageviews,
+        users,
+        avgTimeOnPage: sessions > 0 ? engagementDuration / sessions : 0,
+        bounceRate: parseFloat(row.metricValues?.[3]?.value || '0'),
+        exitRate: 0, // GA4 doesn't have direct exit rate, would need separate calc
+        transactions,
+        revenue: parseFloat(row.metricValues?.[6]?.value || '0'),
+        conversionRate: pageviews > 0 ? transactions / pageviews : 0,
+        addToCarts: parseInt(row.metricValues?.[7]?.value || '0', 10),
+        date,
+      });
+    }
+
+    // Calculate totals
+    const totals = {
+      totalPageviews: pages.reduce((sum, p) => sum + p.pageviews, 0),
+      totalUsers: pages.reduce((sum, p) => sum + p.users, 0),
+      totalTransactions: pages.reduce((sum, p) => sum + p.transactions, 0),
+      totalRevenue: pages.reduce((sum, p) => sum + p.revenue, 0),
+    };
+
+    return {
+      propertyId: options.propertyId,
+      startDate: options.startDate,
+      endDate: options.endDate,
+      timestamp,
+      success: true,
+      pages,
+      totals,
+    };
+
+  } catch (error) {
+    return {
+      propertyId: options.propertyId,
+      startDate: options.startDate,
+      endDate: options.endDate,
+      timestamp,
+      success: false,
+      error: error instanceof Error ? error.message : String(error),
+      pages: [],
+      totals: { totalPageviews: 0, totalUsers: 0, totalTransactions: 0, totalRevenue: 0 },
+    };
+  }
+}

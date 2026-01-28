@@ -113,9 +113,10 @@ export {
   type CrawlOptions,
 } from './collectors/site-crawler.js';
 
-// AI Referral Traffic
+// AI Referral Traffic & Page Performance
 export {
   collectAIReferrals,
+  collectPagePerformance,
   matchAISource,
   isAIReferrer,
   getKnownAISources,
@@ -123,6 +124,9 @@ export {
   type AIReferralResult,
   type AIReferralEntry,
   type AIReferralOptions,
+  type PagePerformanceResult,
+  type PagePerformanceEntry,
+  type PagePerformanceOptions,
 } from './collectors/ai-referral-collector.js';
 
 // Scoring

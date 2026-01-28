@@ -8,6 +8,8 @@ import {
   isAIReferrer,
   getKnownAISources,
   AI_REFERRAL_SOURCES,
+  type PagePerformanceEntry,
+  type PagePerformanceResult,
 } from '../collectors/ai-referral-collector.js';
 
 describe('AI Referral Collector', () => {
@@ -133,6 +135,51 @@ describe('AI Referral Collector', () => {
       const domains = AI_REFERRAL_SOURCES.map(s => s.domain);
       const uniqueDomains = new Set(domains);
       expect(uniqueDomains.size).toBe(domains.length);
+    });
+  });
+
+  describe('PagePerformance types', () => {
+    it('should have correct structure for page performance entry', () => {
+      const entry: PagePerformanceEntry = {
+        pagePath: '/products/test-product',
+        pageTitle: 'Test Product',
+        pageviews: 1000,
+        users: 800,
+        avgTimeOnPage: 45.5,
+        bounceRate: 0.35,
+        exitRate: 0.25,
+        transactions: 50,
+        revenue: 2500.00,
+        conversionRate: 0.05,
+        addToCarts: 150,
+        date: '2024-01-15',
+      };
+
+      expect(entry.pagePath).toBe('/products/test-product');
+      expect(entry.pageviews).toBe(1000);
+      expect(entry.conversionRate).toBe(0.05);
+      expect(entry.revenue).toBe(2500.00);
+    });
+
+    it('should have correct structure for page performance result', () => {
+      const result: PagePerformanceResult = {
+        propertyId: 'properties/123456789',
+        startDate: '30daysAgo',
+        endDate: 'today',
+        timestamp: new Date().toISOString(),
+        success: true,
+        pages: [],
+        totals: {
+          totalPageviews: 10000,
+          totalUsers: 8000,
+          totalTransactions: 500,
+          totalRevenue: 25000,
+        },
+      };
+
+      expect(result.success).toBe(true);
+      expect(result.totals.totalPageviews).toBe(10000);
+      expect(result.totals.totalRevenue).toBe(25000);
     });
   });
 });
