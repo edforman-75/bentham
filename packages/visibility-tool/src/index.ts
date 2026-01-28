@@ -113,6 +113,18 @@ export {
   type CrawlOptions,
 } from './collectors/site-crawler.js';
 
+// AI Referral Traffic
+export {
+  collectAIReferrals,
+  matchAISource,
+  isAIReferrer,
+  getKnownAISources,
+  AI_REFERRAL_SOURCES,
+  type AIReferralResult,
+  type AIReferralEntry,
+  type AIReferralOptions,
+} from './collectors/ai-referral-collector.js';
+
 // Scoring
 export {
   scoreJsonLd,

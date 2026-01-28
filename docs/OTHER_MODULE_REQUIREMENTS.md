@@ -16,6 +16,7 @@ This document tracks requirements that emerged from customer feature requests bu
 | Gap analysis | Task #2 | Compare existing content vs ideal. If API access → get via Manifest Interpreter. If no API → Bentham crawls. Analysis is tenant-specific. |
 | Prioritization and scoring | Task #3 | Score and prioritize optimization opportunities based on Bentham data. Bentham outputs raw data; tenant engine decides priorities. |
 | A/B testing for AI citations | Task #5 | Run before/after studies, compare JSON outputs, measure impact of changes. Orchestration triggers runs; tenant engine analyzes. |
+| Time-series trend tracking | Task #8 | Schedule repeated Bentham runs, store results, compare visibility over time. Orchestration + data storage + analysis. |
 | Channel-specific content versions | Merchant Center doc | Different descriptions per channel (Shopify vs Google MC vs Amazon) |
 | Products optimized count | GEO Analytics #6 | Track how many products have been through optimization workflow (optimized vs pending) |
 | Approval vs rejection rates | GEO Analytics #6 | Track approve/reject actions on staged content, identify patterns to improve recommendation quality |
