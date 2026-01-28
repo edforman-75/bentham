@@ -8,13 +8,37 @@ import { Page } from 'playwright';
 export interface DiscoveredProduct {
   url: string;
   name: string;
-  source: 'brand-site' | 'amazon';
+  source: 'brand-site' | 'amazon' | 'walmart' | 'flipkart';
+  /** Product ID on the marketplace (ASIN, SKU, etc.) */
+  productId?: string;
+  /** Price if available */
+  price?: string;
+  /** Rating if available */
+  rating?: string;
 }
 
 export interface DiscoveryOptions {
   maxProducts: number;
   timeout: number;
 }
+
+/**
+ * Amazon regional domains
+ */
+export type AmazonRegion = 'us' | 'in' | 'uk' | 'de' | 'fr' | 'es' | 'it' | 'ca' | 'jp' | 'au';
+
+export const AMAZON_DOMAINS: Record<AmazonRegion, string> = {
+  us: 'amazon.com',
+  in: 'amazon.in',
+  uk: 'amazon.co.uk',
+  de: 'amazon.de',
+  fr: 'amazon.fr',
+  es: 'amazon.es',
+  it: 'amazon.it',
+  ca: 'amazon.ca',
+  jp: 'amazon.co.jp',
+  au: 'amazon.com.au',
+};
 
 const DEFAULT_DISCOVERY_OPTIONS: DiscoveryOptions = {
   maxProducts: 50,
@@ -187,7 +211,33 @@ export async function discoverBrandSiteProducts(
 }
 
 /**
+ * Extract Amazon domain from URL (supports all regional sites)
+ */
+function getAmazonDomain(url: string): string {
+  try {
+    const parsed = new URL(url);
+    return parsed.hostname.replace(/^www\./, '');
+  } catch {
+    return 'amazon.com';
+  }
+}
+
+/**
+ * Detect Amazon region from URL
+ */
+export function detectAmazonRegion(url: string): AmazonRegion | null {
+  const domain = getAmazonDomain(url);
+  for (const [region, regionDomain] of Object.entries(AMAZON_DOMAINS)) {
+    if (domain === regionDomain || domain === `www.${regionDomain}`) {
+      return region as AmazonRegion;
+    }
+  }
+  return null;
+}
+
+/**
  * Discover product URLs from an Amazon brand store
+ * Supports all Amazon regional sites (US, India, UK, etc.)
  */
 export async function discoverAmazonProducts(
   page: Page,
@@ -196,8 +246,10 @@ export async function discoverAmazonProducts(
 ): Promise<DiscoveredProduct[]> {
   const opts = { ...DEFAULT_DISCOVERY_OPTIONS, ...options };
   const discovered: Map<string, DiscoveredProduct> = new Map();
+  const amazonDomain = getAmazonDomain(amazonStoreUrl);
+  const region = detectAmazonRegion(amazonStoreUrl);
 
-  console.log(`Discovering products from Amazon store: ${amazonStoreUrl} (max: ${opts.maxProducts})`);
+  console.log(`Discovering products from Amazon (${region || 'unknown region'}): ${amazonStoreUrl} (max: ${opts.maxProducts})`);
 
   try {
     await page.goto(amazonStoreUrl, {
@@ -217,7 +269,7 @@ export async function discoverAmazonProducts(
     // Extract product links - Amazon store format
     // Products are typically in data-asin attributes or /dp/ASIN links
     const products = await page.$$eval('[data-asin], a[href*="/dp/"]', (elements) => {
-      const results: Array<{ asin: string; name: string; url: string }> = [];
+      const results: Array<{ asin: string; name: string; price?: string; rating?: string }> = [];
       const seenAsins = new Set<string>();
 
       for (const el of elements) {
@@ -238,10 +290,19 @@ export async function discoverAmazonProducts(
         const nameEl = el.querySelector('.p13n-sc-truncate, [class*="product-title"], h2, h3, span[class*="truncate"]');
         const name = nameEl?.textContent?.trim() || '';
 
+        // Try to get price
+        const priceEl = el.querySelector('.a-price .a-offscreen, [class*="price"]');
+        const price = priceEl?.textContent?.trim() || undefined;
+
+        // Try to get rating
+        const ratingEl = el.querySelector('.a-icon-star-small, [class*="star"]');
+        const rating = ratingEl?.getAttribute('aria-label') || ratingEl?.textContent?.trim() || undefined;
+
         results.push({
           asin,
           name,
-          url: `https://www.amazon.com/dp/${asin}`,
+          price,
+          rating,
         });
       }
 
@@ -251,12 +312,16 @@ export async function discoverAmazonProducts(
     for (const product of products) {
       if (discovered.size >= opts.maxProducts) break;
 
+      const productUrl = `https://www.${amazonDomain}/dp/${product.asin}`;
       discovered.set(product.asin, {
-        url: product.url,
+        url: productUrl,
         name: product.name || `Product ${product.asin}`,
         source: 'amazon',
+        productId: product.asin,
+        price: product.price,
+        rating: product.rating,
       });
-      console.log(`  Found: ${product.url} - ${product.name || '(unnamed)'}`);
+      console.log(`  Found: ${productUrl} - ${product.name || '(unnamed)'}`);
     }
 
   } catch (error) {
@@ -292,24 +357,260 @@ function extractProductNameFromUrl(url: string): string {
 }
 
 /**
- * Discover all products for a brand (both brand site and Amazon)
+ * Discover product URLs from a Walmart brand/search page
+ */
+export async function discoverWalmartProducts(
+  page: Page,
+  walmartUrl: string,
+  options: Partial<DiscoveryOptions> = {}
+): Promise<DiscoveredProduct[]> {
+  const opts = { ...DEFAULT_DISCOVERY_OPTIONS, ...options };
+  const discovered: Map<string, DiscoveredProduct> = new Map();
+
+  console.log(`Discovering products from Walmart: ${walmartUrl} (max: ${opts.maxProducts})`);
+
+  try {
+    await page.goto(walmartUrl, {
+      waitUntil: 'domcontentloaded',
+      timeout: opts.timeout,
+    });
+
+    // Wait for product grid to load
+    await page.waitForTimeout(2000);
+
+    // Scroll to load more products
+    for (let i = 0; i < 3 && discovered.size < opts.maxProducts; i++) {
+      await page.evaluate(() => window.scrollBy(0, window.innerHeight));
+      await page.waitForTimeout(1000);
+    }
+
+    // Extract product links from Walmart
+    // Walmart product URLs follow pattern: /ip/product-name/product-id
+    const products = await page.$$eval('a[href*="/ip/"]', (elements) => {
+      const results: Array<{ productId: string; name: string; url: string; price?: string; rating?: string }> = [];
+      const seenIds = new Set<string>();
+
+      for (const el of elements) {
+        const href = (el as HTMLAnchorElement).href;
+        // Extract product ID from URL (last segment after /ip/)
+        const match = href.match(/\/ip\/[^/]+\/(\d+)/);
+        if (!match) continue;
+
+        const productId = match[1];
+        if (seenIds.has(productId)) continue;
+        seenIds.add(productId);
+
+        // Try to get product name
+        const productCard = el.closest('[data-item-id], [data-testid="list-view"]') || el;
+        const nameEl = productCard.querySelector('[data-automation-id="product-title"], span[class*="truncate"], h3, h2');
+        const name = nameEl?.textContent?.trim() || '';
+
+        // Try to get price
+        const priceEl = productCard.querySelector('[data-automation-id="product-price"], [class*="price"]');
+        const price = priceEl?.textContent?.trim() || undefined;
+
+        // Try to get rating
+        const ratingEl = productCard.querySelector('[class*="rating"], [aria-label*="star"]');
+        const rating = ratingEl?.getAttribute('aria-label') || ratingEl?.textContent?.trim() || undefined;
+
+        results.push({
+          productId,
+          name,
+          url: `https://www.walmart.com/ip/${productId}`,
+          price,
+          rating,
+        });
+      }
+
+      return results;
+    });
+
+    for (const product of products) {
+      if (discovered.size >= opts.maxProducts) break;
+
+      discovered.set(product.productId, {
+        url: product.url,
+        name: product.name || `Product ${product.productId}`,
+        source: 'walmart',
+        productId: product.productId,
+        price: product.price,
+        rating: product.rating,
+      });
+      console.log(`  Found: ${product.url} - ${product.name || '(unnamed)'}`);
+    }
+
+  } catch (error) {
+    console.warn(`Failed to discover Walmart products:`, error);
+  }
+
+  console.log(`Discovered ${discovered.size} products from Walmart`);
+  return Array.from(discovered.values());
+}
+
+/**
+ * Discover product URLs from a Flipkart brand/search page
+ *
+ * IMPORTANT: Flipkart is India's primary e-commerce platform.
+ * - Accessible from US but may have limited functionality
+ * - For production use, recommend India-based proxy/VPN
+ * - Interface selectors based on Indian locale
+ * - Prices are in INR
+ */
+export async function discoverFlipkartProducts(
+  page: Page,
+  flipkartUrl: string,
+  options: Partial<DiscoveryOptions> = {}
+): Promise<DiscoveredProduct[]> {
+  const opts = { ...DEFAULT_DISCOVERY_OPTIONS, ...options };
+  const discovered: Map<string, DiscoveredProduct> = new Map();
+
+  console.log(`Discovering products from Flipkart: ${flipkartUrl} (max: ${opts.maxProducts})`);
+
+  try {
+    await page.goto(flipkartUrl, {
+      waitUntil: 'domcontentloaded',
+      timeout: opts.timeout,
+    });
+
+    // Wait for product grid to load
+    await page.waitForTimeout(2000);
+
+    // Scroll to load more products
+    for (let i = 0; i < 3 && discovered.size < opts.maxProducts; i++) {
+      await page.evaluate(() => window.scrollBy(0, window.innerHeight));
+      await page.waitForTimeout(1000);
+    }
+
+    // Extract product links from Flipkart
+    // Flipkart product URLs follow pattern: /product-name/p/itm... with pid parameter
+    const products = await page.$$eval('a[href*="/p/itm"]', (elements) => {
+      const results: Array<{ productId: string; name: string; url: string; price?: string; rating?: string }> = [];
+      const seenIds = new Set<string>();
+
+      for (const el of elements) {
+        const href = (el as HTMLAnchorElement).href;
+        // Extract product ID from URL
+        const pidMatch = href.match(/pid=([A-Z0-9]+)/i) || href.match(/\/p\/(itm[A-Z0-9]+)/i);
+        if (!pidMatch) continue;
+
+        const productId = pidMatch[1];
+        if (seenIds.has(productId)) continue;
+        seenIds.add(productId);
+
+        // Try to get product name
+        const productCard = el.closest('[data-id], ._1AtVbE, ._4ddWXP') || el;
+        const nameEl = productCard.querySelector('._4rR01T, .s1Q9rs, ._2WkVRV, [class*="title"]');
+        const name = nameEl?.textContent?.trim() || '';
+
+        // Try to get price
+        const priceEl = productCard.querySelector('._30jeq3, ._1_WHN1');
+        const price = priceEl?.textContent?.trim() || undefined;
+
+        // Try to get rating
+        const ratingEl = productCard.querySelector('._3LWZlK, [class*="rating"]');
+        const rating = ratingEl?.textContent?.trim() || undefined;
+
+        // Construct clean URL
+        const urlObj = new URL(href);
+        const cleanUrl = `${urlObj.origin}${urlObj.pathname}?pid=${productId}`;
+
+        results.push({
+          productId,
+          name,
+          url: cleanUrl,
+          price,
+          rating,
+        });
+      }
+
+      return results;
+    });
+
+    for (const product of products) {
+      if (discovered.size >= opts.maxProducts) break;
+
+      discovered.set(product.productId, {
+        url: product.url,
+        name: product.name || `Product ${product.productId}`,
+        source: 'flipkart',
+        productId: product.productId,
+        price: product.price,
+        rating: product.rating,
+      });
+      console.log(`  Found: ${product.url} - ${product.name || '(unnamed)'}`);
+    }
+
+  } catch (error) {
+    console.warn(`Failed to discover Flipkart products:`, error);
+  }
+
+  console.log(`Discovered ${discovered.size} products from Flipkart`);
+  return Array.from(discovered.values());
+}
+
+/**
+ * Options for discovering products across all marketplaces
+ */
+export interface AllProductsOptions extends Partial<DiscoveryOptions> {
+  brandSiteUrl?: string;
+  amazonStoreUrl?: string;
+  walmartUrl?: string;
+  flipkartUrl?: string;
+}
+
+/**
+ * Discover all products for a brand across all supported marketplaces
  */
 export async function discoverAllProducts(
   page: Page,
   brandSiteUrl?: string,
   amazonStoreUrl?: string,
-  options: Partial<DiscoveryOptions> = {}
+  options?: Partial<DiscoveryOptions>
+): Promise<DiscoveredProduct[]>;
+
+export async function discoverAllProducts(
+  page: Page,
+  options: AllProductsOptions
+): Promise<DiscoveredProduct[]>;
+
+export async function discoverAllProducts(
+  page: Page,
+  brandSiteUrlOrOptions?: string | AllProductsOptions,
+  amazonStoreUrl?: string,
+  options?: Partial<DiscoveryOptions>
 ): Promise<DiscoveredProduct[]> {
   const allProducts: DiscoveredProduct[] = [];
 
-  if (brandSiteUrl) {
-    const brandProducts = await discoverBrandSiteProducts(page, brandSiteUrl, options);
+  // Handle both call signatures
+  let opts: AllProductsOptions;
+  if (typeof brandSiteUrlOrOptions === 'object') {
+    opts = brandSiteUrlOrOptions;
+  } else {
+    opts = {
+      ...(options || {}),
+      brandSiteUrl: brandSiteUrlOrOptions,
+      amazonStoreUrl,
+    };
+  }
+
+  if (opts.brandSiteUrl) {
+    const brandProducts = await discoverBrandSiteProducts(page, opts.brandSiteUrl, opts);
     allProducts.push(...brandProducts);
   }
 
-  if (amazonStoreUrl) {
-    const amazonProducts = await discoverAmazonProducts(page, amazonStoreUrl, options);
+  if (opts.amazonStoreUrl) {
+    const amazonProducts = await discoverAmazonProducts(page, opts.amazonStoreUrl, opts);
     allProducts.push(...amazonProducts);
+  }
+
+  if (opts.walmartUrl) {
+    const walmartProducts = await discoverWalmartProducts(page, opts.walmartUrl, opts);
+    allProducts.push(...walmartProducts);
+  }
+
+  if (opts.flipkartUrl) {
+    const flipkartProducts = await discoverFlipkartProducts(page, opts.flipkartUrl, opts);
+    allProducts.push(...flipkartProducts);
   }
 
   return allProducts;

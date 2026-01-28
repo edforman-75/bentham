@@ -59,13 +59,19 @@ export {
   type OpenAICollectorOptions,
 } from './collectors/openai-api.js';
 
-// URL Discovery
+// URL Discovery (Marketplaces)
 export {
   discoverBrandSiteProducts,
   discoverAmazonProducts,
+  discoverWalmartProducts,
+  discoverFlipkartProducts,
   discoverAllProducts,
+  detectAmazonRegion,
+  AMAZON_DOMAINS,
   type DiscoveredProduct,
   type DiscoveryOptions,
+  type AllProductsOptions,
+  type AmazonRegion,
 } from './collectors/url-discovery.js';
 
 // AI Files Discovery
