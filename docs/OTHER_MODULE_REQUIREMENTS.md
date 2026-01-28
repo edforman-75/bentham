@@ -10,13 +10,18 @@ This document tracks requirements that emerged from customer feature requests bu
 |-------------|--------|-------------|
 | Marketplace content transformation | GEO Opt #5 | Transform master content for Amazon (A+ content, bullets), Walmart, Flipkart formats |
 | Tag management and sync | GEO Opt #6 | Manage product tags, sync to Shopify/marketplaces |
-| Staged content approval workflow | GEO Opt #7 | Hold content for review before publishing |
-| Multi-format output | Task #4 | Output plain text, JSON, diff, HTML with CSS per target |
+| Staged content approval workflow | GEO Opt #7, Task #6 | Hold content for review before publishing |
+| Multi-format output | Task #4 | Transform Bentham JSON output into plain text, diff, HTML with CSS per target. Bentham outputs JSON only. |
+| Analysis and reporting | Task #7, #8, #9 | Analyze Bentham JSON data, generate trend reports, performance metrics, correlation analysis. Bentham collects data; PIM analyzes. |
+| Gap analysis | Task #2 | Compare existing content vs ideal. If API access → get via Manifest Interpreter. If no API → Bentham crawls. Analysis is tenant-specific. |
+| Prioritization and scoring | Task #3 | Score and prioritize optimization opportunities based on Bentham data. Bentham outputs raw data; tenant engine decides priorities. |
+| A/B testing for AI citations | Task #5 | Run before/after studies, compare JSON outputs, measure impact of changes. Orchestration triggers runs; tenant engine analyzes. |
 | Channel-specific content versions | Merchant Center doc | Different descriptions per channel (Shopify vs Google MC vs Amazon) |
 | Products optimized count | GEO Analytics #6 | Track how many products have been through optimization workflow (optimized vs pending) |
 | Approval vs rejection rates | GEO Analytics #6 | Track approve/reject actions on staged content, identify patterns to improve recommendation quality |
 | Confidence scores on recommendations | GEO Analytics #6 | Output confidence level on content recommendations, quality metric for optimization engine |
 | **llms.txt generation** | Task #11 | Generate llms.txt content from crawled site data. Bentham discovers existing llms.txt (#23) and crawls content; PIM generates the file. |
+| **Collection page optimization** | Task #14 | Generate optimized titles/descriptions for collection/category pages. Bentham analyzes collection pages (#14); PIM generates the content. |
 
 ---
 
@@ -41,6 +46,19 @@ This document tracks requirements that emerged from customer feature requests bu
 | AI-powered tag generation | GEO Opt #6 | Auto-generate tags from product content + images |
 | Visual search tagging | GEO Opt #6 | Image analysis for visual discovery compatibility |
 | Seasonal/contextual tagging | GEO Opt #6 | "Summer", "Holiday gift", "Back to school" auto-tagging |
+
+---
+
+## Orchestration Layer
+
+| Requirement | Source | Description |
+|-------------|--------|-------------|
+| Scheduled Bentham runs | Task #20 | Cron/scheduler to trigger Bentham studies on schedule (daily, weekly, on-demand) |
+| Event-triggered runs | Task #20 | Trigger Bentham when platform events occur (new product, content change) |
+| Job queue management | Task #20 | Queue, prioritize, and track Bentham job execution |
+| Day-zero product triggers | Task #16 | Detect new product/listing changes. If API access → Manifest Interpreter gets data. If no API → trigger Bentham crawl. |
+| Human-in-the-loop gates | Task #20 | Pause workflow for human approval before proceeding to next stage |
+| Discovery scan jobs | Task #1 | Define and trigger discovery scan job types. Bentham runs the script; orchestrator decides job type and priorities. |
 
 ---
 
