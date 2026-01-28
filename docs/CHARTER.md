@@ -1,6 +1,40 @@
 # Bentham System Charter
 
-## Mission
+**Note:** The authoritative charter is now at `/CHARTER.md` in the repository root.
+
+This document is retained for historical reference. See `/CHARTER.md` for current scope definition.
+
+---
+
+## Summary of v2.0 Changes (2026-01-24)
+
+Bentham's scope has been clarified and narrowed:
+
+**Bentham IS:**
+- Prompt execution engine
+- Response capture system
+- Cost tracker
+- Evidence collector
+
+**Bentham is NOT:**
+- Analysis platform
+- Reporting tool
+- Visualization system
+- Insight generator
+
+All analysis and reporting functionality belongs to **each tenant** (not Bentham).
+
+---
+
+## Historical Charter (v1.x)
+
+The content below represents the original charter from v1.0-1.1. Some principles remain valid (manifest-driven execution, tenant isolation, evidence collection) while others (AI advisor integration, response scoring) have been moved out of scope.
+
+[Original v1.1 content preserved below for reference]
+
+---
+
+## Mission (v1.x)
 
 Bentham is a multi-tenant, manifest-driven AI extraction service that reliably executes studies across AI surfaces, geographic locations, and query sets. It provides deterministic, restartable, self-healing execution with human escalation when needed.
 
@@ -12,7 +46,7 @@ Bentham (the service) captures AI systems in their natural state. Like the unsee
 
 ---
 
-## Core Principles
+## Core Principles (v1.x - Still Valid)
 
 ### P1: Manifest-Driven Execution
 Every study is defined by a declarative manifest that specifies exactly what needs to happen and what "done" means. The system executes against the manifest, not against implicit goals.
@@ -22,6 +56,8 @@ The executor cannot self-attest completion. A separate validator checks results 
 
 ### P3: Deterministic by Default
 The production system is deterministic code, not an AI agent making judgments. AI is used as an advisor (not executor) and for specific modules (query generation, response scoring) with validated outputs.
+
+**Note (v2.0):** Response scoring has been moved to tenant repos. Bentham no longer uses AI for analysis.
 
 ### P4: Self-Healing with Transparency
 The system attempts automatic recovery AND notifies humans of problems and actions taken. It doesn't stop and wait for permission—it acts and informs.
@@ -49,129 +85,27 @@ Execution is provider-agnostic. The system can failover from in-house execution 
 
 ---
 
-## Guardrails
+## Guardrails (v1.x - Updated in v2.0)
 
 ### What Bentham Does
 - Executes studies defined by external manifests
 - Queries AI APIs, web chatbot surfaces, and search engines
 - Captures responses with configurable evidence levels
-- Validates results against manifest criteria
+- ~~Validates results against manifest criteria~~ (Mechanical validation only in v2.0)
 - Tracks costs and completion progress
 - Notifies tenants of status, problems, and completions
 
 ### What Bentham Does NOT Do
 - Create manifests (tenants create these externally)
-- Generate reports or analyses (tenants consume raw data and create their own reports)
-- Build visualizations or dashboards for tenant end-users
+- **Generate reports or analyses** (tenants consume raw data and create their own reports)
+- **Build visualizations or dashboards** for tenant end-users
 - Make subjective judgments about study completion
 - Access data across tenant boundaries
 - Push to production without validation
 - Self-attest completion of any work item
-
-**Data Boundary:** Bentham collects and makes data available. Tenants are responsible for:
-- Consuming results via API or export
-- Generating reports and analyses for their clients
-- Building visualizations and dashboards
-- Deriving insights and recommendations
-
-### AI Usage Boundaries
-
-| Use Case | AI Role | Guardrails |
-|----------|---------|------------|
-| Query generation | Generator | Outputs validated by schema |
-| Response validation | Classifier | Binary output, logged |
-| Response scoring | Analyzer | Structured output, auditable |
-| Troubleshooting | Advisor | Suggestions only, system validates before acting |
-| Study completion | PROHIBITED | Only validator/orchestrator can determine completion |
-
-### Security Guardrails
-- No cross-tenant data access
-- All actions audit logged
-- 7-year regulatory retention for audit logs
-- Encryption at rest and in transit
-- Role-based access control at all layers
-
----
-
-## Roles and Access Control
-
-### Platform Level
-
-| Role | Capabilities |
-|------|--------------|
-| **System Admin** | Superuser. All access, manages operators, system policies, sensitive config |
-| **System Operator** | Day-to-day ops: monitoring, incidents, proxy management, tenant onboarding. No tenant data access |
-
-### Tenant Level
-
-| Role | Capabilities |
-|------|--------------|
-| **Tenant Admin** | Manages org users, studies, API keys, billing |
-| **Study Manager** | Create/run/manage studies |
-| **Analyst** | View results, read-only |
-| **API Access** | Programmatic, scoped permissions |
-
----
-
-## Service Level Objectives
-
-### Reliability
-- Studies must complete by manifest-specified deadlines
-- System monitors progress and escalates when at risk
-- Human response SLA: 4 hours for escalations
-
-### Completion Criteria (Configurable per Study)
-
-Completion criteria are multi-variate, supporting required vs optional surfaces:
-
-- **Required surfaces:** Must meet threshold (e.g., 95% of ChatGPT, Gemini, Perplexity)
-- **Optional surfaces:** Best effort, do not block completion (e.g., Copilot, Meta, Grok)
-- **Deadline priority:** Study completes when required surfaces meet thresholds; don't miss deadline waiting for optional surfaces
-- **Max retries per cell:** Before marking failed
-- **Quality gates:** Real content vs error pages
-- **Evidence requirements:** Full, metadata-only, or none
-
-### Escalation Path for At-Risk Studies
-1. Notify operator → Request resolution guidance
-2. Operator timeout → Auto-scale resources
-3. Queue optimization → Reprioritize jobs
-4. Tenant notification → If deadline still at risk
-
----
-
-## Multi-Tenancy Model
-
-### Shared Resources
-- Proxy pools (residential IP providers)
-- Session pools (browser automation)
-- Compute infrastructure (AWS)
-
-### Isolated Resources
-- Study data and results
-- Evidence storage
-- API keys and credentials
-- Audit logs (per-tenant views)
-- Cost tracking
-
-### Future Tenants
-Architecture supports additional tenants. Initial implementation focuses on two tenants (Kyanos, GLU) without self-service onboarding complexity.
-
----
-
-## Data Retention
-
-### Audit Logs
-- Default: 7-year regulatory retention
-- Manifest-level overrides possible
-
-### Study Data
-- Configurable per study in manifest
-- Tiered storage: Hot → Cold → Deletion
-- Explicit "preserve forever" flag for legal hold
-
-### Evidence (Screenshots, HTML, HAR)
-- Follows study data retention policy
-- Legal hold studies: immutable, indefinite
+- **Score or rate responses** (moved to tenant repos in v2.0)
+- **Compare results across surfaces** (moved to tenant repos in v2.0)
+- **Generate insights or recommendations** (moved to tenant repos in v2.0)
 
 ---
 
@@ -181,3 +115,4 @@ Architecture supports additional tenants. Initial implementation focuses on two 
 |---------|------|--------|---------|
 | 1.0 | 2025-01-16 | Claude Code | Initial charter from interview |
 | 1.1 | 2025-01-21 | Claude Code | Added P11: Resilience Through Provider Abstraction |
+| 2.0 | 2026-01-24 | Claude Code | **Major scope reduction**: Bentham is execution + capture only. Analysis, scoring, and reporting moved to tenant repos. See /CHARTER.md for current scope. |
