@@ -3,6 +3,21 @@
  *
  * AI advisor modules for Bentham.
  * Provides Query Generation, Response Validation, Response Scoring, and Troubleshooting.
+ *
+ * DEPRECATION NOTICE (2026-01-24):
+ * Per Bentham Charter v2.0, Bentham is multi-tenant execution infrastructure.
+ * Analysis and scoring belong to each tenant, not Bentham.
+ *
+ * OUT OF SCOPE (move to tenant repos):
+ *   - ResponseScorer: Analysis belongs to tenants
+ *   - ResponseValidator (quality scoring): Quality assessment belongs to tenants
+ *
+ * IN SCOPE (stay in Bentham):
+ *   - QueryGenerator: Manifest expansion, query optimization
+ *   - Troubleshooter: Operational diagnostics for execution failures
+ *   - ResponseValidator (mechanical): Non-empty, timeout, error detection
+ *
+ * See /docs/MIGRATION-TO-TENANT-REPOS.md for migration guidance.
  */
 
 // Types

@@ -2,6 +2,32 @@
 
 AI advisory modules for query generation, response validation, scoring, and troubleshooting.
 
+---
+
+## Deprecation Notice (2026-01-24)
+
+**Per Bentham Charter v2.0**, this package contains functionality that is **out of scope** for Bentham.
+
+Bentham's scope is limited to:
+- Prompt execution
+- Response capture
+- Cost tracking
+- Evidence collection
+
+### Module Status
+
+| Module | Status | Destination |
+|--------|--------|-------------|
+| `ResponseScorer` | **DEPRECATED** | Migrate to tenant repos |
+| `ResponseValidator` (quality scoring) | **DEPRECATED** | Migrate to tenant repos |
+| `ResponseValidator` (mechanical checks) | Keep | isEmpty, isError, timeout |
+| `QueryGenerator` | Evaluate | Keep if used for study setup |
+| `Troubleshooter` | Keep | Operational diagnostics |
+
+See `/docs/MIGRATION-TO-TENANT-REPOS.md` for migration guidance.
+
+---
+
 ## Installation
 
 ```bash
