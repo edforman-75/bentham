@@ -1,0 +1,2573 @@
+{
+  "studyName": "Natural Balance US Visibility Study - OpenAI Responses API",
+  "surface": "openai-responses-api",
+  "location": "United States",
+  "startTime": "2026-01-25T19:08:25.771Z",
+  "totalQueries": 100,
+  "successfulQueries": 100,
+  "results": [
+    {
+      "queryIndex": 0,
+      "query": "What is the best dog food brand?",
+      "success": true,
+      "response": "Choosing the best dog food brand depends on various factors, including your dog's age, breed, size, activity level, and any specific dietary needs or allergies. However, some well-regarded brands often recommended by veterinarians and pet nutrition experts include:\n\n1. **Royal Canin**: Offers breed-specific formulas and prescription diets.\n2. **Hill's Science Diet**: Known for clinically researched nutrition and prescription diets.\n3. **Blue Buffalo**: Offers a variety of formulations, including grain-free and limited ingredient diets.\n4. **Purina Pro Plan**: Provides a range of formulas with high-quality ingredients.\n5. **Wellness**: Known for natural ingredients and a variety of recipes.\n\nAlways consult with your veterinarian to determine the best choice for your specific dog.",
+      "responseTimeMs": 6264,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Hill's",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 1,
+      "query": "best dry dog food 2026",
+      "success": true,
+      "response": "I can't predict future product releases or changes, but I can give you some tips on selecting quality dry dog food. Look for brands that:\n\n1. **High-Quality Ingredients**: Choose foods that list real meat (like chicken, beef, or salmon) as the first ingredient rather than meat by-products.\n\n2. **Nutritional Balance**: Ensure the food meets AAFCO (Association of American Feed Control Officials) nutritional standards for your dog's life stage.\n\n3. **No Fillers**: Avoid foods with excessive fillers like corn, wheat, or soy.\n\n4. **Limited Additives**: Opt for foods with minimal artificial colors, flavors, and preservatives.\n\n5. **Reputable Brands**: Consider brands known for safety and quality, and check for recalls.\n\n6. **Specific Needs**: Choose food that fits your dog's age, size, breed, and health conditions.\n\nAlways consult your veterinarian to tailor choices to your dog's specific dietary needs.",
+      "responseTimeMs": 5764,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 2,
+      "query": "top rated dog food brands",
+      "success": true,
+      "response": "Selecting the best dog food brand involves considering factors like your dog's age, size, dietary needs, and any specific health concerns. Here are some top-rated dog food brands known for their quality ingredients and nutritional balance:\n\n1. **Royal Canin**: Known for breed-specific formulas and targeted nutrition.\n2. **Hill’s Science Diet**: Offers a variety of recipes tailored to different life stages and health needs.\n3. **Blue Buffalo**: Focuses on natural ingredients with no artificial preservatives.\n4. **Wellness Core**: Grain-free options with high protein and nutrient-rich ingredients.\n5. **Orijen**: Offers biologically appropriate diets with high meat content.\n6. **Taste of the Wild**: Grain-free recipes with unique proteins and probiotics.\n7. **Purina Pro Plan**: Combines high-quality ingredients with advanced nutrition based on science.\n8. **Merrick**: Known for grain-free recipes and a wide variety of flavors.\n9. **Nutro Ultra**: Uses clean ingredients with a focus on non-GMO sources.\n10. **Acana**: Offers biologically appropriate food made with fresh regional ingredients.\n\nAlways consult with your veterinarian to find the best food suited for your dog’s specific health needs.",
+      "responseTimeMs": 9042,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Orijen",
+          "count": 1
+        },
+        {
+          "brand": "Acana",
+          "count": 1
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        },
+        {
+          "brand": "Target",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 3,
+      "query": "healthiest dog food options",
+      "success": true,
+      "response": "Choosing the healthiest dog food depends on your dog's specific needs, age, breed, activity level, and any health concerns. However, there are general guidelines you can follow when selecting a quality dog food:\n\n### Key Considerations:\n1. **High-Quality Protein:** Look for foods with real meat, poultry, or fish as the first ingredient.\n\n2. **Whole Grains:** Opt for whole grains like brown rice, quinoa, or oats for energy unless your dog has a sensitivity.\n\n3. **Vegetables and Fruits:** These provide essential vitamins, minerals, and fiber.\n\n4. **Healthy Fats:** Ensure sources like chicken fat, fish oil, or flaxseed for skin and coat health.\n\n5. **Avoid Fillers and Additives:** Avoid foods with excessive fillers, artificial colors, and preservatives.\n\n6. **Complete and Balanced:** Look for a statement from the AAFCO (Association of American Feed Control Officials) indicating the food is complete and balanced.\n\n### Types of Dog Food:\n- **Dry Kibble:** Convenient and often includes dental benefits. Look for high-protein options.\n  \n- **Wet Canned Food:** Higher moisture content, beneficial for hydration.\n\n- **Fresh/Frozen Food:** Minimally processed and often perceived as healthier. Brands like Nom Nom or The Farmer’s Dog.\n\n- **Dehydrated/Freeze-Dried:** Retains nutrients while being shelf-stable. Brands like Honest Kitchen.\n\n### Popular Healthy Brands:\n- **Blue Buffalo:** Known for high-quality ingredients and no byproducts.\n  \n- **Wellness Core:** Grain-free options with high protein and healthy fats.\n\n- **Orijen:** Biologically appropriate with high meat content and fresh ingredients.\n\n- **Acana:** Known for regional ingredients and biologically appropriate diets.\n\n- **Fromm:** Family-owned brand with a focus on quality and nutrition.\n\n### Special Diets:\n- **Grain-Free:** Beneficial for dogs with allergies, though not necessary for all.\n  \n- **Limited Ingredient Diets:** Good for dogs with food sensitivities or allergies.\n\n- **Prescription Diets:** For specific health conditions like kidney disease, obesity, etc.\n\n### Homemade Diets:\nEnsure they are nutritionally balanced and consult a veterinarian or pet nutritionist.\n\nBefore making any changes to your dog's diet, it's always best to consult your veterinarian to cater to your dog's specific health needs.",
+      "responseTimeMs": 11132,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Orijen",
+          "count": 1
+        },
+        {
+          "brand": "Acana",
+          "count": 1
+        },
+        {
+          "brand": "Fromm",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 4,
+      "query": "best dog food recommended by veterinarians",
+      "success": true,
+      "response": "When selecting dog food recommended by veterinarians, it’s important to consider factors such as your dog's age, size, breed, activity level, and any specific health needs. Veterinary-recommended brands known for quality and balanced nutrition often include:\n\n1. **Hill’s Science Diet** - Formulated with high-quality ingredients and often recommended for specific health concerns.\n2. **Royal Canin** - Offers breed-specific formulas and options for various health conditions.\n3. **Purina Pro Plan** - Known for its scientific approach to nutrition and a wide range of options.\n4. **Eukanuba** - Offers tailored nutrition for different life stages and sizes.\n5. **Iams** - Provides balanced nutrition with a focus on real animal protein.\n\nIt's best to consult your veterinarian for personalized recommendations, especially if your dog has unique dietary needs or health issues.",
+      "responseTimeMs": 3977,
+      "brandMentions": [
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Iams",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 5,
+      "query": "premium dog food brands worth the money",
+      "success": true,
+      "response": "When looking for premium dog food brands that are worth the investment, consider those known for high-quality ingredients, nutritional balance, and positive reviews. Here are some brands often recommended:\n\n1. **Royal Canin**: Offers breed-specific formulas and caters to various health needs.\n\n2. **Hill’s Science Diet**: Known for its research-backed formulas and focus on health issues.\n\n3. **Orijen**: Features biologically appropriate recipes with a high protein content and fresh ingredients.\n\n4. **Acana**: Offers a variety of regionally inspired recipes with premium ingredients.\n\n5. **Merrick**: Known for grain-free options and high-quality protein sources.\n\n6. **Wellness Core**: Focuses on natural ingredients with a high emphasis on protein.\n\n7. **Blue Buffalo**: Known for its natural ingredients and LifeSource Bits that offer vitamins and minerals.\n\n8. **Nutro Ultra**: Offers blends that include high-quality protein and superfoods.\n\n9. **Taste of the Wild**: Emphasizes grain-free recipes with a focus on unique proteins.\n\n10. **Fromm**: Family-owned brand offering a mix of tradition and innovation with high-quality ingredients.\n\nAlways consider your dog's specific dietary needs, life stage, and any health issues when choosing a food brand. Consulting with a veterinarian can also provide guidance tailored to your dog's health requirements.",
+      "responseTimeMs": 8028,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Orijen",
+          "count": 1
+        },
+        {
+          "brand": "Acana",
+          "count": 1
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 1
+        },
+        {
+          "brand": "Fromm",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 6,
+      "query": "best natural dog food brands",
+      "success": true,
+      "response": "Choosing the best natural dog food for your pet depends on various factors, including their size, breed, and dietary needs. However, several brands are well-known for their quality and use of natural ingredients:\n\n1. **Blue Buffalo**: Known for its high-quality proteins and natural ingredients. They offer grain-free and limited ingredient options.\n\n2. **Wellness Core**: Grain-free recipes with a focus on high protein and natural nutritional benefits.\n\n3. **Merrick**: Offers a range of grain-free and limited ingredient options, emphasizing real, whole foods.\n\n4. **NUTRO**: Uses non-GMO ingredients and real meat as the first ingredient. They provide grain-free and limited ingredient formulas.\n\n5. **Taste of the Wild**: Known for affordable grain-free options, with novel proteins and antioxidants from fruits and vegetables.\n\n6. **Canidae**: Offers grain-free and limited ingredient options, focusing on high-quality, simple recipes.\n\n7. **The Honest Kitchen**: Human-grade dehydrated dog food with a focus on organic and whole food ingredients.\n\n8. **Castor & Pollux**: Offers organic options certified by the USDA, emphasizing responsibly raised meat and produce.\n\nAlways consider consulting your veterinarian before making changes to your dog's diet to ensure it meets their specific nutritional needs.",
+      "responseTimeMs": 5155,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Canidae",
+          "count": 1
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 7,
+      "query": "high quality dog food brands",
+      "success": true,
+      "response": "When choosing high-quality dog food, it's crucial to consider brands known for their nutritious ingredients and rigorous quality control. Here are some well-regarded options:\n\n1. **Blue Buffalo**\n   - Offers several lines like Blue Wilderness and Blue Basics.\n   - Known for natural ingredients and no unnecessary fillers.\n\n2. **Wellness**\n   - Provides grain-free and limited ingredient diets.\n   - Uses real meat and whole foods.\n\n3. **Orijen**\n   - Biologically appropriate meals focusing on whole prey animal ingredients.\n   - High protein content from fresh regional sources.\n\n4. **Taste of the Wild**\n   - Grain-free formulas with a focus on easily digestible energy.\n   - Uses a variety of meats to mimic ancestral diets.\n\n5. **Nutro**\n   - Emphasizes non-GMO ingredients and offers grain-free options.\n   - Prioritizes simple and recognizable ingredients.\n\n6. **Merrick**\n   - Known for recipes with real deboned meat as the first ingredient.\n   - Offers both grain-free and healthy grains formulas.\n\n7. **Acana**\n   - Features regionally sourced fresh ingredients.\n   - Offers balanced diets with a focus on protein.\n\n8. **Royal Canin**\n   - Provides breed-specific and veterinary diets.\n   - Tailors nutrition to size, age, and health needs.\n\n9. **Hill's Science Diet**\n   - Developed with veterinary professionals.\n   - Focuses on scientific research for balanced nutrition.\n\n10. **NutriSource**\n    - Family-owned with a commitment to community and safety.\n    - Includes probiotics and prebiotics for digestive health.\n\nRemember to consider your dog's specific dietary needs, age, size, and health conditions. Consulting with a veterinarian for personalized recommendations is always a good idea.",
+      "responseTimeMs": 6094,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Orijen",
+          "count": 1
+        },
+        {
+          "brand": "Acana",
+          "count": 1
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 1
+        },
+        {
+          "brand": "Hill's",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 8,
+      "query": "best dog food for the money",
+      "success": true,
+      "response": "Choosing the best dog food for the money involves considering a balance of quality ingredients, nutritional value, and cost. Here are some options that are often recommended:\n\n1. **Taste of the Wild**: Known for its high-quality ingredients like real meats and vegetables, it's often well-regarded for providing good nutrition at a reasonable price.\n\n2. **Blue Buffalo Life Protection Formula**: Offers real meat as the first ingredient and includes whole grains, garden veggies, and fruit, making it a popular choice.\n\n3. **Purina Pro Plan**: Provides a range of formulas tailored to different dietary needs and life stages, often at a more affordable price point than premium brands.\n\n4. **Hill’s Science Diet**: Recommended by many vets, it offers specialized nutrition for different health needs and life stages.\n\n5. **Nutro Wholesome Essentials**: Uses non-GMO ingredients and is known for having real meat as the first ingredient, providing good quality without the high price tag.\n\n6. **Wellness CORE**: Grain-free options with high-quality proteins and superfoods, offering a good balance of cost and quality.\n\nWhen choosing dog food, consider your dog's specific dietary needs, allergies or sensitivities, age, size, and activity level. It's also a good idea to consult with your veterinarian to ensure the choice fits your dog's health requirements.",
+      "responseTimeMs": 9118,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 9,
+      "query": "what dog food do vets recommend most",
+      "success": true,
+      "response": "Veterinarians often recommend dog foods based on a few key factors: nutritional content, quality of ingredients, the specific health needs of the dog, and brand reputation. Some commonly recommended brands include:\n\n1. **Royal Canin**: Known for its breed-specific and therapeutic formulas.\n2. **Hill's Science Diet**: Offers a range of formulas for different life stages and health needs.\n3. **Purina Pro Plan**: Provides a balance of quality ingredients and specialized nutrition.\n4. **Eukanuba**: Focuses on performance and tailored nutrition for life stages.\n5. **Wellness**: Known for natural ingredients and holistic nutrition.\n\nIt's important to consult with your vet for recommendations tailored to your dog's specific health requirements, age, breed, and lifestyle.",
+      "responseTimeMs": 3254,
+      "brandMentions": [
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Hill's",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 10,
+      "query": "best affordable dog food that's still healthy",
+      "success": true,
+      "response": "When looking for affordable yet healthy dog food, it's important to focus on quality ingredients. Here are some options you might consider:\n\n1. **Purina ONE SmartBlend**: This line offers various formulas with real meat as the first ingredient and includes essential nutrients for overall health.\n\n2. **Nutro Wholesome Essentials**: Made with non-GMO ingredients, it offers balanced nutrition with real meat and whole grains.\n\n3. **Blue Buffalo Life Protection Formula**: Known for its real meat and LifeSource Bits®, which are a blend of antioxidants, vitamins, and minerals.\n\n4. **Hill's Science Diet Adult**: This brand focuses on balanced nutrition tailored for various life stages and dietary needs.\n\n5. **Rachael Ray Nutrish**: Made with simple, natural ingredients like real meat and wholesome veggies, this is a budget-friendly option.\n\nRemember to check the ingredient list and ensure the first few ingredients are real meat or fish, and avoid foods with excessive fillers or artificial additives. It's also wise to consult your vet for recommendations specific to your dog's dietary needs and health conditions.",
+      "responseTimeMs": 4953,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Hill's",
+          "count": 1
+        },
+        {
+          "brand": "Rachael Ray",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 11,
+      "query": "dog food brands with best ingredients",
+      "success": true,
+      "response": "When looking for dog food brands with high-quality ingredients, consider the following options known for their commitment to using premium, nutritious components:\n\n1. **Orijen**: Uses regional ingredients and provides high protein levels from free-run poultry and wild-caught fish.\n\n2. **Acana**: Offers biologically appropriate foods with fresh, regional ingredients including meats, fish, and botanicals.\n\n3. **Wellness Core**: Focuses on grain-free recipes with high-quality proteins, fruits, and vegetables.\n\n4. **Blue Buffalo Wilderness**: Known for its real meat recipes, natural ingredients, and LifeSource Bits rich with antioxidants.\n\n5. **Taste of the Wild**: Provides grain-free recipes with novel proteins like bison and venison, complemented by fruits and vegetables.\n\n6. **The Farmer’s Dog**: Offers fresh, human-grade meals personalized for your dog's needs.\n\n7. **Merrick Grain-Free**: Features high levels of protein from deboned meats specifically designed for active dogs.\n\n8. **Canidae Grain-Free Pure**: Limited ingredient formulas made with real meat and whole foods.\n\n9. **Nutro Ultra**: Uses non-GMO ingredients with a focus on lean proteins and superfoods.\n\n10. **Fromm Family Foods**: Offers a variety of recipes with quality proteins and wholesome ingredients.\n\nWhen choosing dog food, consider your dog’s specific dietary needs, age, and health conditions. It’s also a good idea to consult with a veterinarian for personalized advice.",
+      "responseTimeMs": 8361,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Orijen",
+          "count": 1
+        },
+        {
+          "brand": "Acana",
+          "count": 1
+        },
+        {
+          "brand": "Canidae",
+          "count": 1
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 1
+        },
+        {
+          "brand": "Fromm",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 12,
+      "query": "best American made dog food",
+      "success": true,
+      "response": "Selecting the best American-made dog food involves considering quality ingredients, nutritional balance, and brand reputation. Here are some top choices:\n\n1. **Blue Buffalo**\n   - Known for high-quality, natural ingredients.\n   - Offers grain-free and limited ingredient options.\n\n2. **Wellness Natural Pet Food**\n   - Uses whole foods and no fillers.\n   - Varieties for different life stages and dietary needs.\n\n3. **Merrick**\n   - Features high protein content with real meat.\n   - Offers grain-free and limited ingredient diets.\n\n4. **Taste of the Wild**\n   - Known for novel proteins and grain-free formulas.\n   - Includes probiotics for digestive health.\n\n5. **Nature's Logic**\n   - 100% natural and free from synthetic vitamins.\n   - Focus on whole foods and nutrient-dense ingredients.\n\n6. **Nutro Ultra**\n   - Uses non-GMO ingredients.\n   - Offers a blend of superfoods for extra nutrients.\n\n7. **Canidae**\n   - Features simple recipes with premium proteins.\n   - Offers options for sensitive stomachs.\n\nWhen choosing a dog food, consider your dog's specific needs, such as age, size, activity level, and any dietary restrictions or allergies. It's also a good idea to consult with your veterinarian for personalized advice.",
+      "responseTimeMs": 7420,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Canidae",
+          "count": 1
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 13,
+      "query": "safest dog food brands 2026",
+      "success": true,
+      "response": "I can’t predict the future, but I can suggest a few general tips to help you choose safe dog food brands:\n\n1. **Research Reputable Brands**: Look for brands that have a strong history of quality control and positive reviews.\n\n2. **Check for Recalls**: Regularly check for any recalls on dog foods. The FDA and other agencies often publish this information.\n\n3. **Look for Certifications**: Consider brands that have certifications from organizations such as the Association of American Feed Control Officials (AAFCO).\n\n4. **Consult with Your Vet**: Your veterinarian can provide personalized recommendations based on your dog's health needs.\n\n5. **Review Ingredients**: Opt for foods with high-quality, identifiable ingredients and avoid those with excessive fillers or artificial additives.\n\n6. **Check for Transparency**: Brands that are transparent about their sourcing and manufacturing processes are often more trustworthy.\n\nRemember to keep an eye on updated reviews and recommendations from experts as they become available.",
+      "responseTimeMs": 5097,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 14,
+      "query": "best dog food without fillers",
+      "success": true,
+      "response": "Choosing the best dog food without fillers involves looking for high-quality ingredients and avoiding common fillers like corn, wheat, and soy. Here are a few options known for their quality:\n\n1. **Orijen**\n   - Whole prey ingredients\n   - High protein from real meat sources\n   - No grains or fillers\n\n2. **Acana**\n   - Regional ingredients\n   - Balanced protein and vegetables\n   - Free from gluten, potato, and tapioca\n\n3. **Merrick Grain-Free**\n   - Deboned meat as the first ingredient\n   - No corn, wheat, or soy\n   - Rich in omega fatty acids\n\n4. **Wellness Core**\n   - High protein with no grains\n   - No meat by-products or fillers\n   - Contains probiotics and antioxidants\n\n5. **Taste of the Wild**\n   - Real meat is the first ingredient\n   - Grain-free with vitamins and minerals\n   - Contains probiotics for digestion\n\nWhen selecting dog food, always check the ingredient list for high-quality proteins and avoid artificial additives. Consulting with a veterinarian can also help tailor choices to your dog's specific needs.",
+      "responseTimeMs": 7451,
+      "brandMentions": [
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Orijen",
+          "count": 1
+        },
+        {
+          "brand": "Acana",
+          "count": 1
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 15,
+      "query": "highest protein dog food brands",
+      "success": true,
+      "response": "When looking for high-protein dog food brands, it's important to consider the specific needs of your dog, such as age, breed, activity level, and any dietary restrictions. Some popular brands known for their high-protein formulas include:\n\n1. **Orijen** - Known for using fresh and regional ingredients, Orijen offers high-protein dog food with a focus on biologically appropriate formulas.\n\n2. **Acana** - A sister brand to Orijen, Acana provides a range of high-protein options with diverse meat sources and quality ingredients.\n\n3. **Taste of the Wild** - Offers grain-free formulas with high protein content, inspired by a dog’s ancestral diet.\n\n4. **Blue Buffalo Wilderness** - Provides high-protein diets with real meat as the first ingredient, suitable for various dietary needs.\n\n5. **Wellness CORE** - A grain-free, high-protein line focusing on meat-based diets incorporating balanced nutrition.\n\n6. **Canidae PURE** - Known for their limited ingredient formulas, Canidae PURE offers high protein with fewer ingredients for dogs with sensitivities.\n\n7. **Merrick Grain-Free** - Uses deboned meat as the primary ingredient in their high-protein recipes, emphasizing natural ingredients.\n\n8. **Nature’s Variety Instinct** - Offers raw-boosted high-protein kibble options, focusing on real meat and grain-free recipes.\n\nAlways consult with a veterinarian before making significant changes to your dog's diet, especially when increasing protein intake.",
+      "responseTimeMs": 6195,
+      "brandMentions": [
+        {
+          "brand": "Orijen",
+          "count": 3
+        },
+        {
+          "brand": "Acana",
+          "count": 2
+        },
+        {
+          "brand": "Canidae",
+          "count": 2
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 16,
+      "query": "best holistic dog food",
+      "success": true,
+      "response": "Selecting the best holistic dog food depends on your dog's specific needs, age, size, and health conditions. However, there are several reputable brands known for their holistic approach to dog nutrition. These brands typically emphasize high-quality, natural ingredients without artificial additives. Here are some popular options:\n\n1. **Blue Buffalo Life Protection Formula**\n   - Ingredients: Deboned chicken, whole grains, vegetables, and fruits.\n   - Features: Includes LifeSource Bits with a blend of vitamins and antioxidants.\n\n2. **Wellness CORE Grain-Free**\n   - Ingredients: High-quality proteins like turkey and chicken, with fruits and veggies.\n   - Features: Grain-free and rich in omega fatty acids for healthy skin and coat.\n\n3. **Canidae PURE**\n   - Ingredients: Limited ingredients for easy digestion; high-quality protein sources.\n   - Features: Free of grains and artificial fillers.\n\n4. **Merrick Grain-Free**\n   - Ingredients: Deboned meat, sweet potatoes, peas, and other wholesome ingredients.\n   - Features: High protein content and no preservatives or fillers.\n\n5. **Taste of the Wild**\n   - Ingredients: Roasted meats, vegetables, legumes, and fruits.\n   - Features: Grain-free with probiotics for digestion.\n\n6. **Holistic Select Natural Dry Dog Food**\n   - Ingredients: Anchovy and sardine meal, brown rice, and oatmeal.\n   - Features: Digestive health support with probiotics, fiber, and digestive enzymes.\n\n7. **Nature's Logic**\n   - Ingredients: Whole foods like duck, beef, or chicken, with fruits and veggies.\n   - Features: No synthetic vitamins or minerals.\n\nWhen choosing a holistic dog food, consider your dog's specific dietary restrictions or health goals and consult with your veterinarian to ensure it meets their needs.",
+      "responseTimeMs": 8857,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Canidae",
+          "count": 1
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 17,
+      "query": "dog food brands that have never been recalled",
+      "success": true,
+      "response": "It's challenging to guarantee that any dog food brand has never had a recall, as circumstances can change and recalls can happen due to various reasons. However, there are several brands known for their strong safety records and commitment to quality. Although no brand can be guaranteed to be recall-free indefinitely, the following brands have generally maintained good reputations:\n\n1. **Acana**\n2. **Orijen**\n3. **The Honest Kitchen**\n4. **Zignature**\n5. **NutriSource**\n\nIt's essential to stay updated with current information from the FDA or other relevant bodies to ensure the ongoing safety and quality of your pet's food.",
+      "responseTimeMs": 5088,
+      "brandMentions": [
+        {
+          "brand": "Orijen",
+          "count": 1
+        },
+        {
+          "brand": "Acana",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 18,
+      "query": "best organic dog food brands",
+      "success": true,
+      "response": "Choosing the best organic dog food for your pet often depends on specific nutritional requirements and preferences. However, some highly-regarded organic dog food brands known for quality ingredients and nutrient-packed formulas include:\n\n1. **Castor & Pollux Organix**\n   - Offers a range of organic recipes, often including free-range chicken and organic vegetables.\n\n2. **Tender & True Organic Dog Food**\n   - Known for sustainably sourced ingredients with organic certifications.\n\n3. **Newman's Own Organics**\n   - Provides organic dog food options with profits going to charity.\n\n4. **The Honest Kitchen**\n   - Offers dehydrated organic dog food using human-grade ingredients.\n\n5. **Primal Pet Foods**\n   - Known for their raw and freeze-dried organic options.\n\n6. **Merrick's Whole Earth Farms**\n   - Features natural and organic ingredients without artificial additives.\n\nWhen selecting a dog food, it's good to consider any specific dietary needs or allergies your dog might have, along with consulting your veterinarian for personalized advice.",
+      "responseTimeMs": 4986,
+      "brandMentions": [
+        {
+          "brand": "Merrick",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 19,
+      "query": "most nutritious dog food available",
+      "success": true,
+      "response": "Choosing the most nutritious dog food involves considering several factors such as the dog's age, breed, size, activity level, and any specific dietary needs or allergies. In general, high-quality dog foods will have the following characteristics:\n\n1. **High-Quality Protein**: Look for foods where the primary ingredient is a high-quality animal protein like chicken, beef, lamb, or fish.\n\n2. **Healthy Fats**: Essential fatty acids from sources like fish oil or flaxseed support skin and coat health.\n\n3. **Whole Grains or Grain-Free Options**: Depending on your dog's tolerance, either whole grains like brown rice and oats or grain-free alternatives can provide necessary carbohydrates.\n\n4. **Fruits and Vegetables**: Ingredients like sweet potatoes, blueberries, and spinach provide essential vitamins, minerals, and antioxidants.\n\n5. **No Artificial Additives**: Avoid foods with artificial colors, flavors, or preservatives.\n\n6. **AAFCO Certification**: Ensure the food meets the standards set by the Association of American Feed Control Officials (AAFCO).\n\nSome top brands known for high-quality ingredients include:\n\n- **Orijen**: Known for biologically appropriate and protein-rich recipes.\n- **Acana**: Offers diverse meat and fish options with local ingredients.\n- **Blue Buffalo Wilderness**: Features high protein and natural ingredients.\n- **Wellness Core**: Focuses on grain-free, protein-rich formulas.\n- **Nutro Ultra**: Known for using non-GMO ingredients and balanced nutrition.\n\nAlways consult with a veterinarian before switching foods to ensure it meets your specific dog's needs.",
+      "responseTimeMs": 5199,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Orijen",
+          "count": 1
+        },
+        {
+          "brand": "Acana",
+          "count": 1
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 20,
+      "query": "best dog food for golden retrievers",
+      "success": true,
+      "response": "Choosing the best dog food for a Golden Retriever involves considering their size, activity level, and any specific health concerns. Here are some top recommendations:\n\n1. **Royal Canin Golden Retriever Adult**: Formulated specifically for Golden Retrievers, it focuses on heart health and coat condition.\n\n2. **Hill's Science Diet Large Breed Adult**: Great for maintaining joint health and lean muscle in large breeds.\n\n3. **Purina Pro Plan Large Breed**: Offers high protein content with added probiotics for digestive health.\n\n4. **Blue Buffalo Life Protection Formula Large Breed**: Contains high-quality protein and LifeSource Bits for a balanced diet.\n\n5. **Nutro Ultra Large Breed**: Features a blend of lean proteins and a mix of 15 superfoods for overall health.\n\n6. **Wellness CORE RawRev Large Breed**: Combines high-protein kibble and pieces of freeze-dried raw meat, focusing on natural ingredients.\n\nRemember to consider your dog's specific dietary needs, any allergies, and consult your veterinarian before making a change.",
+      "responseTimeMs": 6049,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Hill's",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 21,
+      "query": "best dog food for german shepherds",
+      "success": true,
+      "response": "Choosing the best dog food for a German Shepherd requires considering their specific nutritional needs, age, and health conditions. Here are some top considerations:\n\n1. **High-Quality Proteins**: Look for dog foods with real meat (chicken, beef, or fish) as the first ingredient. German Shepherds thrive on a protein-rich diet.\n\n2. **Healthy Fats**: Omega-3 and omega-6 fatty acids support healthy skin and coat and joint health.\n\n3. **Complex Carbohydrates**: Ingredients like sweet potatoes or brown rice provide sustained energy.\n\n4. **Joint Health Support**: Glucosamine and chondroitin can help maintain healthy joints, essential for this breed's active lifestyle.\n\n5. **Digestive Health**: Probiotics and fiber (from fruits and vegetables) support healthy digestion.\n\n6. **Age-Appropriate Formulation**:\n   - **Puppies**: Look for formulas specifically for large-breed puppies to support growth.\n   - **Adults**: Maintain their health with balanced adult formulas.\n   - **Seniors**: Older dogs may benefit from diets lower in calories with joint support.\n\n7. **Allergy Considerations**: Some German Shepherds have sensitivities; choose grain-free or limited-ingredient diets if needed.\n\nPopular brands often recommended by veterinarians for German Shepherds include:\n\n- **Royal Canin German Shepherd Adult**\n- **Hill's Science Diet Large Breed**\n- **Blue Buffalo Life Protection Formula**\n- **Purina Pro Plan Large Breed**\n- **Wellness Core Grain-Free Large Breed**\n\nAlways consult your veterinarian to tailor the diet to your dog's specific needs and health conditions.",
+      "responseTimeMs": 7042,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Hill's",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 22,
+      "query": "best dog food for labrador retrievers",
+      "success": true,
+      "response": "When choosing the best dog food for Labrador Retrievers, consider their size, activity level, and any specific health issues. Here are some top options to consider:\n\n1. **Royal Canin Labrador Retriever Adult Dog Food**:\n   - Formulated specifically for Labs.\n   - Supports healthy weight and joints.\n\n2. **Hill's Science Diet Large Breed**:\n   - Focuses on joint health and muscle support.\n   - Contains a balanced blend of vitamins and minerals.\n\n3. **Blue Buffalo Life Protection Formula Large Breed**:\n   - Features real meat as the first ingredient.\n   - Includes LifeSource Bits for antioxidants.\n\n4. **Purina Pro Plan Large Breed Formula**:\n   - Supports joint health with glucosamine and EPA.\n   - Offers optimal protein and fat levels.\n\n5. **Wellness Core Large Breed**:\n   - Grain-free option with high protein.\n   - Includes nutrients for joint support.\n\n6. **Nutro Natural Choice Large Breed**:\n   - Made with non-GMO ingredients.\n   - Promotes healthy digestion.\n\n7. **Orijen Original Dog Food**:\n   - Biologically appropriate with high protein.\n   - Contains fresh, regional ingredients.\n\nThings to Keep in Mind:\n- **Age and Life Stage**: Adjust your choice for puppy, adult, or senior Labs.\n- **Allergies and Sensitivities**: Consider any dietary restrictions or allergies.\n- **Veterinary Advice**: Always consult your vet for personalized recommendations.\n\nRemember to transition to a new food gradually to prevent digestive issues.",
+      "responseTimeMs": 7398,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Orijen",
+          "count": 1
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Hill's",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 23,
+      "query": "best dog food for french bulldogs",
+      "success": true,
+      "response": "Selecting the best dog food for French Bulldogs involves considering their specific needs, such as potential allergies, activity level, and health issues like hip dysplasia and brachycephalic syndrome. Here are some general tips and recommendations:\n\n1. **High-Quality Protein**: Look for foods with real meat as the first ingredient, such as chicken, beef, or fish.\n\n2. **Omega-3 and Omega-6 Fatty Acids**: These help maintain healthy skin and coat, which is beneficial because French Bulldogs can have skin sensitivities.\n\n3. **Limited Ingredients**: If your Frenchie has allergies, consider limited ingredient diets to minimize potential triggers.\n\n4. **Balanced Fat Content**: French Bulldogs are prone to obesity, so choose a food with a balanced fat content to maintain a healthy weight.\n\n5. **Joint Support**: Foods with glucosamine and chondroitin support joint health, which is essential for this breed.\n\n6. **Grain-Free Options**: While not necessary for all dogs, grain-free diets can be beneficial for those with specific sensitivities.\n\n7. **Size-Specific Kibble**: Smaller kibble sizes are easier for French Bulldogs to chew and swallow, considering their brachycephalic face structure.\n\n### Recommended Brands\n- **Royal Canin French Bulldog Adult**: Formulated specifically for French Bulldogs, focusing on their unique nutritional needs.\n- **Blue Buffalo Life Protection Formula**: Offers high-quality meat, whole grains, and veggies with a focus on antioxidants.\n- **Wellness CORE Grain-Free**: A high-protein, grain-free option that includes essential nutrients for skin and coat health.\n- **Hill’s Science Diet Adult Small Bites**: Provides balanced nutrition with easy-to-chew kibble.\n\n### Always Consult Your Vet\nBefore making any changes to your dog's diet, consult your veterinarian to tailor the best plan for your French Bulldog’s specific health needs.",
+      "responseTimeMs": 8594,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 24,
+      "query": "best dog food for pitbulls",
+      "success": true,
+      "response": "When choosing the best dog food for pitbulls, consider their age, activity level, and any specific health concerns. Here are a few recommendations:\n\n1. **High-Quality Protein**: Look for dog food with real meat listed as the first ingredient. Chicken, beef, or lamb are good options.\n\n2. **Nutritious Carbs**: Opt for wholesome grains like brown rice or oats. Some pitbulls benefit from grain-free formulas if they have sensitivities.\n\n3. **Healthy Fats**: Essential fatty acids, such as Omega-3 and Omega-6, promote a healthy coat and skin. Fish oil can be a good source.\n\n4. **Balanced Nutrients**: Ensure the food includes vitamins, minerals, and amino acids that support overall health.\n\n5. **Age-Appropriate Formulas**:\n   - **Puppy Food**: Higher in calories to support growth.\n   - **Adult Food**: Balanced nutrients for maintenance.\n   - **Senior Food**: Adapted for aging dogs, often with joint support.\n\n6. **Avoid Fillers and Artificial Additives**: Choose foods without by-products, corn, soy, or artificial preservatives.\n\n7. **Consider Special Needs**: Some pitbulls may require formulas for sensitive skin, allergies, or weight management.\n\nAlways consult with your veterinarian to tailor the diet to your pitbull’s specific health needs. Brands like Blue Buffalo, Taste of the Wild, and Wellness Core offer options that are often recommended for pitbulls.",
+      "responseTimeMs": 19910,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 25,
+      "query": "best dog food for small breeds",
+      "success": true,
+      "response": "Selecting the best dog food for small breeds involves considering their unique nutritional needs. Small breed dogs often require higher calorie content per pound than larger breeds because of their faster metabolism. Here are some top considerations:\n\n1. **High-Quality Proteins**: Look for dog food that lists real meat (chicken, beef, lamb) as the first ingredient.\n\n2. **Calorie-Dense**: Ensure the food is calorie-dense to meet their energy needs.\n\n3. **Appropriate Kibble Size**: Smaller kibble makes it easier for small dogs to chew and digest.\n\n4. **Balanced Nutrition**: Ensure the food contains a balance of proteins, fats, carbohydrates, and essential vitamins and minerals.\n\n5. **Omega Fatty Acids**: These support healthy skin and a shiny coat.\n\n6. **Antioxidants**: Ingredients like blueberries and spinach can support immune health.\n\n7. **Specialized Formulas**: Consider foods specifically formulated for small breeds or those with specific dietary needs (like grain-free or limited ingredient diets).\n\nSome highly recommended brands for small breeds include:\n\n- **Royal Canin Small Breed Adult**: Offers tailored nutrition with appropriate caloric content.\n\n- **Hill’s Science Diet Small Paws**: Provides hearty nutrition with omega-6 fatty acids and vitamin E for healthy skin.\n\n- **Blue Buffalo Life Protection Small Breed**: Features real meat with whole grains and fruits.\n\n- **Wellness CORE Small Breed**: Grain-free option with high-protein content.\n\n- **Merrick Lil’ Plates**: Offers both grain-free and whole grain options designed for small breed teeth.\n\nAlways consult with your veterinarian to find the best option tailored to your specific dog's health needs and lifestyle.",
+      "responseTimeMs": 7412,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 26,
+      "query": "best dog food for large breed dogs",
+      "success": true,
+      "response": "Choosing the best dog food for large breed dogs involves considering their unique nutritional needs. Here are some important factors and recommendations:\n\n### Key Considerations:\n1. **Protein Sources**: Ensure the food includes high-quality protein from sources like chicken, beef, or fish to support muscle maintenance.\n2. **Calcium and Phosphorus Levels**: Balanced levels are crucial to support healthy bone growth and prevent issues like hip dysplasia.\n3. **Caloric Content**: Large breeds need food appropriate for their size to prevent obesity.\n4. **Joint Health**: Look for foods with glucosamine and chondroitin to support joint health.\n5. **Natural Ingredients**: Opt for foods with whole grains, vegetables, and fruits, avoiding artificial additives.\n6. **Digestibility**: Choose formulas that are easy on their digestive systems.\n\n### Recommended Brands:\n1. **Blue Buffalo Life Protection Large Breed**: Rich in protein with added joint health support.\n2. **Hill's Science Diet Large Breed**: Focused on balanced nutrients and joint care.\n3. **Royal Canin Size Health Nutrition Large Breed**: Targeted nutrition for large dogs with joint and bone support.\n4. **Purina Pro Plan Large Breed**: Offers high protein and live probiotics for digestive health.\n5. **Wellness Complete Health Large Breed**: Contains high-quality ingredients with added supplements for joint health.\n\n### Tips:\n- **Gradual Transition**: When switching foods, introduce the new food gradually to prevent digestive upset.\n- **Consult Your Vet**: Always consult your veterinarian to tailor the diet to your dog’s specific health needs.\n\n### Conclusion:\nSelecting the right food can help promote a long, healthy life for your large breed dog. Focus on balanced nutrition and frequent vet consultations for the best care.",
+      "responseTimeMs": 7863,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Hill's",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        },
+        {
+          "brand": "Target",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 27,
+      "query": "best dog food for chihuahuas",
+      "success": true,
+      "response": "Choosing the best dog food for your Chihuahua involves considering several factors, such as age, health, activity level, and specific dietary needs. Here are a few highly recommended options:\n\n1. **Royal Canin Chihuahua Adult Dry Dog Food**\n   - Formulated specifically for Chihuahuas.\n   - Supports dental health and digestive systems.\n   - Tailored kibble size for small jaws.\n\n2. **Hill’s Science Diet Small Paws**\n   - Designed for small and toy breeds.\n   - Contains high-quality protein for lean muscle.\n   - Includes omega-6 fatty acids for skin and coat health.\n\n3. **Blue Buffalo Life Protection Small Breed**\n   - Made with real meat and wholesome grains.\n   - No chicken/poultry by-product meals, corn, wheat, or soy.\n   - Includes antioxidants, vitamins, and minerals.\n\n4. **Wellness CORE Grain-Free Small Breed**\n   - High protein content for active dogs.\n   - Grain-free with no artificial preservatives.\n   - Enhanced with probiotics and omega fatty acids.\n\n5. **Nutro Ultra Small Breed**\n   - Trio of protein sources: chicken, lamb, and salmon.\n   - Includes superfoods for nutrient density.\n   - Supports a healthy immune system.\n\n**Considerations:**\n- **Age:** Puppies, adults, and seniors have different nutritional needs.\n- **Health Conditions:** Consult with a vet if your Chihuahua has allergies, sensitivities, or medical issues.\n- **Weight Management:** Small breeds can be prone to obesity.\n\nAlways introduce new foods gradually and monitor for any adverse reactions. Consulting with your veterinarian is always a good idea to ensure the specific dietary needs of your Chihuahua are met.",
+      "responseTimeMs": 6347,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 28,
+      "query": "best dog food for huskies",
+      "success": true,
+      "response": "Choosing the best dog food for your Siberian Husky involves considering their unique nutritional needs, activity level, and any specific health concerns. Here are a few tips and recommendations:\n\n### Key Considerations\n\n1. **High-Quality Protein**: Huskies are active dogs that thrive on high-protein diets. Look for foods with real meat as the first ingredient, such as chicken, beef, or fish.\n\n2. **Healthy Fats**: Omega-3 and omega-6 fatty acids support healthy skin and coat. Fish oil and flaxseed are good sources.\n\n3. **Carbohydrates**: Opt for complex carbs like sweet potatoes and brown rice for sustained energy.\n\n4. **Vitamins and Minerals**: Ensure the food contains essential vitamins and minerals for overall health.\n\n5. **Avoid Fillers**: Avoid foods with a high amount of fillers like corn, wheat, and soy.\n\n### Recommended Dog Foods\n\n1. **Blue Buffalo Wilderness High Protein Grain Free**\n   - High in protein with deboned chicken.\n   - Grain-free with sweet potatoes and peas.\n\n2. **Wellness CORE RawRev High-Protein**\n   - High protein with freeze-dried raw meat.\n   - Grain-free with added probiotics.\n\n3. **Taste of the Wild High Prairie**\n   - Roasted bison and venison as main proteins.\n   - Includes fruits and vegetables for antioxidants.\n\n4. **Orijen High-Protein, Grain-Free Dry Dog Food**\n   - High-protein content with a variety of meats.\n   - Biologically appropriate with few carbs.\n\n5. **Merrick Grain-Free Texas Beef & Sweet Potato**\n   - Deboned beef first ingredient.\n   - Omega fatty acids for healthy skin and coat.\n\n### Special Diets\n- **For Sensitive Stomachs**: Look for limited ingredient diets to manage food sensitivities.\n- **For Puppies**: Choose a formula specifically for large breed puppies to support growth.\n  \n### Individual Needs\nAlways consider individual dietary needs, and consult with your vet before making significant changes, especially for dealing with allergies or other health issues.",
+      "responseTimeMs": 11025,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Orijen",
+          "count": 1
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 29,
+      "query": "best dog food for beagles",
+      "success": true,
+      "response": "Choosing the best dog food for Beagles involves considering their specific nutritional needs. Beagles are active and prone to obesity, so a balanced diet is crucial. Here are some top considerations:\n\n1. **High-Quality Protein**: Look for foods with real meat as the first ingredient, such as chicken, beef, or fish, to support muscle maintenance.\n\n2. **Balanced Fat Content**: Healthy fats from sources like fish oil or chicken fat are important for energy and a shiny coat, but be mindful of the fat content to avoid weight gain.\n\n3. **Controlled Calories**: Since Beagles can easily gain weight, choose formulas designed for small or medium breeds that offer controlled calories.\n\n4. **Fiber and Carbohydrates**: Opt for whole grains like brown rice or oats, and ensure there's adequate fiber for digestive health.\n\n5. **Joint Support**: Foods enriched with glucosamine and chondroitin can support joint health, which is beneficial as Beagles are active dogs.\n\n6. **Limited Fillers**: Avoid foods with excessive fillers like corn, soy, or wheat, which can be hard to digest.\n\n7. **Essential Nutrients**: Ensure the food contains vitamins and minerals essential for overall health, including omega-3 and omega-6 fatty acids.\n\n8. **Age and Health Specific**: Choose food that matches your Beagle's life stage (puppy, adult, senior) and any specific health needs like skin sensitivities or allergies.\n\nBrands like Royal Canin, Hill’s Science Diet, Blue Buffalo, and Wellness Core often receive positive reviews for their balanced formulations suitable for Beagles. However, it's important to consult your veterinarian when selecting a diet tailored to your Beagle’s individual health needs and lifestyle.",
+      "responseTimeMs": 7599,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 30,
+      "query": "best dog food for poodles",
+      "success": true,
+      "response": "Choosing the best dog food for poodles involves considering their specific needs, such as size (toy, miniature, or standard), age, and any health concerns. Here are some general recommendations:\n\n1. **High-Quality Ingredients**: Look for foods with real meat (chicken, beef, lamb, or fish) as the first ingredient and avoid fillers like corn, soy, or wheat.\n\n2. **Limited Ingredients**: For poodles with sensitive stomachs, limited ingredient diets can be beneficial.\n\n3. **Balanced Nutrition**: Ensure the food meets AAFCO nutritional standards for a complete and balanced diet.\n\n4. **Consider Life Stage**:\n   - **Puppy**: Foods with DHA for brain development.\n   - **Adult**: High-quality proteins and healthy fats for energy.\n   - **Senior**: Joint support ingredients like glucosamine and chondroitin.\n\n5. **Specific Needs**: If your poodle has specific health concerns, such as allergies or skin issues, consult your vet for tailored advice.\n\nSome reputable brands include:\n\n- **Royal Canin Poodle Formula**: Tailored for poodles' unique needs.\n- **Hill’s Science Diet**: Offers various formulas for different life stages and health concerns.\n- **Blue Buffalo**: Known for natural ingredients.\n- **Wellness Core**: Grain-free and protein-rich options.\n- **Orijen**: High-protein, biologically appropriate recipes.\n\nAlways transition to new food gradually and consult your vet for personalized recommendations.",
+      "responseTimeMs": 6141,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Orijen",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 31,
+      "query": "best dog food for bulldogs",
+      "success": true,
+      "response": "Choosing the best dog food for bulldogs involves considering their specific needs, such as potential food allergies, sensitivity issues, and a predisposition to obesity. Here are some options and tips to consider:\n\n1. **Quality Proteins**: Look for dog food with high-quality protein sources like chicken, beef, or fish as the primary ingredient.\n\n2. **Limited Ingredients**: Bulldogs can have sensitive stomachs, so a limited ingredient diet can help avoid allergens.\n\n3. **Grain-Free Options**: Some bulldogs do well on grain-free diets, although grains are not inherently bad. Monitor your dog's response.\n\n4. **Joint Support**: Bulldogs can be prone to joint issues, so foods enriched with glucosamine and chondroitin can be beneficial.\n\n5. **Healthy Fats**: Omega-3 and omega-6 fatty acids support skin health and a shiny coat, which can be important for bulldogs prone to skin issues.\n\n6. **Probiotics and Fiber**: A formula with probiotics and fiber can support digestive health.\n\n7. **Brand Recommendations**:\n   - **Royal Canin Bulldog Adult**: Formulated specifically for bulldogs, focusing on joint and digestive health.\n   - **Blue Buffalo Life Protection Formula**: Offers high-quality protein and LifeSource Bits for antioxidants.\n   - **Wellness CORE Grain-Free**: High in protein and grain-free, supporting muscle and energy needs.\n   - **Canidae All Life Stages**: Good for multi-dog households, with a range of nutrients for different life stages.\n\n8. **Veterinary Consultation**: Always consult with your veterinarian to tailor your bulldog's diet to their specific health needs and lifestyle.\n\nMonitor your bulldog’s weight and health and adjust their diet as needed to ensure they maintain a healthy weight and overall well-being.",
+      "responseTimeMs": 9529,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Canidae",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 32,
+      "query": "best dog food for dachshunds",
+      "success": true,
+      "response": "Choosing the best dog food for a dachshund involves considering their unique nutritional needs. Here are some top factors and options:\n\n### Considerations:\n1. **Protein Content**: Dachshunds benefit from high-quality animal protein.\n2. **Healthy Fats**: Look for foods with omega-3 and omega-6 fatty acids for skin and coat health.\n3. **Joint Support**: Foods containing glucosamine and chondroitin can aid in joint health, crucial for dachshunds.\n4. **Portion Control**: Due to their propensity for obesity, portion control is important.\n5. **Size and Shape**: Small kibble sizes can help with their small mouths and ease of eating.\n\n### Recommended Brands:\n1. **Royal Canin Dachshund Adult Dry Dog Food**:\n   - Specifically formulated for dachshunds.\n   - Supports joint and bone health.\n   - Offers kibble shape for easier chewing.\n\n2. **Hill's Science Diet Adult Small Paws**:\n   - Balanced for smaller breeds.\n   - High-quality protein and antioxidants.\n\n3. **Blue Buffalo Life Protection Formula Small Breed**:\n   - Real meat as the first ingredient.\n   - Includes LifeSource Bits with antioxidants.\n\n4. **Wellness CORE Grain-Free Small Breed**:\n   - High in protein.\n   - Grain-free for sensitive stomachs.\n\n5. **Nutro Ultra Small Breed Adult Dry Dog Food**:\n   - Superfood blend for balanced nutrition.\n   - Tri-protein combination from chicken, lamb, and salmon.\n\n### Tips:\n- Always transition gradually to new foods.\n- Consult your vet for personalized advice, especially if your dachshund has specific health concerns.\n- Monitor weight and adjust portions as needed.\n\nProper nutrition plays a key role in maintaining your dachshund's health and longevity.",
+      "responseTimeMs": 9707,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        },
+        {
+          "brand": "Hill's",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 33,
+      "query": "best dog food for rottweilers",
+      "success": true,
+      "response": "Choosing the best dog food for Rottweilers involves considering their age, activity level, and any specific health concerns. Here's a general guide:\n\n1. **Protein-Rich Diet**: Look for foods with high-quality animal proteins such as chicken, beef, or lamb as the first ingredient. Rottweilers are muscular dogs and need adequate protein to maintain their muscle mass.\n\n2. **Healthy Fats**: Ensure the food includes healthy fats like fish oil or flaxseed, which provide essential fatty acids for skin and coat health.\n\n3. **Joint Support**: Consider foods that contain glucosamine and chondroitin, which support joint health, a common concern in large breeds like Rottweilers.\n\n4. **Grain-Free Options**: Some Rottweilers may do better on grain-free diets, especially if they have sensitivities. However, consult your vet to see if this is necessary.\n\n5. **Age-Appropriate**: Choose a formula suitable for your dog's life stage—puppy, adult, or senior.\n\n6. **Approved by AAFCO**: Ensure the food meets the standards set by the Association of American Feed Control Officials (AAFCO).\n\n7. **Brands to Consider**:\n   - **Royal Canin Rottweiler Formula**: Specifically designed for Rottweilers with tailored nutrient needs.\n   - **Blue Buffalo Wilderness**: Offers high protein and natural ingredients.\n   - **Hill’s Science Diet**: Provides balanced nutrition and is often recommended by vets.\n   - **Purina Pro Plan**: Known for its focus on performance and health.\n\nAlways transition to a new food gradually to avoid digestive upset and consult your veterinarian for personalized recommendations based on your Rottweiler’s health and lifestyle.",
+      "responseTimeMs": 2690,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 34,
+      "query": "best dog food for boxers",
+      "success": true,
+      "response": "Selecting the best dog food for Boxers involves considering their unique nutritional needs, which include high energy levels and susceptibility to certain health conditions. Here are some key factors to consider:\n\n1. **Protein Content**: Boxers are active dogs that benefit from a high-protein diet to support muscle maintenance and energy levels. Look for dog foods with high-quality animal proteins like chicken, beef, or fish.\n\n2. **Healthy Fats**: Omega-3 and omega-6 fatty acids promote healthy skin and coat, and support heart health. Ingredients like fish oil or flaxseed can be beneficial.\n\n3. **Joint Health**: Boxers are prone to hip dysplasia and arthritis. Foods with glucosamine and chondroitin can support joint health.\n\n4. **Heart Health**: Boxers can be prone to heart issues such as cardiomyopathy. Taurine and L-carnitine are important for maintaining heart health.\n\n5. **Digestibility**: Boxers may have sensitive stomachs, so opt for foods with easily digestible ingredients and added probiotics for gut health.\n\n6. **Vitamins and Minerals**: Ensure the food includes essential vitamins and minerals for overall health, including antioxidants for immune support.\n\n7. **Avoid Fillers**: Avoid foods with excessive fillers such as corn, wheat, and soy, which can cause digestive issues.\n\nSome popular brands that align with these requirements include:\n\n- **Orijen**: Known for its high protein content and quality ingredients.\n- **Blue Buffalo Wilderness**: Offers grain-free options with added antioxidants.\n- **Royal Canin Boxer Formula**: Specifically formulated for the breed's unique needs.\n- **Taste of the Wild**: Provides quality protein sources with added probiotics for digestion.\n- **Wellness CORE**: Grain-free, high-protein formula focusing on overall wellness.\n\nAlways consult your veterinarian before making significant changes to your Boxer’s diet. They can provide personalized advice based on your dog's health history and specific needs.",
+      "responseTimeMs": 6732,
+      "brandMentions": [
+        {
+          "brand": "Wellness",
+          "count": 2
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Orijen",
+          "count": 1
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 35,
+      "query": "best dog food for allergies",
+      "success": true,
+      "response": "When selecting dog food for allergies, it's crucial to identify the specific allergens and choose a diet that minimizes or eliminates exposure to them. Here are some general options that can help:\n\n1. **Limited Ingredient Diets (LID):**\n   - Designed with fewer ingredients to reduce potential allergens.\n   - Commonly features a single protein source and a limited number of carbohydrates.\n\n2. **Hypoallergenic Dog Foods:**\n   - Often prescribe hydrolyzed proteins, which are broken down to prevent allergic reactions.\n   - Typically requires a vet's prescription.\n\n3. **Novel Protein Diets:**\n   - Use uncommon protein sources like venison, rabbit, or duck.\n   - Useful if your dog is allergic to traditional proteins like chicken or beef.\n\n4. **Grain-Free Foods:**\n   - Some dogs have sensitivities to grains.\n   - Opt for grain-free formulas, but consult with a vet to ensure nutritional balance.\n\n5. **Home-Cooked Meals:**\n   - Allows control over every ingredient.\n   - Should be prepared under veterinary guidance to ensure balanced nutrition.\n\n6. **Raw Diets:**\n   - Some owners find success with raw diets, but it's crucial to ensure proper nutrition and safety.\n\nBefore switching your dog's diet, it's important to consult with a veterinarian. They can help identify the allergens and suggest an appropriate dietary plan, ensuring nutritional adequacy and reducing allergy symptoms.",
+      "responseTimeMs": 6224,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 36,
+      "query": "best dog food for sensitive stomach",
+      "success": true,
+      "response": "When choosing dog food for a pet with a sensitive stomach, it's important to select options that are gentle on their digestive system. Here are some tips and options that might help:\n\n1. **Limited Ingredient Diets (LID):** These formulas focus on minimizing the number of ingredients, reducing the chance of triggering sensitivities. Brands like Natural Balance and Blue Buffalo Basics offer such options.\n\n2. **Easily Digestible Ingredients:** Foods featuring ingredients like lamb, chicken, or rice are often easier on the stomach. Look for brands like Hill’s Science Diet Sensitive Stomach or Royal Canin Digestive Care.\n\n3. **Probiotic-Rich Foods:** Probiotics support healthy digestion. Look for foods that include probiotics or consider adding a probiotic supplement. Brands like Nutro Wholesome Essentials can be helpful.\n\n4. **Grain-Free Options:** Some dogs have trouble digesting grains. Grain-free brands like Merrick Grain-Free and Wellness Core might be worth trying.\n\n5. **Novel Proteins:** Switching to a protein source your dog hasn't had before (like duck or venison) may help avoid allergies. Brands like Zignature or Taste of the Wild offer such options.\n\n6. **Consult Your Vet:** It’s always a good idea to talk with your veterinarian to determine the most appropriate diet based on your dog’s specific health needs.\n\nRemember, when transitioning to a new dog food, do it gradually over a week to minimize digestive upset.",
+      "responseTimeMs": 7305,
+      "brandMentions": [
+        {
+          "brand": "Natural Balance",
+          "count": 1
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 37,
+      "query": "best dog food for dogs with skin issues",
+      "success": true,
+      "response": "If your dog is experiencing skin issues, it's important to choose a dog food that can help support their skin health. Here are some options to consider:\n\n1. **Hypoallergenic Diets**: These diets use novel proteins and carbohydrates that your dog may not have been exposed to before, reducing the risk of allergic reactions. Brands like Hill's Prescription Diet, Royal Canin, and Blue Buffalo Basics offer hypoallergenic formulas.\n\n2. **Limited Ingredient Diets (LID)**: Limited ingredient diets contain fewer components, which can help identify allergens. Brands like Natural Balance LID and Merrick Limited Ingredient Diet offer these formulations.\n\n3. **Omega-3 and Omega-6 Fatty Acids**: Foods high in these fatty acids can improve skin health and reduce inflammation. Look for brands that include fish oil or flaxseed as ingredients.\n\n4. **Grain-Free Options**: Some dogs have sensitivities to grains. Grain-free diets can be beneficial, but it's important to consult with a vet as grain-free diets have been under scrutiny for potential links to heart issues.\n\n5. **High-Quality Protein Sources**: Ensure the food contains high-quality protein, such as chicken, lamb, or fish, which are essential for skin repair and health.\n\n6. **Prescribed Veterinary Diets**: Sometimes veterinarians prescribe specific diets for dogs with severe skin issues. It's best to follow their guidance in these cases.\n\nAlways consult with your veterinarian before switching your dog's diet, as they can provide guidance tailored to your dog's specific needs and health conditions.",
+      "responseTimeMs": 7664,
+      "brandMentions": [
+        {
+          "brand": "Natural Balance",
+          "count": 1
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Hill's",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 38,
+      "query": "best dog food for weight loss",
+      "success": true,
+      "response": "When looking for the best dog food for weight loss, you'll want to focus on options that are lower in calories but still provide balanced nutrition. Here are some key factors to consider:\n\n1. **High Protein, Low Fat**: Look for formulas with high-quality protein sources like chicken, turkey, or fish, which help maintain muscle mass while losing fat.\n\n2. **Portion Control**: Follow feeding guidelines and adjust portions based on your dog's weight loss progress.\n\n3. **Fiber-Rich**: Foods high in fiber can help your dog feel full while consuming fewer calories.\n\n4. **Low Carb**: Minimize carbohydrate content to reduce calorie intake.\n\n5. **Natural Ingredients**: Opt for brands that use natural ingredients without artificial additives or fillers.\n\n6. **Veterinary-Approved**: Consider vet-recommended brands designed specifically for weight management.\n\nSome popular brands that offer weight management formulas include:\n\n- Hill’s Science Diet Perfect Weight\n- Royal Canin Weight Control\n- Purina Pro Plan Weight Management\n- Blue Buffalo Life Protection Healthy Weight\n- Wellness CORE Reduced Fat\n\nAlways consult your veterinarian before making significant changes to your dog's diet to ensure it meets your pet's specific health needs.",
+      "responseTimeMs": 5012,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 39,
+      "query": "best dog food for joint health",
+      "success": true,
+      "response": "Choosing the right dog food for joint health involves looking for specific ingredients that support joint function and overall well-being. Here are some key ingredients to look for:\n\n1. **Glucosamine and Chondroitin**: These are essential for maintaining healthy cartilage and joints. Many premium dog foods include them as supplements.\n\n2. **Omega-3 Fatty Acids**: Ingredients like fish oil or flaxseed can help reduce inflammation and support joint health.\n\n3. **Antioxidants**: Vitamins C and E can help reduce inflammation and support the immune system.\n\n4. **High-Quality Protein**: Ensures muscle strength, which supports the joints.\n\n5. **Weight Management**: Foods labeled for weight control can help maintain an ideal weight, reducing stress on joints.\n\nHere are a few recommended brands/formulas known for supporting joint health:\n\n1. **Hill’s Science Diet Adult Healthy Mobility**: Contains omega-3 fatty acids and glucosamine.\n\n2. **Royal Canin Mobility Support**: Formulated with omega-3s and antioxidants.\n\n3. **Purina Pro Plan Veterinary Diets JM Joint Mobility**: Designed specifically for dogs with joint issues, enriched with glucosamine and omega-3s.\n\n4. **Blue Buffalo Life Protection Formula**: Includes glucosamine and omega-3s, with natural ingredients.\n\n5. **Nutro Ultra Senior Dry Dog Food**: Contains a blend of superfoods and high-quality proteins for older dogs.\n\nAlways consult with your vet to find the best option tailored to your dog's specific needs.",
+      "responseTimeMs": 6844,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 40,
+      "query": "best limited ingredient dog food",
+      "success": true,
+      "response": "When looking for the best limited ingredient dog food, it's important to consider a few key factors such as quality of ingredients, nutritional balance, and any specific dietary needs or allergies your dog might have. Here are some popular options:\n\n1. **Natural Balance L.I.D.** - Known for simple ingredient lists and a variety of protein sources.\n\n2. **Blue Buffalo Basics** - Offers grain-free options and uses high-quality animal proteins.\n\n3. **ZIWI Peak Air-Dried Dog Food** - Features novel proteins and limited ingredients, good for sensitive stomachs.\n\n4. **Wellness Simple Limited Ingredient Diet** - Offers easily digestible formulas with few ingredients.\n\n5. **Canidae PURE** - Focuses on 8 key ingredients, with no artificial flavors or preservatives.\n\n6. **Instinct Limited Ingredient Diet** - Grain-free, with one protein and one vegetable in each recipe.\n\n7. **Merrick Limited Ingredient Diet** - Provides balanced nutrition with single-source animal proteins.\n\nAlways consult your veterinarian before making significant changes to your dog's diet, especially if your pet has health issues or specific dietary restrictions.",
+      "responseTimeMs": 7661,
+      "brandMentions": [
+        {
+          "brand": "Natural Balance",
+          "count": 1
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Canidae",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 41,
+      "query": "best grain free dog food",
+      "success": true,
+      "response": "Choosing the best grain-free dog food involves considering your dog's specific needs, preferences, and any dietary restrictions. Here are some popular and highly-regarded grain-free dog food brands:\n\n1. **Taste of the Wild**:\n   - Offers high-quality proteins like bison, salmon, and venison.\n   - Includes antioxidant-rich fruits and vegetables.\n\n2. **Merrick Grain-Free**:\n   - Features deboned meat as the first ingredient.\n   - Contains a balanced mix of protein and healthy fats.\n\n3. **Blue Buffalo Wilderness**:\n   - Inspired by the diet of wolves, with high protein content.\n   - No chicken or poultry by-product meals, corn, wheat, or soy.\n\n4. **Wellness CORE Grain-Free**:\n   - Offers a nutrient-dense diet with high protein.\n   - Free from artificial preservatives, colors, or flavors.\n\n5. **Canidae Grain-Free PURE**:\n   - Limited ingredient diets for dogs with sensitivities.\n   - Includes high-quality animal proteins and whole foods.\n\n6. **Orijen Grain-Free**:\n   - Uses fresh, regional ingredients.\n   - Rich in meat and fish with a biologically appropriate formulation.\n\n7. **Nutro Grain-Free**:\n   - Prioritizes non-GMO ingredients.\n   - Easily digestible recipes with real animal proteins.\n\nWhen selecting a dog food, consult with your veterinarian to ensure it meets your dog’s nutritional needs. Each dog is different, and what works for one may not work for another.",
+      "responseTimeMs": 7701,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Orijen",
+          "count": 1
+        },
+        {
+          "brand": "Canidae",
+          "count": 1
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 42,
+      "query": "best dog food for dogs with diabetes",
+      "success": true,
+      "response": "Managing a dog’s diabetes through diet involves selecting foods that help regulate blood sugar levels. Here are some key factors to consider when choosing dog food for a diabetic dog:\n\n1. **Consult Your Veterinarian:**\n   Always work with your vet to create a diet plan tailored to your dog's specific needs.\n\n2. **Low Glycemic Index:**\n   Opt for foods with low glycemic index carbohydrates to prevent blood sugar spikes. Ingredients like sweet potatoes, peas, and certain grains such as brown rice are good options.\n\n3. **High Fiber:**\n   Foods high in fiber help slow down glucose absorption. Look for products with added fiber sources like beet pulp or chicory root.\n\n4. **Moderate Fat:**\n   Keep fat levels moderate to support overall health and weight management.\n\n5. **High-Quality Protein:**\n   Ensure the food contains a good source of animal protein, which is crucial for maintaining muscle mass.\n\n6. **Avoid Simple Carbohydrates:**\n   Avoid foods with simple sugars or high levels of refined carbohydrates, such as corn syrup or white rice.\n\n7. **Consistent Feeding Schedule:**\n   Feeding your dog at the same times each day can help maintain stable blood sugar levels.\n\nBrands that often have suitable options for diabetic dogs include:\n\n- **Hill's Prescription Diet** (specifically w/d or r/d)\n- **Royal Canin Glycobalance**\n- **Purina Pro Plan Veterinary Diets DCO**\n- **Natural Balance Limited Ingredient Diets**\n\nAlways remember that each dog's condition is unique, so personalized advice from your vet is crucial.",
+      "responseTimeMs": 8821,
+      "brandMentions": [
+        {
+          "brand": "Natural Balance",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Hill's",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 43,
+      "query": "best dog food for dogs with kidney disease",
+      "success": true,
+      "response": "For dogs with kidney disease, it's essential to choose a diet that supports kidney function while reducing the workload on the kidneys. Here are some general guidelines for selecting the best dog food for this condition:\n\n1. **Low Protein**: Opt for food with moderate to low protein content. High-quality proteins can reduce the production of waste products and are easier for the kidneys to process.\n\n2. **Low Phosphorus**: Reducing phosphorus intake can help slow the progression of kidney damage.\n\n3. **Low Sodium**: Helps manage blood pressure and reduces strain on the kidneys.\n\n4. **Increased Omega-3 Fatty Acids**: Beneficial for reducing inflammation and supporting kidney health.\n\n5. **Added Antioxidants**: Support overall health and reduce oxidative stress.\n\n6. **Balanced Nutrients**: Ensure the food is supplemented with essential vitamins and minerals suitable for dogs with kidney disease.\n\n**Recommended Brands**:\n- **Hill’s Prescription Diet k/d**\n- **Royal Canin Renal Support**\n- **Purina Pro Plan Veterinary Diets NF Kidney Function**\n\nAlways consult with your veterinarian before making any dietary changes, as they can provide specific recommendations based on your dog's unique needs and stage of kidney disease.",
+      "responseTimeMs": 6850,
+      "brandMentions": [
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 44,
+      "query": "best hypoallergenic dog food",
+      "success": true,
+      "response": "Choosing the best hypoallergenic dog food depends on your dog's specific needs and any allergies they may have. Here are some considerations and options:\n\n1. **Limited Ingredient Diets:** These foods typically contain fewer ingredients to minimize the chance of triggering food allergies.\n\n   - **Natural Balance L.I.D.**\n   - **Blue Buffalo Basics**\n\n2. **Novel Protein Diets:** Uses uncommon proteins like duck, venison, or kangaroo to avoid typical allergens like chicken or beef.\n\n   - **Hill's Prescription Diet z/d**\n   - **Royal Canin Hypoallergenic**\n\n3. **Grain-Free Options:** While not inherently hypoallergenic, grain-free foods can be suitable for dogs with grain sensitivities.\n\n   - **Canidae Grain-Free Pure**\n   - **Merrick Grain-Free**\n\n4. **Hydrolyzed Protein Diets:** Proteins are broken down into tiny particles, reducing the risk of an allergic reaction.\n\n   - **Purina Pro Plan Veterinary Diets HA**\n   - **Royal Canin Hypoallergenic HP**\n\n5. **Consult Your Vet:** Always consult with a veterinarian before making changes to your dog's diet, especially if you suspect allergies. They can help determine the cause and recommend the best food based on a proper diagnosis.\n\nRemember, transitioning your dog to new food should be done gradually to avoid gastrointestinal upset.",
+      "responseTimeMs": 6807,
+      "brandMentions": [
+        {
+          "brand": "Royal Canin",
+          "count": 2
+        },
+        {
+          "brand": "Natural Balance",
+          "count": 1
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Canidae",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Hill's",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 45,
+      "query": "best dog food for digestive issues",
+      "success": true,
+      "response": "If your dog is experiencing digestive issues, it's important to consult with a veterinarian to determine the underlying cause and get personalized recommendations. However, some commonly recommended dog foods that are formulated to support digestive health include:\n\n1. **Hill’s Prescription Diet i/d**: This food is designed for dogs with digestive troubles and contains prebiotic fibers to support gut health.\n\n2. **Royal Canin Gastrointestinal Diet**: This formula offers easily digestible proteins and fats, plus prebiotics to support a balanced intestinal flora.\n\n3. **Purina Pro Plan Veterinary Diets EN Gastroenteric Formula**: This provides a blend of digestible ingredients and is often recommended for dogs with sensitive stomachs.\n\n4. **Blue Buffalo Basics Limited Ingredient Diet**: Made with fewer ingredients, it's helpful for dogs who may have sensitivities or allergies.\n\n5. **Wellness Simple Limited Ingredient Diet**: Focuses on a single source of protein and easily digestible carbohydrates to minimize potential triggers.\n\n6. **Natural Balance L.I.D. Limited Ingredient Diets**: This offers a limited number of protein and carbohydrate sources to support digestive health.\n\nWhen switching diets, do so gradually to help your dog's digestive system adjust. Always make changes under the guidance of a veterinarian to ensure your dog's specific needs are met.",
+      "responseTimeMs": 8213,
+      "brandMentions": [
+        {
+          "brand": "Natural Balance",
+          "count": 1
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 46,
+      "query": "best dog food for itchy skin",
+      "success": true,
+      "response": "If your dog is suffering from itchy skin, it's important to first consult with your veterinarian to determine the underlying cause. However, if you're looking for dog foods that are generally good for dogs with sensitive or itchy skin, consider these options:\n\n1. **Limited Ingredient Dog Foods**: These contain a minimal number of ingredients to reduce the chance of allergens. Look for brands like Natural Balance L.I.D. or Blue Buffalo Basics.\n\n2. **Grain-Free Dog Foods**: Some dogs have sensitivities to grains. Brands like Taste of the Wild and Merrick offer grain-free options.\n\n3. **Hypoallergenic Dog Foods**: These foods use novel proteins and are specially formulated. Royal Canin and Hill’s Prescription Diet have options in this category.\n\n4. **Omega-3 and Omega-6 Fatty Acids**: Foods rich in these can help improve skin health. Look for formulas fortified with fish oil or flaxseed.\n\n5. **Hydrolyzed Protein Diets**: These are often used in veterinary prescription diets for food sensitivities. Purina Pro Plan Veterinary Diets and Hill’s have such options.\n\n6. **Foods Rich in Antioxidants and Vitamins**: Ingredients such as sweet potatoes, carrots, and spinach can help support skin health.\n\nAlways transition to a new food gradually and monitor your dog to see if symptoms improve.",
+      "responseTimeMs": 9054,
+      "brandMentions": [
+        {
+          "brand": "Natural Balance",
+          "count": 1
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 47,
+      "query": "best dog food for dogs with food sensitivities",
+      "success": true,
+      "response": "Selecting the best dog food for dogs with food sensitivities involves choosing a formula with limited ingredients and novel proteins. Here are a few options to consider:\n\n1. **Limited Ingredient Diets (LID):**\n   - **Natural Balance LID:**\n     Offers formulas with one protein and one carbohydrate to minimize potential allergens.\n\n2. **Novel Protein Foods:**\n   - **Zignature:**\n     Uses unusual proteins like kangaroo or trout, reducing the risk of triggering allergies.\n\n3. **Grain-Free Options:**\n   - **Taste of the Wild:**\n     Provides grain-free formulas with novel proteins like venison and bison.\n\n4. **Hydrolyzed Protein Foods:**\n   - **Hill’s Prescription Diet z/d:**\n     Uses hydrolyzed chicken liver to minimize allergy risks. Requires vet prescription.\n\n5. **Fresh/Frozen Options:**\n   - **The Farmer’s Dog:**\n     Offers customizable fresh food plans tailored to your dog's needs.\n\n6. **Prescription Diets:**\n   - **Royal Canin Veterinary Diet Hydrolyzed Protein:**\n     Specifically formulated for dogs with food sensitivities.\n\nWhen choosing a food, consider consulting with your veterinarian to assess your dog’s specific needs and ensure the diet is balanced.",
+      "responseTimeMs": 8241,
+      "brandMentions": [
+        {
+          "brand": "Natural Balance",
+          "count": 1
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 48,
+      "query": "best dog food for heart health",
+      "success": true,
+      "response": "When selecting a dog food for heart health, it's important to focus on high-quality ingredients and balanced nutrition. Here are some guidelines and options to consider:\n\n1. **Consult Your Vet**: Before making any changes, it's best to consult with a veterinarian, especially if your dog has been diagnosed with heart issues.\n\n2. **Avoid Grain-Free Foods**: Recent studies have indicated a potential link between grain-free diets and heart disease (DCM) in dogs, particularly in specific breeds.\n\n3. **High-Quality Proteins**: Look for foods with quality protein sources like chicken, turkey, or fish.\n\n4. **Omega-3 Fatty Acids**: These are beneficial for heart health. Foods rich in omega-3s, like those containing fish oil or flaxseed, can be helpful.\n\n5. **Low Sodium**: Opt for foods with controlled sodium levels to help manage fluid retention and blood pressure.\n\n6. **Taurine and Carnitine**: These amino acids are essential for heart function. Some dog foods are supplemented with these nutrients.\n\n7. **Prescribed Veterinary Diets**: Brands like Hill’s Prescription Diet and Royal Canin offer heart health formulas specifically developed for pets with heart conditions.\n\n8. **Whole Grains**: Foods containing whole grains such as brown rice or oats provide necessary nutrients and energy without compromising heart health.\n\nAlways read labels and choose a reputable brand that meets AAFCO standards. Again, your vet can provide personalized recommendations based on your dog’s specific needs.",
+      "responseTimeMs": 9985,
+      "brandMentions": [
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 49,
+      "query": "best single protein dog food",
+      "success": true,
+      "response": "Choosing the best single protein dog food depends on your dog's specific needs, such as allergies, age, and health conditions. Here are a few top options that are popular for their quality and effectiveness:\n\n1. **Wellness Simple Limited Ingredient Diet**\n   - Features: Focuses on a single protein source with minimal ingredients.\n   - Common Varieties: Duck, Turkey, Salmon.\n\n2. **Natural Balance L.I.D. Limited Ingredient Diets**\n   - Features: Designed to support digestion and reduce allergies.\n   - Common Varieties: Lamb, Duck, Chicken.\n\n3. **Instinct Limited Ingredient Diet Grain-Free Recipe**\n   - Features: Grain-free, uses a single animal protein, and has minimal ingredients.\n   - Common Varieties: Turkey, Lamb.\n\n4. **Canidae PURE Limited Ingredient**\n   - Features: Made with 7-10 key ingredients, focusing on a single protein.\n   - Common Varieties: Salmon, Lamb, Bison.\n\n5. **Blue Buffalo Basics Limited Ingredient Diet**\n   - Features: Limited ingredients with a focus on single protein and grain-free options.\n   - Common Varieties: Turkey, Lamb, Duck.\n\n6. **Merrick Limited Ingredient Diet**\n   - Features: Single source of animal protein, simple recipe formulation.\n   - Common Varieties: Salmon, Turkey.\n\nWhen choosing food, consider your dog's specific dietary restrictions and consult with a veterinarian to find the best option tailored to their health needs.",
+      "responseTimeMs": 6613,
+      "brandMentions": [
+        {
+          "brand": "Natural Balance",
+          "count": 1
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Canidae",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 50,
+      "query": "best puppy food for large breeds",
+      "success": true,
+      "response": "When selecting the best puppy food for large breeds, it's important to choose formulas specifically designed to meet their unique nutritional needs. Here are some highly recommended options:\n\n1. **Hill's Science Diet Large Breed Puppy**:\n   - Contains a balanced blend of minerals for strong bones and teeth.\n   - Made with high-quality protein for muscle development.\n   - Includes DHA from fish oil for healthy brain and eye development.\n\n2. **Royal Canin Large Puppy**:\n   - Tailored nutrition to support a growing large breed puppy.\n   - Features a blend of antioxidants for immune system support.\n   - Designed to promote optimal digestive health.\n\n3. **Purina Pro Plan Puppy Large Breed**:\n   - Includes DHA from fish oil for brain and vision development.\n   - Calcium, phosphorus, and other minerals support bone development.\n   - High protein content with real chicken as the first ingredient.\n\n4. **Blue Buffalo Life Protection Formula Large Breed Puppy**:\n   - Made with real meat, whole grains, and garden veggies.\n   - Includes LifeSource Bits with antioxidants, vitamins, and minerals.\n   - Contains DHA for cognitive development.\n\n5. **Nutro Natural Choice Large Breed Puppy**:\n   - Real chicken as the main ingredient.\n   - Balanced calcium and phosphorus for bone growth.\n   - Contains omega-3 fatty acids for brain and eye development.\n\n6. **Wellness Complete Health Large Breed Puppy**:\n   - Supports bone and joint health with controlled calcium and phosphorus.\n   - DHA for brain development.\n   - High-quality protein from deboned chicken.\n\nWhen choosing a food, it's also important to consult with your veterinarian to ensure it meets your puppy's specific health and dietary needs.",
+      "responseTimeMs": 10194,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Hill's",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 51,
+      "query": "best puppy food for small breeds",
+      "success": true,
+      "response": "Selecting the best puppy food for small breeds involves considering their unique nutritional needs. Small breed puppies often require a diet rich in calories, proteins, and fats to support their rapid growth and high energy levels. Here are a few options you might consider:\n\n1. **Royal Canin Size Health Nutrition Small Puppy**: Specifically designed for small breed puppies, it includes vital nutrients for bone and immune system development.\n\n2. **Hill's Science Diet Puppy Small Bites**: Offers a balanced diet with high-quality protein and DHA from fish oil for healthy brain development.\n\n3. **Blue Buffalo Life Protection Formula Small Breed Puppy**: Features real meat as the first ingredient and contains DHA and ARA for cognitive development.\n\n4. **Wellness Complete Health Small Breed Puppy**: Includes high-quality proteins and wholesome grains, along with DHA for brain development.\n\n5. **Nutro Wholesome Essentials Small Breed Puppy**: Made with non-GMO ingredients and real chicken or lamb as the first ingredient.\n\n6. **Purina Pro Plan Focus Small Breed Puppy**: Contains high protein content and features DHA for brain nutrition.\n\nWhen selecting a food, consider the specific dietary needs, any allergies, and the taste preferences of your puppy. Always consult with a veterinarian to tailor your choice to your puppy’s health needs.",
+      "responseTimeMs": 6812,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Hill's",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 52,
+      "query": "best senior dog food",
+      "success": true,
+      "response": "Selecting the best senior dog food involves considering the specific needs of older dogs, such as joint health, weight management, and digestive support. Here are some top considerations:\n\n1. **Royal Canin Size Health Nutrition Medium Aging 10+**: Formulated for medium-breed seniors, it's rich in omega-3 fatty acids and has enhanced palatability.\n\n2. **Hill's Science Diet Adult 7+**: Offers balanced nutrition with antioxidants to support immune systems in older dogs.\n\n3. **Nutro Ultra Senior Dry Dog Food**: Made with a blend of superfoods, this food supports brain health and features high-quality protein sources.\n\n4. **Blue Buffalo Life Protection Formula Senior**: Features real meat as the first ingredient and includes ingredients to support joint health.\n\n5. **Wellness Complete Health Senior**: Contains added glucosamine and chondroitin for hip and joint support, with no artificial preservatives.\n\n6. **Purina Pro Plan Bright Mind Adult 7+**: Enhances memory and mental sharpness with a blend of botanical oils.\n\n7. **Merrick Grain-Free Senior**: Offers high levels of omega fatty acids for healthy skin and coat, plus glucosamine and chondroitin.\n\nWhen choosing a senior dog food, consider your dog's size, breed, and any specific health concerns. It's always a good idea to consult with your veterinarian to tailor the diet to your dog's needs.",
+      "responseTimeMs": 7964,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Hill's",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 53,
+      "query": "best dog food for adult dogs",
+      "success": true,
+      "response": "Choosing the best dog food for adult dogs depends on several factors, including your dog's breed, size, activity level, and any specific dietary needs or allergies. However, here are some general tips to consider when selecting a high-quality dog food:\n\n1. **Look for High-Quality Ingredients**: Choose food with real meat, poultry, or fish listed as the first ingredient. Avoid foods with excessive fillers like corn, soy, and by-products.\n\n2. **Balanced Nutrition**: Ensure the food meets AAFCO (Association of American Feed Control Officials) guidelines for balanced nutrition, including proper levels of protein, fat, carbohydrates, vitamins, and minerals.\n\n3. **Consider Special Needs**: If your dog has allergies, digestive issues, or specific health concerns, look for formulas designed to address these.\n\n4. **Check for Recalls**: Research the brand for past recalls and overall reputation in the market.\n\n5. **Read Reviews and Get Vet Advice**: Look at customer reviews and consult your veterinarian to tailor the choice to your dog's specific needs.\n\nSome popular and well-regarded brands include:\n\n- **Blue Buffalo**: Known for its natural ingredients and no artificial preservatives.\n- **Hill’s Science Diet**: Offers specialized formulas for different health needs.\n- **Royal Canin**: Provides breed-specific and health-specific options.\n- **Wellness Core**: Grain-free options with high protein content.\n- **Orijen**: High protein, grain-free with diverse ingredients.\n\nAlways transition gradually to new foods to avoid digestive issues.",
+      "responseTimeMs": 3810,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Orijen",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 54,
+      "query": "when to switch from puppy food to adult food",
+      "success": true,
+      "response": "Switching from puppy food to adult food usually depends on the breed and size of your dog:\n\n1. **Small Breeds**: Typically transition between 9 to 12 months.\n2. **Medium Breeds**: Usually switch around 12 months.\n3. **Large Breeds**: Often transition at 12 to 18 months.\n4. **Giant Breeds**: Usually around 18 to 24 months.\n\nIt's important to make the transition gradually over a week or so by mixing increasing amounts of adult food with puppy food. Always consult your veterinarian to determine the best timing and approach for your specific dog.",
+      "responseTimeMs": 3368,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 55,
+      "query": "best puppy food 2026",
+      "success": true,
+      "response": "It's not 2026 yet, so I can't provide the latest puppy food trends for that year. However, as of now, when selecting the best puppy food, it's essential to consider factors like high-quality ingredients, nutritional balance, and food specifically formulated for puppies' growth needs. Look for:\n\n1. **High-Quality Protein:** Chicken, lamb, or fish should be primary ingredients.\n2. **DHA & EPA:** Important for brain and eye development.\n3. **Calcium & Phosphorus:** Essential for bone growth.\n4. **Grain-Free Options:** Consider if your puppy has grain sensitivities.\n5. **Reputable Brand:** Choose brands known for rigorous quality control.\n\nAlways consult your veterinarian for personalized recommendations based on your puppy's breed, size, and health needs.",
+      "responseTimeMs": 7170,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 56,
+      "query": "best food for senior dogs with sensitive stomachs",
+      "success": true,
+      "response": "When selecting food for senior dogs with sensitive stomachs, consider the following options:\n\n1. **Easily Digestible Proteins**: Look for foods with lean proteins like chicken, turkey, or fish, which are easier to digest.\n\n2. **Limited Ingredient Diets**: These can help identify and eliminate specific ingredients that might cause sensitivities. They usually contain fewer ingredients.\n\n3. **Grain-Free Options**: Some dogs have grain sensitivities, so grain-free formulas can be beneficial.\n\n4. **Low-Fat Diets**: Senior dogs can benefit from low-fat diets, especially if they have sensitive stomachs or pancreatitis.\n\n5. **Fiber-Rich Foods**: Ingredients like sweet potatoes and pumpkin provide fiber that can improve digestion.\n\n6. **Probiotics and Prebiotics**: These support a healthy gut microbiome, aiding digestion.\n\n7. **Omega-3 Fatty Acids**: Found in fish oil, omega-3s support overall health and are gentle on the stomach.\n\n8. **Wet Food Options**: These are often easier to digest than kibble and can be mixed with dry food.\n\n9. **Senior-Specific Formulas**: These cater to the nutritional needs of older dogs and sometimes include joint support.\n\n10. **Homemade Meals**: With a vet's guidance, homemade options allow for control over ingredients and can be tailored to sensitivities.\n\nAlways consult with a veterinarian to ensure the chosen food meets all the nutritional requirements and addresses your dog's specific health needs.",
+      "responseTimeMs": 9081,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 57,
+      "query": "best high calorie dog food for underweight dogs",
+      "success": true,
+      "response": "If your dog is underweight and you’re looking to help them gain weight, it's important to choose a high-calorie dog food that is rich in nutrients. Here are some options that are generally recommended for underweight dogs:\n\n1. **Blue Buffalo Wilderness High Protein**: This grain-free recipe is rich in protein and calories, with real meat as the first ingredient.\n\n2. **Nutro Ultra Adult Dry Dog Food**: Known for its trio of proteins from chicken, lamb, and salmon, it’s calorie-dense and packed with nutrients.\n\n3. **Purina Pro Plan Sport Performance 30/20**: Designed for active dogs, this food has a high protein-to-fat ratio and is great for weight gain.\n\n4. **Wellness CORE Grain-Free Original Formula**: High in protein and calorie-rich, this food is suitable for helping dogs gain and maintain weight.\n\n5. **Victor Hi-Pro Plus**: A nutrient-dense formula that is high in protein and calories, ideal for active and underweight dogs.\n\n6. **Merrick Grain-Free Texas Beef & Sweet Potato**: Offers high protein content and high-quality ingredients for healthy weight gain.\n\nAlways remember to transition your dog's food gradually to prevent digestive upset, and consult with your veterinarian to ensure you’re choosing the best option for your dog's specific health needs.",
+      "responseTimeMs": 6575,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 58,
+      "query": "best dog food for active dogs",
+      "success": true,
+      "response": "Selecting the best dog food for active dogs involves considering high-quality ingredients, balanced nutrition, and energy-boosting components. Here are some top choices often recommended for active dogs:\n\n1. **Orijen Original Dry Dog Food**\n   - High in protein with fresh and raw animal ingredients.\n   - Grain-free formula.\n\n2. **Wellness CORE Grain-Free Original**\n   - High in protein and nutrient-rich.\n   - Includes antioxidants and probiotics for digestion.\n\n3. **Taste of the Wild High Prairie**\n   - Grain-free with novel proteins like bison and venison.\n   - Contains fruits and vegetables for antioxidants.\n\n4. **Blue Buffalo Wilderness High-Protein**\n   - Grain-free with a focus on real meat.\n   - Contains omega fatty acids for skin and coat health.\n\n5. **Merrick Grain-Free Texas Beef & Sweet Potato**\n   - High protein with beef as the first ingredient.\n   - Grain-free and includes sweet potatoes for energy.\n\n6. **Victor Purpose Grain-Free Active Dog & Puppy**\n   - High-energy formula with quality protein.\n   - Suitable for all life stages.\n\n7. **Hill's Science Diet Performance**\n   - Formulated for active and working dogs.\n   - Balanced nutrition with added vitamins and minerals.\n\nAlways transition to new food gradually to avoid digestive issues and consult your vet to ensure it suits your dog's specific needs.",
+      "responseTimeMs": 6886,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Orijen",
+          "count": 1
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 1
+        },
+        {
+          "brand": "Hill's",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 59,
+      "query": "best dog food for working dogs",
+      "success": true,
+      "response": "Choosing the best dog food for working dogs depends on their specific needs, activity level, and health conditions. Here are some general tips for selecting the right food:\n\n1. **High Protein Content**: Look for foods with quality protein sources like chicken, beef, or fish to support muscle maintenance and recovery.\n\n2. **Adequate Fats**: Healthy fats from sources like fish oil or chicken fat provide energy and support joint health.\n\n3. **Complex Carbohydrates**: Foods with whole grains or sweet potatoes provide sustained energy.\n\n4. **Vitamins and Minerals**: Ensure the food contains essential vitamins, minerals, and antioxidants for overall health and immune support.\n\n5. **Joint Support**: Ingredients like glucosamine and chondroitin can be beneficial for joint health, which is important for active dogs.\n\n6. **Avoid Fillers**: Steer clear of foods with excessive fillers such as corn, soy, or wheat, which may not provide sufficient nutrition.\n\nPopular brands for working dogs: \n\n- **Purina Pro Plan Sport**\n- **Royal Canin Size Health Nutrition**\n- **EUkanuba Premium Performance**\n- **Taste of the Wild High Prairie**\n\nAlways consider consulting with a veterinarian to tailor the diet to your working dog's needs.",
+      "responseTimeMs": 5739,
+      "brandMentions": [
+        {
+          "brand": "Taste of the Wild",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 60,
+      "query": "Blue Buffalo vs Purina Pro Plan",
+      "success": true,
+      "response": "When comparing Blue Buffalo and Purina Pro Plan, it's essential to consider factors such as ingredients, nutritional value, specific dietary needs, and reviews.\n\n### Blue Buffalo\n- **Ingredients**: Known for using high-quality, natural ingredients with real meat as the primary protein source. Often includes fruits, vegetables, and whole grains or grain-free options.\n- **Varieties**: Offers a range of formulas including those for life stages (puppy, adult, senior), specific breeds, and health concerns (weight management, sensitive stomach, etc.).\n- **Philosophy**: Emphasizes holistic nutrition without artificial preservatives, colors, or flavors.\n- **Price**: Generally on the higher end due to premium ingredients.\n\n### Purina Pro Plan\n- **Ingredients**: Focuses on scientifically-backed nutrition, incorporating high-quality protein sources and various vitamins and minerals. Some formulas include meat by-products.\n- **Varieties**: Extensive lineup tailored to life stages, breed sizes, and specific health issues (allergies, digestion, performance, etc.).\n- **Research**: Backed by significant research and development, including work done by veterinarians and pet nutritionists.\n- **Price**: More mid-range, offering a balance of quality and affordability.\n\n### Considerations\n- **Dietary Needs**: Evaluate your pet's specific health needs, any allergies, or dietary restrictions.\n- **Veterinarian Advice**: Consult your vet to choose the best formula based on your pet's health and lifestyle.\n- **Pet Preferences**: Some pets may prefer the taste or texture of one brand over the other.\n- **Reviews**: Check customer reviews for insights into outcomes other pet owners have experienced.\n\nUltimately, the best choice depends on your pet's specific needs and your personal preferences. Both brands offer quality options with varying benefits.",
+      "responseTimeMs": 8469,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 2
+        },
+        {
+          "brand": "Purina",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 61,
+      "query": "Orijen vs Acana dog food",
+      "success": true,
+      "response": "Orijen and Acana are both premium pet food brands produced by Champion Petfoods, known for their high-quality ingredients and biologically appropriate formulas. Here’s a comparison:\n\n### Orijen\n\n1. **Ingredients**: Orijen often uses a high proportion of fresh, regional, and whole animal ingredients, aiming to mirror the natural diet of wild canines.\n   \n2. **Protein Content**: Orijen generally has a higher protein content compared to Acana, largely due to its rich meat inclusions.\n\n3. **Variety**: Orijen offers various formulas catering to different life stages and dietary needs, including grain-free options.\n\n4. **Meat Sources**: Incorporates a diverse array of meat sources, such as poultry, fish, and red meat, often from wild-caught or free-run animals.\n\n5. **Focus**: The recipes emphasize whole-prey diets, including organs and cartilage, providing a balanced nutritional profile.\n\n### Acana\n\n1. **Ingredients**: Acana also uses fresh and regional ingredients but tends to include more plant components than Orijen.\n\n2. **Protein Content**: While still high in protein, Acana typically contains less compared to Orijen, making it a bit more balanced for less active dogs.\n\n3. **Variety**: Acana provides a wide range of formulas, including grain-inclusive and grain-free options, as well as foods tailored to specific dietary needs or sensitivities.\n\n4. **Meat Sources**: Acana features multiple sources of protein but may have less variety in animal sources compared to Orijen.\n\n5. **Focus**: Balances its recipes with more fruits, vegetables, and botanicals, catering to different nutritional needs and preferences.\n\n### Considerations\n\n- **Price**: Orijen tends to be more expensive than Acana, reflecting its higher meat content.\n- **Dog’s Needs**: The choice between the two depends on your dog’s specific dietary requirements, activity level, and any allergies or sensitivities.\n- **Availability**: Both brands are widely available, but specific formulas might vary depending on the region.\n\nChoosing between Orijen and Acana will largely depend on your dog's specific needs and your budget. Always consider consulting with a veterinarian for personalized advice.",
+      "responseTimeMs": 14101,
+      "brandMentions": [
+        {
+          "brand": "Orijen",
+          "count": 10
+        },
+        {
+          "brand": "Acana",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "queryIndex": 62,
+      "query": "Wellness vs Blue Buffalo",
+      "success": true,
+      "response": "When comparing Wellness and Blue Buffalo, two popular pet food brands, there are several factors you might consider:\n\n1. **Ingredients:**\n   - **Wellness:** Known for using high-quality, natural ingredients, Wellness often includes real meat, whole grains, and a variety of fruits and vegetables. They avoid artificial preservatives, colors, and flavors.\n   - **Blue Buffalo:** Also emphasizes natural ingredients, typically featuring real meat as the first ingredient. They exclude poultry by-product meals, corn, wheat, soy, and artificial additives. Blue Buffalo often includes their unique \"LifeSource Bits,\" a blend of vitamins, minerals, and antioxidants.\n\n2. **Product Range:**\n   - **Wellness:** Offers a wide variety of products including dry kibble, wet food, and treats for both dogs and cats. They have specialized lines like CORE (grain-free, high-protein) and Complete Health (balanced nutrition).\n   - **Blue Buffalo:** Provides a diverse selection of pet foods, including options for different life stages and dietary needs. Their lines include Life Protection (balanced nutrition), Wilderness (grain-free, high-protein), and Basics (limited-ingredient).\n\n3. **Nutritional Philosophy:**\n   - **Wellness:** Focuses on holistic nutrition, aiming to support overall health and well-being through balanced and nutrient-rich foods.\n   - **Blue Buffalo:** Prioritizes high-quality protein and holistic ingredients to support healthy muscle development and overall vitality.\n\n4. **Price:**\n   - Generally, both brands are considered premium, so you might find them priced similarly, although variations exist depending on the specific formula and retailer.\n\n5. **Recalls and Safety:**\n   - Both brands have experienced recalls in the past, which is common in the pet food industry. It's a good practice to keep updated on any safety announcements or recalls for the specific products you choose.\n\n6. **Customer Reviews:**\n   - It's helpful to read reviews and possibly consult your vet to understand how different products might meet your pet’s specific needs.\n\nUltimately, the best choice depends on your pet's specific dietary requirements, preferences, and any health considerations.",
+      "responseTimeMs": 11412,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 5
+        },
+        {
+          "brand": "Wellness",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "queryIndex": 63,
+      "query": "Natural Balance vs Blue Buffalo",
+      "success": true,
+      "response": "Natural Balance and Blue Buffalo are both popular pet food brands, each offering a range of products with different features. Here's a comparison to help you decide which might be best for your pet:\n\n### Ingredients and Nutrition\n\n- **Natural Balance:**\n  - Focuses on limited ingredient diets, which can be beneficial for pets with food sensitivities or allergies.\n  - Offers grain-free options as well as recipes with whole grains.\n  - Emphasizes high-quality proteins and balanced nutrition.\n\n- **Blue Buffalo:**\n  - Known for its \"Life Protection\" formula, which includes LifeSource Bits, a blend of antioxidants, vitamins, and minerals.\n  - Offers a wide range of products, including grain-free options and recipes for different life stages and sizes.\n  - Often includes high-quality proteins and wholesome grains.\n\n### Product Variety\n\n- **Natural Balance:**\n  - Offers specific lines such as L.I.D. (Limited Ingredient Diets), vegetarian, and grain-inclusive formulas.\n  - Provides options for dogs and cats in dry and wet food formats.\n\n- **Blue Buffalo:**\n  - Offers a broader variety, including formulas like Wilderness (high-protein), Basics (limited ingredient), and Freedom (grain-free).\n  - Available in dry, canned, and treat forms for dogs and cats.\n\n### Health and Wellness\n\n- **Natural Balance:**\n  - Focuses on providing balanced diets suitable for pets with specific dietary concerns.\n  - Often recommended for pets with food allergies or sensitivities.\n\n- **Blue Buffalo:**\n  - Promotes overall health and wellness with its exclusive blend of vitamins and antioxidants.\n  - Provides specialized diets for weight control, joint health, and more.\n\n### Price and Availability\n\n- **Natural Balance:**\n  - Typically positioned in the mid to upper price range.\n  - Widely available in pet stores and online.\n\n- **Blue Buffalo:**\n  - Also tends to be in the mid to upper price range.\n  - Widely available in many pet stores, online retailers, and some grocery stores.\n\n### Brand Reputation and Recalls\n\n- **Natural Balance:**\n  - Generally has a solid reputation for quality control.\n  - Has had recalls in the past, like many pet food brands, but maintains a focus on safety.\n\n- **Blue Buffalo:**\n  - Known for transparency in its ingredients.\n  - Has also experienced recalls, but continues to prioritize safety and quality.\n\n### Conclusion\n\nBoth brands have their strengths and focus areas. Your choice may depend on your pet’s specific dietary needs, preferences, and any health concerns. It's also a good idea to consult your veterinarian when choosing a pet food brand to ensure it meets your pet's nutritional requirements.",
+      "responseTimeMs": 13789,
+      "brandMentions": [
+        {
+          "brand": "Natural Balance",
+          "count": 6
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 6
+        },
+        {
+          "brand": "Wellness",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 64,
+      "query": "Merrick vs Wellness dog food",
+      "success": true,
+      "response": "When comparing Merrick and Wellness dog food, it's important to consider several factors to determine which might be better for your dog.\n\n### Merrick Dog Food:\n- **Ingredients**: Merrick emphasizes high-quality, whole-food ingredients, often with real meat as the first ingredient. They avoid using fillers like corn, soy, and wheat.\n- **Variety**: Offers a wide range of recipes, including grain-free and grain-inclusive options, as well as special recipes for different life stages and dietary needs.\n- **Quality**: Known for sourcing local Texas ingredients and maintaining strict quality standards. They also have options that focus on features like high protein or limited ingredients.\n- **Special Formulas**: Includes lines like Merrick Backcountry (raw-infused kibble) and Merrick Classic (wholesome grains).\n\n### Wellness Dog Food:\n- **Ingredients**: Wellness is known for using high-quality proteins and wholesome grains. They focus on natural nutrition, free from artificial preservatives, colors, and flavors.\n- **Variety**: Offers a broad range of products, including grain-free and grain-inclusive options, and caters to various life stages and dietary needs. They have lines like CORE (high-protein, grain-free) and Complete Health (balanced nutrition for everyday health).\n- **Quality**: Wellness prioritizes holistic pet health and uses ingredients that support overall wellness, often including superfoods and antioxidants.\n- **Special Formulas**: Includes options for weight management, digestive health, and specific breeds or sizes.\n\n### Considerations:\n- **Budget**: Both brands are premium, but prices may vary depending on the specific product line and retailer.\n- **Dog’s Needs**: Consider your dog's specific health requirements, age, size, and activity level.\n- **Allergies/Sensitivities**: Both brands offer limited ingredient diets if your dog has food sensitivities or allergies.\n\nUltimately, the best choice depends on your dog's specific needs and preferences. Consulting with a veterinarian can also help ensure you select the right food for your pet.",
+      "responseTimeMs": 5029,
+      "brandMentions": [
+        {
+          "brand": "Wellness",
+          "count": 5
+        },
+        {
+          "brand": "Merrick",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "queryIndex": 65,
+      "query": "Royal Canin vs Hill's Science Diet",
+      "success": true,
+      "response": "Both Royal Canin and Hill's Science Diet are reputable brands that offer a variety of pet food formulas tailored to meet specific health needs and life stages. Choosing between them often depends on your pet's individual needs, preferences, and any specific recommendations from your veterinarian. Here are some key points about each brand:\n\n### Royal Canin:\n- **Wide Range of Formulas**: Offers breed-specific, size-specific, and condition-specific diets, which can be beneficial for pets with particular needs.\n- **Scientific Approach**: Focuses on precise nutrition and often collaborates with veterinarians and nutritionists.\n- **Prescription Diets**: Provides veterinary diets for specific health conditions, available through vets.\n- **Texture Variety**: Products come in various forms, including dry and wet food.\n\n### Hill's Science Diet:\n- **Research-Based Nutrition**: Known for its rigorous research and development. The brand works closely with veterinary nutritionists.\n- **Life Stage and Health Needs**: Offers formulas for different life stages, breeds, and health concerns, like digestion or weight management.\n- **Prescription Diets**: Also offers a range of therapeutic diets (Hill's Prescription Diet) for specific medical issues.\n- **Accessibility**: Widely available in pet stores and through vets.\n\n### Considerations:\n- **Veterinary Advice**: Always consult with a veterinarian to address any specific health issues your pet might have.\n- **Palatability**: Some pets prefer the taste of one brand over the other.\n- **Ingredient Preferences**: Check ingredient lists if your pet has allergies or specific dietary needs.\n- **Cost**: Price can vary, so consider your budget and look for value in terms of nutrition quality.\n\nUltimately, the best choice depends on your pet's particular needs and how they respond to a specific diet.",
+      "responseTimeMs": 11622,
+      "brandMentions": [
+        {
+          "brand": "Hill's",
+          "count": 3
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 66,
+      "query": "Taste of the Wild vs Merrick",
+      "success": true,
+      "response": "Choosing between Taste of the Wild and Merrick for pet food depends on your pet's specific needs, dietary preferences, and any health considerations. Here's a brief comparison to help you decide:\n\n### Taste of the Wild\n- **Ingredients**: Known for using real meats as the first ingredient, grain-free formulas, and unique proteins like bison and venison.\n- **Nutrition**: Offers a range of nutrient-rich recipes with added vitamins, minerals, and antioxidants.\n- **Variety**: Provides both dry and wet food options for dogs and cats.\n- **Price**: Generally mid-range, offering good value for the quality of ingredients.\n- **Reputation**: Popular for its natural and high-quality formulas, but has faced some recalls in the past.\n\n### Merrick\n- **Ingredients**: Focuses on high-quality, locally sourced ingredients, often with grain-free and whole grain options.\n- **Nutrition**: High protein content with a variety of fruits and vegetables for balanced nutrition.\n- **Variety**: Extensive range, including dry kibble, wet food, and raw-infused options. They also offer recipes tailored for specific dietary needs and life stages.\n- **Price**: Slightly higher price point, reflecting the premium ingredients and sourcing practices.\n- **Reputation**: Well-regarded for handcrafted recipes and transparency in sourcing, although they have experienced recalls historically as well.\n\n### Considerations\n- **Dietary Restrictions**: If your pet has specific allergies or dietary needs, check the ingredient list closely.\n- **Flavor and Palatability**: You may need to try a few different flavors or formulas to see which your pet prefers.\n- **Health Needs**: Consult with your vet, especially if your pet has health issues or specific dietary requirements.\n\nBoth brands offer quality products, so the best choice will depend on your pet’s preferences and nutritional needs.",
+      "responseTimeMs": 15374,
+      "brandMentions": [
+        {
+          "brand": "Merrick",
+          "count": 2
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 67,
+      "query": "Natural Balance vs Wellness",
+      "success": true,
+      "response": "\"Natural Balance\" and \"Wellness\" are both brands known for their pet foods, particularly for dogs and cats. Here's a general comparison:\n\n### Natural Balance\n- **Focus**: Specializes in limited ingredient diets (LID) which are often aimed at pets with food sensitivities or allergies.\n- **Protein Sources**: Offers a variety of proteins like duck, fish, and lamb.\n- **Product Range**: Includes dry kibble, wet food, and treats.\n- **Philosophy**: Emphasizes balanced nutrition through scientifically formulated recipes.\n- **Target Market**: Pet owners looking for simple ingredient lists and solutions for specific dietary needs.\n\n### Wellness\n- **Focus**: Known for holistic and natural pet foods with an emphasis on high-quality, well-rounded nutrition.\n- **Protein Sources**: Includes a wide range of proteins, including chicken, turkey, and salmon.\n- **Product Range**: Offers dry and wet food, as well as special formulations like grain-free and senior formulas.\n- **Philosophy**: Aims to provide comprehensive nutrition that supports overall pet wellness with added vitamins and minerals.\n- **Target Market**: Pet owners seeking premium-quality ingredients and a holistic approach to nutrition.\n\n### Considerations\n- **Ingredients**: Always check specific ingredient lists if your pet has sensitivities.\n- **Price**: Wellness often positions itself as a more premium brand, which might reflect in the pricing.\n- **Availability**: Both brands are widely available in pet stores and online.\n\nWhen deciding between the two, consider your pet's specific dietary needs, any existing health conditions, and your personal preferences for factors like ingredient sourcing and brand philosophy. Consulting with a veterinarian can also provide guidance tailored to your pet's unique requirements.",
+      "responseTimeMs": 9708,
+      "brandMentions": [
+        {
+          "brand": "Wellness",
+          "count": 4
+        },
+        {
+          "brand": "Natural Balance",
+          "count": 2
+        },
+        {
+          "brand": "Target",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 68,
+      "query": "Purina vs Iams dog food",
+      "success": true,
+      "response": "When comparing Purina and Iams dog food, it’s essential to consider several factors such as ingredient quality, nutritional content, variety, and specific needs of your dog.\n\n### Purina\n- **Variety**: Purina offers a wide range of dog foods, including Purina Pro Plan, Purina ONE, and other lines tailored for different life stages and health needs.\n- **Ingredients**: Purina often focuses on high-quality protein sources and includes options with real meat as the first ingredient.\n- **Specialized Formulas**: They provide formulas for specific dietary needs, including weight management, sensitive stomachs, and grain-free options.\n- **Research and Development**: Purina invests heavily in research to improve pet nutrition and employs veterinarians and nutritionists to formulate their products.\n\n### Iams\n- **Variety**: Iams also offers a selection of formulas targeting different life stages and dietary needs, such as puppy, adult, senior, and large breed.\n- **Ingredients**: Iams products typically include real meat and are known for focusing on balanced nutrition with a blend of proteins, grains, and vegetables.\n- **Nutritional Philosophy**: Iams emphasizes a tailored approach to nutrition, aiming to support healthy skin, coat, and overall vitality.\n- **Accessibility**: Iams is widely available and is generally considered to be at a mid-range price point.\n\n### Considerations\n- **Dog’s Specific Needs**: Choose based on your dog's age, size, breed, and any specific health concerns.\n- **Veterinary Advice**: Consult with a veterinarian to determine the best diet for your dog.\n- **Budget**: Both brands offer products at various price points, so consider what fits within your budget while meeting your dog's nutritional needs.\n\nUltimately, both brands have strengths, and the choice may depend on individual preference and how your dog responds to the food.",
+      "responseTimeMs": 10938,
+      "brandMentions": [
+        {
+          "brand": "Purina",
+          "count": 7
+        },
+        {
+          "brand": "Iams",
+          "count": 6
+        },
+        {
+          "brand": "Target",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 69,
+      "query": "Canidae vs Orijen",
+      "success": true,
+      "response": "When comparing Canidae and Orijen, you're looking at two high-quality pet food brands known for their nutritious offerings. Here’s a brief overview to help you decide which might be better for your pet:\n\n### Canidae\n1. **Ingredients**: Canidae focuses on simplicity and quality, often using limited ingredients to cater to pets with food sensitivities. Their products typically include high-quality proteins like chicken, lamb, and fish.\n\n2. **Variety**: They offer a wide range of recipes, including grain-free options, grain-inclusive recipes, and even specialized formulas for different life stages or dietary needs.\n\n3. **Sourcing and Production**: Canidae emphasizes using sustainably sourced ingredients and operates its own cooking facility, ensuring quality control.\n\n4. **Pricing**: Generally considered mid-range, making it a more affordable option for premium pet food.\n\n### Orijen\n1. **Ingredients**: Orijen is known for its biologically appropriate philosophy, with a focus on replicating the natural diet of animals. Their foods are rich in fresh, regional proteins, and often feature a high proportion of whole prey ingredients.\n\n2. **Variety**: They offer several recipes primarily focused on grain-free diets and high animal protein content. This may be attractive for pet owners looking for ancestral diet options.\n\n3. **Sourcing and Production**: They pride themselves on using fresh and locally sourced ingredients, maintaining control through their own kitchens in Canada.\n\n4. **Pricing**: Generally on the higher end due to the premium ingredients and production processes.\n\n### Considerations\n- **Pet's Dietary Needs**: If your pet has specific allergies or dietary restrictions, Canidae’s limited ingredient options might be beneficial.\n- **Nutritional Philosophy**: If you prefer a diet that closely mimics a pet’s natural eating habits, Orijen’s biologically appropriate concept may resonate more.\n- **Budget**: Consider your budget, as Orijen tends to be pricier due to its ingredients and production methods.\n\nUltimately, the best choice depends on your pet’s individual health needs, preferences, and your budget. Always consider consulting a veterinarian to tailor the diet to your pet’s specific health requirements.",
+      "responseTimeMs": 6692,
+      "brandMentions": [
+        {
+          "brand": "Orijen",
+          "count": 5
+        },
+        {
+          "brand": "Canidae",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "queryIndex": 70,
+      "query": "Natural Balance limited ingredient vs other LID brands",
+      "success": true,
+      "response": "When comparing Natural Balance Limited Ingredient Diets (LID) to other LID brands, there are several factors to consider:\n\n### Natural Balance LID:\n1. **Ingredients**: Often features a single protein source and limited carbohydrates to minimize allergens.\n2. **Variety**: Offers a diverse range of flavors and protein sources like duck, salmon, and venison.\n3. **Digestibility**: Formulated to support easy digestion, suitable for pets with sensitivities.\n4. **Quality**: Known for using higher-quality ingredients and providing balanced nutrition.\n\n### Other LID Brands:\n\n1. **Blue Buffalo Basics**:\n   - **Ingredients**: Focuses on a limited number of high-quality ingredients, often grain-free.\n   - **Variety**: Offers options with unique proteins like turkey and lamb.\n   - **Additives**: Includes LifeSource Bits for added vitamins and antioxidants.\n\n2. **Merrick Limited Ingredient**:\n   - **Ingredients**: Single-source animal proteins and minimal ingredients.\n   - **Variety**: Options include turkey, salmon, and chicken.\n   - **Nutrition**: Grain-free recipes with added omegas for skin and coat health.\n\n3. **Hill's Prescription Diet (for allergies)**:\n   - **Ingredients**: Scientifically developed for pets with specific dietary needs.\n   - **Variety**: Available through veterinarians; may focus more on prescription needs.\n   - **Formulation**: Often more tailored for complex health issues beyond standard sensitivities.\n\n4. **Canidae Pure**:\n   - **Ingredients**: Limited ingredients with 8-10 key components and whole foods.\n   - **Variety**: Diverse proteins like bison, duck, and lamb.\n   - **Quality**: Emphasizes real meat and vegetables, avoiding fillers and artificial additives.\n\n### Considerations:\n\n- **Pet Needs**: Choose a formula based on your pet’s specific dietary requirements and sensitivities.\n- **Protein Preferences**: Some pets may prefer or tolerate certain proteins better.\n- **Budget**: Consider price differences, as LID formulas can vary significantly in cost.\n- **Nutrition Goals**: Ensure that the chosen brand meets all nutritional needs.\n\nBefore making a switch, consult with a veterinarian to determine the best choice for your pet’s health and well-being.",
+      "responseTimeMs": 9331,
+      "brandMentions": [
+        {
+          "brand": "Natural Balance",
+          "count": 2
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Canidae",
+          "count": 1
+        },
+        {
+          "brand": "Hill's",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 71,
+      "query": "is Blue Buffalo better than Natural Balance",
+      "success": true,
+      "response": "Choosing between Blue Buffalo and Natural Balance depends on your pet's specific needs, preferences, and any dietary requirements or restrictions they may have. Here are some points to consider when evaluating these brands:\n\n### Blue Buffalo\n- **Ingredient Quality**: Known for high-quality, natural ingredients with real meat as the first ingredient.\n- **Variety**: Offers a wide range of recipes, including grain-free, limited ingredient, and specific health-focused formulas.\n- **Special Features**: Includes LifeSource Bits, a blend of antioxidants, vitamins, and minerals.\n- **Target Pets**: Suitable for dogs and cats at various life stages.\n\n### Natural Balance\n- **Ingredient Quality**: Focuses on limited ingredient formulas, which can be beneficial for pets with food sensitivities or allergies.\n- **Variety**: Offers grain-inclusive and grain-free options, as well as vegetarian and vegan formulas.\n- **Special Features**: Emphasizes specific dietary needs with a focus on digestive health and balanced nutrition.\n- **Target Pets**: Caters to dogs and cats, with many options for specific health concerns.\n\n### Considerations:\n- **Pet Specific Needs**: If your pet has allergies or sensitivities, a limited ingredient diet from Natural Balance might be beneficial.\n- **Lifestyle and Health**: Blue Buffalo provides options with added supplements for joint health, skin, and coat.\n- **Taste and Preference**: Some pets may prefer one brand's taste or texture over the other.\n\nIt's always a good idea to consult with your veterinarian to ensure the food you choose meets your pet's nutritional needs.",
+      "responseTimeMs": 8810,
+      "brandMentions": [
+        {
+          "brand": "Natural Balance",
+          "count": 3
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 3
+        },
+        {
+          "brand": "Target",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 72,
+      "query": "Nutro vs Natural Balance",
+      "success": true,
+      "response": "When comparing Nutro and Natural Balance, both brands are well-regarded in the pet food industry, focusing on natural ingredients and catering to various dietary needs. Here's a brief overview to help you decide which might be better for your pet:\n\n### Nutro\n- **Ingredients**: Prioritizes natural ingredients with no artificial flavors, colors, or preservatives. Often emphasizes whole grains, real meat, and non-GMO ingredients.\n- **Variety**: Offers a range of products catering to different life stages, breeds, and specific health needs, including grain-free options.\n- **Formulas**: Known for \"Wholesome Essentials,\" \"Ultra,\" and \"Limited Ingredient Diets\" lines, providing specific nutrition needs.\n- **Sourcing**: Claims to source ingredients from trusted farmers and suppliers.\n\n### Natural Balance\n- **Ingredients**: Focuses on high-quality, wholesome ingredients. Some lines use limited ingredients, which is beneficial for pets with allergies or sensitivities.\n- **Variety**: Provides an extensive range of formulas, including grain-free options, vegetarian formulas, and specialty diets.\n- **Formulas**: Known for \"Limited Ingredient Diets,\" \"Original Ultra,\" and \"Synergy\" lines, catering to different dietary preferences.\n- **Sourcing and Testing**: Emphasizes rigorous safety checks and a \"Buy with Confidence\" program to ensure quality.\n\n### Considerations\n- **Pet Preferences**: Taste and texture can vary, so it might be worth trying small bags to see which your pet prefers.\n- **Dietary Needs**: Consider any specific dietary restrictions or health concerns, such as food allergies, that your pet may have.\n- **Price**: Compare prices in your local market, as both brands can vary in cost and availability.\n\nIt's always a good idea to consult with your veterinarian to determine the best dietary choice for your pet based on their specific health needs and lifestyle.",
+      "responseTimeMs": 10736,
+      "brandMentions": [
+        {
+          "brand": "Natural Balance",
+          "count": 2
+        },
+        {
+          "brand": "Nutro",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 73,
+      "query": "best limited ingredient dog food brands compared",
+      "success": true,
+      "response": "Choosing a limited ingredient dog food can be beneficial for dogs with food sensitivities or allergies. Here's a comparison of some popular brands known for their limited ingredient formulas:\n\n1. **Natural Balance L.I.D.**\n   - **Pros:** Offers a wide variety of protein sources and grain-free options. Easy to find in most pet stores.\n   - **Cons:** Some formulas can be on the pricier side.\n\n2. **Blue Buffalo Basics**\n   - **Pros:** Grain-free options available and contains LifeSource Bits for added nutrition.\n   - **Cons:** Some dogs might not prefer the taste.\n\n3. **Canidae Grain-Free PURE**\n   - **Pros:** Uses high-quality ingredients with a simple recipe structure.\n   - **Cons:** Limited flavor options compared to other brands.\n\n4. **Merrick Limited Ingredient Diet**\n   - **Pros:** High-quality proteins and vegetables with no grains, soy, or gluten.\n   - **Cons:** Can be more expensive in comparison to other brands.\n\n5. **Solid Gold Leaping Waters**\n   - **Pros:** Focuses on holistic nutrition with probiotics for digestive health.\n   - **Cons:** Availability might be an issue in some areas.\n\n6. **Hill's Science Diet Sensitive Stomach & Skin**\n   - **Pros:** Known for research-backed formulas targeting specific health issues.\n   - **Cons:** Limited protein choices in their sensitive formulas.\n\n7. **Instinct Limited Ingredient Diet**\n   - **Pros:** High protein content with a focus on raw nutrition.\n   - **Cons:** Usually more expensive and may not be suitable for all dogs.\n\nWhen selecting a limited ingredient dog food, consider your dog's specific dietary needs, any allergies, and your budget. It's always a good idea to consult with your veterinarian to ensure you're choosing the best option for your pet’s health.",
+      "responseTimeMs": 7785,
+      "brandMentions": [
+        {
+          "brand": "Natural Balance",
+          "count": 1
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Canidae",
+          "count": 1
+        },
+        {
+          "brand": "Hill's",
+          "count": 1
+        },
+        {
+          "brand": "Target",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 74,
+      "query": "premium dog food brand comparison",
+      "success": true,
+      "response": "When comparing premium dog food brands, it’s essential to consider factors like ingredient quality, nutritional value, and suitability for your dog's specific needs. Here are a few well-regarded premium brands and some key points to note:\n\n1. **Orijen**\n   - **Pros:** High-protein content with a focus on biologically appropriate ingredients. Utilizes fresh, regional ingredients.\n   - **Cons:** More expensive; may be too rich for some dogs with sensitive stomachs.\n\n2. **Acana**\n   - **Pros:** Offers a variety of recipes catering to different life stages and dietary needs. Emphasizes meat as the primary ingredient.\n   - **Cons:** Similar price range to Orijen; not grain-free options might not suit all pets.\n\n3. **Blue Buffalo**\n   - **Pros:** Wide range of options including grain-free, natural ingredients, and specific health target formulas.\n   - **Cons:** Some reports of inconsistency in ingredients and formulations.\n\n4. **Royal Canin**\n   - **Pros:** Highly specialized formulas tailored to breed, size, and health issues.\n   - **Cons:** Contains grains and some fillers; often more expensive.\n\n5. **Hill’s Science Diet**\n   - **Pros:** Known for its research-backed nutrition; offers many specialized health formulas.\n   - **Cons:** Includes grains and byproducts in some recipes; mid-to-high price range.\n\n6. **Wellness Core**\n   - **Pros:** Grain-free options with a focus on natural ingredients. High protein content.\n   - **Cons:** Some recipes can be calorie-dense, leading to weight gain if not portioned correctly.\n\n7. **Merrick**\n   - **Pros:** High-quality ingredients and a variety of recipes including grain-free and limited ingredient diets.\n   - **Cons:** Some foods may use more exotic proteins, which could lead to allergies in some dogs.\n\nWhen choosing a dog food, always consider your dog's age, breed, weight, activity level, and any specific health concerns. Consulting with a veterinarian can also provide personalized recommendations.",
+      "responseTimeMs": 10962,
+      "brandMentions": [
+        {
+          "brand": "Orijen",
+          "count": 2
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Acana",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        },
+        {
+          "brand": "Target",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 75,
+      "query": "best dog treats for training",
+      "success": true,
+      "response": "When selecting dog treats for training, it's important to choose options that are healthy, enticing, and easily consumable. Here are some popular choices:\n\n1. **Zuke's Mini Naturals**: Small, low-calorie, and available in several flavors.\n\n2. **Blue Buffalo Blue Bits**: Soft and moist, made with real meat.\n\n3. **Wellness Soft Puppy Bites**: Grain-free and perfect for puppies with sensitive stomachs.\n\n4. **Natural Balance Mini Rewards**: High in protein and low in calories.\n\n5. **Instinct Raw Boost Mixers**: Freeze-dried raw treats that are nutritious and highly palatable.\n\n6. **Cloud Star Tricky Trainers**: Soft, chewy, and don't crumble in your pocket.\n\n7. **Merrick Power Bites**: Grain-free and made with real deboned meat.\n\n8. **Pet Botanics Training Rewards**: Made with pork liver and highly aromatic.\n\nWhen choosing treats, consider your dog's dietary needs, preferences, and any potential allergies. Always opt for small, easy-to-chew treats to maintain your dog's focus during training sessions.",
+      "responseTimeMs": 6267,
+      "brandMentions": [
+        {
+          "brand": "Natural Balance",
+          "count": 1
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Chewy",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 76,
+      "query": "healthiest dog treats",
+      "success": true,
+      "response": "When selecting healthy dog treats, it's important to focus on wholesome, natural ingredients that are low in calories and free from artificial additives. Here are some options:\n\n1. **Vegetables**: Carrots, green beans, and sweet potatoes are low-calorie and high in fiber.\n\n2. **Fruits**: Blueberries, apple slices (without seeds), and watermelon (without seeds or rind) are safe and nutritious.\n\n3. **Lean Proteins**: Cooked chicken, turkey, or small pieces of lean beef can be great protein-rich treats.\n\n4. **Fish-based Treats**: Salmon or whitefish treats provide omega-3 fatty acids which are beneficial for skin and coat health.\n\n5. **Commercial Treats**: Look for brands that use high-quality, limited ingredients, such as:\n   - **Zuke’s**: Known for natural, wholesome ingredients.\n   - **Greenies**: Help maintain dental health.\n   - **Blue Buffalo Wilderness**: Offers grain-free, high-protein options.\n  \n6. **Freeze-Dried Treats**: These often contain single ingredients like chicken or liver, retaining nutritional value.\n\n7. **Homemade Treats**: You can make your own using simple recipes with ingredients like oatmeal, pumpkin puree, and peanut butter (ensure it’s free of xylitol).\n\nRemember to adjust portion sizes based on your dog's size and daily caloric needs, and always introduce new treats gradually to monitor for any adverse reactions.",
+      "responseTimeMs": 5970,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 77,
+      "query": "best dental chews for dogs",
+      "success": true,
+      "response": "When choosing the best dental chews for dogs, it's important to consider your dog's size, chewing habits, and any dietary restrictions. Here are some popular and highly regarded options:\n\n1. **Greenies Dental Chews**\n   - Widely recommended.\n   - Help reduce plaque and tartar.\n   - Available in various sizes.\n\n2. **Whimzees Dental Treats**\n   - Made with natural ingredients.\n   - Unique shapes for effective cleaning.\n   - Variety of sizes and options.\n\n3. **Pedigree Dentastix**\n   - X-shape design helps clean teeth.\n   - Affordable and widely available.\n   - Supports fresh breath.\n\n4. **Purina DentaLife Chews**\n   - Textured design to clean hard-to-reach areas.\n   - Scientifically tested.\n   - Suitable for daily use.\n\n5. **OraVet Dental Hygiene Chews**\n   - Contains delmopinol to form a protective barrier.\n   - Targets plaque and calculus buildup.\n   - Recommended by vets.\n\n6. **Virbac C.E.T. VeggieDent Chews**\n   - Plant-based, making them suitable for sensitive stomachs.\n   - VOHC-approved.\n   - Triple-action formula for mouth health.\n\nAlways supervise your dog while they're enjoying a chew and consult your veterinarian to ensure the product is appropriate for your dog's health needs.",
+      "responseTimeMs": 7607,
+      "brandMentions": [
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Pedigree",
+          "count": 1
+        },
+        {
+          "brand": "Target",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 78,
+      "query": "best natural dog treats",
+      "success": true,
+      "response": "When choosing natural dog treats, it’s important to focus on wholesome ingredients without additives or artificial preservatives. Here are some top options:\n\n1. **Freeze-Dried Meat Treats**: Single-ingredient treats like freeze-dried chicken, beef, or liver are great options. They’re high in protein and have no additives.\n\n2. **Sweet Potato Chews**: These are low-fat and high in fiber, making them a healthy and digestible snack.\n\n3. **Carrot Sticks**: Crunchy and full of nutrients, carrots are a simple, low-calorie treat.\n\n4. **Pumpkin Pieces**: Packed with fiber and beta-carotene, pumpkin is great for digestion.\n\n5. **Dehydrated Fish Skins**: High in omega-3 fatty acids, these treats support skin and coat health.\n\n6. **Apple Slices**: A good source of vitamins A and C, but make sure to remove seeds and core.\n\n7. **Blueberries**: Rich in antioxidants, these make a nutritious, easy-to-eat snack.\n\n8. **Coconut Chips**: Contain healthy fats and provide a natural sweetness.\n\nRemember to introduce new treats gradually and monitor your dog's reaction to ensure they don’t have any adverse effects. Always opt for treats appropriate for your dog’s size and dietary needs.",
+      "responseTimeMs": 4940,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 79,
+      "query": "best dog treats for sensitive stomachs",
+      "success": true,
+      "response": "If your dog has a sensitive stomach, it’s important to choose treats that are gentle on their digestive system. Here are some options to consider:\n\n1. **Limited Ingredient Treats**: Look for treats with minimal ingredients to reduce the risk of triggering sensitivities. Brands like Natural Balance or Blue Buffalo have limited ingredient options.\n\n2. **Hypoallergenic Treats**: Treats made from novel proteins (such as duck or venison) can be a good choice. Royal Canin and Hill’s Prescription Diet offer hypoallergenic options.\n\n3. **Grain-Free Treats**: Dogs with grain sensitivities may benefit from grain-free treats. Look for options like Wellness Grain-Free or Merrick Grain-Free treats.\n\n4. **Homemade Treats**: You can make simple treats at home using ingredients like pumpkin, which is soothing for the stomach, or plain boiled chicken.\n\n5. **Probiotic Treats**: Treats with added probiotics can help support a healthy digestive system. Consider brands like Nulo or Full Moon.\n\n6. **Pumpkin-Based Treats**: Pumpkin is known to aid digestion. Treats like Fruitables Pumpkin & Apple can be a good choice.\n\nAlways introduce new treats slowly and consult with your veterinarian to ensure they are suitable for your dog's specific dietary needs.",
+      "responseTimeMs": 6429,
+      "brandMentions": [
+        {
+          "brand": "Natural Balance",
+          "count": 1
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Nulo",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 80,
+      "query": "best low calorie dog treats",
+      "success": true,
+      "response": "When looking for low-calorie treats for your dog, it's important to focus on healthy, nutritious options. Here are some popular choices:\n\n1. **Carrot Slices**: Low in calories and high in fiber and vitamins.\n\n2. **Apple Slices**: Offer without seeds or core. They're high in fiber and vitamin C.\n\n3. **Green Beans**: Crunchy, low-calorie, and a good source of fiber and vitamins.\n\n4. **Blueberries**: Packed with antioxidants and vitamins, they make a sweet, low-calorie treat.\n\n5. **Zucchini Slices**: Low in calories, and dogs often enjoy the texture.\n\n6. **Pumpkin Puree**: Plain, unsweetened pumpkin is low-calorie and aids digestion.\n\n7. **Spinach Leaves**: Provide iron, potassium, and calcium with very few calories.\n\n8. **Cucumber Slices**: Hydrating and low in calories, perfect for hot days.\n\n9. **Commercial Low-Calorie Treats**: Brands like Hill's Science Diet or Greenies offer low-calorie options designed for weight management.\n\nAlways remember to introduce new foods slowly and check with your vet to ensure they suit your dog's dietary needs.",
+      "responseTimeMs": 4423,
+      "brandMentions": [
+        {
+          "brand": "Hill's",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 81,
+      "query": "best grain free dog treats",
+      "success": true,
+      "response": "When looking for the best grain-free dog treats, consider options that are made with high-quality, natural ingredients. Here are some popular choices:\n\n1. **Blue Buffalo Wilderness Trail Treats**\n   - Made with real meat as the first ingredient.\n   - No artificial flavors or preservatives.\n\n2. **Wellness CORE Pure Rewards**\n   - Contains high-protein meats like turkey and duck.\n   - Limited ingredients minimize risk of allergies.\n\n3. **Merrick Power Bites**\n   - Made with real deboned meat.\n   - No corn, soy, or wheat.\n\n4. **Zuke’s Mini Naturals**\n   - Small, soft, and great for training.\n   - Variety of flavors like chicken, duck, and salmon.\n\n5. **Stewart Freeze-Dried Treats**\n   - Single-ingredient options like beef liver.\n   - Easy to break into smaller pieces.\n\n6. **Nudges Natural Dog Treats**\n   - Made with real meats.\n   - No artificial additives or fillers.\n\n7. **Orijen Freeze-Dried Treats**\n   - High protein content from fresh animal ingredients.\n   - Grain-free and freeze-dried to preserve nutrients.\n\nWhen selecting treats, make sure they align with your dog's dietary needs and consult your vet if you have any concerns.",
+      "responseTimeMs": 5546,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Orijen",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 82,
+      "query": "best dog treats for puppies",
+      "success": true,
+      "response": "Choosing the best dog treats for puppies involves considering their nutritional needs, size, and the ingredients' safety. Here are some great options:\n\n1. **Wellness Soft Puppy Bites**: Made with natural ingredients and fortified with DHA to support brain development.\n\n2. **Blue Buffalo Blue Bits**: Soft, moist, and packed with DHA for cognitive development.\n\n3. **Zuke’s Puppy Naturals**: Grain-free and rich in protein; small in size for easy chewing.\n\n4. **Merrick Power Bites**: Grain-free with deboned meat as the first ingredient, important for puppy growth.\n\n5. **KONG Puppy Ziggies**: Designed to fit into KONG toys, these treats help with teething and are highly digestible.\n\n6. **N-Bone Puppy Teething Rings**: Specifically designed for teething puppies, they help soothe gums.\n\n7. **Old Mother Hubbard Puppy Biscuits**: Crunchy texture that helps clean teeth with wholesome ingredients.\n\nWhen selecting treats, ensure they are:\n\n- **Appropriate Size**: Small enough for a puppy’s mouth.\n- **Nutritional Balance**: Enriched with vitamins and minerals.\n- **Natural Ingredients**: Avoid artificial preservatives, colors, and flavors.\n- **Limited Calories**: Treats should only make up a small percentage of their diet.\n\nAlways monitor your puppy for any allergies or digestive issues when introducing new treats.",
+      "responseTimeMs": 9868,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 83,
+      "query": "best long lasting dog chews",
+      "success": true,
+      "response": "Here are some of the best long-lasting dog chews that are known for their durability and appeal to dogs:\n\n1. **Bully Sticks**: Made from beef muscle, these are highly digestible and come in various sizes and thicknesses to suit different dogs.\n\n2. **Himalayan Yak Chews**: These are made from yak and cow milk, combined to create a hard, cheese-like chew that lasts a long time.\n\n3. **Antlers**: Antlers from deer or elk are natural and very durable, making them a great option for aggressive chewers.\n\n4. **Raw Bones**: Appropriate-sized raw bones (like beef knuckles or marrow bones) are safe for chewing. Avoid cooked bones as they can splinter.\n\n5. **Nylon Chews**: Brands like Nylabone offer durable synthetic chews in various flavors and designs to satiate strong chewers.\n\n6. **Rubber Chew Toys**: Brands like KONG provide hollow rubber toys you can fill with treats, extending playtime.\n\n7. **Beef Tendons**: These are natural and digestible, offering a good balance of toughness and flavor.\n\n8. **Pig Ears**: A favorite among many dogs, these are natural and tend to last a reasonable amount of time, depending on the dog’s chewing strength.\n\nAlways supervise your dog while they are chewing, and choose the appropriate size and toughness to prevent choking or dental issues.",
+      "responseTimeMs": 7873,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 84,
+      "query": "best single ingredient dog treats",
+      "success": true,
+      "response": "When looking for the best single-ingredient dog treats, consider options that are natural and free from additives. Here are a few popular choices:\n\n1. **Chicken Jerky**: Made from pure chicken breast, these are lean and high-protein treats.\n\n2. **Sweet Potato Chews**: Dehydrated sweet potatoes offer a chewy texture and are rich in fiber and vitamins.\n\n3. **Beef Liver**: Freeze-dried or dehydrated beef liver is highly nutritious and often irresistible to dogs.\n\n4. **Fish Skins**: Dehydrated fish skins are crunchy and rich in omega-3 fatty acids.\n\n5. **Kangaroo Jerky**: Novel protein for dogs with allergies, it's low in fat and high in protein.\n\n6. **Venison Jerky**: Another novel protein, venison is great for dogs with dietary sensitivities.\n\n7. **Duck Feet**: A crunchy treat that helps with dental health and provides glucosamine.\n\nAlways ensure the treats are free from artificial preservatives and sourced from reputable suppliers. Be sure to introduce new treats gradually and consult with your vet if your dog has specific dietary needs.",
+      "responseTimeMs": 5555,
+      "brandMentions": [
+        {
+          "brand": "Chewy",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 85,
+      "query": "best cat food brands",
+      "success": true,
+      "response": "Finding the best cat food involves considering factors like your cat's age, health, and dietary needs. Here are some well-regarded cat food brands that are frequently recommended:\n\n1. **Royal Canin:** Known for its breed-specific and condition-specific formulas.\n2. **Hill's Science Diet:** Offers a range of options for different health needs.\n3. **Blue Buffalo:** Features natural ingredients with no artificial flavors or preservatives.\n4. **Wellness:** Known for high-quality ingredients and a focus on overall health.\n5. **Purina Pro Plan:** Offers balanced nutrition with various specialized formulas.\n6. **Nutro:** Emphasizes natural ingredients and wholesome nutrients.\n7. **Natural Balance:** Often used for pets with dietary sensitivities.\n8. **Acana:** Grain-free options with high-protein content.\n9. **Orijen:** High in protein and fresh regional ingredients.\n10. **Instinct by Nature’s Variety:** Raw-focused with high protein.\n\nAlways consult your veterinarian to tailor the diet to your cat’s specific needs.",
+      "responseTimeMs": 3728,
+      "brandMentions": [
+        {
+          "brand": "Natural Balance",
+          "count": 1
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Orijen",
+          "count": 1
+        },
+        {
+          "brand": "Acana",
+          "count": 1
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Hill's",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 86,
+      "query": "best wet cat food",
+      "success": true,
+      "response": "Choosing the best wet cat food depends on your cat's specific needs, preferences, and any dietary restrictions they may have. Here are some top-rated options that are generally well-regarded:\n\n1. **Hill's Science Diet Adult Urinary & Hairball Control**: Formulated to support urinary health and reduce hairballs.\n\n2. **Royal Canin Feline Health Nutrition**: Offers a range of options tailored to specific health needs.\n\n3. **Blue Buffalo Wilderness High Protein Grain Free**: Made with real meat and natural ingredients.\n\n4. **Purina Pro Plan True Nature**: High protein with no artificial colors, flavors, or preservatives.\n\n5. **Wellness CORE Grain-Free**: Rich in protein and free from grains, fillers, and artificial additives.\n\n6. **Tiki Cat Grill Grain-Free**: Offers a variety of flavors with high moisture content.\n\n7. **Nutro Perfect Portions Grain-Free**: Convenient portion sizes with high-quality ingredients.\n\nWhen selecting a wet cat food, consider the following:\n\n- **Ingredients**: Look for high-quality proteins and avoid artificial additives.\n- **Nutritional Needs**: Ensure the food meets AAFCO standards for your cat's life stage.\n- **Special Needs**: Consider any health conditions, like urinary tract issues or allergies.\n- **Consistency and Flavor**: Some cats prefer specific textures or flavors, so you may need to experiment.\n\nIt’s always a good idea to consult with your veterinarian for personalized recommendations based on your cat's health and dietary needs.",
+      "responseTimeMs": 7191,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Hill's",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 87,
+      "query": "best dry cat food",
+      "success": true,
+      "response": "When selecting the best dry cat food, it's important to consider the nutritional needs of your cat, such as age, health, and any dietary restrictions. Here are some top brands known for their quality:\n\n1. **Hill's Science Diet**\n   - Offers formulas tailored to specific life stages and health needs.\n   \n2. **Royal Canin**\n   - Provides breed-specific and condition-specific options.\n\n3. **Blue Buffalo**\n   - Known for natural ingredients and a life protection formula.\n\n4. **Wellness Core**\n   - Grain-free and protein-focused options.\n\n5. **Purina Pro Plan**\n   - Offers a variety of specialized formulas for different needs.\n\n6. **Iams ProActive Health**\n   - Affordably priced with a balance of nutrients.\n\n7. **Nutro Wholesome Essentials**\n   - Features non-GMO ingredients and high-quality proteins.\n\nAlways ensure the food aligns with AAFCO guidelines and consult with your veterinarian to address specific health considerations.",
+      "responseTimeMs": 3522,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Iams",
+          "count": 1
+        },
+        {
+          "brand": "Hill's",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 88,
+      "query": "best cat food for indoor cats",
+      "success": true,
+      "response": "Selecting the best cat food for indoor cats involves considering their specific nutritional needs, activity levels, and preferences. Here are some popular options known for quality:\n\n1. **Hill's Science Diet Indoor Cat Formula**\n   - Designed specifically for indoor cats.\n   - Focuses on maintaining healthy weight and digestive health.\n\n2. **Royal Canin Indoor Adult Dry Cat Food**\n   - Tailored to reduce hairballs and manage caloric intake.\n\n3. **Blue Buffalo Indoor Health**\n   - Natural ingredients with LifeSource Bits for added nutrients.\n   - High in protein with no by-product meals.\n\n4. **Purina Pro Plan Indoor Care**\n   - High in protein with an optimal balance for indoor cats.\n   - Supports weight management and digestion.\n\n5. **Nutro Wholesome Essentials Indoor Cat**\n   - Made with non-GMO ingredients.\n   - Rich in omega fatty acids for skin and coat health.\n\n6. **Wellness CORE Grain-Free Indoor Formula**\n   - Supports a healthy weight and lean muscle mass.\n   - Grain-free with high protein content.\n\nRemember to gradually introduce any new food to your cat and consult with a veterinarian to tailor choices to your cat's specific health needs and conditions.",
+      "responseTimeMs": 6349,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Hill's",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 89,
+      "query": "best cat food for sensitive stomach",
+      "success": true,
+      "response": "Selecting the best cat food for a sensitive stomach involves considering factors like high-quality ingredients, digestibility, and specific dietary needs. Here are a few options:\n\n1. **Limited Ingredient Diets (LID)**:\n   - These foods contain fewer ingredients to minimize potential allergens.\n   - Look for brands like Natural Balance LID or Blue Buffalo Basics.\n\n2. **Grain-Free Options**:\n   - Cats with sensitive stomachs may benefit from grain-free formulas.\n   - Check out Wellness CORE Grain-Free or Merrick Grain-Free recipes.\n\n3. **Novel Protein Sources**:\n   - Novel proteins like duck or venison can help if your cat is sensitive to common proteins like chicken or beef.\n   - Consider brands like Instinct by Nature's Variety or Ziwi Peak.\n\n4. **Easily Digestible Proteins**:\n   - Foods with easily digestible proteins can aid in reducing stomach upset.\n   - Hill’s Science Diet Sensitive Stomach & Skin is formulated for easy digestion.\n\n5. **Probiotics and Prebiotics**:\n   - These support gut health and can improve digestion.\n   - Royal Canin Digestive Care includes beneficial prebiotics.\n\nAlways consult with your veterinarian before making changes to your cat's diet to tailor the choice to their specific needs.",
+      "responseTimeMs": 3670,
+      "brandMentions": [
+        {
+          "brand": "Natural Balance",
+          "count": 1
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 90,
+      "query": "best grain free cat food",
+      "success": true,
+      "response": "When considering grain-free cat food, it's important to look for options that provide high-quality protein and all the necessary nutrients your cat needs. Here are a few highly recommended grain-free cat food brands:\n\n1. **Wellness CORE Grain-Free**\n   - High in protein with quality ingredients.\n   - Includes antioxidants, omega fatty acids, and probiotics.\n\n2. **Blue Buffalo Wilderness**\n   - High protein content mimicking a wild diet.\n   - Contains LifeSource Bits, a blend of antioxidants, vitamins, and minerals.\n\n3. **Merrick Grain-Free**\n   - Features deboned meat as the primary ingredient.\n   - Rich in omega fatty acids for skin and coat health.\n\n4. **Natural Balance L.I.D. (Limited Ingredient Diets)**\n   - Good for sensitive stomachs.\n   - Simple ingredient list to minimize allergens.\n\n5. **Instinct Original Grain-Free**\n   - High animal protein content.\n   - Includes raw, freeze-dried meat toppers for added nutrition.\n\n6. **Canidae PURE Grain-Free**\n   - Limited ingredients to reduce potential allergens.\n   - Contains probiotics, antioxidants, and omega fatty acids.\n\nWhen transitioning to a new food, do so gradually to avoid digestive upset. Always consider your cat's specific health needs and consult with a veterinarian for personalized recommendations.",
+      "responseTimeMs": 5482,
+      "brandMentions": [
+        {
+          "brand": "Natural Balance",
+          "count": 1
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Canidae",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 91,
+      "query": "best senior cat food",
+      "success": true,
+      "response": "Choosing the best senior cat food involves considering your cat's age, health, and specific dietary needs. Here are a few well-regarded options:\n\n1. **Hill's Science Diet Senior Cat Food**: Formulated with balanced nutrients and easy-to-digest ingredients, this food is designed to support joint health, kidney function, and energy levels in older cats.\n\n2. **Royal Canin Aging 12+**: Known for its support of healthy aging, this food includes antioxidants and nutrients that promote joint health and renal support.\n\n3. **Purina Pro Plan Prime Plus**: This formula contains antioxidants and high-quality protein to help support a healthy immune system and promote lean muscle mass.\n\n4. **Wellness Complete Health Senior**: This option is grain-free and includes antioxidants, glucosamine, and omega fatty acids to support overall health and joint mobility.\n\n5. **Blue Buffalo Wilderness Mature Cat**: A high-protein, grain-free option with real chicken, this food is great for maintaining energy levels and promoting healthy aging.\n\nBefore switching your cat's food, it's best to consult with your veterinarian, especially if your cat has specific health issues or dietary restrictions.",
+      "responseTimeMs": 6671,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Hill's",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 92,
+      "query": "best kitten food",
+      "success": true,
+      "response": "Selecting the best kitten food involves considering their specific nutritional needs for growth and development. Here are some top picks that are generally well-regarded:\n\n1. **Royal Canin Kitten**: Formulated to support the immune system and digestive health, this food provides balanced nutrition for growing kittens.\n\n2. **Hill’s Science Diet Kitten**: Offers DHA from fish oil for healthy brain and eye development, along with a balanced mix of vitamins and minerals.\n\n3. **Purina Pro Plan Kitten**: Contains high protein and essential nutrients like DHA and antioxidants to support overall growth and development.\n\n4. **Blue Buffalo Healthy Gourmet Kitten**: Rich in protein with real meat as the first ingredient, plus it includes wholesome grains and veggies.\n\n5. **Wellness CORE Grain-Free Kitten Formula**: High protein content and grain-free, this formula supports healthy muscle development.\n\n6. **Iams ProActive Health Kitten**: Provides essential nutrients like vitamin E to help develop a strong immune system, plus omega-3 for brain development.\n\nWhen choosing a kitten food, look for:\n\n- High-quality protein sources\n- Essential fatty acids (DHA)\n- Vitamins and minerals for growth\n- Digestibility\n- AAFCO certification for nutritional adequacy\n\nAlways consult your veterinarian to tailor the diet to your kitten’s specific needs.",
+      "responseTimeMs": 9350,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Iams",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 93,
+      "query": "best limited ingredient cat food",
+      "success": true,
+      "response": "When selecting a limited ingredient cat food, it's important to focus on quality and suitability for your cat's specific needs. Here are some of the top choices known for their limited ingredient recipes:\n\n1. **Blue Buffalo Basics Limited Ingredient Diet**\n   - Features a single animal protein source.\n   - Includes grain-free options.\n   - No chicken or beef, often uses duck or turkey.\n\n2. **Natural Balance L.I.D. (Limited Ingredient Diets)**\n   - Offers both dry and wet formulas.\n   - Uses novel proteins like duck, lamb, or venison.\n   - Grain-free options available.\n\n3. **Instinct Limited Ingredient Diets by Nature's Variety**\n   - Contains one protein and one vegetable.\n   - Options include rabbit, turkey, and duck.\n   - Grain-free, with no artificial colors or preservatives.\n\n4. **Merrick Limited Ingredient Diet**\n   - Features a single protein source and simple ingredients.\n   - Grain-free and gluten-free.\n   - Available in both dry and canned varieties.\n\n5. **Canidae PURE Limited Ingredient**\n   - Limited ingredient dry and wet foods.\n   - Grain-free with various protein choices.\n   - Made with 7-10 key ingredients.\n\n6. **Wellness Simple Limited Ingredient Diet**\n   - Single protein source with added probiotics.\n   - Grain-free, with options like turkey or salmon.\n   - No artificial colors, flavors, or preservatives.\n\nAlways consult with your veterinarian before making significant changes to your cat's diet, especially if you are addressing specific health concerns like allergies or sensitivities.",
+      "responseTimeMs": 10296,
+      "brandMentions": [
+        {
+          "brand": "Natural Balance",
+          "count": 1
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Canidae",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 94,
+      "query": "best natural cat food brands",
+      "success": true,
+      "response": "Choosing a natural cat food brand involves looking for high-quality ingredients, minimal additives, and a focus on nutrition. Here are some highly regarded natural cat food brands:\n\n1. **Wellness Core**\n   - Grain-free options\n   - High in protein\n\n2. **Blue Buffalo Wilderness**\n   - High in real meat\n   - Grain-free formula\n\n3. **Merrick**\n   - Locally sourced ingredients\n   - No artificial colors, flavors, or preservatives\n\n4. **Instinct by Nature’s Variety**\n   - Raw coated kibbles\n   - Grain-free and high protein\n\n5. **Natural Balance**\n   - Limited ingredient diets\n   - Balanced nutrition\n\n6. **NUTRO**\n   - Non-GMO ingredients\n   - No chicken by-product meal\n\n7. **Canidae**\n   - Limited ingredients\n   - High-quality animal proteins\n\n8. **Earthborn Holistic**\n   - Whole grain and grain-free options\n   - Rich in fruits and vegetables\n\n9. **Weruva**\n   - High moisture content\n   - Variety of flavors and textures\n\n10. **Tiki Cat**\n    - High protein content\n    - No grains, by-products, or fillers\n\nWhen selecting a brand, consider your cat's specific dietary needs, including any allergies or health conditions. Consulting with your vet can help you make the best choice.",
+      "responseTimeMs": 6142,
+      "brandMentions": [
+        {
+          "brand": "Natural Balance",
+          "count": 1
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Canidae",
+          "count": 1
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 95,
+      "query": "what ingredients to avoid in dog food",
+      "success": true,
+      "response": "When choosing dog food, it's important to avoid certain ingredients that can be harmful to your pet's health. Here are some ingredients to watch out for:\n\n1. **Artificial Preservatives**: BHA, BHT, and ethoxyquin can be harmful over time.\n\n2. **Artificial Colors and Flavors**: Added chemicals that provide no nutritional value.\n\n3. **Corn Syrup and Sugar**: Unnecessary and can lead to obesity and dental issues.\n\n4. **Meat By-Products**: Often low-quality sources of protein.\n\n5. **Fillers**: Corn, wheat, and soy can be hard to digest and are often used as cheap fillers.\n\n6. **Propylene Glycol**: Used to keep food moist, but potentially harmful.\n\n7. **Rendered Fat**: Can include low-quality fats and oils.\n\n8. **Sodium Nitrate/Nitrite**: Preservatives that may be linked to health issues.\n\n9. **Excessive Salt**: Can lead to health problems like high blood pressure and dehydration.\n\n10. **Melamine**: Sometimes illegally used to boost protein content in a deceptive way.\n\nAlways opt for high-quality dog food with whole meats and grains, and consult with your veterinarian for food that suits your dog's specific dietary needs.",
+      "responseTimeMs": 13541,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 96,
+      "query": "is grain free dog food bad for dogs",
+      "success": true,
+      "response": "Grain-free dog food has been a topic of debate. While it can be beneficial for dogs with specific grain allergies, it might not be necessary or ideal for all dogs. Here are a few points to consider:\n\n1. **Dietary Needs**: Most dogs can digest grains without any issues. Whole grains can provide valuable nutrients and fiber.\n\n2. **Nutritional Balance**: Some grain-free diets use alternative carbohydrate sources like potatoes or legumes. It's essential to ensure these diets are nutritionally balanced.\n\n3. **Health Concerns**: The FDA has investigated potential links between grain-free diets and a heart condition called dilated cardiomyopathy (DCM) in dogs. The exact cause is still under study.\n\n4. **Veterinary Advice**: It's crucial to consult a veterinarian to determine the best diet for your dog based on their specific health needs and lifestyle.\n\nIn summary, grain-free dog food isn't inherently bad, but it should be chosen carefully and with professional guidance.",
+      "responseTimeMs": 4584,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 97,
+      "query": "best protein sources for dog food",
+      "success": true,
+      "response": "When selecting protein sources for dog food, it's important to balance quality, digestibility, and nutritional content. Here are some of the best protein sources for dogs:\n\n1. **Chicken**: Highly digestible and commonly used. It's a lean protein that supports muscle maintenance.\n\n2. **Beef**: Rich in essential amino acids, vitamins, and minerals. It's a popular choice for its robust nutritional profile.\n\n3. **Lamb**: Great for dogs with food sensitivities or allergies, offering a different amino acid profile.\n\n4. **Fish**: Includes options like salmon or tuna, rich in omega-3 fatty acids, which support skin, coat, and joint health.\n\n5. **Turkey**: Lean and easily digestible, providing essential nutrients without excessive fat.\n\n6. **Eggs**: Highly digestible and packed with essential amino acids, vitamins, and minerals.\n\n7. **Pork**: Offers a different flavor and is highly palatable for many dogs, providing a good fat-to-protein ratio.\n\n8. **Duck**: Another alternative protein, good for dogs with allergies to more common meats.\n\n9. **Venison**: Often used in hypoallergenic diets, it's lean and nutrient-dense.\n\n10. **Rabbit**: An excellent novel protein option, especially for those with food sensitivities.\n\nAlways ensure that the source of protein is appropriate for your dog's specific dietary needs and consult with a veterinarian to tailor their diet to their health requirements.",
+      "responseTimeMs": 6147,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 98,
+      "query": "how to read dog food labels",
+      "success": true,
+      "response": "Reading dog food labels can be a bit tricky, but understanding them is crucial for choosing the right food for your pet. Here’s a guide to help you:\n\n1. **Ingredient List**:\n   - **Order**: Ingredients are listed by weight. The first few ingredients are the most important.\n   - **Protein Sources**: Look for named animal proteins (e.g., chicken, beef). \"Meat meal\" should specify the type of meat.\n   - **Grains and Fillers**: Decide if you want grain-free or grain-inclusive. Avoid foods with excessive fillers like corn or soy.\n\n2. **Guaranteed Analysis**:\n   - Lists minimum percentages of crude protein and fat, and maximum percentages of fiber and moisture.\n   - Compare these numbers based on your dog’s nutritional needs.\n\n3. **AAFCO Statement**:\n   - Look for a statement confirming the food meets the nutritional levels established by the Association of American Feed Control Officials (AAFCO). This ensures a balanced diet.\n\n4. **Feeding Guidelines**:\n   - These are general recommendations. Adjust according to your dog’s age, size, activity level, and health needs.\n\n5. **Nutritional Adequacy**:\n   - Check if the food is complete and balanced for your dog’s life stage (puppy, adult, senior).\n\n6. **Additives and Preservatives**:\n   - Prefer natural preservatives (like Vitamin E and C) over artificial ones (like BHA, BHT).\n\n7. **Caloric Content**:\n   - Some labels include calorie information. This can be helpful for weight management.\n\n8. **Allergen Information**:\n   - If your dog has allergies, check for potential allergens in the ingredients.\n\nBy understanding these elements of a dog food label, you can make informed decisions about your pet’s diet to ensure they stay healthy and happy.",
+      "responseTimeMs": 8256,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 99,
+      "query": "what makes a dog food high quality",
+      "success": true,
+      "response": "High-quality dog food is characterized by several key factors:\n\n1. **Premium Ingredients**: It should contain real meat, poultry, or fish as the primary ingredient, providing high-quality protein essential for a dog's health.\n\n2. **Balanced Nutrition**: The food should offer a good balance of protein, fats, carbohydrates, vitamins, and minerals to support overall health.\n\n3. **No Fillers**: Avoid foods with unnecessary fillers like corn, soy, and wheat, which provide little nutritional value.\n\n4. **Limited Additives**: It should have minimal artificial preservatives, colors, and flavors.\n\n5. **Whole Foods**: Includes vegetables, fruits, and whole grains, which contribute essential nutrients and fiber.\n\n6. **Specific Formulations**: Options for different life stages, sizes, and specific health needs like weight management or joint support.\n\n7. **Digestibility**: Highly digestible ingredients ensure that your dog gets the most nutrition with less waste.\n\n8. **Safety and Quality Standards**: Produced under stringent quality controls and meets or exceeds AAFCO (Association of American Feed Control Officials) standards.\n\n9. **Positive Reviews and Testing**: Verify the reputation through customer reviews and third-party testing for quality assurance.\n\nWhen selecting dog food, it's always a good idea to consult with your veterinarian to ensure it meets your dog's specific dietary needs.",
+      "responseTimeMs": 4142,
+      "brandMentions": []
+    }
+  ],
+  "analysis": {
+    "brandVisibility": {
+      "Blue Buffalo": {
+        "queriesAppearing": 66,
+        "percentOfQueries": "66.0%"
+      },
+      "Wellness": {
+        "queriesAppearing": 59,
+        "percentOfQueries": "59.0%"
+      },
+      "Royal Canin": {
+        "queriesAppearing": 45,
+        "percentOfQueries": "45.0%"
+      },
+      "Merrick": {
+        "queriesAppearing": 35,
+        "percentOfQueries": "35.0%"
+      },
+      "Purina": {
+        "queriesAppearing": 32,
+        "percentOfQueries": "32.0%"
+      },
+      "Nutro": {
+        "queriesAppearing": 26,
+        "percentOfQueries": "26.0%"
+      },
+      "Hill's": {
+        "queriesAppearing": 25,
+        "percentOfQueries": "25.0%"
+      },
+      "Natural Balance": {
+        "queriesAppearing": 22,
+        "percentOfQueries": "22.0%"
+      },
+      "Orijen": {
+        "queriesAppearing": 21,
+        "percentOfQueries": "21.0%"
+      },
+      "Taste of the Wild": {
+        "queriesAppearing": 20,
+        "percentOfQueries": "20.0%"
+      },
+      "Canidae": {
+        "queriesAppearing": 16,
+        "percentOfQueries": "16.0%"
+      },
+      "Acana": {
+        "queriesAppearing": 12,
+        "percentOfQueries": "12.0%"
+      },
+      "Target": {
+        "queriesAppearing": 8,
+        "percentOfQueries": "8.0%"
+      },
+      "Iams": {
+        "queriesAppearing": 4,
+        "percentOfQueries": "4.0%"
+      },
+      "Fromm": {
+        "queriesAppearing": 3,
+        "percentOfQueries": "3.0%"
+      },
+      "Chewy": {
+        "queriesAppearing": 2,
+        "percentOfQueries": "2.0%"
+      },
+      "Rachael Ray": {
+        "queriesAppearing": 1,
+        "percentOfQueries": "1.0%"
+      },
+      "Pedigree": {
+        "queriesAppearing": 1,
+        "percentOfQueries": "1.0%"
+      },
+      "Nulo": {
+        "queriesAppearing": 1,
+        "percentOfQueries": "1.0%"
+      }
+    }
+  }
+}

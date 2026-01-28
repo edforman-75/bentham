@@ -1,0 +1,517 @@
+{
+  "checkedAt": "2026-01-26T02:34:00.540Z",
+  "totalBrands": 11,
+  "deckersBrands": 5,
+  "competitorBrands": 6,
+  "results": [
+    {
+      "brand": "UGG",
+      "isDeckersBrand": true,
+      "amazon": null,
+      "zappos": {
+        "title": "UGG Classic Mini II Women's",
+        "price": "$169.95",
+        "rating": "",
+        "reviewCount": "",
+        "description": [
+          "The UGG® Classic Mini II Signature mini boots are the ultimate in hip, on-trend footwear that is as comfortable as it is fashionable. The Classic Mini II ankle boot is now water-resistant and stain-resistant.",
+          "Made from the highest quality twinface sheepskin suede.",
+          "Offers 17mm of sheepskin lining and insole.",
+          "New Treadlite by UGG™ outsole provides increased traction, durability, cushioning and flexibility.",
+          "Please Note: Slight dye transfer may occur with darker colored sheepskin during first few wears.",
+          "Real sheep fur or lamb has been artificially dyed and treated. Fur origin: Australia, European Union or United States.",
+          "Product measurements were taken using size 7, width B - Medium. Please note that measurements may vary by size.",
+          "Measurements:\n\n     Heel Height: 1 in\n     Weight: 10 oz\n     Circumference: 12 in\n     Shaft: 5 in\n     Platform Height: 1⁄2 in"
+        ],
+        "url": "https://www.zappos.com/p/womens-ugg-classic-mini-ii-chestnut/product/8733926/color/278"
+      },
+      "website": {
+        "title": "That fuzzy feeling",
+        "url": "https://www.ugg.com/",
+        "metaDescription": "It's always UGG® season. Find the perfect boots, slippers, sneakers, and sandals to complete your look - from statement fluffy platforms to cozy house shoes, we have you covered.",
+        "keyPhrases": [
+          "Find the UGG (US) store nearest you by using your devices location or entering your info below.",
+          "Provide your account email address to receive an email to reset your password.",
+          "* Yes, I want to join the UGG Rewards program. By joining UGG Rewards, I verify that I am 13 years of age or older and I agree to the Terms & Condition and Privacy Policy.",
+          "Already a member?\n            Log In"
+        ],
+        "hasEcommerce": true
+      }
+    },
+    {
+      "brand": "HOKA",
+      "isDeckersBrand": true,
+      "amazon": null,
+      "zappos": {
+        "title": "Hoka Clifton 10 Men's",
+        "price": "$124MSRP: $155(20% OFF)",
+        "rating": "",
+        "reviewCount": "",
+        "description": [
+          "A trusted trainer for daily maintenance miles, the Hoka One One® Clifton 10 has been the keystone of our cushioned styles for 10 years and counting. Ushering in a new era of plush performance, this next-generation update delivers a revitalized underfoot experience with an additional 3mm in heel-to-toe drop. Delivering the same ultralight cushioning that made the Clifton a fan favorite, we've fine-tuned the fit and added a breathable jacquard upper with the double-lace lock to mitigate tongue migration.",
+          "Textile lining and EVA insole.",
+          "Lace-up closure.",
+          "Branding on the side.",
+          "Round toes.",
+          "EVA outsole.",
+          "Product measurements were taken using size 9, width 3E - Extra Wide. Please note that measurements may vary by size.",
+          "Measurements:\n\n     Weight: 1 lb 12.8 oz"
+        ],
+        "url": "https://www.zappos.com/p/mens-hoka-clifton-10-hoka-blue-skyward-blue/product/9984276/color/1112497"
+      },
+      "website": {
+        "title": "Cushioned Running Shoes & Performance Wear | HOKA®",
+        "url": "https://www.hoka.com/en/us/",
+        "metaDescription": "Elevate your performance with HOKA®. Shop our collection of fitness, trail, hiking, and road running shoes engineered for comfort & speed. FLY HUMAN FLY™.",
+        "keyPhrases": [
+          "Shipping discount will be applied at checkout. Items shipped via expedited shipping will arrive within 2 business days. Business days do not include weekends and holidays.",
+          "Free returns applies to full priced orders within Canada and placed on hoka.com/en/ca/. To print your returns label please visit the returns center:",
+          "Get 10% OffYour Next Order!",
+          "Sign in to view your current status and check out new Challenges!",
+          "Join the crew and get 10% off your next purchase just for signing up.",
+          "Already a Member? Sign in and every purchase earns Perks!",
+          "Not a member? \n            \n                Join for Free",
+          "Already a member?\n            Sign In",
+          "Chase what’s next with maximalcushioning and H-Frame™ stability.",
+          "Skyward Laceless, Refreshed"
+        ],
+        "hasEcommerce": false
+      }
+    },
+    {
+      "brand": "Teva",
+      "isDeckersBrand": true,
+      "amazon": null,
+      "zappos": {
+        "title": "Teva Original Universal Women's",
+        "price": "$64.95",
+        "rating": "",
+        "reviewCount": "",
+        "description": [
+          "The primary materials that compose this product contain a minimum of 20 percent recycled content.",
+          "The Teva® Original Universal sandals combines the best parts of a shoe and sandal with its secure fit, supportive comfort, and reliably grippy outsole that allows everyone to enjoy the outdoors in a whole new way.",
+          "Vegan-friendly sandals feature quick-drying straps that are made from 100% recycled plastic using traceable REPREVE® polyester yarn by Unifi®. These summer sandals are created using synthetic and plant-based material and save 4 plastic bottles from ending up in landfills.",
+          "Universal Strapping System™ and earth-friendly recycled polyester webbing supports your foot and offers long-lasting durability.",
+          "Cushioned EVA footbed provides all-day supportive comfort.",
+          "Durable rubber outsole provides reliable traction.",
+          "Product measurements were taken using size 9, width B - Medium. Please note that measurements may vary by size.",
+          "Measurements:\n\n     Weight: 6 oz"
+        ],
+        "url": "https://www.zappos.com/p/womens-teva-original-universal-black/product/8149494/color/3"
+      },
+      "website": {
+        "title": "Fashionable Active Sandals, River Shoes, Boots, & More | Teva®",
+        "url": "https://www.teva.com/",
+        "metaDescription": "Pioneered in 1984, Teva® is your guide for adventure from the everyday to the epic. Visit the Teva® Official Site for shoes, active sandals, hikers, boots, and more.",
+        "keyPhrases": [
+          "Orders over $50 will be offered free standard shipping within the contiguous United States.",
+          "Orders placed from 10/6/25 - 12/31/25 will be eligible for return or\n        exchange through 1/31/2026.",
+          "Take your Teva shoes for a real-world test—trail, city, or wherever you\n        roam. If they're not the perfect fit, return them gently used within 30\n        days for a full refund. No risk, just adventure.",
+          "New to TEVA? \n            \n                Create Account",
+          "Already a member?\n            Log In",
+          "New Year, New Trails Ahead",
+          "Provide your account email address to receive an email to reset your password."
+        ],
+        "hasEcommerce": false
+      }
+    },
+    {
+      "brand": "Sanuk",
+      "isDeckersBrand": true,
+      "amazon": null,
+      "zappos": {
+        "title": "Sanuk Vagabond Sidewalk Surfer ST Hemp Men's",
+        "price": "$65",
+        "rating": "",
+        "reviewCount": "",
+        "description": [
+          "Enjoy every step wearing the Sanuk® Vagabond Soft Top Hemp.",
+          "An unconventional brand with a fun, adventurous vibe that are done for surf, sun, sand, and more!",
+          "Sustainability Initiative(s): hemp, recycled materials.",
+          "Sleek silhouette.",
+          "Slip-on style.",
+          "Hemp blend upper: 50% hemp, 50% cotton.",
+          "Blanket canvas lining.",
+          "Soft, cushioned, bouncy, high-rebound Soft Top Foam midsoles."
+        ],
+        "url": "https://www.zappos.com/p/mens-sanuk-vagabond-sidewalk-surfer-st-hemp-earth/product/9466281/color/354"
+      },
+      "website": {
+        "title": "Sign up for 15% off your first order!",
+        "url": "https://sanuk.com/",
+        "metaDescription": "Get a head start on the journey to your happy place with Sanuk® sidewalker surfers, sandals, shoes, yoga slings, and flip flops!",
+        "keyPhrases": [
+          "Yoga Sandy II Sparkle - Women",
+          "Yoga Mat II Metallic - Women",
+          "Yoga Cloud Lounger - Women",
+          "Donna Plaid Buffalo Chill - Women",
+          "You Got My Back St Hemp - Men",
+          "Happy Hour Lite Chill - Men",
+          "Happy Hour Lite Buffalo Chill - Men",
+          "Welcome to the World of Sanuk",
+          "A never-ending party for your feet! Unconventional and on a mission, we want to inspire fun seekers to spread smiles far and wide while experiencing the insane comfort baked into our kicks.",
+          "We are proud to offer a wide range of styles made sustainably."
+        ],
+        "hasEcommerce": true
+      }
+    },
+    {
+      "brand": "Koolaburra",
+      "isDeckersBrand": true,
+      "amazon": null,
+      "zappos": {
+        "title": "Koolaburra by UGG Koola Mini II Women's",
+        "price": "$59.49MSRP: $84.99(30% OFF)",
+        "rating": "",
+        "reviewCount": "",
+        "description": [
+          "Featuring a faux-fur lining and a soft suede upper, make the most of every chilly day wearing the Koolaburra by UGG® Koola Mini II slip-on bootie with heel tab.",
+          "Round-toe silhouette with a cushioned footbed for added comfort.",
+          "Molded EVA midsole with a durable EVA outsole.",
+          "Product measurements were taken using size 8, width M. Please note that measurements may vary by size.",
+          "Measurements:\n\n     Weight: 11 oz\n     Shaft: 5 in",
+          "Weight: 11 oz",
+          "Shaft: 5 in",
+          "SKU 9408100"
+        ],
+        "url": "https://www.zappos.com/p/womens-koolaburra-by-ugg-koola-mini-ii-chestnut/product/9408100/color/278"
+      },
+      "website": {
+        "title": "Farewell.\n            Koolaburra.com closed on March 31st, 2025.",
+        "url": "https://www.koolaburra.com/",
+        "metaDescription": "",
+        "keyPhrases": [
+          "We've loved bringing you styles that fit your life, and we're beyond thankful for your support."
+        ],
+        "hasEcommerce": false
+      }
+    },
+    {
+      "brand": "Nike",
+      "isDeckersBrand": false,
+      "amazon": {
+        "title": "Nike Womens Nike Pegasus 41 Gore-tex Wasserdichter Straßenlaufschuh Für Damen",
+        "bullets": [],
+        "aplusContent": "",
+        "rating": "4.5 out of 5 stars",
+        "reviewCount": "(137)",
+        "price": "",
+        "url": "https://www.amazon.com/Nike-Pegasus-Running-FD2723-100-Crimson/dp/B0CZHP6XH5/ref=sr_1_6?dib=eyJ2IjoiMSJ9.g7h_nhzCwUJiEKn1015l1Q3dnA24DFol8tw6_kC0375b99iGu_MED6N3Z1eMiMNVVFnYJG0org0aQAdoCulF7V8nF0_AxFRPlJMxPGSX3pVCqlZIOVZlCt40ShCC2nD4wgQSsmji9-ouSEh5ABISKCtqkBMFBVBDZ-d2LvgB61rMrGDUhd731yir_cjGjBhSh3n0TDxit9YeEw0IRRTSQdxmZWZGZ7WXyr8aqBhbnY0.ctax2wuuzoSO8Atjo4mZUf4AvHxwPqOPca5Nt-i-8eo&dib_tag=se&keywords=Nike%2BPegasus%2Brunning%2Bshoe&qid=1769394665&sr=8-6&th=1&psc=1"
+      },
+      "zappos": {
+        "title": "Nike Pegasus 41 Women's",
+        "price": "$145",
+        "rating": "",
+        "reviewCount": "",
+        "description": [
+          "The Nike® Pegasus 41 is where future-ready style meets feel-good performance. Featuring upgraded breathable engineered mesh, this pair keeps things light, airy, and fast. Inspired by the iconic Air Max 90, the elongated design lines add a modern twist to a heritage classic. The all-new ReactX foam midsole- more responsive than before-teams up with dual forefoot and heel Air Zoom units for a ride that's springy and smooth. A full-length Nike Air unit plus Cushlon 3.0 foam amps up plush comfort, while the waffle-inspired rubber outsole delivers dependable traction and flexibility. With a spacious forefoot, wider heel, elasticized midfoot band, and plush collar, tongue, and sockliner, every step feels locked in yet free to move. Crafted with purpose, ReactX reduces its carbon footprint, supporting both performance and planet.",
+          "Product measurements were taken using size 8, width B - Medium. Please note that measurements may vary by size.",
+          "Measurements:\n\n     Weight: 9 oz",
+          "Weight: 9 oz",
+          "SKU 10020722"
+        ],
+        "url": "https://www.zappos.com/p/womens-nike-pegasus-41-violet-mist-purple-dynasty-bright-violet/product/10020722/color/1122246"
+      },
+      "website": {
+        "title": "Nike. Just Do It. Nike.com",
+        "url": "https://www.nike.com/",
+        "metaDescription": "Inspiring the world's athletes, Nike delivers innovative products, experiences and services.",
+        "keyPhrases": [
+          "Women's Jordan Training & Gym",
+          "Gym wear that goes as hard as you do.",
+          "Iconic stability levels up with ZoomX super foam. Structure Plus drops 2.5.",
+          "Beginning of dialog window. Escape will cancel and close the window.",
+          "Classic silhouettes and cutting-edge innovation to build your game from the ground up.",
+          "First Responders & Medical Professionals",
+          "© 2026 Nike, Inc. All Rights Reserved"
+        ],
+        "hasEcommerce": false
+      }
+    },
+    {
+      "brand": "Brooks",
+      "isDeckersBrand": false,
+      "amazon": null,
+      "zappos": {
+        "title": "Brooks Ghost 17 Women's",
+        "price": "$149.95",
+        "rating": "",
+        "reviewCount": "",
+        "description": [
+          "The Brooks® Ghost 17 shoes offer balanced cushioning for smooth transition, support, and reliability in the long run. Their premium nitrogen-infused DNA Loft V3 provides a balanced ride and plush underfoot comfort. Crafted for ultimate comfort and peak performance, the new double jacquard air mesh upper keeps your feet cool and comfortable. They are designed with an EVA insole and nylon lining. These lace-up shoes are a perfect choice for your outdoor rides and adventures.",
+          "Round toe silhouette.",
+          "Rubber outsole.",
+          "PDAC A5500 Approved: Pricing, Data Analysis and Coding A5500 Diabetic Medicare Coding is awarded to footwear that is available in three or more widths, with a removable insole (sock-liner). These attributes may allow a footwear style to be deemed an extra-depth shoe. It also allows individuals to pay for their footwear through their Medicare. PDAC must be applied for on a yearly basis and is not automatically available to styles that meet its criteria. For more specific info, visit the Medicare website or call 1-800-MEDICARE.",
+          "SKU 9993465"
+        ],
+        "url": "https://www.zappos.com/p/womens-brooks-ghost-17-white-black-rose-gold/product/9993465/color/1081251"
+      },
+      "website": {
+        "title": "The all-new Glycerin Max 2",
+        "url": "https://www.brooksrunning.com/en_us",
+        "metaDescription": "Shop superior running shoes and apparel for men and women with free shipping and returns. Your search for great running gear starts and ends with Brooks Running.",
+        "keyPhrases": [
+          "Sign up and shop Brooks x runDisney® now.",
+          "You are shopping on Brooks Running United States",
+          "Max softness. Max energy. Max run.",
+          "Preorder your favorite Glycerin",
+          "Save up to 35% on select footwear and apparel with these limited-time deals.",
+          "Stories to transform your run",
+          "The Evolution of the Brooks Adrenaline GTS Running Shoe",
+          "Trail running tips for beginners",
+          "The evolution of the Brooks Glycerin Max running shoe",
+          "Brooks’ best trail running shoes"
+        ],
+        "hasEcommerce": true
+      }
+    },
+    {
+      "brand": "New Balance",
+      "isDeckersBrand": false,
+      "amazon": null,
+      "zappos": {
+        "title": "New Balance Kids 990v6 (Infant/Toddler/Little Kid)",
+        "price": "$89.99",
+        "rating": "",
+        "reviewCount": "12",
+        "description": [
+          "The timeless and minimalist design of the New Balance® Kids 990v6 sneakers makes them perfect for your kid's everyday adventures. The lightweight shoes have a leather upper with reflective details and are designed to provide a soft, comfortable feel for your kid's feet. The high-quality sneakers have a breathable textile lining and a removable padded insole.",
+          "Hook-and-loop strap closure.",
+          "Brand logo detailing on the sides.",
+          "Round toe design.",
+          "Synthetic outsole.",
+          "SKU 9614536"
+        ],
+        "url": "https://www.zappos.com/p/new-balance-kids-990v6-infant-toddler-little-kid-grey-silver-1/product/9614536/color/515217"
+      },
+      "website": {
+        "title": "Enjoy 20% off your first order.",
+        "url": "https://www.newbalance.com/",
+        "metaDescription": "Shop sneakers, shoes, and a wide range of fitness clothing at New Balance and discover the perfect blend of timeless style, quality, and performance.",
+        "keyPhrases": [
+          "Members get early access to the new AC Runner.",
+          "Free shipping on orders $75+.",
+          "Fresh fits for every forecast. Update your wardrobe with our latest arrivals.",
+          "In it for the long run, the new 1080v15 with Infinion foam is designed to make more runs feel like your first run.",
+          "Spend $75+ and receive free standard shipping on orders to addresses within the United States and U.S. territories. Free shipping is based on order total after discount has been applied.",
+          "Members get first chance. Become a member today and enter the sweepstakes for a chance to get the new 'tangerine heat' AC Runner before anyone else.",
+          "Don’t miss out. Today is the last day members can enter our early",
+          "access sweepstakes for the opportunity to purchase this new style",
+          "before its global release date.",
+          "Don’t miss out. Today is the last day members can enter our early access sweepstakes for the opportunity to purchase this new style before its global release date."
+        ],
+        "hasEcommerce": false
+      }
+    },
+    {
+      "brand": "Birkenstock",
+      "isDeckersBrand": false,
+      "amazon": {
+        "title": "Taupe Suede Birkenstock Arizona Soft Footbed",
+        "bullets": [],
+        "aplusContent": "",
+        "rating": "4.5 out of 5 stars",
+        "reviewCount": "(49)",
+        "price": "",
+        "url": "https://www.amazon.com/Birkenstock-Arizona-Unisex-Suede-Sandal/dp/B000W0GWYQ/ref=sr_1_13?dib=eyJ2IjoiMSJ9.1YxO88k_6VT3736frsP9GMTUW5BQ1XMyGcLH4pXKwvzehU2WpWnRHjfejpkSGQAdHYPRp_VoP9dM80nhX50Z0jGLsWOoRh-is5TTxae76F69yLMCSlB9jVUvccDwJxUr3CYMjvvqZCet5CHmv0EKAL4Q0xnGBxrhRnwqPR0fdPUO4rgWWrRrtgY07wfUn9SYUSbtZL_KmG7PCxXj4IqG0j6WXXTy6_jecI8e2_0MEec.UNYND0liG54fYoa9Ac2F-apkQvqpSB1dyPITFvLehjs&dib_tag=se&keywords=Birkenstock%2BArizona%2Bsandal&qid=1769394747&sr=8-13&th=1&psc=1"
+      },
+      "zappos": {
+        "title": "Birkenstock Papillio by Birkenstock Arizona Platform Sandal - Nubuck Women's",
+        "price": "$144",
+        "rating": "",
+        "reviewCount": "26",
+        "description": [
+          "Understanding Widths: Narrow accommodates Narrow to Regular widths.",
+          "Elevate your fashion altitude with Birkenstock® Papillio's Arizona Platform Sandal in Nubuck. Unveiling a daring platform sole, this iconic design soars to new heights while embracing its classic roots in luxurious nubuck leather. The contoured cork-latex footbed ensures personalized support, complemented by two adjustable straps featuring metal pin buckles for a perfect fit.",
+          "Nubuck leather upper.",
+          "Suede footbed lining helps keep you comfortable.",
+          "Contoured cork-latex footbed creates custom support with wear.",
+          "Round open toe silhouette.",
+          "Platform ethylene vinyl acetate outsole.",
+          "Made in Portugal."
+        ],
+        "url": "https://www.zappos.com/p/womens-birkenstock-papillio-by-birkenstock-arizona-platform-sandal-nubuck-dark-tea/product/9928105/color/101809"
+      },
+      "website": {
+        "title": "Sandals, Shoes & Clogs | BIRKENSTOCK United States",
+        "url": "https://www.birkenstock.com/us",
+        "metaDescription": "Discover BIRKENSTOCK sandals, shoes & clogs in United States. Timeless design, unmatched comfort, and premium quality. Shop the official online store now.",
+        "keyPhrases": [
+          "Special releases saved just for this space.",
+          "Keep skin hydrated with nourishing washes and lotions.",
+          "Get inspired to style our Boston-inspired shoe with what’s in your closet.",
+          "We're committed to sharing comfort and support with every step. Join our community and be the first to know about everything BIRKENSTOCK through email, SMS, and catalog updates.",
+          "Make any shoe, sneaker or boot as comfortable as your Birkenstocks.",
+          "WHERE TO BUY AUTHENTIC BIRKENSTOCK® PRODUCTS",
+          "Join our email list for news and special offers",
+          "Join us, be a part of our journey.",
+          "POLICIES\n                \n            \n            \n                Policies",
+          "ABOUT US\n                \n            \n            \n                About us"
+        ],
+        "hasEcommerce": true
+      }
+    },
+    {
+      "brand": "Merrell",
+      "isDeckersBrand": false,
+      "amazon": {
+        "title": "Adventure-Ready Moab 3 by Merrell",
+        "bullets": [],
+        "aplusContent": "From the manufacturer   \n                     \n    .aplus-v2 .container-with-background-image {\n        width: 100%;\n        height: 100%;\n        background-repeat: no-repeat;\n        background-size: cover;\n    }\n  \n    function logShoppableMetrics(moduleName, showsAddToCart) {\n        if (window.ue && window.ue.count) {\n            window.ue.count(\"aplus:shoppable:\" + moduleName + \":addToCart\", showsAddToCart ? 1 : 0);\n        }\n    }\n\n\n                               \n        \n    .aplus-v2 {\n      display:block;\n      margin-left:auto;\n      margin-right:auto;\n      word-wrap: break-word;\n      overflow-wrap: break-word;\n      word-break: break-word;\n    }\n\n    /* Undo this for tech-specs because it breaks table layout */\n    .aplus-v2 .aplus-standard .aplus-tech-spec-table { word-break: initial; }\n    .aplus-v2 .aplus-standard .aplus-module-wrapper {text-align:inherit; display:block; margin-right:auto;margin-left:auto;}\n    .aplus-v2 .aplus-standard.aplus-module.module-1,\n    .aplus-v2 .aplus-standard.aplus-module.module-2,\n    .aplus-v2 .aplus-standard.aplus-module.module-3,\n    .aplus-v2 .aplus-standard.aplus-module.module-4,\n    .aplus-v2 .aplus-standard.aplus-module.module-6,\n    .aplus-v2 .aplus-standard.aplus-module.module-7,\n    .aplus-v2 .aplus-standard.aplus-module.module-8,\n    .aplus-v2 .aplus-standard.aplus-module.module-9,\n    .aplus-v2 .aplus-standard.aplus-module.module-10,\n    .aplus-v2 .aplus-standard.aplus-module.module-11,\n    .aplus-v2 .aplus-standard",
+        "rating": "4.7 out of 5 stars",
+        "reviewCount": "(68)",
+        "price": "",
+        "url": "https://www.amazon.com/Merrell-Mens-Adventure-Hiking-Earth/dp/B0D97346G3/ref=sr_1_8?dib=eyJ2IjoiMSJ9.QxHipSnXgg__nPj10zdJ_nAUi0TMDd2LIMqruJ9loT0sdA4wgSYOIzUyhuCwK_Dw71Ob2aB_71079C6BTwWs16OWu2lHTCD0S2BcTJuWD2be3c71d8XLKSz7f83zurjy5_yB6ARUxB8FzACa8CZidVE_GZVDdCPNUXOgvGip1JoSxCsZuGfD294F4CxrCJbNljyVX_dYs43gXI97fBZ-yHoZs1qi5Ls3afvyIWGRbBU.iwUW4PT-aWH-alLEbEKZ6D0trupl9VZwD5jNbpmvfbc&dib_tag=se&keywords=Merrell%2BMoab%2Bhiking%2Bshoe&qid=1769394778&sr=8-8&th=1&psc=1"
+      },
+      "zappos": {
+        "title": "Merrell Moab 3 Men's",
+        "price": "$140",
+        "rating": "",
+        "reviewCount": "",
+        "description": [
+          "Ideal for your hiking trails, the Merrell Moab 3 Sneakers offer elevated comfort, performance, and long-lasting durability.",
+          "Suede leather and breathable mesh upper.",
+          "Textile lining for enhanced breathability.",
+          "Removable Kinetic Fit™ ADVANCED contoured insole provides flexible support and underfoot comfort.",
+          "Lace-up construction for a flexible and secure fit.",
+          "Protective top cap.",
+          "Molded nylon arch shank for added stability.",
+          "Merrell® Air Cushion in the heel absorbs shock and adds stability."
+        ],
+        "url": "https://www.zappos.com/p/mens-merrell-moab-3-granite/product/9597127/color/5667"
+      },
+      "website": {
+        "title": "Merrell Official: Top Rated Hiking Footwear & Outdoor Gear",
+        "url": "https://www.merrell.com/US/en/home",
+        "metaDescription": "Official Merrell Site - Shop outdoor footwear & apparel in hiking, running, & casual styles to equip you for your active lifestyle. Free shipping!",
+        "keyPhrases": [
+          "Light, fast, and ready for any terrain—the\n              Agility Peak 6 launches February 6",
+          "Click offer codes below to apply in checkout.\n\t\t\t\tTap offer codes below to apply in checkout.",
+          "Join the trail\n      15%\n      off\n      your first full-price order",
+          "Sign up for first access to new releases, trail tips and more.",
+          "Waterproof and GORE-TEX® footwear engineered to outlast the elements.",
+          "A heritage classic\n            makes a bold return.",
+          "Blending archival design with metallic color,\n            Relay returns to celebrate what's next.",
+          "From gym floors to mountaintops, find the shoe to go the\n              distance.",
+          "Explore the reason hikers around the world choose Moab for their\n              miles.",
+          "Get 15% off your full-price order on merrell.com."
+        ],
+        "hasEcommerce": true
+      }
+    },
+    {
+      "brand": "Sorel",
+      "isDeckersBrand": false,
+      "amazon": {
+        "title": "Womens Sorel Joan Of Arctic Knit II Rain Snow Waterproof Winter Boots",
+        "bullets": [],
+        "aplusContent": "",
+        "rating": "3.8 out of 5 stars",
+        "reviewCount": "(174)",
+        "price": "",
+        "url": "https://www.amazon.com/Sorel-Joan-Arctic-Knit-Boot/dp/B00QJF5DMA/ref=sr_1_16?dib=eyJ2IjoiMSJ9.54O265SkjvA9FNef_it0Nt4Q3Bqo6pH-8dreG6Es4QwbPofc4ThdY_MO64-ssvdi75gkzg1Skey898eMOxJp56j8XD5VUBO2Ws51ivUxWn4_qNru2tctPrVLE_7uFxG4eUBDupBNj1GURpa4syXgS1vAieaY8yYqTKyEp4Iezt8xoocDSD5tuCZjlclLz5HgZ9hhEWZiW_glkhdLTG3wOjkVa3sPWd9gvj7nR6xnfV4.9Q81RJsZbEMB85eapKcsIXoOC3s91-Zg9iWeoSaIpeo&dib_tag=se&keywords=Sorel%2BJoan%2Bof%2BArctic%2Bboot&qid=1769394810&sr=8-16&th=1&psc=1"
+      },
+      "zappos": {
+        "title": "SOREL Joan Of Arctic™ Waterproof Women's",
+        "price": "$240",
+        "rating": "",
+        "reviewCount": "11",
+        "description": [
+          "Keep your feet protected wearing the SOREL® Joan Of Arctic™ Waterproof. When it comes to perfecting cold-weather function and style, no boot does it better than Joan of Arctic. Featuring waterproof suede upper, a seam-sealed waterproof design, and rubber outsole for grip-it's not hard to see why it's considered a cold-weather essential.",
+          "Fabric lining and insole.",
+          "Removable washable liner with faux fur collar.",
+          "Lace-up closure.",
+          "2.5 mm bonded felt frost plug.",
+          "Laces are not waterproof.",
+          "Mid-calf boots.",
+          "Branding on the back heel."
+        ],
+        "url": "https://www.zappos.com/p/womens-sorel-joan-of-arctic-waterproof-quarry-black/product/9954872/color/5825"
+      },
+      "website": {
+        "title": "THE BOOT THAT DEFINES WINTER",
+        "url": "https://www.sorel.com/",
+        "metaDescription": "Fashionable footwear for women, men and kids. Find warm, comfortable boots, shoes and more from SOREL online.",
+        "keyPhrases": [
+          "Customer Care Phone: Mon-Fri 5am-5pm PT (888) 697-6735",
+          "Customer Care Chat: Su-Sa 4am-9pm PT",
+          "Warranty Phone:  M-F 8am-4pm PT; (888) 697-6735 - Press 3",
+          "Warranty Chat: M-F 8am-5pm PT"
+        ],
+        "hasEcommerce": true
+      }
+    }
+  ],
+  "summary": {
+    "deckersBrands": [
+      {
+        "brand": "UGG",
+        "amazonPresent": false,
+        "zapposPresent": true,
+        "websiteEcommerce": true
+      },
+      {
+        "brand": "HOKA",
+        "amazonPresent": false,
+        "zapposPresent": true,
+        "websiteEcommerce": false
+      },
+      {
+        "brand": "Teva",
+        "amazonPresent": false,
+        "zapposPresent": true,
+        "websiteEcommerce": false
+      },
+      {
+        "brand": "Sanuk",
+        "amazonPresent": false,
+        "zapposPresent": true,
+        "websiteEcommerce": true
+      },
+      {
+        "brand": "Koolaburra",
+        "amazonPresent": false,
+        "zapposPresent": true,
+        "websiteEcommerce": false
+      }
+    ],
+    "competitors": [
+      {
+        "brand": "Nike",
+        "amazonPresent": true,
+        "zapposPresent": true,
+        "websiteEcommerce": false
+      },
+      {
+        "brand": "Brooks",
+        "amazonPresent": false,
+        "zapposPresent": true,
+        "websiteEcommerce": true
+      },
+      {
+        "brand": "New Balance",
+        "amazonPresent": false,
+        "zapposPresent": true,
+        "websiteEcommerce": false
+      },
+      {
+        "brand": "Birkenstock",
+        "amazonPresent": true,
+        "zapposPresent": true,
+        "websiteEcommerce": true
+      },
+      {
+        "brand": "Merrell",
+        "amazonPresent": true,
+        "zapposPresent": true,
+        "websiteEcommerce": true
+      },
+      {
+        "brand": "Sorel",
+        "amazonPresent": true,
+        "zapposPresent": true,
+        "websiteEcommerce": true
+      }
+    ]
+  }
+}

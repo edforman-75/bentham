@@ -1,0 +1,158 @@
+# US Pet Food Validation Study - Query Set
+# Adapted from HUFT India study to test if API vs Web patterns generalize
+
+version: "1.0"
+querySet:
+  id: "us-pet-food-20"
+  name: "US Pet Food Brand Queries"
+  count: 20
+
+queries:
+  # Dog Food Queries
+  - id: "q01"
+    text: "Which are the best budget dog food brands online?"
+    category: "dog-food"
+    intent: "discovery"
+
+  - id: "q02"
+    text: "Can you suggest the best treat brands for dogs online?"
+    category: "dog-treats"
+    intent: "recommendation"
+
+  - id: "q03"
+    text: "Which are the best dog food brands with high reviews?"
+    category: "dog-food"
+    intent: "social-proof"
+
+  - id: "q04"
+    text: "Which are the best dog food brands recommended by vets?"
+    category: "dog-food"
+    intent: "authority"
+
+  - id: "q05"
+    text: "Can you list a popular pet food brand with good meat content?"
+    category: "dog-food"
+    intent: "quality"
+
+  # Dog Treat Queries
+  - id: "q06"
+    text: "Which brands offer gluten-free dog treats my dog will enjoy?"
+    category: "dog-treats"
+    intent: "dietary"
+
+  - id: "q07"
+    text: "Can you suggest the best dog biscuit brands for dogs with sensitive stomachs?"
+    category: "dog-treats"
+    intent: "health"
+
+  - id: "q08"
+    text: "Which are the top healthy vegetarian dog biscuit brands available online?"
+    category: "dog-treats"
+    intent: "dietary"
+
+  - id: "q09"
+    text: "What are the best-tasting treat brands for dogs under $20?"
+    category: "dog-treats"
+    intent: "budget"
+
+  - id: "q10"
+    text: "Which brands offer low-calorie chicken dog treats?"
+    category: "dog-treats"
+    intent: "health"
+
+  - id: "q11"
+    text: "Which are the best dog treat brands for medium-sized dogs?"
+    category: "dog-treats"
+    intent: "size-specific"
+
+  # Comparison Queries (instead of brand-specific HUFT query)
+  - id: "q12"
+    text: "Blue Buffalo vs Purina which is better for dogs?"
+    category: "comparison"
+    intent: "comparison"
+
+  # Premium/Quality Queries
+  - id: "q13"
+    text: "Which brands offer the highest-rated gluten-free chicken dog biscuits?"
+    category: "dog-treats"
+    intent: "premium"
+
+  - id: "q14"
+    text: "Can you suggest trusted brands that make healthy dog treats for puppies online?"
+    category: "dog-treats"
+    intent: "age-specific"
+
+  - id: "q15"
+    text: "Which are the most recommended brands for crunchy dog biscuits for adult dogs?"
+    category: "dog-treats"
+    intent: "age-specific"
+
+  # Accessories Queries (US-focused)
+  - id: "q16"
+    text: "Which brand makes the most comfortable dog beds for small dogs?"
+    category: "accessories"
+    intent: "comfort"
+
+  - id: "q17"
+    text: "What's a trusted brand that offers interactive dog toys for large dogs?"
+    category: "accessories"
+    intent: "enrichment"
+
+  - id: "q18"
+    text: "Which company has the best chew toys for small dogs that last long?"
+    category: "accessories"
+    intent: "durability"
+
+  - id: "q19"
+    text: "Can you suggest a reliable brand that sells dog harnesses for puppies?"
+    category: "accessories"
+    intent: "safety"
+
+  # Cat Query
+  - id: "q20"
+    text: "What are the best wet cat food brands in the US?"
+    category: "cat-food"
+    intent: "discovery"
+
+# Brands to track (US market + HUFT India brands for comparison)
+brandsToTrack:
+  # Major US Pet Food Brands
+  - "Blue Buffalo"
+  - "Purina"
+  - "Hill's"
+  - "Royal Canin"
+  - "Wellness"
+  - "Iams"
+  - "Pedigree"
+  - "Nutro"
+  - "Merrick"
+  - "Orijen"
+  - "Acana"
+  - "Taste of the Wild"
+  - "Canidae"
+  - "Rachael Ray"
+  - "Natural Balance"
+
+  # Retailers
+  - "Chewy"
+  - "Petco"
+  - "PetSmart"
+  - "Amazon"
+  - "Walmart"
+
+  # India brands (for comparison - should be low/zero in US)
+  - "Heads Up For Tails"
+  - "HUFT"
+  - "Supertails"
+  - "Drools"
+  - "Farmina"
+
+metadata:
+  created: "2026-01-25"
+  source: "Bentham Research - API vs Web Validation"
+  purpose: |
+    This study validates whether the API vs Web surface patterns observed
+    in India (HUFT study) generalize to the US market. Key hypotheses:
+    1. ChatGPT Web should add brand mentions vs OpenAI API
+    2. Google AI Overview should reduce brand mentions vs Gemini API
+    3. US brands should be boosted on US-localized queries

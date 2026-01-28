@@ -1,0 +1,85 @@
+# US Pet Food Validation Study Manifest
+# Purpose: Validate if API vs Web surface patterns from India generalize to US
+
+id: us-pet-food-validation
+version: "1.0"
+name: "US Pet Food API vs Web Surface Validation"
+tenant: glu
+
+description: |
+  This study tests whether the patterns observed in the HUFT India study
+  generalize to the US market:
+  - ChatGPT Web adds brand mentions vs OpenAI API
+  - Google AI Overview reduces brand mentions vs Gemini API
+
+  If patterns hold: our "Foundation Model Visibility" positioning is valid
+  If patterns differ: we need to qualify positioning by geography/category
+
+# Surfaces to compare
+surfaces:
+  # API Surfaces (can run lights-out)
+  - id: openai-api
+    name: "OpenAI GPT-4o API"
+    collectionMethod: api
+    model: gpt-4o
+    lightsOut: true
+
+  - id: gemini-api
+    name: "Google Gemini API"
+    collectionMethod: api
+    model: gemini-2.0-flash
+    lightsOut: true
+
+  - id: google-ai-overview
+    name: "Google AI Overview"
+    collectionMethod: serpapi
+    lightsOut: true
+
+  # Web Surfaces (require browser/manual)
+  - id: chatgpt-web
+    name: "ChatGPT Web (chatgpt.com)"
+    collectionMethod: browser-cdp
+    lightsOut: false
+    notes: "Requires Chrome with CDP or manual collection"
+
+location:
+  id: us-national
+  name: "United States"
+  serpApiParams:
+    location: "United States"
+    google_domain: google.com
+    gl: us
+    hl: en
+
+querySource: queries.yaml
+
+# Output configuration
+output:
+  directory: /Users/edf/bentham/repository/results/glu/us-pet-food-validation
+  perSurface: true
+  format: json
+
+# Execution settings
+execution:
+  queryDelayMs: [2000, 4000]  # Random delay between queries
+  saveIntervalQueries: 5      # Save progress every N queries
+  retryAttempts: 2
+  retryDelayMs: 5000
+
+# Success criteria for validation
+validation:
+  hypotheses:
+    - name: "ChatGPT Web adds visibility"
+      expected: "ChatGPT Web should have more brand mentions than OpenAI API"
+      measurement: "Sum of brand mentions across all queries"
+
+    - name: "Google AI Overview is conservative"
+      expected: "Google AI Overview should have fewer brand mentions than Gemini API"
+      measurement: "Sum of brand mentions across all queries"
+
+    - name: "US brands boosted in US"
+      expected: "US brands (Blue Buffalo, Purina, etc.) should be prominent"
+      measurement: "Brand mention rankings"
+
+created: "2026-01-25"
+status: pending

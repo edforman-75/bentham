@@ -1,0 +1,1122 @@
+{
+  "studyName": "Natural Balance US Visibility Study - Amazon Rufus",
+  "surface": "amazon-rufus",
+  "location": "United States",
+  "startTime": "2026-01-25T22:47:41.242Z",
+  "totalQueries": 100,
+  "completedQueries": 100,
+  "successfulQueries": 100,
+  "results": [
+    {
+      "queryIndex": 0,
+      "query": "What is the best dog food brand?",
+      "success": true,
+      "response": "{} Your feedback has been submitted! Your feedback has been submitted! Select All That Apply (optional): This is irrelevant This is inaccurate This is harmful / unsafe Something else Dismiss Submit",
+      "responseTimeMs": 13294,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 1,
+      "query": "best dry dog food 2026",
+      "success": true,
+      "response": "{} Hill's Science Diet Small Bites No Corn, Wheat, Soy Chicken Small Breed Adult Dry Dog Food Price, product page$55.99$55.99 ($3.73$3.73/lb)petsense.comShop direct {} Hill's Science Diet small bites formula with enhanced digestibility and immune support More details (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/11mVszy8FIL._RC|41k9TQrnHzL.js,21cuxCuJB9L.js_.js?PUISClients/AmazonRushFramework'); P.now('aapi-token-puis').execute('register-csrf-token', function(token) { if (!token) { P.declare('aapi-token-puis', \"1@g5QjOAv\\/aw0NMYw5E7kPcsYLg51J+uGRn6OSTCDlHvJ8AAAAAQAAAABpdp25cmF3AAAAAGfA1H5nd8xGEcC31DKLNw==@KDFC4Z\"); } }); {\"SEARCH_EUSTORES_PUIS_COLOR_SWATCHES_BORDER_OPACITY_MEASUREMENT_1320527\":\"C\",\"SEARCH_SES_FOS_SAF_TYPOGRAPHY_DESKTOP_1289331\":\"C\",\"SEARCH_SCX_WPX_OAM_BADGE_A11Y_1360132\":\"C\",\"SEARCH_532653\":\"C\",\"SEARCH_MAF_EE_GATING_707463\":\"C\",\"SEARCH_SCX_WPX_OAM_CTA_1217867\":\"C\",\"SEARCH_SCX_SAI_AFO_TEMPLATES_1301593\":\"C\",\"SEARCH_SCX_DEX_PUIS_CSRF_TOKEN_1185878\":\"T1\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_MOBILE_876944\":\"C\",\"F3_STEPPER_SYNC_ASSETS_918718\":\"C\",\"SEARCH_SCX_HDM_TO_DV3_MIGRATION_FRONTEND_1281235\":\"C\",\"SEARCH_SES_BADGE_MVT_GATING_965313\":\"C\",\"SEARCH_SCX_HAUL_ATC_ON_DOMESTIC_ASIN_1341210\":\"T1\",\"SEARCH_SCX_CP_IMG_ACTION_1294581\":\"T1\",\"SEARCH_EUSTORES_ATC_SW_INTEGRATION_FALLBACK_GATING_1052045\":\"C\",\"SEARCH_F3_ALM_CART_ACTION_ASSETS_NPM_IMPORT_955056\":\"C\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_DESKTOP_876938\":\"C\",\"SEARCH_WWGS_MBSB_A11Y_DEFECT_FIX_GATING_1358608\":\"C\",\"SEARCH_VS_PREVIEW_AUTO_CROP_1226514\":\"T1\",\"SEARCH_IN_PHARMACY_MLT_960375\":\"C\",\"SEARCH_VS_MLT_TEXT_INGRESS_1119272_PHASE2_1308055\":\"C\",\"SEARCH_VIDEO_FACEOUT_FRONTEND_LEVER_PHASE2_492845\":\"C\",\"SEARCH_SCX_HAUL_ATC_1283682\":\"T1\",\"BW_PUI_AMAZONIMAGE_1028570\":\"C\",\"SEARCH_WWGS_QUANTITY_STEPPER_STATUS_BADGE_TOGGLE_1003886\":\"C\",\"SEARCH_WWGS_SAVES_ASSETS_839792\":\"C\",\"F3_WFMOAC_CUSTOM_CAKE_GATING_754771\":\"C\",\"SEARCH_INLINE_FANSHOP_PUI_ASSETS_1339009\":\"C\",\"SEARCH_EUSTORES_PUIS_MGM_GATING_1244964\":\"C\",\"SEARCH_SCX_AB_1282121\":\"C\",\"SEARCH_WWGS_PICKUP_REFINEMENT_988425\":\"C\",\"SEARCH_SCX_WPX_OAM_1349971\":\"T1\",\"SEARCH_VS_EXP_AR_INGRESS_EXPANSION_1189564\":\"C\",\"P13N_BADGEX_PUI_CAPSULE_1157018\":\"T1\",\"SEARCH_BAZAAR_ATC_BUTTON_ON_CORE_1243894\":\"T1\",\"SEARCH_EUSTORES_PUIS_COLORSWATCHES_INTERACTIVITY_ACCESSIBILITY_MEASUREMENT_1334549\":\"C\",\"SEARCH_VS_3D_VIDEO_1251281\":\"C\",\"SEARCH_SCX_AB_1099759\":\"C\",\"SEARCH_382092\":\"T1\",\"SEARCH_SCX_COPILOT_SUPPRESS_MLT_ANIMATION_1334637\":\"C\",\"SEARCH_EUSTORES_PUIS_ATD_TOOLTIP_SHOPPINGAIDS_MEASUREMENT_1335106\":\"T1\",\"SEARCH_BUYX_ICDP_PREFETCH_1272207\":\"T1\",\"SEARCH_EUSTORES_PUIS_ATC_CUSTOM_ASINS_EXPANSION_ASSETS_GATING_1337162\":\"C\",\"SEARCH_SES_FOS_DP_PRICING_MVT_976179\":\"C\",\"SEARCH_SCX_PUIS_COPILOT_GATING_1279652\":\"T1\",\"SEARCH_SCX_PROMOTIONS_ASSET_GATING_1309732\":\"T1\",\"SEARCH_RUFUS_ASIN_INGRESS_1207023\":\"C\",\"AXIOM_LISTS_PUI_HEART_LIST_ACTION_SUB_RESOURCE_ENABLED_1319041\":\"C\",\"SEARCH_SCX_1176766\":\"T1\",\"SEARCH_WWGS_PUIS_ISM_SAVE_TO_LIST_ASSET_GATING_1119626\":\"C\",\"SEARCH_BAZAAR_PROPOSITION_BADGE_1284096\":\"C\",\"SEARCH_FOS_REVIEW_BLOCK_CSS_GATING_715873\":\"C\",\"SEARCH_VS_VIDEO_1182816\":\"C\"}window.AmazonUIPageJS && window.AmazonUIPageJS.when('puis-enable-treatments-for-render').execute(function (enableRenderId) { enableRenderId('r28y5lowpubrt32hv0fh4qw4rpe'); }); (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://m.media-amazon.com/images/I/112x1Qjn5tL._RC|01HCHuzDdcL.js,41ns5+RXugL.js,01SSs1udVFL.js,21Rcsl7Fo7L.js,21IHmLveSuL.js,11o1UsgynwL.js,31uGKJgK-gL.js,31-3l5RTCeL.js,01Oi+MtiDrL.js,21kPFkdu31L.js,11wtlUYYJVL.js,41Py0rc3wKL.js,2167LESqy-L.js,71O+YmfpSVL.js_.js?AUIClients/ProductUIServiceAssets-vnp5jk0p0a5y72qpfosuwuvsnx');",
+      "responseTimeMs": 19925,
+      "brandMentions": [
+        {
+          "brand": "Amazon",
+          "count": 10
+        },
+        {
+          "brand": "Hill's",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 2,
+      "query": "top rated dog food brands",
+      "success": true,
+      "response": "{} Hill's Science Diet Small Bites No Corn, Wheat, Soy Chicken Small Breed Adult Dry Dog Food Price, product page$55.99$55.99 ($3.73$3.73/lb)petsense.comShop direct {} Hill's Science Diet with decades of research, precise nutrition, and proven results More details (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/11mVszy8FIL._RC|41k9TQrnHzL.js,21cuxCuJB9L.js_.js?PUISClients/AmazonRushFramework'); P.now('aapi-token-puis').execute('register-csrf-token', function(token) { if (!token) { P.declare('aapi-token-puis', \"1@g3nY7QGjX9S6yQM6p+iOQJUcPsppUqWm2honYcquasLfAAAAAQAAAABpdp3NcmF3AAAAAGfA1H5nd8xGEcC31DKLNw==@KDFC4Z\"); } }); {\"SEARCH_EUSTORES_PUIS_COLOR_SWATCHES_BORDER_OPACITY_MEASUREMENT_1320527\":\"C\",\"SEARCH_SES_FOS_SAF_TYPOGRAPHY_DESKTOP_1289331\":\"C\",\"SEARCH_SCX_WPX_OAM_BADGE_A11Y_1360132\":\"C\",\"SEARCH_532653\":\"C\",\"SEARCH_MAF_EE_GATING_707463\":\"C\",\"SEARCH_SCX_WPX_OAM_CTA_1217867\":\"C\",\"SEARCH_SCX_SAI_AFO_TEMPLATES_1301593\":\"C\",\"SEARCH_SCX_DEX_PUIS_CSRF_TOKEN_1185878\":\"T1\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_MOBILE_876944\":\"C\",\"F3_STEPPER_SYNC_ASSETS_918718\":\"C\",\"SEARCH_SCX_HDM_TO_DV3_MIGRATION_FRONTEND_1281235\":\"C\",\"SEARCH_SES_BADGE_MVT_GATING_965313\":\"C\",\"SEARCH_SCX_HAUL_ATC_ON_DOMESTIC_ASIN_1341210\":\"T1\",\"SEARCH_SCX_CP_IMG_ACTION_1294581\":\"T1\",\"SEARCH_EUSTORES_ATC_SW_INTEGRATION_FALLBACK_GATING_1052045\":\"C\",\"SEARCH_F3_ALM_CART_ACTION_ASSETS_NPM_IMPORT_955056\":\"C\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_DESKTOP_876938\":\"C\",\"SEARCH_WWGS_MBSB_A11Y_DEFECT_FIX_GATING_1358608\":\"C\",\"SEARCH_VS_PREVIEW_AUTO_CROP_1226514\":\"T1\",\"SEARCH_IN_PHARMACY_MLT_960375\":\"C\",\"SEARCH_VS_MLT_TEXT_INGRESS_1119272_PHASE2_1308055\":\"C\",\"SEARCH_VIDEO_FACEOUT_FRONTEND_LEVER_PHASE2_492845\":\"C\",\"SEARCH_SCX_HAUL_ATC_1283682\":\"T1\",\"BW_PUI_AMAZONIMAGE_1028570\":\"C\",\"SEARCH_WWGS_QUANTITY_STEPPER_STATUS_BADGE_TOGGLE_1003886\":\"C\",\"SEARCH_WWGS_SAVES_ASSETS_839792\":\"C\",\"F3_WFMOAC_CUSTOM_CAKE_GATING_754771\":\"C\",\"SEARCH_INLINE_FANSHOP_PUI_ASSETS_1339009\":\"C\",\"SEARCH_EUSTORES_PUIS_MGM_GATING_1244964\":\"C\",\"SEARCH_SCX_AB_1282121\":\"C\",\"SEARCH_WWGS_PICKUP_REFINEMENT_988425\":\"C\",\"SEARCH_SCX_WPX_OAM_1349971\":\"T1\",\"SEARCH_VS_EXP_AR_INGRESS_EXPANSION_1189564\":\"C\",\"P13N_BADGEX_PUI_CAPSULE_1157018\":\"T1\",\"SEARCH_BAZAAR_ATC_BUTTON_ON_CORE_1243894\":\"T1\",\"SEARCH_EUSTORES_PUIS_COLORSWATCHES_INTERACTIVITY_ACCESSIBILITY_MEASUREMENT_1334549\":\"C\",\"SEARCH_VS_3D_VIDEO_1251281\":\"C\",\"SEARCH_SCX_AB_1099759\":\"C\",\"SEARCH_382092\":\"T1\",\"SEARCH_SCX_COPILOT_SUPPRESS_MLT_ANIMATION_1334637\":\"C\",\"SEARCH_EUSTORES_PUIS_ATD_TOOLTIP_SHOPPINGAIDS_MEASUREMENT_1335106\":\"T1\",\"SEARCH_BUYX_ICDP_PREFETCH_1272207\":\"T1\",\"SEARCH_EUSTORES_PUIS_ATC_CUSTOM_ASINS_EXPANSION_ASSETS_GATING_1337162\":\"C\",\"SEARCH_SES_FOS_DP_PRICING_MVT_976179\":\"C\",\"SEARCH_SCX_PUIS_COPILOT_GATING_1279652\":\"T1\",\"SEARCH_SCX_PROMOTIONS_ASSET_GATING_1309732\":\"T1\",\"SEARCH_RUFUS_ASIN_INGRESS_1207023\":\"C\",\"AXIOM_LISTS_PUI_HEART_LIST_ACTION_SUB_RESOURCE_ENABLED_1319041\":\"C\",\"SEARCH_SCX_1176766\":\"T1\",\"SEARCH_WWGS_PUIS_ISM_SAVE_TO_LIST_ASSET_GATING_1119626\":\"C\",\"SEARCH_BAZAAR_PROPOSITION_BADGE_1284096\":\"C\",\"SEARCH_FOS_REVIEW_BLOCK_CSS_GATING_715873\":\"C\",\"SEARCH_VS_VIDEO_1182816\":\"C\"}window.AmazonUIPageJS && window.AmazonUIPageJS.when('puis-enable-treatments-for-render').execute(function (enableRenderId) { enableRenderId('rvsgkfjcaljx024r4pbuzzkhbn'); }); (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://m.media-amazon.com/images/I/112x1Qjn5tL._RC|01HCHuzDdcL.js,41ns5+RXugL.js,01SSs1udVFL.js,21Rcsl7Fo7L.js,21IHmLveSuL.js,11o1UsgynwL.js,31uGKJgK-gL.js,31-3l5RTCeL.js,01Oi+MtiDrL.js,21kPFkdu31L.js,11wtlUYYJVL.js,41Py0rc3wKL.js,2167LESqy-L.js,71O+YmfpSVL.js_.js?AUIClients/ProductUIServiceAssets-vnp5jk0p0a5y72qpfosuwuvsnx');",
+      "responseTimeMs": 11501,
+      "brandMentions": [
+        {
+          "brand": "Amazon",
+          "count": 10
+        },
+        {
+          "brand": "Hill's",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 3,
+      "query": "healthiest dog food options",
+      "success": true,
+      "response": "{} Purina Pro Plan High Protein Giant Breed Dry Dog Food; FOCUS Giant Breed Formula - 34 lb. Bag Price, product page$47.98$47.98 ($1.41$1.41/lb)ultrapickleball.comShop direct {} Purina Pro Plan giant breed with glucosamine and EPA for joint health and mobility More details (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/11mVszy8FIL._RC|41k9TQrnHzL.js,21cuxCuJB9L.js_.js?PUISClients/AmazonRushFramework'); P.now('aapi-token-puis').execute('register-csrf-token', function(token) { if (!token) { P.declare('aapi-token-puis', \"1@gzjq\\/ulL\\/lBsxkv8xW3tECfRbEKwGRiIH89s0fxezlhEAAAAAQAAAABpdp3vcmF3AAAAAGfA1H5nd8xGEcC31DKLNw==@KDFC4Z\"); } }); {\"SEARCH_EUSTORES_PUIS_COLOR_SWATCHES_BORDER_OPACITY_MEASUREMENT_1320527\":\"C\",\"SEARCH_SES_FOS_SAF_TYPOGRAPHY_DESKTOP_1289331\":\"C\",\"SEARCH_SCX_WPX_OAM_BADGE_A11Y_1360132\":\"C\",\"SEARCH_532653\":\"C\",\"SEARCH_MAF_EE_GATING_707463\":\"C\",\"SEARCH_SCX_WPX_OAM_CTA_1217867\":\"C\",\"SEARCH_SCX_SAI_AFO_TEMPLATES_1301593\":\"C\",\"SEARCH_SCX_DEX_PUIS_CSRF_TOKEN_1185878\":\"T1\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_MOBILE_876944\":\"C\",\"F3_STEPPER_SYNC_ASSETS_918718\":\"C\",\"SEARCH_SCX_HDM_TO_DV3_MIGRATION_FRONTEND_1281235\":\"C\",\"SEARCH_SES_BADGE_MVT_GATING_965313\":\"C\",\"SEARCH_SCX_HAUL_ATC_ON_DOMESTIC_ASIN_1341210\":\"T1\",\"SEARCH_SCX_CP_IMG_ACTION_1294581\":\"T1\",\"SEARCH_EUSTORES_ATC_SW_INTEGRATION_FALLBACK_GATING_1052045\":\"C\",\"SEARCH_F3_ALM_CART_ACTION_ASSETS_NPM_IMPORT_955056\":\"C\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_DESKTOP_876938\":\"C\",\"SEARCH_WWGS_MBSB_A11Y_DEFECT_FIX_GATING_1358608\":\"C\",\"SEARCH_VS_PREVIEW_AUTO_CROP_1226514\":\"T1\",\"SEARCH_IN_PHARMACY_MLT_960375\":\"C\",\"SEARCH_VS_MLT_TEXT_INGRESS_1119272_PHASE2_1308055\":\"C\",\"SEARCH_VIDEO_FACEOUT_FRONTEND_LEVER_PHASE2_492845\":\"C\",\"SEARCH_SCX_HAUL_ATC_1283682\":\"T1\",\"BW_PUI_AMAZONIMAGE_1028570\":\"C\",\"SEARCH_WWGS_QUANTITY_STEPPER_STATUS_BADGE_TOGGLE_1003886\":\"C\",\"SEARCH_WWGS_SAVES_ASSETS_839792\":\"C\",\"F3_WFMOAC_CUSTOM_CAKE_GATING_754771\":\"C\",\"SEARCH_INLINE_FANSHOP_PUI_ASSETS_1339009\":\"C\",\"SEARCH_EUSTORES_PUIS_MGM_GATING_1244964\":\"C\",\"SEARCH_SCX_AB_1282121\":\"C\",\"SEARCH_WWGS_PICKUP_REFINEMENT_988425\":\"C\",\"SEARCH_SCX_WPX_OAM_1349971\":\"T1\",\"SEARCH_VS_EXP_AR_INGRESS_EXPANSION_1189564\":\"C\",\"P13N_BADGEX_PUI_CAPSULE_1157018\":\"T1\",\"SEARCH_BAZAAR_ATC_BUTTON_ON_CORE_1243894\":\"T1\",\"SEARCH_EUSTORES_PUIS_COLORSWATCHES_INTERACTIVITY_ACCESSIBILITY_MEASUREMENT_1334549\":\"C\",\"SEARCH_VS_3D_VIDEO_1251281\":\"C\",\"SEARCH_SCX_AB_1099759\":\"C\",\"SEARCH_382092\":\"T1\",\"SEARCH_SCX_COPILOT_SUPPRESS_MLT_ANIMATION_1334637\":\"C\",\"SEARCH_EUSTORES_PUIS_ATD_TOOLTIP_SHOPPINGAIDS_MEASUREMENT_1335106\":\"T1\",\"SEARCH_BUYX_ICDP_PREFETCH_1272207\":\"T1\",\"SEARCH_EUSTORES_PUIS_ATC_CUSTOM_ASINS_EXPANSION_ASSETS_GATING_1337162\":\"C\",\"SEARCH_SES_FOS_DP_PRICING_MVT_976179\":\"C\",\"SEARCH_SCX_PUIS_COPILOT_GATING_1279652\":\"T1\",\"SEARCH_SCX_PROMOTIONS_ASSET_GATING_1309732\":\"T1\",\"SEARCH_RUFUS_ASIN_INGRESS_1207023\":\"C\",\"AXIOM_LISTS_PUI_HEART_LIST_ACTION_SUB_RESOURCE_ENABLED_1319041\":\"C\",\"SEARCH_SCX_1176766\":\"T1\",\"SEARCH_WWGS_PUIS_ISM_SAVE_TO_LIST_ASSET_GATING_1119626\":\"C\",\"SEARCH_BAZAAR_PROPOSITION_BADGE_1284096\":\"C\",\"SEARCH_FOS_REVIEW_BLOCK_CSS_GATING_715873\":\"C\",\"SEARCH_VS_VIDEO_1182816\":\"C\"}window.AmazonUIPageJS && window.AmazonUIPageJS.when('puis-enable-treatments-for-render').execute(function (enableRenderId) { enableRenderId('r1iijzy2t7dk2m2p8macrarrmt4'); });",
+      "responseTimeMs": 18840,
+      "brandMentions": [
+        {
+          "brand": "Amazon",
+          "count": 7
+        },
+        {
+          "brand": "Purina",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 4,
+      "query": "best dog food recommended by veterinarians",
+      "success": true,
+      "response": "{} Based on veterinary research and professional recommendations, here are the top dog food brands that veterinarians consistently recommend for optimal canine health:",
+      "responseTimeMs": 16039,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 5,
+      "query": "premium dog food brands worth the money",
+      "success": true,
+      "response": "{} Based on careful research and customer feedback, here are the premium dog food brands that deliver exceptional value for their investment in your dog's health and longevity:",
+      "responseTimeMs": 17727,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 6,
+      "query": "best natural dog food brands",
+      "success": true,
+      "response": "{} Here are the best natural dog food brands that focus on wholesome, minimally processed ingredients without artificial additives:",
+      "responseTimeMs": 16253,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 7,
+      "query": "high quality dog food brands",
+      "success": true,
+      "response": "{} Here are the high quality dog food brands that deliver exceptional nutrition and value for your dog's health and well-being:",
+      "responseTimeMs": 18089,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 8,
+      "query": "best dog food for the money",
+      "success": true,
+      "response": "{} Here are the best dog food brands that deliver exceptional value for your money, combining quality nutrition with affordable pricing:",
+      "responseTimeMs": 17667,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 9,
+      "query": "what dog food do vets recommend most",
+      "success": true,
+      "response": "{} Based on veterinary recommendations and clinical research, here are the dog food brands that veterinarians recommend most frequently:",
+      "responseTimeMs": 17064,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 10,
+      "query": "best affordable dog food that's still healthy",
+      "success": true,
+      "response": "{} Here are the best affordable dog foods that still provide excellent nutrition for your dog's health and well-being:",
+      "responseTimeMs": 18698,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 11,
+      "query": "dog food brands with best ingredients",
+      "success": true,
+      "response": "{} Here are the dog food brands known for their exceptional ingredient quality and commitment to nutritional excellence:",
+      "responseTimeMs": 16554,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 12,
+      "query": "best American made dog food",
+      "success": true,
+      "response": "{} Your feedback has been submitted! Your feedback has been submitted! Select All That Apply (optional): This is irrelevant This is harmful / unsafe This is inaccurate Something else Dismiss Submit",
+      "responseTimeMs": 10074,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 13,
+      "query": "safest dog food brands 2026",
+      "success": true,
+      "response": "{} Brands With Zero Recall History: Nature's Logic: Never been recalled. Uses 100% natural ingredients with no synthetic vitamins or minerals Zignature: Clean record with limited ingredient formulas designed for food sensitivities ORIJEN: Only one recall in their entire history (2008), exceptional quality control Farmina: Never recalled, Italian-made with rigorous testing protocols ACANA: Clean safety record with biologically appropriate formulations",
+      "responseTimeMs": 17992,
+      "brandMentions": [
+        {
+          "brand": "Orijen",
+          "count": 1
+        },
+        {
+          "brand": "Acana",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 14,
+      "query": "best dog food without fillers",
+      "success": true,
+      "response": "{} Here are the best dog food brands known for their clean, filler-free formulations with premium whole food ingredients:",
+      "responseTimeMs": 15781,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 15,
+      "query": "highest protein dog food brands",
+      "success": true,
+      "response": "{} ACANA Highest Protein Dry Dog Food, Grasslands, Lamb and Duck Recipe, 25lb Price, product page$28.99$28.99 ($1.16$1.16/lb)grandties.comShop direct {} ACANA Grasslands with 70% animal protein from lamb, duck, eggs and rainbow trout More details (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/11mVszy8FIL._RC|41k9TQrnHzL.js,21cuxCuJB9L.js_.js?PUISClients/AmazonRushFramework'); P.now('aapi-token-puis').execute('register-csrf-token', function(token) { if (!token) { P.declare('aapi-token-puis', \"1@gxSLWzY61Y0qGGb+3IgLAhVGn8vmIJce9UOpUk\\/TrP7uAAAAAQAAAABpdp9EcmF3AAAAAGfA1H5nd8xGEcC31DKLNw==@KDFC4Z\"); } }); {\"SEARCH_EUSTORES_PUIS_COLOR_SWATCHES_BORDER_OPACITY_MEASUREMENT_1320527\":\"C\",\"SEARCH_SES_FOS_SAF_TYPOGRAPHY_DESKTOP_1289331\":\"C\",\"SEARCH_SCX_WPX_OAM_BADGE_A11Y_1360132\":\"C\",\"SEARCH_532653\":\"C\",\"SEARCH_MAF_EE_GATING_707463\":\"C\",\"SEARCH_SCX_WPX_OAM_CTA_1217867\":\"C\",\"SEARCH_SCX_SAI_AFO_TEMPLATES_1301593\":\"C\",\"SEARCH_SCX_DEX_PUIS_CSRF_TOKEN_1185878\":\"T1\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_MOBILE_876944\":\"C\",\"F3_STEPPER_SYNC_ASSETS_918718\":\"C\",\"SEARCH_SCX_HDM_TO_DV3_MIGRATION_FRONTEND_1281235\":\"C\",\"SEARCH_SES_BADGE_MVT_GATING_965313\":\"C\",\"SEARCH_SCX_HAUL_ATC_ON_DOMESTIC_ASIN_1341210\":\"T1\",\"SEARCH_SCX_CP_IMG_ACTION_1294581\":\"T1\",\"SEARCH_EUSTORES_ATC_SW_INTEGRATION_FALLBACK_GATING_1052045\":\"C\",\"SEARCH_F3_ALM_CART_ACTION_ASSETS_NPM_IMPORT_955056\":\"C\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_DESKTOP_876938\":\"C\",\"SEARCH_WWGS_MBSB_A11Y_DEFECT_FIX_GATING_1358608\":\"C\",\"SEARCH_VS_PREVIEW_AUTO_CROP_1226514\":\"T1\",\"SEARCH_IN_PHARMACY_MLT_960375\":\"C\",\"SEARCH_VS_MLT_TEXT_INGRESS_1119272_PHASE2_1308055\":\"C\",\"SEARCH_VIDEO_FACEOUT_FRONTEND_LEVER_PHASE2_492845\":\"C\",\"SEARCH_SCX_HAUL_ATC_1283682\":\"T1\",\"BW_PUI_AMAZONIMAGE_1028570\":\"C\",\"SEARCH_WWGS_QUANTITY_STEPPER_STATUS_BADGE_TOGGLE_1003886\":\"C\",\"SEARCH_WWGS_SAVES_ASSETS_839792\":\"C\",\"F3_WFMOAC_CUSTOM_CAKE_GATING_754771\":\"C\",\"SEARCH_INLINE_FANSHOP_PUI_ASSETS_1339009\":\"C\",\"SEARCH_EUSTORES_PUIS_MGM_GATING_1244964\":\"C\",\"SEARCH_SCX_AB_1282121\":\"C\",\"SEARCH_WWGS_PICKUP_REFINEMENT_988425\":\"C\",\"SEARCH_SCX_WPX_OAM_1349971\":\"T1\",\"SEARCH_VS_EXP_AR_INGRESS_EXPANSION_1189564\":\"C\",\"P13N_BADGEX_PUI_CAPSULE_1157018\":\"T1\",\"SEARCH_BAZAAR_ATC_BUTTON_ON_CORE_1243894\":\"T1\",\"SEARCH_EUSTORES_PUIS_COLORSWATCHES_INTERACTIVITY_ACCESSIBILITY_MEASUREMENT_1334549\":\"C\",\"SEARCH_VS_3D_VIDEO_1251281\":\"C\",\"SEARCH_SCX_AB_1099759\":\"C\",\"SEARCH_382092\":\"T1\",\"SEARCH_SCX_COPILOT_SUPPRESS_MLT_ANIMATION_1334637\":\"C\",\"SEARCH_EUSTORES_PUIS_ATD_TOOLTIP_SHOPPINGAIDS_MEASUREMENT_1335106\":\"T1\",\"SEARCH_BUYX_ICDP_PREFETCH_1272207\":\"T1\",\"SEARCH_EUSTORES_PUIS_ATC_CUSTOM_ASINS_EXPANSION_ASSETS_GATING_1337162\":\"C\",\"SEARCH_SES_FOS_DP_PRICING_MVT_976179\":\"C\",\"SEARCH_SCX_PUIS_COPILOT_GATING_1279652\":\"T1\",\"SEARCH_SCX_PROMOTIONS_ASSET_GATING_1309732\":\"T1\",\"SEARCH_RUFUS_ASIN_INGRESS_1207023\":\"C\",\"AXIOM_LISTS_PUI_HEART_LIST_ACTION_SUB_RESOURCE_ENABLED_1319041\":\"C\",\"SEARCH_SCX_1176766\":\"T1\",\"SEARCH_WWGS_PUIS_ISM_SAVE_TO_LIST_ASSET_GATING_1119626\":\"C\",\"SEARCH_BAZAAR_PROPOSITION_BADGE_1284096\":\"C\",\"SEARCH_FOS_REVIEW_BLOCK_CSS_GATING_715873\":\"C\",\"SEARCH_VS_VIDEO_1182816\":\"C\"}window.AmazonUIPageJS && window.AmazonUIPageJS.when('puis-enable-treatments-for-render').execute(function (enableRenderId) { enableRenderId('r39474g9zezsus2qyhhjn4btc6l'); }); (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://m.media-amazon.com/images/I/112x1Qjn5tL._RC|01HCHuzDdcL.js,41ns5+RXugL.js,01SSs1udVFL.js,21Rcsl7Fo7L.js,21IHmLveSuL.js,11o1UsgynwL.js,31uGKJgK-gL.js,31-3l5RTCeL.js,01Oi+MtiDrL.js,21kPFkdu31L.js,11wtlUYYJVL.js,41Py0rc3wKL.js,2167LESqy-L.js,71O+YmfpSVL.js_.js?AUIClients/ProductUIServiceAssets-vnp5jk0p0a5y72qpfosuwuvsnx');",
+      "responseTimeMs": 19834,
+      "brandMentions": [
+        {
+          "brand": "Amazon",
+          "count": 10
+        },
+        {
+          "brand": "Acana",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 16,
+      "query": "best holistic dog food",
+      "success": true,
+      "response": "{} Here are the best holistic dog food brands that provide complete, whole-body nutrition with natural ingredients:",
+      "responseTimeMs": 14845,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 17,
+      "query": "dog food brands that have never been recalled",
+      "success": true,
+      "response": "{} Based on recent food safety research and industry reports, here are dog food brands with excellent clean safety records and no recalls:",
+      "responseTimeMs": 19832,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 18,
+      "query": "best organic dog food brands",
+      "success": true,
+      "response": "{} Here are the best organic dog food brands that meet USDA Certified Organic standards for purity and quality:",
+      "responseTimeMs": 15693,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 19,
+      "query": "most nutritious dog food available",
+      "success": true,
+      "response": "{} Here are the most nutritious dog foods available, featuring the highest quality ingredients and optimal nutrition for canine health:",
+      "responseTimeMs": 20017,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 20,
+      "query": "best dog food for golden retrievers",
+      "success": true,
+      "response": "{} Here are the best dog food options specifically designed for Golden Retrievers, focusing on their unique nutritional needs:",
+      "responseTimeMs": 16415,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 21,
+      "query": "best dog food for german shepherds",
+      "success": true,
+      "response": "{} Here are the best dog food options specifically designed for Golden Retrievers, focusing on their unique nutritional needs:",
+      "responseTimeMs": 14678,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 22,
+      "query": "best dog food for labrador retrievers",
+      "success": true,
+      "response": "{} Here are excellent dog food options specifically designed for Labrador Retrievers:",
+      "responseTimeMs": 15385,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 23,
+      "query": "best dog food for french bulldogs",
+      "success": true,
+      "response": "{} Here are excellent dog food options specifically formulated for French Bulldogs and their unique needs:",
+      "responseTimeMs": 16866,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 24,
+      "query": "best dog food for pitbulls",
+      "success": true,
+      "response": "{} Here are excellent dog food options specifically formulated for Pitbull Terriers and their high-energy, muscular build:",
+      "responseTimeMs": 18874,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 25,
+      "query": "best dog food for small breeds",
+      "success": true,
+      "response": "{} Here are excellent dog food options specifically designed to meet the unique nutritional needs of small breeds:",
+      "responseTimeMs": 15684,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 26,
+      "query": "best dog food for large breed dogs",
+      "success": true,
+      "response": "{} Here are excellent dog food options specifically designed to meet the unique nutritional needs of large breed dogs:",
+      "responseTimeMs": 16829,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 27,
+      "query": "best dog food for chihuahuas",
+      "success": true,
+      "response": "{} Here are excellent dog food options specifically formulated to meet the unique nutritional needs of Chihuahuas:",
+      "responseTimeMs": 14317,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 28,
+      "query": "best dog food for huskies",
+      "success": true,
+      "response": "{} Purina Pro Plan Sport Performance 30/20 Turkey Duck Quail Formula Dry Dog Food, High Protein Dog Food - 33 lb. Bag Price, product page$89.99$89.99 ($2.73$2.73/lb)petsense.comShop direct {} 30% protein and 20% fat formula designed specifically for highly active dogs with turkey, duck, and quail protein sources More details (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/11mVszy8FIL._RC|41k9TQrnHzL.js,21cuxCuJB9L.js_.js?PUISClients/AmazonRushFramework'); P.now('aapi-token-puis').execute('register-csrf-token', function(token) { if (!token) { P.declare('aapi-token-puis', \"1@gwsD7V15gVBaFTguckdU+ZRA7z6tm3s0YQ9ub8cFZ82+AAAAAQAAAABpdqCzcmF3AAAAAGfA1H5nd8xGEcC31DKLNw==@KDFC4Z\"); } }); {\"SEARCH_EUSTORES_PUIS_COLOR_SWATCHES_BORDER_OPACITY_MEASUREMENT_1320527\":\"C\",\"SEARCH_SES_FOS_SAF_TYPOGRAPHY_DESKTOP_1289331\":\"C\",\"SEARCH_SCX_WPX_OAM_BADGE_A11Y_1360132\":\"C\",\"SEARCH_532653\":\"C\",\"SEARCH_MAF_EE_GATING_707463\":\"C\",\"SEARCH_SCX_WPX_OAM_CTA_1217867\":\"C\",\"SEARCH_SCX_SAI_AFO_TEMPLATES_1301593\":\"C\",\"SEARCH_SCX_DEX_PUIS_CSRF_TOKEN_1185878\":\"T1\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_MOBILE_876944\":\"C\",\"F3_STEPPER_SYNC_ASSETS_918718\":\"C\",\"SEARCH_SCX_HDM_TO_DV3_MIGRATION_FRONTEND_1281235\":\"C\",\"SEARCH_SES_BADGE_MVT_GATING_965313\":\"C\",\"SEARCH_SCX_HAUL_ATC_ON_DOMESTIC_ASIN_1341210\":\"T1\",\"SEARCH_SCX_CP_IMG_ACTION_1294581\":\"T1\",\"SEARCH_EUSTORES_ATC_SW_INTEGRATION_FALLBACK_GATING_1052045\":\"C\",\"SEARCH_F3_ALM_CART_ACTION_ASSETS_NPM_IMPORT_955056\":\"C\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_DESKTOP_876938\":\"C\",\"SEARCH_WWGS_MBSB_A11Y_DEFECT_FIX_GATING_1358608\":\"C\",\"SEARCH_VS_PREVIEW_AUTO_CROP_1226514\":\"T1\",\"SEARCH_IN_PHARMACY_MLT_960375\":\"C\",\"SEARCH_VS_MLT_TEXT_INGRESS_1119272_PHASE2_1308055\":\"C\",\"SEARCH_VIDEO_FACEOUT_FRONTEND_LEVER_PHASE2_492845\":\"C\",\"SEARCH_SCX_HAUL_ATC_1283682\":\"T1\",\"BW_PUI_AMAZONIMAGE_1028570\":\"C\",\"SEARCH_WWGS_QUANTITY_STEPPER_STATUS_BADGE_TOGGLE_1003886\":\"C\",\"SEARCH_WWGS_SAVES_ASSETS_839792\":\"C\",\"F3_WFMOAC_CUSTOM_CAKE_GATING_754771\":\"C\",\"SEARCH_INLINE_FANSHOP_PUI_ASSETS_1339009\":\"C\",\"SEARCH_EUSTORES_PUIS_MGM_GATING_1244964\":\"C\",\"SEARCH_SCX_AB_1282121\":\"C\",\"SEARCH_WWGS_PICKUP_REFINEMENT_988425\":\"C\",\"SEARCH_SCX_WPX_OAM_1349971\":\"T1\",\"SEARCH_VS_EXP_AR_INGRESS_EXPANSION_1189564\":\"C\",\"P13N_BADGEX_PUI_CAPSULE_1157018\":\"T1\",\"SEARCH_BAZAAR_ATC_BUTTON_ON_CORE_1243894\":\"T1\",\"SEARCH_EUSTORES_PUIS_COLORSWATCHES_INTERACTIVITY_ACCESSIBILITY_MEASUREMENT_1334549\":\"C\",\"SEARCH_VS_3D_VIDEO_1251281\":\"C\",\"SEARCH_SCX_AB_1099759\":\"C\",\"SEARCH_382092\":\"T1\",\"SEARCH_SCX_COPILOT_SUPPRESS_MLT_ANIMATION_1334637\":\"C\",\"SEARCH_EUSTORES_PUIS_ATD_TOOLTIP_SHOPPINGAIDS_MEASUREMENT_1335106\":\"T1\",\"SEARCH_BUYX_ICDP_PREFETCH_1272207\":\"T1\",\"SEARCH_EUSTORES_PUIS_ATC_CUSTOM_ASINS_EXPANSION_ASSETS_GATING_1337162\":\"C\",\"SEARCH_SES_FOS_DP_PRICING_MVT_976179\":\"C\",\"SEARCH_SCX_PUIS_COPILOT_GATING_1279652\":\"T1\",\"SEARCH_SCX_PROMOTIONS_ASSET_GATING_1309732\":\"T1\",\"SEARCH_RUFUS_ASIN_INGRESS_1207023\":\"C\",\"AXIOM_LISTS_PUI_HEART_LIST_ACTION_SUB_RESOURCE_ENABLED_1319041\":\"C\",\"SEARCH_SCX_1176766\":\"T1\",\"SEARCH_WWGS_PUIS_ISM_SAVE_TO_LIST_ASSET_GATING_1119626\":\"C\",\"SEARCH_BAZAAR_PROPOSITION_BADGE_1284096\":\"C\",\"SEARCH_FOS_REVIEW_BLOCK_CSS_GATING_715873\":\"C\",\"SEARCH_VS_VIDEO_1182816\":\"C\"}window.AmazonUIPageJS && window.AmazonUIPageJS.when('puis-enable-treatments-for-render').execute(function (enableRenderId) { enableRenderId('r34r9wmu7aju0k2knj3ixobhxu7'); }); (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://m.media-amazon.com/images/I/112x1Qjn5tL._RC|01HCHuzDdcL.js,41ns5+RXugL.js,01SSs1udVFL.js,21Rcsl7Fo7L.js,21IHmLveSuL.js,11o1UsgynwL.js,31uGKJgK-gL.js,31-3l5RTCeL.js,01Oi+MtiDrL.js,21kPFkdu31L.js,11wtlUYYJVL.js,41Py0rc3wKL.js,2167LESqy-L.js,71O+YmfpSVL.js_.js?AUIClients/ProductUIServiceAssets-vnp5jk0p0a5y72qpfosuwuvsnx');",
+      "responseTimeMs": 15694,
+      "brandMentions": [
+        {
+          "brand": "Amazon",
+          "count": 10
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 29,
+      "query": "best dog food for beagles",
+      "success": true,
+      "response": "{} Here are excellent dog food options specifically formulated for beagles and their unique nutritional needs:",
+      "responseTimeMs": 16015,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 30,
+      "query": "best dog food for poodles",
+      "success": true,
+      "response": "{} Here are excellent dog food options specifically designed for poodles and their unique nutritional needs:",
+      "responseTimeMs": 17880,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 31,
+      "query": "best dog food for bulldogs",
+      "success": true,
+      "response": "{} Bully Max 26/14 Small Breed Dry Dog Food for Skin, Coat & Sensitive Stomach - Chicken & Rice, Dry Soft Kibble Bites for Puppies, Adult & Senior Dogs - Natural French Bulldog Puppy Food, 10 lbs Price, product page$45.97$45.97 ($45.97$45.97/count) List $50.95List $50.95$50.95shop.bullymax.comShop direct {} Bully Max small breed formula with TruMune probiotics for skin, coat, and digestive health More details (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/11mVszy8FIL._RC|41k9TQrnHzL.js,21cuxCuJB9L.js_.js?PUISClients/AmazonRushFramework'); P.now('aapi-token-puis').execute('register-csrf-token', function(token) { if (!token) { P.declare('aapi-token-puis', \"1@g\\/6wDNLvLt9+0YU8t+Mu\\/zvmFfJeivcTmNPCkaGijhMRAAAAAQAAAABpdqELcmF3AAAAAGfA1H5nd8xGEcC31DKLNw==@KDFC4Z\"); } }); {\"SEARCH_EUSTORES_PUIS_COLOR_SWATCHES_BORDER_OPACITY_MEASUREMENT_1320527\":\"C\",\"SEARCH_SES_FOS_SAF_TYPOGRAPHY_DESKTOP_1289331\":\"C\",\"SEARCH_SCX_WPX_OAM_BADGE_A11Y_1360132\":\"C\",\"SEARCH_532653\":\"C\",\"SEARCH_MAF_EE_GATING_707463\":\"C\",\"SEARCH_SCX_WPX_OAM_CTA_1217867\":\"C\",\"SEARCH_SCX_SAI_AFO_TEMPLATES_1301593\":\"C\",\"SEARCH_SCX_DEX_PUIS_CSRF_TOKEN_1185878\":\"T1\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_MOBILE_876944\":\"C\",\"F3_STEPPER_SYNC_ASSETS_918718\":\"C\",\"SEARCH_SCX_HDM_TO_DV3_MIGRATION_FRONTEND_1281235\":\"C\",\"SEARCH_SES_BADGE_MVT_GATING_965313\":\"C\",\"SEARCH_SCX_HAUL_ATC_ON_DOMESTIC_ASIN_1341210\":\"T1\",\"SEARCH_SCX_CP_IMG_ACTION_1294581\":\"T1\",\"SEARCH_EUSTORES_ATC_SW_INTEGRATION_FALLBACK_GATING_1052045\":\"C\",\"SEARCH_F3_ALM_CART_ACTION_ASSETS_NPM_IMPORT_955056\":\"C\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_DESKTOP_876938\":\"C\",\"SEARCH_WWGS_MBSB_A11Y_DEFECT_FIX_GATING_1358608\":\"C\",\"SEARCH_VS_PREVIEW_AUTO_CROP_1226514\":\"T1\",\"SEARCH_IN_PHARMACY_MLT_960375\":\"C\",\"SEARCH_VS_MLT_TEXT_INGRESS_1119272_PHASE2_1308055\":\"C\",\"SEARCH_VIDEO_FACEOUT_FRONTEND_LEVER_PHASE2_492845\":\"C\",\"SEARCH_SCX_HAUL_ATC_1283682\":\"T1\",\"BW_PUI_AMAZONIMAGE_1028570\":\"C\",\"SEARCH_WWGS_QUANTITY_STEPPER_STATUS_BADGE_TOGGLE_1003886\":\"C\",\"SEARCH_WWGS_SAVES_ASSETS_839792\":\"C\",\"F3_WFMOAC_CUSTOM_CAKE_GATING_754771\":\"C\",\"SEARCH_INLINE_FANSHOP_PUI_ASSETS_1339009\":\"C\",\"SEARCH_EUSTORES_PUIS_MGM_GATING_1244964\":\"C\",\"SEARCH_SCX_AB_1282121\":\"C\",\"SEARCH_WWGS_PICKUP_REFINEMENT_988425\":\"C\",\"SEARCH_SCX_WPX_OAM_1349971\":\"T1\",\"SEARCH_VS_EXP_AR_INGRESS_EXPANSION_1189564\":\"C\",\"P13N_BADGEX_PUI_CAPSULE_1157018\":\"T1\",\"SEARCH_BAZAAR_ATC_BUTTON_ON_CORE_1243894\":\"T1\",\"SEARCH_EUSTORES_PUIS_COLORSWATCHES_INTERACTIVITY_ACCESSIBILITY_MEASUREMENT_1334549\":\"C\",\"SEARCH_VS_3D_VIDEO_1251281\":\"C\",\"SEARCH_SCX_AB_1099759\":\"C\",\"SEARCH_382092\":\"T1\",\"SEARCH_SCX_COPILOT_SUPPRESS_MLT_ANIMATION_1334637\":\"C\",\"SEARCH_EUSTORES_PUIS_ATD_TOOLTIP_SHOPPINGAIDS_MEASUREMENT_1335106\":\"T1\",\"SEARCH_BUYX_ICDP_PREFETCH_1272207\":\"T1\",\"SEARCH_EUSTORES_PUIS_ATC_CUSTOM_ASINS_EXPANSION_ASSETS_GATING_1337162\":\"C\",\"SEARCH_SES_FOS_DP_PRICING_MVT_976179\":\"C\",\"SEARCH_SCX_PUIS_COPILOT_GATING_1279652\":\"T1\",\"SEARCH_SCX_PROMOTIONS_ASSET_GATING_1309732\":\"T1\",\"SEARCH_RUFUS_ASIN_INGRESS_1207023\":\"C\",\"AXIOM_LISTS_PUI_HEART_LIST_ACTION_SUB_RESOURCE_ENABLED_1319041\":\"C\",\"SEARCH_SCX_1176766\":\"T1\",\"SEARCH_WWGS_PUIS_ISM_SAVE_TO_LIST_ASSET_GATING_1119626\":\"C\",\"SEARCH_BAZAAR_PROPOSITION_BADGE_1284096\":\"C\",\"SEARCH_FOS_REVIEW_BLOCK_CSS_GATING_715873\":\"C\",\"SEARCH_VS_VIDEO_1182816\":\"C\"}window.AmazonUIPageJS && window.AmazonUIPageJS.when('puis-enable-treatments-for-render').execute(function (enableRenderId) { enableRenderId('r3dh8jxrjgbe0v27r64agbce0z9'); }); (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://m.media-amazon.com/images/I/112x1Qjn5tL._RC|01HCHuzDdcL.js,41ns5+RXugL.js,01SSs1udVFL.js,21Rcsl7Fo7L.js,21IHmLveSuL.js,11o1UsgynwL.js,31uGKJgK-gL.js,31-3l5RTCeL.js,01Oi+MtiDrL.js,21kPFkdu31L.js,11wtlUYYJVL.js,41Py0rc3wKL.js,2167LESqy-L.js,71O+YmfpSVL.js_.js?AUIClients/ProductUIServiceAssets-vnp5jk0p0a5y72qpfosuwuvsnx');",
+      "responseTimeMs": 16766,
+      "brandMentions": [
+        {
+          "brand": "Amazon",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "queryIndex": 32,
+      "query": "best dog food for dachshunds",
+      "success": true,
+      "response": "{} Here are excellent dog food options specifically designed for dachshunds and their unique nutritional needs:",
+      "responseTimeMs": 16327,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 33,
+      "query": "best dog food for rottweilers",
+      "success": true,
+      "response": "{} Here are excellent dog food options specifically designed for Rottweilers and their unique nutritional needs:",
+      "responseTimeMs": 15292,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 34,
+      "query": "best dog food for boxers",
+      "success": true,
+      "response": "{} Here are excellent dog food options specifically designed for Rottweilers and their unique nutritional needs:",
+      "responseTimeMs": 17373,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 35,
+      "query": "best dog food for allergies",
+      "success": true,
+      "response": "{} Blue Buffalo Natural Veterinary Diet HF Hydrolyzed for Food Intolerance Dry Dog Food, Salmon 22-lb Bag Price, product page$13.99$13.99 ($0.64$0.64/lb)zippypaws.comShop direct {} Blue Buffalo hydrolyzed salmon formula enhanced with omega fatty acids for skin and coat health More details (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/11mVszy8FIL._RC|41k9TQrnHzL.js,21cuxCuJB9L.js_.js?PUISClients/AmazonRushFramework'); P.now('aapi-token-puis').execute('register-csrf-token', function(token) { if (!token) { P.declare('aapi-token-puis', \"1@g8T5ArRQV+hLSijcupU4d7BO6RZe1XPZSVEqczB4UNlWAAAAAQAAAABpdqF+cmF3AAAAAGfA1H5nd8xGEcC31DKLNw==@KDFC4Z\"); } }); {\"SEARCH_EUSTORES_PUIS_COLOR_SWATCHES_BORDER_OPACITY_MEASUREMENT_1320527\":\"C\",\"SEARCH_SES_FOS_SAF_TYPOGRAPHY_DESKTOP_1289331\":\"C\",\"SEARCH_SCX_WPX_OAM_BADGE_A11Y_1360132\":\"C\",\"SEARCH_532653\":\"C\",\"SEARCH_MAF_EE_GATING_707463\":\"C\",\"SEARCH_SCX_WPX_OAM_CTA_1217867\":\"C\",\"SEARCH_SCX_SAI_AFO_TEMPLATES_1301593\":\"C\",\"SEARCH_SCX_DEX_PUIS_CSRF_TOKEN_1185878\":\"T1\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_MOBILE_876944\":\"C\",\"F3_STEPPER_SYNC_ASSETS_918718\":\"C\",\"SEARCH_SCX_HDM_TO_DV3_MIGRATION_FRONTEND_1281235\":\"C\",\"SEARCH_SES_BADGE_MVT_GATING_965313\":\"C\",\"SEARCH_SCX_HAUL_ATC_ON_DOMESTIC_ASIN_1341210\":\"T1\",\"SEARCH_SCX_CP_IMG_ACTION_1294581\":\"T1\",\"SEARCH_EUSTORES_ATC_SW_INTEGRATION_FALLBACK_GATING_1052045\":\"C\",\"SEARCH_F3_ALM_CART_ACTION_ASSETS_NPM_IMPORT_955056\":\"C\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_DESKTOP_876938\":\"C\",\"SEARCH_WWGS_MBSB_A11Y_DEFECT_FIX_GATING_1358608\":\"C\",\"SEARCH_VS_PREVIEW_AUTO_CROP_1226514\":\"T1\",\"SEARCH_IN_PHARMACY_MLT_960375\":\"C\",\"SEARCH_VS_MLT_TEXT_INGRESS_1119272_PHASE2_1308055\":\"C\",\"SEARCH_VIDEO_FACEOUT_FRONTEND_LEVER_PHASE2_492845\":\"C\",\"SEARCH_SCX_HAUL_ATC_1283682\":\"T1\",\"BW_PUI_AMAZONIMAGE_1028570\":\"C\",\"SEARCH_WWGS_QUANTITY_STEPPER_STATUS_BADGE_TOGGLE_1003886\":\"C\",\"SEARCH_WWGS_SAVES_ASSETS_839792\":\"C\",\"F3_WFMOAC_CUSTOM_CAKE_GATING_754771\":\"C\",\"SEARCH_INLINE_FANSHOP_PUI_ASSETS_1339009\":\"C\",\"SEARCH_EUSTORES_PUIS_MGM_GATING_1244964\":\"C\",\"SEARCH_SCX_AB_1282121\":\"C\",\"SEARCH_WWGS_PICKUP_REFINEMENT_988425\":\"C\",\"SEARCH_SCX_WPX_OAM_1349971\":\"T1\",\"SEARCH_VS_EXP_AR_INGRESS_EXPANSION_1189564\":\"C\",\"P13N_BADGEX_PUI_CAPSULE_1157018\":\"T1\",\"SEARCH_BAZAAR_ATC_BUTTON_ON_CORE_1243894\":\"T1\",\"SEARCH_EUSTORES_PUIS_COLORSWATCHES_INTERACTIVITY_ACCESSIBILITY_MEASUREMENT_1334549\":\"C\",\"SEARCH_VS_3D_VIDEO_1251281\":\"C\",\"SEARCH_SCX_AB_1099759\":\"C\",\"SEARCH_382092\":\"T1\",\"SEARCH_SCX_COPILOT_SUPPRESS_MLT_ANIMATION_1334637\":\"C\",\"SEARCH_EUSTORES_PUIS_ATD_TOOLTIP_SHOPPINGAIDS_MEASUREMENT_1335106\":\"T1\",\"SEARCH_BUYX_ICDP_PREFETCH_1272207\":\"T1\",\"SEARCH_EUSTORES_PUIS_ATC_CUSTOM_ASINS_EXPANSION_ASSETS_GATING_1337162\":\"C\",\"SEARCH_SES_FOS_DP_PRICING_MVT_976179\":\"C\",\"SEARCH_SCX_PUIS_COPILOT_GATING_1279652\":\"T1\",\"SEARCH_SCX_PROMOTIONS_ASSET_GATING_1309732\":\"T1\",\"SEARCH_RUFUS_ASIN_INGRESS_1207023\":\"C\",\"AXIOM_LISTS_PUI_HEART_LIST_ACTION_SUB_RESOURCE_ENABLED_1319041\":\"C\",\"SEARCH_SCX_1176766\":\"T1\",\"SEARCH_WWGS_PUIS_ISM_SAVE_TO_LIST_ASSET_GATING_1119626\":\"C\",\"SEARCH_BAZAAR_PROPOSITION_BADGE_1284096\":\"C\",\"SEARCH_FOS_REVIEW_BLOCK_CSS_GATING_715873\":\"C\",\"SEARCH_VS_VIDEO_1182816\":\"C\"}window.AmazonUIPageJS && window.AmazonUIPageJS.when('puis-enable-treatments-for-render').execute(function (enableRenderId) { enableRenderId('r18eahho1fzsea2mx4lpru65cis'); });",
+      "responseTimeMs": 18169,
+      "brandMentions": [
+        {
+          "brand": "Amazon",
+          "count": 7
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 36,
+      "query": "best dog food for sensitive stomach",
+      "success": true,
+      "response": "{} Here are excellent dog food options specifically formulated for sensitive stomachs and digestive issues:",
+      "responseTimeMs": 17670,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 37,
+      "query": "best dog food for dogs with skin issues",
+      "success": true,
+      "response": "{} Blue Buffalo Natural Veterinary Diet HF Hydrolyzed for Food Intolerance Dry Dog Food, Salmon 22-lb Bag Price, product page$13.99$13.99 ($0.64$0.64/lb)zippypaws.comShop direct {} Veterinary diet with broken-down proteins and omega fatty acids for severe sensitivities More details (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/11mVszy8FIL._RC|41k9TQrnHzL.js,21cuxCuJB9L.js_.js?PUISClients/AmazonRushFramework'); P.now('aapi-token-puis').execute('register-csrf-token', function(token) { if (!token) { P.declare('aapi-token-puis', \"1@g59l0+W5yr2XYU669ShjrTjOT9pvMhRSVnmTz0Vl38sjAAAAAQAAAABpdqG8cmF3AAAAAGfA1H5nd8xGEcC31DKLNw==@KDFC4Z\"); } }); {\"SEARCH_EUSTORES_PUIS_COLOR_SWATCHES_BORDER_OPACITY_MEASUREMENT_1320527\":\"C\",\"SEARCH_SES_FOS_SAF_TYPOGRAPHY_DESKTOP_1289331\":\"C\",\"SEARCH_SCX_WPX_OAM_BADGE_A11Y_1360132\":\"C\",\"SEARCH_532653\":\"C\",\"SEARCH_MAF_EE_GATING_707463\":\"C\",\"SEARCH_SCX_WPX_OAM_CTA_1217867\":\"C\",\"SEARCH_SCX_SAI_AFO_TEMPLATES_1301593\":\"C\",\"SEARCH_SCX_DEX_PUIS_CSRF_TOKEN_1185878\":\"T1\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_MOBILE_876944\":\"C\",\"F3_STEPPER_SYNC_ASSETS_918718\":\"C\",\"SEARCH_SCX_HDM_TO_DV3_MIGRATION_FRONTEND_1281235\":\"C\",\"SEARCH_SES_BADGE_MVT_GATING_965313\":\"C\",\"SEARCH_SCX_HAUL_ATC_ON_DOMESTIC_ASIN_1341210\":\"T1\",\"SEARCH_SCX_CP_IMG_ACTION_1294581\":\"T1\",\"SEARCH_EUSTORES_ATC_SW_INTEGRATION_FALLBACK_GATING_1052045\":\"C\",\"SEARCH_F3_ALM_CART_ACTION_ASSETS_NPM_IMPORT_955056\":\"C\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_DESKTOP_876938\":\"C\",\"SEARCH_WWGS_MBSB_A11Y_DEFECT_FIX_GATING_1358608\":\"C\",\"SEARCH_VS_PREVIEW_AUTO_CROP_1226514\":\"T1\",\"SEARCH_IN_PHARMACY_MLT_960375\":\"C\",\"SEARCH_VS_MLT_TEXT_INGRESS_1119272_PHASE2_1308055\":\"C\",\"SEARCH_VIDEO_FACEOUT_FRONTEND_LEVER_PHASE2_492845\":\"C\",\"SEARCH_SCX_HAUL_ATC_1283682\":\"T1\",\"BW_PUI_AMAZONIMAGE_1028570\":\"C\",\"SEARCH_WWGS_QUANTITY_STEPPER_STATUS_BADGE_TOGGLE_1003886\":\"C\",\"SEARCH_WWGS_SAVES_ASSETS_839792\":\"C\",\"F3_WFMOAC_CUSTOM_CAKE_GATING_754771\":\"C\",\"SEARCH_INLINE_FANSHOP_PUI_ASSETS_1339009\":\"C\",\"SEARCH_EUSTORES_PUIS_MGM_GATING_1244964\":\"C\",\"SEARCH_SCX_AB_1282121\":\"C\",\"SEARCH_WWGS_PICKUP_REFINEMENT_988425\":\"C\",\"SEARCH_SCX_WPX_OAM_1349971\":\"T1\",\"SEARCH_VS_EXP_AR_INGRESS_EXPANSION_1189564\":\"C\",\"P13N_BADGEX_PUI_CAPSULE_1157018\":\"T1\",\"SEARCH_BAZAAR_ATC_BUTTON_ON_CORE_1243894\":\"T1\",\"SEARCH_EUSTORES_PUIS_COLORSWATCHES_INTERACTIVITY_ACCESSIBILITY_MEASUREMENT_1334549\":\"C\",\"SEARCH_VS_3D_VIDEO_1251281\":\"C\",\"SEARCH_SCX_AB_1099759\":\"C\",\"SEARCH_382092\":\"T1\",\"SEARCH_SCX_COPILOT_SUPPRESS_MLT_ANIMATION_1334637\":\"C\",\"SEARCH_EUSTORES_PUIS_ATD_TOOLTIP_SHOPPINGAIDS_MEASUREMENT_1335106\":\"T1\",\"SEARCH_BUYX_ICDP_PREFETCH_1272207\":\"T1\",\"SEARCH_EUSTORES_PUIS_ATC_CUSTOM_ASINS_EXPANSION_ASSETS_GATING_1337162\":\"C\",\"SEARCH_SES_FOS_DP_PRICING_MVT_976179\":\"C\",\"SEARCH_SCX_PUIS_COPILOT_GATING_1279652\":\"T1\",\"SEARCH_SCX_PROMOTIONS_ASSET_GATING_1309732\":\"T1\",\"SEARCH_RUFUS_ASIN_INGRESS_1207023\":\"C\",\"AXIOM_LISTS_PUI_HEART_LIST_ACTION_SUB_RESOURCE_ENABLED_1319041\":\"C\",\"SEARCH_SCX_1176766\":\"T1\",\"SEARCH_WWGS_PUIS_ISM_SAVE_TO_LIST_ASSET_GATING_1119626\":\"C\",\"SEARCH_BAZAAR_PROPOSITION_BADGE_1284096\":\"C\",\"SEARCH_FOS_REVIEW_BLOCK_CSS_GATING_715873\":\"C\",\"SEARCH_VS_VIDEO_1182816\":\"C\"}window.AmazonUIPageJS && window.AmazonUIPageJS.when('puis-enable-treatments-for-render').execute(function (enableRenderId) { enableRenderId('r2rvmwl6ip3cv12kr8mmkrit050'); });",
+      "responseTimeMs": 21163,
+      "brandMentions": [
+        {
+          "brand": "Amazon",
+          "count": 7
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 38,
+      "query": "best dog food for weight loss",
+      "success": true,
+      "response": "{} Here are excellent dog food options specifically formulated to support healthy weight loss and maintenance:",
+      "responseTimeMs": 16002,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 39,
+      "query": "best dog food for joint health",
+      "success": true,
+      "response": "{} Here are excellent dog food options specifically formulated to support joint health with glucosamine, chondroitin, and other key nutrients:",
+      "responseTimeMs": 17485,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 40,
+      "query": "best limited ingredient dog food",
+      "success": true,
+      "response": "{} Here are excellent limited ingredient dog food options designed specifically for dogs with food sensitivities and allergies:",
+      "responseTimeMs": 18228,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 41,
+      "query": "best grain free dog food",
+      "success": true,
+      "response": "{} Here are excellent grain-free dog food options from trusted brands, designed to meet the dietary needs of dogs with grain sensitivities:",
+      "responseTimeMs": 16359,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 42,
+      "query": "best dog food for dogs with diabetes",
+      "success": true,
+      "response": "{} ROYAL CANIN Glycobalance Dry (7.7 lb) Dog Food Price, product page$53.99$53.99 ($0.44$0.44/fluid ounce)southernagriculture.comShop direct {} Specifically designed to support healthy post-meal blood glucose levels with reduced starch More details (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/11mVszy8FIL._RC|41k9TQrnHzL.js,21cuxCuJB9L.js_.js?PUISClients/AmazonRushFramework'); P.now('aapi-token-puis').execute('register-csrf-token', function(token) { if (!token) { P.declare('aapi-token-puis', \"1@gyyibYdXMVLnqk4dOvAKJNqzQFe72WyiRKWInPJHJ8M\\/AAAAAQAAAABpdqJMcmF3AAAAAGfA1H5nd8xGEcC31DKLNw==@KDFC4Z\"); } }); {\"SEARCH_EUSTORES_PUIS_COLOR_SWATCHES_BORDER_OPACITY_MEASUREMENT_1320527\":\"C\",\"SEARCH_SES_FOS_SAF_TYPOGRAPHY_DESKTOP_1289331\":\"C\",\"SEARCH_SCX_WPX_OAM_BADGE_A11Y_1360132\":\"C\",\"SEARCH_532653\":\"C\",\"SEARCH_MAF_EE_GATING_707463\":\"C\",\"SEARCH_SCX_WPX_OAM_CTA_1217867\":\"C\",\"SEARCH_SCX_SAI_AFO_TEMPLATES_1301593\":\"C\",\"SEARCH_SCX_DEX_PUIS_CSRF_TOKEN_1185878\":\"T1\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_MOBILE_876944\":\"C\",\"F3_STEPPER_SYNC_ASSETS_918718\":\"C\",\"SEARCH_SCX_HDM_TO_DV3_MIGRATION_FRONTEND_1281235\":\"C\",\"SEARCH_SES_BADGE_MVT_GATING_965313\":\"C\",\"SEARCH_SCX_HAUL_ATC_ON_DOMESTIC_ASIN_1341210\":\"T1\",\"SEARCH_SCX_CP_IMG_ACTION_1294581\":\"T1\",\"SEARCH_EUSTORES_ATC_SW_INTEGRATION_FALLBACK_GATING_1052045\":\"C\",\"SEARCH_F3_ALM_CART_ACTION_ASSETS_NPM_IMPORT_955056\":\"C\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_DESKTOP_876938\":\"C\",\"SEARCH_WWGS_MBSB_A11Y_DEFECT_FIX_GATING_1358608\":\"C\",\"SEARCH_VS_PREVIEW_AUTO_CROP_1226514\":\"T1\",\"SEARCH_IN_PHARMACY_MLT_960375\":\"C\",\"SEARCH_VS_MLT_TEXT_INGRESS_1119272_PHASE2_1308055\":\"C\",\"SEARCH_VIDEO_FACEOUT_FRONTEND_LEVER_PHASE2_492845\":\"C\",\"SEARCH_SCX_HAUL_ATC_1283682\":\"T1\",\"BW_PUI_AMAZONIMAGE_1028570\":\"C\",\"SEARCH_WWGS_QUANTITY_STEPPER_STATUS_BADGE_TOGGLE_1003886\":\"C\",\"SEARCH_WWGS_SAVES_ASSETS_839792\":\"C\",\"F3_WFMOAC_CUSTOM_CAKE_GATING_754771\":\"C\",\"SEARCH_INLINE_FANSHOP_PUI_ASSETS_1339009\":\"C\",\"SEARCH_EUSTORES_PUIS_MGM_GATING_1244964\":\"C\",\"SEARCH_SCX_AB_1282121\":\"C\",\"SEARCH_WWGS_PICKUP_REFINEMENT_988425\":\"C\",\"SEARCH_SCX_WPX_OAM_1349971\":\"T1\",\"SEARCH_VS_EXP_AR_INGRESS_EXPANSION_1189564\":\"C\",\"P13N_BADGEX_PUI_CAPSULE_1157018\":\"T1\",\"SEARCH_BAZAAR_ATC_BUTTON_ON_CORE_1243894\":\"T1\",\"SEARCH_EUSTORES_PUIS_COLORSWATCHES_INTERACTIVITY_ACCESSIBILITY_MEASUREMENT_1334549\":\"C\",\"SEARCH_VS_3D_VIDEO_1251281\":\"C\",\"SEARCH_SCX_AB_1099759\":\"C\",\"SEARCH_382092\":\"T1\",\"SEARCH_SCX_COPILOT_SUPPRESS_MLT_ANIMATION_1334637\":\"C\",\"SEARCH_EUSTORES_PUIS_ATD_TOOLTIP_SHOPPINGAIDS_MEASUREMENT_1335106\":\"T1\",\"SEARCH_BUYX_ICDP_PREFETCH_1272207\":\"T1\",\"SEARCH_EUSTORES_PUIS_ATC_CUSTOM_ASINS_EXPANSION_ASSETS_GATING_1337162\":\"C\",\"SEARCH_SES_FOS_DP_PRICING_MVT_976179\":\"C\",\"SEARCH_SCX_PUIS_COPILOT_GATING_1279652\":\"T1\",\"SEARCH_SCX_PROMOTIONS_ASSET_GATING_1309732\":\"T1\",\"SEARCH_RUFUS_ASIN_INGRESS_1207023\":\"C\",\"AXIOM_LISTS_PUI_HEART_LIST_ACTION_SUB_RESOURCE_ENABLED_1319041\":\"C\",\"SEARCH_SCX_1176766\":\"T1\",\"SEARCH_WWGS_PUIS_ISM_SAVE_TO_LIST_ASSET_GATING_1119626\":\"C\",\"SEARCH_BAZAAR_PROPOSITION_BADGE_1284096\":\"C\",\"SEARCH_FOS_REVIEW_BLOCK_CSS_GATING_715873\":\"C\",\"SEARCH_VS_VIDEO_1182816\":\"C\"}window.AmazonUIPageJS && window.AmazonUIPageJS.when('puis-enable-treatments-for-render').execute(function (enableRenderId) { enableRenderId('r37rcd1egjwa4g279up9vfy0xnk'); }); (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://m.media-amazon.com/images/I/112x1Qjn5tL._RC|01HCHuzDdcL.js,41ns5+RXugL.js,01SSs1udVFL.js,21Rcsl7Fo7L.js,21IHmLveSuL.js,11o1UsgynwL.js,31uGKJgK-gL.js,31-3l5RTCeL.js,01Oi+MtiDrL.js,21kPFkdu31L.js,11wtlUYYJVL.js,41Py0rc3wKL.js,2167LESqy-L.js,71O+YmfpSVL.js_.js?AUIClients/ProductUIServiceAssets-vnp5jk0p0a5y72qpfosuwuvsnx');",
+      "responseTimeMs": 18574,
+      "brandMentions": [
+        {
+          "brand": "Amazon",
+          "count": 10
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 43,
+      "query": "best dog food for dogs with kidney disease",
+      "success": true,
+      "response": "{} Managing kidney disease in dogs requires careful nutritional management to reduce kidney workload while maintaining proper nutrition. Here are excellent options specifically formulated for dogs with kidney disease:",
+      "responseTimeMs": 18110,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 44,
+      "query": "best hypoallergenic dog food",
+      "success": true,
+      "response": "{} Royal Canin HP Hypoallergenic Hydrolyzed Protein Dog Food 7.7 lb Price, product page$58.99$58.99 ($7.66$7.66/lb)southernagriculture.comShop direct {} Royal Canin HP with hydrolyzed soy protein and omega-3 fatty acids More details (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/11mVszy8FIL._RC|41k9TQrnHzL.js,21cuxCuJB9L.js_.js?PUISClients/AmazonRushFramework'); P.now('aapi-token-puis').execute('register-csrf-token', function(token) { if (!token) { P.declare('aapi-token-puis', \"1@g+MdwT5625sVpNX78P1b5n6FWQxkn7Xa3sifYSQOvnLmAAAAAQAAAABpdqKEcmF3AAAAAGfA1H5nd8xGEcC31DKLNw==@KDFC4Z\"); } }); {\"SEARCH_EUSTORES_PUIS_COLOR_SWATCHES_BORDER_OPACITY_MEASUREMENT_1320527\":\"C\",\"SEARCH_SES_FOS_SAF_TYPOGRAPHY_DESKTOP_1289331\":\"C\",\"SEARCH_SCX_WPX_OAM_BADGE_A11Y_1360132\":\"C\",\"SEARCH_532653\":\"C\",\"SEARCH_MAF_EE_GATING_707463\":\"C\",\"SEARCH_SCX_WPX_OAM_CTA_1217867\":\"C\",\"SEARCH_SCX_SAI_AFO_TEMPLATES_1301593\":\"C\",\"SEARCH_SCX_DEX_PUIS_CSRF_TOKEN_1185878\":\"T1\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_MOBILE_876944\":\"C\",\"F3_STEPPER_SYNC_ASSETS_918718\":\"C\",\"SEARCH_SCX_HDM_TO_DV3_MIGRATION_FRONTEND_1281235\":\"C\",\"SEARCH_SES_BADGE_MVT_GATING_965313\":\"C\",\"SEARCH_SCX_HAUL_ATC_ON_DOMESTIC_ASIN_1341210\":\"T1\",\"SEARCH_SCX_CP_IMG_ACTION_1294581\":\"T1\",\"SEARCH_EUSTORES_ATC_SW_INTEGRATION_FALLBACK_GATING_1052045\":\"C\",\"SEARCH_F3_ALM_CART_ACTION_ASSETS_NPM_IMPORT_955056\":\"C\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_DESKTOP_876938\":\"C\",\"SEARCH_WWGS_MBSB_A11Y_DEFECT_FIX_GATING_1358608\":\"C\",\"SEARCH_VS_PREVIEW_AUTO_CROP_1226514\":\"T1\",\"SEARCH_IN_PHARMACY_MLT_960375\":\"C\",\"SEARCH_VS_MLT_TEXT_INGRESS_1119272_PHASE2_1308055\":\"C\",\"SEARCH_VIDEO_FACEOUT_FRONTEND_LEVER_PHASE2_492845\":\"C\",\"SEARCH_SCX_HAUL_ATC_1283682\":\"T1\",\"BW_PUI_AMAZONIMAGE_1028570\":\"C\",\"SEARCH_WWGS_QUANTITY_STEPPER_STATUS_BADGE_TOGGLE_1003886\":\"C\",\"SEARCH_WWGS_SAVES_ASSETS_839792\":\"C\",\"F3_WFMOAC_CUSTOM_CAKE_GATING_754771\":\"C\",\"SEARCH_INLINE_FANSHOP_PUI_ASSETS_1339009\":\"C\",\"SEARCH_EUSTORES_PUIS_MGM_GATING_1244964\":\"C\",\"SEARCH_SCX_AB_1282121\":\"C\",\"SEARCH_WWGS_PICKUP_REFINEMENT_988425\":\"C\",\"SEARCH_SCX_WPX_OAM_1349971\":\"T1\",\"SEARCH_VS_EXP_AR_INGRESS_EXPANSION_1189564\":\"C\",\"P13N_BADGEX_PUI_CAPSULE_1157018\":\"T1\",\"SEARCH_BAZAAR_ATC_BUTTON_ON_CORE_1243894\":\"T1\",\"SEARCH_EUSTORES_PUIS_COLORSWATCHES_INTERACTIVITY_ACCESSIBILITY_MEASUREMENT_1334549\":\"C\",\"SEARCH_VS_3D_VIDEO_1251281\":\"C\",\"SEARCH_SCX_AB_1099759\":\"C\",\"SEARCH_382092\":\"T1\",\"SEARCH_SCX_COPILOT_SUPPRESS_MLT_ANIMATION_1334637\":\"C\",\"SEARCH_EUSTORES_PUIS_ATD_TOOLTIP_SHOPPINGAIDS_MEASUREMENT_1335106\":\"T1\",\"SEARCH_BUYX_ICDP_PREFETCH_1272207\":\"T1\",\"SEARCH_EUSTORES_PUIS_ATC_CUSTOM_ASINS_EXPANSION_ASSETS_GATING_1337162\":\"C\",\"SEARCH_SES_FOS_DP_PRICING_MVT_976179\":\"C\",\"SEARCH_SCX_PUIS_COPILOT_GATING_1279652\":\"T1\",\"SEARCH_SCX_PROMOTIONS_ASSET_GATING_1309732\":\"T1\",\"SEARCH_RUFUS_ASIN_INGRESS_1207023\":\"C\",\"AXIOM_LISTS_PUI_HEART_LIST_ACTION_SUB_RESOURCE_ENABLED_1319041\":\"C\",\"SEARCH_SCX_1176766\":\"T1\",\"SEARCH_WWGS_PUIS_ISM_SAVE_TO_LIST_ASSET_GATING_1119626\":\"C\",\"SEARCH_BAZAAR_PROPOSITION_BADGE_1284096\":\"C\",\"SEARCH_FOS_REVIEW_BLOCK_CSS_GATING_715873\":\"C\",\"SEARCH_VS_VIDEO_1182816\":\"C\"}window.AmazonUIPageJS && window.AmazonUIPageJS.when('puis-enable-treatments-for-render').execute(function (enableRenderId) { enableRenderId('r3eapmgh5ykj6g2b5tmselnbksn'); }); (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://m.media-amazon.com/images/I/112x1Qjn5tL._RC|01HCHuzDdcL.js,41ns5+RXugL.js,01SSs1udVFL.js,21Rcsl7Fo7L.js,21IHmLveSuL.js,11o1UsgynwL.js,31uGKJgK-gL.js,31-3l5RTCeL.js,01Oi+MtiDrL.js,21kPFkdu31L.js,11wtlUYYJVL.js,41Py0rc3wKL.js,2167LESqy-L.js,71O+YmfpSVL.js_.js?AUIClients/ProductUIServiceAssets-vnp5jk0p0a5y72qpfosuwuvsnx');",
+      "responseTimeMs": 13740,
+      "brandMentions": [
+        {
+          "brand": "Amazon",
+          "count": 10
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 45,
+      "query": "best dog food for digestive issues",
+      "success": true,
+      "response": "{} Royal Canin Veterinary Diet Canine Gastrointestinal LF Low Fat - 6.6lb Price, product page$45.99$45.99 ($6.95$6.95/lb)southernagriculture.comShop direct {} Royal Canin Gastrointestinal LF for dogs with pancreatitis and GI disease More details (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/11mVszy8FIL._RC|41k9TQrnHzL.js,21cuxCuJB9L.js_.js?PUISClients/AmazonRushFramework'); P.now('aapi-token-puis').execute('register-csrf-token', function(token) { if (!token) { P.declare('aapi-token-puis', \"1@gwGsWqqJF4+vYBn0fExScZ1dU6qhjLsMXyYnot6\\/pdCRAAAAAQAAAABpdqKecmF3AAAAAGfA1H5nd8xGEcC31DKLNw==@KDFC4Z\"); } }); {\"SEARCH_EUSTORES_PUIS_COLOR_SWATCHES_BORDER_OPACITY_MEASUREMENT_1320527\":\"C\",\"SEARCH_SES_FOS_SAF_TYPOGRAPHY_DESKTOP_1289331\":\"C\",\"SEARCH_SCX_WPX_OAM_BADGE_A11Y_1360132\":\"C\",\"SEARCH_532653\":\"C\",\"SEARCH_MAF_EE_GATING_707463\":\"C\",\"SEARCH_SCX_WPX_OAM_CTA_1217867\":\"C\",\"SEARCH_SCX_SAI_AFO_TEMPLATES_1301593\":\"C\",\"SEARCH_SCX_DEX_PUIS_CSRF_TOKEN_1185878\":\"T1\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_MOBILE_876944\":\"C\",\"F3_STEPPER_SYNC_ASSETS_918718\":\"C\",\"SEARCH_SCX_HDM_TO_DV3_MIGRATION_FRONTEND_1281235\":\"C\",\"SEARCH_SES_BADGE_MVT_GATING_965313\":\"C\",\"SEARCH_SCX_HAUL_ATC_ON_DOMESTIC_ASIN_1341210\":\"T1\",\"SEARCH_SCX_CP_IMG_ACTION_1294581\":\"T1\",\"SEARCH_EUSTORES_ATC_SW_INTEGRATION_FALLBACK_GATING_1052045\":\"C\",\"SEARCH_F3_ALM_CART_ACTION_ASSETS_NPM_IMPORT_955056\":\"C\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_DESKTOP_876938\":\"C\",\"SEARCH_WWGS_MBSB_A11Y_DEFECT_FIX_GATING_1358608\":\"C\",\"SEARCH_VS_PREVIEW_AUTO_CROP_1226514\":\"T1\",\"SEARCH_IN_PHARMACY_MLT_960375\":\"C\",\"SEARCH_VS_MLT_TEXT_INGRESS_1119272_PHASE2_1308055\":\"C\",\"SEARCH_VIDEO_FACEOUT_FRONTEND_LEVER_PHASE2_492845\":\"C\",\"SEARCH_SCX_HAUL_ATC_1283682\":\"T1\",\"BW_PUI_AMAZONIMAGE_1028570\":\"C\",\"SEARCH_WWGS_QUANTITY_STEPPER_STATUS_BADGE_TOGGLE_1003886\":\"C\",\"SEARCH_WWGS_SAVES_ASSETS_839792\":\"C\",\"F3_WFMOAC_CUSTOM_CAKE_GATING_754771\":\"C\",\"SEARCH_INLINE_FANSHOP_PUI_ASSETS_1339009\":\"C\",\"SEARCH_EUSTORES_PUIS_MGM_GATING_1244964\":\"C\",\"SEARCH_SCX_AB_1282121\":\"C\",\"SEARCH_WWGS_PICKUP_REFINEMENT_988425\":\"C\",\"SEARCH_SCX_WPX_OAM_1349971\":\"T1\",\"SEARCH_VS_EXP_AR_INGRESS_EXPANSION_1189564\":\"C\",\"P13N_BADGEX_PUI_CAPSULE_1157018\":\"T1\",\"SEARCH_BAZAAR_ATC_BUTTON_ON_CORE_1243894\":\"T1\",\"SEARCH_EUSTORES_PUIS_COLORSWATCHES_INTERACTIVITY_ACCESSIBILITY_MEASUREMENT_1334549\":\"C\",\"SEARCH_VS_3D_VIDEO_1251281\":\"C\",\"SEARCH_SCX_AB_1099759\":\"C\",\"SEARCH_382092\":\"T1\",\"SEARCH_SCX_COPILOT_SUPPRESS_MLT_ANIMATION_1334637\":\"C\",\"SEARCH_EUSTORES_PUIS_ATD_TOOLTIP_SHOPPINGAIDS_MEASUREMENT_1335106\":\"T1\",\"SEARCH_BUYX_ICDP_PREFETCH_1272207\":\"T1\",\"SEARCH_EUSTORES_PUIS_ATC_CUSTOM_ASINS_EXPANSION_ASSETS_GATING_1337162\":\"C\",\"SEARCH_SES_FOS_DP_PRICING_MVT_976179\":\"C\",\"SEARCH_SCX_PUIS_COPILOT_GATING_1279652\":\"T1\",\"SEARCH_SCX_PROMOTIONS_ASSET_GATING_1309732\":\"T1\",\"SEARCH_RUFUS_ASIN_INGRESS_1207023\":\"C\",\"AXIOM_LISTS_PUI_HEART_LIST_ACTION_SUB_RESOURCE_ENABLED_1319041\":\"C\",\"SEARCH_SCX_1176766\":\"T1\",\"SEARCH_WWGS_PUIS_ISM_SAVE_TO_LIST_ASSET_GATING_1119626\":\"C\",\"SEARCH_BAZAAR_PROPOSITION_BADGE_1284096\":\"C\",\"SEARCH_FOS_REVIEW_BLOCK_CSS_GATING_715873\":\"C\",\"SEARCH_VS_VIDEO_1182816\":\"C\"}window.AmazonUIPageJS && window.AmazonUIPageJS.when('puis-enable-treatments-for-render').execute(function (enableRenderId) { enableRenderId('r2x907hptyddse2ug69upr0qhc7'); });",
+      "responseTimeMs": 16847,
+      "brandMentions": [
+        {
+          "brand": "Amazon",
+          "count": 7
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 46,
+      "query": "best dog food for itchy skin",
+      "success": true,
+      "response": "{} Royal Canin Canine Ultamino Dry Dog Food, 19.8 lb Price, product page$138.99$138.99 ($7.02$7.02/lb)southernagriculture.comShop direct {} Royal Canin Ultamino with extensively hydrolyzed soy protein for severe allergies More details (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/11mVszy8FIL._RC|41k9TQrnHzL.js,21cuxCuJB9L.js_.js?PUISClients/AmazonRushFramework'); P.now('aapi-token-puis').execute('register-csrf-token', function(token) { if (!token) { P.declare('aapi-token-puis', \"1@g19\\/ykvLoV\\/5h14QVeEHmr9GI\\/JbY2vaquriUW6SAQpmAAAAAQAAAABpdqK+cmF3AAAAAGfA1H5nd8xGEcC31DKLNw==@KDFC4Z\"); } }); {\"SEARCH_EUSTORES_PUIS_COLOR_SWATCHES_BORDER_OPACITY_MEASUREMENT_1320527\":\"C\",\"SEARCH_SES_FOS_SAF_TYPOGRAPHY_DESKTOP_1289331\":\"C\",\"SEARCH_SCX_WPX_OAM_BADGE_A11Y_1360132\":\"C\",\"SEARCH_532653\":\"C\",\"SEARCH_MAF_EE_GATING_707463\":\"C\",\"SEARCH_SCX_WPX_OAM_CTA_1217867\":\"C\",\"SEARCH_SCX_SAI_AFO_TEMPLATES_1301593\":\"C\",\"SEARCH_SCX_DEX_PUIS_CSRF_TOKEN_1185878\":\"T1\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_MOBILE_876944\":\"C\",\"F3_STEPPER_SYNC_ASSETS_918718\":\"C\",\"SEARCH_SCX_HDM_TO_DV3_MIGRATION_FRONTEND_1281235\":\"C\",\"SEARCH_SES_BADGE_MVT_GATING_965313\":\"C\",\"SEARCH_SCX_HAUL_ATC_ON_DOMESTIC_ASIN_1341210\":\"T1\",\"SEARCH_SCX_CP_IMG_ACTION_1294581\":\"T1\",\"SEARCH_EUSTORES_ATC_SW_INTEGRATION_FALLBACK_GATING_1052045\":\"C\",\"SEARCH_F3_ALM_CART_ACTION_ASSETS_NPM_IMPORT_955056\":\"C\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_DESKTOP_876938\":\"C\",\"SEARCH_WWGS_MBSB_A11Y_DEFECT_FIX_GATING_1358608\":\"C\",\"SEARCH_VS_PREVIEW_AUTO_CROP_1226514\":\"T1\",\"SEARCH_IN_PHARMACY_MLT_960375\":\"C\",\"SEARCH_VS_MLT_TEXT_INGRESS_1119272_PHASE2_1308055\":\"C\",\"SEARCH_VIDEO_FACEOUT_FRONTEND_LEVER_PHASE2_492845\":\"C\",\"SEARCH_SCX_HAUL_ATC_1283682\":\"T1\",\"BW_PUI_AMAZONIMAGE_1028570\":\"C\",\"SEARCH_WWGS_QUANTITY_STEPPER_STATUS_BADGE_TOGGLE_1003886\":\"C\",\"SEARCH_WWGS_SAVES_ASSETS_839792\":\"C\",\"F3_WFMOAC_CUSTOM_CAKE_GATING_754771\":\"C\",\"SEARCH_INLINE_FANSHOP_PUI_ASSETS_1339009\":\"C\",\"SEARCH_EUSTORES_PUIS_MGM_GATING_1244964\":\"C\",\"SEARCH_SCX_AB_1282121\":\"C\",\"SEARCH_WWGS_PICKUP_REFINEMENT_988425\":\"C\",\"SEARCH_SCX_WPX_OAM_1349971\":\"T1\",\"SEARCH_VS_EXP_AR_INGRESS_EXPANSION_1189564\":\"C\",\"P13N_BADGEX_PUI_CAPSULE_1157018\":\"T1\",\"SEARCH_BAZAAR_ATC_BUTTON_ON_CORE_1243894\":\"T1\",\"SEARCH_EUSTORES_PUIS_COLORSWATCHES_INTERACTIVITY_ACCESSIBILITY_MEASUREMENT_1334549\":\"C\",\"SEARCH_VS_3D_VIDEO_1251281\":\"C\",\"SEARCH_SCX_AB_1099759\":\"C\",\"SEARCH_382092\":\"T1\",\"SEARCH_SCX_COPILOT_SUPPRESS_MLT_ANIMATION_1334637\":\"C\",\"SEARCH_EUSTORES_PUIS_ATD_TOOLTIP_SHOPPINGAIDS_MEASUREMENT_1335106\":\"T1\",\"SEARCH_BUYX_ICDP_PREFETCH_1272207\":\"T1\",\"SEARCH_EUSTORES_PUIS_ATC_CUSTOM_ASINS_EXPANSION_ASSETS_GATING_1337162\":\"C\",\"SEARCH_SES_FOS_DP_PRICING_MVT_976179\":\"C\",\"SEARCH_SCX_PUIS_COPILOT_GATING_1279652\":\"T1\",\"SEARCH_SCX_PROMOTIONS_ASSET_GATING_1309732\":\"T1\",\"SEARCH_RUFUS_ASIN_INGRESS_1207023\":\"C\",\"AXIOM_LISTS_PUI_HEART_LIST_ACTION_SUB_RESOURCE_ENABLED_1319041\":\"C\",\"SEARCH_SCX_1176766\":\"T1\",\"SEARCH_WWGS_PUIS_ISM_SAVE_TO_LIST_ASSET_GATING_1119626\":\"C\",\"SEARCH_BAZAAR_PROPOSITION_BADGE_1284096\":\"C\",\"SEARCH_FOS_REVIEW_BLOCK_CSS_GATING_715873\":\"C\",\"SEARCH_VS_VIDEO_1182816\":\"C\"}window.AmazonUIPageJS && window.AmazonUIPageJS.when('puis-enable-treatments-for-render').execute(function (enableRenderId) { enableRenderId('ro3m42hsgkp752ej6xavpwuugo'); }); (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://m.media-amazon.com/images/I/112x1Qjn5tL._RC|01HCHuzDdcL.js,41ns5+RXugL.js,01SSs1udVFL.js,21Rcsl7Fo7L.js,21IHmLveSuL.js,11o1UsgynwL.js,31uGKJgK-gL.js,31-3l5RTCeL.js,01Oi+MtiDrL.js,21kPFkdu31L.js,11wtlUYYJVL.js,41Py0rc3wKL.js,2167LESqy-L.js,71O+YmfpSVL.js_.js?AUIClients/ProductUIServiceAssets-vnp5jk0p0a5y72qpfosuwuvsnx');",
+      "responseTimeMs": 18230,
+      "brandMentions": [
+        {
+          "brand": "Amazon",
+          "count": 10
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 47,
+      "query": "best dog food for dogs with food sensitivities",
+      "success": true,
+      "response": "{} Blue Buffalo Natural Veterinary Diet HF Hydrolyzed for Food Intolerance Dry Dog Food, Salmon 6-lb Bag Price, product page$6.50$6.50 ($1.08$1.08/lb)swiftpaws.comShop direct {} Blue Buffalo HF hydrolyzed salmon for food intolerance and skin support More details (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/11mVszy8FIL._RC|41k9TQrnHzL.js,21cuxCuJB9L.js_.js?PUISClients/AmazonRushFramework'); P.now('aapi-token-puis').execute('register-csrf-token', function(token) { if (!token) { P.declare('aapi-token-puis', \"1@g8cDnK4CmtWcMojONV5YLZZ3ag4MRjyGNwZNxC6TJgKXAAAAAQAAAABpdqLXcmF3AAAAAGfA1H5nd8xGEcC31DKLNw==@KDFC4Z\"); } }); {\"SEARCH_EUSTORES_PUIS_COLOR_SWATCHES_BORDER_OPACITY_MEASUREMENT_1320527\":\"C\",\"SEARCH_SES_FOS_SAF_TYPOGRAPHY_DESKTOP_1289331\":\"C\",\"SEARCH_SCX_WPX_OAM_BADGE_A11Y_1360132\":\"C\",\"SEARCH_532653\":\"C\",\"SEARCH_MAF_EE_GATING_707463\":\"C\",\"SEARCH_SCX_WPX_OAM_CTA_1217867\":\"C\",\"SEARCH_SCX_SAI_AFO_TEMPLATES_1301593\":\"C\",\"SEARCH_SCX_DEX_PUIS_CSRF_TOKEN_1185878\":\"T1\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_MOBILE_876944\":\"C\",\"F3_STEPPER_SYNC_ASSETS_918718\":\"C\",\"SEARCH_SCX_HDM_TO_DV3_MIGRATION_FRONTEND_1281235\":\"C\",\"SEARCH_SES_BADGE_MVT_GATING_965313\":\"C\",\"SEARCH_SCX_HAUL_ATC_ON_DOMESTIC_ASIN_1341210\":\"T1\",\"SEARCH_SCX_CP_IMG_ACTION_1294581\":\"T1\",\"SEARCH_EUSTORES_ATC_SW_INTEGRATION_FALLBACK_GATING_1052045\":\"C\",\"SEARCH_F3_ALM_CART_ACTION_ASSETS_NPM_IMPORT_955056\":\"C\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_DESKTOP_876938\":\"C\",\"SEARCH_WWGS_MBSB_A11Y_DEFECT_FIX_GATING_1358608\":\"C\",\"SEARCH_VS_PREVIEW_AUTO_CROP_1226514\":\"T1\",\"SEARCH_IN_PHARMACY_MLT_960375\":\"C\",\"SEARCH_VS_MLT_TEXT_INGRESS_1119272_PHASE2_1308055\":\"C\",\"SEARCH_VIDEO_FACEOUT_FRONTEND_LEVER_PHASE2_492845\":\"C\",\"SEARCH_SCX_HAUL_ATC_1283682\":\"T1\",\"BW_PUI_AMAZONIMAGE_1028570\":\"C\",\"SEARCH_WWGS_QUANTITY_STEPPER_STATUS_BADGE_TOGGLE_1003886\":\"C\",\"SEARCH_WWGS_SAVES_ASSETS_839792\":\"C\",\"F3_WFMOAC_CUSTOM_CAKE_GATING_754771\":\"C\",\"SEARCH_INLINE_FANSHOP_PUI_ASSETS_1339009\":\"C\",\"SEARCH_EUSTORES_PUIS_MGM_GATING_1244964\":\"C\",\"SEARCH_SCX_AB_1282121\":\"C\",\"SEARCH_WWGS_PICKUP_REFINEMENT_988425\":\"C\",\"SEARCH_SCX_WPX_OAM_1349971\":\"T1\",\"SEARCH_VS_EXP_AR_INGRESS_EXPANSION_1189564\":\"C\",\"P13N_BADGEX_PUI_CAPSULE_1157018\":\"T1\",\"SEARCH_BAZAAR_ATC_BUTTON_ON_CORE_1243894\":\"T1\",\"SEARCH_EUSTORES_PUIS_COLORSWATCHES_INTERACTIVITY_ACCESSIBILITY_MEASUREMENT_1334549\":\"C\",\"SEARCH_VS_3D_VIDEO_1251281\":\"C\",\"SEARCH_SCX_AB_1099759\":\"C\",\"SEARCH_382092\":\"T1\",\"SEARCH_SCX_COPILOT_SUPPRESS_MLT_ANIMATION_1334637\":\"C\",\"SEARCH_EUSTORES_PUIS_ATD_TOOLTIP_SHOPPINGAIDS_MEASUREMENT_1335106\":\"T1\",\"SEARCH_BUYX_ICDP_PREFETCH_1272207\":\"T1\",\"SEARCH_EUSTORES_PUIS_ATC_CUSTOM_ASINS_EXPANSION_ASSETS_GATING_1337162\":\"C\",\"SEARCH_SES_FOS_DP_PRICING_MVT_976179\":\"C\",\"SEARCH_SCX_PUIS_COPILOT_GATING_1279652\":\"T1\",\"SEARCH_SCX_PROMOTIONS_ASSET_GATING_1309732\":\"T1\",\"SEARCH_RUFUS_ASIN_INGRESS_1207023\":\"C\",\"AXIOM_LISTS_PUI_HEART_LIST_ACTION_SUB_RESOURCE_ENABLED_1319041\":\"C\",\"SEARCH_SCX_1176766\":\"T1\",\"SEARCH_WWGS_PUIS_ISM_SAVE_TO_LIST_ASSET_GATING_1119626\":\"C\",\"SEARCH_BAZAAR_PROPOSITION_BADGE_1284096\":\"C\",\"SEARCH_FOS_REVIEW_BLOCK_CSS_GATING_715873\":\"C\",\"SEARCH_VS_VIDEO_1182816\":\"C\"}window.AmazonUIPageJS && window.AmazonUIPageJS.when('puis-enable-treatments-for-render').execute(function (enableRenderId) { enableRenderId('r3s21e0rhd6ei72u7n1qj4tla32'); });",
+      "responseTimeMs": 13330,
+      "brandMentions": [
+        {
+          "brand": "Amazon",
+          "count": 7
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 48,
+      "query": "best dog food for heart health",
+      "success": true,
+      "response": "{} Dogs with heart conditions need specialized nutrition that supports cardiac function while managing sodium and other nutrients. Here are the best dog food options for heart health:",
+      "responseTimeMs": 18257,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 49,
+      "query": "best single protein dog food",
+      "success": true,
+      "response": "{} Single protein dog foods feature one primary protein source, making them ideal for dogs with food sensitivities or allergies. Here are excellent options by protein type:",
+      "responseTimeMs": 18449,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 50,
+      "query": "best puppy food for large breeds",
+      "success": true,
+      "response": "{} Large breed puppies have unique nutritional needs to support healthy, controlled growth and strong bone development. Here are excellent options designed specifically for large breeds:",
+      "responseTimeMs": 18571,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 51,
+      "query": "best puppy food for small breeds",
+      "success": true,
+      "response": "{} Small breed puppies have unique nutritional needs due to their rapid growth rates, smaller stomachs, and higher metabolisms. Here are excellent options designed specifically for small breeds:",
+      "responseTimeMs": 19579,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 52,
+      "query": "best senior dog food",
+      "success": true,
+      "response": "{} Senior dogs have unique nutritional needs to support healthy aging, joint function, and cognitive health. Here are excellent options designed specifically for dogs 7+ years old:",
+      "responseTimeMs": 19193,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 53,
+      "query": "best dog food for adult dogs",
+      "success": true,
+      "response": "{} Adult dogs need balanced nutrition that supports their active lifestyle and overall health. Here are excellent options across different price points and brands:",
+      "responseTimeMs": 16295,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 54,
+      "query": "when to switch from puppy food to adult food",
+      "success": true,
+      "response": "{} Your feedback has been submitted! Your feedback has been submitted! Select All That Apply (optional): This is irrelevant This is inaccurate This is harmful / unsafe Something else Dismiss Submit",
+      "responseTimeMs": 13539,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 55,
+      "query": "best puppy food 2026",
+      "success": true,
+      "response": "{} Based on the latest expert reviews and veterinary recommendations for 2026, here are the top puppy food options organized by category and backed by professional guidance:",
+      "responseTimeMs": 18183,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 56,
+      "query": "best food for senior dogs with sensitive stomachs",
+      "success": true,
+      "response": "{} Here are excellent food options specifically formulated for senior dogs with sensitive stomachs:",
+      "responseTimeMs": 19645,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 57,
+      "query": "best high calorie dog food for underweight dogs",
+      "success": true,
+      "response": "{} Here are excellent high-calorie food options specifically designed for underweight dogs that need to gain healthy weight:",
+      "responseTimeMs": 19922,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 58,
+      "query": "best dog food for active dogs",
+      "success": true,
+      "response": "{} Here are excellent high-energy dog food options specifically formulated for active dogs:",
+      "responseTimeMs": 14731,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 59,
+      "query": "best dog food for working dogs",
+      "success": true,
+      "response": "{} Here are exceptional high-performance dog food options specifically designed for working dogs:",
+      "responseTimeMs": 17160,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 60,
+      "query": "Blue Buffalo vs Purina Pro Plan",
+      "success": true,
+      "response": "{} Products Protein Content Special Features Price Range Target Focus Blue Buffalo Life Protection Formula Adult Dry Dog Food, Helps Build and Maintain Strong Muscles, Made with Natural Ingredients, Chicken & Brown Rice Recipe, 30-lb. Bag 24% protein with real chicken LifeSource Bits, omega fatty acids, no by-products $47-52 (30 lb) General adult nutrition Purina Pro Plan Sport Performance 30/20 Chicken and Rice Formula High Protein Dog Food - 37.5 lb. Bag",
+      "responseTimeMs": 16710,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Target",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 61,
+      "query": "Orijen vs Acana dog food",
+      "success": true,
+      "response": "{} Brand Philosophy & Approach: Orijen: \"Biologically Appropriate\" nutrition mimicking dogs' ancestral wild diet with 85-90% animal ingredients and minimal processing Acana: Balanced nutrition combining quality animal proteins (60-70%) with wholesome grains, fruits, and vegetables for complete nutrition Key Differences: Protein Content: Orijen typically 38-42% protein vs Acana 29-35% protein Animal Ingredients: Orijen features 85-90% animal ingredients vs Acana's 60-70% Grain Philosophy: Orijen offers both grain-free and \"Amazing Grains\" lines; Acana includes wholesome grains in many recipes **Price",
+      "responseTimeMs": 14169,
+      "brandMentions": [
+        {
+          "brand": "Orijen",
+          "count": 4
+        },
+        {
+          "brand": "Acana",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "queryIndex": 62,
+      "query": "Wellness vs Blue Buffalo",
+      "success": true,
+      "response": "{} Products Protein Content Special Features Price Range Target Focus Wellness Complete Health Dry Dog Food, Wholesome Grains, Natural, Chicken & Oatmeal Recipe, (15-Pound Bag) 22% protein with deboned chicken Glucosamine, probiotics, taurine for heart health $39-70 (15-30 lb) Complete Health -",
+      "responseTimeMs": 16330,
+      "brandMentions": [
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Target",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 63,
+      "query": "Natural Balance vs Blue Buffalo",
+      "success": true,
+      "response": "{} Products Protein Content Special Features Price Range Best For Natural Balance Limited Ingredient Adult Grain-Free Dry Dog Food, Reserve Sweet Potato & Venison Recipe, 22 Pound (Pack of 1) 22% protein with venison as single source Limited ingredients, grain-free, suitable for allergies $70 (22 lb) Dogs with food sensitivities Natural Balance Limited Ingredient Adult Dry Dog Food with Healthy Grains, Salmon & Brown Rice Recipe, 24 Pound (Pack of 1) 25% protein with salmon and",
+      "responseTimeMs": 17613,
+      "brandMentions": [
+        {
+          "brand": "Natural Balance",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 64,
+      "query": "Merrick vs Wellness dog food",
+      "success": true,
+      "response": "{} Products Protein Content Special Features Price Range Best For Merrick Premium Grain Free Dry Adult Dog Food, Wholesome And Natural Kibble, Real Texas Beef And Sweet Potato - 4.0 lb. Bag 63% protein & fat blend, 64% animal protein Real Texas beef first, glucosamine & chondroitin $18-54 (4-22 lb) Active dogs needing high protein Merrick Healthy Grains Premium Adult Dry Dog Food, Wholesome And Natural Kibble With Beef And Brown Rice - 4.0 lb. Bag Real beef with whole grains Healthy grains formula, hip & joint support $18-54 (4-25 lb) Dogs",
+      "responseTimeMs": 16896,
+      "brandMentions": [
+        {
+          "brand": "Merrick",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 65,
+      "query": "Royal Canin vs Hill's Science Diet",
+      "success": true,
+      "response": "{} Products Protein Content Special Features Price Range Best For Royal Canin Canine Care Nutrition Small Digestive Care Adult Dry Dog Food, 3.5 lb Small dog formula with optimal blend of highly digestible proteins Prebiotics and dietary fibers for healthy digestion $25 (3.5 lb) Small dogs with sensitive stomachs",
+      "responseTimeMs": 14740,
+      "brandMentions": [
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 66,
+      "query": "Taste of the Wild vs Merrick",
+      "success": true,
+      "response": "{} Products Protein Content Special Features Price Range Best For Taste of the Wild High Prairie Canine Grain-Free Recipe with Roasted Bison and Venison Adult Dry Dog Food, Made with High Protein from Real Meat and Guaranteed Nutrients and Probiotics 28lb 32% protein with water buffalo, bison, venison K9 Strain probiotics, ancestral diet inspiration $20-59 (5-28 lb) Dogs needing wild protein variety Taste of The Wild Pacific Stream Grain-Free Dry Dog Food With Smoke-Flavored Salmon 28lb",
+      "responseTimeMs": 16454,
+      "brandMentions": [
+        {
+          "brand": "Taste of the Wild",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 67,
+      "query": "Natural Balance vs Wellness",
+      "success": true,
+      "response": "{} Products Protein Focus Special Features Price Range Best For Natural Balance Limited Ingredient Adult Grain-Free Dry Dog Food, Reserve Duck & Potato Recipe, 22 Pound (Pack of 1) Single protein source (duck) for muscle maintenance Grain-free with",
+      "responseTimeMs": 15847,
+      "brandMentions": [
+        {
+          "brand": "Natural Balance",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 68,
+      "query": "Purina vs Iams dog food",
+      "success": true,
+      "response": "{} Products Protein Content Special Features Price Range Best For Purina Pro Plan Complete Essentials Shredded Blend Chicken and Rice Dog Food Dry Formula with Probiotics for Dogs - 15 lb. High protein with chicken first Live probiotics, shredded blend texture $41 (15 lb) Dogs wanting texture variety with digestive support",
+      "responseTimeMs": 15723,
+      "brandMentions": [
+        {
+          "brand": "Purina",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 69,
+      "query": "Canidae vs Orijen",
+      "success": true,
+      "response": "{} Products Protein Content Special Features Price Range Best For Canidae All Life Stages Multi-Protein Recipe with Chicken, Turkey, Lamb, and Fish – High Protein Premium Dry Dog Food for All Ages, Breeds, and Sizes– 27 lbs. Real chicken first with 5 animal protein sources HealthPlus Solutions for 5-in-1 health support $50 (27 lb) Multi-dog families needing one food for all life stages Canidae Pure Farm to Bowl, Grain-Free, Wild-Caught Salmon & Sweet Potato Dog Food, Adult 22lb Wild-caught salmon with limited ingredients 10 or fewer ingredients for sensitive stomachs $52 (22 lb) Dogs with food sensitivities or allergies ORIJEN Grain Free High Protein Dry Dog Food Original Recipe 4.5lb Bag",
+      "responseTimeMs": 15807,
+      "brandMentions": [
+        {
+          "brand": "Canidae",
+          "count": 2
+        },
+        {
+          "brand": "Orijen",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 70,
+      "query": "Natural Balance limited ingredient vs other LID brands",
+      "success": true,
+      "response": "{} Products Protein Source Key Features Price Range Best For Natural Balance Limited Ingredient Adult Dry Dog Food with Healthy Grains, Lamb & Brown Rice Recipe, 24 Pound (Pack of 1) Lamb first with brown rice Healthy grains, glucosamine from lamb meal $73 (24 lb) Dogs needing",
+      "responseTimeMs": 18176,
+      "brandMentions": [
+        {
+          "brand": "Natural Balance",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 71,
+      "query": "is Blue Buffalo better than Natural Balance",
+      "success": true,
+      "response": "{} Compare specific formulas Which for sensitive stomachs?",
+      "responseTimeMs": 13860,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 72,
+      "query": "Nutro vs Natural Balance",
+      "success": true,
+      "response": "{} Both Nutro and Natural Balance are reputable brands with different strengths - here's how they compare for your dog's needs: Nutro Strengths: \"Feed Clean\" Philosophy: Non-GMO ingredients with no chicken by-product meal, corn, wheat, or soy Wide Product Range: Ultra (trio proteins + superfoods), Natural Choice (single protein), and Limited Ingredient lines Quality Control: Made in USA facilities with globally sourced ingredients Value: Generally more affordable while maintaining quality standards Natural Balance Strengths: Limited Ingredient Expertise: Pioneer in LID formulas - simpler ingredient lists for sensitive dogs \"Feed with Confidence\": Rigorous",
+      "responseTimeMs": 13247,
+      "brandMentions": [
+        {
+          "brand": "Natural Balance",
+          "count": 2
+        },
+        {
+          "brand": "Nutro",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 73,
+      "query": "best limited ingredient dog food brands compared",
+      "success": true,
+      "response": "{}       Brand Key Strengths Main Protein Sources Price Range Best For     Wellness Simple Natural prebiotics, high protein, no fillers Turkey, Lamb, Salmon $85 (26 lbs) General sensitivities, grain-free needs",
+      "responseTimeMs": 15000,
+      "brandMentions": [
+        {
+          "brand": "Wellness",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 74,
+      "query": "premium dog food brand comparison",
+      "success": true,
+      "response": "{} Brand Philosophy & Approach Key Strengths Best For ORIJEN Biologically appropriate with 85% animal ingredients WholePrey ratios with organs/bones, freeze-dried coating, made in USA facilities Dogs needing ancestral-style nutrition with maximum protein content ACANA 60-70% quality animal ingredients with wholesome grains More affordable than ORIJEN while maintaining high standards, diverse protein options Budget-conscious owners wanting premium nutrition without ultra-premium pricing Wellness CORE Grain-free philosophy with 34-50% high-quality protein Extensive recipe variety, proven digestive health support, comprehensive vitamin/mineral profiles Dogs with grain sensitivities or owners preferring established American premium brand Merrick Backcountry Holistic blend of kibble + freeze-dried raw pieces Unique texture combination, made in USA, joint support ingredients included Dogs who benefit from raw nutrition but prefer kibble convenience Taste of the Wild",
+      "responseTimeMs": 17781,
+      "brandMentions": [
+        {
+          "brand": "Orijen",
+          "count": 2
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Acana",
+          "count": 1
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 75,
+      "query": "best dog treats for training",
+      "success": true,
+      "response": "{} Here are excellent training treats that will help you build a strong bond with your dog and make training sessions successful:",
+      "responseTimeMs": 20231,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 76,
+      "query": "healthiest dog treats",
+      "success": true,
+      "response": "{} Looking for the healthiest dog treats? Here are some exceptional options that prioritize nutrition, natural ingredients, and your pup's well-being:",
+      "responseTimeMs": 17267,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 77,
+      "query": "best dental chews for dogs",
+      "success": true,
+      "response": "{} Here are excellent dental chews that will help keep your dog's teeth clean and breath fresh:",
+      "responseTimeMs": 18628,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 78,
+      "query": "best natural dog treats",
+      "success": true,
+      "response": "{} Here are some excellent natural dog treat options that prioritize wholesome ingredients and your pup's health:",
+      "responseTimeMs": 16231,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 79,
+      "query": "best dog treats for sensitive stomachs",
+      "success": true,
+      "response": "{} Here are excellent dog treats specifically formulated for sensitive stomachs, focusing on gentle ingredients and easy digestion:",
+      "responseTimeMs": 15880,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 80,
+      "query": "best low calorie dog treats",
+      "success": true,
+      "response": "{} Here are excellent low-calorie dog treats perfect for keeping your pup healthy while rewarding good behavior:",
+      "responseTimeMs": 16919,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 81,
+      "query": "best grain free dog treats",
+      "success": true,
+      "response": "{} Here are excellent grain-free dog treats featuring natural ingredients and wholesome nutrition:",
+      "responseTimeMs": 16163,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 82,
+      "query": "best dog treats for puppies",
+      "success": true,
+      "response": "{} Here are excellent puppy treat options designed specifically for their developing needs and smaller size:",
+      "responseTimeMs": 15056,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 83,
+      "query": "best long lasting dog chews",
+      "success": true,
+      "response": "{} Here are some excellent long-lasting chew options organized by type to keep your dog happily occupied:",
+      "responseTimeMs": 16111,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 84,
+      "query": "best single ingredient dog treats",
+      "success": true,
+      "response": "{} Here are excellent single-ingredient dog treats that are perfect for dogs with allergies, sensitive stomachs, or those following elimination diets:",
+      "responseTimeMs": 17205,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 85,
+      "query": "best cat food brands",
+      "success": true,
+      "response": "{} Here are the best cat food brands that offer excellent nutrition and quality across different price ranges:",
+      "responseTimeMs": 14860,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 86,
+      "query": "best wet cat food",
+      "success": true,
+      "response": "{} Wellness, Cat Food Pouch Healthy Indulgence Chicken Turkey Gravy, 3 Ounce Price, product page$1.99$1.99 ($0.66$0.66/ounce)wespawpets.comShop direct {} Wellness Healthy Indulgence with chicken and turkey in gravy, grain-free More details (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/11mVszy8FIL._RC|41k9TQrnHzL.js,21cuxCuJB9L.js_.js?PUISClients/AmazonRushFramework'); P.now('aapi-token-puis').execute('register-csrf-token', function(token) { if (!token) { P.declare('aapi-token-puis', \"1@gyQViS\\/h7kzPRKbVCKqxt9ZDnHW2K1UaKCmo\\/MA3rPClAAAAAQAAAABpdqcccmF3AAAAAGfA1H5nd8xGEcC31DKLNw==@KDFC4Z\"); } }); {\"SEARCH_EUSTORES_PUIS_COLOR_SWATCHES_BORDER_OPACITY_MEASUREMENT_1320527\":\"C\",\"SEARCH_SES_FOS_SAF_TYPOGRAPHY_DESKTOP_1289331\":\"C\",\"SEARCH_SCX_WPX_OAM_BADGE_A11Y_1360132\":\"C\",\"SEARCH_532653\":\"C\",\"SEARCH_MAF_EE_GATING_707463\":\"C\",\"SEARCH_SCX_WPX_OAM_CTA_1217867\":\"C\",\"SEARCH_SCX_SAI_AFO_TEMPLATES_1301593\":\"C\",\"SEARCH_SCX_DEX_PUIS_CSRF_TOKEN_1185878\":\"T1\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_MOBILE_876944\":\"C\",\"F3_STEPPER_SYNC_ASSETS_918718\":\"C\",\"SEARCH_SCX_HDM_TO_DV3_MIGRATION_FRONTEND_1281235\":\"C\",\"SEARCH_SES_BADGE_MVT_GATING_965313\":\"C\",\"SEARCH_SCX_HAUL_ATC_ON_DOMESTIC_ASIN_1341210\":\"T1\",\"SEARCH_SCX_CP_IMG_ACTION_1294581\":\"T1\",\"SEARCH_EUSTORES_ATC_SW_INTEGRATION_FALLBACK_GATING_1052045\":\"C\",\"SEARCH_F3_ALM_CART_ACTION_ASSETS_NPM_IMPORT_955056\":\"C\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_DESKTOP_876938\":\"C\",\"SEARCH_WWGS_MBSB_A11Y_DEFECT_FIX_GATING_1358608\":\"C\",\"SEARCH_VS_PREVIEW_AUTO_CROP_1226514\":\"T1\",\"SEARCH_IN_PHARMACY_MLT_960375\":\"C\",\"SEARCH_VS_MLT_TEXT_INGRESS_1119272_PHASE2_1308055\":\"C\",\"SEARCH_VIDEO_FACEOUT_FRONTEND_LEVER_PHASE2_492845\":\"C\",\"SEARCH_SCX_HAUL_ATC_1283682\":\"T1\",\"BW_PUI_AMAZONIMAGE_1028570\":\"C\",\"SEARCH_WWGS_QUANTITY_STEPPER_STATUS_BADGE_TOGGLE_1003886\":\"C\",\"SEARCH_WWGS_SAVES_ASSETS_839792\":\"C\",\"F3_WFMOAC_CUSTOM_CAKE_GATING_754771\":\"C\",\"SEARCH_INLINE_FANSHOP_PUI_ASSETS_1339009\":\"C\",\"SEARCH_EUSTORES_PUIS_MGM_GATING_1244964\":\"C\",\"SEARCH_SCX_AB_1282121\":\"C\",\"SEARCH_WWGS_PICKUP_REFINEMENT_988425\":\"C\",\"SEARCH_SCX_WPX_OAM_1349971\":\"T1\",\"SEARCH_VS_EXP_AR_INGRESS_EXPANSION_1189564\":\"C\",\"P13N_BADGEX_PUI_CAPSULE_1157018\":\"T1\",\"SEARCH_BAZAAR_ATC_BUTTON_ON_CORE_1243894\":\"T1\",\"SEARCH_EUSTORES_PUIS_COLORSWATCHES_INTERACTIVITY_ACCESSIBILITY_MEASUREMENT_1334549\":\"C\",\"SEARCH_VS_3D_VIDEO_1251281\":\"C\",\"SEARCH_SCX_AB_1099759\":\"C\",\"SEARCH_382092\":\"T1\",\"SEARCH_SCX_COPILOT_SUPPRESS_MLT_ANIMATION_1334637\":\"C\",\"SEARCH_EUSTORES_PUIS_ATD_TOOLTIP_SHOPPINGAIDS_MEASUREMENT_1335106\":\"T1\",\"SEARCH_BUYX_ICDP_PREFETCH_1272207\":\"T1\",\"SEARCH_EUSTORES_PUIS_ATC_CUSTOM_ASINS_EXPANSION_ASSETS_GATING_1337162\":\"C\",\"SEARCH_SES_FOS_DP_PRICING_MVT_976179\":\"C\",\"SEARCH_SCX_PUIS_COPILOT_GATING_1279652\":\"T1\",\"SEARCH_SCX_PROMOTIONS_ASSET_GATING_1309732\":\"T1\",\"SEARCH_RUFUS_ASIN_INGRESS_1207023\":\"C\",\"AXIOM_LISTS_PUI_HEART_LIST_ACTION_SUB_RESOURCE_ENABLED_1319041\":\"C\",\"SEARCH_SCX_1176766\":\"T1\",\"SEARCH_WWGS_PUIS_ISM_SAVE_TO_LIST_ASSET_GATING_1119626\":\"C\",\"SEARCH_BAZAAR_PROPOSITION_BADGE_1284096\":\"C\",\"SEARCH_FOS_REVIEW_BLOCK_CSS_GATING_715873\":\"C\",\"SEARCH_VS_VIDEO_1182816\":\"C\"}window.AmazonUIPageJS && window.AmazonUIPageJS.when('puis-enable-treatments-for-render').execute(function (enableRenderId) { enableRenderId('r1d87l3jzz2ns22v6ccgj389skx'); });",
+      "responseTimeMs": 13135,
+      "brandMentions": [
+        {
+          "brand": "Amazon",
+          "count": 7
+        },
+        {
+          "brand": "Wellness",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 87,
+      "query": "best dry cat food",
+      "success": true,
+      "response": "{} Here are the best dry cat food brands that offer excellent nutrition and quality across different price ranges:",
+      "responseTimeMs": 12754,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 88,
+      "query": "best cat food for indoor cats",
+      "success": true,
+      "response": "{} Here are the best cat food options specifically formulated for indoor cats, organized by type and quality level:",
+      "responseTimeMs": 13546,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 89,
+      "query": "best cat food for sensitive stomach",
+      "success": true,
+      "response": "{} Here are the best cat food options specifically formulated for sensitive stomachs, featuring gentle ingredients and digestive support:",
+      "responseTimeMs": 18537,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 90,
+      "query": "best grain free cat food",
+      "success": true,
+      "response": "{} Here are the best grain-free cat food options, featuring high-quality proteins and natural ingredients without grains:",
+      "responseTimeMs": 19491,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 91,
+      "query": "best senior cat food",
+      "success": true,
+      "response": "{} Hill's Science Diet Adult 7+ Senior Vitality Chicken & Rice Recipe Dry Cat Food, 13 lbs. Price, product page$64.99$64.99 ($5.00$5.00/lb)petsense.comShop direct {} Hill's Science Diet 7+ with proprietary blend to support brain health, energy, and vitality More details (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/11mVszy8FIL._RC|41k9TQrnHzL.js,21cuxCuJB9L.js_.js?PUISClients/AmazonRushFramework'); P.now('aapi-token-puis').execute('register-csrf-token', function(token) { if (!token) { P.declare('aapi-token-puis', \"1@gwrgrb7RnKacOuXU\\/4fzeD\\/UG9lfEpPGItoadAEqFffLAAAAAQAAAABpdqelcmF3AAAAAGfA1H5nd8xGEcC31DKLNw==@KDFC4Z\"); } }); {\"SEARCH_EUSTORES_PUIS_COLOR_SWATCHES_BORDER_OPACITY_MEASUREMENT_1320527\":\"C\",\"SEARCH_SES_FOS_SAF_TYPOGRAPHY_DESKTOP_1289331\":\"C\",\"SEARCH_SCX_WPX_OAM_BADGE_A11Y_1360132\":\"C\",\"SEARCH_532653\":\"C\",\"SEARCH_MAF_EE_GATING_707463\":\"C\",\"SEARCH_SCX_WPX_OAM_CTA_1217867\":\"C\",\"SEARCH_SCX_SAI_AFO_TEMPLATES_1301593\":\"C\",\"SEARCH_SCX_DEX_PUIS_CSRF_TOKEN_1185878\":\"T1\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_MOBILE_876944\":\"C\",\"F3_STEPPER_SYNC_ASSETS_918718\":\"C\",\"SEARCH_SCX_HDM_TO_DV3_MIGRATION_FRONTEND_1281235\":\"C\",\"SEARCH_SES_BADGE_MVT_GATING_965313\":\"C\",\"SEARCH_SCX_HAUL_ATC_ON_DOMESTIC_ASIN_1341210\":\"T1\",\"SEARCH_SCX_CP_IMG_ACTION_1294581\":\"T1\",\"SEARCH_EUSTORES_ATC_SW_INTEGRATION_FALLBACK_GATING_1052045\":\"C\",\"SEARCH_F3_ALM_CART_ACTION_ASSETS_NPM_IMPORT_955056\":\"C\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_DESKTOP_876938\":\"C\",\"SEARCH_WWGS_MBSB_A11Y_DEFECT_FIX_GATING_1358608\":\"C\",\"SEARCH_VS_PREVIEW_AUTO_CROP_1226514\":\"T1\",\"SEARCH_IN_PHARMACY_MLT_960375\":\"C\",\"SEARCH_VS_MLT_TEXT_INGRESS_1119272_PHASE2_1308055\":\"C\",\"SEARCH_VIDEO_FACEOUT_FRONTEND_LEVER_PHASE2_492845\":\"C\",\"SEARCH_SCX_HAUL_ATC_1283682\":\"T1\",\"BW_PUI_AMAZONIMAGE_1028570\":\"C\",\"SEARCH_WWGS_QUANTITY_STEPPER_STATUS_BADGE_TOGGLE_1003886\":\"C\",\"SEARCH_WWGS_SAVES_ASSETS_839792\":\"C\",\"F3_WFMOAC_CUSTOM_CAKE_GATING_754771\":\"C\",\"SEARCH_INLINE_FANSHOP_PUI_ASSETS_1339009\":\"C\",\"SEARCH_EUSTORES_PUIS_MGM_GATING_1244964\":\"C\",\"SEARCH_SCX_AB_1282121\":\"C\",\"SEARCH_WWGS_PICKUP_REFINEMENT_988425\":\"C\",\"SEARCH_SCX_WPX_OAM_1349971\":\"T1\",\"SEARCH_VS_EXP_AR_INGRESS_EXPANSION_1189564\":\"C\",\"P13N_BADGEX_PUI_CAPSULE_1157018\":\"T1\",\"SEARCH_BAZAAR_ATC_BUTTON_ON_CORE_1243894\":\"T1\",\"SEARCH_EUSTORES_PUIS_COLORSWATCHES_INTERACTIVITY_ACCESSIBILITY_MEASUREMENT_1334549\":\"C\",\"SEARCH_VS_3D_VIDEO_1251281\":\"C\",\"SEARCH_SCX_AB_1099759\":\"C\",\"SEARCH_382092\":\"T1\",\"SEARCH_SCX_COPILOT_SUPPRESS_MLT_ANIMATION_1334637\":\"C\",\"SEARCH_EUSTORES_PUIS_ATD_TOOLTIP_SHOPPINGAIDS_MEASUREMENT_1335106\":\"T1\",\"SEARCH_BUYX_ICDP_PREFETCH_1272207\":\"T1\",\"SEARCH_EUSTORES_PUIS_ATC_CUSTOM_ASINS_EXPANSION_ASSETS_GATING_1337162\":\"C\",\"SEARCH_SES_FOS_DP_PRICING_MVT_976179\":\"C\",\"SEARCH_SCX_PUIS_COPILOT_GATING_1279652\":\"T1\",\"SEARCH_SCX_PROMOTIONS_ASSET_GATING_1309732\":\"T1\",\"SEARCH_RUFUS_ASIN_INGRESS_1207023\":\"C\",\"AXIOM_LISTS_PUI_HEART_LIST_ACTION_SUB_RESOURCE_ENABLED_1319041\":\"C\",\"SEARCH_SCX_1176766\":\"T1\",\"SEARCH_WWGS_PUIS_ISM_SAVE_TO_LIST_ASSET_GATING_1119626\":\"C\",\"SEARCH_BAZAAR_PROPOSITION_BADGE_1284096\":\"C\",\"SEARCH_FOS_REVIEW_BLOCK_CSS_GATING_715873\":\"C\",\"SEARCH_VS_VIDEO_1182816\":\"C\"}window.AmazonUIPageJS && window.AmazonUIPageJS.when('puis-enable-treatments-for-render').execute(function (enableRenderId) { enableRenderId('r1e6kd2oxw8fel26c86gvxmlta4'); }); (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://m.media-amazon.com/images/I/112x1Qjn5tL._RC|01HCHuzDdcL.js,41ns5+RXugL.js,01SSs1udVFL.js,21Rcsl7Fo7L.js,21IHmLveSuL.js,11o1UsgynwL.js,31uGKJgK-gL.js,31-3l5RTCeL.js,01Oi+MtiDrL.js,21kPFkdu31L.js,11wtlUYYJVL.js,41Py0rc3wKL.js,2167LESqy-L.js,71O+YmfpSVL.js_.js?AUIClients/ProductUIServiceAssets-vnp5jk0p0a5y72qpfosuwuvsnx');",
+      "responseTimeMs": 15726,
+      "brandMentions": [
+        {
+          "brand": "Amazon",
+          "count": 10
+        },
+        {
+          "brand": "Hill's",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 92,
+      "query": "best kitten food",
+      "success": true,
+      "response": "{} Here are excellent kitten food options specifically formulated for healthy growth and development during the first year of life:",
+      "responseTimeMs": 13280,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 93,
+      "query": "best limited ingredient cat food",
+      "success": true,
+      "response": "{} Here are excellent limited ingredient cat food options specifically designed for cats with sensitive stomachs and food allergies:",
+      "responseTimeMs": 15964,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 94,
+      "query": "best natural cat food brands",
+      "success": true,
+      "response": "{} Here are the best natural cat food brands known for their high-quality ingredients and ethical sourcing:",
+      "responseTimeMs": 17973,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 95,
+      "query": "what ingredients to avoid in dog food",
+      "success": true,
+      "response": "{} Harmful Chemical Additives: BHA, BHT, and Ethoxyquin - Synthetic preservatives linked to cancer and liver damage Propylene Glycol - Can cause red blood cell damage and is toxic in large amounts Artificial Colors (Red Dye #40, Yellow #5, Blue #2) - Unnecessary additives that may cause allergic reactions Low-Quality Protein Sources: By-products and Meals - Undefined animal parts that lack nutritional transparency Meat and Bone Meal - Generic terms that don't specify the animal source 4-D Meat (Dead, Diseased, Dying, Disabled animals) - Often found in low-grade pet foods Problematic Fillers and Grains: Corn, Wheat, and Soy - Common allergens that provide little nutritional value Corn Syrup and High Fructose Corn Syrup - Empty calories that can lead to obesity and diabetes Excessive Carbohydrate Fillers - Rice hulls, peanut shells, and cellulose Dangerous Additives: Sodium Selenite - Toxic form of selenium that can cause poisoning Menadione (Vitamin K3) - Synthetic vitamin linked to liver toxicity Rendered Fat - Generic fat sources that may be rancid or contaminated Red Flag Ingredients: Sugar and Sweeteners - Unnecessary and can contribute to dental problems Excessive Salt - Can lead to kidney problems and high blood pressure Generic \"Animal Fat\" - Unspecified fat sources",
+      "responseTimeMs": 12611,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 96,
+      "query": "is grain free dog food bad for dogs",
+      "success": true,
+      "response": "{} Grain-free dog food isn't inherently bad, but there are important considerations based on recent veterinary research: The DCM Connection: The FDA investigated a potential link between grain-free diets and dilated cardiomyopathy (DCM), a heart condition Most cases involved diets with high levels of peas, lentils, and potatoes as primary ingredients The exact cause remains unclear, but it may be related to taurine deficiency or other nutritional imbalances When Grain-Free May Be Beneficial: Dogs with confirmed grain allergies (relatively rare - only 10% of food allergies) Dogs with celiac-like conditions or specific grain sensitivities As part of an elimination diet under veterinary guidance When Grain-Free Isn't Necessary: Most dogs digest grains well and benefit from their nutrients Whole grains provide fiber, B vitamins, and energy Many perceived \"grain allergies\" are actually protein sensitivities What Veterinarians Recommend: Choose foods meeting AAFCO nutritional standards Look for brands with extensive feeding",
+      "responseTimeMs": 12051,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 97,
+      "query": "best protein sources for dog food",
+      "success": true,
+      "response": "{} Here are the best protein sources for dog food, ranked by nutritional quality and digestibility: Premium Single Proteins: Deboned Chicken - Highly digestible, complete amino acid profile, most dogs tolerate well Wild-Caught Salmon - Rich in omega-3 fatty acids for coat and brain health Lamb - Excellent for dogs with chicken sensitivities, rich in zinc and B vitamins Turkey - Lean protein with lower fat content, good for weight management Beef - High in iron and B vitamins, though some dogs may be sensitive Alternative Quality Proteins: Duck - Novel protein for dogs with common food allergies Venison - Lean, nutrient-dense option for sensitive dogs Fish Meal (specifically named like \"salmon meal\") - Concentrated protein source Rabbit - Hypoallergenic option for elimination diets What Makes a Good Protein Source: Named sources (chicken, not \"poultry\") First ingredient on the label Multiple protein sources for amino acid variety Biological value - how well dogs can use the protein Proteins to Avoid: Generic \"meat meal\" or \"animal by-products\" Unnamed protein",
+      "responseTimeMs": 13259,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 98,
+      "query": "how to read dog food labels",
+      "success": true,
+      "response": "{} Reading dog food labels correctly is crucial for choosing quality nutrition. Here's your step-by-step guide: 1. Start With the Ingredient List: Ingredients are listed by weight (heaviest first) First 5 ingredients make up most of the food Look for named protein as #1 (chicken, salmon, beef - not \"meat meal\") Avoid vague terms like \"poultry by-products\" or \"animal digest\" 2. Decode the Guaranteed Analysis: Crude Protein: Minimum % (adult dogs need 18%, puppies 22%) Crude Fat: Minimum % (adult dogs need 5%, puppies 8%) Crude Fiber: Maximum % (usually 2-4%) Moisture: Maximum % (dry food typically 10-12%) 3. Check the AAFCO Statement: Look for: \"Complete and balanced for [life stage]\" Feeding trials are better than \"formulated to meet\" standards Confirms the food meets nutritional requirements 4. Red Flag Terms to Avoid: \"By-products\" (undefined animal parts) \"Meal\" without specifying the source Chemical preservatives (BHA, BHT, ethoxyquin) Excessive corn, wheat, soy",
+      "responseTimeMs": 10731,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 99,
+      "query": "what makes a dog food high quality",
+      "success": true,
+      "response": "{} Here are the key factors that distinguish high-quality dog food from lower-grade options: Premium Ingredients: Named protein sources as the first ingredient (chicken, salmon, beef - not \"meat meal\") Whole food ingredients you can recognize and pronounce Limited, quality ingredients rather than long lists of fillers Human-grade or food-grade ingredients when possible Manufacturing Standards: AAFCO feeding trials (not just \"formulated to meet\" standards) Made in facilities with human food safety standards Third-party testing for contaminants and nutritional accuracy Consistent sourcing from trusted suppliers Nutritional Excellence: Appropriate protein levels for life stage (minimum 18% for adults, 22% for puppies) Named fat sources (\"chicken fat\" vs generic \"animal fat\") Natural preservatives (vitamin E, rosemary extract) instead of chemicals Added probiotics and prebiotics for digestive health What Premium Brands Do Differently: Ingredient sourcing transparency - they tell you where ingredients come from Nutritionist formulation - developed by veterinary nutritionists Quality control testing at multiple production stages Research investment in palatability and digestibility studies Red Flags of Lower Quality: Generic terms like \"poultry by-products\" or",
+      "responseTimeMs": 11322,
+      "brandMentions": []
+    }
+  ],
+  "endTime": "2026-01-25T23:34:15.275Z",
+  "analysis": {
+    "brandVisibility": {
+      "Amazon": {
+        "queriesAppearing": 15,
+        "percentOfQueries": "15.0%"
+      },
+      "Royal Canin": {
+        "queriesAppearing": 5,
+        "percentOfQueries": "5.0%"
+      },
+      "Purina": {
+        "queriesAppearing": 4,
+        "percentOfQueries": "4.0%"
+      },
+      "Orijen": {
+        "queriesAppearing": 4,
+        "percentOfQueries": "4.0%"
+      },
+      "Acana": {
+        "queriesAppearing": 4,
+        "percentOfQueries": "4.0%"
+      },
+      "Blue Buffalo": {
+        "queriesAppearing": 4,
+        "percentOfQueries": "4.0%"
+      },
+      "Wellness": {
+        "queriesAppearing": 4,
+        "percentOfQueries": "4.0%"
+      },
+      "Natural Balance": {
+        "queriesAppearing": 4,
+        "percentOfQueries": "4.0%"
+      },
+      "Hill's": {
+        "queriesAppearing": 3,
+        "percentOfQueries": "3.0%"
+      },
+      "Target": {
+        "queriesAppearing": 2,
+        "percentOfQueries": "2.0%"
+      },
+      "Merrick": {
+        "queriesAppearing": 2,
+        "percentOfQueries": "2.0%"
+      },
+      "Taste of the Wild": {
+        "queriesAppearing": 2,
+        "percentOfQueries": "2.0%"
+      },
+      "Canidae": {
+        "queriesAppearing": 1,
+        "percentOfQueries": "1.0%"
+      },
+      "Nutro": {
+        "queriesAppearing": 1,
+        "percentOfQueries": "1.0%"
+      }
+    }
+  }
+}

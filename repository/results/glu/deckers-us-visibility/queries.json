@@ -1,0 +1,278 @@
+{
+  "studyName": "Deckers Brands US AI Visibility Study",
+  "totalQueries": 100,
+  "categories": [
+    {
+      "id": "running-athletic",
+      "name": "Running/Athletic Shoes",
+      "prefix": "ra",
+      "count": 15,
+      "queries": [
+        "best running shoes 2026",
+        "most comfortable running shoes",
+        "best cushioned running shoes",
+        "best marathon running shoes",
+        "best trail running shoes",
+        "best running shoes for beginners",
+        "best running shoes for flat feet",
+        "best lightweight running shoes",
+        "best stability running shoes",
+        "top rated athletic shoes",
+        "best daily trainer running shoes",
+        "best running shoes for wide feet",
+        "best running shoes for plantar fasciitis",
+        "most durable running shoes",
+        "best carbon plate running shoes"
+      ]
+    },
+    {
+      "id": "outdoor-hiking",
+      "name": "Outdoor/Hiking",
+      "prefix": "oh",
+      "count": 12,
+      "queries": [
+        "best hiking shoes",
+        "best hiking sandals",
+        "best waterproof hiking boots",
+        "best trail shoes for hiking",
+        "best outdoor sandals",
+        "most comfortable hiking sandals",
+        "best water shoes for hiking",
+        "best lightweight hiking boots",
+        "best approach shoes",
+        "best sandals for walking trails",
+        "best adventure sandals",
+        "best all terrain shoes"
+      ]
+    },
+    {
+      "id": "boots-winter",
+      "name": "Boots & Winter",
+      "prefix": "bw",
+      "count": 12,
+      "queries": [
+        "best winter boots",
+        "best snow boots",
+        "most comfortable boots for walking",
+        "best warm boots for cold weather",
+        "best sheepskin boots",
+        "best waterproof boots",
+        "best fashion boots",
+        "best slip on boots",
+        "best ankle boots for women",
+        "coziest winter boots",
+        "best boots for snow and ice",
+        "best insulated boots"
+      ]
+    },
+    {
+      "id": "casual-lifestyle",
+      "name": "Casual/Lifestyle",
+      "prefix": "cl",
+      "count": 12,
+      "queries": [
+        "most comfortable everyday shoes",
+        "best casual sneakers",
+        "best slip on shoes",
+        "best shoes for standing all day",
+        "most comfortable slippers",
+        "best house shoes",
+        "best comfortable sandals",
+        "best walking shoes for travel",
+        "best sustainable shoes",
+        "best shoes for plantar fasciitis",
+        "most comfortable shoes 2026",
+        "best orthopedic casual shoes"
+      ]
+    },
+    {
+      "id": "brand-comparisons",
+      "name": "Brand Comparisons",
+      "prefix": "bc",
+      "count": 15,
+      "queries": [
+        "HOKA vs Brooks running shoes",
+        "HOKA vs Nike running shoes",
+        "HOKA vs On Running",
+        "UGG vs Bearpaw boots",
+        "UGG vs Koolaburra",
+        "Teva vs Chaco sandals",
+        "Teva vs Keen sandals",
+        "HOKA vs New Balance running shoes",
+        "UGG vs EMU boots",
+        "HOKA vs ASICS",
+        "Teva vs Merrell hiking sandals",
+        "UGG vs Sorel winter boots",
+        "HOKA vs Saucony",
+        "best HOKA alternatives",
+        "UGG alternatives that are cheaper"
+      ]
+    },
+    {
+      "id": "activity-use-case",
+      "name": "By Activity/Use Case",
+      "prefix": "au",
+      "count": 12,
+      "queries": [
+        "best shoes for nurses",
+        "best shoes for teachers",
+        "best shoes for walking on concrete",
+        "best shoes for travel",
+        "best shoes for long flights",
+        "best recovery shoes after running",
+        "best post-workout slides",
+        "best shoes for warehouse work",
+        "best shoes for theme parks",
+        "best shoes for back pain",
+        "best summer sandals",
+        "best beach shoes"
+      ]
+    },
+    {
+      "id": "slippers-comfort",
+      "name": "Slippers & Comfort",
+      "prefix": "sc",
+      "count": 10,
+      "queries": [
+        "best slippers for men",
+        "best slippers for women",
+        "best indoor outdoor slippers",
+        "most comfortable house slippers",
+        "best memory foam slippers",
+        "best sheepskin slippers",
+        "best slippers with arch support",
+        "best warm slippers",
+        "luxury slippers brands",
+        "best orthopedic slippers"
+      ]
+    },
+    {
+      "id": "shopping-quality",
+      "name": "Shopping/Quality",
+      "prefix": "sq",
+      "count": 12,
+      "queries": [
+        "what running shoe brands are best",
+        "most comfortable shoe brands",
+        "best shoe brands for quality",
+        "shoe brands with best arch support",
+        "shoe brands that last longest",
+        "best shoe brands for foot health",
+        "luxury shoe brands worth the money",
+        "what shoe brand do podiatrists recommend",
+        "best direct-to-consumer shoe brands",
+        "most innovative shoe brands",
+        "best sustainable shoe brands",
+        "shoe brands with best customer service"
+      ]
+    }
+  ],
+  "brandsToTrack": {
+    "client": [
+      "UGG",
+      "HOKA",
+      "Teva",
+      "Sanuk",
+      "Koolaburra"
+    ],
+    "premiumPerformance": [
+      "Nike",
+      "Adidas",
+      "New Balance",
+      "Brooks",
+      "ASICS",
+      "Saucony",
+      "On Running"
+    ],
+    "outdoorHiking": [
+      "Merrell",
+      "Salomon",
+      "Keen",
+      "Columbia",
+      "The North Face"
+    ],
+    "casualLifestyle": [
+      "Birkenstock",
+      "Crocs",
+      "Allbirds",
+      "Vans",
+      "Converse"
+    ],
+    "comfortBoot": [
+      "Timberland",
+      "Dr. Martens",
+      "Clarks",
+      "Sorel"
+    ],
+    "retailers": [
+      "Zappos",
+      "DSW",
+      "Foot Locker",
+      "Amazon",
+      "Nordstrom",
+      "Dick's Sporting Goods"
+    ]
+  },
+  "surfaces": [
+    {
+      "id": "openai-api",
+      "name": "OpenAI GPT-4o API",
+      "type": "api",
+      "script": "run-deckers-openai-api.ts"
+    },
+    {
+      "id": "openai-responses-api",
+      "name": "OpenAI Responses API",
+      "type": "api",
+      "script": "run-deckers-openai-responses-api.ts"
+    },
+    {
+      "id": "gemini-api",
+      "name": "Google Gemini API",
+      "type": "api",
+      "script": "run-deckers-gemini-api.ts"
+    },
+    {
+      "id": "google-ai-overview",
+      "name": "Google AI Overview (SerpAPI)",
+      "type": "api",
+      "script": "run-deckers-gemini-api.ts"
+    },
+    {
+      "id": "google-organic",
+      "name": "Google Organic Search",
+      "type": "api",
+      "script": "run-deckers-bing-google-organic.ts"
+    },
+    {
+      "id": "bing-search",
+      "name": "Bing Search",
+      "type": "api",
+      "script": "run-deckers-bing-google-organic.ts"
+    },
+    {
+      "id": "chatgpt-web",
+      "name": "ChatGPT Web",
+      "type": "cdp",
+      "script": "run-deckers-chatgpt-web.ts"
+    },
+    {
+      "id": "amazon-rufus",
+      "name": "Amazon Rufus",
+      "type": "cdp",
+      "script": "run-deckers-rufus.ts"
+    }
+  ],
+  "supplementaryAnalysis": [
+    {
+      "id": "amazon-brand-stores",
+      "name": "Amazon Brand Stores Check",
+      "script": "check-deckers-amazon-brand-stores.ts"
+    },
+    {
+      "id": "brand-content-comparison",
+      "name": "Brand Content Comparison (Amazon/Zappos/Website)",
+      "script": "compare-deckers-brand-content.ts"
+    }
+  ]
+}

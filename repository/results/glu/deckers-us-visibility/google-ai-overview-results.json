@@ -1,0 +1,1778 @@
+{
+  "studyName": "Deckers Brands US Visibility Study - Google AI Overview (SerpAPI)",
+  "surface": "google-ai-overview",
+  "location": "United States",
+  "startTime": "2026-01-26T01:55:08.979Z",
+  "totalQueries": 100,
+  "successfulQueries": 77,
+  "results": [
+    {
+      "queryIndex": 0,
+      "query": "best running shoes 2026",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 238,
+      "brandMentions": [],
+      "error": "No AI Overview"
+    },
+    {
+      "queryIndex": 1,
+      "query": "most comfortable running shoes",
+      "success": true,
+      "response": "Top-rated, most comfortable running shoes for 2026 include the plush New Balance Fresh Foam X 1080 v14 for max cushion, the versatile ASICS Gel-Nimbus 27, and the responsive Puma Velocity Nitro 4. For maximum, soft, long-distance comfort, top choices are the Hoka Bondi 9 or New Balance More v5. Top Comfortable Running Shoes by Category  Key Features for Maximum Comfort  When choosing, consider if you prefer the \"max-cushion/soft\" feel of Hoka or the \"balanced/responsive\" feel of Brooks or Saucony to find your perfect match.",
+      "responseTimeMs": 49,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 2
+        },
+        {
+          "brand": "New Balance",
+          "count": 2
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        },
+        {
+          "brand": "Saucony",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 2,
+      "query": "best cushioned running shoes",
+      "success": true,
+      "response": "Top-rated cushioned running shoes for 2025-2026 emphasize a blend of high-stack comfort, impact protection, and responsiveness, with leading models including the ASICS Super Blast 2, Nike Vomero 18/Plus, and Hoka Clifton 10. These shoes offer superior comfort for daily training and long runs, balancing plush cushioning with lightweight, versatile performance. Top Cushioned Running Shoes  Key Considerations for Cushioned Shoes",
+      "responseTimeMs": 98,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 3,
+      "query": "best marathon running shoes",
+      "success": true,
+      "response": "Top 2026 marathon shoes include the Adidas Adizero Adios Pro 4 (best overall), Nike Alphafly 3 (top speed/energy return), and Hoka Rocket X 2 (best for stability). Other top contenders for race day include the Saucony Endorphin Pro 4 and PUMA Fast-R Nitro Elite 3. For marathon training, consider the Hoka Clifton 10 or New Balance FuelCell Rebel v4. Top Marathon Racing Shoes (Super Shoes)  Best Marathon Training Shoes  Key Considerations",
+      "responseTimeMs": 48,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 2
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "Adidas",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Saucony",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 4,
+      "query": "best trail running shoes",
+      "success": true,
+      "response": "The best trail running shoes depend on your needs, but top contenders include the Saucony Peregrine 15 for overall versatility, Hoka Speedgoat 6 for maximum cushion, Salomon Speedcross 6 for technical grip, and Altra Lone Peak 9 for wide feet and zero-drop comfort, with popular options also from Brooks (Cascadia), Topo Athletics (Ultraventure), and La Sportiva (Prodigio) offering excellent traction, protection, and comfort for various terrains. Top Picks Across Categories  Other Highly-Rated Options  How to Choose",
+      "responseTimeMs": 55,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "Saucony",
+          "count": 1
+        },
+        {
+          "brand": "Salomon",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 5,
+      "query": "best running shoes for beginners",
+      "success": true,
+      "response": "Top-rated running shoes for beginners in 2026 focus on comfort, cushioning, and stability to ensure an enjoyable, injury-free experience. Leading options include the versatile Asics Novablast 5, plush Brooks Ghost 17, and lightweight Hoka Clifton 10. These daily trainers offer great support for starting a running routine, whether on roads or for casual fitness. Top Beginner Running Shoe Recommendations  This video provides a detailed overview of the top beginner running shoes for 2026:1mEDDBUDYouTube • Dec 30, 2025 Key Considerations for Beginners",
+      "responseTimeMs": 53,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 6,
+      "query": "best running shoes for flat feet",
+      "success": true,
+      "response": "Top running shoes for flat feet, which require stability and arch support to counter overpronation, include the Brooks Adrenaline GTS 24/25, ASICS Gel-Kayano 32, and Brooks Glycerin GTS 21. These models feature supportive GuideRails technology, firm midsoles, and cushioned, wide bases to reduce strain and prevent inward rolling of the foot. Top Recommended Running Shoes for Flat Feet  Key Features to Look For  These shoes often come in wide widths to accommodate the natural shape of flat feet.",
+      "responseTimeMs": 54,
+      "brandMentions": [
+        {
+          "brand": "Brooks",
+          "count": 2
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 7,
+      "query": "best lightweight running shoes",
+      "success": true,
+      "response": "Top lightweight running shoes for 2026 include the speedy Nike Vaporfly 4, versatile Saucony Kinvara 16, and responsive Hoka Mach 6 for daily training. For top-tier speed, the ASICS Metaspeed Sky Tokyo and Adidas Adizero Adios Pro Evo 2 offer ultra-light performance. Here are the best lightweight running shoes by category: Best Everyday Lightweight Trainers  This video provides a detailed review of the Hoka Mach 6:1mRunna TVYouTube • Jan 19, 2026 Best Tempo and Speed Shoes  Best Lightweight Racing Shoes  Best Lightweight Trail Shoes  Best Budget Lightweight  Key Considerations",
+      "responseTimeMs": 50,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 2
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "Adidas",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        },
+        {
+          "brand": "Saucony",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 8,
+      "query": "best stability running shoes",
+      "success": true,
+      "response": "Top stability running shoes for 2025–2026 include the ASICS GEL-Kayano 31 for max cushioning, Brooks Adrenaline GTS 24 for reliable GuideRail support, and Saucony Tempus for lightweight speed. These models excel at preventing overpronation while providing comfort for high-mileage training. Here are the top picks by category based on 2025/2026 reviews: Best Stability Running Shoes  Key Technologies to Look For  Choosing the Right Stability Shoe  Note: The Brooks Adrenaline GTS 23 is also still highly regarded as a top option.",
+      "responseTimeMs": 133,
+      "brandMentions": [
+        {
+          "brand": "Brooks",
+          "count": 2
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        },
+        {
+          "brand": "Saucony",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 9,
+      "query": "top rated athletic shoes",
+      "success": true,
+      "response": "Top-rated athletic shoes vary by activity, but popular choices include the Nike Pegasus 41 (overall running), Nike Metcon 10 or Reebok Nano X5 (CrossFit/HIIT), On Cloud X 4 (all-around gym/walking), and ASICS GEL-Nimbus 27 (max cushioning running), praised for versatility, support, cushioning, or specific training needs like weightlifting or agility. Key factors are stability for lifting (Metcon, Nano) versus cushioning for running (GEL-Nimbus, Pegasus). For Running & All-Around Training:  For Weightlifting & CrossFit (Stability Focused):  For Comfort & Wide Feet:  Key Considerations When Choosing:",
+      "responseTimeMs": 139,
+      "brandMentions": [
+        {
+          "brand": "Nike",
+          "count": 2
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 10,
+      "query": "best daily trainer running shoes",
+      "success": true,
+      "response": "The top daily trainer running shoes for 2025-2026 are highlighted by the versatile, lightweight Adidas Adizero Evo SL, the energetic New Balance Rebel v5, and the durable, bouncy Puma Velocity Nitro 4. These options provide a blend of comfort, durability, and responsiveness, making them ideal for daily miles, long runs, and moderate tempo work. Top 2025-2026 Daily Trainers  This video offers a comparison of the top daily running shoes:1mBelieve in the RunYouTube • Jan 3, 2026 These shoes are chosen for their ability to balance comfort with responsiveness, ensuring they can handle both slow, easy days and faster-paced training runs.",
+      "responseTimeMs": 48,
+      "brandMentions": [
+        {
+          "brand": "Adidas",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 11,
+      "query": "best running shoes for wide feet",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 81,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 12,
+      "query": "best running shoes for plantar fasciitis",
+      "success": true,
+      "response": "Top-rated running shoes for plantar fasciitis in 2025 emphasize maximum cushioning, arch support, and structural stability to reduce heel pain, with top recommendations including the Hoka Bondi 9, Brooks Adrenaline GTS 24, and ASICS Gel-Kayano 32. These shoes typically feature a, rocker-bottom sole, and firm heel counters to minimize stress on the plantar fascia tissue. Here are the top running shoes for plantar fasciitis based on category: Best Maximum Cushion & Comfort  Best Stability & Support  Best Neutral & Lightweight  Key Features to Look For  Disclaimer: It is recommended to consult a podiatrist for a personalized recommendation based on your specific foot type and pain severity.",
+      "responseTimeMs": 46,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 13,
+      "query": "most durable running shoes",
+      "success": true,
+      "response": "Top durable running shoes for 2025/2026 include the Adidas Adizero EVO SL, ASICS Novablast 5, and Saucony Ride 18, often recognized for their long-lasting foam and robust outsoles. For maximum longevity, Mizuno and Asics are highly regarded, while shoes with Graphene, like those from Inov-8, are designed to last over 1,000 miles. Top Durable Road Running Shoes  Key Factors for Durable Shoes  Top Durable BrandsBased on user experiences and industry testing, the most durable brands include:",
+      "responseTimeMs": 49,
+      "brandMentions": [
+        {
+          "brand": "ASICS",
+          "count": 2
+        },
+        {
+          "brand": "Adidas",
+          "count": 1
+        },
+        {
+          "brand": "Saucony",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 14,
+      "query": "best carbon plate running shoes",
+      "success": true,
+      "response": "Top carbon-plated running shoes for 2026 include the marathon-focused Nike Alphafly 3 and Adidas Adizero Adios Pro Evo 2, alongside the versatile Puma Deviate Nitro Elite 3 and stable Saucony Endorphin Pro 4. These shoes maximize energy return and speed for race day, with options like the HOKA Rocket X 2 providing excellent, snappy cushioning for long distances. Top Carbon Plate Racing Shoes (Marathon & Long Distance)  This video highlights some of the best carbon-plated racing shoes for various race distances:49sBen Is RunningYouTube • May 25, 2025 Best for Performance Training & Comfort  Best Carbon Plate Trail Running Shoes  Key ConsiderationsCarbon-plated shoes are designed for speed, typically featuring a stiff, curved plate and high-stack, responsive foam. While many are designed for top-tier racing, options like the HOKA Rocket X 2 or New Balance SuperComp Elite v4 offer a more forgiving, yet still fast, experience.",
+      "responseTimeMs": 69,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 2
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "Adidas",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Saucony",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 15,
+      "query": "best hiking shoes",
+      "success": true,
+      "response": "Top-rated hiking shoes for 2026 include the versatile Salomon X Ultra 5 GTX, comfortable HOKA Anacapa 2 Low GTX, and durable Merrell Moab 3. For trail runners, the HOKA Speedgoat 6 offers top traction, while Topo Athletic Ultraventure 4 excels in comfort. These options provide superior grip, durability, and support for varied terrain. Top Hiking Shoes & Trail Runners of 2026  Key Considerations  For maximum comfort, users recommend trying on shoes to ensure proper fit, specifically looking for adequate toe room and no heel slippage.",
+      "responseTimeMs": 52,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 2
+        },
+        {
+          "brand": "Merrell",
+          "count": 1
+        },
+        {
+          "brand": "Salomon",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 16,
+      "query": "best hiking sandals",
+      "success": true,
+      "response": "Top-rated hiking sandals for 2025-2026 include the versatile Bedrock Cairn Evo 3D Pro (best overall/rugged) and comfortable Chaco Z/1 Classic (best arch support). For, budget-conscious, Teva Hurricane XLT2 are top picks, while KEEN Newport H2 offer the best protection. These options provide superior traction, stability, and comfort for varied terrain and water-based treks. Top Hiking Sandals by Category  Key Features to Consider  Popular Brand Reliability",
+      "responseTimeMs": 75,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "Teva",
+          "count": 1
+        },
+        {
+          "brand": "Keen",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 17,
+      "query": "best waterproof hiking boots",
+      "success": true,
+      "response": "Top-rated waterproof hiking boots for 2026 include the Salomon Quest 4 GTX (best overall), Scarpa Rush Trk GTX (best for backpacking), and KEEN Targhee IV Mid WP (best for wide feet), featuring durable waterproofing and, in many cases, Gore-Tex liners to ensure dry feet in wet conditions. These options provide superior protection, comfort, and traction for diverse terrains, with prices ranging from $145 to $280. This video provides a look at some of the top-rated waterproof hiking boots:57sTactical EmpireYouTube • May 21, 2025 Top Waterproof Hiking Boots by Category  Top Winter Waterproof Boots  Key Considerations",
+      "responseTimeMs": 57,
+      "brandMentions": [
+        {
+          "brand": "Salomon",
+          "count": 1
+        },
+        {
+          "brand": "Keen",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 18,
+      "query": "best trail shoes for hiking",
+      "success": true,
+      "response": "The best hiking shoes offer a blend of comfort, support, traction, and durability, with top-rated options like the Salomon X Ultra 5 GTX (versatile overall), Hoka Anacapa 2 Low GTX (comfort king), and Merrell Moab 3 Low GTX (budget classic) consistently praised, while brands like Altra, Oboz, Topo, and La Sportiva provide excellent choices for specific needs, from wide feet to rugged technical terrain. Top Picks by Category:  Key Features to Look For:  Popular Brands:  Recommendation: Try on several pairs to find the best fit and feel for your foot shape and hiking style, as personal preference is key.",
+      "responseTimeMs": 52,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Merrell",
+          "count": 1
+        },
+        {
+          "brand": "Salomon",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 19,
+      "query": "best outdoor sandals",
+      "success": true,
+      "response": "The best outdoor sandals depend on your activity, with top picks including Keen Newport H2 for water/trail protection, Chaco Z/Cloud or Bedrock Cairn Evo for all-around hiking and support, Teva Original Universal for budget-friendly everyday use, and models from Bedrock, Astral, or Xero Shoes for minimalist/barefoot styles, all offering great traction, comfort, and durability for various outdoor adventures. Top Recommendations by Category:  Key Features to Consider:",
+      "responseTimeMs": 52,
+      "brandMentions": [
+        {
+          "brand": "Teva",
+          "count": 1
+        },
+        {
+          "brand": "Keen",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 20,
+      "query": "most comfortable hiking sandals",
+      "success": true,
+      "response": "For maximum comfort in hiking sandals, top contenders include the ECCO Offroad, known for plush midsoles and soft uppers, the Bedrock Cairn Evo 3D Pro for excellent adjustability, and the Chaco Z/1 Classic for superior arch support, though comfort varies by foot shape. The KEEN Newport H2 offers great closed-toe protection and soft cushioning, while the Teva Terra Fi 5 provides a soft upper and supportive midsole, making them great for long days. Top Picks for Comfort  Other Comfortable Options  Factors to Consider",
+      "responseTimeMs": 112,
+      "brandMentions": [
+        {
+          "brand": "Teva",
+          "count": 1
+        },
+        {
+          "brand": "Keen",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 21,
+      "query": "best water shoes for hiking",
+      "success": true,
+      "response": "The best water shoes for hiking combine, fast-drying materials, high-traction rubber outsoles, and durable toe protection to handle wet, rocky, and slippery terrain. Top options include the Salomon Tech Amphib 5 (best overall), Astral Loyak (best for grip), and Hoka Hopara (best cushioning), which allow for comfortable, secure trekking in and out of water. Top Rated Water Hiking Shoes (2025-2026)  Key Considerations  For long, heavy-duty hiking, consider using quick-drying trail runners, such as Altra Lone Peak or Hoka Speedgoat, which provide superior comfort on land while still performing well in shallow water.",
+      "responseTimeMs": 52,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 2
+        },
+        {
+          "brand": "Salomon",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 22,
+      "query": "best lightweight hiking boots",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 123,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 23,
+      "query": "best approach shoes",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 50,
+      "brandMentions": [],
+      "error": "No AI Overview"
+    },
+    {
+      "queryIndex": 24,
+      "query": "best sandals for walking trails",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 72,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 25,
+      "query": "best adventure sandals",
+      "success": true,
+      "response": "The best adventure sandals depend on your needs, but top contenders for overall performance, traction, and durability include the Chaco Z/Cloud 2, Bedrock Cairn Evo, and Teva Grand View Max, offering excellent grip and support for varied terrain, while the Keen Newport H2 excels in closed-toe protection for water activities, and minimalist options like Luna or Xero Shoes suit lighter backpacking. Best Overall & Traction  This video provides a review of the Chaco Z/Cloud 2, Bedrock Cairn, and Luna sandals:56sRose AnvilYouTube • Apr 24, 2025 Best for Water & Protection  You can see a comparison of the top hiking sandals in this video:59sPedal ForwardYouTube • Jul 28, 2022 Best Minimalist Options  This video reviews the Lems, Luna, and Bedrock sandals for backpacking:56sRose AnvilYouTube • Apr 24, 2025 Best Budget & Value  Key Features to Consider",
+      "responseTimeMs": 48,
+      "brandMentions": [
+        {
+          "brand": "Teva",
+          "count": 1
+        },
+        {
+          "brand": "Keen",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 26,
+      "query": "best all terrain shoes",
+      "success": true,
+      "response": "Top all-terrain shoes for 2026 balance durable, grippy outsoles with comfortable cushioning for mixed surfaces, with the Nike Pegasus Trail 5 (best overall), HOKA Speedgoat 6 (maximum cushion), and Salomon Speedcross 6 (best for technical/muddy terrain) leading the market. These shoes provide versatility for road-to-trail running and hiking. Here are the best all-terrain shoes based on 2026 performance reviews: Top All-Terrain Running & Walking Shoes  Key Considerations  Best All-Terrain Hiking Shoes  Note: All-terrain shoes are generally lighter than hiking boots, with average weights ranging from 9.3 oz to 12.5 oz (e.g., Hoka Tecton X 3 and Altra Olympus 6).",
+      "responseTimeMs": 78,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 2
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "Salomon",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 27,
+      "query": "best winter boots",
+      "success": true,
+      "response": "Top-rated winter boots for 2026 emphasize a balance of warmth, waterproof protection, and traction, with The North Face Chilkat V 400 (men's) and Baffin Chloe (women's) frequently ranked best overall. Key choices for extreme cold include Baffin Impact and Muck Boot Arctic Sport, while Sorel Caribou remains a durable, classic option for moderate to cold conditions. Best Winter Boots by Category  Key Features to Look For",
+      "responseTimeMs": 50,
+      "brandMentions": [
+        {
+          "brand": "The North Face",
+          "count": 1
+        },
+        {
+          "brand": "Sorel",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 28,
+      "query": "best snow boots",
+      "success": true,
+      "response": "Top-rated snow boots for 2026, combining warmth, waterproof protection, and traction, include the North Face Chilkat V 400 (best overall), Baffin Chloe (best women's), and Muck Boot Arctic Ice (best for extreme cold/slush). Other top choices feature Sorel Joan of Arctic for style, Kamik Nation Plus for value, and Blundstone All-Terrain for versatility. Top Snow Boot Recommendations (2026)  Key Considerations",
+      "responseTimeMs": 52,
+      "brandMentions": [
+        {
+          "brand": "The North Face",
+          "count": 1
+        },
+        {
+          "brand": "Sorel",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 29,
+      "query": "most comfortable boots for walking",
+      "success": true,
+      "response": "The most comfortable walking boots offer features like excellent cushioning, arch support, and a great fit, with top-rated options including Hoka Kaha 3 GTX for hiking, M. Gemi Cristina for stylish support, and supportive brands like Vionic and Dr. Scholl's for all-day wear. Key aspects are shock absorption, no break-in period, quality leather (like handsewn styles), and supportive features like orthotic footbeds or generous lasts, with popular styles often falling into sneaker-boot, Chelsea, or supportive hiking categories. Top Picks & Features by Category:  Key Comfort Factors to Look For:",
+      "responseTimeMs": 48,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 30,
+      "query": "best warm boots for cold weather",
+      "success": true,
+      "response": "The best warm winter boots depend on your needs, with top choices often including The North Face Chilkat V 400 for overall performance (warm, grippy), Muck Boots for extreme outdoor chores (waterproof), Baffin Chloe/UGG Adirondack for stylish warmth, and Kamik Nation Plus as a great budget-friendly, waterproof option. Key features to look for are insulation (like 400g Thinsulate), waterproofing, and traction for snow and ice, with brands like Sorel, Muck Boot, Baffin, UGG, and The North Face frequently recommended. Top-Rated Warm Winter Boots For Overall Performance & Traction:  For Extreme Cold & Outdoor Chores:  For Style & Versatility:  Best Value:  Lightweight Options:  Key Features to Consider",
+      "responseTimeMs": 99,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 2
+        },
+        {
+          "brand": "The North Face",
+          "count": 2
+        },
+        {
+          "brand": "Sorel",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 31,
+      "query": "best sheepskin boots",
+      "success": true,
+      "response": "The best sheepskin boots depend on your needs, with top brands like UGG, EMU Australia, and Koalabi offering classic comfort and quality, while Sorel, Merrell, and Orthofeet provide superior waterproofing and support for harsh winters, and brands like Overland Sheepskin Co. focus on durable, stylish options with natural materials. For budget-friendly comfort with memory foam, Mel&Syd is a strong contender, but always look for genuine sheepskin and durable rubber soles for the best experience. Top Picks by Category:  Key Features to Look For:",
+      "responseTimeMs": 53,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "Merrell",
+          "count": 1
+        },
+        {
+          "brand": "Sorel",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 32,
+      "query": "best waterproof boots",
+      "success": true,
+      "response": "Top-rated waterproof boots for 2026 include the versatile Salomon X Ultra 5 GTX (best breathable), SCARPA Rush Trk GTX (best for hiking/backpacking), and KEEN Targhee IV Mid (best for wide feet). For heavy rain and wet conditions, XTRATUF Legacy boots are top-rated, while Muck Boot Arctic Ice leads for insulated winter protection. This video provides an overview of the top waterproof hiking boots:43sTactical EmpireYouTube • May 21, 2025 Best Waterproof Hiking & Hiking Boots  Best Waterproof Rain & Winter Boots  Key Features to Consider",
+      "responseTimeMs": 49,
+      "brandMentions": [
+        {
+          "brand": "Salomon",
+          "count": 1
+        },
+        {
+          "brand": "Keen",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 33,
+      "query": "best fashion boots",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 48,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 34,
+      "query": "best slip on boots",
+      "success": true,
+      "response": "The best slip-on boots depend on your needs (work, casual, winter), with popular recommendations including Blundstones & Jim Green for versatile casual/work, KEEN & Timberland for safety-toe work boots, Redwing & Danner for durable comfort, and Meermin for dressier Chelseas, focusing on quality construction like full welts or specialized lasts for best fit and longevity. For quick on/off and good value, budget options like Nortiv 8 (with zippers) or high-tech Boa systems (Redwing, Ariat) are also praised. Top Picks by Category:  What to Look For:",
+      "responseTimeMs": 48,
+      "brandMentions": [
+        {
+          "brand": "Keen",
+          "count": 1
+        },
+        {
+          "brand": "Timberland",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 35,
+      "query": "best ankle boots for women",
+      "success": true,
+      "response": "The best ankle boots for women depend on your needs, with top picks including classic, comfortable choices like the Everlane Day Boot, trendy platform styles from brands like Cushionaire, cozy options such as UGG Ultra Minis, and versatile, walkable boots from Vivaia and Echo, often featuring Chelsea or lug-sole designs for all-day wear. Key trends for 2026 include sleek pointed toes in suede and block heels, while everyday favorites offer comfort with memory foam or practical rubber soles for various activities. Top Picks by Category:  Key Features to Look For:",
+      "responseTimeMs": 61,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 36,
+      "query": "coziest winter boots",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 57,
+      "brandMentions": [],
+      "error": "No AI Overview"
+    },
+    {
+      "queryIndex": 37,
+      "query": "best boots for snow and ice",
+      "success": true,
+      "response": "Top-rated boots for snow and ice in 2026 feature advanced insulation and specialized traction, with The North Face Chilkat V 400 ($159) ranked best for men and Baffin Chloe topping women's lists for warmth, waterproofing, and grip. For extreme ice, Icebugs are recommended for their built-in carbide-tipped studs. Top Picks for Snow & Ice  Key Features to Look For  For specialized ice, users often prefer Icebug boots, as traditional rubber soles may fail on solid ice, whereas carbide-tipped studs provide superior safety.",
+      "responseTimeMs": 57,
+      "brandMentions": [
+        {
+          "brand": "The North Face",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 38,
+      "query": "best insulated boots",
+      "success": true,
+      "response": "The best insulated boots depend on your needs, with top contenders including The North Face Chilkat V 400 for all-around performance, Muck Boot Arctic Ice Tall for extreme waterproofing, Sorel Caribou for heavy-duty cold, and Blundstone Thermal for stylish, waterproof everyday wear; key factors are insulation level (e.g., 400g for moderate, 600g+ for extreme cold) and waterproof construction for warmth and dryness. Brands like Baffin, Kamik, Keen, and Oboz also offer excellent options for varied conditions, from city strolls to deep snow adventures. Top Picks by Category  Other Highly-Rated Brands  What to Consider When Choosing",
+      "responseTimeMs": 54,
+      "brandMentions": [
+        {
+          "brand": "Keen",
+          "count": 1
+        },
+        {
+          "brand": "The North Face",
+          "count": 1
+        },
+        {
+          "brand": "Sorel",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 39,
+      "query": "most comfortable everyday shoes",
+      "success": true,
+      "response": "For most comfortable everyday shoes, look for brands like Hoka, New Balance, ASICS, and On Running, with popular models including the Hoka Bondi/Clifton (max cushion), New Balance 990/Fresh Foam (stability/cushion), ASICS Gel-Nimbus/Kayano (shock absorption), and On Cloud (supportive/lightweight), offering excellent cushioning, support, and shock absorption for all-day wear, though personal fit and style preference remain key. Top Picks by Category:  Key Features to Look For:  Popular Brands & Models:",
+      "responseTimeMs": 80,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 2
+        },
+        {
+          "brand": "New Balance",
+          "count": 2
+        },
+        {
+          "brand": "ASICS",
+          "count": 2
+        },
+        {
+          "brand": "On Running",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 40,
+      "query": "best casual sneakers",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 56,
+      "brandMentions": [],
+      "error": "No AI Overview"
+    },
+    {
+      "queryIndex": 41,
+      "query": "best slip on shoes",
+      "success": true,
+      "response": "Top-rated slip-on shoes for 2026 include the comfortable and stylish TOMS Valencia Platform Espadrille (best overall), Skechers Martha Stewart Slip-Ins (best hands-free), and Merrell Clover Sport Mule (best for walking). Other top choices feature Rothy's The Boat Shoe for design, Vionic Kearny for support, and Ryka Podflow EZ for cushioning. Here are the best slip-on shoes by category based on 2025-2026 testing: Top Slip-On Shoe Picks  Specialized & Men's Recommendations  Key Considerations",
+      "responseTimeMs": 56,
+      "brandMentions": [
+        {
+          "brand": "Merrell",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 42,
+      "query": "best shoes for standing all day",
+      "success": true,
+      "response": "Top-rated shoes for standing all day focus on maximum cushioning, arch support, and stability to reduce fatigue, with top picks including the Hoka Bondi SR/9, Brooks Ghost 17/Max, and New Balance Fresh Foam X 880v15. For specific needs, Dansko clogs are excellent for support, while Skechers Go Walk Joy offers affordable comfort. Top Recommendations for All-Day Standing  Key Features to Look For  Top Brands",
+      "responseTimeMs": 123,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 43,
+      "query": "most comfortable slippers",
+      "success": true,
+      "response": "Top-rated, comfortable slippers for 2026, combining support, warmth, and durability, include the OluKai Ku'i (women's) and Moloa (men's), known for their shearling lining and arch support. Other top choices for comfort and style include UGG Tasman/Ascot, Glerups wool clogs, and affordable memory foam options like Dearfoams and Ultraideas. Top Recommended Comfortable Slippers  Key Factors for Maximum Comfort",
+      "responseTimeMs": 126,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 44,
+      "query": "best house shoes",
+      "success": true,
+      "response": "Top-rated house shoes for 2026 balance comfort with support, featuring UGG Tasman II as a top choice for versatility, and OluKai Ku'i/Moloa for superior, durable support. For arch support and hard floors, Birkenstock Zermatt or Vionic are highly recommended. Budget-friendly and cozy options include Dearfoams and Cushionare. Top Recommended House Shoes  Key Features to Consider",
+      "responseTimeMs": 49,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "Birkenstock",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 45,
+      "query": "best comfortable sandals",
+      "success": true,
+      "response": "The best comfortable sandals depend on your needs, with top-rated options including Chaco Z/Cloud 2 (overall adventure), Birkenstock Arizona Soft Footbed (casual support), Teva Original Universal (value/adventure), and Ecco Yucatan (secure casual) for their excellent arch support, cushioned footbeds, and adjustable straps, while brands like Hoka and Skechers excel in recovery/cushioning, and Keen Newport H2 offers great foot protection. Key comfort features to look for are contoured footbeds, soft materials, adjustability, and secure fits for long wear. Top Picks by Category  Key Features for Comfort",
+      "responseTimeMs": 73,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Teva",
+          "count": 1
+        },
+        {
+          "brand": "Keen",
+          "count": 1
+        },
+        {
+          "brand": "Birkenstock",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 46,
+      "query": "best walking shoes for travel",
+      "success": true,
+      "response": "Top travel walking shoes for 2025 include the Altra Experience Flow 2 (best overall), Hoka Transport (city-to-trail), and On Cloud 6 (lightweight/breathable) for their superior comfort, durability, and support during long walks. Other top picks include the stylish Kizik Milan for convenience, New Balance 880 v15 for stability, and Vagabond Cosmo 2.0 for versatile city wear. Top Recommended Travel Shoes  Key Features to Look For  Travel Tips for Footwear",
+      "responseTimeMs": 49,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 47,
+      "query": "best sustainable shoes",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 47,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 48,
+      "query": "best shoes for plantar fasciitis",
+      "success": true,
+      "response": "Top shoes for plantar fasciitis feature strong arch support, deep heel cups, and maximum cushioning to reduce strain. Top recommendations include HOKA Bondi 9 and Clifton, Brooks Adrenaline GTS, Asics Gel-Kayano, and New Balance Fresh Foam X 1080. These shoes provide stability and shock absorption necessary to alleviate heel pain during walking or running. Top Recommended Shoes for Plantar Fasciitis  Key Features to Look For  Additional Relief Strategies",
+      "responseTimeMs": 52,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 49,
+      "query": "most comfortable shoes 2026",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 48,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 50,
+      "query": "best orthopedic casual shoes",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 49,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 51,
+      "query": "HOKA vs Brooks running shoes",
+      "success": true,
+      "response": "Hoka shoes are best for maximum, plush cushioning and a rocker-driven, efficient ride, while Brooks offers traditional, durable, and reliable stability for daily training. Hoka generally has a lower (5mm) heel-to-toe drop and a snugger fit, whereas Brooks features a higher (10-12mm) drop and a more standard, accommodating fit. Key Comparisons:  Popular Models:",
+      "responseTimeMs": 51,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 2
+        },
+        {
+          "brand": "Brooks",
+          "count": 2
+        },
+        {
+          "brand": "UGG",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 52,
+      "query": "HOKA vs Nike running shoes",
+      "success": true,
+      "response": "Hoka and Nike cater to different running preferences: Hoka specializes in maximalist, plush, and stable, cushioned shoes for long distances, while Nike focuses on responsive, lightweight, and versatile shoes with higher energy return, such as the popular Pegasus and Vaporfly series. This video provides a direct comparison between two of the most popular daily trainers from these brands:1mThe Run TestersYouTube • May 10, 2025 Hoka Running Shoes  Nike Running Shoes  Watch this video to see a comparison of two racing shoes from these brands:59sThe Run TestersYouTube • Apr 21, 2025 Key Differences Summary  For a daily trainer, the Hoka Clifton 10 is often preferred for comfort, while the Nike Pegasus 41 is preferred for versatility, say Running Shoes Guru.",
+      "responseTimeMs": 47,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 4
+        },
+        {
+          "brand": "Nike",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "queryIndex": 53,
+      "query": "HOKA vs On Running",
+      "success": true,
+      "response": "Hoka offers plush, maximalist cushioning and stability, ideal for impact absorption and long-distance comfort (like for nurses or recovery), while On provides a firmer, responsive, and bouncier ride with a sleeker, lifestyle-friendly design, featuring \"CloudTec\" pods for propulsion, suiting fast-paced or stylish wearers. Choose Hoka for maximum softness and support, especially if you stand all day; choose On for a propulsive, firm-yet-light feel that transitions well from running to everyday fashion. This video provides a visual comparison of the two brands' distinct running feels:57sRUNNERGYYouTube • Jul 30, 2025 Hoka  Watch this video for a detailed review of the Hoka Bondi 9 and On Cloudmonster 2:54sFlawless Physio | Shoe ReviewsYouTube • Jun 11, 2025 On Running  This video explains the core technology behind On Running shoes:59sFitnessNBeerYouTube • Aug 21, 2023 How to Choose",
+      "responseTimeMs": 48,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 4
+        },
+        {
+          "brand": "On Running",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 54,
+      "query": "UGG vs Bearpaw boots",
+      "success": true,
+      "response": "Bearpaw offers great value with similar warmth to Uggs, often featuring sturdier soles and water-repellent treatments at a lower price, while Uggs are considered the premium, classic brand with higher-grade sheepskin and iconic styling, though they are more expensive and tend to slouch more, with Bearpaw being a popular, affordable alternative. Your choice depends on budget versus brand status, with Bearpaw winning on price and Uggs on luxury and brand recognition, though both are cozy and warm for casual wear, notes Diffen and POIZON. This video provides a side-by-side comparison of Ugg and Bearpaw boots: Bearpaw  Ugg  Watch this video for a review of the Bearpaw boots and their price point: Key Differences at a Glance  This video compares the different materials and warmth of Uggs and other brands: Which to Choose? Choose Bearpaw for great value, warmth, and a water-resistant boot for everyday wear, or Ugg for the classic luxury brand, premium materials, and iconic style, understanding the higher cost and potential for slouching, notes Diffen and POIZON.",
+      "responseTimeMs": 48,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "queryIndex": 55,
+      "query": "UGG vs Koolaburra",
+      "success": true,
+      "response": "UGG offers premium, durable sheepskin boots (approx. $\\$160+$) with thick, natural wool lining and superior arch support, ideal for harsh, long-term use. Koolaburra by UGG is a budget-friendly alternative (approx. $\\$85$) using suede and synthetic faux fur, providing similar style and warmth for casual, light, or indoor use. This video provides a side-by-side comparison of the three brands:1mManny MichaelYouTube • Jan 17, 2025 Key Differences:  Which to Choose?",
+      "responseTimeMs": 47,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 2
+        },
+        {
+          "brand": "Koolaburra",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 56,
+      "query": "Teva vs Chaco sandals",
+      "success": true,
+      "response": "Teva offers lightweight, soft, immediate comfort with EVA foam, great for flat feet and casual wear, while Chaco provides heavier, durable support with a firm, molded PU sole that excels for high arches and rugged terrain but requires a break-in period. Choose Teva for out-of-the-box comfort, lightness, and flat-foot friendliness, but pick Chaco for serious arch support, durability, and tough trails, accepting the break-in time. This video provides a visual comparison of Teva and Chaco sandals:1mAl's Sporting GoodsYouTube • Jun 18, 2024 Teva  Chaco  Watch this video for a detailed review of the Chaco repair program:58sEngearmentYouTube • Aug 30, 2023 How to Choose",
+      "responseTimeMs": 44,
+      "brandMentions": [
+        {
+          "brand": "Teva",
+          "count": 4
+        },
+        {
+          "brand": "UGG",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 57,
+      "query": "Teva vs Keen sandals",
+      "success": true,
+      "response": "Teva offers lightweight, budget-friendly, open-toe options great for dry trails and casual wear, while Keen provides superior closed-toe protection for rocky water crossings but can trap debris and feel hotter, making the choice depend on your primary activity: Teva for simplicity and light use, Keen for protection and rugged terrain. Teva  This video provides a product review comparing KEEN and Teva sandals: Keen  Key Differences Summarized  Recommendation: Try both on if possible, as comfort and fit are personal; for serious rocky water, Keen; for easy-going trails and minimal weight, Teva.",
+      "responseTimeMs": 46,
+      "brandMentions": [
+        {
+          "brand": "Teva",
+          "count": 5
+        },
+        {
+          "brand": "Keen",
+          "count": 5
+        },
+        {
+          "brand": "UGG",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 58,
+      "query": "HOKA vs New Balance running shoes",
+      "success": true,
+      "response": "Hoka offers maximalist, plush cushioning with a signature rocker (Meta-Rocker) for smooth transitions, great for recovery/long runs, while New Balance provides a diverse range from soft (Fresh Foam) to firm, often with more traditional feel, excellent stability, and wider sizing options, making it versatile for different running styles and foot shapes. Choose Hoka for ultimate softness and joint relief, and New Balance for versatility, stability, and a broader fit selection. Hoka: The Cloud-Like Ride  New Balance: Versatility & Fit  Key Differences in Practice  Which to Choose?",
+      "responseTimeMs": 48,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 3
+        },
+        {
+          "brand": "New Balance",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "queryIndex": 59,
+      "query": "UGG vs EMU boots",
+      "success": true,
+      "response": "Both EMU and UGG offer classic Australian sheepskin boots, but EMU often provides slightly more structure, water resistance (in some lines), and potentially better value, while UGG is famous for its ultra-soft, luxurious feel, extensive fashion styles, and broader brand recognition, though EMU's build might offer better pronation support and durability for some users. Your choice depends on prioritizing style (UGG) vs. practicality/support (EMU), with EMU often being a more budget-friendly, durable alternative. EMU Australia  UGG (by Deckers Brands)  Key Differences at a Glance  Choose EMU if: You want a robust, water-resistant, supportive boot for everyday wear without the premium price tag. Choose UGG if: You prioritize the iconic soft feel and trendy styles and are willing to pay more for luxury and brand recognition.",
+      "responseTimeMs": 65,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "queryIndex": 60,
+      "query": "HOKA vs ASICS",
+      "success": true,
+      "response": "Hoka and Asics are both top-tier running brands, but Hoka specializes in maximalist, high-cushion, lightweight comfort, while Asics focuses on structured, durable shoes with traditional GEL technology and a slightly firmer, more responsive ride. Choose Hoka for maximum impact absorption and softer, plush comfort, and Asics for better stability, durability, and a more classic, responsive, and secure fit. Hoka (Maximalist, Cushioned)  Asics (Structured, Versatile)  Key Comparison Factors  For daily, high-mileage training with stability, Asics is often preferred, while Hoka is better for those seeking maximum cushioning and comfort to reduce impact on joints.",
+      "responseTimeMs": 49,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 5
+        },
+        {
+          "brand": "ASICS",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "queryIndex": 61,
+      "query": "Teva vs Merrell hiking sandals",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 57,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 62,
+      "query": "UGG vs Sorel winter boots",
+      "success": true,
+      "response": "Uggs are best for cozy comfort in dry cold, known for their soft sheepskin and casual style, great for indoors or light errands, while Sorels excel in harsh, snowy conditions with superior waterproof durability and traction, featuring rugged rubber soles and insulated liners for serious winter performance. Choose Ugg for warmth and style in moderate winters; pick Sorel for heavy snow, ice, and heavy-duty functionality, though some Ugg models (like the Adirondack) offer great waterproof performance too. Ugg  Sorel  How to Choose",
+      "responseTimeMs": 124,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 5
+        },
+        {
+          "brand": "Sorel",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "queryIndex": 63,
+      "query": "HOKA vs Saucony",
+      "success": true,
+      "response": "Hoka and Saucony both produce premium running shoes, with Hoka focusing on maximalist, \"marshmallowy\" cushioning and a lower drop, while Saucony often provides a more traditional, snappy, and lightweight feel with higher energy return. Hoka is ideal for maximum comfort, joint protection, and wider feet, while Saucony excels in versatility, speed training, and a secure fit. This video provides a detailed comparison of Hoka and Saucony running shoes:51sMyself StylishYouTube • Sep 5, 2025 Key Differences:  Top Model Comparisons:  Ultimately, Hoka is generally better for runners prioritizing maximum, soft cushioning, whereas Saucony is favored for a lighter, faster, and more responsive experience.",
+      "responseTimeMs": 129,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 5
+        },
+        {
+          "brand": "Saucony",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "queryIndex": 64,
+      "query": "best HOKA alternatives",
+      "success": true,
+      "response": "Top Hoka alternatives focus on plush cushioning and support, with brands like On Running, Brooks, ASICS, and New Balance offering similar comfort, while Saucony excels in lightweight cushion, and Altra provides wide, zero-drop options for a different feel, catering to those who love Hoka's max cushioning but want different brands or features like wider toe boxes or specific support. This video provides a comparison between the Hoka Bondi 9 and the New Balance More v6, highlighting their cushioning and fit:58sFlawless Physio | Shoe ReviewsYouTube • Aug 1, 2025 Best Brands for Similar Cushioning & Support:  For beginners, this video reviews top running shoes based on distance, weight, and other factors:59sFlawless Physio | Shoe ReviewsYouTube • Jan 5, 2026 For Specific Needs:  Top Shoe Models to Try:  Choose based on whether you prioritize a wide fit (Altra), a specific support system (Brooks Adrenaline), or just pure plushness (On, Saucony Triumph, NB More).",
+      "responseTimeMs": 102,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 3
+        },
+        {
+          "brand": "New Balance",
+          "count": 2
+        },
+        {
+          "brand": "Brooks",
+          "count": 2
+        },
+        {
+          "brand": "Saucony",
+          "count": 2
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        },
+        {
+          "brand": "On Running",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 65,
+      "query": "UGG alternatives that are cheaper",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 46,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 66,
+      "query": "best shoes for nurses",
+      "success": true,
+      "response": "The best shoes for nurses prioritize comfort, stability, and slip resistance for long, 12-hour shifts. Top recommendations include the cushioned HOKA Bondi SR/Bondi 8, durable Dansko clogs, and supportive Brooks Ghost Max. Other popular choices are the Asics Gel-Nimbus for cushioning and Skechers Arch Fit for comfort.  Key Considerations:",
+      "responseTimeMs": 137,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 67,
+      "query": "best shoes for teachers",
+      "success": true,
+      "response": "The best shoes for teachers prioritize comfort, support, and style, with top recommendations including supportive sneakers (Hoka, Skechers, New Balance), cushioned slip-ons (Vionic, Dansko, Crocs), professional loafers, and supportive flats/boots like Rothy's or Birkenstocks, focusing on features like arch support, shock absorption, and wide toe boxes to prevent foot fatigue during long days on your feet. Top Shoe Types & Brands  Key Features to Look For  Pro Tips",
+      "responseTimeMs": 56,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Birkenstock",
+          "count": 1
+        },
+        {
+          "brand": "Crocs",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 68,
+      "query": "best shoes for walking on concrete",
+      "success": true,
+      "response": "The best shoes for walking on concrete prioritize maximum cushioning and shock absorption to reduce fatigue, featuring thick midsoles and durable rubber outsoles. Top recommendations include the HOKA Clifton 9/10 (all-day comfort), Nike Motiva (high-cushion rocker), New Balance 1080v13 (cloud-like), and Brooks Addiction Walker 2 (stability). Top Shoes for Concrete Walking & Standing  Key Features to Look For  For maximum durability and comfort during 8+ hour shifts, specialized, high-cushion walking or running shoes, or work-specific boots (like Rockport or Red Wing), are recommended.",
+      "responseTimeMs": 100,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 69,
+      "query": "best shoes for travel",
+      "success": true,
+      "response": "The best shoes for travel prioritize comfort, versatility, and ease of removal for security, with top picks including the lightweight APL Techloom Bliss sneakers, cushioned Hoka Clifton 10s, and breathable Allbirds Tree Runners. Essential features include arch support, slip-on convenience, and durable, versatile styling to match multiple outfits. Top Travel Shoe Recommendations  Key Considerations  Tips for Packing",
+      "responseTimeMs": 51,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Allbirds",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 70,
+      "query": "best shoes for long flights",
+      "success": true,
+      "response": "The best shoes for long flights prioritize comfort, breathability, and ease of removal for security, with top choices including Allbirds Tree Loungers, slip-on sneakers, Loafers, and Hoka running shoes. Lightweight materials, cushioned insoles, and accommodating foot swelling are essential, making options like, Allbirds runners, Rothy's flats, and Crocs popular for their combination of support and convenience. Top Recommendations for Long Flights:  Key Features to Look For:  It is highly recommended to wear your bulkiest shoes (like sneakers or boots) to save luggage space.",
+      "responseTimeMs": 66,
+      "brandMentions": [
+        {
+          "brand": "Allbirds",
+          "count": 2
+        },
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Crocs",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 71,
+      "query": "best recovery shoes after running",
+      "success": true,
+      "response": "The best recovery shoes after running offer plush cushioning, impact absorption, and support, with top-rated options including the Hoka Ora Recovery Slide/Shoe (super soft cushioning), OOFOS OOahh Slides (great for impact absorption & plantar fasciitis), and Kane Revive (sustainable, supportive foam), alongside versatile picks like Crocs Mellow (budget comfort) and STAND+ AntiGrav (all-day support) for reducing post-run foot fatigue and promoting healing. Top Picks by Category:  This video reviews the top recovery running shoes:59sMidLife RunnerYouTube • Feb 26, 2025 What to Look For:  Popular Brands & Models:",
+      "responseTimeMs": 97,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Crocs",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 72,
+      "query": "best post-workout slides",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 52,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 73,
+      "query": "best shoes for warehouse work",
+      "success": true,
+      "response": "Top choices for warehouse work include Timberland Pro, Keen Utility, Skechers Work, and Hoka for superior comfort, durability, and safety. Key features to look for are non-slip soles, composite or steel toe protection, and enhanced cushioning for long hours on concrete. Ideal options balance lightweight design with safety standards, such as Tigon III Nano Composite toe shoes or Thorogood wedge sole boots. Top Recommended Brands & Models  Key Considerations  For maximum comfort, many workers prefer to rotate two pairs of shoes to allow them to dry and recover.",
+      "responseTimeMs": 52,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Keen",
+          "count": 1
+        },
+        {
+          "brand": "Timberland",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 74,
+      "query": "best shoes for theme parks",
+      "success": true,
+      "response": "The best theme park shoes offer excellent arch support, thick cushioning, and breathable or quick-drying materials, with popular choices including athletic sneakers (Hoka, Brooks) for maximum support, supportive hiking sandals (Teva) for versatility, and waterproof options like Crocs for water rides, always ensuring they are well broken-in to prevent foot fatigue from extensive walking. Top Shoe Types & Brands  Key Features to Look For  Expert Tips",
+      "responseTimeMs": 48,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Teva",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "Crocs",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 75,
+      "query": "best shoes for back pain",
+      "success": true,
+      "response": "The best shoes for back pain focus on superior cushioning, arch support, and stability to reduce impact, with top recommendations including the Hoka Clifton 10, Brooks Ghost Max 2, and Skechers Arch Fit 2.0. These shoes help maintain proper spinal alignment, reducing strain on the lower back during walking or long hours of standing. Top Recommendations by Category  Key Features to Look For  Avoid flat, unsupportive shoes like flip-flops or worn-out sneakers, as these increase strain on the back.",
+      "responseTimeMs": 46,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 76,
+      "query": "best summer sandals",
+      "success": true,
+      "response": "The best summer sandals depend on your needs, with top-rated options including supportive walking sandals like Chaco Z/Cloud and Birkenstock Arizona for all-day comfort, trendy slides like UGG Goldenstar for casual style, and versatile sport sandals like Teva and Keen Newport for adventure, while brands like Reformation, Naot, and Dansko offer stylish and supportive choices for different foot types, from narrow to wide. Top Picks by Category  Key Features to Look For  Popular Styles",
+      "responseTimeMs": 111,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "Teva",
+          "count": 1
+        },
+        {
+          "brand": "Keen",
+          "count": 1
+        },
+        {
+          "brand": "Birkenstock",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 77,
+      "query": "best beach shoes",
+      "success": true,
+      "response": "The best beach shoes depend on your activity, with top picks including versatile Astral Loyaks for water & land, quick-drying Speedo Surf Kniit Pro for budget/lightweight needs, supportive Teva/Chaco sandals (like Teva Hurricane) for walking, and stylish OluKai/Beek sandals for resort vibes, focusing on grip, quick-drying materials, and secure fits to keep sand out and prevent slips, avoiding flimsy flip-flops. Top Picks for Water & Versatility  Budget-Friendly & Quick-Drying  Supportive Sandals (for Beach Walks/Resorts)  Key Features to Look For  What to Avoid",
+      "responseTimeMs": 49,
+      "brandMentions": [
+        {
+          "brand": "Teva",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 78,
+      "query": "best slippers for men",
+      "success": true,
+      "response": "The best men's slippers prioritize comfort and durability, with top picks including the wool-felt Glerups Slip-on ($100) for versatile, year-round wear, and the cozy UGG Scuff Leather Slipper ($110). For maximum support, the Birkenstock Zermatt Shearling Clog is a top choice, while L.L.Bean Wicked Good Moccasins are ideal for classic comfort ($89). Top-Rated Men's Slippers by Category  Key Features to Consider",
+      "responseTimeMs": 51,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "Birkenstock",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 79,
+      "query": "best slippers for women",
+      "success": true,
+      "response": "Top-rated slippers for women in 2026 balance comfort with support, featuring top choices like the versatile OluKai Ku'i Slip-on ($140) for indoor/outdoor use, plush Cozy Earth Sheep Slides ($88), and supportive Vionic Relax II ($85) for arch care. UGG Tasman II ($110) remains a top pick for cozy, durable style. Top Recommended Women's Slippers  Key Features to Look For  For those with specific foot issues like plantar fasciitis, the Birkenstock Zermatt Shearling Clog Slipper ($100) is highly recommended. For maximum durability, Crocs are cited as a long-lasting option.",
+      "responseTimeMs": 51,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "Birkenstock",
+          "count": 1
+        },
+        {
+          "brand": "Crocs",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 80,
+      "query": "best indoor outdoor slippers",
+      "success": true,
+      "response": "The best indoor/outdoor slippers offer durable rubber soles, warm insulation (like shearling or wool), and supportive footbeds for both comfort inside and traction outside, with top-rated options including OluKai Ku'i, Ugg Ascot/Ansley, North Face Thermoball Mules, and Keen Howser for reliable grip, warmth, and versatility for quick errands or cozy lounging. Top Picks for Indoor/Outdoor Use:  What to Look For:",
+      "responseTimeMs": 145,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "Keen",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 81,
+      "query": "most comfortable house slippers",
+      "success": true,
+      "response": "Top-rated, comfortable house slippers for 2026 include the luxurious shearling-lined OluKai Ku'i (best overall), the supportive Bombas Sunday Mule, and the iconic UGG Tasman for indoor-outdoor versatility. For maximum comfort and warmth, L.L.Bean Wicked Good Moccasins and Glerups wool slippers are top choices. Top Comfortable Slipper Picks  Key Considerations for Maximum Comfort",
+      "responseTimeMs": 65,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 82,
+      "query": "best memory foam slippers",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 97,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 83,
+      "query": "best sheepskin slippers",
+      "success": true,
+      "response": "The best sheepskin slippers often come down to personal preference for style and support, but top-rated brands include Minnetonka, lauded for their cozy, indoor/outdoor Ultimate Slipper with treaded soles, Overland, praised for their classic Emma slippers with excellent ratings, LL Bean for durable Wicked Good Slippers, and specialty brands like High Plains Sheepskin, Ithaca Sheepskin, and Shepherd of Sweden for high quality and comfort. Key factors are genuine sheepskin for temperature regulation and moisture-wicking, plus durable outsoles for indoor/outdoor versatility. Top Picks & Brands:  What Makes a Great Sheepskin Slipper?  Consider These Features:",
+      "responseTimeMs": 56,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 84,
+      "query": "best slippers with arch support",
+      "success": true,
+      "response": "Top-rated slippers with arch support for 2026 include Orthofeet Lorin (best orthopedic), OluKai Ku'i (most supportive), and Vionic Relax (best for pain relief). These options feature deep heel cups, anatomical footbeds, and, in many cases, removable orthotic inserts to help with plantar fasciitis and, overall, structural stability. Here are the best slippers with arch support categorized by need: Top Overall & Orthopedic  Warmth & Comfort  Supportive & Functional  Key Considerations",
+      "responseTimeMs": 48,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 85,
+      "query": "best warm slippers",
+      "success": true,
+      "response": "For the best warm slippers, top recommendations include the stylish and cozy UGG Tasman for overall appeal, OluKai Ku'i for tested durability and support, Dearfoams Fireside Shearling for budget-friendly coziness, and Birkenstock Zermatt Shearling Clog for excellent arch support and plantar fasciitis relief, often featuring natural wool, memory foam, or plush fleece linings for maximum warmth. Key features to look for are genuine wool/shearling, memory foam, sturdy rubber soles for indoor/outdoor wear, and supportive footbeds, with brands like Giesswein and Bombas also highly praised for quality. Top Picks by Category  Key Materials for Warmth  What to Consider",
+      "responseTimeMs": 131,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "Birkenstock",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 86,
+      "query": "luxury slippers brands",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 50,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 87,
+      "query": "best orthopedic slippers",
+      "success": true,
+      "response": "Top-rated orthopedic slippers, often recommended for plantar fasciitis and pain relief, feature robust arch support and cushioned, durable soles. Leading brands include Orthofeet (best for adjustability), Birkenstock (best for cork footbed support), and Vionic. Key features to look for are structured, anatomically designed footbeds that promote proper alignment and reduce joint strain. Top Recommended Orthopedic Slippers  What to Look for in Orthopedic Slippers  For individuals with diabetes, slippers with a seamless interior, such as those from Orthofeet, are recommended to prevent irritation.",
+      "responseTimeMs": 50,
+      "brandMentions": [
+        {
+          "brand": "Birkenstock",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 88,
+      "query": "what running shoe brands are best",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 50,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 89,
+      "query": "most comfortable shoe brands",
+      "success": true,
+      "response": "Top-rated, comfortable shoe brands frequently recommended for all-day wear, walking, and support include Hoka (especially Bondi and Clifton), New Balance (Fresh Foam), Brooks (DNA Loft), Vionic (podiatrist-designed), and ASICS (Gel-Nimbus/Kayano). These brands are noted for superior cushioning, arch support, and shock absorption. Most Comfortable Shoe Brands by Category (2025-2026)  Key Features of Comfortable Shoes  For specialized needs, Vionic and Asics Gel-Nimbus are highly recommended for relieving plantar fasciitis, while Kuru is noted for deep heel cups.",
+      "responseTimeMs": 51,
+      "brandMentions": [
+        {
+          "brand": "ASICS",
+          "count": 2
+        },
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 90,
+      "query": "best shoe brands for quality",
+      "success": true,
+      "response": "Top quality shoe brands vary by category (athletic, dress, casual), but consistently praised names for craftsmanship include New Balance (comfort/width), Nike/Adidas (athletic tech), Carmina/Church's/Tricker's/Grenson (classic leather dress/boots), and Allbirds/Veja (sustainable/stylish), alongside luxury artisans like Dear Frances and orthopedic-focused Marion Parke for comfort. The best brand depends on your needs for performance, style, material, or support, often blending traditional techniques with modern tech. For Comfort & Everyday Wear:  For Dress & Classic Styles (Leather Goods):  For Luxury & Innovation:  For Athletic Performance:",
+      "responseTimeMs": 49,
+      "brandMentions": [
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "Adidas",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Allbirds",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 91,
+      "query": "shoe brands with best arch support",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 67,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 92,
+      "query": "shoe brands that last longest",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 48,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 93,
+      "query": "best shoe brands for foot health",
+      "success": true,
+      "response": "Top shoe brands for foot health, frequently recommended by podiatrists, include HOKA (maximum cushion/rocker sole), Brooks (superior arch support), New Balance (stability/wide options), and ASICS (shock absorption/pronation control). Other top choices for specialized comfort include Vionic (orthotic technology), Dansko (professional clogs), and Orthofeet (diabetic/neuropathy support). Top Recommended Brands by Category:  Key Features of Healthy Shoes:  When selecting, prioritize stability and fit, as the best shoe accommodates specific foot shapes and conditions.",
+      "responseTimeMs": 47,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 94,
+      "query": "luxury shoe brands worth the money",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 48,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 95,
+      "query": "what shoe brand do podiatrists recommend",
+      "success": true,
+      "response": "Podiatrists frequently recommend brands like HOKA, Brooks, New Balance, and ASICS for excellent cushioning, support, and stability, with specific models like Hoka Bondi/Clifton, Brooks Ghost/Adrenaline, New Balance 990/1080, and ASICS Gel-Kayano often cited for issues like plantar fasciitis, wide feet, or overpronation. Other popular choices include Vionic, Orthofeet, Dansko, and Altra, offering built-in orthotics, diabetic-friendly options, or natural foot shapes, while Birkenstock and ABEO are great for orthotic sandals and arch support. Top Recommended Brands & Models  Other Well-Regarded Brands  Key Features to Look For",
+      "responseTimeMs": 126,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 2
+        },
+        {
+          "brand": "New Balance",
+          "count": 2
+        },
+        {
+          "brand": "Brooks",
+          "count": 2
+        },
+        {
+          "brand": "ASICS",
+          "count": 2
+        },
+        {
+          "brand": "Birkenstock",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 96,
+      "query": "best direct-to-consumer shoe brands",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 47,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 97,
+      "query": "most innovative shoe brands",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 59,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 98,
+      "query": "best sustainable shoe brands",
+      "success": true,
+      "response": "Top sustainable shoe brands for 2026 include Allbirds (merino wool, sugarcane), Cariuma (organic cotton, bamboo), and VEJA (ethical sourcing) for casual wear. For specialized or vegan options, Thousand Fell (recyclable), Will's Vegan Shoes (plant-based), and Rothy's (recycled plastic) lead in eco-friendly, durable, and stylish designs. Top Sustainable Shoe Brands by Category  Key Sustainable Materials & Practices  These brands are recognized for reducing their carbon footprint, using eco-friendly materials, and ensuring ethical labor practices.",
+      "responseTimeMs": 120,
+      "brandMentions": [
+        {
+          "brand": "Allbirds",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 99,
+      "query": "shoe brands with best customer service",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 46,
+      "brandMentions": [],
+      "error": "No AI Overview"
+    }
+  ],
+  "analysis": {
+    "brandVisibility": {
+      "HOKA": {
+        "queriesAppearing": 37,
+        "percentOfQueries": "48.1%"
+      },
+      "UGG": {
+        "queriesAppearing": 21,
+        "percentOfQueries": "27.3%"
+      },
+      "Brooks": {
+        "queriesAppearing": 17,
+        "percentOfQueries": "22.1%"
+      },
+      "ASICS": {
+        "queriesAppearing": 17,
+        "percentOfQueries": "22.1%"
+      },
+      "New Balance": {
+        "queriesAppearing": 16,
+        "percentOfQueries": "20.8%"
+      },
+      "Keen": {
+        "queriesAppearing": 13,
+        "percentOfQueries": "16.9%"
+      },
+      "Teva": {
+        "queriesAppearing": 10,
+        "percentOfQueries": "13.0%"
+      },
+      "Saucony": {
+        "queriesAppearing": 9,
+        "percentOfQueries": "11.7%"
+      },
+      "Nike": {
+        "queriesAppearing": 9,
+        "percentOfQueries": "11.7%"
+      },
+      "Birkenstock": {
+        "queriesAppearing": 9,
+        "percentOfQueries": "11.7%"
+      },
+      "Salomon": {
+        "queriesAppearing": 7,
+        "percentOfQueries": "9.1%"
+      },
+      "Adidas": {
+        "queriesAppearing": 6,
+        "percentOfQueries": "7.8%"
+      },
+      "Sorel": {
+        "queriesAppearing": 6,
+        "percentOfQueries": "7.8%"
+      },
+      "The North Face": {
+        "queriesAppearing": 5,
+        "percentOfQueries": "6.5%"
+      },
+      "Crocs": {
+        "queriesAppearing": 5,
+        "percentOfQueries": "6.5%"
+      },
+      "Merrell": {
+        "queriesAppearing": 4,
+        "percentOfQueries": "5.2%"
+      },
+      "Allbirds": {
+        "queriesAppearing": 4,
+        "percentOfQueries": "5.2%"
+      },
+      "On Running": {
+        "queriesAppearing": 3,
+        "percentOfQueries": "3.9%"
+      },
+      "Timberland": {
+        "queriesAppearing": 2,
+        "percentOfQueries": "2.6%"
+      },
+      "Koolaburra": {
+        "queriesAppearing": 1,
+        "percentOfQueries": "1.3%"
+      }
+    }
+  }
+}

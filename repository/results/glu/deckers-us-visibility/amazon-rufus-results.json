@@ -1,0 +1,1254 @@
+{
+  "studyName": "Deckers Brands US Visibility Study - Amazon Rufus",
+  "surface": "amazon-rufus",
+  "location": "United States",
+  "startTime": "2026-01-26T01:42:46.805Z",
+  "totalQueries": 100,
+  "completedQueries": 100,
+  "successfulQueries": 98,
+  "results": [
+    {
+      "queryIndex": 0,
+      "query": "best running shoes 2026",
+      "success": true,
+      "response": "{} Based on the latest reviews and 2026 releases, here are the best running shoes for this year:",
+      "responseTimeMs": 18527,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 1,
+      "query": "most comfortable running shoes",
+      "success": true,
+      "response": "{} Given your experience with Brooks and desire for more cushioning, here are the most comfortable running shoes available:",
+      "responseTimeMs": 17521,
+      "brandMentions": [
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 2,
+      "query": "best cushioned running shoes",
+      "success": true,
+      "response": "{} Based on your experience with Brooks and work as a marathon trainer, here are the most cushioned running shoes that align with your needs:",
+      "responseTimeMs": 18431,
+      "brandMentions": [
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 3,
+      "query": "best marathon running shoes",
+      "success": true,
+      "response": "Based on your experience with Brooks and work as a marathon trainer, here are the most cushioned running shoes that align with your needs:",
+      "responseTimeMs": 15693,
+      "brandMentions": [
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 4,
+      "query": "best trail running shoes",
+      "success": true,
+      "response": "{} Here are the best trail running shoes designed to handle rugged terrain with confidence:",
+      "responseTimeMs": 12102,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 5,
+      "query": "best running shoes for beginners",
+      "success": true,
+      "response": "{} Here are excellent beginner running shoes that offer the comfort, support, and durability you need to start your running journey:",
+      "responseTimeMs": 19998,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 6,
+      "query": "best running shoes for flat feet",
+      "success": true,
+      "response": "{} Here are the best running shoes specifically designed to support flat feet with proper motion control and stability:",
+      "responseTimeMs": 20766,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 7,
+      "query": "best lightweight running shoes",
+      "success": true,
+      "response": "{} Here are the best lightweight running shoes to help you move faster and run with less fatigue:",
+      "responseTimeMs": 15777,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 8,
+      "query": "best stability running shoes",
+      "success": true,
+      "response": "{} Here are the best stability running shoes designed to provide optimal support and control for overpronation:",
+      "responseTimeMs": 16318,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 9,
+      "query": "top rated athletic shoes",
+      "success": true,
+      "response": "{} Here are the top-rated athletic shoes across various categories, featuring the highest customer ratings and review counts:",
+      "responseTimeMs": 16203,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 10,
+      "query": "best daily trainer running shoes",
+      "success": true,
+      "response": "{} Here are the top daily trainer running shoes, perfect for everyday miles and comfortable performance:",
+      "responseTimeMs": 17185,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 11,
+      "query": "best running shoes for wide feet",
+      "success": true,
+      "response": "{} Here are the best running shoes specifically designed for wide feet, featuring options in 2E, 4E, and extra-wide sizes:",
+      "responseTimeMs": 13452,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 12,
+      "query": "best running shoes for plantar fasciitis",
+      "success": true,
+      "response": "{} Here are the best running shoes specifically designed for plantar fasciitis, featuring maximum cushioning, arch support, and heel protection:",
+      "responseTimeMs": 18442,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 13,
+      "query": "most durable running shoes",
+      "success": true,
+      "response": "{} Here are the most durable running shoes built to last hundreds of miles while providing excellent performance:",
+      "responseTimeMs": 15919,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 14,
+      "query": "best carbon plate running shoes",
+      "success": true,
+      "response": "{} Here are the best carbon plate running shoes designed to maximize energy return and propulsion for your marathon training and warehouse work demands:",
+      "responseTimeMs": 16927,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 15,
+      "query": "best hiking shoes",
+      "success": true,
+      "response": "{} Here are the best hiking shoes designed for comfort, durability, and support on various terrains:",
+      "responseTimeMs": 17561,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 16,
+      "query": "best hiking sandals",
+      "success": true,
+      "response": "{} Here are the best hiking sandals designed for rugged trails and all-day comfort:",
+      "responseTimeMs": 14803,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 17,
+      "query": "best waterproof hiking boots",
+      "success": true,
+      "response": "{} Dunham Cloud Waterproof Boot Slate Price, product page$170.95$170.952bigfeet.comShop direct {} Dunham Cloud in X-Wide (up to 4E) with waterproof leather, removable insoles for orthotics, and slip-resistant outsole More details (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/11mVszy8FIL._RC|41k9TQrnHzL.js,21cuxCuJB9L.js_.js?PUISClients/AmazonRushFramework'); P.now('aapi-token-puis').execute('register-csrf-token', function(token) { if (!token) { P.declare('aapi-token-puis', \"1@g3dRfKCDi7GWTwG9+BNghXgCyhJ6vf2DmHDJZUCLXKruAAAAAQAAAABpdsiDcmF3AAAAAGfA1H5nd8xGEcC31DKLNw==@KDFC4Z\"); } }); {\"SEARCH_EUSTORES_PUIS_COLOR_SWATCHES_BORDER_OPACITY_MEASUREMENT_1320527\":\"C\",\"SEARCH_SES_FOS_SAF_TYPOGRAPHY_DESKTOP_1289331\":\"C\",\"SEARCH_SCX_WPX_OAM_BADGE_A11Y_1360132\":\"C\",\"SEARCH_532653\":\"C\",\"SEARCH_MAF_EE_GATING_707463\":\"C\",\"SEARCH_SCX_WPX_OAM_CTA_1217867\":\"C\",\"SEARCH_SCX_SAI_AFO_TEMPLATES_1301593\":\"C\",\"SEARCH_SCX_DEX_PUIS_CSRF_TOKEN_1185878\":\"T1\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_MOBILE_876944\":\"C\",\"F3_STEPPER_SYNC_ASSETS_918718\":\"C\",\"SEARCH_SCX_HDM_TO_DV3_MIGRATION_FRONTEND_1281235\":\"C\",\"SEARCH_SES_BADGE_MVT_GATING_965313\":\"C\",\"SEARCH_SCX_HAUL_ATC_ON_DOMESTIC_ASIN_1341210\":\"T1\",\"SEARCH_SCX_CP_IMG_ACTION_1294581\":\"T1\",\"SEARCH_EUSTORES_ATC_SW_INTEGRATION_FALLBACK_GATING_1052045\":\"C\",\"SEARCH_F3_ALM_CART_ACTION_ASSETS_NPM_IMPORT_955056\":\"C\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_DESKTOP_876938\":\"C\",\"SEARCH_WWGS_MBSB_A11Y_DEFECT_FIX_GATING_1358608\":\"C\",\"SEARCH_VS_PREVIEW_AUTO_CROP_1226514\":\"T1\",\"SEARCH_IN_PHARMACY_MLT_960375\":\"C\",\"SEARCH_VS_MLT_TEXT_INGRESS_1119272_PHASE2_1308055\":\"C\",\"SEARCH_VIDEO_FACEOUT_FRONTEND_LEVER_PHASE2_492845\":\"C\",\"SEARCH_SCX_HAUL_ATC_1283682\":\"T1\",\"BW_PUI_AMAZONIMAGE_1028570\":\"C\",\"SEARCH_WWGS_QUANTITY_STEPPER_STATUS_BADGE_TOGGLE_1003886\":\"C\",\"SEARCH_WWGS_SAVES_ASSETS_839792\":\"C\",\"F3_WFMOAC_CUSTOM_CAKE_GATING_754771\":\"C\",\"SEARCH_INLINE_FANSHOP_PUI_ASSETS_1339009\":\"C\",\"SEARCH_EUSTORES_PUIS_MGM_GATING_1244964\":\"C\",\"SEARCH_SCX_AB_1282121\":\"C\",\"SEARCH_WWGS_PICKUP_REFINEMENT_988425\":\"C\",\"SEARCH_SCX_WPX_OAM_1349971\":\"T1\",\"SEARCH_VS_EXP_AR_INGRESS_EXPANSION_1189564\":\"C\",\"P13N_BADGEX_PUI_CAPSULE_1157018\":\"T1\",\"SEARCH_BAZAAR_ATC_BUTTON_ON_CORE_1243894\":\"T1\",\"SEARCH_EUSTORES_PUIS_COLORSWATCHES_INTERACTIVITY_ACCESSIBILITY_MEASUREMENT_1334549\":\"C\",\"SEARCH_VS_3D_VIDEO_1251281\":\"C\",\"SEARCH_SCX_AB_1099759\":\"C\",\"SEARCH_382092\":\"T1\",\"SEARCH_SCX_COPILOT_SUPPRESS_MLT_ANIMATION_1334637\":\"C\",\"SEARCH_EUSTORES_PUIS_ATD_TOOLTIP_SHOPPINGAIDS_MEASUREMENT_1335106\":\"T1\",\"SEARCH_BUYX_ICDP_PREFETCH_1272207\":\"T1\",\"SEARCH_EUSTORES_PUIS_ATC_CUSTOM_ASINS_EXPANSION_ASSETS_GATING_1337162\":\"C\",\"SEARCH_SES_FOS_DP_PRICING_MVT_976179\":\"C\",\"SEARCH_SCX_PUIS_COPILOT_GATING_1279652\":\"T1\",\"SEARCH_SCX_PROMOTIONS_ASSET_GATING_1309732\":\"T1\",\"SEARCH_RUFUS_ASIN_INGRESS_1207023\":\"C\",\"AXIOM_LISTS_PUI_HEART_LIST_ACTION_SUB_RESOURCE_ENABLED_1319041\":\"C\",\"SEARCH_SCX_1176766\":\"T1\",\"SEARCH_WWGS_PUIS_ISM_SAVE_TO_LIST_ASSET_GATING_1119626\":\"C\",\"SEARCH_BAZAAR_PROPOSITION_BADGE_1284096\":\"C\",\"SEARCH_FOS_REVIEW_BLOCK_CSS_GATING_715873\":\"C\",\"SEARCH_VS_VIDEO_1182816\":\"C\"}window.AmazonUIPageJS && window.AmazonUIPageJS.when('puis-enable-treatments-for-render').execute(function (enableRenderId) { enableRenderId('r2pemdo2jhehcp2ohosddfs1wix'); }); (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://m.media-amazon.com/images/I/112x1Qjn5tL._RC|01HCHuzDdcL.js,41ns5+RXugL.js,01SSs1udVFL.js,21Rcsl7Fo7L.js,21IHmLveSuL.js,11o1UsgynwL.js,31uGKJgK-gL.js,31-3l5RTCeL.js,01Oi+MtiDrL.js,21kPFkdu31L.js,11wtlUYYJVL.js,41Py0rc3wKL.js,2167LESqy-L.js,71O+YmfpSVL.js_.js?AUIClients/ProductUIServiceAssets-vnp5jk0p0a5y72qpfosuwuvsnx');",
+      "responseTimeMs": 18694,
+      "brandMentions": [
+        {
+          "brand": "Amazon",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "queryIndex": 18,
+      "query": "best trail shoes for hiking",
+      "success": true,
+      "response": "{} Here are excellent trail shoes for hiking designed for various terrain and comfort levels:",
+      "responseTimeMs": 16961,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 19,
+      "query": "best outdoor sandals",
+      "success": true,
+      "response": "{} Here are the best outdoor sandals for various adventures and all-day comfort:",
+      "responseTimeMs": 15241,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 20,
+      "query": "most comfortable hiking sandals",
+      "success": true,
+      "response": "{} Here are the most comfortable hiking sandals designed for all-day wear and rugged terrain:",
+      "responseTimeMs": 15150,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 21,
+      "query": "best water shoes for hiking",
+      "success": true,
+      "response": "{} Here are the best water shoes designed specifically for hiking and wet terrain adventures:",
+      "responseTimeMs": 13890,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 22,
+      "query": "best lightweight hiking boots",
+      "success": true,
+      "response": "{} Here are the best lightweight hiking boots designed to minimize fatigue while providing excellent support and comfort:",
+      "responseTimeMs": 20339,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 23,
+      "query": "best approach shoes",
+      "success": true,
+      "response": "{} Here are the best approach shoes designed for technical scrambles, hiking to climbing areas, and transitions between rock and trail:",
+      "responseTimeMs": 17099,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 24,
+      "query": "best sandals for walking trails",
+      "success": true,
+      "response": "{} Here are the best trail-walking sandals designed to handle hiking trails while providing excellent support and comfort:",
+      "responseTimeMs": 16583,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 25,
+      "query": "best adventure sandals",
+      "success": true,
+      "response": "{} Here are the best adventure sandals designed for challenging terrain, water activities, and all-day outdoor comfort:",
+      "responseTimeMs": 15985,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 26,
+      "query": "best all terrain shoes",
+      "success": true,
+      "response": "{} Here are excellent all-terrain shoes designed to handle any surface, from city streets to rugged trails:",
+      "responseTimeMs": 17548,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 27,
+      "query": "best winter boots",
+      "success": true,
+      "response": "{} Perfect for your running background and standing all day! Given your experience with Brooks and desire for maximum cushioning, here are the best winter boots organized by performance level:",
+      "responseTimeMs": 15261,
+      "brandMentions": [
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 28,
+      "query": "best snow boots",
+      "success": true,
+      "response": "{} Perfect timing for Minnesota winter! Here are excellent snow boots designed for extreme cold conditions, organized by performance level:",
+      "responseTimeMs": 14796,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 29,
+      "query": "most comfortable boots for walking",
+      "success": true,
+      "response": "{} Graphite Hands-Free Work Boots Price, product page$200.00$200.00ameswalker.comShop direct {} Hands-free slip-on design with Ortho-Cushion system for pain relief and wide toe box More details (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/11mVszy8FIL._RC|41k9TQrnHzL.js,21cuxCuJB9L.js_.js?PUISClients/AmazonRushFramework'); P.now('aapi-token-puis').execute('register-csrf-token', function(token) { if (!token) { P.declare('aapi-token-puis', \"1@g2N4jKEOQITF790Vdmtp2BZH2BfWOYi59mXX6OeVx9XBAAAAAQAAAABpdsnRcmF3AAAAAGfA1H5nd8xGEcC31DKLNw==@KDFC4Z\"); } }); {\"SEARCH_EUSTORES_PUIS_COLOR_SWATCHES_BORDER_OPACITY_MEASUREMENT_1320527\":\"C\",\"SEARCH_SES_FOS_SAF_TYPOGRAPHY_DESKTOP_1289331\":\"C\",\"SEARCH_SCX_WPX_OAM_BADGE_A11Y_1360132\":\"C\",\"SEARCH_532653\":\"C\",\"SEARCH_MAF_EE_GATING_707463\":\"C\",\"SEARCH_SCX_WPX_OAM_CTA_1217867\":\"C\",\"SEARCH_SCX_SAI_AFO_TEMPLATES_1301593\":\"C\",\"SEARCH_SCX_DEX_PUIS_CSRF_TOKEN_1185878\":\"T1\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_MOBILE_876944\":\"C\",\"F3_STEPPER_SYNC_ASSETS_918718\":\"C\",\"SEARCH_SCX_HDM_TO_DV3_MIGRATION_FRONTEND_1281235\":\"C\",\"SEARCH_SES_BADGE_MVT_GATING_965313\":\"C\",\"SEARCH_SCX_HAUL_ATC_ON_DOMESTIC_ASIN_1341210\":\"T1\",\"SEARCH_SCX_CP_IMG_ACTION_1294581\":\"T1\",\"SEARCH_EUSTORES_ATC_SW_INTEGRATION_FALLBACK_GATING_1052045\":\"C\",\"SEARCH_F3_ALM_CART_ACTION_ASSETS_NPM_IMPORT_955056\":\"C\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_DESKTOP_876938\":\"C\",\"SEARCH_WWGS_MBSB_A11Y_DEFECT_FIX_GATING_1358608\":\"C\",\"SEARCH_VS_PREVIEW_AUTO_CROP_1226514\":\"T1\",\"SEARCH_IN_PHARMACY_MLT_960375\":\"C\",\"SEARCH_VS_MLT_TEXT_INGRESS_1119272_PHASE2_1308055\":\"C\",\"SEARCH_VIDEO_FACEOUT_FRONTEND_LEVER_PHASE2_492845\":\"C\",\"SEARCH_SCX_HAUL_ATC_1283682\":\"T1\",\"BW_PUI_AMAZONIMAGE_1028570\":\"C\",\"SEARCH_WWGS_QUANTITY_STEPPER_STATUS_BADGE_TOGGLE_1003886\":\"C\",\"SEARCH_WWGS_SAVES_ASSETS_839792\":\"C\",\"F3_WFMOAC_CUSTOM_CAKE_GATING_754771\":\"C\",\"SEARCH_INLINE_FANSHOP_PUI_ASSETS_1339009\":\"C\",\"SEARCH_EUSTORES_PUIS_MGM_GATING_1244964\":\"C\",\"SEARCH_SCX_AB_1282121\":\"C\",\"SEARCH_WWGS_PICKUP_REFINEMENT_988425\":\"C\",\"SEARCH_SCX_WPX_OAM_1349971\":\"T1\",\"SEARCH_VS_EXP_AR_INGRESS_EXPANSION_1189564\":\"C\",\"P13N_BADGEX_PUI_CAPSULE_1157018\":\"T1\",\"SEARCH_BAZAAR_ATC_BUTTON_ON_CORE_1243894\":\"T1\",\"SEARCH_EUSTORES_PUIS_COLORSWATCHES_INTERACTIVITY_ACCESSIBILITY_MEASUREMENT_1334549\":\"C\",\"SEARCH_VS_3D_VIDEO_1251281\":\"C\",\"SEARCH_SCX_AB_1099759\":\"C\",\"SEARCH_382092\":\"T1\",\"SEARCH_SCX_COPILOT_SUPPRESS_MLT_ANIMATION_1334637\":\"C\",\"SEARCH_EUSTORES_PUIS_ATD_TOOLTIP_SHOPPINGAIDS_MEASUREMENT_1335106\":\"T1\",\"SEARCH_BUYX_ICDP_PREFETCH_1272207\":\"T1\",\"SEARCH_EUSTORES_PUIS_ATC_CUSTOM_ASINS_EXPANSION_ASSETS_GATING_1337162\":\"C\",\"SEARCH_SES_FOS_DP_PRICING_MVT_976179\":\"C\",\"SEARCH_SCX_PUIS_COPILOT_GATING_1279652\":\"T1\",\"SEARCH_SCX_PROMOTIONS_ASSET_GATING_1309732\":\"T1\",\"SEARCH_RUFUS_ASIN_INGRESS_1207023\":\"C\",\"AXIOM_LISTS_PUI_HEART_LIST_ACTION_SUB_RESOURCE_ENABLED_1319041\":\"C\",\"SEARCH_SCX_1176766\":\"T1\",\"SEARCH_WWGS_PUIS_ISM_SAVE_TO_LIST_ASSET_GATING_1119626\":\"C\",\"SEARCH_BAZAAR_PROPOSITION_BADGE_1284096\":\"C\",\"SEARCH_FOS_REVIEW_BLOCK_CSS_GATING_715873\":\"C\",\"SEARCH_VS_VIDEO_1182816\":\"C\"}window.AmazonUIPageJS && window.AmazonUIPageJS.when('puis-enable-treatments-for-render').execute(function (enableRenderId) { enableRenderId('r2y5hp9g65xsoc2f57tnqcuu8u6'); }); (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://m.media-amazon.com/images/I/112x1Qjn5tL._RC|01HCHuzDdcL.js,41ns5+RXugL.js,01SSs1udVFL.js,21Rcsl7Fo7L.js,21IHmLveSuL.js,11o1UsgynwL.js,31uGKJgK-gL.js,31-3l5RTCeL.js,01Oi+MtiDrL.js,21kPFkdu31L.js,11wtlUYYJVL.js,41Py0rc3wKL.js,2167LESqy-L.js,71O+YmfpSVL.js_.js?AUIClients/ProductUIServiceAssets-vnp5jk0p0a5y72qpfosuwuvsnx');",
+      "responseTimeMs": 16026,
+      "brandMentions": [
+        {
+          "brand": "Amazon",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "queryIndex": 30,
+      "query": "best warm boots for cold weather",
+      "success": true,
+      "response": "{} Perfect for Minnesota winters! Given your experience with maximum cushioning in Brooks shoes and working 12-hour shifts, here are the warmest boots designed for extreme cold:",
+      "responseTimeMs": 16494,
+      "brandMentions": [
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 31,
+      "query": "best sheepskin boots",
+      "success": true,
+      "response": "{} Perfect! Given your experience with maximum cushioning in Brooks shoes, preference for wider fits (4E), and those long work shifts, here are the best sheepskin boots designed for ultimate comfort:",
+      "responseTimeMs": 15632,
+      "brandMentions": [
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 32,
+      "query": "best waterproof boots",
+      "success": true,
+      "response": "{} Perfect! Given your preference for maximum cushioning in Brooks shoes, wide feet (4E), and working long shifts, here are excellent waterproof boot options organized by type:",
+      "responseTimeMs": 16369,
+      "brandMentions": [
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 33,
+      "query": "best fashion boots",
+      "success": true,
+      "response": "{} Given your experience with maximum cushioning in Brooks running shoes, preference for wide feet (4E), and long work shifts, here are the best fashion boots to elevate your style:",
+      "responseTimeMs": 16668,
+      "brandMentions": [
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 34,
+      "query": "best slip on boots",
+      "success": true,
+      "response": "{} Perfect! Given your preference for cushioned comfort from Brooks shoes, wide feet (4E), and long work shifts, here are excellent slip-on boot options:",
+      "responseTimeMs": 15207,
+      "brandMentions": [
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 35,
+      "query": "best ankle boots for women",
+      "success": true,
+      "response": "{} Perfect! Given your experience with Brooks running shoes and preference for wide feet (4E) during long work shifts, here are excellent ankle boot options that prioritize comfort and style:",
+      "responseTimeMs": 16490,
+      "brandMentions": [
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 36,
+      "query": "coziest winter boots",
+      "success": true,
+      "response": "{} Perfect for staying cozy this winter! Based on your preference for cushioned comfort from Brooks shoes and your work requirements for wide feet (4E), here are the coziest winter boot options:",
+      "responseTimeMs": 17010,
+      "brandMentions": [
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 37,
+      "query": "best boots for snow and ice",
+      "success": true,
+      "response": "{} Perfect! Given your preference for comfortable, supportive footwear (like your Brooks running shoes) and your need for reliable traction during those 10+ miles of walking daily, here are the best boots for snow and ice conditions:",
+      "responseTimeMs": 17891,
+      "brandMentions": [
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 38,
+      "query": "best insulated boots",
+      "success": true,
+      "response": "{} Great choice! Given your extensive work hours (12-hour shifts), walking 10+ miles daily, and preference for cushioned comfort (like your Brooks running shoes), here are the most insulated winter boots to keep you warm and comfortable:",
+      "responseTimeMs": 16805,
+      "brandMentions": [
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 39,
+      "query": "most comfortable everyday shoes",
+      "success": true,
+      "response": "{} Brooks Women's Ghost Max 3 Night Shadow/Ebony/Purple Price, product page$150.00$150.00luckyfeetshoes.comShop direct {} Ghost Max 3 with high stack cushioning to reduce underfoot pressure and accommodate wide feet More details (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/11mVszy8FIL._RC|41k9TQrnHzL.js,21cuxCuJB9L.js_.js?PUISClients/AmazonRushFramework'); P.now('aapi-token-puis').execute('register-csrf-token', function(token) { if (!token) { P.declare('aapi-token-puis', \"1@g1r7j3fu8VJaoDNqaKAyR0QjLJAZUwA6doiz020KA5qVAAAAAQAAAABpdsrlcmF3AAAAAGfA1H5nd8xGEcC31DKLNw==@KDFC4Z\"); } }); {\"SEARCH_EUSTORES_PUIS_COLOR_SWATCHES_BORDER_OPACITY_MEASUREMENT_1320527\":\"C\",\"SEARCH_SES_FOS_SAF_TYPOGRAPHY_DESKTOP_1289331\":\"C\",\"SEARCH_SCX_WPX_OAM_BADGE_A11Y_1360132\":\"C\",\"SEARCH_532653\":\"C\",\"SEARCH_MAF_EE_GATING_707463\":\"C\",\"SEARCH_SCX_WPX_OAM_CTA_1217867\":\"C\",\"SEARCH_SCX_SAI_AFO_TEMPLATES_1301593\":\"C\",\"SEARCH_SCX_DEX_PUIS_CSRF_TOKEN_1185878\":\"T1\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_MOBILE_876944\":\"C\",\"F3_STEPPER_SYNC_ASSETS_918718\":\"C\",\"SEARCH_SCX_HDM_TO_DV3_MIGRATION_FRONTEND_1281235\":\"C\",\"SEARCH_SES_BADGE_MVT_GATING_965313\":\"C\",\"SEARCH_SCX_HAUL_ATC_ON_DOMESTIC_ASIN_1341210\":\"T1\",\"SEARCH_SCX_CP_IMG_ACTION_1294581\":\"T1\",\"SEARCH_EUSTORES_ATC_SW_INTEGRATION_FALLBACK_GATING_1052045\":\"C\",\"SEARCH_F3_ALM_CART_ACTION_ASSETS_NPM_IMPORT_955056\":\"C\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_DESKTOP_876938\":\"C\",\"SEARCH_WWGS_MBSB_A11Y_DEFECT_FIX_GATING_1358608\":\"C\",\"SEARCH_VS_PREVIEW_AUTO_CROP_1226514\":\"T1\",\"SEARCH_IN_PHARMACY_MLT_960375\":\"C\",\"SEARCH_VS_MLT_TEXT_INGRESS_1119272_PHASE2_1308055\":\"C\",\"SEARCH_VIDEO_FACEOUT_FRONTEND_LEVER_PHASE2_492845\":\"C\",\"SEARCH_SCX_HAUL_ATC_1283682\":\"T1\",\"BW_PUI_AMAZONIMAGE_1028570\":\"C\",\"SEARCH_WWGS_QUANTITY_STEPPER_STATUS_BADGE_TOGGLE_1003886\":\"C\",\"SEARCH_WWGS_SAVES_ASSETS_839792\":\"C\",\"F3_WFMOAC_CUSTOM_CAKE_GATING_754771\":\"C\",\"SEARCH_INLINE_FANSHOP_PUI_ASSETS_1339009\":\"C\",\"SEARCH_EUSTORES_PUIS_MGM_GATING_1244964\":\"C\",\"SEARCH_SCX_AB_1282121\":\"C\",\"SEARCH_WWGS_PICKUP_REFINEMENT_988425\":\"C\",\"SEARCH_SCX_WPX_OAM_1349971\":\"T1\",\"SEARCH_VS_EXP_AR_INGRESS_EXPANSION_1189564\":\"C\",\"P13N_BADGEX_PUI_CAPSULE_1157018\":\"T1\",\"SEARCH_BAZAAR_ATC_BUTTON_ON_CORE_1243894\":\"T1\",\"SEARCH_EUSTORES_PUIS_COLORSWATCHES_INTERACTIVITY_ACCESSIBILITY_MEASUREMENT_1334549\":\"C\",\"SEARCH_VS_3D_VIDEO_1251281\":\"C\",\"SEARCH_SCX_AB_1099759\":\"C\",\"SEARCH_382092\":\"T1\",\"SEARCH_SCX_COPILOT_SUPPRESS_MLT_ANIMATION_1334637\":\"C\",\"SEARCH_EUSTORES_PUIS_ATD_TOOLTIP_SHOPPINGAIDS_MEASUREMENT_1335106\":\"T1\",\"SEARCH_BUYX_ICDP_PREFETCH_1272207\":\"T1\",\"SEARCH_EUSTORES_PUIS_ATC_CUSTOM_ASINS_EXPANSION_ASSETS_GATING_1337162\":\"C\",\"SEARCH_SES_FOS_DP_PRICING_MVT_976179\":\"C\",\"SEARCH_SCX_PUIS_COPILOT_GATING_1279652\":\"T1\",\"SEARCH_SCX_PROMOTIONS_ASSET_GATING_1309732\":\"T1\",\"SEARCH_RUFUS_ASIN_INGRESS_1207023\":\"C\",\"AXIOM_LISTS_PUI_HEART_LIST_ACTION_SUB_RESOURCE_ENABLED_1319041\":\"C\",\"SEARCH_SCX_1176766\":\"T1\",\"SEARCH_WWGS_PUIS_ISM_SAVE_TO_LIST_ASSET_GATING_1119626\":\"C\",\"SEARCH_BAZAAR_PROPOSITION_BADGE_1284096\":\"C\",\"SEARCH_FOS_REVIEW_BLOCK_CSS_GATING_715873\":\"C\",\"SEARCH_VS_VIDEO_1182816\":\"C\"}window.AmazonUIPageJS && window.AmazonUIPageJS.when('puis-enable-treatments-for-render').execute(function (enableRenderId) { enableRenderId('r1y0m5xw2hcrel2ssapowqpvplo'); }); (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://m.media-amazon.com/images/I/112x1Qjn5tL._RC|01HCHuzDdcL.js,41ns5+RXugL.js,01SSs1udVFL.js,21Rcsl7Fo7L.js,21IHmLveSuL.js,11o1UsgynwL.js,31uGKJgK-gL.js,31-3l5RTCeL.js,01Oi+MtiDrL.js,21kPFkdu31L.js,11wtlUYYJVL.js,41Py0rc3wKL.js,2167LESqy-L.js,71O+YmfpSVL.js_.js?AUIClients/ProductUIServiceAssets-vnp5jk0p0a5y72qpfosuwuvsnx');",
+      "responseTimeMs": 16007,
+      "brandMentions": [
+        {
+          "brand": "Amazon",
+          "count": 10
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 40,
+      "query": "best casual sneakers",
+      "success": true,
+      "response": "{} Perfect! Here are some excellent casual sneakers that match your active lifestyle and need for all-day comfort:",
+      "responseTimeMs": 16075,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 41,
+      "query": "best slip on shoes",
+      "success": true,
+      "response": "{} Perfect! Given your active lifestyle and preference for maximum cushioning, here are excellent slip-on shoe options:",
+      "responseTimeMs": 15783,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 42,
+      "query": "best shoes for standing all day",
+      "success": true,
+      "response": "{} Perfect! Given your work demands - standing for 8+ hours, warehouse floors, flight attendant duties, nursing shifts - and your preference for Brooks cushioning plus 4E wide feet, here are excellent shoes designed for all-day standing:",
+      "responseTimeMs": 12633,
+      "brandMentions": [
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 43,
+      "query": "most comfortable slippers",
+      "success": true,
+      "response": "{} Perfect! Given your active lifestyle and need for maximum foot comfort during those long 12-hour shifts, here are excellent slipper options:",
+      "responseTimeMs": 14721,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 44,
+      "query": "best house shoes",
+      "success": true,
+      "response": "{} Perfect! Given your preference for maximum cushioning (like your Brooks shoes) and the need to be comfortable during those long 12-hour shifts, here are excellent house slipper options:",
+      "responseTimeMs": 14814,
+      "brandMentions": [
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 45,
+      "query": "best comfortable sandals",
+      "success": true,
+      "response": "{} Perfect! Given your love for cushioned comfort (like in your Brooks running shoes) and your need to stay comfortable during 12-hour shifts, here are excellent sandal options that provide the support you appreciate:",
+      "responseTimeMs": 14840,
+      "brandMentions": [
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 46,
+      "query": "best walking shoes for travel",
+      "success": true,
+      "response": "{} Given your experience working long shifts on your feet and your love for Brooks' superior cushioning, here are excellent travel walking shoes designed for all-day comfort:",
+      "responseTimeMs": 15219,
+      "brandMentions": [
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 47,
+      "query": "best sustainable shoes",
+      "success": true,
+      "response": "{} Perfect timing! Given your preference for maximum cushioning (like in your Brooks shoes) and your need for comfort during long shifts, here are excellent sustainable shoe options that don't compromise on the comfort you need:",
+      "responseTimeMs": 15706,
+      "brandMentions": [
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 48,
+      "query": "best shoes for plantar fasciitis",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 18300,
+      "brandMentions": [],
+      "error": "Could not extract Rufus response"
+    },
+    {
+      "queryIndex": 49,
+      "query": "most comfortable shoes 2026",
+      "success": true,
+      "response": "{} Perfect timing! Based on the latest 2026 research from fitness experts and podiatrists, here are the most comfortable shoes that align with your preference for superior cushioning and long-wear comfort:",
+      "responseTimeMs": 21030,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 50,
+      "query": "best orthopedic casual shoes",
+      "success": true,
+      "response": "{} Given your experience with Brooks Ghost shoes, wide 4E feet, and need for all-day comfort during 12-hour shifts, here are the best orthopedic casual shoes for your specific requirements:",
+      "responseTimeMs": 18439,
+      "brandMentions": [
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 51,
+      "query": "HOKA vs Brooks running shoes",
+      "success": true,
+      "response": "{} Products Cushioning & Feel Support & Stability Best For Price Range Hoka Mens Bondi 9 Maximum stack height with plush EVA foam - softest ride available Broad platform for inherent stability during long shifts 12-hour warehouse work, maximum comfort priority $150-190 Hoka Men's Clifton 10 Black/White 11 Medium Ultralight cushioning, 3mm additional heel-to-toe drop Balanced support without bulk, jacquard knit upper",
+      "responseTimeMs": 15882,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 52,
+      "query": "HOKA vs Nike running shoes",
+      "success": true,
+      "response": "{} Products Maximum Cushioning Support & Stability Best For Your Needs Price Range Hoka Mens Bondi 9 Ultra-plush foam with increased stack height - HOKA's softest ride available Broad platform for inherent stability during 12-hour shifts Maximum comfort priority, warehouse work on concrete floors $169 Hoka Men's Clifton 10 Black/White 11 Medium Ultralight cushioning with additional 3mm heel-to-toe drop Balanced support without bulk, jacquard knit upper fits well Daily training runs, lighter feel but still cushioned $135",
+      "responseTimeMs": 14584,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "queryIndex": 53,
+      "query": "HOKA vs On Running",
+      "success": true,
+      "response": "{} Products Cushioning & Feel Support & Stability Best For Your Needs Price Range Hoka Mens Bondi 9 Maximum plushness with increased stack height - HOKA's softest ride available Broad platform for inherent stability during 12-hour warehouse shifts Maximum comfort priority, concrete floors, long shifts $148-175 Hoka Mens Clifton 10 Ultralight cushioning with additional 3mm heel-to-toe drop Fine-tuned fit with double-lace lock to prevent tongue migration Daily training runs, familiar Brooks-like feel but lighter $125-150",
+      "responseTimeMs": 16040,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 3
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 54,
+      "query": "UGG vs Bearpaw boots",
+      "success": true,
+      "response": "{} Products Cushioning & Feel Support & Stability Best For Your Needs Price Range Hoka Mens Bondi 9 Maximum plushness with increased stack height - HOKA's softest ride available Broad platform for inherent stability during 12-hour warehouse shifts Maximum comfort priority, concrete floors, long shifts $148-175 Hoka Mens Clifton 10 Ultralight cushioning with additional 3mm heel-to-toe drop Fine-tuned fit with double-lace lock to prevent tongue migration Daily training runs, familiar Brooks-like feel but lighter $125-150",
+      "responseTimeMs": 15868,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 3
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 55,
+      "query": "UGG vs Koolaburra",
+      "success": true,
+      "response": "{} Products Materials & Construction Comfort & Durability Best For Your Needs Price Range UGG Women's Tasman II Slipper 17mm genuine sheepskin lining and insole, suede upper Premium materials for long-lasting warmth during 12-hour shifts Maximum comfort for warehouse work, authentic UGG quality $125 UGG Women's Classic Ultra Mini Boot 17mm Twinface sheepskin, topically treated for water repellency Ultra-lightweight sole, pre-treated to maintain appearance",
+      "responseTimeMs": 16592,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "queryIndex": 56,
+      "query": "Teva vs Chaco sandals",
+      "success": true,
+      "response": "{} Products Strap Design & Fit Footbed Technology Best For Your Needs Price Range Teva womens Hurricane Xlt2Sandal Quick hook-and-loop closure with soft heel padding EVA foam midsole with nylon shank for uneven terrain Easy on/off convenience, ideal for warehouse work breaks $43-75 Teva womens Hurricane 4",
+      "responseTimeMs": 16050,
+      "brandMentions": [
+        {
+          "brand": "Teva",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 57,
+      "query": "Teva vs Keen sandals",
+      "success": true,
+      "response": "{} Products Foot Support & Comfort Durability for Concrete Best For Your Needs Price Range Teva Men's M Hurricane XLT2 Sport Sandals EVA footbed with nylon shank for stability; soft heel padding Durabrasion rubber outsole built for abuse Quick on/off for warehouse breaks, lightweight at 11 oz $40-70 Teva mens Universal Trail Molded EVA with arch cookie support; heel cupping VIBRAM Mega Grip for superior wet/dry traction Maximum traction for various warehouse surfaces $69-100",
+      "responseTimeMs": 16439,
+      "brandMentions": [
+        {
+          "brand": "Teva",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 58,
+      "query": "HOKA vs New Balance running shoes",
+      "success": true,
+      "response": "{} Products Cushioning & Support Best For Your Needs Durability & Fit Price Range Hoka Mens Bondi 9 Maximum stack height with premium foam; ultra-plush ride Perfect for 12-hour warehouse shifts; handles concrete well Durabrasion rubber in high wear zones; accommodates wide feet $170 Hoka Mens Clifton 10 Ultralight cushioning with 3mm extra heel-to-toe drop Ideal for marathon training; lighter for speed work Double-lace lock prevents tongue migration; excellent for daily miles $145 New Balance Men's Fresh Foam X 1080 V14 Shoes Fresh Foam X with bio-based content; most cushioned experience Versatile from daily wear to race day; smooth transitions Gusseted tongue keeps debris out; reliable for high mileage $104",
+      "responseTimeMs": 16096,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 2
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 59,
+      "query": "UGG vs EMU boots",
+      "success": true,
+      "response": "{} Products Comfort & Fit Durability & Construction Best For Your Needs Price Range UGG Women's Neumel Boot 17mm UGGpure wool lining; signature slipper-like feel Treadlite by UGG outsole; California leisure design Perfect for recovery days and casual wear after long shifts $150 UGG Women's Classic Ultra Mini Boot Lower shaft for easy slip-on; flexible lightweight sole Topically treated for water repellency; sugarcane EVA outsole Great transitional boot for warehouse breaks and light outdoor use $160",
+      "responseTimeMs": 14719,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "queryIndex": 60,
+      "query": "HOKA vs ASICS",
+      "success": true,
+      "response": "{} Products Cushioning Philosophy Perfect For Your Needs Durability & Fit Price Point Hoka Mens Bondi 9 Maximum stack height with premium foam; ultra-plush for all-day comfort Ideal for 12-hour warehouse shifts on concrete; handles 250 lbs effectively Durabrasion rubber in high-wear zones; structured knit upper $159 Hoka Mens Clifton 10 Ultralight cushioning with 3mm additional heel drop for smooth transitions Perfect for marathon training in Minnesota; responsive for speed work Double-lace lock prevents tongue migration; jacquard knit breathability $137",
+      "responseTimeMs": 15446,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 61,
+      "query": "Teva vs Merrell hiking sandals",
+      "success": true,
+      "response": "{} Products Cushioning & Support Terrain Performance Best for Your Needs Price Range Teva womens Hurricane Xlt2Sandal Robust EVA footbed with soft heel-strap padding; nylon shank for uneven terrain Durabrasion rubber outsole excels on wet surfaces and slick terrain Perfect for warehouse concrete floors and Minnesota lake trails $43 Teva Men's Terra Fi 5 Universal Sandal Molded PU midsole with lightweight design; nylon shank stabilization Spider Rubber outsole engineered for heavy pack carrying and rugged terrain Superior for marathon training hikes with gear and high-impact activities $110 Merrell Women's Terran Slide II Sandal Merrell Air Cushion heel absorption with microfiber soft footbed Molded nylon arch shank optimized for rocky and uneven surfaces Excellent for your high arches and provides stability during long standing periods $59 Merrell womens Terran 4 Post",
+      "responseTimeMs": 17417,
+      "brandMentions": [
+        {
+          "brand": "Merrell",
+          "count": 3
+        },
+        {
+          "brand": "Teva",
+          "count": 2
+        },
+        {
+          "brand": "UGG",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 62,
+      "query": "UGG vs Sorel winter boots",
+      "success": true,
+      "response": "{} Products Temperature & Insulation Waterproof Technology Perfect for Your Needs Durability & Traction UGG womens Adirondack Boot XXV 3M Xerogel insulation rated to -32°C; UGGplush wool lining DryTech waterproof membrane with gusset construction Ideal for Minnesota winters and marathon training; cuffable shaft for versatility Vibram ICETREK compound for superior grip on ice and snow Sorel Womens Joan of Arctic Waterproof Boots 6mm recycled felt inner boot with 2.5mm frost plug; removable for washing Seam-sealed waterproof vulcanized rubber shell Perfect for warehouse concrete and extended standing; herringbone outsole for stability Handcrafted construction with",
+      "responseTimeMs": 16967,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 2
+        },
+        {
+          "brand": "Sorel",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 63,
+      "query": "HOKA vs Saucony",
+      "success": true,
+      "response": "{} Products Cushioning Technology Support for High Arches Perfect for Your 250lb Frame Marathon Training Benefits Hoka Mens Bondi 9 Premium foam midsole with increased stack height; peak plushness for everyday miles 3D molded collar and structured knit upper provide arch support Durabrasion rubber zones handle heavy impact; designed for hardest working lifestyle Ultra-cushioned design prevents joint stress during long training runs Hoka Mens Clifton 10 Ultralight cushioning with additional 3mm heel-to-toe drop; revitalized underfoot experience Double-lace lock system prevents tongue migration; breathable jacquard knit locks foot securely 10-year proven track record for daily maintenance miles; built for consistent heavy use Fine-tuned fit and plush performance ideal for marathon distance preparation",
+      "responseTimeMs": 16675,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 64,
+      "query": "best HOKA alternatives",
+      "success": true,
+      "response": "{} Perfect! Based on your marathon training and demanding warehouse work schedule, here are the best HOKA alternatives that deliver exceptional cushioning for your high-impact lifestyle:",
+      "responseTimeMs": 15811,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 65,
+      "query": "UGG alternatives that are cheaper",
+      "success": true,
+      "response": "{} Perfect! Here are the best UGG alternatives that deliver that same cozy comfort at much more affordable prices:",
+      "responseTimeMs": 17296,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 66,
+      "query": "best shoes for nurses",
+      "success": true,
+      "response": "{} Perfect! As a nurse working 12-hour shifts, here are the best shoes specifically designed for healthcare professionals who need maximum comfort and support for long days on their feet:",
+      "responseTimeMs": 19186,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 67,
+      "query": "best shoes for teachers",
+      "success": true,
+      "response": "{} As an elementary school teacher working 12-hour shifts, you need shoes that can handle your long days on your feet. Here are the best options specifically tailored to your needs:",
+      "responseTimeMs": 18949,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 68,
+      "query": "best shoes for walking on concrete",
+      "success": true,
+      "response": "{} Given your work demands - 12 hour shifts walking 10+ miles on concrete with 4E wide feet - here are the best shoes specifically engineered for concrete surfaces:",
+      "responseTimeMs": 17696,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 69,
+      "query": "best shoes for travel",
+      "success": true,
+      "response": "{} As a flight attendant who walks 10+ miles a day, you need shoes that excel at comfort, durability, and versatility for travel. Here are the best options:",
+      "responseTimeMs": 15628,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 70,
+      "query": "best shoes for long flights",
+      "success": true,
+      "response": "{} As a flight attendant who knows the challenges of long flights firsthand, here are the best shoe solutions for long flights:",
+      "responseTimeMs": 15775,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 71,
+      "query": "best recovery shoes after running",
+      "success": true,
+      "response": "{} Perfect for your marathon training recovery! As someone who trains regularly and runs 5 days a week, these recovery shoes will be essential for your post-run care:",
+      "responseTimeMs": 16332,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 72,
+      "query": "best post-workout slides",
+      "success": true,
+      "response": "{} Your feedback has been submitted! Your feedback has been submitted! Select All That Apply (optional): This is irrelevant This is inaccurate This is harmful / unsafe Something else Dismiss Submit",
+      "responseTimeMs": 12310,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 73,
+      "query": "best shoes for warehouse work",
+      "success": true,
+      "response": "{} Perfect! Working in a warehouse means you need shoes that can handle being on your feet for 8+ hours on hard floors. Given your experience with standing and your preference for extra cushioning, here are excellent options:",
+      "responseTimeMs": 18176,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 74,
+      "query": "best shoes for theme parks",
+      "success": true,
+      "response": "{} Brooks Women's Ghost Max 3 Night Shadow/Ebony/Purple Price, product page$150.00$150.00luckyfeetshoes.comShop direct {} Brooks Ghost Max with nitrogen-infused DNA Loft for plantar fasciitis relief More details (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/11mVszy8FIL._RC|41k9TQrnHzL.js,21cuxCuJB9L.js_.js?PUISClients/AmazonRushFramework'); P.now('aapi-token-puis').execute('register-csrf-token', function(token) { if (!token) { P.declare('aapi-token-puis', \"1@g9DvAoCTa7vr3MwWAvf0xBMXfLfSXc+gqlUxjwzhycMqAAAAAQAAAABpds6ocmF3AAAAAGfA1H5nd8xGEcC31DKLNw==@KDFC4Z\"); } }); {\"SEARCH_EUSTORES_PUIS_COLOR_SWATCHES_BORDER_OPACITY_MEASUREMENT_1320527\":\"C\",\"SEARCH_SES_FOS_SAF_TYPOGRAPHY_DESKTOP_1289331\":\"C\",\"SEARCH_SCX_WPX_OAM_BADGE_A11Y_1360132\":\"C\",\"SEARCH_532653\":\"C\",\"SEARCH_MAF_EE_GATING_707463\":\"C\",\"SEARCH_SCX_WPX_OAM_CTA_1217867\":\"C\",\"SEARCH_SCX_SAI_AFO_TEMPLATES_1301593\":\"C\",\"SEARCH_SCX_DEX_PUIS_CSRF_TOKEN_1185878\":\"T1\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_MOBILE_876944\":\"C\",\"F3_STEPPER_SYNC_ASSETS_918718\":\"C\",\"SEARCH_SCX_HDM_TO_DV3_MIGRATION_FRONTEND_1281235\":\"C\",\"SEARCH_SES_BADGE_MVT_GATING_965313\":\"C\",\"SEARCH_SCX_HAUL_ATC_ON_DOMESTIC_ASIN_1341210\":\"T1\",\"SEARCH_SCX_CP_IMG_ACTION_1294581\":\"T1\",\"SEARCH_EUSTORES_ATC_SW_INTEGRATION_FALLBACK_GATING_1052045\":\"C\",\"SEARCH_F3_ALM_CART_ACTION_ASSETS_NPM_IMPORT_955056\":\"C\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_DESKTOP_876938\":\"C\",\"SEARCH_WWGS_MBSB_A11Y_DEFECT_FIX_GATING_1358608\":\"C\",\"SEARCH_VS_PREVIEW_AUTO_CROP_1226514\":\"T1\",\"SEARCH_IN_PHARMACY_MLT_960375\":\"C\",\"SEARCH_VS_MLT_TEXT_INGRESS_1119272_PHASE2_1308055\":\"C\",\"SEARCH_VIDEO_FACEOUT_FRONTEND_LEVER_PHASE2_492845\":\"C\",\"SEARCH_SCX_HAUL_ATC_1283682\":\"T1\",\"BW_PUI_AMAZONIMAGE_1028570\":\"C\",\"SEARCH_WWGS_QUANTITY_STEPPER_STATUS_BADGE_TOGGLE_1003886\":\"C\",\"SEARCH_WWGS_SAVES_ASSETS_839792\":\"C\",\"F3_WFMOAC_CUSTOM_CAKE_GATING_754771\":\"C\",\"SEARCH_INLINE_FANSHOP_PUI_ASSETS_1339009\":\"C\",\"SEARCH_EUSTORES_PUIS_MGM_GATING_1244964\":\"C\",\"SEARCH_SCX_AB_1282121\":\"C\",\"SEARCH_WWGS_PICKUP_REFINEMENT_988425\":\"C\",\"SEARCH_SCX_WPX_OAM_1349971\":\"T1\",\"SEARCH_VS_EXP_AR_INGRESS_EXPANSION_1189564\":\"C\",\"P13N_BADGEX_PUI_CAPSULE_1157018\":\"T1\",\"SEARCH_BAZAAR_ATC_BUTTON_ON_CORE_1243894\":\"T1\",\"SEARCH_EUSTORES_PUIS_COLORSWATCHES_INTERACTIVITY_ACCESSIBILITY_MEASUREMENT_1334549\":\"C\",\"SEARCH_VS_3D_VIDEO_1251281\":\"C\",\"SEARCH_SCX_AB_1099759\":\"C\",\"SEARCH_382092\":\"T1\",\"SEARCH_SCX_COPILOT_SUPPRESS_MLT_ANIMATION_1334637\":\"C\",\"SEARCH_EUSTORES_PUIS_ATD_TOOLTIP_SHOPPINGAIDS_MEASUREMENT_1335106\":\"T1\",\"SEARCH_BUYX_ICDP_PREFETCH_1272207\":\"T1\",\"SEARCH_EUSTORES_PUIS_ATC_CUSTOM_ASINS_EXPANSION_ASSETS_GATING_1337162\":\"C\",\"SEARCH_SES_FOS_DP_PRICING_MVT_976179\":\"C\",\"SEARCH_SCX_PUIS_COPILOT_GATING_1279652\":\"T1\",\"SEARCH_SCX_PROMOTIONS_ASSET_GATING_1309732\":\"T1\",\"SEARCH_RUFUS_ASIN_INGRESS_1207023\":\"C\",\"AXIOM_LISTS_PUI_HEART_LIST_ACTION_SUB_RESOURCE_ENABLED_1319041\":\"C\",\"SEARCH_SCX_1176766\":\"T1\",\"SEARCH_WWGS_PUIS_ISM_SAVE_TO_LIST_ASSET_GATING_1119626\":\"C\",\"SEARCH_BAZAAR_PROPOSITION_BADGE_1284096\":\"C\",\"SEARCH_FOS_REVIEW_BLOCK_CSS_GATING_715873\":\"C\",\"SEARCH_VS_VIDEO_1182816\":\"C\"}window.AmazonUIPageJS && window.AmazonUIPageJS.when('puis-enable-treatments-for-render').execute(function (enableRenderId) { enableRenderId('r2ft2ktfhud33523y0qw8xr5g91'); }); (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://m.media-amazon.com/images/I/112x1Qjn5tL._RC|01HCHuzDdcL.js,41ns5+RXugL.js,01SSs1udVFL.js,21Rcsl7Fo7L.js,21IHmLveSuL.js,11o1UsgynwL.js,31uGKJgK-gL.js,31-3l5RTCeL.js,01Oi+MtiDrL.js,21kPFkdu31L.js,11wtlUYYJVL.js,41Py0rc3wKL.js,2167LESqy-L.js,71O+YmfpSVL.js_.js?AUIClients/ProductUIServiceAssets-vnp5jk0p0a5y72qpfosuwuvsnx');",
+      "responseTimeMs": 16679,
+      "brandMentions": [
+        {
+          "brand": "Amazon",
+          "count": 10
+        },
+        {
+          "brand": "Brooks",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 75,
+      "query": "best shoes for back pain",
+      "success": true,
+      "response": "{} Brooks Women's Ghost Max 3 Night Shadow/Ebony/Purple Price, product page$150.00$150.00luckyfeetshoes.comShop direct {} Brooks Ghost Max 3 with nitrogen-infused DNA Loft v3, designed to help plantar fasciitis More details (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/11mVszy8FIL._RC|41k9TQrnHzL.js,21cuxCuJB9L.js_.js?PUISClients/AmazonRushFramework'); P.now('aapi-token-puis').execute('register-csrf-token', function(token) { if (!token) { P.declare('aapi-token-puis', \"1@g\\/C5nBzcE0VKIwAfYqXhI0sxLUyzG+DmNeI\\/SPch3\\/+gAAAAAQAAAABpds7GcmF3AAAAAGfA1H5nd8xGEcC31DKLNw==@KDFC4Z\"); } }); {\"SEARCH_EUSTORES_PUIS_COLOR_SWATCHES_BORDER_OPACITY_MEASUREMENT_1320527\":\"C\",\"SEARCH_SES_FOS_SAF_TYPOGRAPHY_DESKTOP_1289331\":\"C\",\"SEARCH_SCX_WPX_OAM_BADGE_A11Y_1360132\":\"C\",\"SEARCH_532653\":\"C\",\"SEARCH_MAF_EE_GATING_707463\":\"C\",\"SEARCH_SCX_WPX_OAM_CTA_1217867\":\"C\",\"SEARCH_SCX_SAI_AFO_TEMPLATES_1301593\":\"C\",\"SEARCH_SCX_DEX_PUIS_CSRF_TOKEN_1185878\":\"T1\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_MOBILE_876944\":\"C\",\"F3_STEPPER_SYNC_ASSETS_918718\":\"C\",\"SEARCH_SCX_HDM_TO_DV3_MIGRATION_FRONTEND_1281235\":\"C\",\"SEARCH_SES_BADGE_MVT_GATING_965313\":\"C\",\"SEARCH_SCX_HAUL_ATC_ON_DOMESTIC_ASIN_1341210\":\"T1\",\"SEARCH_SCX_CP_IMG_ACTION_1294581\":\"T1\",\"SEARCH_EUSTORES_ATC_SW_INTEGRATION_FALLBACK_GATING_1052045\":\"C\",\"SEARCH_F3_ALM_CART_ACTION_ASSETS_NPM_IMPORT_955056\":\"C\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_DESKTOP_876938\":\"C\",\"SEARCH_WWGS_MBSB_A11Y_DEFECT_FIX_GATING_1358608\":\"C\",\"SEARCH_VS_PREVIEW_AUTO_CROP_1226514\":\"T1\",\"SEARCH_IN_PHARMACY_MLT_960375\":\"C\",\"SEARCH_VS_MLT_TEXT_INGRESS_1119272_PHASE2_1308055\":\"C\",\"SEARCH_VIDEO_FACEOUT_FRONTEND_LEVER_PHASE2_492845\":\"C\",\"SEARCH_SCX_HAUL_ATC_1283682\":\"T1\",\"BW_PUI_AMAZONIMAGE_1028570\":\"C\",\"SEARCH_WWGS_QUANTITY_STEPPER_STATUS_BADGE_TOGGLE_1003886\":\"C\",\"SEARCH_WWGS_SAVES_ASSETS_839792\":\"C\",\"F3_WFMOAC_CUSTOM_CAKE_GATING_754771\":\"C\",\"SEARCH_INLINE_FANSHOP_PUI_ASSETS_1339009\":\"C\",\"SEARCH_EUSTORES_PUIS_MGM_GATING_1244964\":\"C\",\"SEARCH_SCX_AB_1282121\":\"C\",\"SEARCH_WWGS_PICKUP_REFINEMENT_988425\":\"C\",\"SEARCH_SCX_WPX_OAM_1349971\":\"T1\",\"SEARCH_VS_EXP_AR_INGRESS_EXPANSION_1189564\":\"C\",\"P13N_BADGEX_PUI_CAPSULE_1157018\":\"T1\",\"SEARCH_BAZAAR_ATC_BUTTON_ON_CORE_1243894\":\"T1\",\"SEARCH_EUSTORES_PUIS_COLORSWATCHES_INTERACTIVITY_ACCESSIBILITY_MEASUREMENT_1334549\":\"C\",\"SEARCH_VS_3D_VIDEO_1251281\":\"C\",\"SEARCH_SCX_AB_1099759\":\"C\",\"SEARCH_382092\":\"T1\",\"SEARCH_SCX_COPILOT_SUPPRESS_MLT_ANIMATION_1334637\":\"C\",\"SEARCH_EUSTORES_PUIS_ATD_TOOLTIP_SHOPPINGAIDS_MEASUREMENT_1335106\":\"T1\",\"SEARCH_BUYX_ICDP_PREFETCH_1272207\":\"T1\",\"SEARCH_EUSTORES_PUIS_ATC_CUSTOM_ASINS_EXPANSION_ASSETS_GATING_1337162\":\"C\",\"SEARCH_SES_FOS_DP_PRICING_MVT_976179\":\"C\",\"SEARCH_SCX_PUIS_COPILOT_GATING_1279652\":\"T1\",\"SEARCH_SCX_PROMOTIONS_ASSET_GATING_1309732\":\"T1\",\"SEARCH_RUFUS_ASIN_INGRESS_1207023\":\"C\",\"AXIOM_LISTS_PUI_HEART_LIST_ACTION_SUB_RESOURCE_ENABLED_1319041\":\"C\",\"SEARCH_SCX_1176766\":\"T1\",\"SEARCH_WWGS_PUIS_ISM_SAVE_TO_LIST_ASSET_GATING_1119626\":\"C\",\"SEARCH_BAZAAR_PROPOSITION_BADGE_1284096\":\"C\",\"SEARCH_FOS_REVIEW_BLOCK_CSS_GATING_715873\":\"C\",\"SEARCH_VS_VIDEO_1182816\":\"C\"}window.AmazonUIPageJS && window.AmazonUIPageJS.when('puis-enable-treatments-for-render').execute(function (enableRenderId) { enableRenderId('r270p97aawbsb928yes71kdghyc'); }); (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://m.media-amazon.com/images/I/112x1Qjn5tL._RC|01HCHuzDdcL.js,41ns5+RXugL.js,01SSs1udVFL.js,21Rcsl7Fo7L.js,21IHmLveSuL.js,11o1UsgynwL.js,31uGKJgK-gL.js,31-3l5RTCeL.js,01Oi+MtiDrL.js,21kPFkdu31L.js,11wtlUYYJVL.js,41Py0rc3wKL.js,2167LESqy-L.js,71O+YmfpSVL.js_.js?AUIClients/ProductUIServiceAssets-vnp5jk0p0a5y72qpfosuwuvsnx');",
+      "responseTimeMs": 16382,
+      "brandMentions": [
+        {
+          "brand": "Amazon",
+          "count": 10
+        },
+        {
+          "brand": "Brooks",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 76,
+      "query": "best summer sandals",
+      "success": true,
+      "response": "{} Given your marathon training experience and preference for extra cushioning, here are excellent summer sandal options designed for all-day comfort:",
+      "responseTimeMs": 17799,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 77,
+      "query": "best beach shoes",
+      "success": true,
+      "response": "{} Based on your warehouse work experience and need for comfort during long hours on your feet, here are excellent beach shoes that provide both water functionality and all-day support:",
+      "responseTimeMs": 15767,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 78,
+      "query": "best slippers for men",
+      "success": true,
+      "response": "{} Asheville - Black 10 / Medium / Black Price, product page$120.00$120.00ameswalker.comShop direct {} Orthofeet orthopedic clog with adjustable straps, arch support, and wide toe box for pressure relief More details (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/11mVszy8FIL._RC|41k9TQrnHzL.js,21cuxCuJB9L.js_.js?PUISClients/AmazonRushFramework'); P.now('aapi-token-puis').execute('register-csrf-token', function(token) { if (!token) { P.declare('aapi-token-puis', \"1@g5tcOBJH9Z4Pg5ELZwSVjljKWlG\\/l4bK9I3zBVvQUZZQAAAAAQAAAABpds8XcmF3AAAAAGfA1H5nd8xGEcC31DKLNw==@KDFC4Z\"); } }); {\"SEARCH_EUSTORES_PUIS_COLOR_SWATCHES_BORDER_OPACITY_MEASUREMENT_1320527\":\"C\",\"SEARCH_SES_FOS_SAF_TYPOGRAPHY_DESKTOP_1289331\":\"C\",\"SEARCH_SCX_WPX_OAM_BADGE_A11Y_1360132\":\"C\",\"SEARCH_532653\":\"C\",\"SEARCH_MAF_EE_GATING_707463\":\"C\",\"SEARCH_SCX_WPX_OAM_CTA_1217867\":\"C\",\"SEARCH_SCX_SAI_AFO_TEMPLATES_1301593\":\"C\",\"SEARCH_SCX_DEX_PUIS_CSRF_TOKEN_1185878\":\"T1\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_MOBILE_876944\":\"C\",\"F3_STEPPER_SYNC_ASSETS_918718\":\"C\",\"SEARCH_SCX_HDM_TO_DV3_MIGRATION_FRONTEND_1281235\":\"C\",\"SEARCH_SES_BADGE_MVT_GATING_965313\":\"C\",\"SEARCH_SCX_HAUL_ATC_ON_DOMESTIC_ASIN_1341210\":\"T1\",\"SEARCH_SCX_CP_IMG_ACTION_1294581\":\"T1\",\"SEARCH_EUSTORES_ATC_SW_INTEGRATION_FALLBACK_GATING_1052045\":\"C\",\"SEARCH_F3_ALM_CART_ACTION_ASSETS_NPM_IMPORT_955056\":\"C\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_DESKTOP_876938\":\"C\",\"SEARCH_WWGS_MBSB_A11Y_DEFECT_FIX_GATING_1358608\":\"C\",\"SEARCH_VS_PREVIEW_AUTO_CROP_1226514\":\"T1\",\"SEARCH_IN_PHARMACY_MLT_960375\":\"C\",\"SEARCH_VS_MLT_TEXT_INGRESS_1119272_PHASE2_1308055\":\"C\",\"SEARCH_VIDEO_FACEOUT_FRONTEND_LEVER_PHASE2_492845\":\"C\",\"SEARCH_SCX_HAUL_ATC_1283682\":\"T1\",\"BW_PUI_AMAZONIMAGE_1028570\":\"C\",\"SEARCH_WWGS_QUANTITY_STEPPER_STATUS_BADGE_TOGGLE_1003886\":\"C\",\"SEARCH_WWGS_SAVES_ASSETS_839792\":\"C\",\"F3_WFMOAC_CUSTOM_CAKE_GATING_754771\":\"C\",\"SEARCH_INLINE_FANSHOP_PUI_ASSETS_1339009\":\"C\",\"SEARCH_EUSTORES_PUIS_MGM_GATING_1244964\":\"C\",\"SEARCH_SCX_AB_1282121\":\"C\",\"SEARCH_WWGS_PICKUP_REFINEMENT_988425\":\"C\",\"SEARCH_SCX_WPX_OAM_1349971\":\"T1\",\"SEARCH_VS_EXP_AR_INGRESS_EXPANSION_1189564\":\"C\",\"P13N_BADGEX_PUI_CAPSULE_1157018\":\"T1\",\"SEARCH_BAZAAR_ATC_BUTTON_ON_CORE_1243894\":\"T1\",\"SEARCH_EUSTORES_PUIS_COLORSWATCHES_INTERACTIVITY_ACCESSIBILITY_MEASUREMENT_1334549\":\"C\",\"SEARCH_VS_3D_VIDEO_1251281\":\"C\",\"SEARCH_SCX_AB_1099759\":\"C\",\"SEARCH_382092\":\"T1\",\"SEARCH_SCX_COPILOT_SUPPRESS_MLT_ANIMATION_1334637\":\"C\",\"SEARCH_EUSTORES_PUIS_ATD_TOOLTIP_SHOPPINGAIDS_MEASUREMENT_1335106\":\"T1\",\"SEARCH_BUYX_ICDP_PREFETCH_1272207\":\"T1\",\"SEARCH_EUSTORES_PUIS_ATC_CUSTOM_ASINS_EXPANSION_ASSETS_GATING_1337162\":\"C\",\"SEARCH_SES_FOS_DP_PRICING_MVT_976179\":\"C\",\"SEARCH_SCX_PUIS_COPILOT_GATING_1279652\":\"T1\",\"SEARCH_SCX_PROMOTIONS_ASSET_GATING_1309732\":\"T1\",\"SEARCH_RUFUS_ASIN_INGRESS_1207023\":\"C\",\"AXIOM_LISTS_PUI_HEART_LIST_ACTION_SUB_RESOURCE_ENABLED_1319041\":\"C\",\"SEARCH_SCX_1176766\":\"T1\",\"SEARCH_WWGS_PUIS_ISM_SAVE_TO_LIST_ASSET_GATING_1119626\":\"C\",\"SEARCH_BAZAAR_PROPOSITION_BADGE_1284096\":\"C\",\"SEARCH_FOS_REVIEW_BLOCK_CSS_GATING_715873\":\"C\",\"SEARCH_VS_VIDEO_1182816\":\"C\"}window.AmazonUIPageJS && window.AmazonUIPageJS.when('puis-enable-treatments-for-render').execute(function (enableRenderId) { enableRenderId('rk8hqux7jy5ax2kaa8dvhj2uzm'); }); (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://m.media-amazon.com/images/I/112x1Qjn5tL._RC|01HCHuzDdcL.js,41ns5+RXugL.js,01SSs1udVFL.js,21Rcsl7Fo7L.js,21IHmLveSuL.js,11o1UsgynwL.js,31uGKJgK-gL.js,31-3l5RTCeL.js,01Oi+MtiDrL.js,21kPFkdu31L.js,11wtlUYYJVL.js,41Py0rc3wKL.js,2167LESqy-L.js,71O+YmfpSVL.js_.js?AUIClients/ProductUIServiceAssets-vnp5jk0p0a5y72qpfosuwuvsnx');",
+      "responseTimeMs": 16850,
+      "brandMentions": [
+        {
+          "brand": "Amazon",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "queryIndex": 79,
+      "query": "best slippers for women",
+      "success": true,
+      "response": "{} Based on your experience working long hours on your feet and your preference for maximum cushioning, here are excellent women's slippers that address your specific needs:",
+      "responseTimeMs": 19333,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 80,
+      "query": "best indoor outdoor slippers",
+      "success": true,
+      "response": "{} Based on your profile - working long hours on hard floors, high arches, wide feet (4E), and preference for maximum cushioning - here are excellent indoor/outdoor slippers that address your specific needs:",
+      "responseTimeMs": 14019,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 81,
+      "query": "most comfortable house slippers",
+      "success": true,
+      "response": "{} Given your experience working long hours on hard floors, wide feet (4E), and preference for maximum cushioning, here are the most comfortable house slippers that provide the support you need:",
+      "responseTimeMs": 16306,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 82,
+      "query": "best memory foam slippers",
+      "success": true,
+      "response": "{} Given your demanding work schedule and specific foot needs - wide feet (4E), high arches, preference for maximum cushioning, and experience standing on hard floors for 12+ hours - here are the best memory foam slippers designed for your comfort:",
+      "responseTimeMs": 19112,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 83,
+      "query": "best sheepskin slippers",
+      "success": true,
+      "response": "{} Perfect! Given your background and specific foot needs, here are the best sheepskin slippers offering the warmth, cushioning, and comfort you deserve:",
+      "responseTimeMs": 15780,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 84,
+      "query": "best slippers with arch support",
+      "success": true,
+      "response": "{} Men's Arch Support Slippers Price, product page$120.00$120.00ameswalker.comShop direct {} Orthofeet Asheville men's clog with removable premium orthotic insoles, wide roomy toe box, and hook-and-loop (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/11mVszy8FIL._RC|41k9TQrnHzL.js,21cuxCuJB9L.js_.js?PUISClients/AmazonRushFramework'); P.now('aapi-token-puis').execute('register-csrf-token', function(token) { if (!token) { P.declare('aapi-token-puis', \"1@g9TWMI9jUUiXWGTVb9BfFS7kKx0G2v6BYg9ji4LNH2EwAAAAAQAAAABpds+9cmF3AAAAAGfA1H5nd8xGEcC31DKLNw==@KDFC4Z\"); } }); {\"SEARCH_EUSTORES_PUIS_COLOR_SWATCHES_BORDER_OPACITY_MEASUREMENT_1320527\":\"C\",\"SEARCH_SES_FOS_SAF_TYPOGRAPHY_DESKTOP_1289331\":\"C\",\"SEARCH_SCX_WPX_OAM_BADGE_A11Y_1360132\":\"C\",\"SEARCH_532653\":\"C\",\"SEARCH_MAF_EE_GATING_707463\":\"C\",\"SEARCH_SCX_WPX_OAM_CTA_1217867\":\"C\",\"SEARCH_SCX_SAI_AFO_TEMPLATES_1301593\":\"C\",\"SEARCH_SCX_DEX_PUIS_CSRF_TOKEN_1185878\":\"T1\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_MOBILE_876944\":\"C\",\"F3_STEPPER_SYNC_ASSETS_918718\":\"C\",\"SEARCH_SCX_HDM_TO_DV3_MIGRATION_FRONTEND_1281235\":\"C\",\"SEARCH_SES_BADGE_MVT_GATING_965313\":\"C\",\"SEARCH_SCX_HAUL_ATC_ON_DOMESTIC_ASIN_1341210\":\"T1\",\"SEARCH_SCX_CP_IMG_ACTION_1294581\":\"T1\",\"SEARCH_EUSTORES_ATC_SW_INTEGRATION_FALLBACK_GATING_1052045\":\"C\",\"SEARCH_F3_ALM_CART_ACTION_ASSETS_NPM_IMPORT_955056\":\"C\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_DESKTOP_876938\":\"C\",\"SEARCH_WWGS_MBSB_A11Y_DEFECT_FIX_GATING_1358608\":\"C\",\"SEARCH_VS_PREVIEW_AUTO_CROP_1226514\":\"T1\",\"SEARCH_IN_PHARMACY_MLT_960375\":\"C\",\"SEARCH_VS_MLT_TEXT_INGRESS_1119272_PHASE2_1308055\":\"C\",\"SEARCH_VIDEO_FACEOUT_FRONTEND_LEVER_PHASE2_492845\":\"C\",\"SEARCH_SCX_HAUL_ATC_1283682\":\"T1\",\"BW_PUI_AMAZONIMAGE_1028570\":\"C\",\"SEARCH_WWGS_QUANTITY_STEPPER_STATUS_BADGE_TOGGLE_1003886\":\"C\",\"SEARCH_WWGS_SAVES_ASSETS_839792\":\"C\",\"F3_WFMOAC_CUSTOM_CAKE_GATING_754771\":\"C\",\"SEARCH_INLINE_FANSHOP_PUI_ASSETS_1339009\":\"C\",\"SEARCH_EUSTORES_PUIS_MGM_GATING_1244964\":\"C\",\"SEARCH_SCX_AB_1282121\":\"C\",\"SEARCH_WWGS_PICKUP_REFINEMENT_988425\":\"C\",\"SEARCH_SCX_WPX_OAM_1349971\":\"T1\",\"SEARCH_VS_EXP_AR_INGRESS_EXPANSION_1189564\":\"C\",\"P13N_BADGEX_PUI_CAPSULE_1157018\":\"T1\",\"SEARCH_BAZAAR_ATC_BUTTON_ON_CORE_1243894\":\"T1\",\"SEARCH_EUSTORES_PUIS_COLORSWATCHES_INTERACTIVITY_ACCESSIBILITY_MEASUREMENT_1334549\":\"C\",\"SEARCH_VS_3D_VIDEO_1251281\":\"C\",\"SEARCH_SCX_AB_1099759\":\"C\",\"SEARCH_382092\":\"T1\",\"SEARCH_SCX_COPILOT_SUPPRESS_MLT_ANIMATION_1334637\":\"C\",\"SEARCH_EUSTORES_PUIS_ATD_TOOLTIP_SHOPPINGAIDS_MEASUREMENT_1335106\":\"T1\",\"SEARCH_BUYX_ICDP_PREFETCH_1272207\":\"T1\",\"SEARCH_EUSTORES_PUIS_ATC_CUSTOM_ASINS_EXPANSION_ASSETS_GATING_1337162\":\"C\",\"SEARCH_SES_FOS_DP_PRICING_MVT_976179\":\"C\",\"SEARCH_SCX_PUIS_COPILOT_GATING_1279652\":\"T1\",\"SEARCH_SCX_PROMOTIONS_ASSET_GATING_1309732\":\"T1\",\"SEARCH_RUFUS_ASIN_INGRESS_1207023\":\"C\",\"AXIOM_LISTS_PUI_HEART_LIST_ACTION_SUB_RESOURCE_ENABLED_1319041\":\"C\",\"SEARCH_SCX_1176766\":\"T1\",\"SEARCH_WWGS_PUIS_ISM_SAVE_TO_LIST_ASSET_GATING_1119626\":\"C\",\"SEARCH_BAZAAR_PROPOSITION_BADGE_1284096\":\"C\",\"SEARCH_FOS_REVIEW_BLOCK_CSS_GATING_715873\":\"C\",\"SEARCH_VS_VIDEO_1182816\":\"C\"}window.AmazonUIPageJS && window.AmazonUIPageJS.when('puis-enable-treatments-for-render').execute(function (enableRenderId) { enableRenderId('ro8t3j8u342og2wumf3qc0d17i'); }); (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://m.media-amazon.com/images/I/112x1Qjn5tL._RC|01HCHuzDdcL.js,41ns5+RXugL.js,01SSs1udVFL.js,21Rcsl7Fo7L.js,21IHmLveSuL.js,11o1UsgynwL.js,31uGKJgK-gL.js,31-3l5RTCeL.js,01Oi+MtiDrL.js,21kPFkdu31L.js,11wtlUYYJVL.js,41Py0rc3wKL.js,2167LESqy-L.js,71O+YmfpSVL.js_.js?AUIClients/ProductUIServiceAssets-vnp5jk0p0a5y72qpfosuwuvsnx');",
+      "responseTimeMs": 18417,
+      "brandMentions": [
+        {
+          "brand": "Amazon",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "queryIndex": 85,
+      "query": "best warm slippers",
+      "success": true,
+      "response": "{} Perfect! Given your long work hours (12+ hours daily) in warehouse/teaching/nursing roles and your specific foot needs (4E width, high arches), here are the warmest slippers that prioritize both heat retention and the support you need:",
+      "responseTimeMs": 16195,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 86,
+      "query": "luxury slippers brands",
+      "success": true,
+      "response": "{} Gucci Princetown Mules In Black Leather (Size 37.5/UK4.5) Price, product page$413.00$413.00 List $511.00List $511.00$511.00luxe-cheshire.comShop direct {} Gucci Princetown mules with distinctive (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/11mVszy8FIL._RC|41k9TQrnHzL.js,21cuxCuJB9L.js_.js?PUISClients/AmazonRushFramework'); P.now('aapi-token-puis').execute('register-csrf-token', function(token) { if (!token) { P.declare('aapi-token-puis', \"1@g5tXEFd++JV0dJeAhMN\\/HlffBPRoQQBwvia4wQ0TOoY8AAAAAQAAAABpds\\/2cmF3AAAAAGfA1H5nd8xGEcC31DKLNw==@KDFC4Z\"); } }); {\"SEARCH_EUSTORES_PUIS_COLOR_SWATCHES_BORDER_OPACITY_MEASUREMENT_1320527\":\"C\",\"SEARCH_SES_FOS_SAF_TYPOGRAPHY_DESKTOP_1289331\":\"C\",\"SEARCH_SCX_WPX_OAM_BADGE_A11Y_1360132\":\"C\",\"SEARCH_532653\":\"C\",\"SEARCH_MAF_EE_GATING_707463\":\"C\",\"SEARCH_SCX_WPX_OAM_CTA_1217867\":\"C\",\"SEARCH_SCX_SAI_AFO_TEMPLATES_1301593\":\"C\",\"SEARCH_SCX_DEX_PUIS_CSRF_TOKEN_1185878\":\"T1\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_MOBILE_876944\":\"C\",\"F3_STEPPER_SYNC_ASSETS_918718\":\"C\",\"SEARCH_SCX_HDM_TO_DV3_MIGRATION_FRONTEND_1281235\":\"C\",\"SEARCH_SES_BADGE_MVT_GATING_965313\":\"C\",\"SEARCH_SCX_HAUL_ATC_ON_DOMESTIC_ASIN_1341210\":\"T1\",\"SEARCH_SCX_CP_IMG_ACTION_1294581\":\"T1\",\"SEARCH_EUSTORES_ATC_SW_INTEGRATION_FALLBACK_GATING_1052045\":\"C\",\"SEARCH_F3_ALM_CART_ACTION_ASSETS_NPM_IMPORT_955056\":\"C\",\"SEARCH_SES_FOS_PRICING_V2_RERUN_GATING_DESKTOP_876938\":\"C\",\"SEARCH_WWGS_MBSB_A11Y_DEFECT_FIX_GATING_1358608\":\"C\",\"SEARCH_VS_PREVIEW_AUTO_CROP_1226514\":\"T1\",\"SEARCH_IN_PHARMACY_MLT_960375\":\"C\",\"SEARCH_VS_MLT_TEXT_INGRESS_1119272_PHASE2_1308055\":\"C\",\"SEARCH_VIDEO_FACEOUT_FRONTEND_LEVER_PHASE2_492845\":\"C\",\"SEARCH_SCX_HAUL_ATC_1283682\":\"T1\",\"BW_PUI_AMAZONIMAGE_1028570\":\"C\",\"SEARCH_WWGS_QUANTITY_STEPPER_STATUS_BADGE_TOGGLE_1003886\":\"C\",\"SEARCH_WWGS_SAVES_ASSETS_839792\":\"C\",\"F3_WFMOAC_CUSTOM_CAKE_GATING_754771\":\"C\",\"SEARCH_INLINE_FANSHOP_PUI_ASSETS_1339009\":\"C\",\"SEARCH_EUSTORES_PUIS_MGM_GATING_1244964\":\"C\",\"SEARCH_SCX_AB_1282121\":\"C\",\"SEARCH_WWGS_PICKUP_REFINEMENT_988425\":\"C\",\"SEARCH_SCX_WPX_OAM_1349971\":\"T1\",\"SEARCH_VS_EXP_AR_INGRESS_EXPANSION_1189564\":\"C\",\"P13N_BADGEX_PUI_CAPSULE_1157018\":\"T1\",\"SEARCH_BAZAAR_ATC_BUTTON_ON_CORE_1243894\":\"T1\",\"SEARCH_EUSTORES_PUIS_COLORSWATCHES_INTERACTIVITY_ACCESSIBILITY_MEASUREMENT_1334549\":\"C\",\"SEARCH_VS_3D_VIDEO_1251281\":\"C\",\"SEARCH_SCX_AB_1099759\":\"C\",\"SEARCH_382092\":\"T1\",\"SEARCH_SCX_COPILOT_SUPPRESS_MLT_ANIMATION_1334637\":\"C\",\"SEARCH_EUSTORES_PUIS_ATD_TOOLTIP_SHOPPINGAIDS_MEASUREMENT_1335106\":\"T1\",\"SEARCH_BUYX_ICDP_PREFETCH_1272207\":\"T1\",\"SEARCH_EUSTORES_PUIS_ATC_CUSTOM_ASINS_EXPANSION_ASSETS_GATING_1337162\":\"C\",\"SEARCH_SES_FOS_DP_PRICING_MVT_976179\":\"C\",\"SEARCH_SCX_PUIS_COPILOT_GATING_1279652\":\"T1\",\"SEARCH_SCX_PROMOTIONS_ASSET_GATING_1309732\":\"T1\",\"SEARCH_RUFUS_ASIN_INGRESS_1207023\":\"C\",\"AXIOM_LISTS_PUI_HEART_LIST_ACTION_SUB_RESOURCE_ENABLED_1319041\":\"C\",\"SEARCH_SCX_1176766\":\"T1\",\"SEARCH_WWGS_PUIS_ISM_SAVE_TO_LIST_ASSET_GATING_1119626\":\"C\",\"SEARCH_BAZAAR_PROPOSITION_BADGE_1284096\":\"C\",\"SEARCH_FOS_REVIEW_BLOCK_CSS_GATING_715873\":\"C\",\"SEARCH_VS_VIDEO_1182816\":\"C\"}window.AmazonUIPageJS && window.AmazonUIPageJS.when('puis-enable-treatments-for-render').execute(function (enableRenderId) { enableRenderId('r1q8l5qfllij7t2k1exmdessj61'); }); (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://m.media-amazon.com/images/I/112x1Qjn5tL._RC|01HCHuzDdcL.js,41ns5+RXugL.js,01SSs1udVFL.js,21Rcsl7Fo7L.js,21IHmLveSuL.js,11o1UsgynwL.js,31uGKJgK-gL.js,31-3l5RTCeL.js,01Oi+MtiDrL.js,21kPFkdu31L.js,11wtlUYYJVL.js,41Py0rc3wKL.js,2167LESqy-L.js,71O+YmfpSVL.js_.js?AUIClients/ProductUIServiceAssets-vnp5jk0p0a5y72qpfosuwuvsnx');",
+      "responseTimeMs": 15404,
+      "brandMentions": [
+        {
+          "brand": "Amazon",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "queryIndex": 87,
+      "query": "best orthopedic slippers",
+      "success": true,
+      "response": "{} Excellent choice! Given your demanding work schedule (12+ hours standing on hard floors), wide feet (4E), high arches, and history with plantar fasciitis-friendly footwear, here are the best orthopedic slippers designed specifically for maximum support and comfort:",
+      "responseTimeMs": 16113,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 88,
+      "query": "what running shoe brands are best",
+      "success": true,
+      "response": "{} Premium Performance Brands: Brooks: You already know their quality with Ghost series - try Glycerin or Transcend for more cushioning ASICS: GEL-Nimbus and GEL-Cumulus lines offer superior gel cushioning for high-mileage training Hoka: Maximum cushioning specialist - Clifton and Bondi models excel for long runs and recovery New Balance: Fresh Foam series provides plush cushioning, excellent for wide feet (they offer 2E-4E widths) Innovative Technology Leaders: Nike: Air Zoom and React foam technology for responsive cushioning Adidas: Boost and Bounce technologies for energy return during long",
+      "responseTimeMs": 12270,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "Adidas",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 89,
+      "query": "most comfortable shoe brands",
+      "success": true,
+      "response": "{} Medical-Grade Comfort Specialists: Orthofeet: #1 for orthopedic support with wide widths, specifically designed for healthcare workers and people with foot conditions Vionic: Podiatrist-designed with APMA Seal of Acceptance, excellent arch support technology Drew: Medical footwear specialist offering 6E+ widths with diabetic-friendly features Propét: Focuses on comfort technology with Medicare-approved options Premium Comfort Leaders: Brooks: Not just running - their walking shoes offer exceptional cushioning (you already trust this brand) New Balance: Superior wide-width selection (up to 6E) with Fresh Foam cushioning ASICS: GEL technology provides shock absorption ideal for hard surfaces Hoka: Maximum cushioning extends beyond running into lifestyle comfort shoes Work-Specific Comfort: Dansko: Professional clogs beloved by nurses and teachers for 12+ hour shifts Alegria: Rocker bottom soles reduce foot fatigue, popular with healthcare workers Sketchers Work: Slip-resistant with memory foam, designed for warehouse/industrial work",
+      "responseTimeMs": 12379,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 90,
+      "query": "best shoe brands for quality",
+      "success": true,
+      "response": "{} Your feedback has been submitted! Your feedback has been submitted! Select All That Apply (optional): This is irrelevant This is harmful / unsafe This is inaccurate Something else Dismiss Submit",
+      "responseTimeMs": 11695,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 91,
+      "query": "shoe brands with best arch support",
+      "success": true,
+      "response": "{} Show Vionic arch support shoes Brooks shoes for high arches Best for wide feet with high arches Compare arch support technologies",
+      "responseTimeMs": 12130,
+      "brandMentions": [
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 92,
+      "query": "shoe brands that last longest",
+      "success": true,
+      "response": "{} Perfect for your demanding lifestyle! Given your marathon training, warehouse work, and 12-hour shifts, here are the shoe brands engineered for maximum longevity: Heritage Work Boot Champions: Red Wing: 100+ year company, boots commonly last 10-20 years with resoling, used by ironworkers and construction crews Danner: Military-spec construction, many models serviceable for decades Thursday Boot Company: Goodyear welt construction allows multiple resoles, 2-year warranty Wolverine: 1000 Mile boots literally designed to last 1,000 miles of walking Athletic Durability Leaders: Brooks: Your Ghost shoes prove this - many runners get 600-800+ miles per pair ASICS: GEL technology maintains cushioning longer than foam-only systems New Balance: Made in USA models use premium materials, often outlast 500+ miles Hoka: Despite thick midsoles, engineered to maintain integrity through high mileage Professional Longevity Specialists: Dansko: Professional clogs commonly last nurses 2-3 years of daily 12-hour wear Birkenstock: Cork footbeds last decades, resoleable and refurbishable SAS: Hand-sewn construction, popular with flight attendants for durability through extensive walking Mephisto: French-made with lifetime comfort guarantee, serviceable construction Given your 250 lbs weight, high arches, and extreme",
+      "responseTimeMs": 12833,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        },
+        {
+          "brand": "Birkenstock",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 93,
+      "query": "best shoe brands for foot health",
+      "success": true,
+      "response": "{} Given your specific foot health needs - high arches, wide feet (4E), standing/walking on hard surfaces for 12+ hours, and marathon training - here are the top shoe brands prioritizing foot health: Podiatrist-Recommended Brands: Vionic: APMA Seal of Acceptance, biomechanical footbeds designed by podiatrists for plantar fasciitis prevention Orthofeet: Medical-grade orthotic insoles, toe box designed for wide feet, diabetic-friendly options Aetrex: Built-in Lynco orthotics, pressure-mapping technology to identify foot issues Drew: Prescription-grade comfort, removable insoles for custom orthotics Athletic Foot Health Leaders: Brooks: Motion Path technology supports natural gait, excellent for high arches (your current choice proves this) ASICS: DuoMax support system prevents overpronation, FluidRide cushioning reduces impact stress New Balance: Fresh Foam with medial posting, available in 4E width for proper toe room Hoka: Maximal cushioning reduces stress on joints, Meta-Rocker promotes efficient gait Professional Healthcare Workers' Choice: Dansko: Contoured footbeds reduce fatigue, rocker sole promotes natural walking",
+      "responseTimeMs": 11508,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 94,
+      "query": "luxury shoe brands worth the money",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 19832,
+      "brandMentions": [],
+      "error": "Could not extract Rufus response"
+    },
+    {
+      "queryIndex": 95,
+      "query": "what shoe brand do podiatrists recommend",
+      "success": true,
+      "response": "{} Based on your specific needs - high arches, wide feet (4E), standing on hard surfaces for 12+ hours, and marathon training - here are the top podiatrist-recommended shoe brands that truly deliver on foot health:",
+      "responseTimeMs": 17671,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 96,
+      "query": "best direct-to-consumer shoe brands",
+      "success": true,
+      "response": "{} Perfect timing! Given your extensive research on shoes and preference for comfortable, quality brands, here are the top direct-to-consumer shoe brands that bypass traditional retail markup and deliver exceptional value:",
+      "responseTimeMs": 16659,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 97,
+      "query": "most innovative shoe brands",
+      "success": true,
+      "response": "{} Based on your extensive shoe research and experience with Brooks shoes, here are the most innovative brands revolutionizing the industry with breakthrough technologies:",
+      "responseTimeMs": 19439,
+      "brandMentions": [
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 98,
+      "query": "best sustainable shoe brands",
+      "success": true,
+      "response": "{} Given your marathon training background and preference for brands like Brooks, here are the most sustainable shoe brands making meaningful environmental impact through innovative materials and responsible manufacturing:",
+      "responseTimeMs": 16330,
+      "brandMentions": [
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 99,
+      "query": "shoe brands with best customer service",
+      "success": true,
+      "response": "{} Why These Brands Excel: Brooks - Known for their \"Run Happy Promise\" with generous return policies, expert fit specialists, and lifetime support for loyal customers. They offer",
+      "responseTimeMs": 17809,
+      "brandMentions": [
+        {
+          "brand": "Brooks",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "endTime": "2026-01-26T02:28:37.670Z",
+  "analysis": {
+    "brandVisibility": {
+      "Brooks": {
+        "queriesAppearing": 32,
+        "percentOfQueries": "32.7%"
+      },
+      "HOKA": {
+        "queriesAppearing": 12,
+        "percentOfQueries": "12.2%"
+      },
+      "UGG": {
+        "queriesAppearing": 9,
+        "percentOfQueries": "9.2%"
+      },
+      "Amazon": {
+        "queriesAppearing": 8,
+        "percentOfQueries": "8.2%"
+      },
+      "New Balance": {
+        "queriesAppearing": 5,
+        "percentOfQueries": "5.1%"
+      },
+      "ASICS": {
+        "queriesAppearing": 4,
+        "percentOfQueries": "4.1%"
+      },
+      "Teva": {
+        "queriesAppearing": 3,
+        "percentOfQueries": "3.1%"
+      },
+      "Merrell": {
+        "queriesAppearing": 1,
+        "percentOfQueries": "1.0%"
+      },
+      "Sorel": {
+        "queriesAppearing": 1,
+        "percentOfQueries": "1.0%"
+      },
+      "Nike": {
+        "queriesAppearing": 1,
+        "percentOfQueries": "1.0%"
+      },
+      "Adidas": {
+        "queriesAppearing": 1,
+        "percentOfQueries": "1.0%"
+      },
+      "Birkenstock": {
+        "queriesAppearing": 1,
+        "percentOfQueries": "1.0%"
+      }
+    },
+    "deckersBrandsSummary": {
+      "UGG": {
+        "queriesAppearing": 9,
+        "percentOfQueries": "9.2%"
+      },
+      "HOKA": {
+        "queriesAppearing": 12,
+        "percentOfQueries": "12.2%"
+      },
+      "Teva": {
+        "queriesAppearing": 3,
+        "percentOfQueries": "3.1%"
+      },
+      "Sanuk": {
+        "queriesAppearing": 0,
+        "percentOfQueries": "0.0%"
+      },
+      "Koolaburra": {
+        "queriesAppearing": 0,
+        "percentOfQueries": "0.0%"
+      }
+    }
+  }
+}

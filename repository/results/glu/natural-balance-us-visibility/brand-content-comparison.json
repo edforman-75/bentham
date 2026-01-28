@@ -1,0 +1,197 @@
+{
+  "checkedAt": "2026-01-26T00:20:41.445Z",
+  "results": [
+    {
+      "brand": "Blue Buffalo",
+      "amazon": {
+        "title": "Blue Buffalo Life Protection Formula Large Breed Adult Dry Dog Food, Promotes Joint Health and Lean Muscles, Made with Natural Ingredients, Chicken & Brown Rice Recipe, 30-lb Bag",
+        "bullets": [
+          "REAL CHICKEN FIRST: This Blue Buffalo natural dry dog food is made with real, high-quality chicken as the #1 ingredient",
+          "NUTRITION FOR LARGE BREED DOGS: This large breed dry dog food promotes lean muscles with L-Carnitine, and it supports joint health with Glucosamine and Chondroitin",
+          "IMMUNE SYSTEM SUPPORT: This large breed dog food features exclusive antioxidant-rich LifeSource Bits",
+          "HEALTHY, WHOLESOME INGREDIENTS: This Blue Buffalo dog food is made with no chicken (or poultry) by-product meals and no corn, wheat, or soy",
+          "Contains: One (1) 30-lb bag of BLUE Life Protection Formula Large Breed Dry Dog Food, Chicken and Brown Rice Recipe",
+          "ENHANCED IMAGERY: We have enhanced our digital product packaging to highlight our products’ ingredients and essential benefits; while the physical packaging will differ slightly, all information is accurate"
+        ],
+        "aplusContent": "From the brand   \n                     \n    .aplus-v2 .container-with-background-image {\n        width: 100%;\n        height: 100%;\n        background-repeat: no-repeat;\n        background-size: cover;\n    }\n  \n    function logShoppableMetrics(moduleName, showsAddToCart) {\n        if (window.ue && window.ue.count) {\n            window.ue.count(\"aplus:shoppable:\" + moduleName + \":addToCart\", showsAddToCart ? 1 : 0);\n        }\n    }\n\n\n                               \n        \n\t\n    .apm-carousel * {\n        box-sizing: border-box;\n    }\n\n    .apm-carousel-cards {\n        width: 285px;\n        height: 435px;\n        border-radius: 12px;\n        overflow: hidden;\n\t\tposition: relative;\n    }\n\n    .apm-carousel-cards-content-overlay {\n        position: absolute;\n        z-index: 1;\n        display: flex;\n        flex-direction: column;\n        align-items: flex-start;\n        max-width: 80%;\n        gap: 12px;\n    }\n\n    /* Gradient attached to content overlay - only exists when text exists */\n    .apm-carousel-cards-content-overlay::before {\n        content: '';\n        position: absolute;\n        width: 285px;\n        height: calc(100% + 80px);\n\n        background: linear-gradient(\n                to bottom,\n                rgba(0, 0, 0, 0) 0%,\n                rgba(0, 0, 0, 0.75) 100%\n        );\n\n        z-index: -1;\n    }\n\n    .content-overlay > *:not(:empty):not(:last-child) {\n        margin-bottom: 12px;\n    }\n\n    .shoppable-video.apm-carousel-cards-content-overlay::before {\n ",
+        "url": "https://www.amazon.com/Blue-Buffalo-Protection-Formula-Natural/dp/B000X91KI4/ref=sxin_23_sbv_search_btf?content-id=amzn1.sym.c8b39f81-ded8-4d75-80c2-6dfa03cbb699%3Aamzn1.sym.c8b39f81-ded8-4d75-80c2-6dfa03cbb699&cv_ct_cx=Blue%2BBuffalo%2BLife%2BProtection%2Bdog%2Bfood&keywords=Blue%2BBuffalo%2BLife%2BProtection%2Bdog%2Bfood&pd_rd_i=B000X91KI4&pd_rd_r=f4585386-05e9-41f2-9082-8c114aa86972&pd_rd_w=nxmcM&pd_rd_wg=rVYdk&pf_rd_p=c8b39f81-ded8-4d75-80c2-6dfa03cbb699&pf_rd_r=ZXTRSQDKHT4TDSET6P7T&qid=1769386749&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-1-5190daf0-67e3-427c-bea6-c72c1df98776&th=1"
+      },
+      "website": {
+        "title": "Compare Your Pet Food Brand",
+        "url": "https://www.bluebuffalo.com/",
+        "metaDescription": "Blue Buffalo is the #1-selling natural pet food brand, featuring a variety of dog foods, cat foods, and treats. Love them like family. Feed them like family.",
+        "keyPhrases": [
+          "Love them like family. Feed them like family.™",
+          "Refrigerated Fresh Dog Food",
+          "It All Started with a Family Dog",
+          "See how one dog inspired the creation of a healthy pet food that's trusted by millions of pet parents.",
+          "Feeding dogs and cats like family is behind everything we do at BLUE™. See why quality ingredients are our foundation, and compare your pet's food to BLUE.",
+          "Debating the switch to BLUE? Check out how the ingredients in your current pet food stack up against our wholesome formulas.",
+          "Our family dog inspired us to do better for all pets. We not only vowed to make the best pet food we can, we promised we would work our hardest to help dogs and cats in need.",
+          "Good Rewards Loyalty Program",
+          "Good Rewards, Powered by Fetch",
+          "Earn points on every Blue Buffalo purchase when you download Fetch and snap your receipts. Plus, unlock exclusive offers when you join Good Rewards!"
+        ]
+      }
+    },
+    {
+      "brand": "Canidae",
+      "amazon": {
+        "title": "Canidae All Life Stages Multi-Protein Recipe with Chicken, Turkey, Lamb, and Fish – High Protein Premium Dry Dog Food for All Ages, Breeds, and Sizes– 40 lbs.",
+        "bullets": [
+          "FOR ALL DOGS: Canidae All Life Stages dry dog food is developed with our vet & pet nutrition experts for dogs of all ages, breeds & sizes, making mealtimes easy. Complete and balanced nutrition for multi-dog families.",
+          "REAL CHICKEN FIRST: With real chicken as the first ingredient, our all life stages dog food ensures complete nutrition and a balanced diet for puppies, adults, and senior dogs. Chicken is a highly digestible protein and contains essential nutrients to support muscle health.",
+          "OPTIMUM, HIGH PROTEIN: Crafted with real chicken and 4 other animal protein sources such as turkey, lamb, and fish, our nutrient-rich dog food kibble provides optimum protein levels and great taste, suitable for all ages.",
+          "5 in 1 HEALTH SUPPORT: Made with HealthPlus Solutions, a proprietary blend of probiotics, vitamins, minerals and antioxidants that promote healthy digestion, beautiful skin & coat, a healthy immune system, heart health and healthy joints, benefiting dogs of every life stage.",
+          "GOOD FOR PETS. GOOD FOR PLANET: We source regenerative ingredients from US farmers improve soil health and nourish dogs of all sizes, ages, and breeds. Our sustainable packaging is made with recycled materials."
+        ],
+        "aplusContent": "From the manufacturer   \n                     \n    .aplus-v2 .container-with-background-image {\n        width: 100%;\n        height: 100%;\n        background-repeat: no-repeat;\n        background-size: cover;\n    }\n  \n    function logShoppableMetrics(moduleName, showsAddToCart) {\n        if (window.ue && window.ue.count) {\n            window.ue.count(\"aplus:shoppable:\" + moduleName + \":addToCart\", showsAddToCart ? 1 : 0);\n        }\n    }\n\n\n                               \n        \n.aplus-v2 {\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n}\n.aplus-v2 .aplus-3p-fixed-width {\n    width: 970px;\n}\n.aplus-v2 .aplus-3p-fixed-width.aplus-module-wrapper {\n  margin-left: auto;\n  margin-right: auto;\n}\n\n      \n    .aplus-v2 {\n      display:block;\n      margin-left:auto;\n      margin-right:auto;\n      word-wrap: break-word;\n      overflow-wrap: break-word;\n      word-break: break-word;\n    }\n\n    /* Undo this for tech-specs because it breaks table layout */\n    .aplus-v2 .aplus-standard .aplus-tech-spec-table { word-break: initial; }\n    .aplus-v2 .aplus-standard .aplus-module-wrapper {text-align:inherit; display:block; margin-right:auto;margin-left:auto;}\n    .aplus-v2 .aplus-standard.aplus-module.module-1,\n    .aplus-v2 .aplus-standard.aplus-module.module-2,\n    .aplus-v2 .aplus-standard.aplus-module.module-3,\n    .aplus-v2 .aplus-standard.aplus-module.module-4,\n    .aplus-v2 .aplus-standard.aplus-module.module-6,\n    .aplus-v2 .aplus-standard.aplus-module.module-7,\n",
+        "url": "https://www.amazon.com/Canidae-Stages-Multi-Protein-Recipe-Chicken/dp/B0D2Z1PDGV/ref=sr_1_1?dib=eyJ2IjoiMSJ9.AMVHsnHyZhZ_buV0UWUPatXyYXIoXS6UoyGXGPACnxIkQRBMSK7FlD5-gzc3peCtiyTv4QzcwKd8LluBIomKUVHeGeVrxUqLUtm4nQuS1_Ftufh-Cbguk1Tzm8lrwx1HbDngJOjiPZBWURgrA00IdtKoLvFKXMsFj4f-UiRCTrLU1XJdU9xafuSI-rhZZujSz1s0PQO36sRicZW_bB1uGUNuhjCdD20xjISORGRLV1Y.stMNpKpP-rNJiIeVxHz7wmO5ZARsl9hxp1b4S1vFBXs&dib_tag=se&keywords=Canidae%2Bdog%2Bfood&qid=1769387027&rdc=1&sr=8-1&th=1"
+      },
+      "website": {
+        "title": "Canidae | Homepage",
+        "url": "https://canidae.com/",
+        "metaDescription": "Nutrient-rich recipes featuring premium proteins and farm-grown veggies, balanced for whole body health. Canidae is a World of Goodness for your pet and the planet.",
+        "keyPhrases": [
+          "Add a boost of protein, flavor and hydration. This is a single animal protein source recipe with only 2 key ingredients. Available as a variety pack including chicken, salmon, or tuna recipes.",
+          "Complete meal or topper for dogs. Features clean & premium & sustainable ingredients like wild-caught salmon and big cuts of sweet potatoes or carrots. Plus, it’s cooked in bone broth for a taste your dog will love!",
+          "What are pet parents saying",
+          "“Barklee was having serious digestive issues. The Canidae dog food is like magic for him! He is completely fine with it. I’m so grateful to you.\"",
+          "“Our Golden Retriever puppy just started eating the Canidae Pure Beef & Barley and we are beyond thrilled with it! He has numerous allergies and this is literally the only kibble on the market that he can eat.”",
+          "“From the first food for our puppies to the perfect food for our senior Berners and all ages in between, Canidae All Life Stages is the perfect food for our Bernese Mountain Dogs.”",
+          "“My two dogs coat looks like the best it's ever been. Our walks and your pet food, thanks to the recommendation of The Asher House, make me feel confident about my babies health and wellness.”",
+          "Nutrient-rich recipes with premium proteins and farm-grown veggies, balanced for whole body health.",
+          "We're investing in regenerative agriculture, responsibly sourced proteins and sustainable packaging, pushing to make pet food more planet-friendly.",
+          "Sign up for our newsletter"
+        ]
+      }
+    },
+    {
+      "brand": "Nutro",
+      "amazon": {
+        "title": "Nutro Natural Choice Adult Dry Dog Food, Lamb & Brown Rice Recipe, 36 lb. Bag",
+        "bullets": [
+          "Supports Healthy Skin & Coat: This Nutro Natural Choice Adult Dry Dog Food is formulated with an optimal ratio of Omega-3 and Omega-6 Fatty Acids to nourish sensitive skin for a soft shiny coat",
+          "Supports Healthy Digestion: Nutro Natural Choice Adult Dry Dog Food, Lamb & Brown Rice Recipe, helps improve the absorption of nutrients and overall gut health with beet pulp, a natural prebiotic fiber, and highly digestible proteins",
+          "Healthy Immunity: This natural dog food has guaranteed levels of antioxidants like Vitamin E and Selenium to promote healthy immunity",
+          "Supports Whole Body Health: Nutro Natural Choice Adult Dry Dog Food Lamb & Brown Rice Recipe is a nutrient-rich recipe made with essential nutrients and antioxidants to support whole body health",
+          "Lamb #1 Ingredient: This improved dry dog food recipe includes lamb as the #1 ingredient"
+        ],
+        "aplusContent": "From the brand   \n                     \n    .aplus-v2 .container-with-background-image {\n        width: 100%;\n        height: 100%;\n        background-repeat: no-repeat;\n        background-size: cover;\n    }\n  \n    function logShoppableMetrics(moduleName, showsAddToCart) {\n        if (window.ue && window.ue.count) {\n            window.ue.count(\"aplus:shoppable:\" + moduleName + \":addToCart\", showsAddToCart ? 1 : 0);\n        }\n    }\n\n\n                               \n        \n    /*\n     * Used when device = desktop\n     * Configured in: configuration/brazil-config/global/brand-story.cfg\n     */\n\n    /* Because the carousel is implemented as an ol list,\n       any lists in the card text will have a secondary list style (letters).\n       This will give an incorrect appearance to viewers,\n       so we set all lists to the primary list style (numbers). */\n    .aplus-brand-story-card ol li {\n        list-style: decimal;\n    }\n\n    /* Top level containers */\n    .aplus-module .apm-brand-story-hero {\n      -moz-box-sizing: border-box;\n      -webkit-box-sizing: border-box;\n      box-sizing: border-box;\n      width: 1464px;\n      height: 625px;\n      background-color: #fff;\n    }\n\n    .aplus-module .apm-brand-story-card {\n      -moz-box-sizing: border-box;\n      -webkit-box-sizing: border-box;\n      box-sizing: border-box;\n      width: 362px;\n      height: 453px;\n      background-color: #fff;\n    }\n\n    .apm-brand-story-hero,\n    .apm-brand-story-card {\n      -moz-box-sizing: border-box",
+        "url": "https://www.amazon.com/Nutro-Natural-Choice-Adult-Recipe/dp/B0CTPBVW9C/ref=sxin_31_pa_sp_search_thematic-asin_sspa?content-id=amzn1.sym.f61d6d1e-2ff5-463a-a06a-fd1a1a6a1129%3Aamzn1.sym.f61d6d1e-2ff5-463a-a06a-fd1a1a6a1129&cv_ct_cx=Nutro%2BNatural%2BChoice%2Bdog%2Bfood&keywords=Nutro%2BNatural%2BChoice%2Bdog%2Bfood&pd_rd_i=B0CTPBVW9C&pd_rd_r=b79d2e98-949c-432e-b5d0-370d1925ec73&pd_rd_w=cPdOj&pd_rd_wg=2SkeH&pf_rd_p=f61d6d1e-2ff5-463a-a06a-fd1a1a6a1129&pf_rd_r=93R58GCD1NBGZHE45EVG&qid=1769386779&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-1-baa1f287-65d3-41a3-a655-8bbba0531537-spons&aref=mvgWFhmOus&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&th=1"
+      },
+      "website": {
+        "title": "What's In NUTRO™ Pet Food?",
+        "url": "https://www.nutro.com/",
+        "metaDescription": "Find the right natural dog food or natural cat food for your pet as well as useful information for caring for your pet while prioritizing their nutrition.",
+        "keyPhrases": [
+          "Pet Health is in Our Nature",
+          "Here's a list of ingredients we use for you to browse and learn more about each one.",
+          "-Made without ingredients that commonly cause food sensitivities like chicken, beef, wheat, egg, or dairy protein",
+          "-Provides all your dog's daily essentials in one delicious food",
+          "-NUTRO™ has several recipes of crunchy, tasty treats that your dog will love, made with ingredients you can trust.",
+          "-High-quality protein sources",
+          "-Wholesome ingredients rooted in nature",
+          "Which NUTRO™ dry dog food is right for you?",
+          "Every dog is unique, and their food should be too. NUTRO™ has a variety of dry dog foods tailored to different dog sizes, lifestage and needs.",
+          "-Complete Dry Daily Nutrition for Adults and Kittens"
+        ]
+      }
+    },
+    {
+      "brand": "Taste of the Wild",
+      "amazon": {
+        "title": "Taste of the Wild High Prairie Canine Grain-Free Recipe with Roasted Bison and Venison Adult Dry Dog Food, Made with High Protein from Real Meat and Guaranteed Nutrients and Probiotics 28lb",
+        "bullets": [
+          "Taste of the Wild High Prairie with ROASTED BISON and VENISON dry dog food; REAL MEAT is the #1 ingredient; high-protein (32%) to help support bones, joints and LEAN, STRONG MUSCLES",
+          "Nutrient-rich and provides the energy to thrive; vitamins and minerals from FRUITS and SUPERFOODS; omega fatty acids for healthy SKIN and COAT",
+          "Each serving includes species-specific K9 Strain PROPRIETARY PROBIOTICS - plus antioxidants and prebiotics - to help support healthy digestion, IMMUNE system and overall health and wellness",
+          "FAMILY-OWNED and MADE in the USA using quality ingredients from trusted domestic and global sources"
+        ],
+        "aplusContent": ".aplus-content-partial-expander-padding {\n        padding-top: 5px;\n    }\n\n\n                 From the manufacturer            \n    .aplus-v2 .container-with-background-image {\n        width: 100%;\n        height: 100%;\n        background-repeat: no-repeat;\n        background-size: cover;\n    }\n  \n    function logShoppableMetrics(moduleName, showsAddToCart) {\n        if (window.ue && window.ue.count) {\n            window.ue.count(\"aplus:shoppable:\" + moduleName + \":addToCart\", showsAddToCart ? 1 : 0);\n        }\n    }\n\n\n                               \n        \n    .aplus-v2 {\n      display:block;\n      margin-left:auto;\n      margin-right:auto;\n      word-wrap: break-word;\n      overflow-wrap: break-word;\n      word-break: break-word;\n    }\n\n    /* Undo this for tech-specs because it breaks table layout */\n    .aplus-v2 .aplus-standard .aplus-tech-spec-table { word-break: initial; }\n    .aplus-v2 .aplus-standard .aplus-module-wrapper {text-align:inherit; display:block; margin-right:auto;margin-left:auto;}\n    .aplus-v2 .aplus-standard.aplus-module.module-1,\n    .aplus-v2 .aplus-standard.aplus-module.module-2,\n    .aplus-v2 .aplus-standard.aplus-module.module-3,\n    .aplus-v2 .aplus-standard.aplus-module.module-4,\n    .aplus-v2 .aplus-standard.aplus-module.module-6,\n    .aplus-v2 .aplus-standard.aplus-module.module-7,\n    .aplus-v2 .aplus-standard.aplus-module.module-8,\n    .aplus-v2 .aplus-standard.aplus-module.module-9,\n    .aplus-v2 .aplus-standard.aplus-module.module-10,\n   ",
+        "url": "https://www.amazon.com/Taste-Wild-Protein-Prairie-Premium/dp/B07L97GQW5/ref=sr_1_1?dib=eyJ2IjoiMSJ9.sFPUosNqTCH95eGgA4BB4YfYWlRTVXwyzIEN1Z950d7Q4ZkuvRvwk69qPLXW5SndUtwu_fMLB99W6CtkfrW373mumZasr0VyHtymfDZWr9780jMjrVVDIZqR1xfIrMmsNxnPSMaawmsiq7HWeKK2zu1U_nD548KWSNBC0rqB-H7kryVPpDkNYQomfEGTNtM990UfJRy-jeCEArOhDhI2zPFYf0x0UMVT-3J-n0alz4g.7BrLauQCwyNhR8KDtW4HKzhXIk-ndyus1F6Ipb5PE_E&dib_tag=se&keywords=Taste%2Bof%2Bthe%2BWild%2Bdog%2Bfood&qid=1769387043&sr=8-1&th=1"
+      },
+      "website": {
+        "title": "Taste of the Wild",
+        "url": "https://www.tasteofthewildpetfood.com/",
+        "metaDescription": "Discover Taste of the Wild pet foods, packed with unique proteins and ingredients. Feed your dog or cat’s natural cravings with Taste of the Wild food brands!",
+        "keyPhrases": [
+          "Explore our wild world of adorable pet photos and videos.",
+          "Learn more about our brand, the standards we hold ourselves to and thought we put into our recipes.",
+          "Read up on every ingredient in our recipes and how they can benefit your pet.",
+          "Find answers to the common questions we often get about our recipes.",
+          "Find the Recipe That’s Right for Them",
+          "Unique Ingredients with a Unique Appeal",
+          "Bison is a highly digestible protein that enhances palatability. Roasted to add flavor.",
+          "Want to get a lay of the land? Our Virtual Pet Park is filled with photos of pets enjoying new adventures and sharing reviews of their favorite recipes. Upload your own photos for a chance to be featured.",
+          "We have a world of information, advice and tips for you to explore.",
+          "Keep your pet healthy and happy by understanding your pet’s unique needs."
+        ]
+      }
+    },
+    {
+      "brand": "Pedigree",
+      "amazon": {
+        "title": "Pedigree Complete Nutrition Adult Dry Dog Food Roasted Chicken & Vegetable Flavor, 18 lb. Bag",
+        "bullets": [
+          "Complete and Balanced: Pedigree Complete Nutrition Adult Dry Dog Food Roasted Chicken & Vegetable Flavor is 100% complete and balanced food for adult dogs, bringing a nutritious meal to your pet",
+          "Supports Everyday Health: This pet food is made with 36 vitamins, minerals, and amino acids to support your dog’s health and vitality",
+          "High Quality Protein Pet Food: This high-quality dog food supports lean muscle with high-quality protein",
+          "Highly Digestible Dog Food Recipe: Pedigree Complete Nutrition Adult Dry Dog Food Roasted Chicken & Vegetable Flavor is made with only natural flavors and includes prebiotic fiber to support healthy digestion",
+          "Supports Healthy Skin and Coat: This dog kibble is enriched with Omega 6 Fatty Acid and Zinc to help nourish a healthy skin and coat"
+        ],
+        "aplusContent": "From the brand   \n                     \n    .aplus-v2 .container-with-background-image {\n        width: 100%;\n        height: 100%;\n        background-repeat: no-repeat;\n        background-size: cover;\n    }\n  \n    function logShoppableMetrics(moduleName, showsAddToCart) {\n        if (window.ue && window.ue.count) {\n            window.ue.count(\"aplus:shoppable:\" + moduleName + \":addToCart\", showsAddToCart ? 1 : 0);\n        }\n    }\n\n\n                               \n        \n    /*\n     * Used when device = desktop\n     * Configured in: configuration/brazil-config/global/brand-story.cfg\n     */\n\n    /* Because the carousel is implemented as an ol list,\n       any lists in the card text will have a secondary list style (letters).\n       This will give an incorrect appearance to viewers,\n       so we set all lists to the primary list style (numbers). */\n    .aplus-brand-story-card ol li {\n        list-style: decimal;\n    }\n\n    /* Top level containers */\n    .aplus-module .apm-brand-story-hero {\n      -moz-box-sizing: border-box;\n      -webkit-box-sizing: border-box;\n      box-sizing: border-box;\n      width: 1464px;\n      height: 625px;\n      background-color: #fff;\n    }\n\n    .aplus-module .apm-brand-story-card {\n      -moz-box-sizing: border-box;\n      -webkit-box-sizing: border-box;\n      box-sizing: border-box;\n      width: 362px;\n      height: 453px;\n      background-color: #fff;\n    }\n\n    .apm-brand-story-hero,\n    .apm-brand-story-card {\n      -moz-box-sizing: border-box",
+        "url": "https://www.amazon.com/PEDIGREE-Complete-Nutrition-Roasted-Vegetable/dp/B09RPMHK1M/ref=sr_1_1?dib=eyJ2IjoiMSJ9.u-JVHx-5IyQQcGOavZq0UPe8tKmGi4z85kgSAUHwFA1rRCzGCKOZ-1hCxgPHO7UwmgoLZYW8N1gZ_YE5qzf6Fy0Yl9xBi1VmNSJNFvz635_aUufJ5IAjCo7UXq9SJnhpczJ8ZdBNvxzbv5k7TJsG6oLx1k_3Rwv5A90WvGwEJuu3lmGxyqZuD-rYHGAeSpwNJBs38J1wjePg_BNT6ZQxBRCSJawB3NpYTiL1sDELPjw.10-HrIAkHfWFAtq3jdr-G4yyX4S6rncPbv-sKV6bsNc&dib_tag=se&keywords=Pedigree%2Bdog%2Bfood&qid=1769387058&sr=8-1&th=1"
+      },
+      "website": {
+        "title": "PEDIGREE® Dog Food and Treats that Support Everyday Health",
+        "url": "https://www.pedigree.com/",
+        "metaDescription": "",
+        "keyPhrases": [
+          "Good treats for good dogs. Only available at Walmart.",
+          "The PEDIGREE® brand has a tasty range of products to meet your dog's nutritional needs. All made with high-quality ingredients at an affordable price.",
+          "A tasty sauce for dogs. Just split, tear, and pour over kibble for tail-wagging flavor.",
+          "Dogs bring out the good in us. PEDIGREE® brings out the good in them.™",
+          "“My doggies always eat this up super fast! Definitely a fave in our house.”",
+          "“This food is easy to serve and mix with their kibble. They also love the taste.”",
+          "“We have raised our 3 mixed breed dogs of various ages on PEDIGREE dry dog food.”",
+          "“My dog gets so excited when I ask him if it's time to brush his teeth.”",
+          "Every dog deserves a loving home.™",
+          "The PEDIGREE® brand is committed to helping every dog find a loving home. Through our support of PEDIGREE Foundation, an independent 501c3 non-profit, shelter and rescue grants have helped over 800,000 dogs since 2008."
+        ]
+      }
+    },
+    {
+      "brand": "Iams",
+      "amazon": {
+        "title": "IAMS Proactive Health Adult Minichunks Dry Dog Food Chicken & Whole Grain Recipe, 30 lb. Bag",
+        "bullets": [
+          "The Proactive 5 health benefits for IAMS Minichunks are scientifically designed to support five key areas of your dog’s health, keeping them full of life, for more life",
+          "Healthy Digestion: IAMS Proactive Health Adult Minichunks Dry Dog Food supports healthy digestion and improved nutrient absorption with a tailored blend of natural fiber & prebiotics",
+          "Supports Strong Muscles: This healthy dog food supports strong muscles with high-quality protein sourced from chicken and egg",
+          "Strong Immune System: IAMS dog food is enriched with antioxidants to help maintain a strong immune system",
+          "Healthy Energy: IAMS Proactive Health Adult Minichunks Dry Dog Food includes wholesome grains that provide essential nutrients & carbohydrates for healthy energy"
+        ],
+        "aplusContent": "From the brand   \n                     \n    .aplus-v2 .container-with-background-image {\n        width: 100%;\n        height: 100%;\n        background-repeat: no-repeat;\n        background-size: cover;\n    }\n  \n    function logShoppableMetrics(moduleName, showsAddToCart) {\n        if (window.ue && window.ue.count) {\n            window.ue.count(\"aplus:shoppable:\" + moduleName + \":addToCart\", showsAddToCart ? 1 : 0);\n        }\n    }\n\n\n                               \n        \n    /*\n     * Used when device = desktop\n     * Configured in: configuration/brazil-config/global/brand-story.cfg\n     */\n\n    /* Because the carousel is implemented as an ol list,\n       any lists in the card text will have a secondary list style (letters).\n       This will give an incorrect appearance to viewers,\n       so we set all lists to the primary list style (numbers). */\n    .aplus-brand-story-card ol li {\n        list-style: decimal;\n    }\n\n    /* Top level containers */\n    .aplus-module .apm-brand-story-hero {\n      -moz-box-sizing: border-box;\n      -webkit-box-sizing: border-box;\n      box-sizing: border-box;\n      width: 1464px;\n      height: 625px;\n      background-color: #fff;\n    }\n\n    .aplus-module .apm-brand-story-card {\n      -moz-box-sizing: border-box;\n      -webkit-box-sizing: border-box;\n      box-sizing: border-box;\n      width: 362px;\n      height: 453px;\n      background-color: #fff;\n    }\n\n    .apm-brand-story-hero,\n    .apm-brand-story-card {\n      -moz-box-sizing: border-box",
+        "url": "https://www.amazon.com/IAMS-Proactive-Health-Minichunks-Chicken/dp/B00BD741WM/ref=sxin_30_sbv_search_btf?content-id=amzn1.sym.c8b39f81-ded8-4d75-80c2-6dfa03cbb699%3Aamzn1.sym.c8b39f81-ded8-4d75-80c2-6dfa03cbb699&cv_ct_cx=Iams%2BProactive%2BHealth%2Bdog%2Bfood&keywords=Iams%2BProactive%2BHealth%2Bdog%2Bfood&pd_rd_i=B00BD741WM&pd_rd_r=327706ef-dd2e-4b8d-870d-6b8437d2429f&pd_rd_w=1HAQZ&pd_rd_wg=LC6ha&pf_rd_p=c8b39f81-ded8-4d75-80c2-6dfa03cbb699&pf_rd_r=2Y3HD968PCSC9B762B8T&qid=1769386823&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-1-5190daf0-67e3-427c-bea6-c72c1df98776&th=1"
+      },
+      "website": {
+        "title": "Pet Food from IAMS™ — Only the Highest Quality Ingredients",
+        "url": "https://www.iams.com/",
+        "metaDescription": "Find the complete IAMS™ pet food line, learn about our nutritional philosophy and more at Iams.com.",
+        "keyPhrases": [
+          "WHAT TYPE OF PET DO YOU HAVE?",
+          "FIND THE RIGHT DIET FOR YOUR PET",
+          "GET THE ULTIMATE IAMS™ PUPPY GUIDE FOR FREE",
+          "Supporting Healthy Digestion for Life",
+          "Follow IAMS™ on social media",
+          "© 2026 Mars or Affiliates. Third party trademarks are property of their respective owners.",
+          "Sign up for our newsletter & receive a $3 rebate when you spend $5 or more on any qualifying IAMS™ products.",
+          "Limit 1 rebate per household, while supplies last. New subscribers only. Valid for U.S./DC residents 18+ with receipts dated after 10/1/25, submitted within 90 days of activation.",
+          "Strictly necessary cookies"
+        ]
+      }
+    }
+  ],
+  "updatedAt": "2026-01-26T00:24:33.168Z"
+}

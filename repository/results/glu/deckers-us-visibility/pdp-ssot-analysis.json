@@ -1,0 +1,1162 @@
+{
+  "studyName": "Deckers PDP SSOT Analysis for AI Visibility",
+  "timestamp": "2026-01-26T18:13:20.520Z",
+  "totalPages": 9,
+  "results": [
+    {
+      "brand": "HOKA",
+      "product": "Bondi 8",
+      "url": "https://www.hoka.com/en/us/mens-road/bondi-8/1123202.html",
+      "timestamp": "2026-01-26T18:12:27.757Z",
+      "jsonLd": {
+        "found": true,
+        "types": [
+          "Product"
+        ],
+        "hasProduct": true,
+        "hasBrand": true,
+        "hasOffer": true,
+        "hasReview": false,
+        "hasAggregateRating": false,
+        "raw": [
+          {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "name": "Men's Bondi 8",
+            "description": "One of the hardest working shoes in the HOKA lineup, the Bondi takes a bold step forward this season reworked with softer, lighter foams and a brand-new extended heel geometry. Taking on a billowed effect, the rear crash pad affords an incredibly soft and balanced ride from heel strike to forefoot transaction.",
+            "sku": "1123202",
+            "image": [
+              "https://dms.deckers.com/hoka/image/upload/t_product-xsmall-wp/v1702543513/1123202-OKB_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/hoka/image/upload/t_product-small-wp/v1702543513/1123202-OKB_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/hoka/image/upload/t_product-medium-wp/v1702543513/1123202-OKB_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/hoka/image/upload/t_product-large-wp/v1702543513/1123202-OKB_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/hoka/image/upload/t_product-xlarge-wp/v1702543513/1123202-OKB_1.png?_s=RAABAB0"
+            ],
+            "identifier": "1123202",
+            "productID": "1123202",
+            "mpn": "1123202",
+            "offers": {
+              "availability": "SoldOut",
+              "url": "https://www.hoka.com/en/us/mens-everyday-running-shoes/bondi-8/1123202.html",
+              "@type": "Offer",
+              "priceCurrency": null
+            },
+            "brand": {
+              "@type": "Brand",
+              "name": "HOKA"
+            }
+          }
+        ]
+      },
+      "meta": {
+        "title": "Bondi 8 Max Cushioned Road Running Shoe | HOKA®",
+        "description": "Shop the Bondi 8 max cushioned road running shoe at hoka.com for FREE shipping and returns on all orders!",
+        "ogTitle": "Bondi 8 Max Cushioned Road Running Shoe | HOKA®",
+        "ogDescription": "Shop the Bondi 8 max cushioned road running shoe at hoka.com for FREE shipping and returns on all orders!",
+        "ogImage": "https://dms.deckers.com/hoka/image/upload/t_product-xlarge-wp/v1702543513/1123202-OKB_1.png?_s=RAABAB0",
+        "canonical": "https://www.hoka.com/en/us/mens-everyday-running-shoes/bondi-8/1123202.html"
+      },
+      "content": {
+        "productName": "Bondi 8",
+        "productDescription": "View more",
+        "price": "$175.00\n\n\n\n\n    \n    \n\n\n\n    \n        \n        \n            \n            \n            175.00 USD",
+        "features": [
+          "Engineered mesh construction",
+          "Partially gusseted tongue",
+          "40% Recycled polyester eyestay lining",
+          "Heel pull tab",
+          "Ortholite® hybrid sockliner",
+          "Lightweight, resilient foam",
+          "Zonal rubber placement for weight savings",
+          "Durabrasion rubber outsole",
+          "Upper mesh with 50% recycled polyester",
+          "87% Recycled polyester strobel board"
+        ],
+        "materials": [],
+        "isContentInInitialHtml": true,
+        "wordCount": 3774
+      },
+      "crawlability": {
+        "score": 80,
+        "issues": [
+          "No AggregateRating in JSON-LD",
+          "Product description missing or very short"
+        ],
+        "recommendations": [
+          "Add aggregateRating to surface review signals",
+          "Add detailed product description visible to crawlers"
+        ]
+      }
+    },
+    {
+      "brand": "HOKA",
+      "product": "Clifton 9",
+      "url": "https://www.hoka.com/en/us/mens-road/clifton-9/1127895.html",
+      "timestamp": "2026-01-26T18:12:33.620Z",
+      "jsonLd": {
+        "found": true,
+        "types": [
+          "Product"
+        ],
+        "hasProduct": true,
+        "hasBrand": true,
+        "hasOffer": true,
+        "hasReview": true,
+        "hasAggregateRating": true,
+        "raw": [
+          {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "name": "Men's Clifton 9",
+            "description": "The ninth iteration of our award-winning Clifton franchise has launched, lighter and more cushioned than ever before. Eliminating weight while adding 3mm in stack height, the new Clifton 9 delivers a revitalized underfoot experience with a responsive new foam and improved outsole design. Removing overlays and hotmelts, the stripped back upper has been consciously crafted with a plusher heel, reflective heel panel, and streamlined tongue with single side medial gusset.",
+            "sku": "1127895",
+            "image": [
+              "https://dms.deckers.com/hoka/image/upload/t_product-xsmall-wp/v1723477762/1132210-MCN_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/hoka/image/upload/t_product-small-wp/v1723477762/1132210-MCN_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/hoka/image/upload/t_product-medium-wp/v1723477762/1132210-MCN_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/hoka/image/upload/t_product-large-wp/v1723477762/1132210-MCN_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/hoka/image/upload/t_product-xlarge-wp/v1723477762/1132210-MCN_1.png?_s=RAABAB0"
+            ],
+            "identifier": "1127895",
+            "productID": "1127895",
+            "mpn": "1127895",
+            "offers": {
+              "availability": "SoldOut",
+              "url": "https://www.hoka.com/en/us/mens-everyday-running-shoes/clifton-9/1127895.html",
+              "@type": "Offer",
+              "priceCurrency": null
+            },
+            "brand": {
+              "@type": "Brand",
+              "name": "HOKA"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.43,
+              "reviewCount": 3408
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "name": "Great shoes, great price",
+                "reviewBody": "This is my 3rd pair of Clifton 9's. They are outstanding shoes. I was able to get them $20 cheaper than the last pair as well.",
+                "datePublished": "2026-01-09T18:06:18.064Z",
+                "author": {
+                  "@type": "Person",
+                  "name": "bryce"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5
+                },
+                "locationCreated": {
+                  "@type": "AdministrativeArea",
+                  "name": "grand rapids, mi"
+                }
+              },
+              {
+                "@type": "Review",
+                "name": "one of several styles that I own",
+                "reviewBody": "every day use",
+                "datePublished": "2026-01-07T13:44:52.264Z",
+                "author": {
+                  "@type": "Person",
+                  "name": "Dru"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5
+                },
+                "locationCreated": {
+                  "@type": "AdministrativeArea",
+                  "name": "Pittsburgh"
+                }
+              },
+              {
+                "@type": "Review",
+                "name": "Comfortable daily shoe for walking",
+                "reviewBody": "Wide toe box. Fit true to size. Light weight.",
+                "datePublished": "2026-01-05T21:34:39.965Z",
+                "author": {
+                  "@type": "Person",
+                  "name": "Gopher"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5
+                },
+                "locationCreated": {
+                  "@type": "AdministrativeArea",
+                  "name": "Wappingers Falls, NY"
+                }
+              },
+              {
+                "@type": "Review",
+                "name": "Good Product- Even on Discount",
+                "reviewBody": "I picked up a pair of Clifton's on the year-end virtual sales rack.   I have had Clifton's before, but was running withe Bondi's.   \n\nAll good with the first 16 miles",
+                "datePublished": "2026-01-05T19:57:01.755Z",
+                "author": {
+                  "@type": "Person",
+                  "name": "Slow Runner - (and I do not care)"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5
+                },
+                "locationCreated": {
+                  "@type": "AdministrativeArea",
+                  "name": "SE Missouri"
+                }
+              },
+              {
+                "@type": "Review",
+                "name": "Excellent ride and cushion.",
+                "reviewBody": "I focus on my father. She ever bought. I've had them all Nike tonic new balance Skechers, all of most expensive shoes, but nobody can match the wear cushion, the ride  in Hoka",
+                "datePublished": "2026-01-04T02:26:48.841Z",
+                "author": {
+                  "@type": "Person",
+                  "name": "Fast Eddie"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5
+                },
+                "locationCreated": {
+                  "@type": "AdministrativeArea",
+                  "name": "Altavista"
+                }
+              },
+              {
+                "@type": "Review",
+                "name": "Great fit super ride",
+                "reviewBody": "Excellence is Hoka.  Thanks.  This is my 25th pair",
+                "datePublished": "2026-01-04T02:23:58.967Z",
+                "author": {
+                  "@type": "Person",
+                  "name": "Fast Eddie"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5
+                },
+                "locationCreated": {
+                  "@type": "AdministrativeArea",
+                  "name": "Altavista"
+                }
+              },
+              {
+                "@type": "Review",
+                "name": "Great shoe",
+                "reviewBody": "This is my second pair of Clifton 9 also have one Clifton 10. Both shoes are amazing. Only negative is hard to keep clean. Would like to find a way to make them stain resistant. Next going to try gtx version in hopes of keeping clean",
+                "datePublished": "2026-01-04T02:01:30.572Z",
+                "author": {
+                  "@type": "Person",
+                  "name": "D Mann"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5
+                },
+                "locationCreated": {
+                  "@type": "AdministrativeArea",
+                  "name": "Tx"
+                }
+              },
+              {
+                "@type": "Review",
+                "name": "Comfortable shoes",
+                "reviewBody": "Excellent fit, support and comfort that i was looking for.",
+                "datePublished": "2026-01-03T22:17:17.706Z",
+                "author": {
+                  "@type": "Person",
+                  "name": "Mike"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5
+                },
+                "locationCreated": {
+                  "@type": "AdministrativeArea",
+                  "name": "Jamaica"
+                }
+              },
+              {
+                "@type": "Review",
+                "name": "Will buy again",
+                "reviewBody": "Very comfortable, supportive and great looking shoe.  Wear them everyday.",
+                "datePublished": "2026-01-03T21:43:30.708Z",
+                "author": {
+                  "@type": "Person",
+                  "name": "SS"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5
+                },
+                "locationCreated": {
+                  "@type": "AdministrativeArea",
+                  "name": "Maryland"
+                }
+              },
+              {
+                "@type": "Review",
+                "name": "Not my first HOKA",
+                "reviewBody": "I own two pair of Cliftons and wear one every day. They are so comfortable and fit my feet perfectly.",
+                "datePublished": "2026-01-03T20:13:40.306Z",
+                "author": {
+                  "@type": "Person",
+                  "name": "Kathy"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5
+                },
+                "locationCreated": {
+                  "@type": "AdministrativeArea",
+                  "name": "Oklahoma City OK"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "title": "Men’s Clifton 9 Running Shoe | HOKA®",
+        "description": "Clifton 9",
+        "ogTitle": "Men’s Clifton 9 Running Shoe | HOKA®",
+        "ogDescription": "Clifton 9",
+        "ogImage": "https://dms.deckers.com/hoka/image/upload/t_product-xlarge-wp/v1723477762/1132210-MCN_1.png?_s=RAABAB0",
+        "canonical": "https://www.hoka.com/en/us/mens-everyday-running-shoes/clifton-9/1127895.html"
+      },
+      "content": {
+        "productName": "Clifton 9",
+        "productDescription": "View more",
+        "price": "$175.00\n\n\n\n\n    \n    \n\n\n\n    \n        \n        \n            \n            \n            175.00 USD",
+        "features": [
+          "Breathable engineered knit upper",
+          "Gusseted tongue",
+          "Laces with 70% recycled nylon and 30% recycled polyester (excluding aglet)",
+          "Compression molded EVA foam midsole",
+          "Early stage MetaRocker™",
+          "Inherently stable geometry",
+          "Durabrasion rubber outsole",
+          "35% Recycled polyester upper mesh",
+          "60% Recycled polyester collar and tongue lining",
+          "87% Recycled polyester strobel board"
+        ],
+        "materials": [],
+        "isContentInInitialHtml": true,
+        "wordCount": 6068
+      },
+      "crawlability": {
+        "score": 75,
+        "issues": [
+          "Missing or short meta description",
+          "Product description missing or very short"
+        ],
+        "recommendations": [
+          "Add detailed meta description (150+ chars)",
+          "Add detailed product description visible to crawlers"
+        ]
+      }
+    },
+    {
+      "brand": "HOKA",
+      "product": "Arahi 7",
+      "url": "https://www.hoka.com/en/us/mens-road/arahi-7/1147850.html",
+      "timestamp": "2026-01-26T18:12:39.535Z",
+      "jsonLd": {
+        "found": true,
+        "types": [
+          "Product"
+        ],
+        "hasProduct": true,
+        "hasBrand": true,
+        "hasOffer": true,
+        "hasReview": false,
+        "hasAggregateRating": false,
+        "raw": [
+          {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "name": "Men's Arahi 7",
+            "description": "Not your average stability shoe, the new Arahi 7 delivers the same streamlined support as its predecessor with our patented J-Frame™ technology. Updated with a zonally engineered, flat knit upper for improved midfoot lockdown, we’ve fine-tuned the fit with a plusher tongue, and a stretchy dual gusset beneath the lace line to help mitigate tongue migration.",
+            "sku": "1147850",
+            "image": [
+              "https://dms.deckers.com/hoka/image/upload/t_product-xsmall-wp/v1701902353/1147870-BDBSW_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/hoka/image/upload/t_product-small-wp/v1701902353/1147870-BDBSW_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/hoka/image/upload/t_product-medium-wp/v1701902353/1147870-BDBSW_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/hoka/image/upload/t_product-large-wp/v1701902353/1147870-BDBSW_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/hoka/image/upload/t_product-xlarge-wp/v1701902353/1147870-BDBSW_1.png?_s=RAABAB0"
+            ],
+            "identifier": "1147850",
+            "productID": "1147850",
+            "mpn": "1147850",
+            "offers": {
+              "availability": "SoldOut",
+              "url": "https://www.hoka.com/en/us/mens-everyday-running-shoes/arahi-7/1147850.html",
+              "@type": "Offer",
+              "priceCurrency": null
+            },
+            "brand": {
+              "@type": "Brand",
+              "name": "HOKA"
+            }
+          }
+        ]
+      },
+      "meta": {
+        "title": "HOKA ONE ONE® Arahi 7 for Men | HOKA ONE ONE®",
+        "description": "Arahi 7",
+        "ogTitle": "HOKA ONE ONE® Arahi 7 for Men | HOKA ONE ONE®",
+        "ogDescription": "Arahi 7",
+        "ogImage": "https://dms.deckers.com/hoka/image/upload/t_product-xlarge-wp/v1701902353/1147870-BDBSW_1.png?_s=RAABAB0",
+        "canonical": "https://www.hoka.com/en/us/mens-everyday-running-shoes/arahi-7/1147850.html"
+      },
+      "content": {
+        "productName": "Arahi 7",
+        "productDescription": "View more",
+        "price": "$175.00\n\n\n\n\n    \n    \n\n\n\n    \n        \n        \n            \n            \n            175.00 USD",
+        "features": [
+          "Supportive flat-knit upper",
+          "Dual gusset",
+          "J-Frame™ midsole support",
+          "Zonal rubber",
+          "Extended heel pull",
+          "Plush tongue",
+          "Compression molded EVA midsole",
+          "Durabrasion rubber",
+          "Product Reviews",
+          "Product Reviews"
+        ],
+        "materials": [],
+        "isContentInInitialHtml": true,
+        "wordCount": 5257
+      },
+      "crawlability": {
+        "score": 70,
+        "issues": [
+          "No AggregateRating in JSON-LD",
+          "Missing or short meta description",
+          "Product description missing or very short"
+        ],
+        "recommendations": [
+          "Add aggregateRating to surface review signals",
+          "Add detailed meta description (150+ chars)",
+          "Add detailed product description visible to crawlers"
+        ]
+      }
+    },
+    {
+      "brand": "UGG",
+      "product": "Classic Short II",
+      "url": "https://www.ugg.com/women-boots-classic-boots/classic-short-ii-boot/1016223.html",
+      "timestamp": "2026-01-26T18:12:45.398Z",
+      "jsonLd": {
+        "found": true,
+        "types": [
+          "Product"
+        ],
+        "hasProduct": true,
+        "hasBrand": true,
+        "hasOffer": true,
+        "hasReview": false,
+        "hasAggregateRating": false,
+        "raw": [
+          {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "name": "Women's Classic Short II",
+            "description": "Born on the beaches of California, our Classic Boot was originally made to keep surfers warm after early-morning sessions and has since become an icon of West Coast cool. It's crafted with our famously soft sheepskin, which naturally wicks away moisture so you can wear it anywhere – both indoors and out.<br><br>The outsole of this product is either a sugarcane EVA outsole, which is a responsible compound using sugarcane foam that allows us to reduce dependency on fossil fuels by replacing petroleum-based ethylene, or a Treadlite by UGG™ outsole.<br><br>This product was made in a factory that supports women in our supply chain with the help of Reimagining Industry to Support Equality (RISE). This collaborative initiative creates partnerships with brands like ours to empower and educate women in the workplace.",
+            "sku": "1016223",
+            "image": [
+              "https://dms.deckers.com/ugg/image/upload/t_product-xsmall-wp/v1729719375/1016223-CHE_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/ugg/image/upload/t_product-small-wp/v1729719375/1016223-CHE_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/ugg/image/upload/t_product-medium-wp/v1729719375/1016223-CHE_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/ugg/image/upload/t_product-large-wp/v1729719375/1016223-CHE_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/ugg/image/upload/t_product-xlarge-wp/v1729719375/1016223-CHE_1.png?_s=RAABAB0"
+            ],
+            "identifier": "1016223",
+            "productID": "1016223",
+            "mpn": "1016223",
+            "offers": {
+              "availability": "InStock",
+              "url": "https://www.ugg.com/women-boots/classic-short-ii/1016223.html",
+              "@type": "Offer",
+              "price": "190.00",
+              "priceCurrency": "USD"
+            },
+            "brand": {
+              "@type": "Brand",
+              "name": "UGG"
+            }
+          }
+        ]
+      },
+      "meta": {
+        "title": "Classic Short II Boot for Women | UGG®",
+        "description": "Shop the Classic Short II Boot for women from UGG®. Enjoy FREE shipping on all full-priced orders on ugg.com!",
+        "ogTitle": "Classic Short II Boot for Women | UGG®",
+        "ogDescription": "Shop the Classic Short II Boot for women from UGG®. Enjoy FREE shipping on all full-priced orders on ugg.com!",
+        "ogImage": "https://dms.deckers.com/ugg/image/upload/t_product-xlarge-wp/v1729719375/1016223-CHE_1.png?_s=RAABAB0",
+        "canonical": "https://www.ugg.com/women-boots/classic-short-ii/1016223.html"
+      },
+      "content": {
+        "productName": "Classic Short II",
+        "productDescription": "Protected: Post Applied TreatmentTopically applied water repellency treatment17mm Twinface sheepskin upperOverlock stitch detailing on seams, Suede heel counter17mm sheepskin lining17mm sheepskin insoleSugarcane EVA outsole or Treadlite by UGG™ EVA outsolePolyester binding or textile binding made from 100% recycled polyester fibers8\" shaft heightThe UGG® Logo embossed leather heel labelBest for: CasualRN 88276This product contains real fur from sheep or lamb. Fur may be sourced from Australia, I",
+        "price": "$125.00\n\n\n\n\n    \n    \n\n\n\n    \n        \n        \n            \n            \n            125.00 USD",
+        "features": [
+          "Reviews for Classic Short II",
+          "Reviews for Classic Short II",
+          "Reviews for Classic Short II"
+        ],
+        "materials": [],
+        "isContentInInitialHtml": true,
+        "wordCount": 2384
+      },
+      "crawlability": {
+        "score": 95,
+        "issues": [
+          "No AggregateRating in JSON-LD"
+        ],
+        "recommendations": [
+          "Add aggregateRating to surface review signals"
+        ]
+      }
+    },
+    {
+      "brand": "UGG",
+      "product": "Tasman",
+      "url": "https://www.ugg.com/men-slippers/tasman-slipper/5950.html",
+      "timestamp": "2026-01-26T18:12:51.187Z",
+      "jsonLd": {
+        "found": true,
+        "types": [
+          "Product"
+        ],
+        "hasProduct": true,
+        "hasBrand": true,
+        "hasOffer": true,
+        "hasReview": true,
+        "hasAggregateRating": true,
+        "raw": [
+          {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "name": "Men's Tasman Slipper",
+            "description": "The Tasman is a longtime fan favorite that continuously gets rediscovered generation after generation due to its ultra-lightweight, durable outsole, plush wool lining, and suede uppers. It goes with anything and has an easy slip-on silhouette that will stay timeless forever. <br><br>This product was made in a factory that supports women in our supply chain with the help of HERproject, a collaborative initiative that creates partnerships with brands like ours to empower and educate women in the workplace.<br><br>The outsole of this product is either a sugarcane EVA outsole, which is a responsible compound using sugarcane foam that allows us to reduce dependency on fossil fuels by replacing petroleum-based ethylene, or a Treadlite by UGG™ outsole.",
+            "sku": "5950",
+            "image": [
+              "https://dms.deckers.com/ugg/image/upload/t_product-xsmall-wp/v1710439025/catalog/images/transparent/5950-BLCKT_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/ugg/image/upload/t_product-small-wp/v1710439025/catalog/images/transparent/5950-BLCKT_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/ugg/image/upload/t_product-medium-wp/v1710439025/catalog/images/transparent/5950-BLCKT_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/ugg/image/upload/t_product-large-wp/v1710439025/catalog/images/transparent/5950-BLCKT_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/ugg/image/upload/t_product-xlarge-wp/v1710439025/catalog/images/transparent/5950-BLCKT_1.png?_s=RAABAB0"
+            ],
+            "identifier": "5950",
+            "productID": "5950",
+            "mpn": "5950",
+            "offers": {
+              "availability": "SoldOut",
+              "url": "https://www.ugg.com/men-slippers/tasman-slipper/5950.html",
+              "@type": "Offer",
+              "priceCurrency": null
+            },
+            "brand": {
+              "@type": "Brand",
+              "name": "UGG"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.74,
+              "reviewCount": 2864
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "name": "Tasman: best shoe/slipper",
+                "reviewBody": "These have been a re-buy for our family. From comfort, to color, the best. I recommend the Taan to all my friends!",
+                "datePublished": "2025-06-02T19:44:34.663Z",
+                "author": {
+                  "@type": "Person",
+                  "name": "Jeannie"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5
+                },
+                "locationCreated": {
+                  "@type": "AdministrativeArea",
+                  "name": "NW Arkansas"
+                }
+              },
+              {
+                "@type": "Review",
+                "name": "Would buy over and over again.",
+                "reviewBody": "My grandson has autism and these are the only slippers he will wear.",
+                "datePublished": "2025-05-28T17:22:15.234Z",
+                "author": {
+                  "@type": "Person",
+                  "name": "Happy Nana"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5
+                },
+                "locationCreated": {
+                  "@type": "AdministrativeArea",
+                  "name": "Brandywine, Maryland"
+                }
+              },
+              {
+                "@type": "Review",
+                "name": "Love them!",
+                "reviewBody": "My son is so excited to finally get a pair of these. They're great.",
+                "datePublished": "2025-05-09T18:03:17.470Z",
+                "author": {
+                  "@type": "Person",
+                  "name": "Erin"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5
+                },
+                "locationCreated": {
+                  "@type": "AdministrativeArea",
+                  "name": "DC"
+                }
+              },
+              {
+                "@type": "Review",
+                "name": "My 10th pair!!! Highly recommended!",
+                "reviewBody": "So comfortable!!!",
+                "datePublished": "2025-04-22T17:34:59.308Z",
+                "author": {
+                  "@type": "Person",
+                  "name": "Karlie"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5
+                },
+                "locationCreated": {
+                  "@type": "AdministrativeArea",
+                  "name": "NY"
+                }
+              },
+              {
+                "@type": "Review",
+                "name": "The color, the feel!!!",
+                "reviewBody": "I just flatly love these and so stoked I got this color. Try some color with UGG, the photos don't do them justice. I LOVE these!!!",
+                "datePublished": "2025-04-12T00:33:05.542Z",
+                "author": {
+                  "@type": "Person",
+                  "name": "SubieLee"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5
+                },
+                "locationCreated": {
+                  "@type": "AdministrativeArea",
+                  "name": "Ohio"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "title": "UGG® Tasman for Men | Casual House Shoes at UGG.com",
+        "description": "The men's Tasman is so much more than just a slipper. Fully lined in plush luxurious sheepskin and cuffed with a woven braid for a little extra something. Available at UGG.com",
+        "ogTitle": "UGG® Tasman for Men | Casual House Shoes at UGG.com",
+        "ogDescription": "The men's Tasman is so much more than just a slipper. Fully lined in plush luxurious sheepskin and cuffed with a woven braid for a little extra something. Available at UGG.com",
+        "ogImage": "https://dms.deckers.com/ugg/image/upload/t_product-xlarge-wp/v1710439025/catalog/images/transparent/5950-BLCKT_1.png?_s=RAABAB0",
+        "canonical": "https://www.ugg.com/men-slippers/tasman-slipper/5950.html"
+      },
+      "content": {
+        "productName": "Tasman Slipper",
+        "productDescription": "Suede upperUGGbraid made with 100% recycled polyester fibers17mm Sheepskin or 17mm UGGplush™ 60% upcycled wool, 40% TENCEL™ Lyocell lining17mm UGGplush™ 80% upcycled wool, 20% TENCEL™ Lyocell insole or 17mm UGGplush™ 60% upcycled wool, 40% TENCEL™ Lyocell insoleFoam footbedSugarcane EVA outsole or Treadlite by UGG™ EVA outsoleRecycled polyester bindingThe UGG® logo, heat-embossedRN 88276This product contains real fur from sheep or lamb. Fur may be sourced from Australia, Ireland, the United King",
+        "price": "$125.00\n\n\n\n\n    \n    \n\n\n\n    \n        \n        \n            \n            \n            125.00 USD",
+        "features": [
+          "Sugarcane EVA™",
+          "Reviews for Tasman Slipper",
+          "Reviews for Tasman Slipper"
+        ],
+        "materials": [],
+        "isContentInInitialHtml": true,
+        "wordCount": 6496
+      },
+      "crawlability": {
+        "score": 100,
+        "issues": [],
+        "recommendations": []
+      }
+    },
+    {
+      "brand": "UGG",
+      "product": "Scuffette II",
+      "url": "https://www.ugg.com/women-slippers/scuffette-ii-slipper/1106872.html",
+      "timestamp": "2026-01-26T18:12:56.810Z",
+      "jsonLd": {
+        "found": true,
+        "types": [
+          "Product"
+        ],
+        "hasProduct": true,
+        "hasBrand": true,
+        "hasOffer": true,
+        "hasReview": true,
+        "hasAggregateRating": true,
+        "raw": [
+          {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "name": "Women's Scuffette II",
+            "description": "Our Scuffette brings all the warm and cozy spa-day vibes to those Monday mornings that you pretend are actually Sunday mornings. Put these next to your bed, and slide into them when you need that support. You can do it! It's almost Friday! The Scuffette pulls together any loungewear look with a suede upper and sheepskin collar. Step in and it only gets better with fully lined sheepskin inside.<br><br>This product was made in a factory that supports women in our supply chain with the help of Reimagining Industry to Support Equality (RISE). This collaborative initiative creates partnerships with brands like ours to empower and educate women in the workplace.",
+            "sku": "1106872",
+            "image": [
+              "https://dms.deckers.com/ugg/image/upload/t_product-xsmall-wp/v1733170231/catalog/images/transparent/1106872-CHE_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/ugg/image/upload/t_product-small-wp/v1733170231/catalog/images/transparent/1106872-CHE_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/ugg/image/upload/t_product-medium-wp/v1733170231/catalog/images/transparent/1106872-CHE_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/ugg/image/upload/t_product-large-wp/v1733170231/catalog/images/transparent/1106872-CHE_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/ugg/image/upload/t_product-xlarge-wp/v1733170231/catalog/images/transparent/1106872-CHE_1.png?_s=RAABAB0"
+            ],
+            "identifier": "1106872",
+            "productID": "1106872",
+            "mpn": "1106872",
+            "offers": {
+              "availability": "InStock",
+              "url": "https://www.ugg.com/women-slippers/scuffette-ii/1106872.html",
+              "@type": "Offer",
+              "price": "100.00",
+              "priceCurrency": "USD"
+            },
+            "brand": {
+              "@type": "Brand",
+              "name": "UGG"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.63,
+              "reviewCount": 2250
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "name": "Yes",
+                "reviewBody": "Love my new slippers.  Warm, cozy and comfortable.",
+                "datePublished": "2026-01-23T14:49:52.387Z",
+                "author": {
+                  "@type": "Person",
+                  "name": "Geraldine"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5
+                }
+              },
+              {
+                "@type": "Review",
+                "name": "Buying a pair for myself now!",
+                "reviewBody": "Excellent product",
+                "datePublished": "2026-01-23T05:59:52.482Z",
+                "author": {
+                  "@type": "Person",
+                  "name": "Edwin"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5
+                }
+              },
+              {
+                "@type": "Review",
+                "name": "Very comfortable",
+                "reviewBody": "This is my house slippers and they are very comfortable and soft.",
+                "datePublished": "2026-01-22T19:38:10.662Z",
+                "author": {
+                  "@type": "Person",
+                  "name": "Christmas"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5
+                },
+                "locationCreated": {
+                  "@type": "AdministrativeArea",
+                  "name": "Florida"
+                }
+              },
+              {
+                "@type": "Review",
+                "name": "Wonderfully cozy slippers",
+                "reviewBody": "Wear the slippers around the house all day.",
+                "datePublished": "2026-01-22T19:03:17.370Z",
+                "author": {
+                  "@type": "Person",
+                  "name": "jabh"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5
+                },
+                "locationCreated": {
+                  "@type": "AdministrativeArea",
+                  "name": "Boston"
+                }
+              },
+              {
+                "@type": "Review",
+                "name": "I would buy this product again.",
+                "reviewBody": "Nice and comfortable slipper. I bought the color pink and they are so cute.",
+                "datePublished": "2026-01-22T02:27:43.393Z",
+                "author": {
+                  "@type": "Person",
+                  "name": "Dayna"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "title": "Scuffette II Slipper for Women | UGG®",
+        "description": "Shop the Scuffette II Slipper for women from UGG®. Enjoy FREE shipping on all full-priced orders on ugg.com!",
+        "ogTitle": "Scuffette II Slipper for Women | UGG®",
+        "ogDescription": "Shop the Scuffette II Slipper for women from UGG®. Enjoy FREE shipping on all full-priced orders on ugg.com!",
+        "ogImage": "https://dms.deckers.com/ugg/image/upload/t_product-xlarge-wp/v1733170231/catalog/images/transparent/1106872-CHE_1.png?_s=RAABAB0",
+        "canonical": "https://www.ugg.com/women-slippers/scuffette-ii/1106872.html"
+      },
+      "content": {
+        "productName": "Scuffette II",
+        "productDescription": "Suede upperSheepskin collar17mm sheepskin lining17mm sheepskin insoleMolded rubber outsolePolyester binding or textile binding made from 100% recycled polyester fibersThe UGG® Logo, heat-embossed, Woven label with The UGG® Logo on insoleRN 88276This product contains real fur from sheep or lamb. Fur may be sourced from Australia, Ireland, the United Kingdom, or the United States. It has been artificially dyed and treated.",
+        "price": "$125.00\n\n\n\n\n    \n    \n\n\n\n    \n        \n        \n            \n            \n            125.00 USD",
+        "features": [
+          "Sheepskin Lining",
+          "Reviews for Scuffette II",
+          "Reviews for Scuffette II"
+        ],
+        "materials": [],
+        "isContentInInitialHtml": true,
+        "wordCount": 4843
+      },
+      "crawlability": {
+        "score": 100,
+        "issues": [],
+        "recommendations": []
+      }
+    },
+    {
+      "brand": "Teva",
+      "product": "Hurricane XLT2",
+      "url": "https://www.teva.com/women-sandals/hurricane-xlt2/1019235.html",
+      "timestamp": "2026-01-26T18:13:02.617Z",
+      "jsonLd": {
+        "found": true,
+        "types": [
+          "Product"
+        ],
+        "hasProduct": true,
+        "hasBrand": true,
+        "hasOffer": true,
+        "hasReview": false,
+        "hasAggregateRating": false,
+        "raw": [
+          {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "name": "Women's Hurricane XLT3 Sandal",
+            "description": "The newest evolution of our iconic Hurricane XLT2, this adventure-ready sandal has been overhauled with improved tech. Updated with a cushy, textured topsole for enhanced comfort, you’ll find the same quick-dry straps, padded heel, and adjustable Universal Strapping System that made the original a fan favorite.",
+            "sku": "1173671",
+            "image": [
+              "https://dms.deckers.com/tevaus/image/upload/t_product-xsmall/v1765493200/1173671-NLMT_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/tevaus/image/upload/t_product-small/v1765493200/1173671-NLMT_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/tevaus/image/upload/t_product-medium/v1765493200/1173671-NLMT_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/tevaus/image/upload/t_product-large/v1765493200/1173671-NLMT_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/tevaus/image/upload/t_product-xlarge/v1765493200/1173671-NLMT_1.png?_s=RAABAB0"
+            ],
+            "identifier": "1173671",
+            "productID": "1173671",
+            "mpn": "1173671",
+            "offers": {
+              "availability": "InStock",
+              "url": "https://www.teva.com/women-sandals/hurricane-xlt3-sandal/1173671.html",
+              "@type": "Offer",
+              "price": "100.00",
+              "priceCurrency": "USD"
+            },
+            "brand": {
+              "@type": "Brand",
+              "name": "TEVA"
+            }
+          }
+        ]
+      },
+      "meta": {
+        "title": "Hurricane XLT3 Sandal",
+        "description": "Hurricane XLT3 Sandal",
+        "ogTitle": "TEVA® Hurricane XLT3 Sandal for Women | TEVA®",
+        "ogDescription": "Hurricane XLT3 Sandal",
+        "ogImage": "https://dms.deckers.com/tevaus/image/upload/t_product-xlarge/v1765493200/1173671-NLMT_1.png?_s=RAABAB0",
+        "canonical": "https://www.teva.com/women-sandals/hurricane-xlt3-sandal/1173671.html"
+      },
+      "content": {
+        "productName": "Hurricane XLT3 Sandal",
+        "productDescription": "Details\n            \n\n        \n\n        \n            \n    \n    \n        The newest evolution of our iconic Hurricane XLT2, this adventure-ready sandal has been overhauled with improved tech. Updated with a cushy, textured topsole for enhanced comfort, you’ll find the same quick-dry straps, padded heel, and adjustable Universal Strapping System that made the original a fan favorite.\n    \n\n\n\n            \n                \n                    \n                        Quick-dry straps made from 100% ",
+        "price": "$100.00\n\n\n\n\n    \n    \n\n\n\n    \n        \n        \n            \n            \n            100.00 USD",
+        "features": [
+          "Write the First Review"
+        ],
+        "materials": [],
+        "isContentInInitialHtml": true,
+        "wordCount": 2805
+      },
+      "crawlability": {
+        "score": 85,
+        "issues": [
+          "No AggregateRating in JSON-LD",
+          "Missing or short meta description"
+        ],
+        "recommendations": [
+          "Add aggregateRating to surface review signals",
+          "Add detailed meta description (150+ chars)"
+        ]
+      }
+    },
+    {
+      "brand": "Teva",
+      "product": "Original Universal",
+      "url": "https://www.teva.com/women-sandals/original-universal/1003987.html",
+      "timestamp": "2026-01-26T18:13:08.462Z",
+      "jsonLd": {
+        "found": true,
+        "types": [
+          "Product"
+        ],
+        "hasProduct": true,
+        "hasBrand": true,
+        "hasOffer": true,
+        "hasReview": true,
+        "hasAggregateRating": true,
+        "raw": [
+          {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "name": "Women's Original Universal Sandal",
+            "description": "From a Grand Canyon raft in 1984 to docks, stoops, and sidewalks around the world, one of Teva’s very first sandal stands as a testament to timeless comfort and utilitarian style.",
+            "sku": "1003987",
+            "image": [
+              "https://dms.deckers.com/tevaus/image/upload/t_product-xsmall/v1765493434/1003987-DSTY_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/tevaus/image/upload/t_product-small/v1765493434/1003987-DSTY_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/tevaus/image/upload/t_product-medium/v1765493434/1003987-DSTY_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/tevaus/image/upload/t_product-large/v1765493434/1003987-DSTY_1.png?_s=RAABAB0",
+              "https://dms.deckers.com/tevaus/image/upload/t_product-xlarge/v1765493434/1003987-DSTY_1.png?_s=RAABAB0"
+            ],
+            "identifier": "1003987",
+            "productID": "1003987",
+            "mpn": "1003987",
+            "offers": {
+              "availability": "InStock",
+              "url": "https://www.teva.com/women-sandals/original-universal-sandal/1003987.html",
+              "@type": "Offer",
+              "price": "65.00",
+              "priceCurrency": "USD"
+            },
+            "brand": {
+              "@type": "Brand",
+              "name": "TEVA"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.56,
+              "reviewCount": 3129
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "name": "You only sent me one shoe.",
+                "reviewBody": "Disappointed to buy a gift for my wife, only to realize half of it didn't arrive. I'm not sure how quality doesn't catch something like that.",
+                "datePublished": "2026-01-07T19:49:07.679Z",
+                "author": {
+                  "@type": "Person",
+                  "name": "Thomas"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 1
+                }
+              },
+              {
+                "@type": "Review",
+                "name": "Only received ONE SHOE!!",
+                "reviewBody": "Really disappointed. . . Ordered these as a present for my daughter with the idea that she could use them for hiking last week. . . But when they arrived there was only ONE SHOE in the box!!",
+                "datePublished": "2026-01-02T15:12:19.038Z",
+                "author": {
+                  "@type": "Person",
+                  "name": "Disappointed"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 1
+                },
+                "locationCreated": {
+                  "@type": "AdministrativeArea",
+                  "name": "Minnesota"
+                }
+              },
+              {
+                "@type": "Review",
+                "name": "Success",
+                "reviewBody": "Well received as gift - colors are great",
+                "datePublished": "2026-01-01T12:15:49.254Z",
+                "author": {
+                  "@type": "Person",
+                  "name": "Richard"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5
+                }
+              },
+              {
+                "@type": "Review",
+                "name": "Grand Canyon orange tevas",
+                "reviewBody": "Dream shoes!!!",
+                "datePublished": "2025-12-31T03:17:01.368Z",
+                "author": {
+                  "@type": "Person",
+                  "name": "Mandy"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5
+                }
+              },
+              {
+                "@type": "Review",
+                "name": "100% recommend!",
+                "reviewBody": "Perfect! I love these! My 3rd pair!",
+                "datePublished": "2025-12-30T14:03:26.419Z",
+                "author": {
+                  "@type": "Person",
+                  "name": "Emmy"
+                },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": 5
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "meta": {
+        "title": "Original Universal Sandal",
+        "description": "Shop the women's Original Universal sandal at teva.com for FREE shipping on orders $50+!",
+        "ogTitle": "Original Universal Sandal",
+        "ogDescription": "Shop the women's Original Universal sandal at teva.com for FREE shipping on orders $50+!",
+        "ogImage": "https://dms.deckers.com/tevaus/image/upload/t_product-xlarge/v1765493434/1003987-DSTY_1.png?_s=RAABAB0",
+        "canonical": "https://www.teva.com/women-sandals/original-universal-sandal/1003987.html"
+      },
+      "content": {
+        "productName": "Original Universal Sandal",
+        "productDescription": "Descriptionsdescriptions off, selected",
+        "price": "$100.00\n\n\n\n\n    \n    \n\n\n\n    \n        \n        \n            \n            \n            100.00 USD",
+        "features": [
+          "Universal Strapping System",
+          "Features three points of adjustability that allow for secure and customizable fit"
+        ],
+        "materials": [],
+        "isContentInInitialHtml": true,
+        "wordCount": 6762
+      },
+      "crawlability": {
+        "score": 85,
+        "issues": [
+          "Product description missing or very short"
+        ],
+        "recommendations": [
+          "Add detailed product description visible to crawlers"
+        ]
+      }
+    },
+    {
+      "brand": "Teva",
+      "product": "Tirra",
+      "url": "https://www.teva.com/women-sandals/tirra/4266.html",
+      "timestamp": "2026-01-26T18:13:14.311Z",
+      "jsonLd": {
+        "found": false,
+        "types": [],
+        "hasProduct": false,
+        "hasBrand": false,
+        "hasOffer": false,
+        "hasReview": false,
+        "hasAggregateRating": false,
+        "raw": null
+      },
+      "meta": {
+        "title": "Teva® | Tirra Sandal Collection | Free Shipping at Teva.com",
+        "description": "Shop the Women's Tirra Sandal Collection - Featuring our best selling hiking/water sandal in Nylon or Leather straps. Live Better Stories.",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "canonical": "https://www.teva.com/tirra-sandal-collection/"
+      },
+      "content": {
+        "productName": "Tirra Collection",
+        "productDescription": "",
+        "price": "$100.00\n\n\n\n\n    \n    \n\n\n\n    \n        \n        \n            \n            \n            100.00 USD",
+        "features": [],
+        "materials": [],
+        "isContentInInitialHtml": true,
+        "wordCount": 5065
+      },
+      "crawlability": {
+        "score": 55,
+        "issues": [
+          "No JSON-LD structured data found",
+          "Missing Open Graph tags",
+          "Product description missing or very short",
+          "No product features/benefits found"
+        ],
+        "recommendations": [
+          "Add Schema.org/Product JSON-LD markup",
+          "Add og:title and og:description for social/AI sharing",
+          "Add detailed product description visible to crawlers",
+          "Add structured feature list for AI to extract"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "byBrand": [
+      {
+        "brand": "HOKA",
+        "avgScore": 75,
+        "jsonLdPresent": 3,
+        "productSchema": 3,
+        "total": 3
+      },
+      {
+        "brand": "UGG",
+        "avgScore": 98,
+        "jsonLdPresent": 3,
+        "productSchema": 3,
+        "total": 3
+      },
+      {
+        "brand": "Teva",
+        "avgScore": 75,
+        "jsonLdPresent": 2,
+        "productSchema": 2,
+        "total": 3
+      }
+    ]
+  }
+}

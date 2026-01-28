@@ -1,0 +1,153 @@
+# Google Visibility Study Configuration
+# 12 studies comparing Google surfaces for HUFT visibility
+
+name: google-huft-visibility-study
+description: |
+  Compare HUFT visibility across Google surfaces (Search + AI Overview, Search organic, Gemini API)
+  with variations in IP location and prompt localization.
+
+  Parallel to OpenAI/ChatGPT study for cross-platform comparison.
+
+tenant: glu
+created: 2026-01-24
+
+# Study Matrix
+studies:
+  # Google Search WITH AI Overview
+  - id: g01
+    name: "Google Search + AI Overview - India IP - Original"
+    surface: google-search
+    config:
+      captureAiOverview: true
+      captureOrganicResults: true
+      geoLocation: IN
+      language: en
+    location: in-mum
+    promptSuffix: null
+
+  - id: g02
+    name: "Google Search + AI Overview - India IP - India Suffix"
+    surface: google-search
+    config:
+      captureAiOverview: true
+      captureOrganicResults: true
+      geoLocation: IN
+      language: en
+    location: in-mum
+    promptSuffix: " in India"
+
+  - id: g03
+    name: "Google Search + AI Overview - US IP - Original"
+    surface: google-search
+    config:
+      captureAiOverview: true
+      captureOrganicResults: true
+      geoLocation: US
+      language: en
+    location: us-national
+    promptSuffix: null
+
+  - id: g04
+    name: "Google Search + AI Overview - US IP - India Suffix"
+    surface: google-search
+    config:
+      captureAiOverview: true
+      captureOrganicResults: true
+      geoLocation: US
+      language: en
+    location: us-national
+    promptSuffix: " in India"
+
+  # Google Search WITHOUT AI Overview (organic only)
+  - id: g05
+    name: "Google Search Organic - India IP - Original"
+    surface: google-search
+    config:
+      captureAiOverview: false
+      captureOrganicResults: true
+      geoLocation: IN
+      language: en
+    location: in-mum
+    promptSuffix: null
+
+  - id: g06
+    name: "Google Search Organic - India IP - India Suffix"
+    surface: google-search
+    config:
+      captureAiOverview: false
+      captureOrganicResults: true
+      geoLocation: IN
+      language: en
+    location: in-mum
+    promptSuffix: " in India"
+
+  - id: g07
+    name: "Google Search Organic - US IP - Original"
+    surface: google-search
+    config:
+      captureAiOverview: false
+      captureOrganicResults: true
+      geoLocation: US
+      language: en
+    location: us-national
+    promptSuffix: null
+
+  - id: g08
+    name: "Google Search Organic - US IP - India Suffix"
+    surface: google-search
+    config:
+      captureAiOverview: false
+      captureOrganicResults: true
+      geoLocation: US
+      language: en
+    location: us-national
+    promptSuffix: " in India"
+
+  # Gemini API
+  - id: g09
+    name: "Gemini API - US IP - Original"
+    surface: google-ai-api
+    config:
+      model: gemini-2.0-flash
+    location: us-national
+    promptSuffix: null
+
+  - id: g10
+    name: "Gemini API - US IP - India Suffix"
+    surface: google-ai-api
+    config:
+      model: gemini-2.0-flash
+    location: us-national
+    promptSuffix: " in India"
+
+  - id: g11
+    name: "Gemini API - India IP - Original"
+    surface: google-ai-api
+    config:
+      model: gemini-2.0-flash
+    location: in-mum
+    promptSuffix: null
+
+  - id: g12
+    name: "Gemini API - India IP - India Suffix"
+    surface: google-ai-api
+    config:
+      model: gemini-2.0-flash
+    location: in-mum
+    promptSuffix: " in India"
+
+execution:
+  concurrency: 1  # Sequential for rate limiting
+  delayBetweenQueries: 2000  # 2 seconds
+  timeout: 60000  # 60 seconds per query
+  retry:
+    maxAttempts: 3
+    backoffMs: [5000, 10000, 30000]
+
+evidence:
+  screenshots: true  # For Google Search
+  html: true
+
+output:
+  format: json
+  destination: ./studies/google/

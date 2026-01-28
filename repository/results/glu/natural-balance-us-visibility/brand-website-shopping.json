@@ -1,0 +1,145 @@
+{
+  "checkedAt": "2026-01-25T23:49:37.398Z",
+  "totalBrands": 17,
+  "brandsWithDirectShopping": [
+    "Blue Buffalo",
+    "Canidae",
+    "Nutro",
+    "Taste of the Wild",
+    "Pedigree",
+    "Iams"
+  ],
+  "brandsWithoutDirectShopping": [
+    "Natural Balance",
+    "Wellness",
+    "Merrick",
+    "Orijen",
+    "Acana",
+    "Fromm",
+    "Nulo",
+    "Purina",
+    "Hill's Science Diet",
+    "Royal Canin",
+    "Rachael Ray Nutrish"
+  ],
+  "details": [
+    {
+      "brand": "Natural Balance",
+      "url": "https://www.naturalbalanceinc.com",
+      "hasDirectShopping": false,
+      "shopUrl": "https://www.naturalbalanceinc.com/where-to-buy/",
+      "notes": "Shop link: \"Where To Buy\"; Has \"Where to Buy\" section"
+    },
+    {
+      "brand": "Blue Buffalo",
+      "url": "https://www.bluebuffalo.com",
+      "hasDirectShopping": true,
+      "shopUrl": "https://www.bluebuffalo.com/store-locator/",
+      "notes": "Shop link: \"\"; Cart found; Has \"Where to Buy\" section"
+    },
+    {
+      "brand": "Wellness",
+      "url": "https://www.wellnesspetfood.com",
+      "hasDirectShopping": false,
+      "shopUrl": "https://www.wellnesspetfood.com/where-to-buy/",
+      "notes": "Shop link: \"Where to Buy\"; Has \"Where to Buy\" section"
+    },
+    {
+      "brand": "Merrick",
+      "url": "https://www.merrickpetcare.com",
+      "hasDirectShopping": false,
+      "shopUrl": "https://www.merrickpetcare.com/where-to-buy",
+      "notes": "Shop link: \"Where to Buy\"; Has \"Where to Buy\" section"
+    },
+    {
+      "brand": "Orijen",
+      "url": "https://www.orijen.com",
+      "hasDirectShopping": false,
+      "notes": "Error: Error: page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.orijen.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.orijen.com/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+    },
+    {
+      "brand": "Acana",
+      "url": "https://www.acana.com",
+      "hasDirectShopping": false,
+      "shopUrl": "https://www.acana.com/en-US/where-to-buy",
+      "notes": "Shop link: \"Where to Buy\"; Has \"Where to Buy\" section"
+    },
+    {
+      "brand": "Canidae",
+      "url": "https://www.canidae.com",
+      "hasDirectShopping": true,
+      "shopUrl": "https://canidae.com/shop/dog",
+      "notes": "Shop link: \"Dog Food\"; Cart found; Has \"Where to Buy\" section"
+    },
+    {
+      "brand": "Nutro",
+      "url": "https://www.nutro.com",
+      "hasDirectShopping": true,
+      "shopUrl": "https://www.nutro.com/shop-dogs/food-type/dry",
+      "notes": "Shop link: \"Dry Food\""
+    },
+    {
+      "brand": "Taste of the Wild",
+      "url": "https://www.tasteofthewildpetfood.com",
+      "hasDirectShopping": true,
+      "shopUrl": "https://www.tasteofthewildpetfood.com/where-to-buy/",
+      "notes": "Shop link: \"Where to Buy\"; Cart found; Has \"Where to Buy\" section"
+    },
+    {
+      "brand": "Fromm",
+      "url": "https://www.frommfamily.com",
+      "hasDirectShopping": false,
+      "shopUrl": "https://frommfamily.com/retailers/where-to-buy/",
+      "notes": "Shop link: \"Store Locator\"; Has \"Where to Buy\" section"
+    },
+    {
+      "brand": "Nulo",
+      "url": "https://www.nulo.com",
+      "hasDirectShopping": false,
+      "shopUrl": "https://nulo.com/collections/for-dogs",
+      "notes": "Shop link: \"Shop All Dog\"; Has \"Where to Buy\" section"
+    },
+    {
+      "brand": "Purina",
+      "url": "https://www.purina.com",
+      "hasDirectShopping": false,
+      "shopUrl": "https://www.petivity.com/products/smart-litter-box-monitor",
+      "notes": "Shop link: \"Cat Smart DevicesOpen in new window\"; Has \"Where to Buy\" section"
+    },
+    {
+      "brand": "Pedigree",
+      "url": "https://www.pedigree.com",
+      "hasDirectShopping": true,
+      "shopUrl": "https://www.pedigree.com/dog-foods",
+      "notes": "Shop link: \"Shop All Dog Food\""
+    },
+    {
+      "brand": "Iams",
+      "url": "https://www.iams.com",
+      "hasDirectShopping": true,
+      "shopUrl": "https://www.iams.com/products/dry/iams-advanced-health-healthy-digestion",
+      "notes": "Shop link: \"Healthy Digestion\""
+    },
+    {
+      "brand": "Hill's Science Diet",
+      "url": "https://www.hillspet.com",
+      "hasDirectShopping": false,
+      "shopUrl": "https://www.hillspet.com/where-to-buy",
+      "notes": "Shop link: \"Where to Buy\"; Has \"Where to Buy\" section"
+    },
+    {
+      "brand": "Royal Canin",
+      "url": "https://www.royalcanin.com",
+      "hasDirectShopping": false,
+      "shopUrl": "https://www.royalcanin.com/us/dogs/products/retail-products",
+      "notes": "Shop link: \"All Retail Dog Products\"; Has \"Where to Buy\" section"
+    },
+    {
+      "brand": "Rachael Ray Nutrish",
+      "url": "https://www.nutrish.com",
+      "hasDirectShopping": false,
+      "shopUrl": "https://www.nutrish.com/products/dog/food/dry/",
+      "notes": "Shop link: \"View All Dry Food\"; Has \"Where to Buy\" section"
+    }
+  ]
+}

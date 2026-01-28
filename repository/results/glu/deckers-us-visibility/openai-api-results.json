@@ -1,0 +1,22 @@
+{
+  "studyName": "Deckers Brands US Visibility Study - OpenAI GPT-4o API",
+  "surface": "openai-api",
+  "location": "United States",
+  "startTime": "2026-01-26T01:08:29.956Z",
+  "totalQueries": 100,
+  "successfulQueries": 0,
+  "results": [
+    {
+      "queryIndex": 0,
+      "query": "best running shoes 2026",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 917,
+      "brandMentions": [],
+      "error": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+    }
+  ],
+  "analysis": {
+    "brandVisibility": {}
+  }
+}

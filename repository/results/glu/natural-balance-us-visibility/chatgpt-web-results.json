@@ -1,0 +1,2651 @@
+{
+  "studyName": "Natural Balance US Visibility Study - ChatGPT Web",
+  "surface": "chatgpt-web",
+  "location": "United States",
+  "startTime": "2026-01-25T18:09:18.556Z",
+  "totalQueries": 100,
+  "completedQueries": 100,
+  "successfulQueries": 92,
+  "results": [
+    {
+      "queryIndex": 0,
+      "queryId": "df01",
+      "query": "What is the best dog food brand?",
+      "category": "dog-food-general",
+      "timestamp": "2026-01-25T18:10:29.219Z",
+      "success": true,
+      "response": "There isn’t a single “best” dog food brand for every dog — the best choice depends on your dog’s age, size, breed, health needs, preferences, and your budget. But veterinarians and nutrition experts consistently recommend certain brands and types because they meet recognized nutritional standards (AAFCO, WSAVA) and use quality ingredients. \nPetMD\n+1\n\nHere are widely recommended dog food brands (2026 consensus from vets, reviews, and pet owners):\n\n🩺 Veterinarian-Recommended Brands\n\nThese brands are often recommended by vets because they’re formulated with balanced nutrition and scientific research backing: \nPetMD\n+1\n\nHill’s Science Diet / Hill’s Pet Nutrition – well-researched and available for all life stages and conditions. \nsplootvets.com\n\nPurina Pro Plan & Purina ONE – high-quality ingredients with formulas for digestion, weight control, and sensitive skin. \nPetMD\n+1\n\nRoyal Canin – breed- and size-specific nutrition with veterinary science behind formulas. \nsplootvets.com\n\n🐶 Popular & Highly Rated Options (General & Specialty)\n\nThese are frequently highlighted in customer reviews and expert lists: \nPetfoodIndustry\n+1\n\nThe Farmer’s Dog, Nom Nom, Ollie – fresh, vet-formulated subscription meals (great for picky eaters or tailored nutrition). \nPetfoodIndustry\n\nBlue Buffalo – natural ingredient formulas with antioxidants and quality proteins. \nPetfoodIndustry\n\nTaste of the Wild – grain-free and protein-rich diets. \nPetfoodIndustry\n\nOpen Farm, Viva Raw – holistic, ethically sourced meat and ingredients (often favored by owners seeking premium nutrition). \nForbes\n+1\n\nCanidae, Iams, Eukanuba – solid options across life stages with good value and consistent nutrition. \nPetfoodIndustry\n\n⚠️ Recalls & Safety Notes\n\nEven reputable brands can have recalls from time to time — for example a batch of dog food from Lily’s Kitchen was recently recalled due to contamination issues. \nThe Scottish Sun\n Always check current recall info and talk to your vet.\n\n🐕 Choosing the Right Food for Your Dog\n\n✔ Check the label: Look for foods that meet AAFCO nutritional standards and have real meat listed first. \nhospital.cvm.ncsu.edu\n\n✔ Consider life stage: Puppy, adult, and senior formulas differ — puppies need more DHA & calcium, seniors may need joint support. \nThe Pet Doctor - O'Fallon\n\n✔ Health needs: Sensitive stomach? Weight management? Allergies? There are targeted form\npetsmart.com",
+      "responseTimeMs": 11796,
+      "brandMentions": [
+        {
+          "brand": "Purina",
+          "count": 2
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Canidae",
+          "count": 1
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 1
+        },
+        {
+          "brand": "Iams",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        },
+        {
+          "brand": "PetSmart",
+          "count": 1
+        },
+        {
+          "brand": "Target",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 1,
+      "queryId": "df02",
+      "query": "best dry dog food 2026",
+      "category": "dog-food-general",
+      "timestamp": "2026-01-25T18:10:44.093Z",
+      "success": true,
+      "response": "Here’s a current, expert-informed roundup of the best dry dog foods in 2026 — focusing on nutrition, quality ingredients, and strong reviews from vets and pet nutrition sites: \nChewy\n+3\nDog Food Advisor\n+3\nPetMD\n+3\n\n🥇 Top Dry Dog Food Picks for 2026\n🐕 All-Around Best Dry Kibble\n\nPurina Pro Plan Complete Essentials Adult Shredded Blend Chicken & Rice – High protein, probiotics for gut health, and excellent digestibility; consistently top-rated by reviewers. \nChewy\n\nPurina ONE Natural Adult Chicken & Rice Formula – Great balance of quality nutrition, palatability, and value. \nChewy\n\n🥩 Natural & High-Quality Ingredient Favorites\n\nBlue Buffalo Life Protection Formula Adult Chicken & Brown Rice – Real meat as first ingredient and well-rounded nutrition profile. \nChewy\n\nTaste of the Wild High Prairie Grain-Free Dry Dog Food – Grain-free, high-protein option many dogs enjoy. \nChewy\n\n🩺 Vet-Recommended Classics\n\nPurina Pro Plan (various formulas) – Often recommended by veterinarians for balanced nutrition and medical condition support. \nPetMD\n\nHill’s Science Diet Adult & Specialty Dry Kibble – Known for clinical research backing and life-stage formulas. \nPetMD\n\n🐶 How to Choose the Right Dry Food\n\n✔ Life Stage Matters – Puppy, adult, and senior formulas differ in protein and calorie needs. \nPetMD\n\n✔ Health Needs – If your dog has sensitive digestion, allergies, or weight concerns, specific formulas exist (e.g., sensitive stomach blends). \nPetMD\n\n✔ AAFCO Complete & Balanced – Always check for this statement on the bag — it means the recipe meets established nutritional standards. \nDog Food Advisor\n\n🐾 Quick Picks by Priority (2026)\nCategory\tRecommended Dry Food\nBest Overall\tPurina Pro Plan Complete Essentials\nBest Natural/Ingredient-Focused\tBlue Buffalo Life Protection\nBest Grain-Free\tTaste of the Wild High Prairie\nVet-Preferred\tHill’s Science Diet Adult & Specialty Formulas\nBest Value\tPurina ONE Natural Adult Chicken & Rice\n\n(Note: availability and specific recipes may vary by region and retailer.) \nChewy\n+1\n\nIf you tell me you",
+      "responseTimeMs": 10494,
+      "brandMentions": [
+        {
+          "brand": "Chewy",
+          "count": 6
+        },
+        {
+          "brand": "Purina",
+          "count": 5
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 2
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 2,
+      "queryId": "df03",
+      "query": "top rated dog food brands",
+      "category": "dog-food-general",
+      "timestamp": "2026-01-25T18:10:58.557Z",
+      "success": true,
+      "response": "Here are some of the top-rated dog food brands in 2026, based on veterinarian recommendations, expert reviews, and customer ratings — covering a range of styles from dry kibble to high-quality complete diets: \nPetfoodIndustry\n+3\nPetMD\n+3\nChewy\n+3\n\n🩺 Vet-Recommended & Widely Trusted Brands\n\nThese brands are frequently recommended by veterinarians for balanced nutrition and life-stage formulas: \nPetMD\n+1\n\nHill’s Science Diet – Longstanding vet favorite with formulas tailored to life stages and health needs. \nPetMD\n\nRoyal Canin – Known for breed-specific, size-specific, and condition-specific diets. \nSploot Vets\n\nPurina Pro Plan – High-quality ingredients with options for digestion, skin, and activity needs. \nPetMD\nChewy\n+1",
+      "responseTimeMs": 7571,
+      "brandMentions": [
+        {
+          "brand": "Chewy",
+          "count": 2
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 3,
+      "queryId": "df04",
+      "query": "healthiest dog food options",
+      "category": "dog-food-general",
+      "timestamp": "2026-01-25T18:11:08.997Z",
+      "success": true,
+      "response": "Here’s an up-to-date, expert-informed guide to the healthiest dog food options in 2026 — focusing on high-quality ingredients, balanced nutrition, and real nutrition science (not marketing buzz):\n\n🥇 What Makes a Dog Food Healthy\n\nA truly healthy dog food should:\n✔ Provide complete and balanced nutrition per AAFCO standards. \npetmd.com\n\n✔ List real animal-based protein (chicken, beef, fish, lamb) as the first ingredient. \nchewy.com\n\n✔ Contain wholesome whole grains, fruits & vegetables, healthy fats, and essential vitamins/minerals. \ntractorsupply.com\n\n✔ Avoid e",
+      "responseTimeMs": 7682,
+      "brandMentions": [
+        {
+          "brand": "Chewy",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 4,
+      "queryId": "df05",
+      "query": "best dog food recommended by veterinarians",
+      "category": "dog-food-general",
+      "timestamp": "2026-01-25T18:11:20.409Z",
+      "success": true,
+      "response": "Here are some of the top dog food brands and formulas veterinarians commonly recommend in 2026 — based on vet-verified nutrition, research backing, and clinician approval: \nPetMD\n+1\n\n🩺 Top Veterinarian-Recommended Dog Food Brands\n🐕 1. Hill’s Science Diet (Hill’s Pet Nutrition)\n\nVeterinarians frequently recommend Hill’s for balanced, science-based nutrition across life stages. They offer both everyday formulas and Prescription Diets for health conditions like digestive issues, weight management, and food sensitivities. \nPetMD\n+1\n\nBest Hill’s Options:\n\nHill’s Science Diet Adult Dry / Wet — general balanced nutrition\n\nHill’s Prescription Diet: gastrointestinal, kidney, skin/food sensitivity, joint care formulas\n\n👉 Great choice if your vet wants a clinicall",
+      "responseTimeMs": 14125,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 5,
+      "queryId": "df06",
+      "query": "premium dog food brands worth the money",
+      "category": "dog-food-general",
+      "timestamp": "2026-01-25T18:11:37.657Z",
+      "success": true,
+      "response": "Here are some premium dog food brands and specific high-quality options worth the money — focusing on nutrient-dense, well-reviewed foods with real ingredients and strong reputations for supporting canine health (not just cheapest kibble). Many of these brands show up on premium dog food lists and vet-recommended guides because they emphasize higher-quality proteins, balanced nutrition, and healthy fats. \nchewy.com\n+1\n\n\",\"Taste of the Wild Pacific Stream Dog Food\"],\n[\"turn0product2\",\"Taste of the Wild High Prairie Dog Food\"],\n[\"turn0product11\",\"Ultimate Pet Nutrition Freeze Dried Raw Beef Dog Food\"],\n[\"turn0product13\",\"Elite Blend Premium Dog Food Meal\"],\n[\"turn0product8\",\"Primal Kibble in the Raw Beef Dog Food\"]\n]}\n\n🥇 Ultra-Premium / Vet-Recomme",
+      "responseTimeMs": 13429,
+      "brandMentions": [
+        {
+          "brand": "Taste of the Wild",
+          "count": 2
+        },
+        {
+          "brand": "Chewy",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 6,
+      "queryId": "df07",
+      "query": "best natural dog food brands",
+      "category": "dog-food-general",
+      "timestamp": "2026-01-25T18:11:53.554Z",
+      "success": true,
+      "response": "Here are some top natural dog food brands — great choices if you want meals made with real, recognizable ingredients and minimal artificial additives (no artificial colors, flavors, or chemical preservatives). Natural diets focus on wholesome nutrition that’s closer to whole food rather than highly processed kibble.\nWhole Dog Journal\n\nTaste of the Wild Pacific Stream Dog Food\n$22.99\n•\nBevMo! + others\nTaste of the Wild High Prairie Dog Food\n$58.99\n•\nChewy.com + others\nBlue Buffalo Life Protection Formula\n$15.48\n•\nTractor Supply Company + others\nDiamond Naturals Skin & Coat Dry Dog Food\n$31.99\n•\nTractor Supply Company + others\nNature's Recipe Grain Free Dry Dog Food Salmon\n$29.98\n•\nWalmart + others\nNatural Balance Limited Ingredient Salmon & Sweet Potato Dry\n$47.99\n•\nPetco.com + others\nOpen Farm Front Range RawMix Dog Food\n$34.99\n•\nOpen Farm + others\nK9 Natural Freeze-Dried Lamb & Salmon Dog Food\n$42.39\n•\nOnly Natural Pet + others\n🐶 Highly Rated Natural Dry Foods\n\nTaste of the Wild Pacific Stream Dog Food – Salmon-based natural diet rich in omega fatty acids for skin, coat, and immune health; excellent overall pick.\n\nTaste of the Wild High Prairie Dog Food – Real roasted meats with fruits/veggies; widely recommended and digestible natural formula.\n\nBlue Buffalo Life Protection Formula – Real meat Diamond Naturals Skin & Coat Dry Dog FoodNature's Recipe Grain Free Dry Dog Food SalmonNatural Balance Limited Ingredient Salmon & Sweet Potato DryOpen Farm Front Range RawMix Dog Food\nOpen Farm\nK9 Natural Freeze-Dried Lamb & Salmon Dog Food\nWhole Dog Journal",
+      "responseTimeMs": 10719,
+      "brandMentions": [
+        {
+          "brand": "Taste of the Wild",
+          "count": 4
+        },
+        {
+          "brand": "Natural Balance",
+          "count": 2
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 2
+        },
+        {
+          "brand": "Chewy",
+          "count": 1
+        },
+        {
+          "brand": "Petco",
+          "count": 1
+        },
+        {
+          "brand": "Walmart",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 7,
+      "queryId": "df08",
+      "query": "high quality dog food brands",
+      "category": "dog-food-general",
+      "timestamp": "2026-01-25T18:12:07.539Z",
+      "success": true,
+      "response": "Here are some high-quality dog food brands that many pet owners and veterinarians consider worth feeding — whether you want premium nutrition, natural ingredients, or scientifically backed diets tailored to your dog’s needs. High-quality foods usually feature real meat first, balanced nutrition, and minimal fillers or artificial additives.\npetmd.com\n+1\n\nPro Plan Adult Complete\"],\n[\"turn0product0\",\"Blue Buffalo Life Protection Formula\"],\n[\"turn0product1\",\"Royal Canin Small Adult Dry Dog Food\"],\n[\"turn0product8\",\"Royal Canin Large Breed Adult Dry Dog Food\"],\n\"turn0product12\",\"Farmina N&D Ancestral",
+      "responseTimeMs": 9623,
+      "brandMentions": [
+        {
+          "brand": "Royal Canin",
+          "count": 2
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 8,
+      "queryId": "df09",
+      "query": "best dog food for the money",
+      "category": "dog-food-general",
+      "timestamp": "2026-01-25T18:12:20.731Z",
+      "success": true,
+      "response": "Here are some of the best dog food options that give you great value — solid nutrition without breaking the bank (good price per quality). Many of these are well-rated by dog owners and vets as good everyday feeds that balance nutrition, ingredients, and cost (not just cheap fillers). \nReddit\n+1\n\nTaste of the Wild Sierra Mountain Dry Dog Food\n$19.99\n•\nIncredible Pets + others\nPurina Dog Chow Complete Adult Dry Dog Food\n$29.99\n•\nAlbertsons + others\nRachael Ray Nutrish Real Beef Dog Food\n$25.99\n•\nAlbertsons + others\nDiamond Naturals Skin & Coat Dry Dog Food\n$31.99\n•\nTractor Supply Company + others\nNature’s Recipe Grain Free Chicken Dry Dog Food\n$7.49\n•\nChewy.com + others\nPure Balance Grain‑Free Chicken & Pea Dry Dog Food\n$34.92\n•\nWalmart + others\nPedigree Roasted Chicken Rice Vegetable Dry Dog Food\n$8.49\n•\nAlbertsons + others\nTaste of the Wild Wetlands Dog Food\n$59.99\n•\nAce Hardware + others\n🐶 Best Value Everyday Dry Foods\n\nThese give balanced nutrition at a price most dog owners appreciate.\n\nTaste of the Wild Sierra Mountain Dry Dog Food",
+      "responseTimeMs": 11659,
+      "brandMentions": [
+        {
+          "brand": "Taste of the Wild",
+          "count": 3
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Pedigree",
+          "count": 1
+        },
+        {
+          "brand": "Rachael Ray",
+          "count": 1
+        },
+        {
+          "brand": "Chewy",
+          "count": 1
+        },
+        {
+          "brand": "Walmart",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 9,
+      "queryId": "df10",
+      "query": "what dog food do vets recommend most",
+      "category": "dog-food-general",
+      "timestamp": "2026-01-25T18:12:35.239Z",
+      "success": true,
+      "response": "When veterinarians talk about dog food they recommend most, they tend to focus on brands that are nutritionally balanced, backed by scientific research or formulated with veterinary nutritionists, and suitable for a wide variety of dogs and life stages. Vets also emphasize choosing a food that meets AAFCO standards for complete and balanced nutrition. \nPetMD\n+1\n\n🩺 Top Dog Food Brands Most Often Recommended by Veterinarians\n⭐ Core Vet-Recommended Everyday Nutrition\n\nThese brands show up repeatedly in vet-verified recommendation lists because of their research-backed formulas and consistent quality:\n\n1. Hill’s Science Diet\n\nFrequently cited as a top vet-recommended brand for overall health, weight management, digestion, and life-stage needs.\n\nDeveloped with extensive scientific research and nutritional testing. \nPetMD\n+1\n\n2. Royal Canin\n\nKnown for breed-specific, size-specific, and tailored formulas that address precise nutritional requirements.\n\nVet-trusted for its research-based approach and comprehensive diet options. \nPetMD\n+1\n\n3. Purina Pro Plan\n\nA widely vet-recommended premium line focused on balanced, high-quality nutrition with options for sensitive digestion, performance, and life stages.\n\nIncludes probiotics in many formulas for gut health. \nPetMD\n\n🐶 Other Brands Vets Often Suggest\n\nThese also come up in veterinarian resources and discussion as solid starting points, especially when tailoring food to your dog’s needs:\n\n4. Eukanuba — Often recommended for active or performance-oriented dogs thanks to high-protein formulations. \nSploot Vets\n\n5. IAMS — A long-standing brand vets may suggest for balanced everyday nutrition. \nSploot Vets\n\n6. Science Diet / Prescription Diet & Veterinary Diets (Hill’s, Purina, Royal Canin) \nchewy.com",
+      "responseTimeMs": 7918,
+      "brandMentions": [
+        {
+          "brand": "Purina",
+          "count": 2
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 2
+        },
+        {
+          "brand": "Iams",
+          "count": 1
+        },
+        {
+          "brand": "Chewy",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 10,
+      "queryId": "df11",
+      "query": "best affordable dog food that's still healthy",
+      "category": "dog-food-general",
+      "timestamp": "2026-01-25T18:12:45.609Z",
+      "success": true,
+      "response": "Here are some of the best affordable dog food options that are still considered health-minded — good nutrition without breaking the bank. Many veterinarians and dog owners recommend choosing foods that meet AAFCO nutritional standards and balance protein, fats, vitamins, & minerals rather than going for the cheapest bag regardless of ingredients. \nreddit.com\n+1\n\nturn0product0\",\"Purina ONE Chicken & Rice\"],\n[\"turn0product2\",\"Rachael Ray Nutrish Real Chicken & Veggies\"],\n[\"turn0product1\",\"Rachael Ray Nutrish Beef & Rice\"],\n[\"turn0product4\",\"Blue Buffalo Life Protection\"],\n[\"turn0product10\",\"Iams Proactive Health Adult\"],\n[\"turn0product6\",\"4Health Salmon & Potato\"],\n[\"turn0product12\",\"Diamond Naturals Lamb Meal & Rice\"]\n]}\n\n⭐ Great Balance of Health & Affordability\n\n**** – Excellent everyday",
+      "responseTimeMs": 13562,
+      "brandMentions": [
+        {
+          "brand": "Rachael Ray",
+          "count": 2
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Iams",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 11,
+      "queryId": "df12",
+      "query": "dog food brands with best ingredients",
+      "category": "dog-food-general",
+      "timestamp": "2026-01-25T18:13:01.265Z",
+      "success": true,
+      "response": "Here are some of the top dog food brands/formulas known for high-quality ingredients and good nutrition — many are recommended by veterinarians or pet nutrition experts for their balanced, wholesome recipes (real meats, healthy fats, limited fillers, and often added vitamins & minerals)👇 \nchewy.com\n+3\npetmd.com\n+3\nforbes.com\n+3\n\nOrijen Original Dry Dog Food\n$25.99\n•\nTractor Supply Company + others\nTaste of the Wild High Prairie Dog Food\n$58.99\n•\nChewy.com + others\nTaste of the Wild Pacific Stream Dog Food\n$19.99\n•\nTractor Supply Company + others\nBlue Buffalo Life Protection Formula Chicken & Brown Rice\n$67.98\n•\nChewy.com + others\nPurina Pro Plan Sensitive Skin & Stomach Salmon & Rice\n$94.98\n•\nPetco.com + others",
+      "responseTimeMs": 10840,
+      "brandMentions": [
+        {
+          "brand": "Chewy",
+          "count": 3
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 2
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Orijen",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Petco",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 12,
+      "queryId": "df13",
+      "query": "best American made dog food",
+      "category": "dog-food-general",
+      "timestamp": "2026-01-25T18:13:14.357Z",
+      "success": true,
+      "response": "Here are some of the best dog food options made in the USA that are known for quality ingredients, good nutrition, and solid reviews — great picks if you want to prioritize American-made pet food. Many trusted brands manufacture their recipes domestically, often with real animal protein first and balanced nutrition appropriate for most dogs. \nthepetvet.com\n\nFROMM Gold Adult Dog Food\n$33.99\n•\nTomlinson's Feed + others\nTaste of the Wild High Prairie Dog Food\n$59.99\n•\nAce Hardware + others\nTaste of the Wild Pacific Stream Dog Food\n$19.99\n•\nTractor Supply Company + others\nBlue Buffalo Life Protection Formula\n$39.98\n•\nChewy.com + others\n\nthe Wild Pine Forest Dog Food\"],\n\"tur",
+      "responseTimeMs": 9615,
+      "brandMentions": [
+        {
+          "brand": "Taste of the Wild",
+          "count": 2
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Fromm",
+          "count": 1
+        },
+        {
+          "brand": "Chewy",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 13,
+      "queryId": "df14",
+      "query": "safest dog food brands 2026",
+      "category": "dog-food-general",
+      "timestamp": "2026-01-25T18:13:27.106Z",
+      "success": true,
+      "response": "Here’s a 2026-up-to-date list of dog food brands and formulas widely regarded as safe, high-quality, and nutritionally sound — based on veterinary recommendations, expert reviews, and ingredient quality assessments. These include brands known for consistent manufacturing standards, good ingredient transparency, and broad adoption by pet owners and professionals. \nPetMD\n+2\nOreate AI\n+2\n\n🩺 Top Safest & Most Trusted Dog Food Brands in 2026\n🥇 Vet-Recommended & Science-Driven\n\nThese brands are frequently recommended by veterinarians for daily nutrition, life-stage support, and condition-specific diets:\n\nHill’s Science Diet – A research-backed brand with formulas for puppies, adults, seniors, and special health needs (weight, stomach/skin sensitivities, joint support). \nPetMD\n+1\n\nRoyal Canin – Offers breed-, size-, and health-specific formulas developed with veterinary dietitians; known for consistent quality control. \nOreate AI\n\nPurina Pro Plan – Combines probiotics, balanced nutrition, and high digestibility; widely studied and recommended by vets. \nChewy\n\n💡 These big brands often undergo internal feeding trials and are formulated to meet AAFCO nutrient profiles. \nSploot Vets\n\n🍗 Widely Rated High-Quality Everyday Dog Foods\n\nReliable nutritional choices that balance quality ingredients with broad palatability and safety:\n\nPurina ONE (Natural Adult Chicken & Rice) – High ratings for digestibility, balanced nutrition, and safety controls. \nChewy\n\nBlue Buffalo Life Protection Formula – Uses real meat first with added vitamins & antioxidants; a top choice for general health. \nChewy\n\nTaste of the Wild (e.g., High Prairie) – Grain-free formulas with real roasted meats and good amino acid profiles. \nChewy\n\n🐶 Natural & Human-Grade Focused (Premium)\n\nThese brands emphasize high-quality, recognizable ingredients and transparency — often made with fewer fillers \nthegoodtrade.com",
+      "responseTimeMs": 7619,
+      "brandMentions": [
+        {
+          "brand": "Chewy",
+          "count": 4
+        },
+        {
+          "brand": "Purina",
+          "count": 2
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 14,
+      "queryId": "df15",
+      "query": "best dog food without fillers",
+      "category": "dog-food-general",
+      "timestamp": "2026-01-25T18:13:38.089Z",
+      "success": true,
+      "response": "Here are some of the best dog food options that focus on minimal fillers and high-quality ingredients — great choices if you want a clean diet for your dog with real meat, wholesome carbs, and limited unnecessary additives (fillers like corn, wheat, soy, and by-products are commonly avoided in these formulas) \nTractor Supply Co.\n+2\ngo-solutions.com\n+2\n\nTaste of the Wild High Prairie Dry Dog Food\n$59.99\n•\nAce Hardware + others\nTaste of the Wild Pacific Stream Dry Dog Food\n$22.99\n•\nAce Hardware + others\nBlue Buffalo Life Protection Chicken & Brown Rice\n$15.48\n•\nTractor Supply Company + others\nFreshpet Fresh Dog Food Tender Chicken\n$26.99\n•\nAlbertsons + others\nNatural Balance Limited Ingredient Salmon & Sweet Potato\n$24.98\n•\nPetco.com + others\nMerrick Limited Ingredient Diet Grain‑Free Salmon\n$25.99\n•\nPetSmart + others\n\nturn0product0\",\"Rachael Ray Nutrish Rea",
+      "responseTimeMs": 9707,
+      "brandMentions": [
+        {
+          "brand": "Taste of the Wild",
+          "count": 2
+        },
+        {
+          "brand": "Natural Balance",
+          "count": 1
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Merrick",
+          "count": 1
+        },
+        {
+          "brand": "Rachael Ray",
+          "count": 1
+        },
+        {
+          "brand": "Petco",
+          "count": 1
+        },
+        {
+          "brand": "PetSmart",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 15,
+      "queryId": "df16",
+      "query": "highest protein dog food brands",
+      "category": "dog-food-general",
+      "timestamp": "2026-01-25T18:13:50.735Z",
+      "success": true,
+      "response": "Here are some high-protein dog food brands and formulas that are popular for supporting muscle, energy, and overall health (especially in active or working dogs). High-protein diets often contain 28%+ protein on a dry-matter basis, which is above average compared with standard dog foods.\ndogfoodadvisor.com\n+1\n\n[\"turn0product0\",\"Taste of the Wild High Prairie Dog Food\"],\n[\"turn0product7\",\"Taste of the Wild Wetlands Dog Food\"],\n[\"turn0product2\",\"Taste of the Wild Pacific Stream Dog Food\"],\n[\"turn0product1\",\"Supreme Source Grain-Free Salmon Meal & Sweet Potato\"],\n[\"turn0product5\",\"Pedigree High Protein Adult Dry Dog Food\"],\n[\"turn0product13\",\"Bully Max 25/11 High Protein Dry Dog Food\"]\n]}",
+      "responseTimeMs": 13540,
+      "brandMentions": [
+        {
+          "brand": "Taste of the Wild",
+          "count": 3
+        },
+        {
+          "brand": "Pedigree",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 16,
+      "queryId": "df17",
+      "query": "best holistic dog food",
+      "category": "dog-food-general",
+      "timestamp": "2026-01-25T18:14:07.818Z",
+      "success": true,
+      "response": "Here’s a list of high-quality holistic dog food options — these focus on natural, minimally processed ingredients, real named proteins, and avoiding artificial additives (a key part of a holistic approach) while providing balanced nutrition for overall wellness. \nbarkavenuemarket.com\n+1\n\nEarthborn Holistic Coastal Catch Grain‑Free Dry Dog Food\n$66.99\n•\nTractor Supply Company + others\nDr. Gary's Best Breed All Breed Diet Dry Dog Food\n$16.49\n•\nBest Breed Pet Foods + others\nDr. Marty Nature's Blend Freeze Dried Raw Dog Food\n$36.99\n•\nOnly Natural Pet + others\nThe Simple Food Project Beef & Salmon Freeze‑Dried Dog Food\n$34.49\n•\nThe Simple Food Project + others\nNatural Balance Limited Ingredient Reserve Sweet Potato & Venison\n$52.98\n•\nOnly Natural Pet + others\n\n\",\"Taste of the Wild High Prairie Dog Food\"],\n[\"turn0product3\",\"Taste of the Wild Pacific Stream Dog Food\"],\n[\"turn0product2\",\"Rachael Ray Nutrish Dry Dog Food\"]\n]}\n\n🐾 Premium Holistic & Natural Nutrition",
+      "responseTimeMs": 10497,
+      "brandMentions": [
+        {
+          "brand": "Taste of the Wild",
+          "count": 2
+        },
+        {
+          "brand": "Natural Balance",
+          "count": 1
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Rachael Ray",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 17,
+      "queryId": "df18",
+      "query": "dog food brands that have never been recalled",
+      "category": "dog-food-general",
+      "timestamp": "2026-01-25T18:14:21.850Z",
+      "success": true,
+      "response": "Here are some dog food brands that — based on available recall-tracking sources — are frequently cited as having no known recalls in their history. While no brand can be absolutely guaranteed never to have any issue ever, the ones below are commonly listed on multiple recall-history compilations as not having appeared on major recall lists at least up through recent years. \nBARK\n+2\nRover.com\n+2\n\n🐶 Brands Often Cited With No Known Dog Food Recalls\n\nThese are brands that online sources (like Rover, Bark, iHeartDogs and others) cite as having no recall history at the time those guides were pu\nBARK\nBARK\nBARK\nBARK",
+      "responseTimeMs": 11019,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 18,
+      "queryId": "df19",
+      "query": "best organic dog food brands",
+      "category": "dog-food-general",
+      "timestamp": "2026-01-25T18:14:35.036Z",
+      "success": true,
+      "response": "Here are some dog food brands that — based on available recall-tracking sources — are frequently cited as having no known recalls in their history. While no brand can be absolutely guaranteed never to have any issue ever, the ones below are commonly listed on multiple recall-history compilations as not having appeared on major recall lists at least up through recent years. \nBARK\n+2\nRover.com\n+2\n\n🐶 Brands Often Cited With No Known Dog Food Recalls\n\nThese are brands that online sources (like Rover, Bark, iHeartDogs and others) cite as having no recall history at the time those guides were published:\n\nLife’s Abundance – known for wholesome ingredient recipes and strict quality control. \nBARK\n\nZignature – limited-ingredient, grain-free formulas with a strong safety reputation. \nBARK\n\nBARK Food – dry food line from the BARK company (often highlighted for no recalls). \nBARK\n\nHolistic Select – focuses on digestive health and natural ingredients. \nBARK\n\nEagle Pack – dry food brand frequently listed without recalls (though its parent company Wellness has had recalls on other brands). \nDogster\n\nNature’s Logic – aims for species-appropriate nutrition; often cited with no recalls. \nBARK\n\nZiwiPeak – New Zealand-made air-dried formulas with a clean recall record. \nRover.com\n\nNature Is Good – newer freeze-dried brand with no recalls reported. \niHeartDogs.com\n\n🧠 What This Doesn’t Guarantee\n\nRecall history can change: New recalls happen and databases are updated regularly (e.g., FDA lists current recalls). \nU.S. Food and Drug Administration\n\nSome lists may lag: Not all sources update immediately when recalls occur, and some brands might slip through reporting channels.\n\nDifferent product lines: A brand might have no recalls on certain formulas but others (e.g., treats or wet food lines) could have been recalled separately.\n\n📌 A Note About Fromm\n\nFromm Family Foods was often cited in recall-history discussions as having a clean record, but a recent (Dec 2025) recall involving plastic contamination was issued for one product line (Bonnihill Farms BeefiBowls). \nStatesman\n\n🐕 Tips for Safety-Focused Feeding\n\nBecause even brands with clean histories can have isolated issues:\n✅ Check FDA recall updates regularly. \nU.S. Food and Drug Administration\n\n✅ Sign up for recall alerts from sites like DogFoodAdvisor. \nDog Food Advisor\n\n✅ Inspect packaging for lot codes and expiration dates if recalls are announced.\n\nIf you want, tell me your dog’s age, size, and any dietary needs (e.g., allergies, sensitivities) and I can tailor safe, highly-rated food options that also have strong ingredient quality and safety records.",
+      "responseTimeMs": 7651,
+      "brandMentions": [
+        {
+          "brand": "Fromm",
+          "count": 2
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 19,
+      "queryId": "df20",
+      "query": "most nutritious dog food available",
+      "category": "dog-food-general",
+      "timestamp": "2026-01-25T18:14:46.068Z",
+      "success": true,
+      "response": "Here are some of the best organic or organic-focused dog food brands — these prioritize certified organic ingredients, natural sourcing, and cleaner ingredient lists for your dog’s overall health and digestion. Many are USDA-certified organic or emphasize organic produce and proteins in their recipes. \nDog Food Advisor\n+1\n\nCastor & Pollux Organix Grain Free Organic\n$59.99\n•\nInstacart + others\nTender & True Organic Chicken & Liver\n$25.90\n•\nChewy.com + others\nTender & True Organic Turkey & Liver\n$26.99\n•\nTender & True Pet Nutrition + others\nGather Free Acres Organic Chicken\n$41.99\n•\nChewy.com + others\nNewman’s Own Organic Dog Food\n$12.59\n•\nInstacart + others\nThe Honest Kitchen Whole Food Dog Food\n$94.99\n•\nThe Honest Kitchen + others\nOpen Farm Ancient Grains RawMix Dog Food\n$29.99\n•\nOpen Farm + others\nDog's Love Organic Chicken Dog Food\n$7.68\n•\nEquusVitalis\n🐶 Top Certified Organic & Organic-Focused Dog Foods\n\nOrganic & USDA-certified quality\n\nCastor & Pollux Organix Grain Free Organic – One of the most well-known organic dry foods, made with organic chicken and sweet potatoes; grain-free and rich in omega-6 fatty acids.\n\nTender & True Organic Chicken & Liver – Organic first ingredient with no preservatives or hormones; gentle on digestion.\n\nTender & True Organic Turkey & Liver – Another solid organic recipe from Tender & True with humanely raised turkey.\n\nGather Free Acres Organic Chicken – Uses certified organic ingredients sourced responsibly; grain-free with added superfoods.\n\nOrganic & natural blends\n\nNewman’s Own Organic Dog Food – Uses organic grains and veggies with chicken first; high organic content at a budget-friendly price.\n\nThe Honest Kitchen Whole Food Dog Food – Human-grade whole foods including organic components and no artificial additives; dehydrated form for fresh feeding.\n\nOpen Farm Ancient Grains RawMix Dog Food – Ethically sourced, non-GMO ingredients with raw inclusions; non-organic grains but focuses on clean, traceable sourcing (often paired with organic produce). \nOpen Farm\n\nDog's Love Organic Chicken Dog Food – European organic dog food made with certified organic chicken and veggies; excellent score for quality ingredients.\n\n🧠 Notes on Organic Dog Food\n\n“Certified organic” means ingredients meet strict USDA standards (no synthetic pesticides, antibiotics, hormones, or GMOs). Not all “natural” or “holistic” foods are officially organic, so look for the USDA organic seal on packaging. \nDog Food Advisor\n\nMany premium brands mix organic ingredients with natural, ethically sourced components — this still gives clean nutrition even if not every ingredient is certified organic. \nOnly Natural Pet\n\nOrganic foods can be pricier but may benefit dogs with sensitive digestion, food sensitivities, or owners seeking cleaner ingredient profiles.\n\nIf you want, I can tailor these recommendations for your dog’s age, size, breed, or dietary needs (like grain-free, sensitive stomach, or weight control). Just tell me a bit about your pup!",
+      "responseTimeMs": 8342,
+      "brandMentions": [
+        {
+          "brand": "Chewy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 20,
+      "queryId": "bs01",
+      "query": "best dog food for golden retrievers",
+      "category": "dog-food-breed-specific",
+      "timestamp": "2026-01-25T18:14:57.548Z",
+      "success": true,
+      "response": "Here are some highly-rated dog foods that work well for Golden Retrievers — with options tailored to puppies, adults, and different needs (like sensitive stomachs or grain-free diets). Golden Retrievers are a large, active breed and often benefit from foods with good protein, joint support, and balanced nutrients.",
+      "responseTimeMs": 10302,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 21,
+      "queryId": "bs02",
+      "query": "best dog food for german shepherds",
+      "category": "dog-food-breed-specific",
+      "timestamp": "2026-01-25T18:15:11.038Z",
+      "success": true,
+      "response": "Here are some of the best dog food options for German Shepherds — chosen for large-breed nutritional needs, joint support, high-quality protein, and digestive health. German Shepherds are active, muscular dogs with sensitive stomachs and joint concerns, so good food helps keep them thriving at every life stage.",
+      "responseTimeMs": 9743,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 22,
+      "queryId": "bs03",
+      "query": "best dog food for labrador retrievers",
+      "category": "dog-food-breed-specific",
+      "timestamp": "2026-01-25T18:15:23.660Z",
+      "success": true,
+      "response": "Here are some top-rated dog foods that are great choices for Labrador Retrievers — especially considering large-breed nutritional needs, high-quality protein, joint support, and digestibility. Labrador Retrievers are energetic, muscular dogs that can be prone to weight gain and joint issues, so a well-balanced diet is key. \namericannaturalpremium.com\n+1\n\nRoyal Canin Labrador Retriever Adult\n$79.99\n•\nRoyal Canin + others\nBlue Buffalo Life Protection Formula Chicken & Brown Rice\n$15.48\n•\nTractor Supply Company + others\nTaste of the Wild High Prairie\n$59.99\n•\nAce Hardware + others\nPurina ONE SmartBlend Lamb & Rice\n$30.99\n•\nAlbertsons + others\n\nBreed\"],\n[\"turn0product4\",\"Pure Balance Pro+ Large Breed\"],\n\"turn0product12\",\"Bully Max 30/20 High-Prot",
+      "responseTimeMs": 10832,
+      "brandMentions": [
+        {
+          "brand": "Royal Canin",
+          "count": 2
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 23,
+      "queryId": "bs04",
+      "query": "best dog food for french bulldogs",
+      "category": "dog-food-breed-specific",
+      "timestamp": "2026-01-25T18:15:37.179Z",
+      "success": true,
+      "response": "Here are some of the best dog food options for French Bulldogs — tailored to their unique needs like sensitive digestion, skin/coat health, and smaller mouths (Frenchies often have picky eating habits and are prone to allergies/gas). French Bulldogs benefit from highly digestible food with quality protein and healthy fats.\n\n🐶",
+      "responseTimeMs": 10811,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 24,
+      "queryId": "bs05",
+      "query": "best dog food for pitbulls",
+      "category": "dog-food-breed-specific",
+      "timestamp": "2026-01-25T18:15:50.012Z",
+      "success": true,
+      "response": "Here are some of the best dog food options for Pitbulls (all life stages and needs) — chosen for their high-quality protein, digestibility, and nutrients for muscle, coat, and overall health. Pitbulls are muscular, active dogs that thrive on diets rich in protein and good fats.\nDog Food Advisor\n+1\n\nBully Max 30/20 High‑Protein Dog Food\n$26.47\n•\nWalmart - Bully Max + others\nBully Max Pro 2X High Calorie Chicken Dry Dog Food\n$33.48\n•\nWalmart - Bully Max + others\nVictor Bully Fuel Dry Dog Food\n$47.99\n•\nChewy.com + others\nTaste of the Wild Pacific Stream Dog Food\n$58.99\n•\nTractor Supply Company + others\nTaste of the Wild High Prairie Dog Food\n$59.99\n•\nAce Hardware + others\nBlue Buffalo Life Protection Formula Chicken & Brown Rice\n$15.48\n•\nWalmart + others\nDiamond Naturals Skin & Coat Dry Dog Food\n$31.99\n•\nTractor Supply Company + others\nSupreme Source Grain‑Free Salmon & Sweet Potato Recipe\n$8.99\n•\nAlbertsons + others\n🥇 Top Protein-Rich Picks for Pitbulls\n\nBully Max 30/20 High‑Protein Dog Food – High protein and fat formula that supports muscle strength, energy, and performance — excellent for active adult Pitbulls.\n\nBully Max Pro 2X High Calorie Chicken Dry Dog Food – Very calorie-dense option for high-energy dogs or those needing weight support.\n\nVictor Bully Fuel Dry Dog Food – Formulated specifically for bully breeds with Taste of the Wild Pacific Stream Dog FoodTaste of the Wild High Prairie Dog FoodBlue Buffalo Life Protection Formula Chicken & Brown Rice",
+      "responseTimeMs": 10655,
+      "brandMentions": [
+        {
+          "brand": "Taste of the Wild",
+          "count": 4
+        },
+        {
+          "brand": "Walmart",
+          "count": 3
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 2
+        },
+        {
+          "brand": "Chewy",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 25,
+      "queryId": "bs06",
+      "query": "best dog food for small breeds",
+      "category": "dog-food-breed-specific",
+      "timestamp": "2026-01-25T18:16:04.387Z",
+      "success": true,
+      "response": "Here’s a guide to some of the best dog foods for small-breed dogs — focusing on nutrition tailored to their higher metabolism, smaller mouths, and need for calorie- and nutrient-dense food. Small breeds (typically dogs under about 20 lb) burn more calories per pound than larger dogs and benefit from diets formulated just for them. \nVca\n+1\n\n🐶 Top Small-Breed Dog Food Options (2026)\n⭐ Premium & Vet-Recommended\n\nThese are frequently recommended by veterinarians and pet nutrition sources for overall balanced nutrition in small dogs:\n\n1. Hill’s Science Diet Small & Mini Breed\n\nDesigned specifically for small and toy breeds with calorie-dense kibble and balanced nutrients.\n\nGood for adult dogs and available in formulas for sensitive stomachs or seniors. \nPetMD\n+1\n\n2. Royal Canin Size Health Nutrition Small Adult\n\nBite-sized kibble that’s easy for little mouths to chew.\n\nTailored nutrition helps support digestive health and energy needs. \nPetMD\n+1\n\n3. Purina Pro Plan Small Breed Formulas\n\nIncludes options for adult dogs and sensitive skin/stomach formulas.\n\nOften highly digestible and nutrient-balanced. \nChewy\n\n4. Blue Buffalo Life Protection Formula Small Breed\n\nNatural ingredients with antioxidants and nutrients tailored to smaller dogs’ metabolic needs. \nBlue Buffalo\n\n5. Eukanuba Adult & Puppy Small Bites\n\nWell-rated and tailored for small breed adults or puppies, with high-quality protein first. \nChewy\n\n🍗 Other Good Options\n\nGreat solid choices for many small breeds — consider your dog’s age and sensitivities:\n\nBlue Buffalo Life Protection Small Breed Adult Chicken & Brown Rice — protein-rich, balanced nutrition. \nBlue Buffalo\n\nNutro Natural Choice Small Bites — wholesome ingredients with protein and whole grains. \nChewy\n\nIams Proactive Health Small Breed — affordable, balanced nutrition with chicken. \nChewy\n\nPedigree Small Dog Complete Nutrition — budget-friendly and complete nutrition. \nChewy\n+1\n\n🥣 Wet Food & Mixed Feeding Options\n\nSome small dogs prefer wet food or benefit from a mix of wet and dry:\n\nHill’s Science Diet Small & Mini Wet Food — balanced nutrition in a softer texture that’s great for picky eaters. \nSploot Vets\n\n📌 What to Look for in Small-Breed Dog Food\n\n✔ Small kibble size — easier to chew and reduces choking risk. \nAmerican Kennel Club\n\n✔ High calorie & nutrient density — small dogs have small stomachs but high energy needs. \nVca\n\n✔ Quality protein as the first ingredient — supports muscle maintenance. \nWhole Dog Journal\n\n✔ Fatty acids (Omega-3/6) — good for skin, coat, and energy. \nChewy\n\n✔ Antioxidants & vitamins — support immune health. \nPetSmart\n\n📎 Tips Before You Buy\n\nLife stage matters: Puppies, adults, and senior\nAmerican Kennel Club\nthepetvet.com",
+      "responseTimeMs": 10220,
+      "brandMentions": [
+        {
+          "brand": "Chewy",
+          "count": 6
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 4
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Pedigree",
+          "count": 1
+        },
+        {
+          "brand": "Iams",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        },
+        {
+          "brand": "PetSmart",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 26,
+      "queryId": "bs07",
+      "query": "best dog food for large breed dogs",
+      "category": "dog-food-breed-specific",
+      "timestamp": "2026-01-25T18:16:17.890Z",
+      "success": true,
+      "response": "Here’s a vet-informed guide to the best dog food for large-breed dogs — formulated to support joint health, balanced growth, digestive sensitivity, and appropriate calorie intake. Large and giant breeds (roughly dogs >55 lb at adult weight) have unique nutritional needs compared with small breeds. \nVca\n+1\n\n🐾 Top Recommended Large-Breed Dog Foods (2026)\n🦴 Premium/Vet-Backed Formulas\n\nThese foods are formulated specifically for large or giant breed dogs — often including joint support (glucosamine, chondroitin), controlled calories for healthy weight, and appropriate calcium/phosphorus balance. \nModernVet\n+1\n\n1. Hill’s Science Diet Large Breed (Adult & Puppy)\n• Balanced for controlled growth (important in puppies) and adult weight management.\n• Often includes nutrients supporting joints and muscle strength. \nModernVet\n\n2. Royal Canin Large & Giant Breed Formulas\n• Designed for large-breed digestive and bone support.\n• Breed/size-specific options (e.g., giant vs. large ranges). \nRoyal Canin\n\n3. Purina Pro Plan Large Breed\n• High-quality protein and probiotics for digestive health.\n• Many owners and vets cite it as well balanced and palatable. \nVca\n+1\n\n4. Blue Buffalo Life Protection Formula Large Breed\n• Contains glucosamine & chondroitin to help support joint function.\n• Real meat as first ingredient with fruits and veggies. \nBlue Buffalo\n\n5. Wellness CORE Large Breed\n• Higher protein, grain-free option with added joint-support nutrients.\n• Larger kibble size good for bigger mouths (more chewing). \nDog Food Advisor\n\n🥣 Other Strong Choices (Dry Food)\n\nHere are well-rated dry foods commonly recommended for large adults and seniors — good balance of quality and price: \nChewy\n\nPurina ONE +Plus Natural Large Breed Chicken Muscle & Joint Support – Great value with joint support.\n\nNutro Natural Choice Adult Large Breed Chicken & Brown Rice – Wholesome ingredients with balanced calories.\n\nEukanuba Adult Large Breed – Solid first-ingredient protein and joint nutrients.\n\nIams Proactive Health Large Breed – Budget-friendly and nutritionally complete.\n\nHill’s Science Diet Large Breed Weight Management – Good for dogs needing help keeping fit.\n\n🐶 Feeding Tips for Large Breeds\n\n🔹 Choose size-specific food: Large breeds benefit from foods formulated for larger appetite & slower metabolisms; they’re engineered with kibble size, calorie density, and nutrient balance in mind. \nakc.org",
+      "responseTimeMs": 7742,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 2
+        },
+        {
+          "brand": "Purina",
+          "count": 2
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 2
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        },
+        {
+          "brand": "Iams",
+          "count": 1
+        },
+        {
+          "brand": "Chewy",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 27,
+      "queryId": "bs08",
+      "query": "best dog food for chihuahuas",
+      "category": "dog-food-breed-specific",
+      "timestamp": "2026-01-25T18:16:28.043Z",
+      "success": true,
+      "response": "Here are some of the best dog food options for Chihuahuas — tailored to their tiny size, high metabolism, and specific nutritional needs (tiny kibble size, balanced energy, healthy skin/coat, and strong teeth) 🐾. Chihuahuas benefit from diets formulated specifically for small breeds or even breed-specific formulas. \nroyalcanin.com\n+1\n\n\"],\n[\"turn0product4\",\"Blue Buffalo Life Protection Small Breed Dry Dog Food\"],\n[\"turn0product11\",\"Purina ONE Plus Small Breed Lamb & Rice\"],\n[\"turn0product5\",\"Purina Beneful Incredibites Small Dog Dry\"],\n[\"turn0product7\",\"Freshpet Small Dog Chicken Recipe\"],\n[\"turn0product1\",\"Cesar Small Breed Dry Dog Food Filet Mignon\"]\n]}\n\n🏆 Top Picks for",
+      "responseTimeMs": 10614,
+      "brandMentions": [
+        {
+          "brand": "Purina",
+          "count": 2
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 28,
+      "queryId": "bs09",
+      "query": "best dog food for huskies",
+      "category": "dog-food-breed-specific",
+      "timestamp": "2026-01-25T18:16:40.993Z",
+      "success": true,
+      "response": "Here are some of the best dog food options for Siberian Huskies—a breed known for being high energy, lean, and strong, with specific nutritional needs like high-quality protein, healthy fats, and balanced nutrients for energy, muscle, and coat health. Huskies also can be picky eaters, so palatability is important. \nforeverhusky.org\n+1",
+      "responseTimeMs": 9600,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 29,
+      "queryId": "bs10",
+      "query": "best dog food for beagles",
+      "category": "dog-food-breed-specific",
+      "timestamp": "2026-01-25T18:16:52.743Z",
+      "success": true,
+      "response": "Here are some of the best dog food options for Beagles — a small-to-medium, active breed that benefits from high-quality protein, balanced fat, and controlled calories to support energy, lean muscle, and healthy weight (Beagles can easily gain weight if overfed) 🐶🍽️. \nDog Food Advisor\n+1\n\n🏆 Top Recommended Dog Foods for Beagles\n🌟 Premium & Highly-Rated Choices\n\n1. Royal Canin Breed Health Nutrition Beagle Adult (Dry)\n\nSpecifically formulated for purebred Beagles 12 months and older, with nutrients tailored for their body shape and metabolism.\n\nSupports skin & coat health and bree",
+      "responseTimeMs": 8623,
+      "brandMentions": [
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 30,
+      "queryId": "bs11",
+      "query": "best dog food for poodles",
+      "category": "dog-food-breed-specific",
+      "timestamp": "2026-01-25T18:17:03.702Z",
+      "success": true,
+      "response": "Here are some top-rated dog foods that are great choices for Poodles (whether Toy, Miniature, or Standard) — focusing on quality protein, healthy fats for skin & coat, and balanced nutrition. Poodles often benefit from foods with omega fatty acids, glucosamine for joints, and formulas suited to their size and activity level. \nDog Food Advisor\n+1\n\nRoyal Canin Poodle Adult Dry Dog Food\n$18.50\n•\nLes moustaches Beirut + others\nDr. Gary's Best Breed Poodle Diet Dry Dog Food\n$36.99\n•\nBest Breed Pet Foods + others\nTaste of the Wild High Prairie Dog Food\n$58.99\n•\nOnly Natural Pet + others\nTaste of the Wild Pacific Stream Dog Food\n$19.99\n•\nTractor Supply Company + others\nBlue Buffalo Life Protection Formula Dry Dog Food\n$39.97\n•\nWalmart + others\nHill's Science Diet Adult Small Bites\n$20.99\n•\nHill's Pet Nutrition + others\nDiamond Naturals Skin & Coat Dry Dog Food\n$31.99\n•\nTractor Supply Company + others\nBlue Buffalo Life Protection Puppy Dry Dog Food\n$17.48\n•\nPetco.com + others\n🐩 Breed-Specific & Premium Formulas\n\nRoyal Canin Poodle Adult Dry Dog Food – Made specifically for Poodles (10 months+), with nutrients to support skin, coat, and overall health. Great if you want a formula designed for your dog’s unique needs.\n\nDr. Gary's Best Breed Poodle Diet Dry Dog Food – Vet-formulated option emphasizing omega-3/6 for skin & coat plus glucosamine for joints — beneficial in curly-coated breeds like Poodles. \nBest Breed\n\n🥩 High-Protein & All-Life-Stage Picks\n\nTaste of the Wild High Prairie Dog Food – Grain-free, protein-rich kibble with real roasted meats — supports lean muscle and energy.\n\nTaste of the Wild Pacific Stream Dog Food – Salmon-based, rich in omega fatty acids that help proBlue Buffalo Life Protection Formula Dry Dog FoodHill's Science Diet Adult Small Bites",
+      "responseTimeMs": 13293,
+      "brandMentions": [
+        {
+          "brand": "Taste of the Wild",
+          "count": 4
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 3
+        },
+        {
+          "brand": "Hill's",
+          "count": 3
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 2
+        },
+        {
+          "brand": "Petco",
+          "count": 1
+        },
+        {
+          "brand": "Walmart",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 31,
+      "queryId": "bs12",
+      "query": "best dog food for bulldogs",
+      "category": "dog-food-breed-specific",
+      "timestamp": "2026-01-25T18:17:19.267Z",
+      "success": true,
+      "response": "Here are some top-rated dog foods that are great choices for Poodles (whether Toy, Miniature, or Standard) — focusing on quality protein, healthy fats for skin & coat, and balanced nutrition. Poodles often benefit from foods with omega fatty acids, glucosamine for joints, and formulas suited to their size and activity level. \nDog Food Advisor\n+1\n\nRoyal Canin Poodle Adult Dry Dog Food\n$18.50\n•\nLes moustaches Beirut + others\nDr. Gary's Best Breed Poodle Diet Dry Dog Food\n$36.99\n•\nBest Breed Pet Foods + others\nTaste of the Wild High Prairie Dog Food\n$58.99\n•\nOnly Natural Pet + others\nTaste of the Wild Pacific Stream Dog Food\n$19.99\n•\nTractor Supply Company + others\nBlue Buffalo Life Protection Formula Dry Dog Food\n$39.97\n•\nWalmart + others\nHill's Science Diet Adult Small Bites\n$20.99\n•\nHill's Pet Nutrition + others\nDiamond Naturals Skin & Coat Dry Dog Food\n$31.99\n•\nTractor Supply Company + others\nBlue Buffalo Life Protection Puppy Dry Dog Food\n$17.48\n•\nPetco.com + others\n🐩 Breed-Specific & Premium Formulas\n\nRoyal Canin Poodle Adult Dry Dog Food – Made specifically for Poodles (10 months+), with nutrients to support skin, coat, and overall health. Great if you want a formula designed for your dog’s unique needs.\n\nDr. Gary's Best Breed Poodle Diet Dry Dog Food – Vet-formulated option emphasizing omega-3/6 for skin & coat plus glucosamine for joints — beneficial in curly-coated breeds like Poodles. \nBest Breed\n\n🥩 High-Protein & All-Life-Stage Picks\n\nTaste of the Wild High Prairie Dog Food – Grain-free, protein-rich kibble with real roasted meats — supports lean muscle and energy.\n\nTaste of the Wild Pacific Stream Dog Food – Salmon-based, rich in omega fatty acids that help promote a shiny coat and healthy skin.\n\n🐕 Balanced & Everyday Nutrition\n\nBlue Buffalo Life Protection Formula Dry Dog Food – Good balanced food with joint-supporting glucosamine and omega fatty acids.\n\nHill's Science Diet Adult Small Bites – Smaller kibble size ideal for Toy & Miniature Poodles with easily digestible proteins.\n\nDiamond Naturals Skin & Coat Dry Dog Food – Salmon formula that targets skin & coat health with antioxidants and quality ingredients.\n\n🐶 Puppy Option (If You Have a Young Poodle)\n\nBlue Buffalo Life Protection Puppy Dry Dog Food – Puppy formula with DHA for brain development and balanced nutrition for growth.\n\n🧠 Tips for Feeding Your Poodle\n\nChoose food based on size & life stage:\n✔ Toy & Miniature Poodles do better with small-kibble formulas and more calorie-dense diets because of their fast metabolism. \nPetworks\n\n✔ Standard Poodles may benefit from adult or sport formulas with higher protein. \nPetMD\n\nKey nutrients to look for:\n\nHigh-quality protein (chicken, beef, fish) for muscles and energy. \nDog Food Advisor\n\nOmega-3 & omega-6 fatty acids for healthy skin & curly coats. \nDog Food Advisor\n\nGlucosamine & chondroitin for joint support (especially in Standards). \nallpoodleinfo.com\n\nFeeding and weight:\nPoodles can be prone to obesity, so follow the feeding guide on the bag and adjust amounts based on activity level and body condition. Regular vet check-ups help ensure your dog’s diet matches their health needs. \nPetMD\n\nIf you want, tell me your Poodle’s size (Toy, Miniature, Standard) and age, and I can tailor these recommendations further!",
+      "responseTimeMs": 7541,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 4
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 4
+        },
+        {
+          "brand": "Hill's",
+          "count": 3
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 2
+        },
+        {
+          "brand": "Petco",
+          "count": 1
+        },
+        {
+          "brand": "Walmart",
+          "count": 1
+        },
+        {
+          "brand": "Target",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 32,
+      "queryId": "bs13",
+      "query": "best dog food for dachshunds",
+      "category": "dog-food-breed-specific",
+      "timestamp": "2026-01-25T18:17:29.655Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 95848,
+      "brandMentions": [],
+      "error": "No response received"
+    },
+    {
+      "queryIndex": 33,
+      "queryId": "bs14",
+      "query": "best dog food for rottweilers",
+      "category": "dog-food-breed-specific",
+      "timestamp": "2026-01-25T18:19:09.108Z",
+      "success": true,
+      "response": "Here are some top-rated dog foods especially good for Bulldogs (English Bulldogs, French Bulldogs, and other bully-type breeds). Bulldogs often have sensitive digestion, joint concerns, and a tendency toward obesity, so choosing formulas with high-quality protein, moderate fat content, easily digestible ingredients, and joint support is key. \nDog Food Advisor\n+1\n\nRoyal Canin Bulldog Adult Dry Dog Food\n$79.99\n•\nRoyal Canin + others\nRoyal Canin Bulldog Puppy Dry Dog Food\n$37.99\n•\nRoyal Canin + others\nBlue Buffalo Life Protection Formula Chicken & Brown Rice\n$15.48\n•\nWalmart + others\nPurina ONE Chicken & Rice Formula\n$16.28\n•\nChewy.com + others\nTaste of the Wild High Prairie Dog Food\n$59.99\n•\nAce Hardware + others\nTaste of the Wild Pacific Stream Dog Food\n$58.99\n•\nTractor Supply Company + others\nBully Max 30/20 High‑Protein Dog Food\n$139.98\n•\nWalmart - Bully Max + others\nPurina Pro Plan Sensitive Skin & Stomach Salmon & Rice\n$54.48\n•\nPet Supplies Plus + others\n🐾 Breed-Specific & Tailored Nutrition\n\nRoyal Canin Bulldog Adult Dry Dog Food – Designed specifically for adult English Bulldogs’ unique head shape, sensitive digestion, and body composition. Helps support skin, coat, and joint health with a kibble shape that’s easier for Bulldogs to chew. \nDog Food Advisor\n\nRoyal Canin Bulldog Puppy Dry Dog Food – Puppy formula made just for bulldog pups (8 weeks–12 months) with balanced growth nutrition and digestive support.\n\n🐶 Everyday Balanced Choices\n\nBlue Buffalo Life Protection Formula Chicken & Brown Rice – Well-balanced adult food with real chicken, glucosamine for joint health, and no corn/wheat/soy — good for moderately active Bulldogs.\n\nPurina ONE Chicken & Rice Formula – Solid protein and nutrient profile that supports overall health, muscle maintenance, and digestion.\n\n🌾 Protein-Rich & Digestibility\n\nTaste of the Wild High Prairie Dog Food – Grain-free, high-protein option with novel meats — great if your Bulldog tolerates grain-free diets and needs extra lean muscle support.\n\nTaste of the Wild Pacific Stream Dog Food – Salmon-based recipe rich in omega fatty acids for skin/coat health, and easily digestible ingredients.\n\n💪 Higher Protein & Bully-Breed Support\n\nBully Max 30/20 High‑Protein Dog Food – Premium high-protein food that’s great for active or lean-muscle goals; suitable for bulldy-type breeds needing extra energy and robust nutrition.\n\nPurina Pro Plan Sensitive Skin & Stomach Salmon & Rice – Excellent choice for Bulldogs with sensitive digestion or skin issues; salmon and rice provide easily tolerated carbs and digestible protein. \niHeartDogs.com\n\n🧠 Feeding Tips for Bulldogs\n\nWhat to look for in bulldog food:\n\nModerate fat & calories: Bulldogs tend to gain weight easily; avoid overly high-fat formulas. \nDog Food Advisor\n\nDigestive support: Probiotics, prebiotics, and easily digestible carbs (rice, sweet potato) help with sensitive tummies. \nDog Food Advisor\n\nJoint nutrients: Glucosamine and chondroitin are beneficial due to breed predisposition toward joint issues. \nPet City Houston\n\nKibble size/shape: Especially for English Bulldogs, breed-specific kibble can make chewing easier. \nPet City Houston\n\nFeeding frequency:\nAdult Bulldogs typically do best with 2 smaller meals per day (helps prevent bloat and weight gain). Puppies usually eat 3–4 smaller meals daily. Always adjust portion sizes based on activity level and weight. \nPet City Houston\n\nIf you tell me your Bulldog’s age (puppy/adult/senior) and any health concerns (e.g., sensitive stomach, weight management), I can tailor these recommendations even more!",
+      "responseTimeMs": 7672,
+      "brandMentions": [
+        {
+          "brand": "Royal Canin",
+          "count": 6
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 4
+        },
+        {
+          "brand": "Purina",
+          "count": 4
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 2
+        },
+        {
+          "brand": "Walmart",
+          "count": 2
+        },
+        {
+          "brand": "Chewy",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 34,
+      "queryId": "bs15",
+      "query": "best dog food for boxers",
+      "category": "dog-food-breed-specific",
+      "timestamp": "2026-01-25T18:19:20.673Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 96007,
+      "brandMentions": [],
+      "error": "No response received"
+    },
+    {
+      "queryIndex": 35,
+      "queryId": "hs01",
+      "query": "best dog food for allergies",
+      "category": "dog-food-health",
+      "timestamp": "2026-01-25T18:21:00.063Z",
+      "success": true,
+      "response": "Here are top dog food options that can help with allergies and sensitivities — ranging from gentle, sensitive-skin formulas to limited-ingredient and veterinary hydrolyzed diets. Many veterinarians recommend diets with novel proteins or hydrolyzed proteins (broken down to be less likely to trigger a reaction) for dogs with confirmed food allergies, and limited ingredient foods for milder sensitivities; always check with your vet especially if your dog has diagnosed food allergies. \nPetMD\n+2\nIndependence Veterinary Clinic\n+2\n\nHill's Prescription Diet z/d Dry Dog Food\n$64.75\n•\nPetflow + others\nRoyal Canin HP Hypoallergenic Hydrolyzed Protein Dry Dog Food\n$58.99\n•\nPetCareRx + others\nPurina Pro Plan Sensitive Skin & Stomach Salmon & Rice\n$20.68\n•\nPetco.com + others\nHill's Science Diet Adult Sensitive Stomach & Skin Dry Dog Food\n$23.99\n•\nPetco.com + others\nNatural Balance Limited Ingredient Duck & Potato Dry Dog Food\n$27.98\n•\nPetSmart + others\nPure Balance Grain Free Salmon & Pea Recipe\n$34.88\n•\nWalmart + others\nVictor Sensitive Skin & Stomach Dry Dog Food\n$17.99\n•\nTractor Supply Company + others\nNutro Limited Ingredient Diet Lamb & Sweet Potato\n$27.98\n•\nWalmart + others\n🩺 Veterinary-Formulated & Prescription Diets\n\nThese are often the best line of defense if your dog has confirmed food allergies (especially food triggers diagnosed by “elimination diet”). \nPetMD\n+1\n\nHill's Prescription Diet z/d Dry Dog Food – Hydrolyzed protein diet designed to minimize allergic reactions; excellent choice if your vet recommends a therapeutic diet.\n\nRoyal Canin HP Hypoallergenic Hydrolyzed Protein Dry Dog Food\nIndependence Veterinary Clinic\nPurina Pro Plan Sensitive Skin & Stomach Salmon & RiceHill's Science Diet Adult Sensitive Stomach & Skin Dry Dog Food",
+      "responseTimeMs": 12192,
+      "brandMentions": [
+        {
+          "brand": "Hill's",
+          "count": 4
+        },
+        {
+          "brand": "Purina",
+          "count": 2
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 2
+        },
+        {
+          "brand": "Petco",
+          "count": 2
+        },
+        {
+          "brand": "Walmart",
+          "count": 2
+        },
+        {
+          "brand": "Natural Balance",
+          "count": 1
+        },
+        {
+          "brand": "Nutro",
+          "count": 1
+        },
+        {
+          "brand": "PetSmart",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 36,
+      "queryId": "hs02",
+      "query": "best dog food for sensitive stomach",
+      "category": "dog-food-health",
+      "timestamp": "2026-01-25T18:21:14.769Z",
+      "success": true,
+      "response": "Here are some of the best dog food options for sensitive stomachs — with gentle, easily digestible ingredients and often added probiotics/prebiotics that vets and experts recommend to help reduce GI upset, loose stools, gas, and digestive discomfort. Many of these are popular choices for dogs with food sensitivities or chronic tummy issues (and ingredients like rice, pumpkin, salmon, and highly digestible proteins are commonly suggested for these diets). \nAmerican Kennel Club\n+1\n\nRoyal Canin Veterinary Diet Gastrointestinal Low Fat\n$45.99\n•\nPetco.com + others\nHill's Science Diet Adult Sensitive Stomach & Skin\n$23.99\n•\nPetco.com + others\nPurina Pro Plan Sensitive Skin & Stomach Salmon & Rice\n$20.79\n•\nPetSmart + others\nFreshpet Sensitive Stomach & Skin Steam Cooked\n$8.48\n•\nWalmart + others\nBlue Buffalo True Solutions Blissful Belly\n$19.98\n•\nWalmart + others\nWholesomes Sensitive Skin & Stomach Dry Dog Food\n$49.36\n•\nOnly Natural Pet + others\nIAMS Advanced Health Healthy Digestion\n$15.97\n•\nWalmart + others\nNutrish Gentle Digestion Chicken, Pumpkin & Salmon\n$2.39\n•\nPetSmart + others\n🩺 Vet-Recommended & Therapeutic Formulas\n\nThese are ideal if your dog’s sensitive stomach is moderate to severe or recurring — often recommended by vets for chronic GI issues:\n\nRoyal Canin Veterinary Diet Gastrointestinal Low Fat – Highly digestible veterinary formula with a low-fat design to support healthy digestion.\n\nHill's Science Diet Adult Sensitive Stomach & Skin – One of the most recommended sensitive stomach diets with beet pulp (prebiot\npetsmart.com",
+      "responseTimeMs": 13789,
+      "brandMentions": [
+        {
+          "brand": "PetSmart",
+          "count": 3
+        },
+        {
+          "brand": "Walmart",
+          "count": 3
+        },
+        {
+          "brand": "Hill's",
+          "count": 2
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 2
+        },
+        {
+          "brand": "Petco",
+          "count": 2
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        },
+        {
+          "brand": "Iams",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 37,
+      "queryId": "hs03",
+      "query": "best dog food for dogs with skin issues",
+      "category": "dog-food-health",
+      "timestamp": "2026-01-25T18:21:31.850Z",
+      "success": true,
+      "response": "Here are some of the best dog food options for sensitive stomachs — with gentle, easily digestible ingredients and often added probiotics/prebiotics that vets and experts recommend to help reduce GI upset, loose stools, gas, and digestive discomfort. Many of these are popular choices for dogs with food sensitivities or chronic tummy issues (and ingredients like rice, pumpkin, salmon, and highly digestible proteins are commonly suggested for these diets). \nAmerican Kennel Club\n+1\n\nRoyal Canin Veterinary Diet Gastrointestinal Low Fat\n$45.99\n•\nPetco.com + others\nHill's Science Diet Adult Sensitive Stomach & Skin\n$23.99\n•\nPetco.com + others\nPurina Pro Plan Sensitive Skin & Stomach Salmon & Rice\n$20.79\n•\nPetSmart + others\nFreshpet Sensitive Stomach & Skin Steam Cooked\n$8.48\n•\nWalmart + others\nBlue Buffalo True Solutions Blissful Belly\n$19.98\n•\nWalmart + others\nWholesomes Sensitive Skin & Stomach Dry Dog Food\n$49.36\n•\nOnly Natural Pet + others\nIAMS Advanced Health Healthy Digestion\n$15.97\n•\nWalmart + others\nNutrish Gentle Digestion Chicken, Pumpkin & Salmon\n$2.39\n•\nPetSmart + others\n🩺 Vet-Recommended & Therapeutic Formulas\n\nThese are ideal if your dog’s sensitive stomach is moderate to severe or recurring — often recommended by vets for chronic GI issues:\n\nRoyal Canin Veterinary Diet Gastrointestinal Low Fat – Highly digestible veterinary formula with a low-fat design to support healthy digestion.\n\nHill's Science Diet Adult Sensitive Stomach & Skin – One of the most recommended sensitive stomach diets with beet pulp (prebiotic fiber) for gut health. \nPetSmart\n\n🍣 Highly Digestible Everyday Diets\n\nGreat options for most dogs with chronic sensitivity or occasional digestive upset:\n\nPurina Pro Plan Sensitive Skin & Stomach Salmon & Rice – Gentle protein (salmon) and easily digestible carbs with added prebiotic fiber to support intestinal health. \nPetSmart\n\nFreshpet Sensitive Stomach & Skin Steam Cooked – Soft, steam-cooked fresh food with pumpkin and brown rice that’s often easier for sensitive tummies to digest.\n\nBlue Buffalo True Solutions Blissful Belly – Balanced dry food formulated for digestive comfort.\n\n🍗 Natural & Gentle Digestive Support\n\nGood everyday options with gentle ingredients that may help reduce stomach upset:\n\nWholesomes Sensitive Skin & Stomach Dry Dog Food – Digestible protein plus fiber-rich grains for digestion.\n\nIAMS Advanced Health Healthy Digestion – Contains prebiotics and probiotics to support healthy digestive balance.\n\nNutrish Gentle Digestion Chicken, Pumpkin & Salmon – Wet food with pumpkin and salmon to soothe digestion and hydrate the gut.\n\n🐾 Tips for Feeding Dogs with Sensitive Stomachs\n\nLook for easily digestible proteins — like salmon, turkey, or lamb — and gentle carbs like rice or sweet potato. \nGibson's Paws, Claws & Crawls Vet\n\nPrebiotics and probiotics in food can help maintain a healthy gut microbiome and reduce tummy issues. \nChewy\n\nAvoid artificial additives, fillers, and high-fat foods if your dog is prone to digestive upset. \nSploot Vets\n\nTransition slowly: change foods over 7-10 days (mixing increasing amounts of new food each day) to reduce gastric upset.\n\nIf symptoms are severe or persistent (vomiting, frequent diarrhea, weight loss), a vet consultation is best — they may recommend a prescription gastrointestinal diet.\n\nIf you tell me your dog’s age, size, and specific symptoms (e.g., vomiting, diarrhea, gas), I can tailor the list even more!",
+      "responseTimeMs": 7868,
+      "brandMentions": [
+        {
+          "brand": "PetSmart",
+          "count": 4
+        },
+        {
+          "brand": "Walmart",
+          "count": 3
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 2
+        },
+        {
+          "brand": "Purina",
+          "count": 2
+        },
+        {
+          "brand": "Iams",
+          "count": 2
+        },
+        {
+          "brand": "Hill's",
+          "count": 2
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 2
+        },
+        {
+          "brand": "Petco",
+          "count": 2
+        },
+        {
+          "brand": "Chewy",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 38,
+      "queryId": "hs04",
+      "query": "best dog food for weight loss",
+      "category": "dog-food-health",
+      "timestamp": "2026-01-25T18:21:42.689Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 96161,
+      "brandMentions": [],
+      "error": "No response received"
+    },
+    {
+      "queryIndex": 39,
+      "queryId": "hs05",
+      "query": "best dog food for joint health",
+      "category": "dog-food-health",
+      "timestamp": "2026-01-25T18:23:22.742Z",
+      "success": true,
+      "response": "Here are some of the best dog food options for joint health — specially formulated with ingredients like glucosamine, chondroitin, omega-3 fatty acids, antioxidants, and collagen that help support healthy joints, reduce inflammation, and maintain mobility as dogs age or stay active.",
+      "responseTimeMs": 9688,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 40,
+      "queryId": "hs06",
+      "query": "best limited ingredient dog food",
+      "category": "dog-food-health",
+      "timestamp": "2026-01-25T18:23:34.905Z",
+      "success": true,
+      "response": "Here are some top-rated limited ingredient dog food options — great for dogs with sensitive digestion or food sensitivities. Limited ingredient diets (LID) typically feature a short ingredient list with one main protein and a simple carb to reduce the chance of allergic reactions. \nchewy.com\n+1",
+      "responseTimeMs": 10472,
+      "brandMentions": [
+        {
+          "brand": "Chewy",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 41,
+      "queryId": "hs07",
+      "query": "best grain free dog food",
+      "category": "dog-food-health",
+      "timestamp": "2026-01-25T18:23:49.134Z",
+      "success": true,
+      "response": "Here are some of the best grain-free dog foods available now — highly rated for quality ingredients, balanced nutrition, and overall value (great for dogs with grain sensitivities or owners who prefer grain-free diets). Grain-free diets omit wheat, corn, rice, and other grains, often replacing them with alternative carbohydrate sources like sweet potatoes and peas. \nChewy\n\nTaste of the Wild Pacific Stream Dog Food\n$59.99\n•\nAce Hardware + others\nTaste of the Wild High Prairie Dog Food\n$59.99\n•\nAce Hardware + others\nOpen Farm Grain Free Wild Caught Salmon Dry Dog Food\n$99.99\n•\nOpen Farm + others\nI and Love and You Naked Essentials Dry Dog Food\n$40.99\n•\nChewy.com + others\nPure Balance Grain-Free Chicken & Pea Recipe Dry Dog Food\n$34.92\n•\nWalmart + others\nJinx Grain-Free Salmon, Sweet Potato, Carrot Recipe Dry Dog\n$9.18\n•\nWalmart + others\nJinx Chicken Sweet Potato Carrot Grain Free Dry Dog Food\n$18.00\n•\nJinx + others\nSupreme Source Grain‑Free Salmon Meal & Sweet Potato Recipe\n$22.97\n•\nChewy.com + others\n🐾 Top Overall Grain-Free Dry Foods\n\nTaste of the Wild Pacific Stream Dog Food – One of the most popular grain-free formulas with real salmon first for protein plus probiotics for digestion; excellent overall nutrition and palatability.\n\nTaste of the Wild High Prairie Dog Food – Highly rated formula with roasted meats and sweet potatoes; great choice for active dogs needing balanced energy.\n\nOpen Farm Grain Free Wild Caught Salmon Dry Dog Food – Premium grain-free kibble with wild-caught salmon and nutrient-rich superfoods; fantastic if you want higher-end ingredients.\n\nI and Love and You Naked Essentials Dry Dog Food – Grain-free and free of fillers, with pre/probiotics for gut health; great for dogs with moderate sensitivities.\n\n💪 Great Value & EverydayPure Balance Grain‑Free Chicken & Pea Recipe Dry Dog FoodJinx Grain‑Free Salmon, Sweet Potato, Carrot Recipe Dry DogJinx Chicken Sweet Potato Carrot Grain Free Dry Dog Food",
+      "responseTimeMs": 10511,
+      "brandMentions": [
+        {
+          "brand": "Taste of the Wild",
+          "count": 4
+        },
+        {
+          "brand": "Chewy",
+          "count": 3
+        },
+        {
+          "brand": "Walmart",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 42,
+      "queryId": "hs08",
+      "query": "best dog food for dogs with diabetes",
+      "category": "dog-food-health",
+      "timestamp": "2026-01-25T18:24:03.581Z",
+      "success": true,
+      "response": "Here are some of the best dog food options for dogs with diabetes — including veterinary-prescribed diets and high-quality formulas that help support stable blood sugar, high protein, moderate fiber, and controlled carbohydrates. Diabetic diets work best when paired with consistent feeding times and portion control to help minimize glucose spikes. \nparkwoodanimalhospital.com\n+1\n\nRoyal Canin Veterinary Diet Adult Glycobalance Loaf in Sauce\"],\n[\"turn0product2\",\"Purina Pro Plan Vet Diabetes DM\"],\n[\"turn0product10\",\"JustFoodForDogs Metabolic Support Diet\"],\n[\"turn0product16\",\"KetoNatural Ketona Chicken Recipe Dry Dog Food\"],\n[\"turn0product8\",\"Royal Canin Veterinary Diet Glycobalance Small Breed Dry\"]\n]}\n\n🩺 Veterinarian-Recommended Diabetic Diets (Best for Glucose Control)\n\nThese are typically the top choices f",
+      "responseTimeMs": 9816,
+      "brandMentions": [
+        {
+          "brand": "Royal Canin",
+          "count": 2
+        },
+        {
+          "brand": "Purina",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 43,
+      "queryId": "hs09",
+      "query": "best dog food for dogs with kidney disease",
+      "category": "dog-food-health",
+      "timestamp": "2026-01-25T18:24:16.565Z",
+      "success": true,
+      "response": "Here are some of the best dog food options for dogs with kidney disease — focusing on therapeutic diets and veterinary-formulated foods that help support kidney function by reducing protein, phosphorus, and sodium as recommended by vets. These are designed to help slow disease progression and support overall health.\nPetMD\n+1\n\nHill’s Prescription Diet k/d Kidney Care Dry Dog Food\n$54.99\n•\nPetco.com + others\nRoyal Canin Canine Renal Support A Dry Dog Food\n$40.99\n•\nPetSmart + others\nRoyal Canin Renal Support S Dry Dog Food\n$40.99\n•\nPetco.com + others\nPurina Pro Plan Veterinary Diets NF Kidney Function Formula\n$40.99\n•\nPetflow + others\nFarmina Vet Life Canine Renal Dry Dog Food\n$38.99\n•\nFarmina US + others\nBLUE Natural Veterinary Diet KS Kidney Support Dry Dog Food\n$37.98\n•\nChewy.com + others\nRoyal Canin Renal Support E Adult Loaf Wet Dog Food\n$5.19\n•\nPetSmart + others\nJustFoodForDogs Renal Support Low Protein Dog Food\n$172.99\n•\nJustFoodForDogs + others\n🩺 Top Prescription & VeterinHill’s Prescription Diet k/d Kidney Care Dry Dog FoodRoyal Canin Canine Renal Support A Dry Dog FoodRoyal Canin Renal Support S Dry Dog FoodPurina Pro Plan Veterinary Diets NF Kidney Function Formula",
+      "responseTimeMs": 11000,
+      "brandMentions": [
+        {
+          "brand": "Royal Canin",
+          "count": 5
+        },
+        {
+          "brand": "Purina",
+          "count": 2
+        },
+        {
+          "brand": "Petco",
+          "count": 2
+        },
+        {
+          "brand": "PetSmart",
+          "count": 2
+        },
+        {
+          "brand": "Chewy",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 44,
+      "queryId": "hs10",
+      "query": "best hypoallergenic dog food",
+      "category": "dog-food-health",
+      "timestamp": "2026-01-25T18:24:30.546Z",
+      "success": true,
+      "response": "Here are some top-rated hypoallergenic dog foods — great choices for dogs with food sensitivities or allergy symptoms like itching, ear infections, GI upset, or skin irritation. Veterinarians often recommend diets that are hydrolyzed, limited-ingredient, or use novel single proteins to reduce immune reactions.\npetmd.com\n+1\n\n🩺 Best Hypoallergenic & Veterinary-Formulated Foods\n\nThese are often prescribed by vets because they’re made to minimize reactions to proteins and",
+      "responseTimeMs": 10659,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 45,
+      "queryId": "hs11",
+      "query": "best dog food for digestive issues",
+      "category": "dog-food-health",
+      "timestamp": "2026-01-25T18:24:43.940Z",
+      "success": true,
+      "response": "Here are some well-reviewed dog foods formulated to support digestive health and help with sensitive stomachs or gastrointestinal issues. These foods often feature easily digestible ingredients, probiotics/prebiotics, or are veterinary diets designed for digestive problems — things vets commonly recommend for dogs with digestive issues. \nakc.org\n+2\nsplootvets.com\n+2\n\n11\",\"Hill's Prescription Diet I/D Digestive Care Chicken Flavor\"],\n[\"turn0product0\",\"Purina Pro Plan Sensitive Skin & Stomach Salmon Rice Dry Dog Food\"],\n[\"turn0product1\",\"Blue Buffalo True Solutions Digestive Care\"],\n[\"turn0product3\",\"Hill's Science Diet Adult Sensitive Stomach & Skin Dry Dog Food\"],\n[\"turn0product2\",\"Purina ONE +Plus Adult Digestive Health Formula\"],\n[\"turn0product8\",\"IAMS Advanced Health Healthy Digestion Dry Dog Food\"]\n]}\n\n🩺 Veterinary / Prescript",
+      "responseTimeMs": 13488,
+      "brandMentions": [
+        {
+          "brand": "Purina",
+          "count": 2
+        },
+        {
+          "brand": "Hill's",
+          "count": 2
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Iams",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 46,
+      "queryId": "hs12",
+      "query": "best dog food for itchy skin",
+      "category": "dog-food-health",
+      "timestamp": "2026-01-25T18:25:00.252Z",
+      "success": true,
+      "response": "Here are some top-rated dog foods that can help with itchy skin and sensitive skin conditions — many have omega-3 & omega-6 fatty acids for skin health, novel or limited proteins, or are formulated for sensitive dogs (itchy skin often ties to allergies or sensitivities). \nPetMD\n+1\n\nPurina Pro Plan Sensitive Skin & Stomach Salmon & Rice Dry Dog Food\n$20.68\n•\nPetco.com + others\nBlue Buffalo True Solutions Perfect Coat Skin & Coat Care\n$19.98\n•\nWalmart + others\nOpen Farm Skin & Coat Salmon & Oatmeal Dry Dog Food\n$95.99\n•\nPolkadog + others\nPurina ONE Plus Skin & Coat Formula Dry Dog Food\n$16.99\n•\nChewy.com + others\nDiamond Naturals Skin & Coat Dry Dog Food\n$31.99\n•\nChewy.com + others\nPure Balance Pro+ Sensitive Skin & Stomach Dog Food\n$15.72\n•\nWalmart + others\nVictor Sensitive Skin & Stomach Dry Dog Food\n$17.99\n•\nTractor Supply Company + others\nHill's Prescription Diet Derm Complete Skin & Food Sensitivities\n$47.99\n•\nPetco.com + others\n🐶 Best Everyday Options (Non-Prescription)\n\nGreat for dogs with mild to moderate itching or skin sensitivity — emphasize omega fatty acids and quality proteins:\n\nPurina Pro Plan Sensitive Skin & Stomach Salmon & Rice Dry Dog Food – Highly rated choice with salmon & rice and lots of omega-6 fats to support skin and coat — one of the most recommended sensiti\nPetMD\nBlue Buffalo True Solutions Perfect Coat Skin & Coat Care\nBlue Buffalo\nOpen Farm Skin & Coat Salmon & Oatmeal Dry Dog Food\nopenfarmpet.com\nPurina ONE Plus Skin & Coat Formula Dry Dog Food",
+      "responseTimeMs": 10624,
+      "brandMentions": [
+        {
+          "brand": "Purina",
+          "count": 4
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 3
+        },
+        {
+          "brand": "Chewy",
+          "count": 2
+        },
+        {
+          "brand": "Petco",
+          "count": 2
+        },
+        {
+          "brand": "Walmart",
+          "count": 2
+        },
+        {
+          "brand": "Hill's",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 47,
+      "queryId": "hs13",
+      "query": "best dog food for dogs with food sensitivities",
+      "category": "dog-food-health",
+      "timestamp": "2026-01-25T18:25:14.245Z",
+      "success": true,
+      "response": "Here are some top-rated dog food options for dogs with food sensitivities — including limited-ingredient diets, novel pr",
+      "responseTimeMs": 8018,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 48,
+      "queryId": "hs14",
+      "query": "best dog food for heart health",
+      "category": "dog-food-health",
+      "timestamp": "2026-01-25T18:25:25.514Z",
+      "success": true,
+      "response": "Here are some of the best dog food and support options for heart health — including nutrition formulated to support cardiac function, balanced nutrients (like taurine, omega-3s, and L-carnitine), and prescription diets often recommended by veterinarians for dogs with heart conditions. Good nutrition can help maintain heart function and overall well-being, especially in aging dogs or those with diagnosed heart disease. \nPawprint Oxygen\n+2\nPetPace\n+2\n\nHill's Prescription Diet Canine h/d Heart Care Dry Dog Food\n$98.99\n•\nPetco.com + others\nRoyal Canin Canine Early Cardiac Dry Dog Food\n$57.99\n•\nChewy.com + others\nPro Plan Veterinary S CC Cardio Care Adult Dry Dog Food\n$53.70\n•\nShop Vivapets\nStella's Solutions Healthy Heart Support Chicken\n$31.99\n•\nChewy.com + others\nZesty Paws Cardio Bites for Dogs (Supplement)\n$36.97\n•\nWalmart - Zesty Paws + others\nNOW Foods Cardiovascular Support for Dogs (Supplement)\n$17.40\n•\nChewy.com + others\nBlue Buffalo Life Protection Formula Adult Salmon & Brown Rice\n$19.99\n•\nAlbertsons + others\nNaturVet Cardiovascular Support for Dogs (Supplement)\n$30.99\n•\nNaturVet + others\n❤️ Veterinary-Formulated Heart Diets (Best for Diagnosed Heart Conditions)\n\nThese diets are often recommended by vets to support dogs with heart disease or congestive heart failure — they’re nutritionally balanced with controlled sodium and supportive nutrients. \nPawprint Oxygen\n+1\n\nHill's Prescription Diet Canine h/d Heart Care Dry Dog Food – Highly rated prescription diet formulated specifically for dogs with heart disease; supports heart function and may help manage symptoms like fluid retention.\n\nRoyal Canin Canine Early Cardiac Dry Dog FoodPro Plan Veterinary S CC Cardio Care Adult Dry Dog Food\npicoriveravet.com",
+      "responseTimeMs": 9911,
+      "brandMentions": [
+        {
+          "brand": "Chewy",
+          "count": 3
+        },
+        {
+          "brand": "Hill's",
+          "count": 2
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 2
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Petco",
+          "count": 1
+        },
+        {
+          "brand": "Walmart",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 49,
+      "queryId": "hs15",
+      "query": "best single protein dog food",
+      "category": "dog-food-health",
+      "timestamp": "2026-01-25T18:25:37.546Z",
+      "success": true,
+      "response": "Here are some of the best single-protein dog foods — excellent options if your dog has food sensitivities, allergies, or you just want a simple, limited-ingredient formula. Single-protein diets use only one animal protein source which can help reduce the number of potential allergens and make it easier to isolate triggers in elimination diets.",
+      "responseTimeMs": 9661,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 50,
+      "queryId": "ls01",
+      "query": "best puppy food for large breeds",
+      "category": "dog-food-life-stage",
+      "timestamp": "2026-01-25T18:25:50.965Z",
+      "success": true,
+      "response": "Here are some of the best puppy food options for large-breed dogs (formulated with the right calcium:phosphorus balance and nutrients to support controlled growth, joint health, and overall development) — important because large breeds have unique nutritional needs to help prevent skeletal issues as they grow. \nPetMD\n+1\n\nPurina Pro Plan Large Breed Puppy Dry Puppy Food\n$95.48\n•\nPetco.com + others\nPurina ONE Large Breed Puppy Food Dry Formula\n$49.99\n•\nPetco.com + others\nRoyal Canin Large Puppy Dry Dog Food\n$73.99\n•\nRoyal Canin + others\nLoyall Life Large Breed Puppy Chicken & Brown Rice\n$45.99\n•\nBlain's Farm & Fleet + others\nNutriSource Grain Free Large Breed Puppy\n$77.99\n•\nOnly Natural Pet + others\nVictor Hi‑Pro Plus Large Breed Puppy Food\n$36.99\n•\nChewy.com + others\n4health with Wholesome Grains Large Breed Puppy\n$69.99\n•\nWalmart - Pets Supply\nWholesomes Large Breed Puppy Food\n$47.99\n•\nChewy.com + others\n🐾 Top Vet & Expert Picks\n\nPurina Pro Plan Large Breed Puppy Dry Puppy Food – Highly rated and specifically formulated for large breed puppies with balanced Purina ONE Large Breed Puppy Food Dry FormulaRoyal Canin Large Puppy Dry Dog FoodLoyall Life Large Breed Puppy Chicken & Brown Rice",
+      "responseTimeMs": 13233,
+      "brandMentions": [
+        {
+          "brand": "Purina",
+          "count": 4
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 3
+        },
+        {
+          "brand": "Chewy",
+          "count": 2
+        },
+        {
+          "brand": "Petco",
+          "count": 2
+        },
+        {
+          "brand": "Walmart",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 51,
+      "queryId": "ls02",
+      "query": "best puppy food for small breeds",
+      "category": "dog-food-life-stage",
+      "timestamp": "2026-01-25T18:26:07.756Z",
+      "success": true,
+      "response": "Here are some top-rated and vet-recommended puppy foods for small-breed puppies (breeds that stay small as adults — typically under ~25 lbs). Small breed puppy formulas are higher in calories per cup and have smaller kibble sizes that are easier for little mouths to chew and digest — important because small pups have fast metabolisms and higher energy needs relative to size. \nDog Food Advisor\n+1\n\nHill's Science Diet Puppy Small Bites\n$19.99\n•\nChewy.com + others\nRoyal Canin Small Puppy Dry Dog Food\n$28.99\n•\nPetSmart + others\nPurina Pro Plan Puppy Small Breed\n$52.99\n•\nPetSmart + others\nEukanuba Puppy Small Breed\n$19.81\n•\nPetco.com + others\nBlue Buffalo Life Protection Small Breed Puppy\n$17.48\n•\nWalmart + others\nRoyal Canin X‑Small Puppy Dry Dog Food\n$23.99\n•\nRoyal Canin + others\nORIJEN Small Breed Puppy Dry Dog Food\n$30.99\n•\nPetco.com + others\nNutriSource Small & Medium Breed Puppy Dog Food\n$42.99\n•\nCountryMax\n⭐ Top Vet & Expert Picks\n\nThese formulas are widely recommended by veterinarians and nutrition experts for small breed puppies. \nPetMD\n\nHill's Science Diet Puppy Small Bites – Excellent balanced nutrition with DHA for brain and eye development and small kibble suited for toy and small puppies.\n\nRoyal Canin Small Puppy Dry Dog Food – Tailored diet that supports immune health and digestion, with tiny kibble for small mouths.\n\nPurina Pro Plan Puppy Small Breed – High-protein formula to fuel energy and growth, with antioxidants for immunity.\n\nEukanuba Puppy Small Breed – Balanced nutrition with calcium/phosphorus for strong bones and DHA for brain development.\n\n🐶 Good Everyday & Value Options\n\nGreat nutrition for growing pups that don’t need specialized premium formulas.\n\nBlue Buffalo Life Protection Small Breed Puppy – Wholesome ingredients with DHA and antioxidants for overall puppy health.\n\nRoyal Canin X‑Small Puppy Dry Dog FoodNutriSource Small & Medium Breed Puppy Dog FoodORIJEN Small Breed Puppy Dry Dog Food\nPetMD\nDog Food Advisor",
+      "responseTimeMs": 9709,
+      "brandMentions": [
+        {
+          "brand": "Royal Canin",
+          "count": 5
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 2
+        },
+        {
+          "brand": "Orijen",
+          "count": 2
+        },
+        {
+          "brand": "Purina",
+          "count": 2
+        },
+        {
+          "brand": "Hill's",
+          "count": 2
+        },
+        {
+          "brand": "Petco",
+          "count": 2
+        },
+        {
+          "brand": "PetSmart",
+          "count": 2
+        },
+        {
+          "brand": "Chewy",
+          "count": 1
+        },
+        {
+          "brand": "Walmart",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 52,
+      "queryId": "ls03",
+      "query": "best senior dog food",
+      "category": "dog-food-life-stage",
+      "timestamp": "2026-01-25T18:26:20.426Z",
+      "success": true,
+      "response": "Here are some top-rated senior dog food options that support the unique nutritional needs of aging dogs — like joint health, digestion, weight management, and immune support. Senior formulas usually include high-quality protein, fiber, healthy fats (Omega-3s), antioxidants, and glucosamine/chondroitin for joints — all important as dogs get older.",
+      "responseTimeMs": 9465,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 53,
+      "queryId": "ls04",
+      "query": "best dog food for adult dogs",
+      "category": "dog-food-life-stage",
+      "timestamp": "2026-01-25T18:26:32.506Z",
+      "success": true,
+      "response": "Here are some of the best adult dog food options — from everyday balanced diets to higher-protein and breed-specific formulas that vets and pet experts often recommend. A complete and balanced adult dog food should meet AAFCO nutritional standards and be suited to your dog’s size, activity level, and any sensitivities. \npetmd.com\n+1\n\nturn0product2\",\"Purina ONE Chicken & Rice Formula Dry Dog Food\"],\n[\"turn0product1\",\"Blue Buffalo Life Protection Formula Adult Dry Dog Food\"],\n[\"turn0product15\",\"Purina ONE SmartBlend Lamb & Rice Formula Dry Dog Food\"],\n[\"turn0product10\",\"Iams Chicken Proactive Health Adult Minichunks Dry Dog Food\"],\n[\"turn0product0\",\"Pedigree Complete Nutrition Adult Dry Dog Food\"],\n[\"turn0product13\",\"Royal Canin Small Adult Dry Dog Food\"]\n]}\n\n🥇 Top Bal",
+      "responseTimeMs": 11695,
+      "brandMentions": [
+        {
+          "brand": "Purina",
+          "count": 2
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Pedigree",
+          "count": 1
+        },
+        {
+          "brand": "Iams",
+          "count": 1
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 54,
+      "queryId": "ls05",
+      "query": "when to switch from puppy food to adult food",
+      "category": "dog-food-life-stage",
+      "timestamp": "2026-01-25T18:26:46.509Z",
+      "success": true,
+      "response": "Great question — switching at the right time really matters for healthy growth 👍\n\n🐶 When to switch from puppy food to adult dog food\n\nIt mainly depends on your dog’s breed size, because dogs mature at different speeds.\n\n🐕 Small breeds (adult weight under ~25 lb)\n\nSwitch at: 9–12 months\n\nSmall dogs grow quickly and finish most of their development within th",
+      "responseTimeMs": 8042,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 55,
+      "queryId": "ls06",
+      "query": "best puppy food 2026",
+      "category": "dog-food-life-stage",
+      "timestamp": "2026-01-25T18:26:56.844Z",
+      "success": true,
+      "response": "Here’s a 2026 update on some of the best puppy foods—highly rated by pet parents and often recommended by veterinarians and nutrition experts. Great puppy food should be AAFCO-approved for growth, contain quality protein, DHA for brain development, and balanced vitamins/minerals for healthy bones and immunity. \nthepetdoctorinc.com\n+1\n\n🥇 Top Overall Puppy Foods (Balanced Nutrition)\n\n**** – Excellent all-around choice with real chicken, DHA for brain & eye developmen",
+      "responseTimeMs": 13135,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 56,
+      "queryId": "ls07",
+      "query": "best food for senior dogs with sensitive stomachs",
+      "category": "dog-food-life-stage",
+      "timestamp": "2026-01-25T18:27:13.355Z",
+      "success": true,
+      "response": "Here’s a 2026 update on some of the best puppy foods—highly rated by pet parents and often recommended by veterinarians and nutrition experts. Great puppy food should be AAFCO-approved for growth, contain quality protein, DHA for brain development, and balanced vitamins/minerals for healthy bones and immunity. \nThe Pet Doctor - O'Fallon\n+1\n\nPurina ONE SmartBlend Healthy Puppy Formula\n$16.68\n•\nChewy.com + others\nBlue Buffalo Life Protection Formula Puppy\n$17.48\n•\nPetco.com + others\nOpen Farm Puppy Dry Dog Food\n$93.99\n•\nOpen Farm + others\nTaste of the Wild High Prairie Puppy\n$23.99\n•\nAce Hardware + others\nIams Proactive Health Smart Puppy\n$15.99\n•\nFeeders Pet Supply + others\n4Health Puppy Formula\n$11.99\n•\nPetsense + others\nJinx Puppy Dry Dog Food\n$18.00\n•\nJinx + others\nBil-Jac Select Puppy Dry Dog Food\n$22.99\n•\nChewy.com + others\n🥇 Top Overall Puppy Foods (Balanced Nutrition)\n\nPurina ONE SmartBlend Healthy Puppy Formula – Excellent all-around choice with real chicken, DHA for brain & eye development, and strong nutrition profile for growing puppies.\n\nBlue Buffalo Life Protection Formula Puppy – Natural ingredients with antioxidants and DHA/ARA for cognitive support and immune health.\n\nOpen Farm Puppy Dry Dog Food – Premium, ethically sourced proteins and superfoods; great if you want humanely raised ingredients and high protein.\n\n🐶 Great for Digestibility & Growth\n\nTaste of the Wild High Prairie Puppy – High palatability with real roasted meats plus fruits/veggies; solid balanced nutrition that supports digestion and immune system.\n\nIams Proactive Health Smart Puppy – Trusted budget-friendly pick with essential nutrients and a puppy-friendly formula.\n\n4Health Puppy Formula – Excellent value formula with wholesome grains and strong ratings for healthy growth.\n\n🐕 Budget & Specialty Picks\n\nJinx Puppy Dry Dog Food – Affordable option that still delivers good protein and nutrients for everyday puppy feeding.\n\nBil-Jac Select Puppy Dry Dog Food – Highly rated for taste and real chicken content; good if your pup is a picky eater.\n\n🧠 Tips for Choosing Puppy Food\n\nLife stage & size matter: Puppy diets vary for small, medium, and large breed pups—choose a formula labeled for your puppy’s size. \nVca\n\nAAFCO “complete and balanced” label ensures nutritional adequacy. \nVca\n\nProtein first: Look for real meat listed as the first ingredient for muscle and tissue development. \nancloteanimalhospital.com\n\nConsult your vet: Your veterinarian can tailor recommendations to your puppy’s breed, growth rate, and health needs. \ndogwoodanimalhospital.com\n\nWould you like breed-specific puppy food recommendations (e.g., for small vs large breeds)?",
+      "responseTimeMs": 8084,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 2
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 2
+        },
+        {
+          "brand": "Purina",
+          "count": 2
+        },
+        {
+          "brand": "Iams",
+          "count": 2
+        },
+        {
+          "brand": "Chewy",
+          "count": 2
+        },
+        {
+          "brand": "Petco",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 57,
+      "queryId": "ls08",
+      "query": "best high calorie dog food for underweight dogs",
+      "category": "dog-food-life-stage",
+      "timestamp": "2026-01-25T18:27:23.967Z",
+      "success": true,
+      "response": "Here are some of the best foods for senior dogs with sensitive stomachs in 2026 — options that are easier to digest, often include prebiotics/probiotics for gut health, and avoid common irritants. Veterinary guidance suggests choosing formulas with digestible proteins, limited or gentle ingredients, and added gut support to help reduce digestive upset as dogs age. \nPetMD\n+1\n\nPurina Pro Plan Sensitive Skin & Stomach Senior\n$20.68\n•\nWalmart + others\nHill's Science Diet Adult 7+ Perfect Digestion\n$24.99\n•\nHill's Pet Nutrition + others\nOpen Farm Grain Free Senior\n$97.99\n•\nOpen Farm + others\nWholesomes Sensitive Skin & Stomach\n$49.36\n•\nOnly Natural Pet + others\nPurina Pro Plan Sensitive Stomach Wet\n$41.52\n•\nChewy.com + others\nAmerican Natural Premium Sensitive Senior\n$13.91\n•\nAmerican Natural Premium + others\nPure Balance Pro+ Sensitive Skin & Stomach\n$15.72\n•\nWalmart + others\nWellness CORE Digestive Health Age Advantage\n$20.99\n•\nPetSmart + others\n🐾 Top Vet-Recommended & Digestive Support Picks\n\nPurina Pro Plan Sensitive Skin & Stomach Senior – Salmon and rice support gentle digestion with natural prebiotic fiber, plus glucosamine for joint health — a strong choice for many older dogs with sensitive tummies.\n\nHill's Science Diet Adult 7+ Perfect Digestion – Uses prebiotic fiber and easily digestible ingredients to nourish gut bacteria and improve nutrient absorption; highly regarded by vets for sensitive digestion. \nSploot Vets\n\nOpen Farm Grain Free Senior – Premium grain-free formula with ethically sourced proteins and pumpkin for fiber; great if you prefer clean, traceable ingredients.\n\nWholesomes Sensitive Skin & Stomach – Balanced recipe with digestible proteins and gentle carbs (brown rice, oatmeal) designed for overall digestive comfort.\n\n🍲 Wet & Alternative Options (Gentle on Digestion)\n\nPurina Pro Plan Sensitive Stomach Wet – Canned food with salmon and rice; often easier on upset stomachs than dry kibble, plus gut-friendly prebiotic fiber.\n\nAmerican Natural Premium Sensitive Senior – A budget-friendly senior choice with sensitive-care emphasis.\n\nPure Balance Pro+ Sensitive Skin & Stomach – Affordable salmon & brown rice formula free from artificial colors/flavors — good for mild sensitivities.\n\nWellness CORE Digestive Health Age Advantage – Includes probiotics and digestive enzymes to support gut health and overall wellbeing.\n\n🧠 Extra Tips for Sensitive Senior Stomachs\n\nPrebiotics & Probiotics: These help support your dog’s gut microbiome and can improve digestion. \nPetMD\n\nLimited Ingredients: Short ingredient lists reduce the chance of triggering sensitivities. \nBrunswick Fur Food\n\nWet vs. Dry: Wet food can be easier to digest and more palatable for older dogs, especially those with dental issues or reduced appetite. \nChewy\n\nSlow Transitions: Introduce new foods gradually over 7–10 days to minimize stomach upset.\n\nIf you’d like, I can tailor these suggestions even more — for example grain-free only, prescription gastrointestinal diets, or small-breed senior sensitive stomach formulas. Just let me know your dog’s age, weight, and any other health needs!",
+      "responseTimeMs": 11345,
+      "brandMentions": [
+        {
+          "brand": "Purina",
+          "count": 4
+        },
+        {
+          "brand": "Hill's",
+          "count": 3
+        },
+        {
+          "brand": "Wellness",
+          "count": 2
+        },
+        {
+          "brand": "Chewy",
+          "count": 2
+        },
+        {
+          "brand": "Walmart",
+          "count": 2
+        },
+        {
+          "brand": "PetSmart",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 58,
+      "queryId": "ls09",
+      "query": "best dog food for active dogs",
+      "category": "dog-food-life-stage",
+      "timestamp": "2026-01-25T18:27:38.303Z",
+      "success": true,
+      "response": "Here are some of the best foods for senior dogs with sensitive stomachs in 2026 — options that are easier to digest, often include prebiotics/probiotics for gut health, and avoid common irritants. Veterinary guidance suggests choosing formulas with digestible proteins, limited or gentle ingredients, and added gut support to help reduce digestive upset as dogs age. \nPetMD\n+1\n\nPurina Pro Plan Sensitive Skin & Stomach Senior\n$20.68\n•\nWalmart + others\nHill's Science Diet Adult 7+ Perfect Digestion\n$24.99\n•\nHill's Pet Nutrition + others\nOpen Farm Grain Free Senior\n$97.99\n•\nOpen Farm + others\nWholesomes Sensitive Skin & Stomach\n$49.36\n•\nOnly Natural Pet + others\nPurina Pro Plan Sensitive Stomach Wet\n$41.52\n•\nChewy.com + others\nAmerican Natural Premium Sensitive Senior\n$13.91\n•\nAmerican Natural Premium + others\nPure Balance Pro+ Sensitive Skin & Stomach\n$15.72\n•\nWalmart + others\nWellness CORE Digestive Health Age Advantage\n$20.99\n•\nPetSmart + others\n🐾 Top Vet-Recommended & Digestive Support Picks\n\nPurina Pro Plan Sensitive Skin & Stomach Senior – Salmon and rice support gentle digestion with natural prebiotic fiber, plus glucosamine for joint health — a strong choice for many older dogs with sensitive tummies.\n\nHill's Science Diet Adult 7+ Perfect Digestion – Uses prebiotic fiber and easily digestible ingredients to nourish gut bacteria and improve nutrient absorption; highly regarded by vets for sensitive digestion. \nSploot Vets\n\nOpen Farm Grain Free Senior – Premium grain-free formula with ethically sourced proteins and pumpkin for fiber; great if you prefer clean, traceable ingredients.\n\nWholesomes Sensitive Skin & Stomach – Balanced recipe with digestible proteins and gentle carbs (brown rice, oatmeal) designed for overall digestive comfort.\n\n🍲 Wet & Alternative Options (Gentle on Digestion)\n\nPurina Pro Plan Sensitive Stomach Wet – Canned food with salmon and rice; often easier on upset stomachs than dry kibble, plus gut-friendly prebiotic fiber.\n\nAmerican Natural Premium Sensitive Senior – A budget-friendly senior choice with sensitive-care emphasis.\n\nPure Balance Pro+ Sensitive Skin & Stomach – Affordable salmon & brown rice formula free from artificial colors/flavors — good for mild sensitivities.\n\nWellness CORE Digestive Health Age Advantage – Includes probiotics and digestive enzymes to support gut health and overall wellbeing.\n\n🧠 Extra Tips for Sensitive Senior Stomachs\n\nPrebiotics & Probiotics: These help support your dog’s gut microbiome and can improve digestion. \nPetMD\n\nLimited Ingredients: Short ingredient lists reduce the chance of triggering sensitivities. \nBrunswick Fur Food\n\nWet vs. Dry: Wet food can be easier to digest and more palatable for older dogs, especially those with dental issues or reduced appetite. \nChewy\n\nSlow Transitions: Introduce new foods gradually over 7–10 days to minimize stomach upset.\n\nIf you’d like, I can tailor these suggestions even more — for example grain-free only, prescription gastrointestinal diets, or small-breed senior sensitive stomach formulas. Just let me know your dog’s age, weight, and any other health needs!",
+      "responseTimeMs": 7632,
+      "brandMentions": [
+        {
+          "brand": "Purina",
+          "count": 4
+        },
+        {
+          "brand": "Hill's",
+          "count": 3
+        },
+        {
+          "brand": "Wellness",
+          "count": 2
+        },
+        {
+          "brand": "Chewy",
+          "count": 2
+        },
+        {
+          "brand": "Walmart",
+          "count": 2
+        },
+        {
+          "brand": "PetSmart",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 59,
+      "queryId": "ls10",
+      "query": "best dog food for working dogs",
+      "category": "dog-food-life-stage",
+      "timestamp": "2026-01-25T18:27:48.561Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 96088,
+      "brandMentions": [],
+      "error": "No response received"
+    },
+    {
+      "queryIndex": 60,
+      "queryId": "bc01",
+      "query": "Blue Buffalo vs Purina Pro Plan",
+      "category": "dog-food-comparison",
+      "timestamp": "2026-01-25T18:29:27.661Z",
+      "success": true,
+      "response": "Here’s a clear comparison between two popular dog food brands — Blue Buffalo and Purina Pro Plan — to help you decide which might be right for your dog:\n\nPurina Pro Plan Adult Shredded Blend Beef & Rice\n$16.58\n•\nChewy.com + others\nPurina Pro Plan Adult Complete Essentials Shredded Blend Chi\n$96.99\n•\nPetSmart + others\nPurina Pro Plan Sport Performance 30/20\n$52.98\n•\nPetco.com + others\nPurina Pro Plan Chicken & Rice Large Breed Adult Dry\n$77.99\n•\nBlain's Farm & Fleet + others\nPurina Pro Plan Adult Shredded Blend Small Breed Chicken\n$77.48\n•\nPetco.com + others\nPurina Pro Plan Shredded Blend Lamb & Rice Adult\n$96.99\n•\nTractor Supply Company + others\nBlue Buffalo Adult Dog Food, Chicken & Brown Rice, 30 lb Bag\n$120.00\n•\nEtsy\n🐶 Purina Pro Plan — Science-Backed & Broad Variety\n\nPurina ProPurina Pro Plan Adult Shredded Blend Beef & RicePurina Pro Plan Adult Complete Essentials Shredded Blend Chi",
+      "responseTimeMs": 13564,
+      "brandMentions": [
+        {
+          "brand": "Purina",
+          "count": 11
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 2
+        },
+        {
+          "brand": "Petco",
+          "count": 2
+        },
+        {
+          "brand": "Chewy",
+          "count": 1
+        },
+        {
+          "brand": "PetSmart",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 61,
+      "queryId": "bc02",
+      "query": "Orijen vs Acana dog food",
+      "category": "dog-food-comparison",
+      "timestamp": "2026-01-25T18:29:45.130Z",
+      "success": true,
+      "response": "Here’s a direct comparison between two premium dog food brands from the same company — Orijen Original Dry Dog Food and Acana Free Run Poultry Dry Dog Food — plus other top formulas from Orijen and Acana.\n\n🐶 Brand Overview: Same Company, Different Focus\n\nOrijen and Acana are both made by Champion Petfoods, known for high-quality ingredients and a nutrition philosophy that emphasizes real meat and whole foods. \nchampionpetfoods.com\n\nOrijen = premium, higher-protein, meat-rich formulas.\n\nAcana = still high-quality, but generally a bit lower protein and typically more affordable with broader recipe variety. \nwagstowiskers.com\n+1\n\n🧠 Key Differences\n🥩 Protein & Ingredient Density\n\nOrijen: Usually higher protein content and higher percentage of fresh, raw meats — closer to a “biologically appropriate” diet for dogs. \nPawpy Kisses\n\nAcana: Slightly lower protein and meat percentage, but still above average compared with many commercial foods. \nPawpy Kisses\n\n⚖️ Formulation Philosophy\n\nOrijen focuses on very high meat ratios (often 80–90% animal ingredients) and WholePrey nutrition (meat, organs, cartilage). \nPawpy Kisses\n\nAcana balances quality meat with fruits, vegetables, and sometimes grains (in grain-inclusive recipes), making them easier to digest for some dogs. \nwagstowiskers.com\n\n💰 Price\n\nOrijen is generally more expensive per bag because of its higher meat content and raw ingredient inclusion.\n\nAcana is often more budget-friendly while still premium quality. \nwagstowiskers.com\n\n🍽️ Variety\n\nAcana tends to offer more recipe options, including grain-free, grain-inclusive, and single-protein lines.",
+      "responseTimeMs": 10538,
+      "brandMentions": [
+        {
+          "brand": "Acana",
+          "count": 8
+        },
+        {
+          "brand": "Orijen",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "queryIndex": 62,
+      "queryId": "bc03",
+      "query": "Wellness vs Blue Buffalo",
+      "category": "dog-food-comparison",
+      "timestamp": "2026-01-25T18:29:59.654Z",
+      "success": true,
+      "response": "Here’s a side-by-side comparison of two well-known premium dog food brands — Wellness Complete Health Adult Dry Dog Food (representing Wellness) vs Blue Buffalo Wilderness Adult Dry Dog Food Chicken (representing Blue Buffalo) — so you can decide which best fits your dog’s needs:\n\n🐾 Brand Overview\n\nWellness\nWellness produces natural, thoughtfully formulated dog foods with a focus on whole-body health — including immune support, digestion, skin & coat health, and probiotics. Wellness has both grain-inclusive (Complete Health) and higher-protein grain-free (CORE) lines. \niHeartDogs.com\n\nBlue Buffalo\nBlue Buffalo emphasizes natural ingredients with real meat first, no artificial flavors, and LifeSource Bits added for antioxidants and vitamins. They have multiple lines (Life Protection, Wilderness, Basics) for different needs and life stages. \nWag!\n\n🥩 Ingredient Quality & Nutrition\n\nProtein & Ingredients\n\nWellness: Generally seen as higher in protein and balanced nutrition across lines — especially in CORE and Complete Health formulas. Some reviews consider Wellness to offer slightly better protein levels than Blue Buffalo. \nDogster\n\nBlue Buffalo: Uses real meat as first ingredient, includes fruits & vegetables, and avoids common fillers like corn, wheat, and soy. Great for balanced nutrition but slightly less protein on average in some formulas compared with Wellness. \nWag!\n\nSpecial Features\n\nWellness: Many formulas include probiotics, omega fatty acids, glucosamine, and antioxidants for whole-body support.\n\nBlue Buffalo: LifeSource Bits provide added vitamins, minerals, and antioxidants, and there are multiple lines (e.g., Wilderness for high protein, Basics for sensitive stomachs). \nWag!\n\n🏥 Recalls & Safety\n\nBrand Safety History\n\nBlue Buffalo: Has had past recalls and some reported issues tied to ingredients or nutrient balances. However, as of early 2026 they do not have active recalls according to the company. \nbluebuffalo.com\n\nWellness: Also experienced occasional recalls in the broader industry but generally is perceived to have a clean safet",
+      "responseTimeMs": 12578,
+      "brandMentions": [
+        {
+          "brand": "Wellness",
+          "count": 10
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "queryIndex": 63,
+      "queryId": "bc04",
+      "query": "Natural Balance vs Blue Buffalo",
+      "category": "dog-food-comparison",
+      "timestamp": "2026-01-25T18:30:14.782Z",
+      "success": true,
+      "response": "Here’s a head-to-head comparison of two premium dog food brands — Natural Balance and Blue Buffalo — so you can decide which might suit your dog best:\n\nNatural Balance L.I.D. Limited Ingredient Reserve Sweet Potato & Bison\n$79.98\n•\nPetco.com + others\nNatural Balance Limited Ingredient Reserve Sweet Potato & Venison\n$79.98\n•\nOnly Natural Pet + others\nNatural Balance Limited Ingredient Duck & Potato\n$25.00\n•\nPetSmart + others\nNatural Balance Beef & Brown Rice Dry Dog Food\n$32.99\n•\nBlackPaw + others\nNatural Balance Limited Ingredient Diets Salmon & Brown Rice\n$24.98\n•\nPetSmart + others",
+      "responseTimeMs": 9757,
+      "brandMentions": [
+        {
+          "brand": "Natural Balance",
+          "count": 6
+        },
+        {
+          "brand": "PetSmart",
+          "count": 2
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 1
+        },
+        {
+          "brand": "Petco",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 64,
+      "queryId": "bc05",
+      "query": "Merrick vs Wellness dog food",
+      "category": "dog-food-comparison",
+      "timestamp": "2026-01-25T18:30:26.899Z",
+      "success": true,
+      "response": "Here’s a head-to-head comparison of two premium dog food brands — Natural Balance and Blue Buffalo — so you can decide which might suit your dog best:\n\nNatural Balance L.I.D. Limited Ingredient Reserve Sweet Potato & Bison\n$79.98\n•\nPetco.com + others\nNatural Balance Limited Ingredient Reserve Sweet Potato & Venison\n$79.98\n•\nOnly Natural Pet + others\nNatural Balance Limited Ingredient Duck & Potato\n$25.00\n•\nPetSmart + others\nNatural Balance Beef & Brown Rice Dry Dog Food\n$32.99\n•\nBlackPaw + others\nNatural Balance Limited Ingredient Diets Salmon & Brown Rice\n$24.98\n•\nPetSmart + others\nBlue Buffalo Life Protection Formula Adult Dry Dog Food\n$74.98\n•\nPetco.com + others\nBlue Buffalo Wilderness Adult Dry Dog Food Salmon\n$76.98\n•\nPetSmart + others\nBlue Buffalo Life Protection Formula Adult Salmon & Brown Rice\n$18.97\n•\nWalmart + others\n🐾 Standout Natural Balance Options\n\nNatural Balance L.I.D. Limited Ingredient Reserve Sweet Potato & Bison – Grain-free, limited ingredients, great for sensitive stomachs.\n\nNatural Balance Limited Ingredient Reserve Sweet Potato & Venison – Another limited-ingredient dry food with excellent digestibility.\n\nNatural Balance Limited Ingredient Duck & Potato – Duck protein formula; gentle on digestion.\n\nNatural Balance Beef & Brown Rice Dry Dog Food & Natural Balance Limited Ingredient Diets Salmon & Brown Rice – Grain-inclusive, balanced options for everyday feeding.\n\n🐶 Popular Blue Buffalo Picks\n\nBlue Buffalo Life Protection Formula Adult Dry Dog Food – Real meat first, wholesome grains, and LifeSource Bits for antioxidants.\n\nBlue Buffalo Wilderness Adult Dry Dog Food Salmon – High-protein, grain-free style for active dogs.\n\nBlue Buffalo Life Protection Formula Adult Salmon & Brown Rice – Salmon first ingredient with balanced nutrition.\n\n🔍 Brand Comparison: Natural Balance vs Blue Buffalo\n🧠 Ingredient Philosophy\n\nNatural Balance:\n\nMany limited ingredient diets (L.I.D.) designed for dogs with food sensitivities or allergies (fewer proteins/carbs to trigger reactions). \niHeartDogs.com\n+1\n\nOften uses single main protein sources like duck, bison, or venison, making elimination and allergy testing easier. \niHeartDogs.com\n\nBlue Buffalo:\n\nFocuses on natural ingredients, with real meat listed first and added fruits/vegetables. \nBlue Buffalo\n\nTheir LifeSource Bits include a specific blend of vitamins, minerals, and antioxidants. \nBlue Buffalo\n\n🐕 Best Uses\n\nNatural Balance:\n\nSensitive stomachs or allergy issues — especially its L.I.D. formulas. \niHeartDogs.com\n\nSimple recipes help pinpoint problematic ingredients. \nDogFoodDB\n\nBlue Buffalo:\n\nEveryday feeding for healthy dogs, with a broader range (Life Protection, Wilderness, Basics, vet diets). \nBlue Buffalo\n\nGood if you want whole food ingredients plus immune support from LifeSource Bits. \nBlue Buffalo\n\n🩺 Nutrition & Variety\n\nBoth brands offer complete, balanced nutrition and grain-inclusive and grain-free options. \nDogFoodDB\n\nBlue Buffalo generally has wider variety of flavors, life stages, and product lines. \niHeartDogs.com\n\nNatural Balance stands out for limited ingredient and novel protein formulas that are often recommended for dogs with food sensitivities. \niHeartDogs.com\n\n🧪 Safety & Recalls\n\nBoth brands have been involved in recalls historically, especially when industry-wide issues (e.g., grain-free diet concerns) have arisen. \nDogFoodDB\n\nAlways monitor current FDA recall information for updates.\n\n🐶 Bottom Line\n\n✔ Choose Natural Balance if:\n\nYour dog has food sensitivities, allergies, digestive issues, or you want a limited ingredient diet to simplify nutrition. \niHeartDogs.com\n\n✔ Choose Blue Buffalo if:\n\nYou want a natural, protein-rich everyday food with a broader range of formulas (e.g., high protein, life stage variations, immune support). \nBlue Buffalo\n\nIf you share your dog’s age, size, and any health concerns (allergies, sensitive stomach, weight goals), I can help tailor this to the specific formula that fits best!",
+      "responseTimeMs": 7696,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 18
+        },
+        {
+          "brand": "Natural Balance",
+          "count": 17
+        },
+        {
+          "brand": "PetSmart",
+          "count": 3
+        },
+        {
+          "brand": "Petco",
+          "count": 2
+        },
+        {
+          "brand": "Walmart",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 65,
+      "queryId": "bc06",
+      "query": "Royal Canin vs Hill's Science Diet",
+      "category": "dog-food-comparison",
+      "timestamp": "2026-01-25T18:30:38.290Z",
+      "success": true,
+      "response": "Here’s a straight comparison between Royal Canin and Hill’s Science Diet to help you decide which might be better for your dog or cat — whether it’s everyday feeding or addressing specific health needs:\n\n🐶🐱 Brand Overview\n\nRoyal Canin\n\nFounded in France (1968); now owned by Mars Inc.",
+      "responseTimeMs": 10320,
+      "brandMentions": [
+        {
+          "brand": "Royal Canin",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 66,
+      "queryId": "bc07",
+      "query": "Taste of the Wild vs Merrick",
+      "category": "dog-food-comparison",
+      "timestamp": "2026-01-25T18:30:52.464Z",
+      "success": true,
+      "response": "Here’s a side-by-side comparison of Taste of the Wild vs. Merrick dog food to help you decide which might suit your dog best:\n\n🐾 Brand Profiles\nTaste of the Wild\n\nPremium dog food with high protein and novel meats (e.g., bison, venison, salmon), often inspired by ancestral “wild” diets. \nPet Food Ratings\n\nOffers grain-free and ancient-grain formulas to fit various dietary preferences. \nDog Food Focus\n\nKnown for probiotics to support digestion. \nDog Food Focus\n\nMerrick\n\nPremium brand emphasizing real, fresh deboned meat as top ingredients with no meat by-products. \niHeartDogs.com\n+1\n\nOffers a wide product range including grain-free, grain-inclusive, limited ingredient, and size-specific formulas. \nDog Food Focus\n\nProduced in the U.S. and often rated highly for ingredient quality. \nDog Food Advisor\n\n🥩 Nutrition & Ingredients\nProtein & Meat Sources\n\nMerrick generally uses fresh, deboned meat as the primary ingredient and typically has a slightly higher guaranteed protein. \nPawDiet\n\nTaste of the Wild uses novel and wild protein sources (e.g., buffalo, venison) and meat meals to boost protein levels. \nPet Food Ratings\n\n🧠 Bottom line: Merrick tends to emphasize fresh whole meat, while Taste of the Wild focuses on unique protein variety\niHeartDogs.com\nDog Food Focus\n**",
+      "responseTimeMs": 8646,
+      "brandMentions": [
+        {
+          "brand": "Merrick",
+          "count": 4
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "queryIndex": 67,
+      "queryId": "bc08",
+      "query": "Natural Balance vs Wellness",
+      "category": "dog-food-comparison",
+      "timestamp": "2026-01-25T18:31:03.569Z",
+      "success": true,
+      "response": "Here’s a side-by-side comparison of Taste of the Wild vs. Merrick dog food to help you decide which might suit your dog best:\n\n🐾 Brand Profiles\nTaste of the Wild\n\nPremium dog food with high protein and novel meats (e.g., bison, venison, salmon), often inspired by ancestral “wild” diets. \nPet Food Ratings\n\nOffers grain-free and ancient-grain formulas to fit various dietary preferences. \nDog Food Focus\n\nKnown for probiotics to support digestion. \nDog Food Focus\n\nMerrick\n\nPremium brand emphasizing real, fresh deboned meat as top ingredients with no meat by-products. \niHeartDogs.com\n+1\n\nOffers a wide product range including grain-free, grain-inclusive, limited ingredient, and size-specific formulas. \nDog Food Focus\n\nProduced in the U.S. and often rated highly for ingredient quality. \nDog Food Advisor\n\n🥩 Nutrition & Ingredients\nProtein & Meat Sources\n\nMerrick generally uses fresh, deboned meat as the primary ingredient and typically has a slightly higher guaranteed protein. \nPawDiet\n\nTaste of the Wild uses novel and wild protein sources (e.g., buffalo, venison) and meat meals to boost protein levels. \nPet Food Ratings\n\n🧠 Bottom line: Merrick tends to emphasize fresh whole meat, while Taste of the Wild focuses on unique protein variety (good for picky eaters or dogs needing novelty). \niHeartDogs.com\n\nGrain-Free vs Grain Options\n\nTaste of the Wild: Broad grain-free and ancient grain lineup. \nDog Food Focus\n\nMerrick: Offers both grain-free and classic grain formulas making it flexible for dogs with different needs. \nDog Food Focus\n\n🐶 Digestibility & Health\n\nBoth brands include probiotics and omega fatty acids for digestion, coat, and overall wellness. \niHeartDogs.com\n\nTaste of the Wild is sometimes described as light on the stomach and good for sensitive digestion. \nPet Food Hubing\n\nMerrick’s recipes with real meat and quality fats can support good skin and energy levels. \nDog Food Advisor\n\n📌 Note: Both brands have made grain-free recipes. A 2019 FDA report flagged some grain-free foods—including both brands—as associated with rare heart issues (DCM) when peas, lentils, or potatoes are major ingredients, but this does not mean they are unsafe; it means owners should monitor updates and talk to a vet before choosing a grain-free diet. \nWikipedia\n\n💰 Price & Value\n\nTaste of the Wild is generally more affordable overall compared to Merrick. \nThe Pet Vet\n\nMerrick is often priced higher due to fresh meat ingredients. \nThe Pet Vet\n\n💡 Many owners feel both offer good value as premium foods, especially compared to generic grocery brands. \niHeartDogs.com\n\n🐕 Palatability & Variety\n\nTaste of the Wild: Dogs often love the “wild meat” taste and variety of flavors. \nPet Food Ratings\n\nMerrick: Rich, hearty flavors and kibble options (including formulas sized for small breeds). \nPet Food Hubing\n\n➡️ Personal preference matters: Some dogs may prefer one brand’s taste or digest one better — individual outcomes vary widely. \nPet Food Hubing\n\n🧠 Pros ✨ & Cons ⚠️\nFeature\tTaste of the Wild\tMerrick\nHigh-quality protein\t✔️ Novel/wild meats\t✔️ Fresh deboned meats\nGrain-free options\t✔️\t✔️\nGrain-inclusive options\t✔️ (ancient grains)\t✔️ (classic grains)\nPrice range\tMid\tMid-to-high\nIngredient focus\tVariety & palatability\tFresh meat emphasis\nDigestibility\tOften easy\tGood overall\nRecall/health notes\tFDA flagged grain-free brand category\tFDA flagged grain-free brand category\n🐾 Which Might Be Best for Your Dog?\n\nChoose Taste of the Wild if:\n\nYou want novel proteins (bison, venison) that picky dogs may enjoy. \nPet Food Ratings\n\nYou’re looking for affordable premium quality. \nThe Pet Vet\n\nChoose Merrick if:\n\nYou prefer recipes with fresh, deboned meat high on the ingredient list. \niHeartDogs.com\n\nYou want diverse formulas including grain-inclusive and special life-stage options. \nDog Food Focus\n\n📌 Final Tip\n\nBefore switching foods, transition gradually over 7–10 days to prevent digestive upset, and check with your vet — especially if your dog has sensitivities or a medical condition. \nWikipedia\n\nIf you’d like, tell me your dog’s age, weight, and any sensitivities — I can recommend specific Taste of the Wild or Merrick formulas tailored to them!",
+      "responseTimeMs": 7621,
+      "brandMentions": [
+        {
+          "brand": "Merrick",
+          "count": 12
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 11
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 68,
+      "queryId": "bc09",
+      "query": "Purina vs Iams dog food",
+      "category": "dog-food-comparison",
+      "timestamp": "2026-01-25T18:31:14.995Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 96147,
+      "brandMentions": [],
+      "error": "No response received"
+    },
+    {
+      "queryIndex": 69,
+      "queryId": "bc10",
+      "query": "Canidae vs Orijen",
+      "category": "dog-food-comparison",
+      "timestamp": "2026-01-25T18:32:53.451Z",
+      "success": true,
+      "response": "Here’s a clear comparison between Canidae All Life Stages Dry Dog Food / other Canidae foods and Orijen Original Dry Dog Food / other Orijen options so you can see the differences in quality, nutrition philosophy, and typical uses:\n\n🐶 Typical Examples From Each Brand\n\nPremium High-Protein (Orijen):\n\n**** – Rich, biologically appropriate recipe with a high proportion of fresh/whole animal ingredients and strong protein focus (comm",
+      "responseTimeMs": 19475,
+      "brandMentions": [
+        {
+          "brand": "Orijen",
+          "count": 3
+        },
+        {
+          "brand": "Canidae",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 70,
+      "queryId": "bc11",
+      "query": "Natural Balance limited ingredient vs other LID brands",
+      "category": "dog-food-comparison",
+      "timestamp": "2026-01-25T18:33:15.716Z",
+      "success": true,
+      "response": "Here’s how Natural Balance Limited Ingredient Reserve Sweet Potato & Venison, Natural Balance Limited Ingredient Duck & Potato, and other Natural Balance Limited Ingredient Diet (LID) formulas stack up versus other limited-ingredient diet brands on the market — including pros, cons, and how they compare.\n\n🐶 What Makes Natural Balance LID Unique\n\nNatural Balance is one of the better-known LID lines focused on dogs with sensitivities. Their formulas tend to share several defining traits:\n\n✔️ Designed for Food Sensitivities\n\nUses single animal protein sources (like venison, duck, salmon) to reduce triggers for allergies or digestive issues. \nnaturalbalanceinc.com\n\nOften formulated without common allergens like corn, wheat, soy, chicken by-product meal, artificial flavors or colors. \nnaturalbalanceinc.com\n\n✔️ Simplified Ingredient Lists\n\nFewer ingredients to help identify and avoid problem foods. \nnaturalbalanceinc.com\n\nSome formulas come grain-inclusive (brown rice, sweet potato) and others grain-free. \nnaturalbalanceinc.com\n\n✔️ Long Track Record\n\nNatural Balance helped pioneer the limited ingredient diet category and has decades of presence in the specialty food space. \nnaturalbalanceinc.com\n\n🆚 Natural Balance vs Other Limited Ingredient Brands\n\nHere’s how Natural Balance compares to some competitors, focusing on the limited ingredient philosophy rather than every possible dog food formula:\n\n🧠 Ingredient Simplicity\n\nNatural Balance: Strong focus on single protein + limited carbs. \nnaturalbalanceinc.com\n\nOther brands (e.g., Canidae PURE, Wellness Simple, Instinct LID): Often have ultra-minimalist recipes (sometimes only ~7–10 ingredients), which can be even simpler for very sensitive dogs. \nHappyDogGut\n\n👉 Takeaway: Natural Balance is good for sensitivities, but some brands streamline even further for dogs with more severe reactions.\n\n🐟 Protein Sources & Variety\n\nNatural Balance offers several novel proteins (duck, venison, salmon, bison). \nnaturalbalanceinc.com",
+      "responseTimeMs": 17906,
+      "brandMentions": [
+        {
+          "brand": "Natural Balance",
+          "count": 11
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "Canidae",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 71,
+      "queryId": "bc12",
+      "query": "is Blue Buffalo better than Natural Balance",
+      "category": "dog-food-comparison",
+      "timestamp": "2026-01-25T18:33:35.658Z",
+      "success": true,
+      "response": "Here’s a straight comparison between Blue Buffalo and Natural Balance dog food so you can decide which might be better for your dog — keeping in mind that “better” really depends on your dog’s specific health needs and preferences.\n\n🐾 Brand Positioning\nBlue Buffalo Life Protection Formula Large Breed Adult Chicken (Blue Buffalo)\n\nBlue Buffalo is a mainstream premium dog food brand known for using real meat first, whole grains, and added vitamins/minerals. \nBlue Buffalo\n\nOffers a wide range of foods for different life stages, sizes, and needs — including regular adult formulas, weight management, digestive care, and limited-ingredient basics. \niHeartDogs.com\n\nNatural Balance\n\nNatural Balance is also a premium brand, but it’s particularly known for its Limited Ingredient Diet (L.I.D.) line — designed to reduce allergens and simplify diets. \niHeartDogs.com\n\nFocuses on unique proteins (like bison, venison, duck) and minimal ingredients to help dogs with sensitivities. \niHeartDogs.com\n\n📊 Key Comparison\n🐶 Ingredient Philosophy\n\nBlue Buffalo: Real meat as the first ingredient and balanced nutrition with grains or grain-free options. \nBlue Buffalo\n\nNatural Balance: Strong focus on limited, minimal ingredients to reduce allergy triggers. \niHeartDogs.com\n\n👉 If your dog needs general daily nutrition and you want more variety, Blue Buffalo is a strong all-around pick.\n👉 If your dog has food sensitivities or allergies, Natural Balance’s simpler recipes may be easier to tolerate. \nDogFoodDB\n\n🍗 Allergies & Sensitivities\n\nNatural Balance L.I.D. is often recommended for dogs with known sensitivities because of its limited proteins/ingredients. \nDogFoodDB\n\nBlue Buffalo also offers limited-ingredient formulas (Basics line), but generally Natural Balance is seen as more specialized for allergy cases. \niHeartDogs.com\n\n📈 Protein & Nutrition\n\nBoth brands meet AAFCO standards for complete nutrition. \niHeartDogs.com\n\nBlue Buffalo often emphasizes higher protein and nutritional variety across its lines. \niHeartDogs.com\n\nNatural Balance offers a range of novel proteins that can help isolate specific intolerances. \nDogFoodDB\n\n🐕 General Quality & Use Case\n\nBest choice by dog type:",
+      "responseTimeMs": 11128,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 10
+        },
+        {
+          "brand": "Natural Balance",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "queryIndex": 72,
+      "queryId": "bc13",
+      "query": "Nutro vs Natural Balance",
+      "category": "dog-food-comparison",
+      "timestamp": "2026-01-25T18:33:50.682Z",
+      "success": true,
+      "response": "Here’s a straight comparison between Blue Buffalo and Natural Balance dog food so you can decide which might be better for your dog — keeping in mind that “better” really depends on your dog’s specific health needs and preferences.\n\n🐾 Brand Positioning\nBlue Buffalo Life Protection Formula Large Breed Adult Chicken (Blue Buffalo)\n\nBlue Buffalo is a mainstream premium dog food brand known for using real meat first, whole grains, and added vitamins/minerals. \nBlue Buffalo\n\nOffers a wide range of foods for different life stages, sizes, and needs — including regular adult formulas, weight management, digestive care, and limited-ingredient basics. \niHeartDogs.com\n\nNatural Balance\n\nNatural Balance is also a premium brand, but it’s particularly known for its Limited Ingredient Diet (L.I.D.) line — designed to reduce allergens and simplify diets. \niHeartDogs.com\n\nFocuses on unique proteins (like bison, venison, duck) and minimal ingredients to help dogs with sensitivities. \niHeartDogs.com\n\n📊 Key Comparison\n🐶 Ingredient Philosophy\n\nBlue Buffalo: Real meat as the first ingredient and balanced nutrition with grains or grain-free options. \nBlue Buffalo\n\nNatural Balance: Strong focus on limited, minimal ingredients to reduce allergy triggers. \niHeartDogs.com\n\n👉 If your dog needs general daily nutrition and you want more variety, Blue Buffalo is a strong all-around pick.\n👉 If your dog has food sensitivities or allergies, Natural Balance’s simpler recipes may be easier to tolerate. \nDogFoodDB\n\n🍗 Allergies & Sensitivities\n\nNatural Balance L.I.D. is often recommended for dogs with known sensitivities because of its limited proteins/ingredients. \nDogFoodDB\n\nBlue Buffalo also offers limited-ingredient formulas (Basics line), but generally Natural Balance is seen as more specialized for allergy cases. \niHeartDogs.com\n\n📈 Protein & Nutrition\n\nBoth brands meet AAFCO standards for complete nutrition. \niHeartDogs.com\n\nBlue Buffalo often emphasizes higher protein and nutritional variety across its lines. \niHeartDogs.com\n\nNatural Balance offers a range of novel proteins that can help isolate specific intolerances. \nDogFoodDB\n\n🐕 General Quality & Use Case\n\nBest choice by dog type:\n\nGoal\tBetter Match\nEveryday balanced diet (healthy dogs)\tBlue Buffalo\nSensitive stomach or allergies\tNatural Balance\nLots of recipe options & life stages\tBlue Buffalo\nUltra-simple ingredient list\tNatural Balance\n🩺 Recall & Safety Notes\n\nBoth brands have had recalls historically — Blue Buffalo has faced some notable recalls and quality control concerns in the past. \niHeartDogs.com\n\nNatural Balance also has had occasional recalls, but it’s rarely associated with ingredient-claim controversies. \niHeartDogs.com\n\nThese aren’t deal-breakers, but monitor recall news and vendor transparency (e.g., batch testing results) if this matters to you.\n\n🐶 Bottom Line\n\n✅ Blue Buffalo is generally better for most healthy dogs as a daily food — lots of variety, real meat first, and balanced nutrition. \niHeartDogs.com\n\n✅ Natural Balance shines when your dog has food sensitivities or allergies, thanks to its limited ingredient diets and novel proteins. \nDogFoodDB\n\nSo: neither brand is strictly “better” overall — it depends on your dog’s needs. If your pup is healthy and you want broad options, Blue Buffalo is a solid choice. If your pup reacts to ingredients, Natural Balance may be a better fit. \niHeartDogs.com\n\nIf you want, tell me your dog’s age, breed, and health concerns — I can tailor the recommendation (including specific formulas) to their situation!",
+      "responseTimeMs": 7515,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 15
+        },
+        {
+          "brand": "Natural Balance",
+          "count": 13
+        }
+      ]
+    },
+    {
+      "queryIndex": 73,
+      "queryId": "bc14",
+      "query": "best limited ingredient dog food brands compared",
+      "category": "dog-food-comparison",
+      "timestamp": "2026-01-25T18:34:02.050Z",
+      "success": true,
+      "response": "Here’s a clear comparison between Nutro Original Adult Dry Dog Food (as a representative of Nutro) and Natural Balance dog food brands — focused on core differences to help you decide which may be better for your dog. \nPawDiet\n+1\n\n🐕 Brand Overview\nNutro\n\nMarketed as wholesome, natural food with real meat as the #1 ingredient and added vitamins, minerals, and antioxidants. \nnutro.com\n\nOffers Natural Choice, Ultra, Limited Ingredient Diet, and Max product lines. \nnutro.com\n\nMost formulas are grain-inclusive, though some grain-free options exist. \nWag!\n\nUses whole-food ingredients like meats, grains/veg, and fruits without artificial flavors, colors, or preservatives. \nReddit\n\nNatural Balance\n\nKnown especially for Limited Ingredient Diets (L.I.D.) — simplified recipes designed to reduce allergens. \nWikipedia\n\nOffers grain-inclusive and grain-free formulas with novel proteins like duck, salmon, venison. \nChewy\n\nPositioned toward dogs that may have sensitive digestive systems or food sensitivities. \nChewy\n\n🧠 Key Differences\n🍗 Ingredient Philosophy\n\nNutro\n\nEmphasizes “natural” ingredients and balanced nutrition for healthy dogs.\n\nBroad range of proteins and formulas tailored to age, size, and needs. \nnutro.com\n\nPremium lines (like Nutro Ultra) are generally seen as higher-end than basic kibble. \nReddit\n\nNatural Balance\n\nStrong focus on limiting ingredients to reduce potential allergens.\n\nExcellent choice if your dog reacts poorly to diets with many components. \nChewy\n\nLess variety than Nutro outside of the L.I.D. category. \nChewy\n\n👉 Bottom line: Nutro tends to be broader and balanced for general use, while Natural Balance excels at simplified, sensitivity-friendly recipes.\n\n🐶 Digestibility and Sensitivities\n\nNatural Balance L.I.D. often performs better in digestive tolerance for dogs with allergies or food intolerances. \nChewy\n\nNutro generally digests well for many dogs, but some sensitive dogs may do better on very limited formulas. \nReddit\n\n👉 If your dog has a sensitive stomach or known food sensitivities, Natural Balance’s limited ingredient recipes are often better tolerated.\n\n🩺 Quality & Ingredient Simplicity\n\nNutro\n\nUses quality proteins and natural ingredients, but ingredient lists can be longer than in L.I.D. formulas. \nWag!\n\nSome Nutro products (e.g., Nutro Ultra) are higher quality than basic options. \nReddit\n\nNatural Balance\n\nL.I.D. formulas are inherently simpler and can make identifying allergens easier. \nChewy\n\nNot all formulas are grain-free or ultra-premium, so quality can vary by line.\n\n👉 For ingredient simplicity, Natural Balance L.I.D. usually has the edge, while Nutro offers broader, balanced options.\n\n💰 Price & Value\n\nNutro’s higher-end lines (Ultra and some Limited Ingredient Diets) can be more expensive than basic kibbles. \nReddit\n\nNatural Balance’s L.I.D. formulas also tend toward the higher end due to specialized ingredients. \nChewy\n\n👉 Value depends on your dog’s needs — if sensitivity is a concern, the extra cost for specialized formulas may be worth it.\n\n📊 General Suitability\nFeature\tNutro\tNatural Balance\nBest for general daily nutrition\t✅\t⚪\nSensitive stomach / allergies\t⚪\t✅\nBroad product variety\t✅\t⚪\nLimited ingredient simplicity\t⚪\t✅\nDifferent life stages & sizes\t✅\t⚪\n🐾 Quick Recommendations\n\nChoose Nutro if:\n\nYou want a general premium diet with wholesome natural ingredients.\n\nYour dog is healthy with no major sensitivities.\n\nYou want variety across life stages and flavors.\n\nChoose Natural Balance if:\n\nYour dog has digestive issues or food sensitivities.\n\nYou prefer a simpler ingredient list to rule out allergies.\n\nYou want novel protein options less common in mainstream formulas.\n\n🩺 Safety Note\n\nBoth Nutro and Natural Balance have had brands listed in past FDA reports for grain-free diets linked to diluted cardiomyopathy (DCM) investigations, though the issue relates to diet types rather than quality per se. \nWikipedia\n\nThis underscores the importance of consulting your veterinarian before making major diet changes or selecting grain-free formulas.\n\nIf you’d like, tell me your dog’s age, breed, and any health issues, and I can suggest specific formulas from each brand that might be best!",
+      "responseTimeMs": 8758,
+      "brandMentions": [
+        {
+          "brand": "Nutro",
+          "count": 19
+        },
+        {
+          "brand": "Natural Balance",
+          "count": 12
+        },
+        {
+          "brand": "Chewy",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "queryIndex": 74,
+      "queryId": "bc15",
+      "query": "premium dog food brand comparison",
+      "category": "dog-food-comparison",
+      "timestamp": "2026-01-25T18:34:13.812Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 96643,
+      "brandMentions": [],
+      "error": "No response received"
+    },
+    {
+      "queryIndex": 75,
+      "queryId": "dt01",
+      "query": "best dog treats for training",
+      "category": "dog-treats",
+      "timestamp": "2026-01-25T18:35:53.948Z",
+      "success": true,
+      "response": "Here are some of the best dog treats for training — ideal for reinforcing good behavior with tasty, easy-to-consume rewards. For training, choose treats that are small, soft/chewable, low-calorie, and super enticing so your pup stays motivated without filling up too fast. \nAmerican Kennel Club\n+1\n\nPupford Freeze Dried Beef Training Treats\n$16.89\n•\nPupford + others\nZuke's Mini Naturals Peanut Butter\n$3.50\n•\nAlbertsons + others\nZuke's Mini Naturals Chicken\n$3.50\n•\nAlbertsons + others\nBlue Buffalo Bits Chicken\n$10.49\n•\nTarget + others\nPup-Peroni Training Treats\n$3.49\n•\nChewy.com + others\nGracie's Training Bundle\n$33.99\n•\nGracie's Doggie Delights + others\nNatural Dog Company Training Bites\n$4.90\n•\nTuesday's Natural Dog Company + others\nPurina Salmon Puppy Training Treats\n$3.98\n•\nWalmart + others\n🥇 Top Training Treat Picks\n\nPupford Freeze Dried Beef Training Treats – Freeze-dried liver makes these high-value but low-calorie treats dogs love; great for quick rewards.\n\nZuke's Mini Naturals Peanut Butter & Zuke's Mini Naturals ChickenBlue Buffalo Bits ChickenPup-Peroni Training TreatsGracie's Training BundleNatural Dog Company Training BitesPurina Salmon Puppy Training Treats",
+      "responseTimeMs": 14563,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 2
+        },
+        {
+          "brand": "Purina",
+          "count": 2
+        },
+        {
+          "brand": "Chewy",
+          "count": 1
+        },
+        {
+          "brand": "Walmart",
+          "count": 1
+        },
+        {
+          "brand": "Target",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 76,
+      "queryId": "dt02",
+      "query": "healthiest dog treats",
+      "category": "dog-treats",
+      "timestamp": "2026-01-25T18:36:11.537Z",
+      "success": true,
+      "response": "Here are some of the healthiest dog treats you can give your pup — great for everyday snacking or training without all the junk. Healthy treats are typically made with real, recognizable ingredients (like real meat, veggies, or limited added sugars), low in artificial additives/preservatives, and often lower in calories. \nKOHA Pet\n+1\n\nBlue Nudges Chicken Grillers Natural Dog Treats\n$11.49\n•\nChewy.com + others\nFull Moon All Natural Chicken Jerky Tenders\n$10.49\n•\nChewy.com + others\nAll Natural Turkey Jerky Dog Treats\n$14.00\n•\nEtsy\nFreeze Dried Salmon Dog Treats BRITTLE\n$11.99\n•\nEtsy\nFruitables Baked Dog Treats (Pumpkin)\n$15.99\n•\nWalmart - Lifes Organics, Inc.\nWholesomes Gourmet Rewards Lite Bites\n$6.99\n•\nOnly Natural Pet + others\nHonest Kitchen Surf & Turf Meaty Littles\n$14.99\n•\nThe Honest Kitchen + others\n5 Calorie SuperFood Dog Treats Blueberry Peanut\n$12.82\n•\nReally Natural\n🐶 Top Healthy Everyday Treats\n\nBlue Nudges Chicken Grillers Natural Dog Treats – Made with real USA chicken first and no artificial flavors or preservatives — a wholesome, flavorful option dogs enjoy.\n\nFull Moon All Natural Chicken Jerky Tenders – Real chicken jerky free from antibiotics, offering high-quality protein in a simple treat.\n\nAll Natural Turkey Jerky Dog Treats – Single-ingredient turkey strips — ideal if you want minimal ingredients and easily digestible protein.\n\nFreeze Dried Salmon Dog Treats BRITTLE – 100% wild salmon, freeze-dried for nutrition and rich in Omega-3s for coat/skin health.\n\n🍎 Healthy + Lower-Calorie Options\n\nFruitables Baked Dog Treats (Pumpkin) – Low-calorie, pumpkin-ba\namazon.com\nWholesomes Gourmet Rewards Lite Bites",
+      "responseTimeMs": 12474,
+      "brandMentions": [
+        {
+          "brand": "Chewy",
+          "count": 2
+        },
+        {
+          "brand": "Amazon",
+          "count": 1
+        },
+        {
+          "brand": "Walmart",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 77,
+      "queryId": "dt03",
+      "query": "best dental chews for dogs",
+      "category": "dog-treats",
+      "timestamp": "2026-01-25T18:36:26.706Z",
+      "success": true,
+      "response": "Here are some of the best dental chews for dogs — tasty treats that help reduce plaque & tartar, freshen breath, and support oral health when used regularly as part of a dental care routine (including brushing and vet cleanings). Many top picks are recognized by veterinarians and some meet the Veterinary Oral Health Council (VOHC) standards for effectiveness. \nhoustonpetdentals.com\n+2\nmontanapetdentist.com\n+2",
+      "responseTimeMs": 9553,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 78,
+      "queryId": "dt04",
+      "query": "best natural dog treats",
+      "category": "dog-treats",
+      "timestamp": "2026-01-25T18:36:39.139Z",
+      "success": true,
+      "response": "Here are some of the best natural dog treats you can give your pup — made with wholesome ingredients, minimal fillers, and no artificial preservatives or flavors. Natural treats are great for everyday snacking, training, and keeping your dog happy and healthy by focusing on real protein, vegetables, and simple recipes. \nFarm To Pet\n+1\n\nOpen Farm Dehydrated Cod Skins Dog Treats\n$13.99\n•\nOpen Farm + others\nFull Moon Dog Treats Savory Bites\n$14.99\n•\nFull Moon Pet + others\nSavory Prime Chicken Jerky\n$20.99\n•\nAlbertsons + others\nPortland Pet Food Company Grain & Gluten-Free Biscuit Pack\n$9.99\n•\nPortland Pet Food Company + others\nBlue Buffalo BLUE Bits Natural Soft‑Moist Training Dog Treat\n$9.98\n•\nChewy.com + others\nZuke’s Mini Naturals Peanut Butter Training Treats\n$3.50\n•\nAlbertsons + others\nGolden Rewards Sweet Potato Wrapped with Chicken Dog Treats\n$9.97\n•\nWalmart + others\nJustFoodForDogs Healthy Chicken Dog Treats Bundle\n$16.50\n•\nJustFoodForDogs\n🐾 Top Natural & Wholesome Treats\n\nOpen Farm Dehydrated Cod Skins Dog Treats – Simple, nutrient-rich 100% wild-caught cod skins, rich in omega-3s for skin & coat; no artificial fillers.\n\nFull Moon Dog Treats Savory Bites – Grain-free, human-grade beef treats made in small batches in the USA — tasty and clean.\n\nSavory Prime Chicken Jerky – Hand-sliced, slow-roasted antibiotic-free chicken jerky with minimal processing.\n\n🍠 Balanced Natural Everyday Snacks\n\nPortland Pet Food Company Grain & Gluten‑Free Biscuit Pack – Crunchy biscuits with real fruit/herb flavors; wholesome and easy on digestion.\n\nBlue Buffalo BLUE Bits Natural Soft‑Moist Training Dog Treat – Soft, natural bites with quality beef first and added nutritious support.\n\nZuke’s Mini Naturals Peanut Butter Training Treats – Small, natural treats great for tGolden Rewards Sweet Potato Wrapped with Chicken Dog TreatsJustFoodForDogs Healthy Chicken Dog Treats Bundle",
+      "responseTimeMs": 11544,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 2
+        },
+        {
+          "brand": "Chewy",
+          "count": 1
+        },
+        {
+          "brand": "Walmart",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 79,
+      "queryId": "dt05",
+      "query": "best dog treats for sensitive stomachs",
+      "category": "dog-treats",
+      "timestamp": "2026-01-25T18:36:53.896Z",
+      "success": true,
+      "response": "Here are some top-rated dog treats that are gentle on sensitive stomachs — ideal if your pup gets upset easily or has food sensitivities. Many of these are limited-ingredient, easily digested, grain-free, or formulated with prebiotics/fiber to support digestion and minimize tummy troubles. \npetpalaceresort.com\n+2\nrover.com\n+2",
+      "responseTimeMs": 9927,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 80,
+      "queryId": "dt06",
+      "query": "best low calorie dog treats",
+      "category": "dog-treats",
+      "timestamp": "2026-01-25T18:37:07.132Z",
+      "success": true,
+      "response": "Here are some top low-calorie dog treats — great for training, weight control, or everyday rewards without packing on extra calories. Treats should only make up about 10% of your dog’s daily calories (so keep portions small!) and choosing lower-calorie options helps with weight management.",
+      "responseTimeMs": 10218,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 81,
+      "queryId": "dt07",
+      "query": "best grain free dog treats",
+      "category": "dog-treats",
+      "timestamp": "2026-01-25T18:37:21.302Z",
+      "success": true,
+      "response": "Here are some top low-calorie dog treats — great for training, weight control, or everyday rewards without packing on extra calories. Treats should only make up about 10% of your dog’s daily calories (so keep portions small!) and choosing lower-calorie options helps with weight management. \nPreventive Vet\n\nFruitables Skinny Minis Apple & Bacon Dog Treats\n$5.49\n•\nOnly Natural Pet + others\nPupcorn Plus Chicken & Cheddar Dog Treats\n$9.99\n•\nBlain's Farm & Fleet + others\nFruitables Pumpkin Low‑Calorie Dog Treats\n$15.99\n•\nWalmart - Lifes Organics, Inc.\nWholesomes Gourmet Rewards Lite Bites\n$6.99\n•\nOnly Natural Pet + others\nRoyal Canin Veterinary Diet Satiety Dog Treats\n$12.49\n•\nChewy.com + others\nHill's Prescription Diet Metabolic Weight Management Dog Treats\n$13.81\n•\nPetMeds + others\nOnward Hound Training Treats (Low Cal)\n$16.49\n•\nOnward Hound + others\nNutriSentials Lean Treats for Dogs\n$3.99\n•\nHealthyPets.com + others\n🍏 Everyday & Training Favorites (Low Calorie)\n\nFruitables Skinny Minis Apple & Bacon Dog Treats – Crunchy, natural treats (~8 calories each), great for training or daily rewards.\n\nPupcorn Plus Chicken & Cheddar Dog Treats – Light, airy treats with <4 calories per piece and added prebiotics/probiotics — excellent for digestion too.\n\nFruitables Pumpkin Low‑Calorie Dog Treats – Pumpkin-based bites that are flavorful and about 8 calories each.\n\nWholesomes Gourmet Rewards Lite Bites – Crunchy lamb & veggie-based treats with a balanced low calorie profile.\n\n🐾 Support for Weight Management\n\nThese are ideal if you’re managing your dog’s weight or feeding treats frequently:\n\nRoyal Canin Veterinary Diet Satiety Dog Treats – Very low-calorie (~3.5 calories each) treat designed to fit with a weight-loss plan.\n\nHill's Prescription Diet Metabolic Weight Management Dog Treats – Vet-recommended treat that complements weight loss diets.\n\n🐶 Specialized & Simple Options\n\nOnward Hound Training Treats (Low Cal) – Soft, hypoallergenic treats (~3.5 calories) great for dogs with food sensitivities.\n\nNutriSentials Lean Treats for Dogs – Simple lean chicken treats with a high palatability and low fat.\n\n🥕 Bonus: Real Food Alternatives (Non-Commercial Treats)\n\nHealthy human foods can also be used as low-calorie dog treats — in small pieces and under veterinary approval:\n\nVeggies like carrot sticks, cucumber slices, green beans — very low in calories and nutritious. \nAAHA\n+1\n\nFruit like apple slices (no seeds) — a sweet, fiber-rich option. \nASPCA\n\nTips for use:\n\nBreak treats into tiny pieces for training so you can reward frequently without adding lots of calories. \nPreventive Vet\n\nTrack daily calories so treats don’t exceed ~10% of your pet’s daily intake. \nPreventive Vet\n\nWant me to tailor these picks to your dog’s size or breed (e.g., small vs. large dog)?",
+      "responseTimeMs": 7535,
+      "brandMentions": [
+        {
+          "brand": "Hill's",
+          "count": 2
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 2
+        },
+        {
+          "brand": "Chewy",
+          "count": 1
+        },
+        {
+          "brand": "Walmart",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 82,
+      "queryId": "dt08",
+      "query": "best dog treats for puppies",
+      "category": "dog-treats",
+      "timestamp": "2026-01-25T18:37:32.612Z",
+      "success": true,
+      "response": "Here are highly rated dog treats that are especially great for puppies — soft, small, and easy on growing teeth and tummies. Treats for puppies should be bite-sized, soft or chewy, and made with quality ingredients that support training and development. Soft texture helps puppies chew safely and makes training more rewarding. \npetmd.com\n\nWellness Soft Puppy Bites\n$9.99\n•\nChewy.com + others\nBlue Buffalo Bits Chicken Soft Training Dog Treats\n$10.49\n•\nTarget + others\nBlue Buffalo Baby BLUE Puppy Training Treats\n$4.99\n•\nPetSmart + others\nPup‑Peroni Training Treats\n$3.49\n•\nChewy.com + others\nZuke’s Mini Naturals Real Peanut Butter\n$3.50\n•\nAlbertsons + others\nThree Dog Bakery Puppy Butters\n$4.99\n•\nTarget + others\nN‑Bone Chicken Puppy Teething Treats\n$8.99\n•\nWalmart - Happy Dog Place Inc + others\n\nproduct11\",\"KONG Easy Treat Puppy\"]\n]}\n\n🐶 Soft & Training Favorites (Best for Young Puppies)\n\n****: Soft, chewy treats made with real lamb & salmon — excellent for t",
+      "responseTimeMs": 11852,
+      "brandMentions": [
+        {
+          "brand": "Chewy",
+          "count": 4
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 2
+        },
+        {
+          "brand": "Target",
+          "count": 2
+        },
+        {
+          "brand": "Wellness",
+          "count": 1
+        },
+        {
+          "brand": "PetSmart",
+          "count": 1
+        },
+        {
+          "brand": "Walmart",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 83,
+      "queryId": "dt09",
+      "query": "best long lasting dog chews",
+      "category": "dog-treats",
+      "timestamp": "2026-01-25T18:37:46.626Z",
+      "success": true,
+      "response": "Here are some of the best long-lasting dog chews and chew toys that help keep your pup busy, support dental health, and satisfy their natural urge to chew — from durable toys to tough edible chews. Long-lasting options are especially good for heavy chewers but can be enjoyed by most dogs under supervision. \nChewy\n+1\n\nKONG Extreme Dog Toy\n$14.95\n•\nLambert Vet Supply + others\nClassic Kong Dog Toy\n$10.95\n•\nJefferspet.com + others\nBenebone Puppy Dog Chew Toys 4‑Pack\n$24.95\n•\nChewy.com + others\nNylabone Gourmet Style Strong Chew Wishbone Dog Toy\n$9.99\n•\nAlbertsons + others\nPetstages Super Dogwood Chew Dog Toy\n$4.59\n•\nChewy.com + others\nExtra Large Himalayan Yak Cheese Dog Chews\n$31.99\n•\nEtsy\nJUMBO Elk Antler Dog Chew\n$48.00\n•\nEtsy\nIndestructibone Mega Max Dog Toy\n$45.95\n•\nCanine Athletes + others\n🦷 Heavy-Duty & Classic Favorites (GreKONG Extreme Dog ToyClassic Kong Dog ToyBenebone Puppy Dog Chew Toys 4‑PackNylabone Gourmet Style Strong Chew Wishbone Dog Toy",
+      "responseTimeMs": 11664,
+      "brandMentions": [
+        {
+          "brand": "Chewy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "queryIndex": 84,
+      "queryId": "dt10",
+      "query": "best single ingredient dog treats",
+      "category": "dog-treats",
+      "timestamp": "2026-01-25T18:38:01.211Z",
+      "success": true,
+      "response": "Here are some of the best long-lasting dog chews and chew toys that help keep your pup busy, support dental health, and satisfy their natural urge to chew — from durable toys to tough edible chews. Long-lasting options are especially good for heavy chewers but can be enjoyed by most dogs under supervision. \nChewy\n+1\n\nKONG Extreme Dog Toy\n$14.95\n•\nLambert Vet Supply + others\nClassic Kong Dog Toy\n$10.95\n•\nJefferspet.com + others\nBenebone Puppy Dog Chew Toys 4‑Pack\n$24.95\n•\nChewy.com + others\nNylabone Gourmet Style Strong Chew Wishbone Dog Toy\n$9.99\n•\nAlbertsons + others\nPetstages Super Dogwood Chew Dog Toy\n$4.59\n•\nChewy.com + others\nExtra Large Himalayan Yak Cheese Dog Chews\n$31.99\n•\nEtsy\nJUMBO Elk Antler Dog Chew\n$48.00\n•\nEtsy\nIndestructibone Mega Max Dog Toy\n$45.95\n•\nCanine Athletes + others\n🦷 Heavy-Duty & Classic Favorites (Great for Powerful Chewers)\n\nKONG Extreme Dog Toy – Ultra-durable rubber chew toy built for serious chewers; stuff with kibble or peanut butter and freeze for extra-long play.\n\nClassic Kong Dog Toy – A legendary all-purpose chew/play toy; tough yet bouncy, good for stuffing and extended engagement.\n\nBenebone Puppy Dog Chew Toys 4‑Pack – Durable flavored chews (bacon, fish, maple) shaped to give dogs a satisfying gnawing experience.\n\nNylabone Gourmet Style Strong Chew Wishbone Dog Toy – Flavor-infused chew that satisfies chewing instincts and lasts longer than basic treats.\n\n🐾 Everyday Long-Lasting Chews & Safe Alternatives\n\nPetstages Super Dogwood Chew Dog Toy – A safe, synthetic “wood” alternative that mimics stick chewing without splinters.\n\nExtra Large Himalayan Yak Cheese Dog Chews – Natural yak cheese chews that are edible and long-lasting — great for moderate to strong chewers. \nchompchew\n\nJUMBO Elk Antler Dog Chew – Natural antler chew that stands up to hard chewing and promotes dental health. These are nutrient-rich and long-lasting.\n\nIndestructibone Mega Max Dog Toy – A nearly indestructible chew toy made for aggressive chewers who destroy others — excellent endurance and safety focus.\n\n🐶 Quick Tips for Choosing Long-Lasting Chews\n\nMatch the chew to your dog’s chewing style: Edible chews (like yak or bully sticks) entertain and give flavor, while durable toys (like KONG or Nylabone) stand up to repetitive gnawing without breaking apart. \nChewy\n\nSupervise initial use: Especially with tough chewers, cranky shapes, or bones/edibles — watch for small pieces that could be swallowed.\n\nRotate for novelty: Rotating chews and toys keeps them exciting longer and reduces boredom. \nChewy\n\nIf you tell me your dog’s size and chewing strength (light, moderate, or heavy), I can tailor these picks even more precisely! 🐕‍🦺",
+      "responseTimeMs": 7811,
+      "brandMentions": [
+        {
+          "brand": "Chewy",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "queryIndex": 85,
+      "queryId": "cf01",
+      "query": "best cat food brands",
+      "category": "cat-food",
+      "timestamp": "2026-01-25T18:38:11.892Z",
+      "success": true,
+      "response": "Here are some highly rated cat food options across different styles and needs — from everyday balanced nutrition to higher-protein, premium choices. Good cat food should be AAFCO-complete and balanced (right nutrients for life stage), ideally with named animal proteins listed early in the ingredients and fewer fillers. \npetmd.com\n+1\n\nFood\"],\n[\"turn0product0\",\"Blue Buffalo Wilderness Adult Indoor Cat Food\"],\n[\"turn0product6\",\"Blue Buffalo Wilderness Adult Cat Food Salmon Recipe\"],\n[\"turn0product3\",\"Rachael Ray Nutrish Indoor Complete Dry Cat Food\"],\n[\"turn0product12\",\"Fancy Feast Dry Cat Food Ocean Fish Salmon\"],\n[\"turn0product7\",\"Friskies Dry Cat Food Seafood Sensations\"],\n[\"turn0product10\",\"I and Love and You Cat Food Variety Pack\"]\n]}\n\n🐱 Premium & Highly Nutri",
+      "responseTimeMs": 12368,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 2
+        },
+        {
+          "brand": "Rachael Ray",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 86,
+      "queryId": "cf02",
+      "query": "best wet cat food",
+      "category": "cat-food",
+      "timestamp": "2026-01-25T18:38:27.931Z",
+      "success": true,
+      "response": "Here are some highly rated cat food options across different styles and needs — from everyday balanced nutrition to higher-protein, premium choices. Good cat food should be AAFCO-complete and balanced (right nutrients for life stage), ideally with named animal proteins listed early in the ingredients and fewer fillers. \nPetMD\n+1\n\nPurina ONE Tender Selects Blend Dry Cat Food\n$19.49\n•\nPetco.com + others\nPurina Cat Chow Complete Cat Food\n$18.29\n•\nChewy.com + others\nBlue Buffalo Wilderness Adult Indoor Cat Food\n$22.98\n•\nChewy.com + others\nBlue Buffalo Wilderness Adult Cat Food Salmon Recipe\n$22.98\n•\nPetco.com + others\nRachael Ray Nutrish Indoor Complete Dry Cat Food\n$9.49\n•\nAlbertsons + others\nFancy Feast Dry Cat Food Ocean Fish Salmon\n$9.12\n•\nChewy.com + others\nFriskies Dry Cat Food Seafood Sensations\n$15.99\n•\nChewy.com + others\nI and Love and You Cat Food Variety Pack\n$17.99\n•\nGrove Collaborative + others\n🐱 Premium & Highly Nutritious\n\nGreat for overall health, protein-rich recipes, and often better ingredients.\n\nPurina ONE Tender Selects Blend Dry Cat Food – Real salmon first ingredient, no artificial fillers, supports skin & coat with omega-6 fats.\n\nBlue Buffalo Wilderness Adult Indoor Cat Food – High-protein, grain-free inspired by natural carnivore diets.\n\nBlue Buffalo Wilderness Adult Cat Food Salmon Recipe – Another protein-focused Blue Buffalo formula cats tend to enjoy.\n\n🍽 Balanced, Everyday Nutrition\n\nGood for most adult cats and great value daily food.\n\nPurina Cat Chow Complete Cat Food – Balanced nutrition for all life stages with essential vitamins and minerals.\n\nRachael Ray Nutrish Indoor Complete Dry Cat Food – Natural ingredients with real chicken and salmon.\n\n🐾 Classic & Budget-Friendly Favorites\n\nPopular with many cat owners and widely available.\n\nFancy Feast Dry Cat Food Ocean Fish Salmon – Great taste and budget price point.\n\nFriskies Dry Cat Food Seafood Sensations – Very popular, complete nutrition with high palatability.\n\n🍲 Wet / Variety Pack Options\n\nWet food can help hydration and variety in your cat’s diet.\n\nI and Love and You Cat Food Variety Pack – Canned high-protein meals with real meat and limited fillers.\n\n🧠 Tips for Choosing\n\nLife stage matters: Kittens, adults, and seniors have different nutrient needs — choose formulas labeled for your cat’s age. \nPetMD\n\nWet + dry combo: Offering both can improve hydration and dental health. \nChewy\n\nConsult your vet: Especially for cats with health issues (weight, urinary, allergies), your vet can recommend prescription or specialized diets. \nponderosavetclinic.com\n\nIf you want, tell me your cat’s age and any dietary needs (indoor/outdoor, sensitive stomach, overweight, etc.) and I can tailor the list even better!",
+      "responseTimeMs": 7338,
+      "brandMentions": [
+        {
+          "brand": "Blue Buffalo",
+          "count": 5
+        },
+        {
+          "brand": "Chewy",
+          "count": 5
+        },
+        {
+          "brand": "Purina",
+          "count": 4
+        },
+        {
+          "brand": "Rachael Ray",
+          "count": 2
+        },
+        {
+          "brand": "Petco",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 87,
+      "queryId": "cf03",
+      "query": "best dry cat food",
+      "category": "cat-food",
+      "timestamp": "2026-01-25T18:38:38.639Z",
+      "success": true,
+      "response": "Here are some of the best dry cat food options you can consider — from everyday complete nutrition to higher-protein premium recipes. Good dry food should offer a complete and balanced diet with quality protein and appropriate nutrients for your cat’s life stage. \nPetMD\n+1\n\nTaste of the Wild Rocky Mountain Cat Food\n$19.99\n•\nOnly Natural Pet + others\nPurina ONE Tender Selects Blend Dry Cat Food\n$19.49\n•\nPetco.com + others\nPurina Cat Chow Complete Cat Food\n$18.29\n•\nChewy.com + others\nPurina ONE Indoor Advantage Dry Cat Food\n$10.55\n•\nPetco.com + others\nBlue Buffalo Tastefuls Adult Indoor Dry\n$20.98\n•\nChewy.com + others\nBlue Buffalo Wilderness Adult Indoor Cat Food\n$22.98\n•\nChewy.com + others\nPurina Cat Chow Naturals Dry Cat Food\n$11.98\n•\nChewy.com + others\nMeow Mix Original Choice Dry Cat Food\n$6.99\n•\nAlbertsons + others\n🐱 Premium & High-Quality Nutrition\n\nThese dry foods are often richer in protein and use higher-quality ingredients — great for overall health, muscle maintenance, and energy. \nCats.com\n\nTaste of the Wild Rocky Mountain Cat Food – High-protein (~42%*) grain-free formula with roasted venison & salmon for natural energy and lean muscle support — excellent overall choice.\nPurina ONE Tender Selects Blend Dry Cat Food – Real salmon first ingredient, balanced nutrition and antioxidants for immune support.\nBlue Buffalo Tastefuls Adult Indoor Dry",
+      "responseTimeMs": 11528,
+      "brandMentions": [
+        {
+          "brand": "Purina",
+          "count": 5
+        },
+        {
+          "brand": "Chewy",
+          "count": 4
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 3
+        },
+        {
+          "brand": "Taste of the Wild",
+          "count": 2
+        },
+        {
+          "brand": "Petco",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 88,
+      "queryId": "cf04",
+      "query": "best cat food for indoor cats",
+      "category": "cat-food",
+      "timestamp": "2026-01-25T18:38:52.378Z",
+      "success": true,
+      "response": "Here are some of the top-rated dry cat foods specifically great for indoor cats — formulas tailored to help with things indoor cats commonly face, like weight management, hairball control, digestion, and lower activity levels. Many of these are vet-recommended or frequently chosen by cat owners for indoor lifestyles. \nBusiness Insider\n+1\n\nRoyal Canin Indoor Adult Cat Dry Food\n$23.99\n•\nRoyal Canin + others\nPurina ONE Indoor Advantage Dry Cat Food\n$10.28\n•\nChewy.com + others\nHill's Science Diet Adult Indoor Dry Cat Food\n$21.99\n•\nTractor Supply Company + others\nBlue Buffalo Wilderness Adult Indoor Cat Food\n$22.98\n•\nChewy.com + others\nIams Proactive Health Indoor Weight Hairball Care Dry Cat Food\n$9.89\n•\nTarget + others\nBlue Buffalo Tastefuls Adult Indoor Chicken & Brown Rice Dry\n$23.99\n•\nAlbertsons + others\nPurina Cat Chow Naturals Indoor Dry Cat Food\n$6.94\n•\nWalmart + others\nPurina Cat Chow Indoor Dry Cat Food\n$7.79\n•\nPetco.com + others\n🏆 Best Overall Indoor Cat Dry Foods\n\nRoyal Canin Indoor Adult Cat Dry Food – Highly rated and specialized for indoor cats; moderate calories, fiber for hairball control, and nutrients to help digestion and weight maintenance.\n\nPurina ONE Indoor Advantage Dry Cat FoodHill's Science Diet Adult Indoor Dry Cat Food\nSploot Vets\nBlue Buffalo Wilderness Adult Indoor Cat FoodIams Proactive Health Indoor Weight Hairball Care Dry Cat Food",
+      "responseTimeMs": 11694,
+      "brandMentions": [
+        {
+          "brand": "Purina",
+          "count": 4
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 3
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 3
+        },
+        {
+          "brand": "Iams",
+          "count": 2
+        },
+        {
+          "brand": "Hill's",
+          "count": 2
+        },
+        {
+          "brand": "Chewy",
+          "count": 2
+        },
+        {
+          "brand": "Petco",
+          "count": 1
+        },
+        {
+          "brand": "Walmart",
+          "count": 1
+        },
+        {
+          "brand": "Target",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 89,
+      "queryId": "cf05",
+      "query": "best cat food for sensitive stomach",
+      "category": "cat-food",
+      "timestamp": "2026-01-25T18:39:06.490Z",
+      "success": true,
+      "response": "Here are some of the best cat food options for sensitive stomachs — formulas with easily digestible ingredients, gentle proteins, and digestive support that many cats with tummy issues do well on. Sensitive stomach diets often avoid hard-to-digest fillers and focus on quality protein and fiber to help reduce vomiting, diarrhea, and gas. \nPetMD\n+1\n\nPurina ONE Sensitive Skin & Stomach Dry Cat Food\n$10.96\n•\nPetco.com + others\nHill's Science Diet Sensitive Stomach & Skin Dry Cat Food\n$23.99\n•\nHill's Pet Nutrition + others\nBlue Buffalo Tastefuls Sensitive Stomach Dry Cat Food\n$28.98\n•\nChewy.com + others\nRoyal Canin Sensitive Digestion Dry Cat Food\n$24.99\n•\nRoyal Canin + others\nPurina Pro Plan Sensitive Skin & Stomach Lamb & Rice Formula\n$28.09\n•\nPetSmart + others\nIams Proactive Health Sensitive Digestion & Skin Dry Cat Food\n$9.88\n•\nChewy.com + others\nPure Balance Pro Plus Sensitive Skin & Stomach Dry Cat Food\n$15.97\n•\nWalmart + others\nNulo Prowess Sensitive Stomach Adult Cat Dry Food\n$45.99\n•\nPetco.com + others\n🐱 Top Dry Cat Foods for Sensitive Stomachs\n\nThese are well-reviewed dry diets formulated to be easy on digestion and help cats with sensitivity issues:\n\nPurina ONE Sensitive Skin & Stomach Dry Cat Food – Great overall choice with real turkey first and prebiotic fiber to support digestive health and healthy skin.\n\nHill's Science Diet Sensitive Stomach & Skin Dry Cat Food – Vet-trusted formula with prebiotic fiber that supports gut health and nutrient absorption (excellent for mild chronic sensitivities).\n\nBlue Buffalo Tastefuls Sensitive Stomach Dry Cat Food – Quality proteins and wholesome grains with added nutrients; good for cats needing gentle digestion support.\n\nRoyal Canin Sensitive Digestion Dry Cat Food – Tailored for sensitive tummies with highly digestible proteins and prebiotics to help reduce digestive upset.\n\nPurina Pro Plan Sensitive Skin & Stomach Lamb & Rice Formula – Highly rated option with gentle lamb and rice plus omega fatty acids to also nurture skin and coaIams Proactive Health Sensitive Digestion & Skin Dry Cat FoodPure Balance Pro Plus Sensitive Skin & Stomach Dry Cat Food",
+      "responseTimeMs": 11810,
+      "brandMentions": [
+        {
+          "brand": "Purina",
+          "count": 4
+        },
+        {
+          "brand": "Hill's",
+          "count": 3
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 3
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 2
+        },
+        {
+          "brand": "Iams",
+          "count": 2
+        },
+        {
+          "brand": "Chewy",
+          "count": 2
+        },
+        {
+          "brand": "Petco",
+          "count": 2
+        },
+        {
+          "brand": "Nulo",
+          "count": 1
+        },
+        {
+          "brand": "PetSmart",
+          "count": 1
+        },
+        {
+          "brand": "Walmart",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 90,
+      "queryId": "cf06",
+      "query": "best grain free cat food",
+      "category": "cat-food",
+      "timestamp": "2026-01-25T18:39:20.363Z",
+      "success": true,
+      "response": "Here’s a curated list of well-reviewed grain-free cat foods (both dry and wet) that many cat owners and nutrition guides recommend — focusing on high-quality protein, minimal fillers, and grain-free formulas. Grain-free diets can help cats with grain sensitivities and often have higher animal-based protein, which aligns with their carnivorous needs, though grain-free isn’t automatically healthier for every cat — protein and overall nutrition matter most. \ncats.com\n+1\n\nGrain-Free Dry Cat Food\"],\n[\"turn0product0\",\"Purina Beyond Grain-Free Ocean Whitefish & Egg\"],\n[\"turn0product8\",\"Open Farm Catch-of-the-Season Whitefish Dry Cat Food\"],\n\"turn0product6\",\"Reveal Natural Wet Cat Food Fish Vari",
+      "responseTimeMs": 13129,
+      "brandMentions": [
+        {
+          "brand": "Purina",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 91,
+      "queryId": "cf07",
+      "query": "best senior cat food",
+      "category": "cat-food",
+      "timestamp": "2026-01-25T18:39:36.527Z",
+      "success": true,
+      "response": "Here are some highly recommended senior cat food options — from everyday nutrition to premium formulas — to help support your older cat’s joint health, digestion, immune system, and overall vitality. Senior cat diets are tailored to cats typically 7+ years and may include adjusted calories, added antioxidants, and beneficial fats for aging health needs. \nRea Road Animal Hospital\n+1\n\nRoyal Canin Indoor 7+ Dry Cat Food\n$23.99\n•\nRoyal Canin + others\nPurina Cat Chow Senior Essentials 7+\n$18.59\n•\nTarget + others\nHill's Science Diet Senior 11+ Chicken Recipe\n$21.99\n•\nHill's Pet Nutrition + others\nPurina ONE Vibrant Dry Cat Food\n$17.98\n•\nPetSmart + others\nIams Proactive Health Chicken Senior\n$16.97\n•\nChewy.com + others\nHill's Science Diet Adult 7+ Senior Vitality\n$24.99\n•\nHill's Pet Nutrition + others\nBlue Buffalo Healthy Aging Chicken & Rice\n$15.98\n•\nChewy.com + others\nOrijen Guardian Senior Dry Cat Food\n$33.99\n•\nChewy.com + others\n🐱 Top Senior Cat Food Picks\n\nBalanced everyday nutrition\n\nRoyal Canin Indoor 7+ Dry Cat Food – Excellent overall senior formula with nutrients for energy, mobility, and digestive health; very high user rating.\n\nPurina Cat Chow Senior Essentials 7+ – Great value senior diet with glucosamine for joint support and antioxidants for immunity.\n\nVeterinarian-backed & premium nutrition\n\nHill's Science Diet Senior 11+ Chicken Recipe – Vet-formulated with omega fatty acids, easy-digest ingredients, and balanced minerals.\n\nHill's Science Diet Adult 7+ Senior Vitality – Supports brain function, energy,Purina ONE Vibrant Dry Cat FoodIams Proactive Health Chicken SeniorBlue Buffalo Healthy Aging Chicken & RiceOrijen Guardian Senior Dry Cat Food",
+      "responseTimeMs": 10475,
+      "brandMentions": [
+        {
+          "brand": "Hill's",
+          "count": 6
+        },
+        {
+          "brand": "Purina",
+          "count": 4
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 3
+        },
+        {
+          "brand": "Chewy",
+          "count": 3
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 2
+        },
+        {
+          "brand": "Orijen",
+          "count": 2
+        },
+        {
+          "brand": "Iams",
+          "count": 2
+        },
+        {
+          "brand": "PetSmart",
+          "count": 1
+        },
+        {
+          "brand": "Target",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 92,
+      "queryId": "cf08",
+      "query": "best kitten food",
+      "category": "cat-food",
+      "timestamp": "2026-01-25T18:39:50.249Z",
+      "success": true,
+      "response": "Here are some of the best kitten foods — both dry and wet — that provide the high protein, healthy fats, DHA, and complete nutrition kittens need for strong growth, brain development, and overall health. Kittens have special nutritional requirements, so choose formulas labeled for “kitten” or “growth” to make sure they’re getting everything they need. \nPetMD\n+1\n\nRoyal Canin Feline Kitten Dry Cat Food\n$29.99\n•\nRoyal Canin + others\nHill's Science Diet Kitten Chicken Recipe Dry Cat Food\n$21.99\n•\nPetSmart + others\nPurina ONE Healthy Kitten Formula Dry Cat Food\n$17.97\n•\nChewy.com + others\nIams Proactive Health Kitten Chicken Dry Cat Food\n$9.89\n•\nTarget + others\nPurina Kitten Chow Dry Food\n$7.28\n•\nLowe's + others\nBlue Buffalo Wilderness Dry Kitten Food\n$27.99\n•\nAlbertsons + others\nSHEBA Perfect Portions Kitten Wet Cat Food Variety Pack\n$12.57\n•\nChewy.com + others\nSheba Perfect Portions Savory Chicken Entree Kitten Wet Cat Food\n$1.18\n•\nWalmart + others\n🐱 Top Dry Kitten Foods (Daily Nutrition)\n\nRoyal Canin Feline Kitten Dry Cat FoodHill's Science Diet Kitten Chicken Recipe Dry Cat FoodPurina ONE Healthy Kitten Formula Dry Cat FoodIams Proactive Health Kitten Chicken Dry Cat FoodPurina Kitten Chow Dry FoodBlue Buffalo Wilderness Dry Kitten FoodSHEBA Perfect Portions Kitten Wet Cat Food Variety Pack",
+      "responseTimeMs": 11378,
+      "brandMentions": [
+        {
+          "brand": "Purina",
+          "count": 4
+        },
+        {
+          "brand": "Royal Canin",
+          "count": 3
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 2
+        },
+        {
+          "brand": "Iams",
+          "count": 2
+        },
+        {
+          "brand": "Hill's",
+          "count": 2
+        },
+        {
+          "brand": "Chewy",
+          "count": 2
+        },
+        {
+          "brand": "PetSmart",
+          "count": 1
+        },
+        {
+          "brand": "Walmart",
+          "count": 1
+        },
+        {
+          "brand": "Target",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 93,
+      "queryId": "cf09",
+      "query": "best limited ingredient cat food",
+      "category": "cat-food",
+      "timestamp": "2026-01-25T18:40:05.083Z",
+      "success": true,
+      "response": "Here are some of the best limited-ingredient cat food options — great for cats with food sensitivities, allergies, or digestive issues. Limited ingredient diets (LIDs) typically use a single animal protein source + minimal carbs, which can help reduce potential allergens and upset tummies. \nCats.com\n+1\n\nFirstMate Chicken Meal Limited Ingredient Cat Food\n$24.99\n•\nOnly Natural Pet + others\nNatural Balance Limited Ingredient Green Pea & Salmon\n$27.98\n•\nOnly Natural Pet + others\nBLUE BUFFALO Basics Limited Ingredient Dry Cat Food\n$29.99\n•\nChewy.com + others\nNatural Balance Limited Ingredient Dry Cat Food\n$27.98\n•\nPetMeds + others\nInstinct Limited Ingredient Diet Real Rabbit\n$36.99\n•\nChewy.com + others\nInstinct Limited Ingredient Diet Salmon Dry\n$31.99\n•\nPetco.com + others\nKoha Limited Ingredient Diet Pâté Trial Pack\n$25.99\n•\nKoha Pet Food\nKoha Limited Ingredient Turkey Pate Cat Food\n$14.99\n•\nKoha Pet Food\n🐱 Top Limited Ingredient Diet Cat Foods\n\nBest All-Around Limited Ingredient Dry Foods\n\nFirstMate Chicken Meal Limited Ingredient Cat Food – ★ 4.7/5: Single protein (chicken) + limited ingredients make this a great choice for cats with sensitivities; antioxidants from blueberries support overall health.\n\nNatural Balance Limited Ingredient Green Pea & Salmon – ★ 4.5/5: Real salmon first, no wheat/soy, and limited ingredients for easier digestion — solid everyday LID dry food.\n\nBLUE BUFFALO Basics Limited Ingredient Dry Cat Food – ★ 4.5/5: Limited recipe designed for food and digestive sensitivities; comes from a vet-trusted brand with digestible carb sources.\n\nNatural Balance Limited Ingredient Dry Cat Food – ★ 4.6/5: Another strong limited dry option focusing on simple, balanced nutrition.\n\nNovel Protein / Unique Protein Options\n\nInstinct Limited Ingredient Diet Real Rabbit – ★ 4.0/5: Rabbit is a novel protein that may work well if your cat reacts to more common meats.\n\nInstinct Limited Ingredient Diet Salmon Dry – ★ 4.0/5: Salmon + minimal ingredients; good choice for sensitive systems.\n\nWet Limited Ingredient Diets\n\nKoha Limited Ingredient Diet Pâté Trial Pack – ★ 4.1/5: Variety pack of limited ingredient wet pâtés — easy to test what your cat prefers.\n\n**Koha Limited Ingredient Turkey Pate Cat Food\nVetster Online Vets\nPetMD\nThe Spruce Pets",
+      "responseTimeMs": 11785,
+      "brandMentions": [
+        {
+          "brand": "Natural Balance",
+          "count": 4
+        },
+        {
+          "brand": "Blue Buffalo",
+          "count": 2
+        },
+        {
+          "brand": "Chewy",
+          "count": 2
+        },
+        {
+          "brand": "Petco",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 94,
+      "queryId": "cf10",
+      "query": "best natural cat food brands",
+      "category": "cat-food",
+      "timestamp": "2026-01-25T18:40:20.298Z",
+      "success": true,
+      "response": "Here are some of the best natural cat food brands and options — focused on formulas with real meat first, minimal artificial additives, wholesome ingredients, and quality nutrition. “Natural” typically means a focus on recognizable ingredients (like real animal protein and whole foods) without artificial colors, flavors, or preservatives, and often higher-quality proteins that resemble a cat’s natural diet.",
+      "responseTimeMs": 10665,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 95,
+      "queryId": "iq01",
+      "query": "what ingredients to avoid in dog food",
+      "category": "ingredients-quality",
+      "timestamp": "2026-01-25T18:40:34.809Z",
+      "success": true,
+      "response": "Great question — reading dog-food labels can feel like decoding a mystery novel 🕵️‍♂️🐶. Here’s a clear, vet-aligned list of ingredients it’s best to avoid (or be very cautious about), plus why they matter.\n\n🚫 Ingredients to Avoid in Dog Food\n1. Vague or unnamed meat sources\n\nAvoid:\n\nMeat by-products (unspecified)\n\nAnim",
+      "responseTimeMs": 10344,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 96,
+      "queryId": "iq02",
+      "query": "is grain free dog food bad for dogs",
+      "category": "ingredients-quality",
+      "timestamp": "2026-01-25T18:40:48.424Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 96173,
+      "brandMentions": [],
+      "error": "No response received"
+    },
+    {
+      "queryIndex": 97,
+      "queryId": "iq03",
+      "query": "best protein sources for dog food",
+      "category": "ingredients-quality",
+      "timestamp": "2026-01-25T18:42:27.407Z",
+      "success": true,
+      "response": "Here’s a clear, vet-approved breakdown of the best protein sources for dog food, plus who each one is best for 🐶💪\n\n🥇 Best Protein Sources (Ranked by Quality & Digestibility)",
+      "responseTimeMs": 7718,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 98,
+      "queryId": "iq04",
+      "query": "how to read dog food labels",
+      "category": "ingredients-quality",
+      "timestamp": "2026-01-25T18:42:38.878Z",
+      "success": false,
+      "response": null,
+      "responseTimeMs": 95983,
+      "brandMentions": [],
+      "error": "No response received"
+    },
+    {
+      "queryIndex": 99,
+      "queryId": "iq05",
+      "query": "what makes a dog food high quality",
+      "category": "ingredients-quality",
+      "timestamp": "2026-01-25T18:44:18.023Z",
+      "success": true,
+      "response": "A high-quality dog food isn’t about hype or price — it’s about nutrition, transparency, and safety 🐶✅\nHere’s a simple, practical checklist you can use on any dog-food bag.\n\n🥇 What Makes Dog Food High Quality?",
+      "responseTimeMs": 7851,
+      "brandMentions": []
+    }
+  ],
+  "endTime": "2026-01-25T18:44:25.875Z",
+  "analysis": {
+    "brandVisibility": {
+      "Blue Buffalo": {
+        "queriesAppearing": 42,
+        "percentOfQueries": "45.7%",
+        "totalMentions": 124
+      },
+      "Chewy": {
+        "queriesAppearing": 42,
+        "percentOfQueries": "45.7%",
+        "totalMentions": 97
+      },
+      "Purina": {
+        "queriesAppearing": 35,
+        "percentOfQueries": "38.0%",
+        "totalMentions": 96
+      },
+      "Royal Canin": {
+        "queriesAppearing": 27,
+        "percentOfQueries": "29.3%",
+        "totalMentions": 63
+      },
+      "Walmart": {
+        "queriesAppearing": 25,
+        "percentOfQueries": "27.2%",
+        "totalMentions": 37
+      },
+      "Petco": {
+        "queriesAppearing": 22,
+        "percentOfQueries": "23.9%",
+        "totalMentions": 34
+      },
+      "Taste of the Wild": {
+        "queriesAppearing": 21,
+        "percentOfQueries": "22.8%",
+        "totalMentions": 64
+      },
+      "PetSmart": {
+        "queriesAppearing": 17,
+        "percentOfQueries": "18.5%",
+        "totalMentions": 27
+      },
+      "Hill's": {
+        "queriesAppearing": 16,
+        "percentOfQueries": "17.4%",
+        "totalMentions": 42
+      },
+      "Iams": {
+        "queriesAppearing": 14,
+        "percentOfQueries": "15.2%",
+        "totalMentions": 20
+      },
+      "Natural Balance": {
+        "queriesAppearing": 11,
+        "percentOfQueries": "12.0%",
+        "totalMentions": 76
+      },
+      "Wellness": {
+        "queriesAppearing": 9,
+        "percentOfQueries": "9.8%",
+        "totalMentions": 20
+      },
+      "Target": {
+        "queriesAppearing": 7,
+        "percentOfQueries": "7.6%",
+        "totalMentions": 8
+      },
+      "Rachael Ray": {
+        "queriesAppearing": 6,
+        "percentOfQueries": "6.5%",
+        "totalMentions": 8
+      },
+      "Orijen": {
+        "queriesAppearing": 5,
+        "percentOfQueries": "5.4%",
+        "totalMentions": 15
+      },
+      "Pedigree": {
+        "queriesAppearing": 4,
+        "percentOfQueries": "4.3%",
+        "totalMentions": 4
+      },
+      "Nutro": {
+        "queriesAppearing": 4,
+        "percentOfQueries": "4.3%",
+        "totalMentions": 22
+      },
+      "Canidae": {
+        "queriesAppearing": 3,
+        "percentOfQueries": "3.3%",
+        "totalMentions": 4
+      },
+      "Merrick": {
+        "queriesAppearing": 3,
+        "percentOfQueries": "3.3%",
+        "totalMentions": 17
+      },
+      "Fromm": {
+        "queriesAppearing": 2,
+        "percentOfQueries": "2.2%",
+        "totalMentions": 3
+      },
+      "Acana": {
+        "queriesAppearing": 1,
+        "percentOfQueries": "1.1%",
+        "totalMentions": 8
+      },
+      "Amazon": {
+        "queriesAppearing": 1,
+        "percentOfQueries": "1.1%",
+        "totalMentions": 1
+      },
+      "Nulo": {
+        "queriesAppearing": 1,
+        "percentOfQueries": "1.1%",
+        "totalMentions": 1
+      }
+    },
+    "naturalBalanceSummary": {
+      "queriesAppearing": 11,
+      "percentOfQueries": "12.0%",
+      "totalMentions": 76,
+      "rank": 11
+    },
+    "topBrands": [
+      {
+        "brand": "Blue Buffalo",
+        "queriesAppearing": 42,
+        "rate": "45.7%",
+        "totalMentions": 124
+      },
+      {
+        "brand": "Chewy",
+        "queriesAppearing": 42,
+        "rate": "45.7%",
+        "totalMentions": 97
+      },
+      {
+        "brand": "Purina",
+        "queriesAppearing": 35,
+        "rate": "38.0%",
+        "totalMentions": 96
+      },
+      {
+        "brand": "Royal Canin",
+        "queriesAppearing": 27,
+        "rate": "29.3%",
+        "totalMentions": 63
+      },
+      {
+        "brand": "Walmart",
+        "queriesAppearing": 25,
+        "rate": "27.2%",
+        "totalMentions": 37
+      },
+      {
+        "brand": "Petco",
+        "queriesAppearing": 22,
+        "rate": "23.9%",
+        "totalMentions": 34
+      },
+      {
+        "brand": "Taste of the Wild",
+        "queriesAppearing": 21,
+        "rate": "22.8%",
+        "totalMentions": 64
+      },
+      {
+        "brand": "PetSmart",
+        "queriesAppearing": 17,
+        "rate": "18.5%",
+        "totalMentions": 27
+      },
+      {
+        "brand": "Hill's",
+        "queriesAppearing": 16,
+        "rate": "17.4%",
+        "totalMentions": 42
+      },
+      {
+        "brand": "Iams",
+        "queriesAppearing": 14,
+        "rate": "15.2%",
+        "totalMentions": 20
+      }
+    ]
+  }
+}

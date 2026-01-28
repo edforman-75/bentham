@@ -1,0 +1,76 @@
+{
+  "surfaceId": "openai-api",
+  "surfaceName": "OpenAI GPT-4o API",
+  "startTime": "2026-01-25T17:53:19.967Z",
+  "lastUpdate": "2026-01-25T17:53:35.054Z",
+  "totalQueries": 20,
+  "completedQueries": 5,
+  "successCount": 0,
+  "results": [
+    {
+      "queryIndex": 1,
+      "queryId": "q01",
+      "queryText": "Which are the best budget dog food brands online?",
+      "category": "dog-food",
+      "surface": "openai-api",
+      "timestamp": "2026-01-25T17:53:20.822Z",
+      "success": false,
+      "responseText": null,
+      "responseTimeMs": 854,
+      "error": "Error: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 2,
+      "queryId": "q02",
+      "queryText": "Can you suggest the best treat brands for dogs online?",
+      "category": "dog-treats",
+      "surface": "openai-api",
+      "timestamp": "2026-01-25T17:53:24.524Z",
+      "success": false,
+      "responseText": null,
+      "responseTimeMs": 674,
+      "error": "Error: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 3,
+      "queryId": "q03",
+      "queryText": "Which are the best dog food brands with high reviews?",
+      "category": "dog-food",
+      "surface": "openai-api",
+      "timestamp": "2026-01-25T17:53:29.114Z",
+      "success": false,
+      "responseText": null,
+      "responseTimeMs": 697,
+      "error": "Error: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 4,
+      "queryId": "q04",
+      "queryText": "Which are the best dog food brands recommended by vets?",
+      "category": "dog-food",
+      "surface": "openai-api",
+      "timestamp": "2026-01-25T17:53:32.790Z",
+      "success": false,
+      "responseText": null,
+      "responseTimeMs": 87,
+      "error": "Error: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 5,
+      "queryId": "q05",
+      "queryText": "Can you list a popular pet food brand with good meat content?",
+      "category": "dog-food",
+      "surface": "openai-api",
+      "timestamp": "2026-01-25T17:53:35.054Z",
+      "success": false,
+      "responseText": null,
+      "responseTimeMs": 89,
+      "error": "Error: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+      "brandMentions": []
+    }
+  ]
+}

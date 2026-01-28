@@ -1,0 +1,2590 @@
+{
+  "studyName": "Deckers Brands US Visibility Study - OpenAI Responses API",
+  "surface": "openai-responses-api",
+  "location": "United States",
+  "startTime": "2026-01-26T01:47:52.454Z",
+  "totalQueries": 100,
+  "successfulQueries": 100,
+  "results": [
+    {
+      "queryIndex": 0,
+      "query": "best running shoes 2026",
+      "success": true,
+      "response": "I'm unable to provide information about products from 2026. However, for 2023, some top-rated running shoes known for comfort, support, and performance include:\n\n1. **Nike Air Zoom Pegasus 39**\n2. **Adidas Ultraboost 22**\n3. **Brooks Ghost 15**\n4. **Hoka One One Clifton 9**\n5. **ASICS Gel-Kayano 29**\n\nThese models are praised for their cushioning, durability, and overall performance. It's always best to try on shoes for fit and comfort or check recent reviews for the latest models.",
+      "responseTimeMs": 3347,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "Adidas",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 1,
+      "query": "most comfortable running shoes",
+      "success": true,
+      "response": "Choosing the most comfortable running shoes depends on individual preferences, foot shape, and running style. However, some highly regarded options for comfort include:\n\n1. **Brooks Ghost** - Known for excellent cushioning and a smooth ride.\n2. **Hoka One One Clifton** - Offers plush cushioning with a lighter feel.\n3. **ASICS Gel-Nimbus** - Combines support with gel cushioning.\n4. **Nike Air Zoom Pegasus** - Provides a responsive feel with reliable comfort.\n5. **New Balance Fresh Foam 1080** - Features a roomy toe box and soft cushioning.\n6. **Saucony Triumph** - Known for its plush and supportive fit.\n\nIt's important to try on different models to see which fits best for your specific needs.",
+      "responseTimeMs": 4807,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        },
+        {
+          "brand": "Saucony",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 2,
+      "query": "best cushioned running shoes",
+      "success": true,
+      "response": "When looking for the best cushioned running shoes, personal preference, running style, and specific needs play important roles. However, some popular and well-regarded options known for their cushioning include:\n\n1. **Hoka One One Bondi**: Known for maximum cushioning, the Bondi line offers a plush and comfortable ride, ideal for long distances.\n\n2. **Brooks Glycerin**: Features soft cushioning and a smooth transition, providing comfort for both daily runs and races.\n\n3. **Nike ZoomX Invincible Run**: Utilizes Nike's ZoomX foam for a bouncy and cushioned feel, great for long-distance runs.\n\n4. **ASICS Gel-Nimbus**: Offers gel technology for shock absorption and cushioning, suitable for neutral runners.\n\n5. **New Balance Fresh Foam 1080**: Known for its Fresh Foam midsole, it provides a soft yet responsive cushioning.\n\n6. **Saucony Triumph**: Features PWRRUN+ cushioning, delivering a luxurious feel and good energy return.\n\n7. **On Cloudstratus**: Offers dual-layered CloudTec cushioning for enhanced comfort and support on long runs.\n\nWhen choosing cushioned running shoes, take into account your foot type, running environment, and personal preferences. It's always a good idea to try before buying to ensure the best fit and comfort.",
+      "responseTimeMs": 5504,
+      "brandMentions": [
+        {
+          "brand": "Nike",
+          "count": 2
+        },
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        },
+        {
+          "brand": "Saucony",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 3,
+      "query": "best marathon running shoes",
+      "success": true,
+      "response": "Selecting the best marathon running shoes depends on various factors including your foot type, running style, and personal preferences. However, some popular and highly regarded marathon shoes in 2023 include:\n\n1. **Nike ZoomX Vaporfly NEXT% 2**: Known for its exceptional energy return and lightweight build, this shoe is a favorite among elite runners.\n\n2. **Adidas Adizero Adios Pro 3**: Offers a carbon-infused energy return and a comfortable fit, making it ideal for long-distance racing.\n\n3. **Saucony Endorphin Pro 3**: Appreciated for its speedroll technology, providing a smooth and responsive ride.\n\n4. **Hoka One One Carbon X 3**: Known for its plush cushioning and carbon plate, offering both comfort and performance.\n\n5. **Asics Metaspeed Sky**: Designed to increase stride length efficiently, great for maximizing speed and efficiency.\n\n6. **New Balance FuelCell RC Elite V2**: Offers a snug fit with a propulsive feel, ideal for race day.\n\n7. **Brooks Hyperion Elite 3**: Combines lightweight design with responsive cushioning, perfect for fast runs.\n\nWhen choosing marathon shoes, consider factors like fit, cushioning, support, and the type of surface you'll be running on. It's also a good idea to test the shoes and consider consulting with a specialist at a running store.",
+      "responseTimeMs": 7495,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "Adidas",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        },
+        {
+          "brand": "Saucony",
+          "count": 1
+        },
+        {
+          "brand": "On Running",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 4,
+      "query": "best trail running shoes",
+      "success": true,
+      "response": "When choosing the best trail running shoes, consider the following highly regarded options, keeping in mind factors like terrain, cushion, grip, and fit:\n\n1. **Salomon Speedcross 5**: Known for excellent grip, aggressive lugs, and a snug fit, making them great for muddy and technical trails.\n\n2. **Brooks Cascadia 16**: Offers a balanced ride with good cushioning and stability, ideal for varied terrains.\n\n3. **Hoka One One Speedgoat 5**: Provides maximum cushioning with a comfortable fit, great for long distances over rough terrain.\n\n4. **Altra Lone Peak 7**: Known for its wide toe box and zero-drop design, these are perfect for a natural foot stride on diverse trails.\n\n5. **La Sportiva Bushido II**: Best for technical trails, offering great traction and a secure fit for rocky conditions.\n\n6. **Saucony Peregrine 13**: Offers a versatile ride with excellent grip and cushioning, suitable for different trail surfaces.\n\n7. **Nike Pegasus Trail 4**: Provides cushioning similar to road shoes but with added grip for trails, ideal for mixed terrain.\n\nAlways try on shoes before buying to ensure they fit well and suit your specific trail running needs.",
+      "responseTimeMs": 5575,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "Saucony",
+          "count": 1
+        },
+        {
+          "brand": "Salomon",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 5,
+      "query": "best running shoes for beginners",
+      "success": true,
+      "response": "Choosing the best running shoes for beginners can significantly impact comfort, performance, and injury prevention. Here are a few options that are well-regarded for their comfort and support:\n\n1. **Brooks Ghost**:\n   - Known for its cushioning and smooth ride.\n   - Offers good support for neutral runners.\n\n2. **Nike Air Zoom Pegasus**:\n   - Versatile and well-cushioned.\n   - Provides a balanced combination of comfort and responsiveness.\n\n3. **ASICS Gel-Nimbus**:\n   - Features excellent cushioning.\n   - Ideal for those looking for shock absorption.\n\n4. **Saucony Ride**:\n   - Provides a comfortable fit with balanced cushioning.\n   - Suitable for neutral runners seeking a reliable everyday shoe.\n\n5. **New Balance Fresh Foam 880**:\n   - Offers a plush ride with ample support.\n   - Great for all-day comfort.\n\n6. **Hoka One One Clifton**:\n   - Known for its maximal cushioning and lightweight feel.\n   - Good for beginners needing extra support.\n\n7. **Adidas Ultraboost**:\n   - Features responsive cushioning.\n   - Offers a snug, sock-like fit.\n\nWhen selecting running shoes, consider these tips:\n- **Foot Type**: Determine if you have a neutral, overpronated, or underpronated gait.\n- **Comfort**: Ensure they feel comfortable from the start.\n- **Fit**: Check for sufficient toe room and no heel slippage.\n- **Use**: Consider the terrain (road, trail, treadmill) you'll predominantly run on.\n\nIt's advisable to try on multiple pairs and, if possible, run a little in them to see which fits and feels the best.",
+      "responseTimeMs": 6290,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "Adidas",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        },
+        {
+          "brand": "Saucony",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 6,
+      "query": "best running shoes for flat feet",
+      "success": true,
+      "response": "Choosing the best running shoes for flat feet involves finding a pair with good arch support, stability, and cushioning. Here are some great options as of 2023:\n\n1. **Brooks Adrenaline GTS** - Known for its stability and support, particularly through the GuideRails technology that helps keep excess movement in check.\n\n2. **ASICS Gel-Kayano** - Offers excellent cushioning and stability, featuring Gel technology for shock absorption and support for overpronation.\n\n3. **New Balance 860** - Provides a supportive and comfortable fit with a plush cushioning system suitable for flat feet.\n\n4. **Saucony Guide** - Features an innovative approach to stability and cushioning, offering good arch support for flat-footed runners.\n\n5. **Mizuno Wave Inspire** - Delivers moderate stability and cushioning with its Wave technology, which is great for flat feet.\n\n6. **Hoka One One Arahi** - Known for maximum cushioning with lightweight stability, making it a comfortable choice for those with flat feet.\n\nWhen selecting running shoes, consider visiting a specialty running store for a proper fitting and gait analysis.",
+      "responseTimeMs": 4189,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        },
+        {
+          "brand": "Saucony",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 7,
+      "query": "best lightweight running shoes",
+      "success": true,
+      "response": "When choosing lightweight running shoes, it's important to consider comfort, support, and the type of running you'll be doing. Here are some top picks for lightweight running shoes:\n\n1. **Nike ZoomX Vaporfly NEXT% 2**\n   - Features a carbon-fiber plate for propulsion.\n   - Known for its speed and energy return.\n\n2. **Adidas Adizero Adios Pro 3**\n   - Offers Lightstrike Pro cushioning.\n   - Designed for fast-paced runs and races.\n\n3. **Hoka One One Rincon 3**\n   - Lightweight with ample cushioning.\n   - Provides a smooth, balanced ride.\n\n4. **Saucony Endorphin Pro 3**\n   - Features SPEEDROLL technology.\n   - Delivers a strong, forward propulsion.\n\n5. **New Balance FuelCell RC Elite v2**\n   - Combines carbon-fiber plate with plush cushioning.\n   - Great for long distances and races.\n\n6. **Asics Metaspeed Sky**\n   - Designed for runners seeking speed.\n   - Propulsion plate for enhanced stride efficiency.\n\n7. **Brooks Hyperion Elite 2**\n   - DNA FLASH cushioning for lightweight cushioning.\n   - Ideal for intense speed workouts.\n\nWhen trying on shoes, ensure they fit well and suit your foot type and running style. If possible, visit a specialty running store for a gait analysis and additional recommendations.",
+      "responseTimeMs": 5441,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "Adidas",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        },
+        {
+          "brand": "Saucony",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 8,
+      "query": "best stability running shoes",
+      "success": true,
+      "response": "Choosing the best stability running shoes depends on your foot type, running gait, and personal preferences. However, as of the latest updates, here are some popular stability running shoes that are well-regarded:\n\n1. **Brooks Adrenaline GTS**: Known for its reliable support and comfort, this shoe uses GuideRails technology to keep your stride in check.\n\n2. **ASICS Gel-Kayano**: Offers excellent cushioning and support with its DUOMAX system and GEL technology.\n\n3. **Saucony Guide**: Balances cushioning and stability with PWRRUN foam, making it ideal for overpronators.\n\n4. **New Balance Fresh Foam 860**: Combines Fresh Foam cushioning with a medial post for supportive stability.\n\n5. **Hoka One One Arahi**: Lightweight and cushioned, this shoe offers J-Frame technology for stability.\n\n6. **Mizuno Wave Inspire**: Features Wave technology to provide stability and a smooth transition.\n\n7. **Nike Air Zoom Structure**: Offers a responsive ride and stability with Dynamic Support technology.\n\nIt's always a good idea to try shoes on in-store to find the best fit and feel, or consult with a running specialist to determine the best option for your needs.",
+      "responseTimeMs": 5362,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        },
+        {
+          "brand": "Saucony",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 9,
+      "query": "top rated athletic shoes",
+      "success": true,
+      "response": "As of the latest information, some of the top-rated athletic shoes include:\n\n1. **Nike Air Zoom Pegasus** - Known for its versatility and comfort, making it a favorite among runners.\n   \n2. **Adidas Ultraboost** - Praised for its plush cushioning and energy-returning properties.\n\n3. **ASICS Gel-Kayano** - Popular for its stability and support, ideal for overpronators.\n\n4. **New Balance 990v5** - Recognized for its classic style and all-day comfort.\n\n5. **Hoka One One Clifton** - Celebrated for its cushioned ride and lightweight feel.\n\n6. **Brooks Ghost** - Highly rated for its smooth transition and balanced cushioning.\n\n7. **Saucony Endorphin Pro** - Acclaimed for its speed-focused design and energy-efficient sole.\n\n8. **Reebok Nano** - Renowned for its durability and performance in cross-training.\n\nThese shoes are well-regarded for their performance, comfort, and durability across various activities. Remember that the best shoe for you will depend on your specific needs, foot type, and the sports or activities you participate in.",
+      "responseTimeMs": 3809,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "Adidas",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        },
+        {
+          "brand": "Saucony",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 10,
+      "query": "best daily trainer running shoes",
+      "success": true,
+      "response": "Choosing the best daily trainer running shoes depends on personal preferences and running needs. However, here are some popular options that are well-regarded for their comfort, durability, and versatility:\n\n1. **Nike Air Zoom Pegasus**: Known for its reliable cushioning and responsive ride, the Pegasus is a favorite among many runners for daily use.\n\n2. **Brooks Ghost**: Offers great cushioning and a smooth ride, making it a fantastic option for various terrains and distances.\n\n3. **Asics Gel-Nimbus**: Provides plush cushioning and support, ideal for those who need a bit more shock absorption.\n\n4. **New Balance Fresh Foam 1080**: Known for its plush comfort and wide fitting options, it's excellent for long-distance running.\n\n5. **Saucony Ride**: Offers a good balance of cushioning and responsiveness, making it suitable for a variety of paces and distances.\n\n6. **Hoka One One Clifton**: Renowned for its maximal cushioning, it's perfect for those looking for a softer feel.\n\n7. **Adidas Ultraboost**: Combines style with performance, offering a responsive and comfortable ride.\n\nWhen choosing a pair, consider factors like your foot type, gait, and the specific fit and feel you prefer. It's always a good idea to try them on and, if possible, take them for a short run before buying.",
+      "responseTimeMs": 5156,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "Adidas",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        },
+        {
+          "brand": "Saucony",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 11,
+      "query": "best running shoes for wide feet",
+      "success": true,
+      "response": "When looking for running shoes for wide feet, it's important to find options that provide comfort, support, and the right fit. Here are some great choices:\n\n1. **New Balance Fresh Foam 1080** - Known for its spacious toe box and comfortable cushioning.\n\n2. **Brooks Ghost** - Offers a wide fit and excellent cushioning, a favorite among runners with wider feet.\n\n3. **HOKA ONE ONE Bondi** - Provides a cushioned ride and comes in wider sizes for extra comfort.\n\n4. **ASICS GEL-Kayano** - Known for its stability and support, available in wide options.\n\n5. **Saucony Ride** - Offers a comfortable fit with a wider toe box, great for daily runs.\n\n6. **Altra Torin** - Features a foot-shaped toe box, perfect for wider feet needing more space.\n\nMake sure to try them on and possibly consult with a specialist to get the best fit for your specific needs.",
+      "responseTimeMs": 4148,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        },
+        {
+          "brand": "Saucony",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 12,
+      "query": "best running shoes for plantar fasciitis",
+      "success": true,
+      "response": "When selecting running shoes for plantar fasciitis, it's essential to prioritize support, cushioning, and a good fit. Here are some recommended options:\n\n1. **Brooks Adrenaline GTS**: Known for stability and cushioning, providing arch support that can help relieve plantar fasciitis symptoms.\n\n2. **Asics Gel-Kayano**: Offers excellent support and gel cushioning, which can be beneficial for comfort and shock absorption.\n\n3. **Hoka One One Bondi**: Features thick cushioning for maximum shock absorption, reducing stress on the heel and arch.\n\n4. **Saucony Guide**: Provides good stability and support, with cushioning that helps alleviate heel pain.\n\n5. **New Balance 860**: Known for its combination of support and comfort, making it suitable for those suffering from plantar fasciitis.\n\n6. **Mizuno Wave Inspire**: Offers wave technology for stability and cushioning, providing support and comfort.\n\nWhen choosing shoes, consider the following:\n\n- **Arch Support**: Ensure the shoe provides adequate arch support to alleviate pressure on the plantar fascia.\n- **Cushioning**: Opt for shoes with good cushioning to absorb impact.\n- **Heel Support**: A firm heel counter can provide additional support.\n- **Fit**: Make sure the shoe fits well, with enough room but not too loose.\n\nIt's always a good idea to try on shoes and consult with a specialist or a podiatrist if you have specific concerns or needs.",
+      "responseTimeMs": 11194,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        },
+        {
+          "brand": "Saucony",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 13,
+      "query": "most durable running shoes",
+      "success": true,
+      "response": "When looking for durable running shoes, it's important to consider those made by reputable brands known for quality materials and construction. Here are some popular options known for their durability:\n\n1. **Brooks Ghost** - Known for its balance of cushioning and durability, often praised for long-lasting performance.\n\n2. **ASICS Gel-Kayano** - Offers excellent support and durability, with advanced gel cushioning for stability.\n\n3. **Saucony Ride** - A versatile shoe with good cushioning and long-lasting outsoles, ideal for everyday running.\n\n4. **Hoka One One Bondi** - Known for its cushioning and durable design, great for high-mileage runners.\n\n5. **Nike Air Zoom Pegasus** - Offers a good combination of durability, comfort, and responsiveness.\n\n6. **New Balance Fresh Foam 1080** - Known for its durability and plush feel, suitable for long runs.\n\n7. **Altra Lone Peak** - Particularly durable for trail running, with a robust sole and good protection.\n\nTo extend the lifespan of your running shoes, rotate pairs, avoid harsh conditions, and store them properly.",
+      "responseTimeMs": 3472,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        },
+        {
+          "brand": "Saucony",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 14,
+      "query": "best carbon plate running shoes",
+      "success": true,
+      "response": "As of 2023, several running shoes with carbon plates have gained popularity for their performance-enhancing features. Here are some of the top options:\n\n1. **Nike ZoomX Vaporfly NEXT% 2**\n   - Known for its lightweight design and exceptional energy return, making it popular among marathon runners.\n\n2. **Nike Air Zoom Alphafly NEXT%**\n   - Features a combination of ZoomX foam, Air Zoom pods, and a carbon plate, offering a smooth and responsive ride.\n\n3. **Adidas Adizero Adios Pro 3**\n   - Utilizes EnergyRods and Lightstrike Pro foam for a dynamic and supportive experience.\n\n4. **Saucony Endorphin Pro 3**\n   - Incorporates SPEEDROLL technology for a propulsive feel, paired with a PWRRUNPB cushioning system.\n\n5. **Brooks Hyperion Elite 2**\n   - Offers a unique DNA Flash cushioning and a carbon plate for fast transitions and a responsive ride.\n\n6. **Asics Metaspeed Sky+**\n   - Designed to optimize stride length with a carbon plate and FF Blast Turbo foam, aimed at improving speed.\n\n7. **Hoka One One Carbon X3**\n   - Known for its cushioned yet aggressive ride, featuring a carbon fiber plate for propulsion.\n\n8. **New Balance FuelCell RC Elite v2**\n   - Combines a lightweight upper with a FuelCell midsole and carbon plate for a fast and comfortable feel.\n\nThese shoes are renowned for their ability to enhance performance, particularly in races and long-distance runs. Be sure to consider your individual running style and preferences when choosing the right pair.",
+      "responseTimeMs": 7482,
+      "brandMentions": [
+        {
+          "brand": "Nike",
+          "count": 2
+        },
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Adidas",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        },
+        {
+          "brand": "Saucony",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 15,
+      "query": "best hiking shoes",
+      "success": true,
+      "response": "Selecting the best hiking shoes depends on several factors, such as the type of terrain, the length of your hikes, your budget, and your personal preferences. Here are some top-rated options that are well-regarded in the hiking community:\n\n1. **Salomon X Ultra 4 GTX**\n   - Excellent for rugged trails.\n   - Waterproof Gore-Tex lining.\n   - Great grip and stability.\n\n2. **Merrell Moab 2 Ventilator**\n   - Ideal for dry, rocky terrain.\n   - Breathable mesh upper.\n   - Comfortable right out of the box.\n\n3. **Altra Lone Peak 6**\n   - Best for trail running and fast hiking.\n   - Wide toe box and zero-drop design.\n   - Lightweight and comfortable.\n\n4. **La Sportiva Spire GTX**\n   - Versatile for various terrains.\n   - Gore-Tex Surround for breathability.\n   - Durable and supportive.\n\n5. **Vasque Breeze LT Low GTX**\n   - Lightweight with good support.\n   - Waterproof and breathable.\n   - Suitable for long-distance hikes.\n\n6. **Hoka One One Speedgoat 4**\n   - Cushioned for comfort on long hikes.\n   - Aggressive traction.\n   - Lightweight with a roomy fit.\n\n7. **Scarpa Zodiac Plus GTX**\n   - Great for technical terrain.\n   - Durable with a mid-cut design.\n   - Waterproof and supportive.\n\nWhen choosing hiking shoes, consider the fit, weight, waterproofing, and ankle support. It's a good idea to try them on in-store if possible and ensure they match your hiking needs.",
+      "responseTimeMs": 5008,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Merrell",
+          "count": 1
+        },
+        {
+          "brand": "Salomon",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 16,
+      "query": "best hiking sandals",
+      "success": true,
+      "response": "When looking for the best hiking sandals, it’s important to consider comfort, durability, grip, and support. Here are some top options:\n\n1. **Chaco Z/Cloud**: Known for their adjustable straps and excellent arch support, these sandals provide comfort over long distances.\n\n2. **Teva Hurricane XLT2**: Lightweight with good traction and comfortable footbed, they’re great for shorter hikes.\n\n3. **KEEN Newport H2**: With a closed-toe design, these sandals offer more protection while maintaining good breathability.\n\n4. **Merrell All Out Blaze Sieve**: These sandals have excellent water drainage and a sturdy grip, making them ideal for wet conditions.\n\n5. **ECCO Yucatan**: Featuring good cushioning and support, they're versatile for both hiking and casual wear.\n\n6. **Bedrock Cairn Adventure**: Minimalist design with a strong sole and adjustable straps, suitable for more experienced hikers.\n\nRemember to consider the type of terrain, expected weather conditions, and personal fit preferences when choosing your hiking sandals.",
+      "responseTimeMs": 5782,
+      "brandMentions": [
+        {
+          "brand": "Teva",
+          "count": 1
+        },
+        {
+          "brand": "Merrell",
+          "count": 1
+        },
+        {
+          "brand": "Keen",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 17,
+      "query": "best waterproof hiking boots",
+      "success": true,
+      "response": "Selecting the best waterproof hiking boots depends on your specific needs, such as terrain, climate, and personal preferences. Here are a few top recommendations known for their quality and performance:\n\n1. **Salomon Quest 4D 3 GTX**\n   - Offers excellent support and stability.\n   - Gore-Tex lining for waterproof protection.\n   - Comfortable for long hikes.\n\n2. **Lowa Renegade GTX Mid**\n   - Durable and sturdy construction.\n   - Waterproof and breathable Gore-Tex lining.\n   - Great ankle support and cushioning.\n\n3. **Merrell Moab 2 Mid Waterproof**\n   - Affordable and versatile.\n   - M Select DRY membrane keeps water out.\n   - Good traction and comfort.\n\n4. **Vasque Breeze AT GTX**\n   - Designed for rugged terrain.\n   - Combines Gore-Tex waterproofing with breathability.\n   - Vibram outsole for excellent grip.\n\n5. **Keen Targhee III Waterproof**\n   - Known for a comfortable fit.\n   - Effective waterproofing with Keen.Dry membrane.\n   - Excellent traction on various terrains.\n\n6. **La Sportiva Nucleo High GTX**\n   - Lightweight yet highly durable.\n   - Gore-Tex Surround technology for breathability.\n   - Ideal for backcountry hiking.\n\n7. **Columbia Newton Ridge Plus II Waterproof**\n   - Budget-friendly option.\n   - Omni-Tech technology for waterproofing.\n   - Suitable for moderate trails.\n\nWhen choosing, consider trying them on for fit and comfort, and make sure they match the specific conditions you’ll be hiking in.",
+      "responseTimeMs": 9278,
+      "brandMentions": [
+        {
+          "brand": "Keen",
+          "count": 2
+        },
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "Merrell",
+          "count": 1
+        },
+        {
+          "brand": "Salomon",
+          "count": 1
+        },
+        {
+          "brand": "Columbia",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 18,
+      "query": "best trail shoes for hiking",
+      "success": true,
+      "response": "Selecting the best trail shoes for hiking depends on your specific needs, but here are some top options to consider as of 2023:\n\n### 1. **Salomon X Ultra 4 GTX**\n- **Features**: Gore-Tex lining for waterproofing, aggressive Contagrip outsole, and supportive chassis.\n- **Advantages**: Great for technical trails and provides excellent traction and stability.\n\n### 2. **Hoka One One Speedgoat 5**\n- **Features**: Cushioned midsole, Vibram Megagrip outsole, and lightweight design.\n- **Advantages**: Ideal for long distances and rough terrain, offering superior comfort.\n\n### 3. **Merrell Moab 3 Waterproof**\n- **Features**: M Select DRY waterproof membrane, Vibram TC5+ outsole, and protective toe cap.\n- **Advantages**: Known for durability and all-day comfort, suitable for moderate trails.\n\n### 4. **La Sportiva Bushido II**\n- **Features**: Breathable mesh upper, FriXion XT V-Groove outsole, and TPU toe cap.\n- **Advantages**: Great for technical trails with excellent grip and protection.\n\n### 5. **Altra Lone Peak 7**\n- **Features**: FootShape toe box, MaxTrac outsole, and Zero Drop platform.\n- **Advantages**: Popular for those preferring a natural foot position and ample toe room.\n\n### 6. **Brooks Cascadia 16**\n- **Features**: DNA LOFT v2 cushioning, TrailTack rubber outsole, and rock plate for protection.\n- **Advantages**: Versatile design suitable for rugged terrain and varied conditions.\n\n### Considerations:\n- **Fit**: Ensure the shoe offers a comfortable fit with enough toe space.\n- **Support**: Look for adequate support and cushioning based on the terrain.\n- **Weather**: Waterproof options are best for wet conditions.\n- **Durability**: Opt for shoes with high-quality materials for longevity.\n\nVisit a store to try on different models and see which ones feel best for your hiking style and foot shape.",
+      "responseTimeMs": 8164,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "Merrell",
+          "count": 1
+        },
+        {
+          "brand": "Salomon",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 19,
+      "query": "best outdoor sandals",
+      "success": true,
+      "response": "Choosing the best outdoor sandals depends on your specific needs and activities. Here are some top-rated options:\n\n1. **Chaco Z/Cloud**: Known for their adjustable straps and podiatrist-approved footbeds, they're great for hiking and water activities.\n\n2. **Teva Hurricane XLT2**: Offers comfort with a durable design and is suitable for light hiking and casual wear.\n\n3. **Keen Newport H2**: Provides great toe protection and a sturdy sole, ideal for rugged terrain and water crossings.\n\n4. **Merrell Hydro Moc**: Lightweight with a slip-on design, perfect for casual outdoor activities and water sports.\n\n5. **Xero Shoes Z-Trail EV**: Minimalist design with a flexible sole, excellent for those who prefer a barefoot feel.\n\n6. **Bedrock Cairn Adventure**: Known for its lightweight design and secure straps, suitable for hiking and trekking.\n\nConsider factors like durability, sole grip, foot support, and water resistance based on your needs.",
+      "responseTimeMs": 4283,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "Teva",
+          "count": 1
+        },
+        {
+          "brand": "Merrell",
+          "count": 1
+        },
+        {
+          "brand": "Keen",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 20,
+      "query": "most comfortable hiking sandals",
+      "success": true,
+      "response": "When looking for the most comfortable hiking sandals, it's important to consider factors like support, traction, and durability. Here are some popular options:\n\n1. **Chaco Z/Cloud**:\n   - Known for excellent arch support and adjustable straps.\n   - LUVSEAT™ footbed offers great comfort for long hikes.\n\n2. **Teva Hurricane XLT2**:\n   - Lightweight with good cushioning.\n   - Rugged outsoles provide solid traction.\n\n3. **Keen Newport H2**:\n   - Offers toe protection with a closed-toe design.\n   - Durable and supportive for rugged terrain.\n\n4. **Merrell Hydro Moc**:\n   - Slip-on design with excellent water drainage.\n   - Great for water hikes and quick-drying.\n\n5. **ECCO Yucatan**:\n   - Provides a good balance of comfort and support.\n   - Shock-absorbing footbed and durable design.\n\n6. **Bedrock Cairn Adventure**:\n   - Minimalist design with excellent grip.\n   - Vibram outsole offers durability and stability.\n\nWhen selecting hiking sandals, consider the type of terrain, weather conditions, and personal comfort preferences. Make sure to try them on and, if possible, walk in them for a bit to ensure a good fit.",
+      "responseTimeMs": 4041,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 2
+        },
+        {
+          "brand": "Teva",
+          "count": 1
+        },
+        {
+          "brand": "Merrell",
+          "count": 1
+        },
+        {
+          "brand": "Keen",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 21,
+      "query": "best water shoes for hiking",
+      "success": true,
+      "response": "When choosing water shoes for hiking, it's important to consider comfort, durability, traction, and quick-drying features. Here are some top options:\n\n1. **Merrell All Out Blaze Sieve**:\n   - Durable leather and fabric construction.\n   - Excellent traction with Vibram outsole.\n   - Comfortable fit and quick-drying.\n\n2. **KEEN Newport H2**:\n   - Rugged design with toe protection.\n   - Multi-directional lug pattern for better grip.\n   - Washable polyester webbing.\n\n3. **Chaco Odyssey**:\n   - Versatile with good support and protection.\n   - Quick-drying mesh and synthetic upper.\n   - Robust outsole for various terrains.\n\n4. **Astral TR1 Junction**:\n   - Lightweight and versatile.\n   - High-performance G.ss rubber outsole for grip.\n   - Breathable and quick-drying materials.\n\n5. **Salomon Crossamphibian Swift 2**:\n   - Eco-friendly construction with recycled materials.\n   - Good breathability and drainage.\n   - Contragrip outsole for secure footing.\n\nWhen selecting water shoes for hiking, consider your specific needs, including the type of terrain and water conditions you expect to encounter.",
+      "responseTimeMs": 4381,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "Merrell",
+          "count": 1
+        },
+        {
+          "brand": "Salomon",
+          "count": 1
+        },
+        {
+          "brand": "Keen",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 22,
+      "query": "best lightweight hiking boots",
+      "success": true,
+      "response": "Choosing the best lightweight hiking boots depends on your specific needs, including the type of terrain and your foot shape. However, here are some popular options that are well-regarded for their lightweight design and performance:\n\n1. **Salomon X Ultra 4 Mid GTX**:\n   - Great for technical trails.\n   - Waterproof and durable.\n   - Offers excellent grip.\n\n2. **Hoka One One Anacapa Mid GTX**:\n   - Known for comfort and cushioning.\n   - Waterproof and breathable.\n   - Ideal for long hikes.\n\n3. **Merrell Moab 3 Mid Waterproof**:\n   - Reliable and affordable.\n   - Waterproof with good support.\n   - Versatile for various terrains.\n\n4. **La Sportiva Spire GTX**:\n   - Excellent breathability and comfort.\n   - Waterproof with good stability.\n   - Lightweight and durable.\n\n5. **Altra Lone Peak Hiker**:\n   - Offers a wide toe box.\n   - Lightweight with zero-drop design.\n   - Comfortable for longer distance hikes.\n\nWhen selecting a boot, consider factors like fit, support, waterproofing, breathability, and traction. It's always a good idea to try them on in-store, if possible, to ensure the best fit for your feet.",
+      "responseTimeMs": 4346,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Merrell",
+          "count": 1
+        },
+        {
+          "brand": "Salomon",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 23,
+      "query": "best approach shoes",
+      "success": true,
+      "response": "Choosing the best approach shoes depends on your specific needs, including the type of terrain and activities you plan to engage in. Here are some factors to consider:\n\n1. **Terrain**: \n   - For rocky and technical approaches, look for shoes with a stickier rubber and a precise fit.\n   - If you'll be on mixed terrain, consider shoes with a balance between support and flexibility.\n\n2. **Fit and Comfort**: \n   - Ensure they fit snugly, especially in the toe area, to improve precision.\n   - Try different brands and models to find the best comfort and fit for your foot shape.\n\n3. **Durability**: \n   - Look for durable materials like leather or synthetic uppers, which withstand abrasion.\n   - Reinforced toe caps can add extra protection.\n\n4. **Traction**: \n   - Choose shoes with a high-quality rubber sole like Vibram for superior grip.\n   - Consider tread patterns that suit both hiking and scrambling.\n\n5. **Weight**: \n   - Lighter shoes provide more agility, while heavier ones offer more support.\n\n6. **Aid in Climbing**: \n   - If you might be doing some light climbing, look for a stiffer sole and good edging capabilities.\n\n7. **Water Resistance**: \n   - Consider water-resistant materials or Gore-Tex linings for wetter conditions.\n\n8. **Versatility**: \n   - Look for shoes you can use for various outdoor activities, including light hiking and casual wear.\n\nBrands like La Sportiva, Scarpa, Arc'teryx, and Five Ten offer popular models known for their performance and reliability. Always try shoes on if possible, and consider the specific activities you'll use them for most.",
+      "responseTimeMs": 6251,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 24,
+      "query": "best sandals for walking trails",
+      "success": true,
+      "response": "When choosing sandals for walking trails, you'll want options that provide support, comfort, and durability. Here are some top picks:\n\n1. **Teva Hurricane XLT2**: Known for their comfortable footbed and adjustable straps, these sandals offer excellent traction and support.\n\n2. **Chaco Z/Cloud**: With a contoured footbed and adjustable straps, Chacos are great for both comfort and stability on uneven terrain.\n\n3. **KEEN Newport H2**: These sandals have a closed-toe design for added protection, plus a rugged sole for traction.\n\n4. **Merrell All Out Blaze Sieve**: Offering a combination of breathability and support, these sandals are ideal for water crossings and diverse terrain.\n\n5. **ECCO Yucatan**: Known for their comfort and sturdy build, these sandals provide good arch support and grip.\n\nWhen selecting sandals, ensure they have good arch support, suitable grip for uneven surfaces, and a secure fit.",
+      "responseTimeMs": 4849,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "Teva",
+          "count": 1
+        },
+        {
+          "brand": "Merrell",
+          "count": 1
+        },
+        {
+          "brand": "Keen",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 25,
+      "query": "best adventure sandals",
+      "success": true,
+      "response": "When looking for the best adventure sandals, you'll want something that combines comfort, durability, and functionality. Here are some top picks:\n\n1. **Teva Hurricane XLT2**\n   - Durable and comfortable.\n   - Great traction with a rugged sole.\n   - Adjustable straps for a secure fit.\n\n2. **Chaco Z/Cloud**\n   - Known for excellent arch support.\n   - Adjustable straps for a custom fit.\n   - Non-marking ChacoGrip™ rubber outsole for traction.\n\n3. **Keen Newport H2**\n   - Hybrid sandal with toe protection.\n   - Quick-drying and washable.\n   - Razor-siped outsole for superior grip.\n\n4. **Merrell Hydro Moc**\n   - Lightweight and water-friendly.\n   - Convenient slip-on design.\n   - Excellent for both land and water activities.\n\n5. **Columbia Techsun 3 Strap**\n   - Comfortable with cushioned midsole.\n   - Durable and quick-drying.\n   - Provides good traction on various surfaces.\n\nWhen choosing adventure sandals, consider your specific needs like support, water resistance, and the type of terrain you’ll encounter.",
+      "responseTimeMs": 4742,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "Teva",
+          "count": 1
+        },
+        {
+          "brand": "Merrell",
+          "count": 1
+        },
+        {
+          "brand": "Keen",
+          "count": 1
+        },
+        {
+          "brand": "Columbia",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 26,
+      "query": "best all terrain shoes",
+      "success": true,
+      "response": "Choosing the best all-terrain shoes depends on your specific needs and preferences, but some top choices generally include:\n\n1. **Salomon X Ultra 4 GTX**\n   - Great for hiking.\n   - Excellent grip and waterproofing.\n\n2. **Hoka One One Speedgoat 4**\n   - Comfortable cushioning.\n   - Versatile for mixed terrains.\n\n3. **Merrell Moab 2 GTX**\n   - Durable with good support.\n   - Trusted for hiking and trail use.\n\n4. **Altra Lone Peak 5**\n   - Wide toe box for natural foot movement.\n   - Suitable for trail running and hiking.\n\n5. **Nike Pegasus Trail 3**\n   - Responsive cushioning.\n   - Versatile for trail and road.\n\n6. **La Sportiva Bushido II**\n   - Perfect for technical trails.\n   - Stable with great traction.\n\nWhen selecting shoes, consider factors like the type of terrain, weather conditions, durability, and comfort. If possible, try them on and test for fit and feel.",
+      "responseTimeMs": 3798,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "Merrell",
+          "count": 1
+        },
+        {
+          "brand": "Salomon",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 27,
+      "query": "best winter boots",
+      "success": true,
+      "response": "When looking for the best winter boots, consider the following top contenders that are known for their warmth, durability, and style:\n\n1. **Sorel Caribou**: \n   - Insulated with a removable felt liner.\n   - Seam-sealed waterproof construction.\n   - Good for extreme cold and deep snow.\n\n2. **Columbia Bugaboot Plus IV Omni-Heat**:\n   - Features Omni-Heat reflective lining.\n   - Waterproof and insulated.\n   - Lightweight yet warm.\n\n3. **The North Face Chilkat 400**:\n   - Insulated with Heatseeker technology.\n   - Waterproof leather construction.\n   - Ideal for rugged conditions.\n\n4. **Muck Boot Arctic Sport**:\n   - Neoprene for warmth and flexibility.\n   - Waterproof with a rugged outsole.\n   - Great for wet and cold environments.\n\n5. **Kamik Nationplus**:\n   - Thinsulate insulation.\n   - Waterproof and made with durable materials.\n   - Offers good traction on icy surfaces.\n\n6. **Salomon X Ultra Winter CS WP 2**:\n   - Gore-Tex waterproofing.\n   - Thinsulate insulation.\n   - Suitable for winter hikes.\n\n7. **Merrell Thermo Chill Mid Waterproof**:\n   - Lightweight and breathable.\n   - Good traction and stability.\n   - Comfortable for long walks.\n\nWhen choosing, consider factors such as insulation, waterproofing, traction, and the specific conditions you’ll be facing.",
+      "responseTimeMs": 8095,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 2
+        },
+        {
+          "brand": "Merrell",
+          "count": 1
+        },
+        {
+          "brand": "Salomon",
+          "count": 1
+        },
+        {
+          "brand": "Columbia",
+          "count": 1
+        },
+        {
+          "brand": "The North Face",
+          "count": 1
+        },
+        {
+          "brand": "Sorel",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 28,
+      "query": "best snow boots",
+      "success": true,
+      "response": "When looking for the best snow boots, it's important to consider factors like warmth, waterproofing, traction, and comfort. Here are some highly regarded options:\n\n1. **Sorel Caribou**\n   - Insulated with a removable felt liner.\n   - Great waterproofing and traction.\n   - Classic, durable design.\n\n2. **Columbia Bugaboot Plus IV Omni-Heat**\n   - Features Columbia's Omni-Heat reflective technology.\n   - Waterproof with excellent grip.\n\t\n3. **The North Face Chilkat**\n   - Insulated and waterproof.\n   - Ideal for harsh winter conditions.\n\n4. **Kamik NationPlus**\n   - Budget-friendly with good insulation.\n   - Waterproof and provides good traction.\n\n5. **Merrell Thermo Chill Mid Waterproof**\n   - Sporty design with effective insulation.\n   - Comfortable for long walks.\n\n6. **Bogs Bozeman Tall**\n   - Waterproof and slip-resistant.\n   - Good flexibility and warmth.\n\n7. **L.L.Bean Bean Boots**\n   - Iconic design, great for moderate snow.\n   - Water-resistant with good grip.\n\nChoose a boot that suits your specific needs, such as the level of cold and snow you expect to encounter, and the activities you'll be doing.",
+      "responseTimeMs": 5733,
+      "brandMentions": [
+        {
+          "brand": "Columbia",
+          "count": 2
+        },
+        {
+          "brand": "Merrell",
+          "count": 1
+        },
+        {
+          "brand": "The North Face",
+          "count": 1
+        },
+        {
+          "brand": "Sorel",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 29,
+      "query": "most comfortable boots for walking",
+      "success": true,
+      "response": "When looking for the most comfortable boots for walking, consider the following options and features:\n\n1. **Hiking Boots**:\n   - **Salomon X Ultra 3 GTX**: Known for excellent grip and waterproofing.\n   - **Merrell Moab 2 Mid Waterproof**: Comfortable with good support and cushioning.\n\n2. **Chelsea Boots**:\n   - **Blundstone Original 500**: Durable with a cushioned footbed, suitable for long walks.\n   - **Dr. Martens 2976**: Features air-cushioned soles for added comfort.\n\n3. **Ankle Boots**:\n   - **Timberland Icon 6-Inch Premium**: Offers cushioning and support, with waterproof options.\n   - **Sorel Emelie Chelsea**: Stylish and weatherproof with good comfort.\n\n4. **Over-the-Ankle Boots**:\n   - **Columbia Newton Ridge Plus II**: Lightweight and comfortable with cushioned midsoles.\n   - **KEEN Targhee III Waterproof**: Well-loved for comfort and support.\n\n**Features to Look For**:\n- **Arch Support**: Helps reduce foot fatigue.\n- **Cushioning**: Provides impact absorption.\n- **Breathability**: Keeps feet dry and comfortable.\n- **Fit**: Ensure the boot fits well, with enough room for your toes.\n- **Traction**: Important for stability, especially on varied terrain.\n\nAlways try boots on and consider using insoles for added comfort if necessary.",
+      "responseTimeMs": 6170,
+      "brandMentions": [
+        {
+          "brand": "Merrell",
+          "count": 1
+        },
+        {
+          "brand": "Salomon",
+          "count": 1
+        },
+        {
+          "brand": "Keen",
+          "count": 1
+        },
+        {
+          "brand": "Columbia",
+          "count": 1
+        },
+        {
+          "brand": "Timberland",
+          "count": 1
+        },
+        {
+          "brand": "Dr. Martens",
+          "count": 1
+        },
+        {
+          "brand": "Sorel",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 30,
+      "query": "best warm boots for cold weather",
+      "success": true,
+      "response": "When looking for the best warm boots for cold weather, consider factors like insulation, waterproofing, and traction. Here are some top choices:\n\n1. **Sorel Caribou**: Known for excellent insulation and waterproofing, with a removable felt liner.\n\n2. **Columbia Bugaboot Plus IV Omni-Heat**: Features thermal-reflective lining and is lightweight yet warm.\n\n3. **The North Face Chilkat 400**: Offers solid insulation and a durable, waterproof design.\n\n4. **Kamik NationPlus**: Budget-friendly with good insulation and a removable liner.\n\n5. **UGG Adirondack III**: Combines style and functionality, with sheepskin lining and waterproof leather.\n\n6. **Bogs Classic High**: Waterproof, with Neo-Tech insulation for warmth.\n\n7. **Merrell Thermo Chill Mid Waterproof**: Great for hiking, with solid traction and insulation.\n\nChoosing the right pair depends on your specific needs, like the level of activity and climate conditions. Always check for fit and comfort, as these are crucial for keeping your feet warm and dry.",
+      "responseTimeMs": 6835,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "Merrell",
+          "count": 1
+        },
+        {
+          "brand": "Columbia",
+          "count": 1
+        },
+        {
+          "brand": "The North Face",
+          "count": 1
+        },
+        {
+          "brand": "Sorel",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 31,
+      "query": "best sheepskin boots",
+      "success": true,
+      "response": "When it comes to the best sheepskin boots, a few brands are consistently praised for their quality, comfort, and style. Here are some top recommendations:\n\n1. **UGG Australia**: Known for their iconic sheepskin boots, UGG offers a wide range of styles with high-quality sheepskin lining for warmth and comfort.\n\n2. **EMU Australia**: EMU provides durable, stylish sheepskin boots made from high-quality materials. They often focus on practicality and innovative design.\n\n3. **Bearpaw**: This brand offers affordable sheepskin boots with a focus on comfort and durability. They are a popular choice for many looking for a balance of style and function.\n\n4. **Lamo Footwear**: Known for their comfortable and stylish designs, Lamo's sheepskin boots are another great option, often at a more budget-friendly price point.\n\n5. **Koolaburra by UGG**: A more affordable line from UGG, Koolaburra offers similar styling with slightly different construction, making them a great alternative.\n\n6. **Sorel**: While primarily known for their high-quality winter boots, Sorel also offers some sheepskin-lined options that combine functionality with style.\n\nWhen choosing the best sheepskin boots, consider factors like fit, style, warmth, and durability to find the right pair for your needs.",
+      "responseTimeMs": 4901,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 4
+        },
+        {
+          "brand": "Koolaburra",
+          "count": 2
+        },
+        {
+          "brand": "Sorel",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 32,
+      "query": "best waterproof boots",
+      "success": true,
+      "response": "When looking for the best waterproof boots, you'll want to consider factors such as comfort, durability, and specific use cases like hiking, work, or casual wear. Here are some top options across different categories:\n\n### Hiking Boots\n1. **Salomon Quest 4 GTX**\n   - Pros: Great support and stability, durable Gore-Tex lining, comfortable.\n   - Cons: Slightly heavier but ideal for rugged terrain.\n\n2. **Merrell Moab 2 Mid Waterproof**\n   - Pros: Affordable, comfortable, versatile.\n   - Cons: Not as durable for long, intense hikes.\n\n### Work Boots\n1. **Timberland PRO 6-Inch**\n   - Pros: Durable leather, slip-resistant, comfortable for all-day wear.\n   - Cons: On the heavier side.\n\n2. **Carhartt Waterproof Work Boot**\n   - Pros: Comfortable, flexible, and reliable waterproofing.\n   - Cons: Takes time to break in.\n\n### Casual Boots\n1. **Blundstone Thermal Series**\n   - Pros: Stylish design, thermal insulation, effective waterproofing.\n   - Cons: Higher price point.\n\n2. **Sorel Caribou Boot**\n   - Pros: Classic style, excellent warmth, and waterproofing.\n   - Cons: Bulkier design.\n\n### Key Features to Consider\n- **Material**: Look for Gore-Tex or other waterproof membranes.\n- **Fit**: Ensure ample space in the toe box and a snug fit around the ankle.\n- **Traction**: Check the tread pattern for stability on wet surfaces.\n- **Insulation**: Depending on climate, consider boots with insulation for warmth.\n\nThese options are highly rated for their performance, but be sure to try them on or research specific reviews to find the best match for your needs.",
+      "responseTimeMs": 6802,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "Merrell",
+          "count": 1
+        },
+        {
+          "brand": "Salomon",
+          "count": 1
+        },
+        {
+          "brand": "Timberland",
+          "count": 1
+        },
+        {
+          "brand": "Sorel",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 33,
+      "query": "best fashion boots",
+      "success": true,
+      "response": "When it comes to the best fashion boots, it really depends on your style and needs. Here are some popular and versatile options:\n\n1. **Chelsea Boots**: Timeless and sleek, these ankle-high boots with elastic side panels are perfect for both casual and semi-formal outfits.\n\n2. **Ankle Boots**: With a variety of styles and heel heights, ankle boots are versatile and great for transitioning from day to night.\n\n3. **Combat Boots**: Edgy and durable, they can add a bit of grunge or punk to any outfit and are perfect for colder weather.\n\n4. **Knee-High Boots**: Chic and elongating, these boots are great for pairing with skirts and dresses in the fall and winter.\n\n5. **Over-the-Knee Boots**: Dramatic and stylish, these boots can make a statement and keep you warm.\n\n6. **Western Boots**: Inspired by cowboy boots, they add a touch of Western flair to casual outfits.\n\n7. **Sock Boots**: Fitted and modern, sock boots hug the ankle and can be worn with both jeans and dresses.\n\n8. **Platform Boots**: For a bold look, platform boots add height and can be a fun way to elevate an outfit.\n\nChoosing the right boot depends on your personal style, comfort preferences, and occasion. Always consider quality materials and good construction for longevity.",
+      "responseTimeMs": 7545,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 34,
+      "query": "best slip on boots",
+      "success": true,
+      "response": "Choosing the best slip-on boots depends on your needs and style preferences, but here are some top options across different categories:\n\n1. **Casual Wear:**\n   - **Blundstone Original 500 Series:** Known for their durability, comfort, and classic design.\n   - **Sorel Madson Chelsea Waterproof Boot:** Offers both style and functionality with waterproof materials.\n\n2. **Work Boots:**\n   - **Redback Boots USBOK:** Renowned for their comfort and rugged build, suitable for heavy-duty work.\n   - **Ariat Groundbreaker Chelsea:** Provides safety features with a comfortable design.\n\n3. **Fashion Boots:**\n   - **Common Projects Chelsea Boot:** Sleek and minimalist, perfect for dressing up.\n   - **Dr. Martens 2976 Chelsea Boot:** Combines iconic style with durability.\n\n4. **Outdoor/Performance:**\n   - **Merrell Moab Adventure Chelsea Waterproof:** Offers great support and waterproofing for outdoor adventures.\n   - **The North Face ThermoBall Traction Bootie:** Ideal for colder weather with thermal insulation.\n\n5. **Winter Boots:**\n   - **UGG Classic Mini II:** Offers warmth and comfort with sheepskin lining.\n   - **Bogs Bozeman Tall:** Perfect for cold, wet conditions with excellent insulation.\n\nWhen selecting slip-on boots, consider factors like fit, material, weather conditions, and the specific purpose for which you'll be wearing them. Always try them on to ensure comfort and the right fit.",
+      "responseTimeMs": 6760,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 2
+        },
+        {
+          "brand": "Merrell",
+          "count": 1
+        },
+        {
+          "brand": "The North Face",
+          "count": 1
+        },
+        {
+          "brand": "Dr. Martens",
+          "count": 1
+        },
+        {
+          "brand": "Sorel",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 35,
+      "query": "best ankle boots for women",
+      "success": true,
+      "response": "Here are some popular ankle boots for women that are known for their style and comfort:\n\n1. **Dr. Martens 1460 Pascal** - Iconic with a rugged edge and durable construction.\n\n2. **Blundstone Classic 550** - Known for their comfort, durability, and versatile style.\n\n3. **Sorel Lennox Chelsea** - Offers weatherproof protection with a trendy design.\n\n4. **Sam Edelman Petty** - Sleek and stylish, great for everyday wear.\n\n5. **Frye Carson Chelsea** - Classic leather boots with refined details.\n\n6. **Timberland Courmayeur Valley** - Combines classic style with practicality.\n\n7. **Rag & Bone Walker** - Modern and chic with a pointed toe.\n\n8. **Everlane The Boss Boot** - Minimalist style made with high-quality leather.\n\n9. **Steve Madden Kimmie** - Trendy block heel for added height and style.\n\n10. **UGG Classic Ankle Boot** - Combines casual comfort with a chic look.\n\nThese boots vary in style, from classic to contemporary, catering to different preferences and needs.",
+      "responseTimeMs": 5491,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 2
+        },
+        {
+          "brand": "Timberland",
+          "count": 1
+        },
+        {
+          "brand": "Dr. Martens",
+          "count": 1
+        },
+        {
+          "brand": "Sorel",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 36,
+      "query": "coziest winter boots",
+      "success": true,
+      "response": "When looking for the coziest winter boots, consider the following brands and styles known for their warmth and comfort:\n\n1. **UGG**\n   - Famous for their shearling lining, UGG boots provide excellent insulation and comfort.\n\n2. **Sorel**\n   - Offers boots with waterproof construction and insulated linings, perfect for snow and wet conditions.\n\n3. **Columbia**\n   - Known for their Omni-Heat reflective lining, these boots keep your feet warm even in harsh temperatures.\n\n4. **The North Face**\n   - Provides durable and insulated boots designed for cold weather and outdoor activities.\n\n5. **LL Bean**\n   - Their classic duck boots are lined with Thinsulate, offering a combination of waterproofing and insulation.\n\n6. **Kamik**\n   - These boots come with moisture-wicking liners and are built to withstand extreme cold.\n\n7. **Merrell**\n   - Known for their hiking boots, they also offer winter versions that include thermal insulation.\n\nWhen selecting winter boots, prioritize features like insulation, waterproof materials, and a comfortable fit to ensure warmth and coziness.",
+      "responseTimeMs": 3708,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 2
+        },
+        {
+          "brand": "Merrell",
+          "count": 1
+        },
+        {
+          "brand": "Columbia",
+          "count": 1
+        },
+        {
+          "brand": "The North Face",
+          "count": 1
+        },
+        {
+          "brand": "Sorel",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 37,
+      "query": "best boots for snow and ice",
+      "success": true,
+      "response": "When selecting the best boots for snow and ice, consider the following factors:\n\n1. **Traction**: Look for boots with deep treads and a specialized rubber sole designed for ice and snow. Brands like Vibram offer excellent traction.\n\n2. **Insulation**: Choose boots with good insulation to keep your feet warm. Materials like Thinsulate or shearling are excellent choices.\n\n3. **Waterproofing**: Ensure the boots are made from waterproof materials such as Gore-Tex to keep your feet dry.\n\n4. **Fit and Comfort**: Make sure they have a comfortable fit with good ankle support.\n\n5. **Durability**: Opt for boots made with high-quality materials for a longer lifespan.\n\n6. **Weight**: Lightweight boots can reduce fatigue if you’re walking long distances in the snow.\n\n**Recommended Brands:**\n- **Sorel**: Known for warmth and durability.\n- **The North Face**: Offers good waterproof and insulated options.\n- **Columbia**: Provides excellent value with their Omni-Grip and Omni-Heat technologies.\n- **Merrell**: Offers good traction and comfort.\n- **Kamik**: Known for affordable and effective snow boots.\n\nLook for specific models with these features to ensure safety and comfort in snowy and icy conditions.",
+      "responseTimeMs": 5261,
+      "brandMentions": [
+        {
+          "brand": "Merrell",
+          "count": 1
+        },
+        {
+          "brand": "Columbia",
+          "count": 1
+        },
+        {
+          "brand": "The North Face",
+          "count": 1
+        },
+        {
+          "brand": "Sorel",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 38,
+      "query": "best insulated boots",
+      "success": true,
+      "response": "When looking for well-insulated boots, especially for cold weather, you’ll want to consider a few key features:\n\n1. **Insulation Material:**\n   - **Thinsulate:** Known for being lightweight yet warm; available in various weights (e.g., 200g, 400g, etc.).\n   - **Down:** Offers excellent warmth but can be less effective when wet.\n   - **PrimaLoft:** Synthetically made to mimic down, it retains warmth even when wet.\n\n2. **Waterproofing:**\n   - Look for boots with GORE-TEX or similar waterproof membranes to keep your feet dry.\n\n3. **Sole Construction:**\n   - Thick, rugged soles provide better insulation from cold ground. Vibram soles are a popular choice for durability and grip.\n\n4. **Fit and Comfort:**\n   - Ensure they have a snug fit without being too tight, allowing space for socks and potentially increasing circulation to keep feet warm.\n\n### Recommended Brands\n\n- **Sorel (Caribou, Joan of Arctic):** Known for their durable construction and classic style.\n- **The North Face (Chilkat series):** Offers a good mix of warmth and waterproof features.\n- **Columbia (Bugaboot, Fairbanks):** Often feature Omni-Heat reflective lining for added warmth.\n- **Kamik (NationPlus, Greenbay):** Affordable, practical options for snow and cold conditions.\n- **Baffin (Impact, Snow Monster):** Known for high-performance boots in extremely cold conditions.\n\nWhen choosing the best pair, consider your specific needs—whether it's for everyday wear, hiking, or extreme conditions.",
+      "responseTimeMs": 7207,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "Columbia",
+          "count": 1
+        },
+        {
+          "brand": "The North Face",
+          "count": 1
+        },
+        {
+          "brand": "Sorel",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 39,
+      "query": "most comfortable everyday shoes",
+      "success": true,
+      "response": "Choosing the most comfortable everyday shoes can depend on your personal style, foot shape, and daily activities. However, here are some highly recommended options based on comfort and versatility:\n\n1. **Allbirds Wool Runners**\n   - Made from merino wool.\n   - Breathable and moisture-wicking.\n\n2. **New Balance Fresh Foam 1080**\n   - Cushioned sole for high comfort.\n   - Suitable for long periods of standing or walking.\n\n3. **Nike Air Max 270**\n   - Offers great cushioning and support.\n   - Stylish with a sporty look.\n\n4. **Birkenstock Arizona**\n   - Contoured cork footbed.\n   - Supportive and easy to wear.\n\n5. **Hoka One One Clifton**\n   - Known for high cushioning and support.\n   - Lightweight and great for all-day wear.\n\n6. **Skechers Go Walk**\n   - Lightweight and flexible.\n   - Ideal for casual outings and long walks.\n\n7. **ECCO Soft 7**\n   - Made from premium leather.\n   - Offers a blend of style and comfort.\n\n8. **Vans Classic Slip-On**\n   - Effortless style and casual comfort.\n   - Easy to match with various outfits.\n\n9. **Adidas Ultraboost**\n   - Excellent cushioning with responsive soles.\n   - Versatile for both exercise and casual wear.\n\nAlways ensure to try on shoes to check for the right fit and support tailored to your foot's needs.",
+      "responseTimeMs": 5693,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "Adidas",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Birkenstock",
+          "count": 1
+        },
+        {
+          "brand": "Allbirds",
+          "count": 1
+        },
+        {
+          "brand": "Vans",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 40,
+      "query": "best casual sneakers",
+      "success": true,
+      "response": "Choosing the best casual sneakers depends on your personal style, comfort needs, and budget. Here are some popular options that are often praised for their design, comfort, and versatility:\n\n1. **Nike Air Force 1**: A classic choice with a timeless design, suitable for various outfits.\n\n2. **Adidas Stan Smith**: Known for their sleek and minimalist look, they pair well with almost anything.\n\n3. **Converse Chuck Taylor All Star**: Iconic and versatile, these sneakers have been a staple for decades.\n\n4. **Vans Old Skool**: A favorite among skaters and casual wearers alike, offering a laid-back vibe.\n\n5. **New Balance 574**: Known for comfort and retro style, suitable for all-day wear.\n\n6. **Reebok Club C**: Offers a clean and simple look with a vintage twist.\n\n7. **Puma Suede**: Classic style with a soft feel, perfect for casual outings.\n\n8. **Common Projects Achilles Low**: A luxury option with a minimalist design, great for a chic look.\n\n9. **Veja V-10**: Sustainable and stylish, these sneakers are popular for their eco-friendly materials.\n\n10. **Onitsuka Tiger Mexico 66**: Retro-inspired with a vintage charm, great for casual wear.\n\nWhen choosing sneakers, consider factors like comfort, material, and how they fit into your wardrobe.",
+      "responseTimeMs": 6271,
+      "brandMentions": [
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "Adidas",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Vans",
+          "count": 1
+        },
+        {
+          "brand": "Converse",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 41,
+      "query": "best slip on shoes",
+      "success": true,
+      "response": "Choosing the best slip-on shoes depends on your needs, style, and budget. Here are some popular options across different categories:\n\n### Casual:\n1. **Vans Classic Slip-On**\n   - Known for their iconic design and comfort, suitable for everyday wear.\n\n2. **Skechers Go Walk**\n   - Offers comfort with lightweight cushioning, ideal for walking and casual outings.\n\n### Smart Casual:\n1. **Cole Haan OriginalGrand Loafer**\n   - Combines a polished look with comfortable soles, great for office or smart-casual events.\n\n2. **Everlane The Day Glove**\n   - Made from soft leather with a modern design, these are versatile and comfortable.\n\n### Outdoor:\n1. **Merrell Jungle Moc**\n   - Perfect for outdoor activities with durable materials and arch support.\n\n2. **KEEN Howser II**\n   - Comfortable and warm, ideal for colder weather and light outdoor use.\n\n### Luxury:\n1. **Gucci Princetown Leather Slipper**\n   - Offers premium materials and a high-end, fashionable design.\n\n2. **Tod’s Gommino Loafer**\n   - Known for their craftsmanship and classic style, perfect for those seeking luxury.\n\n### Sustainable:\n1. **Allbirds Wool Loungers**\n   - Made with sustainable materials and providing great comfort.\n\n2. **Rothy’s The Loafer**\n   - Features recycled materials in their construction and a chic design.\n\nConsider factors like fit, material, purpose, and personal style when choosing the best slip-on shoes for you.",
+      "responseTimeMs": 5581,
+      "brandMentions": [
+        {
+          "brand": "Merrell",
+          "count": 1
+        },
+        {
+          "brand": "Keen",
+          "count": 1
+        },
+        {
+          "brand": "Allbirds",
+          "count": 1
+        },
+        {
+          "brand": "Vans",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 42,
+      "query": "best shoes for standing all day",
+      "success": true,
+      "response": "Standing all day can be tough on your feet, so it's important to choose shoes that offer comfort, support, and durability. Here are some of the best options for different needs:\n\n1. **Running Shoes**: \n   - Brands like Brooks, New Balance, and ASICS offer great cushioning and support.\n\n2. **Walking Shoes**:\n   - Skechers' GOwalk series and the New Balance 990v5 are popular for their comfort and arch support.\n\n3. **Clogs**:\n   - Dansko and Birkenstock clogs provide support with a sturdy sole and ample arch support.\n\n4. **Sneakers**:\n   - The Nike Air Zoom and Adidas Ultraboost lines offer good cushioning and are lightweight.\n\n5. **Work Shoes**:\n   - For women, the Clarks Everlay Coda and for men, the Rockport World Tour Classic offer both formal style and comfort.\n\n6. **Orthopedic Shoes**:\n   - Brands like Vionic and Orthofeet specialize in shoes that provide excellent arch support and cushioning.\n\n7. **Custom Insoles**:\n   - Consider getting custom orthotic insoles to enhance comfort in any shoe.\n\nWhen choosing shoes, look for features like good arch support, cushioned insoles, a breathable upper, and a shock-absorbing sole. Always try them on to ensure a proper fit, and consider your specific needs, such as pronation, foot width, or any specific foot conditions.",
+      "responseTimeMs": 5524,
+      "brandMentions": [
+        {
+          "brand": "New Balance",
+          "count": 2
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "Adidas",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        },
+        {
+          "brand": "Birkenstock",
+          "count": 1
+        },
+        {
+          "brand": "Clarks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 43,
+      "query": "most comfortable slippers",
+      "success": true,
+      "response": "Choosing the most comfortable slippers depends on personal preference, but here are some highly recommended options known for comfort:\n\n1. **UGG Fluff Yeah Slide**: Plush shearling and a thick sole make these both cozy and supportive.\n\n2. **Sorel Nakiska Slippers**: Known for durability and a super soft lining, these are great for colder climates.\n\n3. **Acorn Moc Slippers**: A classic choice with memory foam cushioning for extra comfort.\n\n4. **Glerups Wool Slippers**: Made from natural wool, they provide warmth, breathability, and a slipper-like fit.\n\n5. **LL Bean Wicked Good Moccasins**: Featuring genuine shearling lining and a durable sole, these are a fan favorite.\n\n6. **Vionic Relax Slipper**: Offers orthotic support and is especially good for those needing extra arch support.\n\n7. **Birkenstock Zermatt Slippers**: Known for the contoured cork footbed, providing great support and fit.\n\nConsider factors like material, support, temperature suitability, and whether you need indoor/outdoor versatility when choosing your slippers.",
+      "responseTimeMs": 4689,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "Birkenstock",
+          "count": 1
+        },
+        {
+          "brand": "Sorel",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 44,
+      "query": "best house shoes",
+      "success": true,
+      "response": "Choosing the best house shoes depends on your specific needs and preferences. Here are some top options across different categories:\n\n1. **Overall Comfort:**\n   - **UGG Scuffette II:** Known for their plush sheepskin lining and durable suede exterior.\n\n2. **Budget-Friendly:**\n   - **Crocs Classic Slipper:** Affordable, lightweight, and easy to clean.\n\n3. **Cushioning:**\n   - **Skechers GOwalk Lounge:** Features memory foam for extra support and comfort.\n\n4. **Warmth:**\n   - **L.L. Bean Wicked Good Moccasins:** Made with genuine Australian shearling for exceptional warmth.\n\n5. **Support:**\n   - **Vionic Relax Slippers:** Offers orthotic support with a soft, cozy fabric.\n\n6. **Breathability:**\n   - **Glerups Wool Slippers:** Made from 100% natural wool, allowing your feet to breathe.\n\n7. **Versatile Use:**\n   - **Birkenstock Boston Clogs:** Suitable for both indoor and light outdoor wear, with supportive cork footbed.\n\n8. **Eco-Friendly:**\n   - **Allbirds Wool Loungers:** Sustainable materials and cozy fit.\n\nRemember to consider factors like material, support, and style that suit your lifestyle and preferences when choosing the right pair.",
+      "responseTimeMs": 5098,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "Birkenstock",
+          "count": 1
+        },
+        {
+          "brand": "Crocs",
+          "count": 1
+        },
+        {
+          "brand": "Allbirds",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 45,
+      "query": "best comfortable sandals",
+      "success": true,
+      "response": "When looking for comfortable sandals, consider the following brands known for their comfort and quality:\n\n1. **Birkenstock**: Famous for their contoured cork footbeds that conform to your feet.\n   \n2. **Teva**: Offers great cushioning and support, ideal for outdoor activities.\n\n3. **Chaco**: Known for their rugged durability and excellent arch support.\n\n4. **ECCO**: Combines style with ergonomic designs for all-day wear.\n\n5. **Clarks**: Offers ortholite footbeds for added comfort.\n\n6. **Keen**: Known for supportive arches and protective toe designs.\n\n7. **OluKai**: Features anatomically correct footbeds for natural alignment.\n\n8. **Vionic**: Offers orthotic-grade arch support in stylish designs.\n\nWhen choosing sandals, consider factors like arch support, cushioning, and adjustability to ensure the best fit and comfort for your needs.",
+      "responseTimeMs": 3107,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "Teva",
+          "count": 1
+        },
+        {
+          "brand": "Keen",
+          "count": 1
+        },
+        {
+          "brand": "Birkenstock",
+          "count": 1
+        },
+        {
+          "brand": "Clarks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 46,
+      "query": "best walking shoes for travel",
+      "success": true,
+      "response": "When looking for the best walking shoes for travel, consider the following highly recommended options:\n\n1. **Allbirds Wool Runners**: Made from merino wool, they're comfortable, breathable, and machine-washable.\n\n2. **ECCO Soft 7 Sneakers**: Known for their comfort and durability, these sneakers offer good support for long days of walking.\n\n3. **Nike Air Zoom Pegasus**: These provide cushioning and support, perfect for long walks and versatile in style.\n\n4. **Merrell Moab 2 Ventilator**: Great for hiking and walking, these shoes offer excellent support and grip.\n\n5. **Adidas Ultraboost**: Known for exceptional cushioning and comfort, they’re great for extensive travel days.\n\n6. **Skechers Go Walk**: Lightweight and comfortable, these shoes are popular for city exploration and casual strolling.\n\n7. **Hoka One One Bondi**: These are highly cushioned for extra comfort during long walks or standing periods.\n\nWhen selecting a pair, consider factors like the shoe’s weight, support, breathability, and how well they fit your feet. It's also crucial to ensure they match the type of travel you'll be doing, whether it be urban exploration or more rugged terrain.",
+      "responseTimeMs": 4781,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "Adidas",
+          "count": 1
+        },
+        {
+          "brand": "Merrell",
+          "count": 1
+        },
+        {
+          "brand": "Allbirds",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 47,
+      "query": "best sustainable shoes",
+      "success": true,
+      "response": "When looking for sustainable shoes, consider brands that focus on eco-friendly materials, ethical production methods, and overall sustainability. Here are some popular options:\n\n1. **Allbirds**: Known for using natural materials like merino wool, eucalyptus, and sugarcane-derived soles.\n\n2. **Veja**: Uses organic cotton, wild rubber, and various recycled materials. Emphasizes ethical production in Brazil.\n\n3. **Rothy’s**: Focuses on recycled plastic and merino wool, with a unique knitting technology that reduces waste.\n\n4. **Nisolo**: Offers leather shoes with a focus on ethical production and fair wages for workers.\n\n5. **TOMS**: Has sustainability initiatives and uses recycled and natural materials in several of their lines.\n\n6. **Adidas x Parley**: Made from recycled ocean plastic, these shoes support environmental cleanup efforts.\n\n7. **Native Shoes**: Uses recycled materials and has a recycling program for their shoes.\n\n8. **Cariuma**: Produces sneakers using organic cotton, bamboo, and other sustainable materials.\n\n9. **Vivobarefoot**: Offers minimalist shoes with materials like recycled plastic and natural rubber.\n\n10. **Ecco Leather**: Known for efforts to reduce water waste and energy consumption in their tanning processes.\n\nWhen choosing sustainable shoes, consider factors like material sourcing, labor practices, and the company's overall environmental impact.",
+      "responseTimeMs": 4957,
+      "brandMentions": [
+        {
+          "brand": "Adidas",
+          "count": 1
+        },
+        {
+          "brand": "Allbirds",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 48,
+      "query": "best shoes for plantar fasciitis",
+      "success": true,
+      "response": "Choosing the right shoes for plantar fasciitis involves finding ones that provide excellent arch support, cushioning, and stability. Here are some top recommendations:\n\n1. **Brooks Adrenaline GTS**: Known for its cushioning and support, ideal for stability.\n\n2. **ASICS Gel-Kayano**: Offers good arch support and gel cushioning for comfort.\n\n3. **New Balance 990 Series**: Provides stability and ample cushioning, with wide sizes available.\n\n4. **Hoka One One Bondi**: Known for its thick sole and maximal cushioning, great for heel pain relief.\n\n5. **Vionic Walker**: Features orthotic insoles with arch support and heel cup stabilization.\n\n6. **Saucony Guide**: Provides good support with cushioning that adapts to your stride.\n\n7. **Orthofeet Coral**: Designed specifically for foot pain relief with orthotic insoles.\n\n8. **Altra Torin**: Offers balanced cushioning and a foot-shaped toe box for comfort.\n\nWhen selecting shoes, make sure they have a firm heel counter, a cushioned outsole, and a supportive midsole. Custom orthotics can also be considered for added comfort.",
+      "responseTimeMs": 5330,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        },
+        {
+          "brand": "Saucony",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 49,
+      "query": "most comfortable shoes 2026",
+      "success": true,
+      "response": "As of my last update, I can't predict future events or products. However, shoe comfort often depends on factors like personal preference, foot shape, and activity. Popular brands known for comfort include:\n\n1. **Allbirds** - Known for their sustainable materials and comfort.\n2. **HOKA ONE ONE** - Offers exceptional cushioning, popular with runners.\n3. **Nike and Adidas** - Both provide a range of comfortable sneakers with advanced technology.\n4. **Brooks** - Often recommended for running, with a focus on foot support.\n5. **Sketchers** - Offers a variety of comfortable, casual, and performance footwear.\n\nFor the latest shoes in 2026, keep an eye on tech advancements in footwear and reviews from trusted sources.",
+      "responseTimeMs": 3214,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "Adidas",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "Allbirds",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 50,
+      "query": "best orthopedic casual shoes",
+      "success": true,
+      "response": "Selecting the best orthopedic casual shoes involves considering factors like comfort, support, and style. Here are some top brands known for their orthopedic features combined with casual style:\n\n1. **Vionic**: Offers excellent arch support and cushioning, ideal for those with plantar fasciitis or flat feet.\n\n2. **Clarks**: Known for comfortable, stylish shoes with good arch support and cushioning.\n\n3. **Brooks**: Although primarily a running shoe brand, they offer casual options with great support and comfort.\n\n4. **New Balance**: Known for wide sizes and excellent support, suitable for everyday casual wear.\n\n5. **HOKA**: Offers shoes with plush cushioning and a rocker sole for better mobility.\n\n6. **ECCO**: Provides a combination of style and comfort with supportive footbeds.\n\n7. **Orthaheel**: Specializes in biomechanical designs that support natural foot movement.\n\n8. **Merrell**: Known for casual shoes with good support and durability.\n\nWhen choosing, consider your specific foot needs, such as arch type, any existing foot conditions, and personal style preferences.",
+      "responseTimeMs": 4393,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "Merrell",
+          "count": 1
+        },
+        {
+          "brand": "Clarks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 51,
+      "query": "HOKA vs Brooks running shoes",
+      "success": true,
+      "response": "When choosing between HOKA and Brooks running shoes, it's important to consider what you're looking for in terms of cushioning, support, and your specific running style.\n\n### HOKA\n**Features:**\n- **Maximal Cushioning:** Known for their thick midsoles, HOKA shoes offer maximum cushioning, which can be great for shock absorption and long distances.\n- **Meta-Rocker Technology:** Designed to promote a smooth and efficient stride.\n- **Lightweight:** Despite the large cushioning, they are often surprisingly lightweight.\n- **Best For:** Long-distance runners, those looking for extra cushioning, and individuals who prefer a plush ride.\n\n### Brooks\n**Features:**\n- **Balanced Cushioning:** Offers a range of cushioning levels from neutral to maximum, catering to various preferences.\n- **GuideRails Support System:** Provides holistic support, keeping excess movement in check.\n- **BioMoGo DNA and DNA LOFT:** These technologies provide adaptive cushioning and responsiveness.\n- **Best For:** Runners seeking reliable stability, a more traditional running shoe feel, and a variety of support options.\n\n### Considerations\n- **Foot Type and Gait:** Both brands offer shoe models for different pronations (neutral, overpronation, etc.).\n- **Running Terrain:** Consider whether you need shoes for road running, trail running, or a mix of surfaces.\n- **Fit and Comfort:** Personal comfort and fit are crucial. It's often beneficial to try on shoes from both brands to see which feels better for your specific foot shape and running style.\n\nUltimately, the best choice will depend on your individual needs and preferences. If possible, try them on and take them for a test run to see which brand suits you better.",
+      "responseTimeMs": 6830,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 3
+        },
+        {
+          "brand": "Brooks",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 52,
+      "query": "HOKA vs Nike running shoes",
+      "success": true,
+      "response": "When choosing between HOKA and Nike running shoes, it's essential to consider your specific needs and preferences, as both brands offer distinct advantages.\n\n### HOKA:\n- **Cushioning**: Known for their maximal cushioning, HOKA shoes offer a plush ride, which can be beneficial for long-distance running and reducing joint impact.\n- **Rocker Design**: Features a meta-rocker geometry that helps propel the runner forward, encouraging a smooth stride.\n- **Stability**: Some HOKA models provide additional stability, ideal for overpronators or those seeking extra support.\n- **Fit**: Generally have a wider toe box, accommodating a variety of foot shapes.\n\n### Nike:\n- **Variety**: Offers a wide range of models for different needs, from racing flats to trail shoes and everything in between.\n- **Technology**: Known for innovative technologies like ZoomX foam and Flyknit uppers, providing responsive cushioning and a snug fit.\n- **Style**: Often emphasizes aesthetics alongside performance, appealing to those who value both function and fashion.\n- **Performance**: Many Nike shoes are designed for speed, popular among competitive runners.\n\n### Considerations:\n- **Foot type and gait**: Understand your foot type (neutral, overpronator, underpronator) to select the appropriate shoe.\n- **Distance and terrain**: Consider whether you'll be running on trails, roads, or tracks and how far you typically run.\n- **Comfort and fit**: Try on different models to see which brand and style fit your foot shape best.\n\nBoth HOKA and Nike have stellar reputations, so it's really about finding the shoe that aligns with your running style and personal preferences.",
+      "responseTimeMs": 5386,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 5
+        },
+        {
+          "brand": "Nike",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "queryIndex": 53,
+      "query": "HOKA vs On Running",
+      "success": true,
+      "response": "When comparing HOKA and On Running, both brands have unique features and cater to different preferences in running footwear:\n\n### HOKA\n- **Cushioning**: Known for its maximalist cushioning, offering a soft landing and smooth ride. Great for long-distance runners seeking comfort.\n- **Design**: Features a distinctive thick sole with a rocker geometry to promote a natural stride.\n- **Stability**: Offers good stability and support, often preferred by those needing extra cushioning for joint comfort.\n- **Variety**: Provides a range of models for different terrains and running styles, including road, trail, and hiking.\n\n### On Running\n- **CloudTec Technology**: Uses small cloud-like pods on the outsole to absorb impact efficiently and provide a responsive feel.\n- **Design**: Generally more minimalist and sleek, appealing to those who prefer a lighter and less bulky shoe.\n- **Responsive Feel**: Focuses on providing a balance of cushioning and responsiveness, making it popular for runners who like a faster, snappier feel.\n- **Versatility**: Offers shoes for diverse activities, from casual wear to competitive sports.\n\n### Choosing Between Them\n- **Cushioning Need**: If maximum cushioning is important, HOKA might be your preference.\n- **Responsiveness**: If you prefer a responsive, lightweight shoe, On Running could be the better choice.\n- **Terrain and Style**: Consider your typical running environment and personal style preference when selecting a brand.\n\nIt’s always beneficial to try both brands to see which one suits your feet and running style best.",
+      "responseTimeMs": 6097,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 3
+        },
+        {
+          "brand": "On Running",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "queryIndex": 54,
+      "query": "UGG vs Bearpaw boots",
+      "success": true,
+      "response": "When comparing UGG and Bearpaw boots, there are a few key considerations to keep in mind:\n\n1. **Materials**:\n   - **UGG**: Typically made from high-quality sheepskin and wool, UGG boots are known for their soft, plush interior that provides warmth and comfort.\n   - **Bearpaw**: Often made from suede and lined with a wool blend, Bearpaw boots also offer warmth, though the materials might differ slightly in texture and thickness.\n\n2. **Price**:\n   - **UGG**: Generally more expensive due to brand reputation and material quality.\n   - **Bearpaw**: Usually more budget-friendly, making them a popular alternative for those looking for similar style at a lower price point.\n\n3. **Durability**:\n   - **UGG**: Known for long-lasting construction, though care is needed to maintain their appearance and condition.\n   - **Bearpaw**: Durable as well, but some users find they might not last as long as UGGs with heavy use.\n\n4. **Style and Variety**:\n   - Both brands offer a wide range of styles and colors, although UGG often has a larger variety due to their broader product range.\n\n5. **Comfort**:\n   - Both UGG and Bearpaw boots are praised for their comfort, especially for casual wear. UGGs may have a slight edge due to their premium materials.\n\n6. **Ethical Considerations**:\n   - Be mindful of each brand's sourcing practices and any commitments to ethical production, as this can be a deciding factor for some consumers.\n\nUltimately, the choice between UGG and Bearpaw comes down to personal preference, budget, and specific needs for warmth and style.",
+      "responseTimeMs": 6901,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "queryIndex": 55,
+      "query": "UGG vs Koolaburra",
+      "success": true,
+      "response": "UGG and Koolaburra are both brands known for their comfortable and stylish footwear, but they cater to slightly different segments and needs. Here's a comparison:\n\n### UGG\n\n1. **Established Brand**: UGG is a well-established brand known for its premium sheepskin boots and slippers.\n2. **Quality and Craftsmanship**: UGG products are made with high-quality materials and are renowned for their comfort and durability.\n3. **Price Point**: Generally higher priced due to the premium materials and craftsmanship.\n4. **Variety**: Offers a wide range of styles beyond just boots, including slippers, sandals, and even apparel.\n5. **Brand Prestige**: Known for its luxury brand status, often associated with a fashionable lifestyle.\n\n### Koolaburra\n\n1. **Subsidiary of UGG**: Koolaburra is owned by the same parent company as UGG but is positioned as a more affordable option.\n2. **Affordability**: Focuses on providing stylish boots and footwear at a lower price point.\n3. **Materials**: While still offering quality, the materials may not be as premium as UGG, contributing to the lower cost.\n4. **Target Audience**: Appeals to a younger or more budget-conscious demographic.\n5. **Casual Styles**: Offers a range of casual, trendy styles that echo the classic UGG look.\n\n### Considerations\n\n- **Budget**: Choose Koolaburra if you’re looking for a more budget-friendly option while still enjoying a similar style to UGG.\n- **Quality and Longevity**: Opt for UGG if you prioritize premium quality and are willing to invest more for long-lasting footwear.\n- **Style Preference**: Both provide fashionable options, but UGG offers a more diverse and premium range.\n\nUltimately, the choice depends on your budget, style preference, and how much you value the brand prestige and materials.",
+      "responseTimeMs": 6909,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 11
+        },
+        {
+          "brand": "Koolaburra",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "queryIndex": 56,
+      "query": "Teva vs Chaco sandals",
+      "success": true,
+      "response": "When choosing between Teva and Chaco sandals, it's important to consider what you're looking for in terms of comfort, durability, and style, as both brands offer distinct features catered to different preferences and activities.\n\n### Teva Sandals\n- **Design**: Generally more lightweight and versatile in style, making them suitable for casual wear and light outdoor activities.\n- **Comfort**: Known for their soft footbed and adjustable straps, providing immediate comfort without a significant break-in period.\n- **Activities**: Ideal for casual hikes, water activities, and everyday wear.\n- **Price Range**: Often more affordable compared to Chaco, depending on the model.\n\n### Chaco Sandals\n- **Design**: Built with a focus on durability and support, often featuring a rugged and sturdy construction.\n- **Comfort**: Offer excellent arch support and foot alignment, but may require a break-in period. Typically heavier than Tevas.\n- **Activities**: Perfect for extensive hiking, rugged terrains, and serious water activities.\n- **Customization**: Chaco provides customization options for color and strap styles.\n- **Price Range**: Tend to be on the pricier side, reflecting their durability and design for intense use.\n\n### Conclusion\n- **Light Usage and Casual Wear**: Teva is a great choice for comfort and style.\n- **Durability and Support for Outdoor Adventures**: Chaco excels in robust conditions and long-term support.\n\nUltimately, the choice depends on your specific needs, whether it’s everyday convenience or robust outdoor performance.",
+      "responseTimeMs": 6252,
+      "brandMentions": [
+        {
+          "brand": "Teva",
+          "count": 4
+        },
+        {
+          "brand": "UGG",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 57,
+      "query": "Teva vs Keen sandals",
+      "success": true,
+      "response": "Teva and Keen are both well-regarded brands in the outdoor footwear market, known for their durable sandals that cater to different activities and preferences. Here's a brief comparison to help you decide which might be better for your needs:\n\n### Teva Sandals\n\n**Key Features:**\n- **Comfort and Versatility:** Known for their comfortable footbeds and versatile design. Suitable for light hiking, casual wear, and water activities.\n- **Design:** Typically features a more open, strappy design, which is great for breathability.\n- **Water Readiness:** Many models are designed to dry quickly, making them ideal for wet conditions.\n- **Weight:** Generally lighter than Keen sandals.\n\n**Best For:**\n- People looking for a multifunctional sandal.\n- Those who prioritize lightweight and breathable options.\n- Water activities and everyday casual use.\n\n### Keen Sandals\n\n**Key Features:**\n- **Toe Protection:** Known for their signature rubber toe caps, offering added protection for more rugged outdoor activities.\n- **Durability:** Built with sturdier materials, often making them more robust for tougher terrains.\n- **Support:** Provides excellent arch support and a more structured fit.\n- **Trekking and Hiking:** Many models are specifically designed for hiking and have a more supportive sole.\n\n**Best For:**\n- Those needing extra toe protection and durability.\n- Hiking on rougher trails.\n- Users who prioritize foot support and safety.\n\n### Decision Factors\n\n- **Activity Type:** Choose Teva if you need a more lightweight, water-ready sandal. Opt for Keen if you're venturing into rougher terrains and need more protection.\n- **Comfort vs. Protection:** Teva offers a more relaxed fit, whereas Keen provides more foot coverage and protection.\n- **Style Preference:** Consider the aesthetic and strap design that suits your taste.\n\nUltimately, both brands offer high-quality sandals, so your choice will depend on your specific needs and the activities you plan to undertake.",
+      "responseTimeMs": 6875,
+      "brandMentions": [
+        {
+          "brand": "Keen",
+          "count": 5
+        },
+        {
+          "brand": "Teva",
+          "count": 4
+        },
+        {
+          "brand": "UGG",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 58,
+      "query": "HOKA vs New Balance running shoes",
+      "success": true,
+      "response": "When choosing between HOKA and New Balance running shoes, there are several factors to consider, as both brands offer unique features tailored to different types of runners. Here's a brief comparison:\n\n### HOKA:\n- **Cushioning:** Known for their maximalist cushioning, providing a soft and plush underfoot feel. Ideal for runners looking for maximum shock absorption.\n- **Stability and Support:** Many models offer good support and stability, suitable for both neutral runners and those needing extra support.\n- **Meta-Rocker Technology:** Designed to encourage a smooth and efficient gait cycle, aiding in faster transitions.\n- **Lightweight:** Despite the thick cushioning, HOKA shoes are generally lightweight.\n- **Specialization:** Particularly popular among distance runners, trail runners, and ultrarunners.\n\n### New Balance:\n- **Variety:** Offers a wide range of models catering to different needs, from minimalistic designs to more cushioned options.\n- **Fit and Comfort:** Known for offering various widths and sizes, ensuring a comfortable and personalized fit.\n- **Versatility:** Suitable for a broad spectrum of activities, from casual running to competitive racing.\n- **Technology:** Features technologies like Fresh Foam and FuelCell for responsive cushioning and performance.\n- **Aesthetic Choices:** Often praised for stylish designs, appealing to fashion-conscious runners.\n\n### Considerations:\n- **Running Style:** Consider what type of running you’ll be doing (e.g., road, trail, distance).\n- **Foot Type:** Your arch type and any specific support needs should guide your choice.\n- **Try Before You Buy:** If possible, try on different models to see which feels best for your specific needs.\n\nBoth brands are reputable and have passionate followings, so testing a few models based on your requirements is a great way to decide which suits you better.",
+      "responseTimeMs": 7641,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 3
+        },
+        {
+          "brand": "New Balance",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 59,
+      "query": "UGG vs EMU boots",
+      "success": true,
+      "response": "UGG and EMU are both popular brands known for their sheepskin boots, but they have some differences:\n\n### UGG Boots\n\n1. **Material & Quality**: UGG boots are made from high-quality, twin-faced sheepskin, which provides warmth and comfort. The inside is lined with wool, and the outer surface is typically suede.\n\n2. **Design & Style**: UGGs are known for their classic styles, like the iconic \"Classic\" boot, and they offer a wide range of colors and designs. They have expanded their product line to include various styles beyond boots.\n\n3. **Price**: Generally, UGG boots are on the pricier side. The brand is very well-known, which often contributes to higher prices.\n\n4. **Popularity & Branding**: UGG is a globally recognized brand. The brand's popularity surged in the early 2000s, and it remains a fashionable choice for many people.\n\n### EMU Boots\n\n1. **Material & Quality**: EMU boots are also made from high-quality Australian sheepskin. The brand emphasizes the natural breathability and water resistance of their materials.\n\n2. **Design & Style**: EMU offers styles similar to UGG, with a focus on classic and practical designs. They often incorporate additional features like water resistance and a molded heel cup for extra support.\n\n3. **Price**: Typically, EMU boots are slightly more affordable than UGGs, making them a popular alternative for those looking for quality sheepskin boots at a lower price.\n\n4. **Popularity & Branding**: While not as globally recognized as UGG, EMU is well-respected for its quality and durability. The brand emphasizes its Australian heritage and eco-friendly practices.\n\n### Conclusion\n\nChoosing between UGG and EMU boots often comes down to personal preference, budget, and the specific features you’re looking for. Both brands offer warmth, comfort, and a range of styles, so you can’t go wrong with either choice.",
+      "responseTimeMs": 6680,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "queryIndex": 60,
+      "query": "HOKA vs ASICS",
+      "success": true,
+      "response": "HOKA and ASICS are both well-regarded brands in the running shoe industry, each with its unique features and advantages. Here's a brief comparison to help you decide which might suit your needs:\n\n### HOKA:\n\n1. **Cushioning**: Known for their maximalist cushioning, HOKA shoes provide a plush, cushioned ride ideal for long distances and reducing impact on joints.\n\n2. **Rocker Design**: Many HOKA models feature a meta-rocker design, promoting a smooth transition from heel to toe.\n\n3. **Lightweight**: Despite the thick soles, HOKA shoes are relatively lightweight, making them comfortable over long runs.\n\n4. **Comfort**: They often focus on comfort with soft, breathable materials and spacious toe boxes.\n\n5. **Trail Options**: HOKA has a strong selection of trail running shoes, known for their excellent grip and stability on uneven terrain.\n\n### ASICS:\n\n1. **Stability and Support**: ASICS is known for providing excellent support and stability, making them a popular choice for those with overpronation issues.\n\n2. **Gel Cushioning**: Their Gel cushioning technology offers shock absorption, providing a responsive feel without compromising stability.\n\n3. **Durability**: ASICS shoes are often praised for their durability, making them a good investment for frequent runners.\n\n4. **Variety**: They offer a wide range of models catering to different foot types, running styles, and preferences.\n\n5. **Technology**: ASICS continually innovates with features like FlyteFoam for lightweight cushioning and impact protection.\n\n### Choosing Between Them:\n\n- **If you prefer** a softer, cushier ride with a unique geometry that aids in a smooth stride, HOKA might be the way to go.\n- **If you need** more traditional support and stability with durable construction, ASICS could be a better fit.\n\nUltimately, the choice depends on your running style, foot type, and personal preferences. Trying on different models and considering your specific needs (e.g., road vs. trail running) will help you make the best decision.",
+      "responseTimeMs": 9825,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 7
+        },
+        {
+          "brand": "ASICS",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "queryIndex": 61,
+      "query": "Teva vs Merrell hiking sandals",
+      "success": true,
+      "response": "When choosing between Teva and Merrell hiking sandals, consider the following:\n\n### Teva Hiking Sandals:\n- **Design**: Known for their classic open-toe design with adjustable straps.\n- **Comfort**: Provides good cushioning and support with EVA foam midsoles.\n- **Traction**: Outsoles often have decent grip suitable for various terrains.\n- **Water-Friendly**: Many models are quick-drying, making them great for water activities.\n- **Versatility**: Can be used for both hiking and casual wear.\n\n### Merrell Hiking Sandals:\n- **Design**: Often have a more enclosed design with protective features.\n- **Comfort**: Focus on arch support and anatomical footbeds for long-wear comfort.\n- **Traction**: Typically have Vibram outsoles, known for superior grip on rugged trails.\n- **Durability**: Generally built with high-quality materials for rough conditions.\n- **Technology**: Some models include features like antimicrobial agents to reduce odor.\n\n### Key Considerations:\n- **Activity Type**: If you need a sandal for water hiking or wet conditions, Teva's quick-drying features are beneficial. For rugged and rocky trails, Merrell’s durable build might be preferable.\n- **Fit and Comfort**: Try on both brands to see which provides better arch support and overall comfort.\n- **Foot Protection**: If you need more foot protection, look for models with enclosed designs from Merrell.\n\nBoth brands offer great options, so your choice will depend on personal preference, intended use, and specific features that best suit your needs.",
+      "responseTimeMs": 6323,
+      "brandMentions": [
+        {
+          "brand": "Merrell",
+          "count": 4
+        },
+        {
+          "brand": "Teva",
+          "count": 3
+        },
+        {
+          "brand": "UGG",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 62,
+      "query": "UGG vs Sorel winter boots",
+      "success": true,
+      "response": "When considering winter boots, UGG and Sorel are two popular brands with distinct styles and features. Here's a comparison to help you decide which might be better for your needs:\n\n### UGG Winter Boots\n\n**1. Style:**\n   - UGG boots are known for their classic, cozy aesthetic.\n   - Typically made with high-quality sheepskin and suede, offering a soft and luxurious feel.\n   - Often more fashion-oriented, with a variety of designs that emphasize comfort.\n\n**2. Warmth:**\n   - Lined with plush shearling or wool, providing excellent warmth.\n   - Best for mild to moderate winter conditions.\n\n**3. Durability:**\n   - Not specifically designed for heavy-duty outdoor use or extreme conditions.\n   - More suitable for casual wear and urban environments.\n\n**4. Waterproofing:**\n   - Many UGG models are not fully waterproof, making them less suitable for very wet conditions.\n   - Some newer styles offer water-resistant features.\n\n### Sorel Winter Boots\n\n**1. Style:**\n   - Sorel boots often have a more rugged, functional design.\n   - Styles range from classic to trendy, catering to a variety of preferences.\n\n**2. Warmth:**\n   - Known for heavy insulation, suitable for extreme cold.\n   - Often lined with materials like felt or Thinsulate.\n\n**3. Durability:**\n   - Designed for harsh weather and outdoor activities.\n   - Built to withstand snow, ice, and slush, making them ideal for rough conditions.\n\n**4. Waterproofing:**\n   - Many Sorel boots are fully waterproof, using materials like rubber and waterproof leather.\n   - Excellent for snow and wet environments.\n\n### Considerations:\n- **Purpose:** Choose UGG for stylish, cozy comfort in mild conditions. Opt for Sorel if you need reliable, rugged boots for extreme weather and outdoor activities.\n- **Environment:** For urban settings or light winter wear, UGG might be more appealing. For snowy, icy, or wet conditions, Sorel is better suited.\n- **Price Range:** Both brands offer premium quality, but prices can vary based on specific features and models.\n\nUltimately, your choice will depend on your specific needs, climate, and personal style preference.",
+      "responseTimeMs": 7873,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 8
+        },
+        {
+          "brand": "Sorel",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "queryIndex": 63,
+      "query": "HOKA vs Saucony",
+      "success": true,
+      "response": "Both HOKA and Saucony are popular brands in the running shoe market, and each offers distinctive features suited to different preferences and running needs.\n\n### HOKA:\n- **Cushioning**: Known for their maximalist cushioning, HOKA shoes provide a plush, comfortable ride, which is great for long distances and reducing impact.\n- **Midsole Technology**: Many models feature a Meta-Rocker design that encourages a smooth transition from heel to toe.\n- **Fit and Feel**: Generally cater to runners seeking stability and support while still maintaining a lightweight feel.\n- **Design**: Often have a distinctive thick sole which is part of their appeal and function, providing excellent shock absorption.\n\n### Saucony:\n- **Cushioning**: Offers a range of cushioning levels, from minimal to maximal, to cater to different running styles and preferences.\n- **Midsole Technology**: Known for their PWRRUN foam, which offers a good balance of cushioning and responsiveness.\n- **Fit and Feel**: Saucony shoes often provide a snug fit, especially in the midfoot area, with designs that typically prioritize comfort and control.\n- **Design**: They tend to focus on promoting natural foot movement and stability.\n\n### Choosing Between Them:\n- **Terrain and Distance**: HOKA is often favored for ultra-distances and those looking for maximum cushioning. Saucony might be preferable for runners seeking a blend of cushioning and performance.\n- **Running Style**: If you prefer a plush, cushioned ride, HOKA might be the way to go. For a balance between cushioning and responsiveness, Saucony offers good options.\n- **Fit Preferences**: It’s important to try both brands to see which fit best matches your foot shape and comfort needs.\n\nUltimately, both brands offer high-quality shoes, so personal preference and specific running needs will guide the best choice.",
+      "responseTimeMs": 10560,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 5
+        },
+        {
+          "brand": "Saucony",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "queryIndex": 64,
+      "query": "best HOKA alternatives",
+      "success": true,
+      "response": "If you're looking for alternatives to HOKA running shoes, several brands are known for their comfort, cushioning, and performance. Here are some great options:\n\n1. **Brooks**\n   - Known for their cushioning and support.\n   - Popular models: Ghost, Glycerin.\n\n2. **Saucony**\n   - Offers a good balance of cushioning and stability.\n   - Popular models: Triumph, Kinvara.\n\n3. **Asics**\n   - Features gel cushioning and a supportive fit.\n   - Popular models: Gel-Nimbus, Gel-Kayano.\n\n4. **Altra**\n   - Known for their zero-drop design and foot-shaped toe boxes.\n   - Popular models: Torin, Escalante.\n\n5. **New Balance**\n   - Offers a variety of widths and great cushioning.\n   - Popular models: Fresh Foam 1080, FuelCell Propel.\n\n6. **Mizuno**\n   - Known for their wave plate technology providing cushioning and stability.\n   - Popular models: Wave Rider, Wave Inspire.\n\n7. **Nike**\n   - Offers a broad range of styles with advanced cushioning technologies.\n   - Popular models: Air Zoom Pegasus, React Infinity Run.\n\n8. **On**\n   - Known for their unique cloud-like cushioning technology.\n   - Popular models: Cloudflyer, Cloudstratus.\n\nEach brand and model offers distinctive features, so it's a good idea to try different ones to see what fits your needs best.\n",
+      "responseTimeMs": 4500,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        },
+        {
+          "brand": "Saucony",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 65,
+      "query": "UGG alternatives that are cheaper",
+      "success": true,
+      "response": "If you're looking for UGG alternatives that are more budget-friendly, here are some options to consider:\n\n1. **Bearpaw**: Known for their comfortable and stylish boots, Bearpaw offers a variety of styles at a lower price point than UGG.\n\n2. **Koolaburra by UGG**: This is actually a more affordable line by UGG, offering similar styles without the higher price.\n\n3. **Emu Australia**: Offers sheepskin boots with a similar look and feel to UGGs, often at a more competitive price.\n\n4. **Lamo**: Provides a range of cozy boots and slippers that are both stylish and affordable.\n\n5. **Rocket Dog**: Known for trendy footwear, they offer boots with a similar aesthetic to UGGs at a more accessible price.\n\n6. **Minnetonka**: Known for moccasins, they also offer boots and slippers with a cozy, plush lining.\n\n7. **Totes**: Offers weather-resistant boots with plush interiors, perfect for comfort and warmth.\n\nWhen choosing alternatives, consider the materials and whether you prefer synthetic or real sheepskin lining for warmth and comfort.",
+      "responseTimeMs": 5191,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 6
+        },
+        {
+          "brand": "Koolaburra",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 66,
+      "query": "best shoes for nurses",
+      "success": true,
+      "response": "Nurses spend long hours on their feet, so choosing the right shoes is crucial for comfort and support. Here are some top picks commonly recommended for nurses:\n\n1. **Brooks Ghost**: Known for exceptional cushioning and support, ideal for long shifts.\n2. **Hoka One One Bondi**: Offers maximum cushioning, reducing foot fatigue.\n3. **Dansko Professional Clogs**: A classic choice with excellent arch support and durable construction.\n4. **Nike Air Zoom Pegasus**: Lightweight and breathable, providing a snug fit and good cushioning.\n5. **Asics Gel-Nimbus**: Offers gel cushioning for shock absorption, great for long periods of standing.\n6. **On Cloud**: Known for lightweight design and comfort with cloud-like cushioning.\n7. **Skechers D’Lites**: Provides memory foam cushioning and a relaxed fit for extra comfort.\n8. **Adidas Ultraboost**: Features responsive cushioning and a flexible, breathable knit upper.\n9. **New Balance Fresh Foam 1080**: Offers plush cushioning and a stable fit.\n10. **Alegria Debra**: Slip-on style with supportive, cushioned footbed.\n\nWhen choosing shoes, consider factors like arch support, cushioning, breathability, and slip resistance. Always try on shoes at the end of the day when your feet are at their largest to ensure a proper fit.",
+      "responseTimeMs": 6108,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "Adidas",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 67,
+      "query": "best shoes for teachers",
+      "success": true,
+      "response": "Teachers often spend long hours on their feet, so it's important to choose shoes that are comfortable, supportive, and durable. Here are some great options:\n\n1. **Dansko Clogs**: Known for excellent arch support and cushioning, making them a favorite among professionals who stand a lot.\n\n2. **Allbirds Wool Runners**: Lightweight and made from sustainable materials, these sneakers offer comfort and breathability.\n\n3. **Clarks Footwear**: Offers a range of stylish yet comfortable shoes with good arch support.\n\n4. **Hoka One One**: Known for their maximal cushioning, these shoes offer great support for standing and walking all day.\n\n5. **Birkenstock Shoes**: Known for orthopedic support and comfort, with a variety of styles beyond sandals.\n\n6. **Dr. Martens 1461**: Their AirWair soles provide good cushioning and durability.\n\n7. **New Balance Sneakers**: Offers wide sizes and great support, ideal for walking and standing long hours.\n\n8. **Rothy’s Flats**: Made from recycled materials and provide a comfortable, eco-friendly option with good support.\n\n9. **Ecco Shoes**: Known for their comfort technology, offering cushioned soles and supportive designs.\n\n10. **Skechers Arch Fit**: Designed with podiatrist-certified arch support and plenty of cushioning.\n\nWhen choosing shoes, consider factors like arch support, cushioning, fit, and breathability to ensure maximum comfort throughout the workday.",
+      "responseTimeMs": 4790,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Birkenstock",
+          "count": 1
+        },
+        {
+          "brand": "Allbirds",
+          "count": 1
+        },
+        {
+          "brand": "Dr. Martens",
+          "count": 1
+        },
+        {
+          "brand": "Clarks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 68,
+      "query": "best shoes for walking on concrete",
+      "success": true,
+      "response": "Walking on concrete requires shoes that provide excellent cushioning, support, and durability. Here are some of the best options:\n\n1. **Hoka One One Bondi**: Known for its thick cushioning, it's great for reducing impact on hard surfaces.\n\n2. **ASICS Gel-Nimbus**: Offers excellent gel cushioning, providing comfort during long walks.\n\n3. **Brooks Glycerin**: Features plush cushioning and a smooth ride, ideal for concrete.\n\n4. **New Balance Fresh Foam 1080**: Known for its supportive fit and premium cushioning.\n\n5. **Saucony Triumph**: Provides excellent shock absorption and comfort.\n\n6. **Nike Air Zoom Pegasus**: Versatile with good cushioning for concrete surfaces.\n\n7. **Skechers Go Walk**: Lightweight with responsive cushioning, suitable for casual walks.\n\nWhen choosing shoes, consider your foot type (neutral, overpronation, or supination) and any specific needs like arch support or wider fit.",
+      "responseTimeMs": 3646,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        },
+        {
+          "brand": "Saucony",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 69,
+      "query": "best shoes for travel",
+      "success": true,
+      "response": "When selecting the best shoes for travel, consider comfort, versatility, and durability. Here are some popular choices:\n\n1. **Sneakers:**\n   - Lightweight and supportive.\n   - Work well for both casual outings and light physical activity.\n   - Brands like Adidas, Nike, and New Balance offer great options.\n\n2. **Walking Shoes:**\n   - Designed for comfort during long periods of walking.\n   - Shoes like Skechers or Allbirds are known for their cushioning and breathability.\n\n3. **Slip-On Shoes:**\n   - Convenient and easy to remove during security checks.\n   - TOMS or Vans offer versatile styles that work well with various outfits.\n\n4. **Sandals:**\n   - Ideal for warm climates or beach destinations.\n   - Look for options with arch support from brands like Teva or Birkenstock.\n\n5. **Boots:**\n   - Great for colder destinations or hiking.\n   - Waterproof options from Timberland or Merrell are durable and stylish.\n\n6. **Flats:**\n   - Compact and easy to pack.\n   - Rothy’s or Tieks provide chic and comfy options.\n\nPrioritize shoes that suit your specific activities and destination climate. Breaking them in before your trip is also a good idea to ensure maximum comfort.",
+      "responseTimeMs": 5151,
+      "brandMentions": [
+        {
+          "brand": "Teva",
+          "count": 1
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "Adidas",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Merrell",
+          "count": 1
+        },
+        {
+          "brand": "Birkenstock",
+          "count": 1
+        },
+        {
+          "brand": "Allbirds",
+          "count": 1
+        },
+        {
+          "brand": "Vans",
+          "count": 1
+        },
+        {
+          "brand": "Timberland",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 70,
+      "query": "best shoes for long flights",
+      "success": true,
+      "response": "For long flights, comfort is key. Here are some shoe options that are typically great for air travel:\n\n1. **Sneakers**\n   - **Features**: Lightweight, breathable, with good arch support.\n   - **Examples**: Nike Air Max, Adidas Ultraboost.\n\n2. **Slip-On Shoes**\n   - **Features**: Easy to remove and put on, breathable materials.\n   - **Examples**: Vans Classic Slip-Ons, Skechers Go Walk.\n\n3. **Loafers**\n   - **Features**: Comfortable and versatile with a snug fit.\n   - **Examples**: Cole Haan Penny Loafers, G.H. Bass Weejuns.\n\n4. **Compression Socks with Shoes**\n   - **Features**: Pair comfortable shoes with compression socks to reduce swelling.\n   - **Examples**: Any comfortable shoe with Comrad or Bombas compression socks.\n\n5. **Comfortable Flats**\n   - **Features**: Soft and flexible with padded insoles.\n   - **Examples**: Rothy's Flats, Tieks.\n\n6. **Travel Sandals**\n   - **Features**: Open design to keep feet cool, cushioned footbeds.\n   - **Examples**: Birkenstock Arizona, Teva Universal Sandals.\n\nLook for shoes that offer good support, easy on/off accessibility, and are made of breathable materials. Remember to consider your personal style and specific foot needs!",
+      "responseTimeMs": 6392,
+      "brandMentions": [
+        {
+          "brand": "Teva",
+          "count": 1
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "Adidas",
+          "count": 1
+        },
+        {
+          "brand": "Birkenstock",
+          "count": 1
+        },
+        {
+          "brand": "Vans",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 71,
+      "query": "best recovery shoes after running",
+      "success": true,
+      "response": "After a run, it's important to wear recovery shoes that provide comfort, support, and relief to your feet. Here are some highly recommended recovery shoes:\n\n1. **HOKA ONE ONE Ora Recovery Slide:** Known for their thick, cushioned soles that offer excellent support and comfort.\n\n2. **Oofos OOriginal Sandal:** Features OOfoam technology that absorbs impact, reducing stress on feet and joints.\n\n3. **Skechers Gowalk Arch Fit Sandals:** Offers arch support and a cushioned footbed, perfect for recovery.\n\n4. **Crocs LiteRide Clogs:** Lightweight with foam cushioning, providing flexibility and comfort.\n\n5. **Under Armour Ignite VI Slide:** Features plush foam for comfort and adjustable straps for a custom fit.\n\n6. **New Balance® Recharge Slides:** Designed for recovery, providing support with a cushioned footbed.\n\nRemember to choose shoes that suit your personal comfort preferences and specific foot needs.",
+      "responseTimeMs": 4041,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Crocs",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 72,
+      "query": "best post-workout slides",
+      "success": true,
+      "response": "After a workout, comfort and support are key when choosing slides. Here are some top options that are often recommended for their quality:\n\n1. **Adidas Adilette Boost Slides**\n   - Features BOOST cushioning for exceptional comfort.\n   - Durable design with a stylish look.\n\n2. **Nike Benassi JDI Slides**\n   - Soft foam midsole for lightweight comfort.\n   - Textured footbed for a good grip.\n\n3. **Under Armour Ignite VI Slides**\n   - Adjustable strap for a custom fit.\n   - Features EVA footbed for cushioning.\n\n4. **Hoka Ora Recovery Slides**\n   - Engineered for recovery with plush cushioning.\n   - Lightweight and supportive design.\n\n5. **OOFOS OOahh Slides**\n   - Features OOfoam technology for shock absorption.\n   - Designed to reduce stress on feet, knees, and back.\n\n6. **PUMA Cool Cat Sport Slides**\n   - Soft cushioning for comfort.\n   - Sleek design with the iconic PUMA logo.\n\nWhen selecting slides, look for features like cushioning, arch support, and materials that wick away moisture. Comfort is paramount for aiding recovery post-workout.",
+      "responseTimeMs": 4209,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "Adidas",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 73,
+      "query": "best shoes for warehouse work",
+      "success": true,
+      "response": "When choosing shoes for warehouse work, you'll want to focus on options that provide comfort, support, and safety. Here are some of the best features to look for:\n\n1. **Safety Toes**: Steel, composite, or alloy toe caps protect against falling objects.\n\n2. **Slip-Resistant Soles**: Ensures stability on potentially slippery surfaces.\n\n3. **Support and Cushioning**: Look for shoes with good arch support, cushioning, and shock absorption for comfort during long hours.\n\n4. **Durability**: High-quality materials that withstand wear and tear.\n\n5. **Breathability**: Mesh or other breathable materials help keep feet cool and dry.\n\n6. **Electrical Hazard Protection**: Some shoes offer insulation against electrical hazards.\n\nPopular brands known for their warehouse work shoes include Timberland PRO, Wolverine, KEEN Utility, Red Wing, and Caterpillar.\n\nConsider personal preferences and specific work conditions when choosing the best shoe for your needs.",
+      "responseTimeMs": 4790,
+      "brandMentions": [
+        {
+          "brand": "Keen",
+          "count": 1
+        },
+        {
+          "brand": "Timberland",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 74,
+      "query": "best shoes for theme parks",
+      "success": true,
+      "response": "When visiting a theme park, you'll want shoes that are comfortable, supportive, and durable since you'll likely be on your feet for extended periods. Here are some of the best types of shoes to consider:\n\n1. **Sneakers/Running Shoes**:\n   - Provide excellent support and cushioning.\n   - Breathable materials keep your feet cool.\n   - Look for options with good arch support.\n\n2. **Walking Shoes**:\n   - Designed specifically for long periods of walking.\n   - Often lighter than running shoes.\n   - Prioritize comfort and durability.\n\n3. **Athletic Sandals**:\n   - Great for hot weather and water rides.\n   - Look for ones with good straps and arch support.\n   - Ensure they have non-slip soles.\n\n4. **Trail Shoes**:\n   - Offer robust support and traction.\n   - Durable and handle uneven surfaces well.\n\n5. **Slip-On Sneakers**:\n   - Convenient for easy on-off access.\n   - Ensure they have proper cushioning and support.\n\nWhen choosing, consider weather conditions, park terrain, and personal comfort preferences. Remember to break in any new shoes before your trip to prevent blisters.",
+      "responseTimeMs": 6845,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 75,
+      "query": "best shoes for back pain",
+      "success": true,
+      "response": "If you're dealing with back pain, it's important to choose shoes that provide proper support and cushioning. Here are some recommendations to consider:\n\n1. **Arch Support**: Choose shoes with good arch support to help align your body and reduce strain on your back.\n\n2. **Cushioning**: Look for shoes with ample cushioning, especially in the heel and midsole, to absorb shock and reduce impact on your spine.\n\n3. **Stability**: Opt for shoes that offer stability and have a firm heel counter to prevent excessive foot movement that can lead to back strain.\n\n4. **Heel Height**: Avoid high heels; instead, choose shoes with a low heel or a slight wedge for proper posture support.\n\n5. **Orthotic Compatibility**: If needed, select shoes that can accommodate custom orthotics for additional support.\n\nPopular brands known for supportive shoes include:\n\n- **New Balance**: Offers a variety of models with excellent support and cushioning features.\n- **Brooks**: Known for their running shoes, which provide good shock absorption and stability.\n- **Asics**: Offers shoes with gel cushioning and support features beneficial for those with back pain.\n- **Hoka One One**: Known for their maximum cushioning, which can be helpful for impact reduction.\n- **Vionic**: Offers shoes with built-in orthotic support for proper alignment.\n\nRemember that what works best can vary based on individual needs, so it might be helpful to try on different styles and consult a specialist if possible.",
+      "responseTimeMs": 5194,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 76,
+      "query": "best summer sandals",
+      "success": true,
+      "response": "Choosing the best summer sandals depends on your style, needs, and activities. Here are some top picks for various preferences:\n\n1. **Everyday Comfort**:\n   - **Birkenstock Arizona**: Known for their contoured footbeds and durability.\n   - **Teva Original Universal**: Offers cushioning and support, great for casual wear.\n\n2. **Sporty and Active**:\n   - **Chaco Z/Cloud**: Ideal for hiking with adjustable straps and excellent grip.\n   - **Keen Newport H2**: Provides toe protection and is perfect for water activities.\n\n3. **Fashion-Forward**:\n   - **Tory Burch Miller Sandal**: Iconic logo design, adds a chic touch to outfits.\n   - **Steve Madden Travel Flat Sandal**: Trendy with a minimalist design.\n\n4. **Minimalist and Eco-Friendly**:\n   - **Everlane The Forever Sandal**: Made with recycled materials, offering sleek design.\n   - **Rothy’s The Sandal**: Crafted from recycled water bottles and offers vibrant colors.\n\n5. **Luxury**:\n   - **Hermès Oran Sandal**: Timeless, high-quality leather with a sleek look.\n   - **Gucci GG T-Strap Sandal**: Features signature branding and a luxurious feel.\n\nWhen selecting sandals, consider comfort, support, and the activities you plan to engage in. Each brand and style offers unique benefits, so it’s important to choose what fits your lifestyle best.",
+      "responseTimeMs": 7722,
+      "brandMentions": [
+        {
+          "brand": "Teva",
+          "count": 1
+        },
+        {
+          "brand": "Keen",
+          "count": 1
+        },
+        {
+          "brand": "Birkenstock",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 77,
+      "query": "best beach shoes",
+      "success": true,
+      "response": "When looking for the best beach shoes, consider factors like comfort, durability, material, and design. Here are some top options:\n\n1. **Water Shoes**: Quick-drying and lightweight, perfect for rocky areas and water sports. Brands like Merrell and Speedo offer great options.\n\n2. **Flip-flops**: Easy to slip on and off. Look for cushioned soles and arch support. Reef and Olukai are popular choices.\n\n3. **Sandals**: Ideal for walking and casual wear. Teva and Chaco offer durable and comfortable models with good traction.\n\n4. **Aqua Socks**: Flexible and protective, great for swimming and walking on sand. Look for breathable materials.\n\n5. **Espadrilles**: Stylish and versatile, suitable for beachside events. Toms and Soludos make great options.\n\nChoose based on your activities and personal style!",
+      "responseTimeMs": 7090,
+      "brandMentions": [
+        {
+          "brand": "Teva",
+          "count": 1
+        },
+        {
+          "brand": "Merrell",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 78,
+      "query": "best slippers for men",
+      "success": true,
+      "response": "Choosing the best slippers for men depends on personal preferences, such as style, comfort, and intended use. However, here are some popular and highly regarded options:\n\n1. **UGG Ascot**:\n   - Known for their plush wool lining.\n   - Durable suede or leather exterior.\n   - Suitable for both indoor and light outdoor use.\n\n2. **Sorel Falcon Ridge**:\n   - Wool and suede construction for warmth.\n   - Removable EVA footbed.\n   - Ideal for colder climates.\n\n3. **Minnetonka Moccasin**:\n   - Classic moccasin design.\n   - Soft suede upper.\n   - Cushioned insoles for comfort.\n\n4. **Glerups Wool Slippers**:\n   - Made from natural wool.\n   - Options with leather or rubber soles.\n   - Breathable and moisture-wicking.\n\n5. **L.L.Bean Wicked Good Slippers**:\n   - Lined with genuine shearling.\n   - Reinforced stitching for durability.\n   - Offers a snug fit.\n\n6. **Haflinger Clog Slippers**:\n   - Boiled wool for warmth and breathability.\n   - Cork-latex footbed for support.\n   - Suitable for proper arch support.\n\n7. **Acorn Men's Moc Slippers**:\n   - Memory foam cushioning.\n   - Blend of fabrics for a soft feel.\n   - Indoor/outdoor outsole.\n\nWhen choosing slippers, consider factors like fit, arch support, and warmth. It's also important to think about whether they will be worn primarily indoors or outdoors.",
+      "responseTimeMs": 8273,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "Sorel",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 79,
+      "query": "best slippers for women",
+      "success": true,
+      "response": "Choosing the best slippers for women depends on individual preferences and needs, but here are some popular options known for comfort and style:\n\n1. **UGG Fluff Yeah Slide**: Known for their plush sheepskin and soft platform sole, offering warmth and support.\n\n2. **Birkenstock Zermatt Slippers**: Featuring a contoured cork footbed and cozy wool felt, they provide excellent arch support.\n\n3. **L.L.Bean Wicked Good Moccasins**: Made with genuine shearling, they're durable and exceptionally warm.\n\n4. **Sorel Nakiska Slipper**: These have a suede exterior with a soft fleece lining, ideal for cold days.\n\n5. **Vionic Gemma Mule Slipper**: Designed with orthotic support, these are great for those needing extra arch support.\n\n6. **Glerups Wool Slippers**: Crafted from natural wool, they offer breathability and warmth without overheating.\n\n7. **Haflinger AS Classic Slippers**: Famous for their boiled wool construction, they offer durability and comfort.\n\nRemember to consider factors like materials, support, and intended use (indoor vs. outdoor) when selecting the perfect pair.",
+      "responseTimeMs": 7014,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "Birkenstock",
+          "count": 1
+        },
+        {
+          "brand": "Sorel",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 80,
+      "query": "best indoor outdoor slippers",
+      "success": true,
+      "response": "Choosing the best indoor-outdoor slippers depends on comfort, durability, and versatility. Here are some top recommendations:\n\n1. **UGG Scuff Slipper**:\n   - Known for their plush sheepskin lining and durable suede.\n   - Features a rubber sole that can handle quick trips outside.\n\n2. **Sorel Falcon Ridge Slipper**:\n   - Combines a wool blend interior with a sturdy sole.\n   - Offers excellent warmth and support.\n\n3. **L.L.Bean Wicked Good Moccasins**:\n   - Made with sheepskin and shearling lining for comfort.\n   - The rubber sole is perfect for both indoor and light outdoor use.\n\n4. **Haflinger AT Slipper**:\n   - Crafted from boiled wool, known for temperature regulation.\n   - A thick rubber sole provides traction and durability outdoors.\n\n5. **Acorn Men's and Women's Moc Slippers**:\n   - Memory foam insoles offer extra cushioning.\n   - The weatherproof sole is suitable for indoor and outdoor use.\n\nWhen selecting slippers, consider factors like material, comfort, arch support, and the grip of the sole.",
+      "responseTimeMs": 4928,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "Sorel",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 81,
+      "query": "most comfortable house slippers",
+      "success": true,
+      "response": "Finding the most comfortable house slippers depends on personal preferences, such as material, style, and support. However, some popular options known for comfort include:\n\n1. **UGG Ascot/Ansley**: Made with luxurious sheepskin lining, these provide warmth and comfort.\n   \n2. **Haflinger Wool Slippers**: Crafted from boiled wool with a supportive footbed, they’re ideal for breathability and comfort.\n\n3. **Acorn Moc Slippers**: Known for their memory foam footbed and cozy fleece lining.\n\n4. **Vionic Relax Slippers**: Designed with orthotic support, these are great for those needing extra arch support.\n\n5. **LL Bean Wicked Good Moccasins**: Made with shearling material, they offer warmth and softness.\n\n6. **Glerups Wool Slippers**: Made from natural wool, they offer excellent temperature regulation.\n\nConsider factors like arch support, warmth, and durability when choosing the right pair for you.",
+      "responseTimeMs": 5138,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 82,
+      "query": "best memory foam slippers",
+      "success": true,
+      "response": "Choosing the best memory foam slippers involves considering comfort, durability, support, and design. Here are some top-rated options:\n\n1. **UGG Scuffette II**: Known for quality and warmth, these slippers offer a plush sheepskin lining with memory foam insoles for extra comfort.\n\n2. **Vionic Relax Slippers**: Ideal for those needing extra arch support, these slippers have an orthotic footbed with memory foam for cushioning.\n\n3. **Skechers BOBS Too Cozy**: These slippers offer a soft memory foam insole with a cozy, snug fit, and purchasing helps support animal shelters.\n\n4. **Isotoner Terry Slip-On Clog**: Featuring a memory foam footbed, these have a simple, open-back design suitable for quick on-and-off wear.\n\n5. **Acorn Moc Slippers**: With a soft fleece lining and memory foam insole, they provide warmth and cushioning and have a durable outsole for indoor and light outdoor use.\n\nWhen selecting a pair, consider the slipper's fit, arch support, and intended use (indoor vs. light outdoor use).",
+      "responseTimeMs": 5335,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 83,
+      "query": "best sheepskin slippers",
+      "success": true,
+      "response": "Here are some top-rated sheepskin slipper brands you might consider:\n\n1. **UGG**: Known for their classic design and durable construction, UGG slippers offer warmth and comfort with their signature shearling lining.\n\n2. **L.L.Bean**: Their Wicked Good Slippers are a fan favorite, featuring high-quality sheepskin and a durable outsole.\n\n3. **EMU Australia**: They offer a variety of stylish and comfy sheepskin slipper options, known for their durability and comfort.\n\n4. **Minnetonka**: Known for their cozy and stylish moccasins, Minnetonka offers slippers with cushioned insoles and soft sheepskin lining.\n\n5. **Acorn**: They provide a range of comfortable and supportive sheepskin slippers with a focus on quality and design.\n\nWhen choosing sheepskin slippers, consider factors like the sole type (indoor vs. outdoor), style, and whether you prefer a slip-on or closed-back design.",
+      "responseTimeMs": 5266,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 84,
+      "query": "best slippers with arch support",
+      "success": true,
+      "response": "Finding slippers with good arch support is essential for comfort, especially if you have foot issues or spend a lot of time walking around the house. Here are some top recommendations:\n\n1. **Vionic Gemma Mule Slipper**: Vionic is known for its podiatrist-designed arch support and these slippers are no exception. They often feature a soft, comfortable lining and a supportive footbed.\n\n2. **Orthofeet Asheville Slippers**: These slippers are designed for people with foot pain, offering excellent arch support and cushioning. They also have a wide toe box for extra comfort.\n\n3. **UGG Scuffette II Slipper**: While popular for their cozy feel, UGGs also provide decent arch support in some of their models, including the Scuffette II. They have a sheepskin lining that adds to the comfort.\n\n4. **Haflinger Slippers**: Made from boiled wool, they naturally wick moisture while providing solid arch support and a flexible sole.\n\n5. **Acorn Women's Spa Wrap Slipper**: These feature a memory foam insole with arch support, providing comfort and stability. They're also adjustable for a customized fit.\n\n6. **Dearfoams Sydney Scuff Slippers**: Known for being cozy and supportive, with memory foam cushioning and a durable sole suitable for indoor and outdoor use.\n\nWhen choosing slippers, consider your specific needs regarding support, fit, and material preference.",
+      "responseTimeMs": 5752,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 85,
+      "query": "best warm slippers",
+      "success": true,
+      "response": "When looking for the best warm slippers, consider the following options known for their comfort and heat retention:\n\n1. **Ugg Scuffette II**: These feature genuine shearling lining that provides excellent warmth and comfort.\n\n2. **Sorel Nakiska Slippers**: Made with suede and a cozy wool/acrylic lining, they are perfect for cold days.\n\n3. **Acorn Moc Slippers**: Known for their soft fleece lining and memory foam cushioning, offering great support.\n\n4. **L.L.Bean Wicked Good Moccasins**: Made from shearling, they offer warmth and a classic style.\n\n5. **Glerups Wool Slippers**: Constructed from natural wool, they are breathable yet very warm.\n\n6. **Haflinger Slippers**: Made from boiled wool, providing a snug fit and excellent insulation.\n\nWhen selecting slippers, consider the material (like shearling, wool, or fleece), sole type, and your specific needs for comfort and support.",
+      "responseTimeMs": 3552,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "Sorel",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 86,
+      "query": "luxury slippers brands",
+      "success": true,
+      "response": "Here are some luxury slipper brands known for their high-quality and stylish designs:\n\n1. **UGG**\n2. **Gucci**\n3. **Louis Vuitton**\n4. **Hermès**\n5. **Prada**\n6. **Chanel**\n7. **Burberry**\n8. **Versace**\n9. **Dolce & Gabbana**\n10. **Loro Piana**\n\nThese brands offer slippers that combine comfort with luxury materials and craftsmanship.",
+      "responseTimeMs": 1627,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 87,
+      "query": "best orthopedic slippers",
+      "success": true,
+      "response": "When looking for the best orthopedic slippers, consider options that offer excellent arch support, stability, and cushioning. Here are a few brands known for their high-quality orthopedic slippers:\n\n1. **Vionic**: Renowned for their exceptional arch support and ergonomic design, Vionic slippers often feature a contoured footbed that provides stability and comfort.\n\n2. **Birkenstock**: Famous for their cork-latex footbeds, Birkenstock slippers mold to the shape of your foot, offering personalized support and comfort.\n\n3. **Orthofeet**: Known for their therapeutic designs, Orthofeet slippers offer excellent cushioning, arch support, and are often recommended for plantar fasciitis and other foot conditions.\n\n4. **Oofos**: Specializing in recovery footwear, Oofos slippers offer soft, impact-absorbing foam that helps reduce stress on joints and feet.\n\n5. **Spenco**: Their slippers are designed with total support technology, providing advanced arch support and deep heel cushioning.\n\nWhen choosing orthopedic slippers, consider your specific foot needs, any existing foot conditions, and preference for materials. It's often beneficial to try slippers on to ensure a perfect fit and optimal comfort.",
+      "responseTimeMs": 4651,
+      "brandMentions": [
+        {
+          "brand": "Birkenstock",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "queryIndex": 88,
+      "query": "what running shoe brands are best",
+      "success": true,
+      "response": "Choosing the best running shoe brand depends on factors like foot type, running style, and personal preferences. However, some of the top running shoe brands known for quality, innovation, and comfort include:\n\n1. **Nike** - Known for its advanced technology and stylish designs.\n2. **Adidas** - Offers responsive cushioning and a comfortable fit.\n3. **Brooks** - Specializes in running shoes with a variety of styles for different needs.\n4. **Asics** - Known for its GEL cushioning and support features.\n5. **Saucony** - Offers great cushioning and durability.\n6. **New Balance** - Known for a wide range of sizes and widths, with excellent comfort.\n7. **Hoka One One** - Offers maximum cushioning and a unique rolling motion design.\n8. **Altra** - Known for its zero-drop design and wide toe box.\n9. **Puma** - Combines style with performance technology.\n10. **Mizuno** - Offers wave technology for support and cushioning.\n\nIt's important to try on different brands and styles to see what feels best for your needs.",
+      "responseTimeMs": 4424,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "Adidas",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        },
+        {
+          "brand": "Saucony",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 89,
+      "query": "most comfortable shoe brands",
+      "success": true,
+      "response": "There are several shoe brands known for their comfort, offering a blend of style and support. Some of the most comfortable include:\n\n1. **HOKA ONE ONE** - Known for their cushioning and support, especially popular among runners and walkers.\n\n2. **Brooks** - Offers excellent running shoes that focus on cushioning and stability.\n\n3. **New Balance** - Renowned for wide sizes and arch support, catering to a variety of foot shapes.\n\n4. **ASICS** - Popular for their GEL technology, providing great comfort for athletes.\n\n5. **Saucony** - Offers comfort and support, particularly well-regarded in the running community.\n\n6. **Birkenstock** - Known for their contoured footbeds, providing great arch support and comfort.\n\n7. **ECCO** - Combines style with comfort, using high-quality materials and ergonomic designs.\n\n8. **Clarks** - Offers comfortable everyday footwear with a focus on cushioning and support.\n\n9. **Skechers** - Features memory foam insoles and a wide range of styles, suitable for casual wear.\n\n10. **Allbirds** - Known for sustainable materials and a lightweight, comfortable fit.\n\nThese brands are appreciated for their focus on ergonomic design, quality materials, and consistent comfort.",
+      "responseTimeMs": 4790,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        },
+        {
+          "brand": "Saucony",
+          "count": 1
+        },
+        {
+          "brand": "Birkenstock",
+          "count": 1
+        },
+        {
+          "brand": "Allbirds",
+          "count": 1
+        },
+        {
+          "brand": "Clarks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 90,
+      "query": "best shoe brands for quality",
+      "success": true,
+      "response": "When it comes to quality shoe brands, several names stand out for their craftsmanship, materials, and durability. Here are some of the best:\n\n1. **Alden** - Known for high-quality leather dress shoes, particularly their Goodyear-welted footwear.\n\n2. **Allen Edmonds** - Famous for classic styles and American craftsmanship in their dress shoes.\n\n3. **Red Wing** - Renowned for their durable work boots, made with high-quality leather.\n\n4. **Clarks** - Offers comfort and quality, especially in their classic desert boots.\n\n5. **Dr. Martens** - Known for iconic, durable boots with distinctive styling.\n\n6. **Church’s** - Represents high-end British craftsmanship in leather shoes.\n\n7. **Trickers** - Specializes in robust, elegant footwear with a rich heritage in Northampton.\n\n8. **Salvatore Ferragamo** - Italian brand known for luxury leather shoes with exquisite design.\n\n9. **John Lobb** - Offers bespoke and ready-to-wear shoes known for exceptional quality.\n\n10. **Viberg** - Canadian brand renowned for sturdy and well-crafted boots.\n\n11. **Meermin** - Provides high-quality leather shoes at a relatively affordable price.\n\n12. **Loake** - Offers classic British style with outstanding quality and value.\n\n13. **R.M. Williams** - Famous for their premium Australian boots, particularly the Chelsea style.\n\nChoosing the best brand depends on your specific needs, such as style, comfort, and intended use.",
+      "responseTimeMs": 5775,
+      "brandMentions": [
+        {
+          "brand": "Dr. Martens",
+          "count": 1
+        },
+        {
+          "brand": "Clarks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 91,
+      "query": "shoe brands with best arch support",
+      "success": true,
+      "response": "If you're looking for shoe brands that offer excellent arch support, here are some top choices:\n\n1. **Asics** - Known for their running shoes with strong arch support and cushioning.\n\n2. **Brooks** - Offers various models with great support, especially for runners with flat feet.\n\n3. **New Balance** - Known for comfort and support, with a wide range of sizes and widths.\n\n4. **Hoka One One** - Features thick, cushioned soles and good arch support for runners.\n\n5. **Saucony** - Provides stability and support, particularly in their running shoes.\n\n6. **Birkenstock** - Offers sandals and shoes with contoured footbeds for arch support.\n\n7. **Vionic** - Specializes in shoes designed for comfort and support with orthotic technology.\n\n8. **Dansko** - Popular for clogs and work shoes with strong arch support.\n\n9. **ECCO** - Known for combining style with comfort and support.\n\n10. **Merrell** - Offers hiking shoes with supportive footbeds and arch support.\n\nThese brands are renowned for incorporating supportive technologies into their footwear, catering to various needs and preferences. Always consider trying on shoes to find the best fit for your specific arch needs.",
+      "responseTimeMs": 5452,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        },
+        {
+          "brand": "Saucony",
+          "count": 1
+        },
+        {
+          "brand": "Merrell",
+          "count": 1
+        },
+        {
+          "brand": "Birkenstock",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 92,
+      "query": "shoe brands that last longest",
+      "success": true,
+      "response": "When looking for durable shoe brands known for longevity, consider the following options:\n\n1. **Red Wing Shoes** - Known for their high-quality leather work boots and shoes.\n2. **Danner** - Renowned for sturdy hiking and work boots.\n3. **Alden** - Offers classic, handcrafted leather dress shoes.\n4. **Blundstone** - Famous for their rugged, long-lasting Chelsea boots.\n5. **Dr. Martens** - Known for durable leather boots and shoes with iconic stitching.\n6. **Wolverine** - Offers sturdy work boots with a reputation for durability.\n7. **Allen Edmonds** - Offers recraftable dress shoes with excellent craftsmanship.\n8. **R.M. Williams** - Famous for quality leather boots that age well.\n9. **La Sportiva** - Known for robust mountain and hiking footwear.\n10. **Birkenstock** - Offers long-lasting sandals and clogs with premium materials.\n\nRemember, the longevity of any shoe brand also depends on proper care and maintenance.",
+      "responseTimeMs": 3175,
+      "brandMentions": [
+        {
+          "brand": "UGG",
+          "count": 1
+        },
+        {
+          "brand": "Birkenstock",
+          "count": 1
+        },
+        {
+          "brand": "Dr. Martens",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 93,
+      "query": "best shoe brands for foot health",
+      "success": true,
+      "response": "When considering foot health, choosing the right shoe brand is essential. Here are a few brands that are well-regarded for their focus on comfort and support, which can contribute to better foot health:\n\n1. **New Balance**: Known for their wide range of sizes and widths, offering excellent support and cushioning for various foot types.\n\n2. **Brooks**: Offers shoes specifically designed for running and walking, with great support and cushioning.\n\n3. **Asics**: Popular for their Gel cushioning technology, providing excellent shock absorption and comfort.\n\n4. **Hoka One One**: Known for their maximalist cushioning and lightweight materials, often recommended for those requiring extra support.\n\n5. **Birkenstock**: Famous for their contoured footbeds, providing natural support and alignment.\n\n6. **Dansko**: Offers clogs and shoes that are popular among people who stand all day, known for their arch support.\n\n7. **Orthofeet**: Specializes in orthopedic footwear designed to relieve foot pain and enhance comfort.\n\n8. **Vionic**: Focuses on podiatrist-designed footbeds that provide excellent arch support and balance.\n\n9. **Clarks**: Offers a variety of styles with a reputation for comfort and support in their footwear.\n\n10. **Skechers**: While primarily known for casual styles, they offer several lines with good cushioning and support.\n\nIt's always recommended to try on shoes and, if possible, consult with a podiatrist to ensure that the shoes meet your specific foot health needs.",
+      "responseTimeMs": 4223,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        },
+        {
+          "brand": "Birkenstock",
+          "count": 1
+        },
+        {
+          "brand": "Clarks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 94,
+      "query": "luxury shoe brands worth the money",
+      "success": true,
+      "response": "When considering luxury shoe brands that are often deemed worth the investment due to their craftsmanship, quality, and design, a few stand out:\n\n1. **Christian Louboutin** - Known for their iconic red soles, Louboutins are celebrated for both style and statement-making designs.\n\n2. **Manolo Blahnik** - Synonymous with elegance, these shoes offer timeless designs and exquisite craftsmanship.\n\n3. **Jimmy Choo** - A favorite among celebrities, known for their glamorous and often daring designs.\n\n4. **Gucci** - Offers a wide range of designs, often featuring bold colors and the iconic GG logo.\n\n5. **Prada** - Known for sophisticated, understated elegance and exceptional quality.\n\n6. **Chanel** - Famed for classic styles with a modern twist, often featuring the iconic double C logo.\n\n7. **Saint Laurent** - Offers edgy, chic designs with a rock-and-roll vibe.\n\n8. **Hermès** - Renowned for exceptional quality and timeless styles.\n\n9. **Salvatore Ferragamo** - Known for their innovative designs and comfort.\n\n10. **Tod’s** - Offers exquisite craftsmanship, particularly known for their driving shoes and loafers.\n\nThese brands are often considered worthwhile due to their attention to detail, premium materials, and enduring appeal.",
+      "responseTimeMs": 4485,
+      "brandMentions": []
+    },
+    {
+      "queryIndex": 95,
+      "query": "what shoe brand do podiatrists recommend",
+      "success": true,
+      "response": "Podiatrists often recommend shoe brands that focus on comfort, support, and proper foot alignment. Some popular brands include:\n\n1. **New Balance**: Known for their excellent arch support and wide sizing options.\n\n2. **Brooks**: Offers high-quality running shoes with great cushioning and support.\n\n3. **Asics**: Provides stability and cushioning, especially good for those needing extra support.\n\n4. **Vionic**: Specializes in orthopedic shoes with built-in arch support.\n\n5. **Dansko**: Offers clogs and shoes with good arch support and cushioning, popular among professionals who stand for long periods.\n\n6. **Hoka One One**: Features maximal cushioning and support, suitable for runners and walkers alike.\n\nIt's important to choose shoes that match your specific foot needs, so consulting with a podiatrist for personalized recommendations is ideal.",
+      "responseTimeMs": 2905,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "New Balance",
+          "count": 1
+        },
+        {
+          "brand": "Brooks",
+          "count": 1
+        },
+        {
+          "brand": "ASICS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 96,
+      "query": "best direct-to-consumer shoe brands",
+      "success": true,
+      "response": "Here are some of the best direct-to-consumer shoe brands you might want to check out:\n\n1. **Allbirds**: Known for their sustainable and comfortable footwear, particularly using materials like wool and eucalyptus.\n\n2. **Greats**: Offers a range of stylish and high-quality sneakers at a fair price.\n\n3. **Rothy's**: Famous for their flats and sneakers made from recycled plastic bottles.\n\n4. **M.Gemi**: Specializes in luxurious Italian handcrafted shoes, combining traditional techniques with modern design.\n\n5. **Thousand Fell**: Creates sneakers that are fully recyclable and made from sustainable materials.\n\n6. **Nisolo**: Focuses on ethically made shoes with a classic design, ensuring fair wages for producers.\n\n7. **Koio**: Offers luxury leather sneakers with a focus on craftsmanship and sustainability.\n\n8. **Cariuma**: Creates eco-friendly sneakers with bright colors and bold designs, emphasizing sustainability.\n\n9. **Vessi**: Known for their waterproof knit sneakers, perfect for all-weather wear.\n\n10. **Everlane**: Offers timeless, transparent pricing on a variety of shoe styles.\n\nThese brands offer a mix of style, comfort, sustainability, and ethical production.",
+      "responseTimeMs": 4080,
+      "brandMentions": [
+        {
+          "brand": "Allbirds",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 97,
+      "query": "most innovative shoe brands",
+      "success": true,
+      "response": "Here are some of the most innovative shoe brands known for pushing the boundaries in design, technology, and sustainability:\n\n1. **Nike**: Known for its cutting-edge technology like Flyknit, Air, and React cushioning.\n\n2. **Adidas**: Pioneers of Boost technology and collaborations with designers and artists for unique designs.\n\n3. **Allbirds**: Focuses on sustainability, using natural materials like merino wool and eucalyptus.\n\n4. **On**: Swiss brand known for its unique CloudTec cushioning system.\n\n5. **Hoka One One**: Offers maximalist designs with oversized outsoles for enhanced cushioning.\n\n6. **Veja**: Combines sustainable materials with stylish designs, often using recycled materials.\n\n7. **Balenciaga**: Revolutionized high fashion with their chunky sneaker trend and experimental designs.\n\n8. **Reebok**: Known for their sustainable initiatives and experimental collaborations.\n\n9. **Vessi**: Specializes in 100% waterproof knit shoes, combining comfort with practicality.\n\n10. **Under Armour**: Offers tech-integrated footwear with features like smart shoe capabilities and responsive cushioning.\n\nThese brands are recognized for leading the shoe industry toward more innovative and sustainable practices.",
+      "responseTimeMs": 4380,
+      "brandMentions": [
+        {
+          "brand": "HOKA",
+          "count": 1
+        },
+        {
+          "brand": "Nike",
+          "count": 1
+        },
+        {
+          "brand": "Adidas",
+          "count": 1
+        },
+        {
+          "brand": "Allbirds",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 98,
+      "query": "best sustainable shoe brands",
+      "success": true,
+      "response": "Here are some of the best sustainable shoe brands known for their eco-friendly practices:\n\n1. **Allbirds**: Uses natural materials like merino wool and eucalyptus fibers.\n\n2. **Veja**: Focuses on fair trade and uses organic and recycled materials.\n\n3. **Rothy's**: Makes shoes from recycled plastic bottles and is committed to zero waste.\n\n4. **Thousand Fell**: Produces fully recyclable sneakers using biodegradable and recycled materials.\n\n5. **Nisolo**: Prioritizes ethical production and sustainable materials, ensuring fair wages for workers.\n\n6. **Native Shoes**: Implements a recycling program called “The Remix Project” to repurpose old shoes.\n\n7. **Toms**: Known for their \"one for one\" model, they also focus on sustainable materials and practices.\n\n8. **Etnies**: Uses recycled rubber in their shoe soles and supports reforestation projects.\n\n9. **Naot**: Combines comfort with sustainable and ethical manufacturing processes.\n\n10. **Saola**: Creates shoes using sustainable materials like algae foam and organic cotton.\n\nThese brands are committed to reducing their environmental impact through innovation and responsible production.",
+      "responseTimeMs": 5005,
+      "brandMentions": [
+        {
+          "brand": "Allbirds",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "queryIndex": 99,
+      "query": "shoe brands with best customer service",
+      "success": true,
+      "response": "Several shoe brands are well-known for their excellent customer service. Some of them include:\n\n1. **Zappos** - Though primarily an online retailer, Zappos has built a reputation for outstanding customer service, offering a 365-day return policy and 24/7 customer support.\n\n2. **Nike** - Known for responsive customer service and an easy return process, Nike provides a smooth experience for its customers.\n\n3. **Allbirds** - This brand offers eco-friendly shoes with a strong focus on customer satisfaction, including hassle-free returns.\n\n4. **New Balance** - Celebrated for their attentive customer care and wide range of sizes, New Balance is often praised for their service.\n\n5. **Clarks** - With a commitment to customer satisfaction, Clarks offers helpful support and easy returns.\n\n6. **TOMS** - Known for their giving initiatives, TOMS also provides responsive customer service and a user-friendly return policy.\n\n7. **Columbia** - While known for outdoor gear, Columbia also earns high marks for its approachable customer service and warranty support.\n\nThese brands are often recommended for providing a seamless shopping experience and prioritizing the needs of their customers.",
+      "responseTimeMs": 3859,
+      "brandMentions": [
+        {
+          "brand": "Nike",
+          "count": 2
+        },
+        {
+          "brand": "New Balance",
+          "count": 2
+        },
+        {
+          "brand": "Columbia",
+          "count": 2
+        },
+        {
+          "brand": "Clarks",
+          "count": 2
+        },
+        {
+          "brand": "Zappos",
+          "count": 2
+        },
+        {
+          "brand": "Allbirds",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "analysis": {
+    "brandVisibility": {
+      "HOKA": {
+        "queriesAppearing": 43,
+        "percentOfQueries": "43.0%"
+      },
+      "UGG": {
+        "queriesAppearing": 38,
+        "percentOfQueries": "38.0%"
+      },
+      "New Balance": {
+        "queriesAppearing": 32,
+        "percentOfQueries": "32.0%"
+      },
+      "Brooks": {
+        "queriesAppearing": 30,
+        "percentOfQueries": "30.0%"
+      },
+      "Nike": {
+        "queriesAppearing": 28,
+        "percentOfQueries": "28.0%"
+      },
+      "ASICS": {
+        "queriesAppearing": 26,
+        "percentOfQueries": "26.0%"
+      },
+      "Merrell": {
+        "queriesAppearing": 26,
+        "percentOfQueries": "26.0%"
+      },
+      "Saucony": {
+        "queriesAppearing": 21,
+        "percentOfQueries": "21.0%"
+      },
+      "Adidas": {
+        "queriesAppearing": 19,
+        "percentOfQueries": "19.0%"
+      },
+      "Sorel": {
+        "queriesAppearing": 17,
+        "percentOfQueries": "17.0%"
+      },
+      "Birkenstock": {
+        "queriesAppearing": 15,
+        "percentOfQueries": "15.0%"
+      },
+      "Teva": {
+        "queriesAppearing": 13,
+        "percentOfQueries": "13.0%"
+      },
+      "Keen": {
+        "queriesAppearing": 13,
+        "percentOfQueries": "13.0%"
+      },
+      "Allbirds": {
+        "queriesAppearing": 13,
+        "percentOfQueries": "13.0%"
+      },
+      "Salomon": {
+        "queriesAppearing": 10,
+        "percentOfQueries": "10.0%"
+      },
+      "Columbia": {
+        "queriesAppearing": 10,
+        "percentOfQueries": "10.0%"
+      },
+      "Clarks": {
+        "queriesAppearing": 8,
+        "percentOfQueries": "8.0%"
+      },
+      "The North Face": {
+        "queriesAppearing": 7,
+        "percentOfQueries": "7.0%"
+      },
+      "Dr. Martens": {
+        "queriesAppearing": 6,
+        "percentOfQueries": "6.0%"
+      },
+      "Timberland": {
+        "queriesAppearing": 5,
+        "percentOfQueries": "5.0%"
+      },
+      "Vans": {
+        "queriesAppearing": 5,
+        "percentOfQueries": "5.0%"
+      },
+      "Koolaburra": {
+        "queriesAppearing": 3,
+        "percentOfQueries": "3.0%"
+      },
+      "On Running": {
+        "queriesAppearing": 2,
+        "percentOfQueries": "2.0%"
+      },
+      "Crocs": {
+        "queriesAppearing": 2,
+        "percentOfQueries": "2.0%"
+      },
+      "Converse": {
+        "queriesAppearing": 1,
+        "percentOfQueries": "1.0%"
+      },
+      "Zappos": {
+        "queriesAppearing": 1,
+        "percentOfQueries": "1.0%"
+      }
+    }
+  }
+}

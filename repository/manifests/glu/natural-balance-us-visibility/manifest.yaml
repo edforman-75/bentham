@@ -1,0 +1,131 @@
+# Natural Balance US Visibility Study
+# Comprehensive AI visibility analysis - mirrors HUFT India methodology
+
+id: natural-balance-us-visibility
+version: "1.0"
+name: "Natural Balance US AI Visibility Study"
+tenant: glu
+client: "Natural Balance Pet Foods"
+
+description: |
+  Comprehensive AI visibility study for Natural Balance in the US market.
+  Mirrors the methodology used for HUFT India study to enable cross-market comparison.
+
+  Key questions:
+  1. How visible is Natural Balance across AI surfaces?
+  2. How does Natural Balance compare to competitors (Blue Buffalo, Purina, etc.)?
+  3. Do API vs Web surface patterns from India replicate in US?
+
+# Surfaces to study
+surfaces:
+  - id: openai-api
+    name: "OpenAI GPT-4o API"
+    collectionMethod: api
+    model: gpt-4o
+    priority: 1
+
+  - id: chatgpt-web
+    name: "ChatGPT Web (chatgpt.com)"
+    collectionMethod: browser-cdp
+    priority: 2
+    notes: "Requires Chrome with CDP"
+
+  - id: gemini-api
+    name: "Google Gemini API"
+    collectionMethod: api
+    model: gemini-2.0-flash
+    priority: 1
+
+  - id: google-ai-overview
+    name: "Google AI Overview"
+    collectionMethod: serpapi
+    priority: 1
+
+location:
+  id: us-national
+  name: "United States"
+  serpApiParams:
+    location: "United States"
+    google_domain: google.com
+    gl: us
+    hl: en
+
+# Query configuration
+queries:
+  source: queries.yaml
+  count: 100
+  categories:
+    - dog-food-general
+    - dog-food-breed-specific
+    - dog-food-health
+    - dog-food-life-stage
+    - dog-food-comparison
+    - dog-treats
+    - cat-food
+    - ingredients-quality
+    - where-to-buy
+
+# Brands to track
+brands:
+  # Client brand
+  client:
+    - "Natural Balance"
+    - "Natural Balance Pet Foods"
+    - "Natural Balance L.I.D."
+
+  # Direct competitors (premium/natural segment)
+  primary_competitors:
+    - "Blue Buffalo"
+    - "Wellness"
+    - "Merrick"
+    - "Orijen"
+    - "Acana"
+    - "Canidae"
+    - "Nutro"
+    - "Taste of the Wild"
+    - "Fromm"
+    - "Nulo"
+
+  # Mass market competitors
+  mass_market:
+    - "Purina"
+    - "Pedigree"
+    - "Iams"
+    - "Hill's"
+    - "Royal Canin"
+    - "Rachael Ray"
+
+  # Retailers
+  retailers:
+    - "Chewy"
+    - "Petco"
+    - "PetSmart"
+    - "Amazon"
+    - "Walmart"
+    - "Target"
+
+# Output configuration
+output:
+  directory: /Users/edf/bentham/repository/results/glu/natural-balance-us-visibility
+  reports:
+    - type: brand-analysis
+      format: json
+    - type: web-layer-comparison
+      format: markdown
+    - type: ceo-presentation
+      format: html
+
+# Execution settings
+execution:
+  queryDelayMs: [2000, 4000]
+  saveIntervalQueries: 10
+  retryAttempts: 2
+
+# Study metadata
+created: "2026-01-25"
+status: pending
+estimatedCost:
+  openai-api: "$2.50"
+  gemini-api: "$0.50"
+  serpapi: "$5.00"
+  total: "~$8.00"
