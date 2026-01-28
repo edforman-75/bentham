@@ -208,12 +208,11 @@ export {
   type BatchOptions,
 } from './collectors/oxylabs-collector.js';
 
-// AI Surfaces (Google, Bing, Perplexity, ChatGPT)
+// AI Surfaces (Oxylabs-based: Google, Bing, Perplexity)
 export {
   queryGoogle,
   queryBing,
   queryPerplexitySurface,
-  queryChatGPT,
   queryAllSurfaces,
   queryAcrossLocations,
   summarizeAISurfaceResults,
@@ -246,6 +245,19 @@ export {
   type CopilotTextBlock,
   type CopilotCitation,
 } from './collectors/serpapi-collector.js';
+
+// ChatGPT (Browser Session)
+export {
+  queryChatGPT,
+  queryChatGPTBatch,
+  interactiveLogin as chatgptLogin,
+  hasValidSession as hasChatGPTSession,
+  verifySession as verifyChatGPTSession,
+  summarizeChatGPTResults,
+  type ChatGPTResult,
+  type ChatGPTCitation,
+  type ChatGPTSessionOptions,
+} from './collectors/chatgpt-collector.js';
 
 // API server
 export { startServer } from './api.js';

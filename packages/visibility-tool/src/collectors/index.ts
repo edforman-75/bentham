@@ -44,7 +44,6 @@ export {
   queryGoogle,
   queryBing,
   queryPerplexitySurface,
-  queryChatGPT,
   queryAllSurfaces,
   queryAcrossLocations,
   summarizeAISurfaceResults,
@@ -75,5 +74,16 @@ export {
   type CopilotTextBlock,
   type CopilotCitation,
 } from './serpapi-collector.js';
+export {
+  queryChatGPT,
+  queryChatGPTBatch,
+  interactiveLogin as chatgptLogin,
+  hasValidSession as hasChatGPTSession,
+  verifySession as verifyChatGPTSession,
+  summarizeChatGPTResults,
+  type ChatGPTResult,
+  type ChatGPTCitation,
+  type ChatGPTSessionOptions,
+} from './chatgpt-collector.js';
 // Future: export * from './gemini-api.js';
 // Future: export * from './serpapi.js';
