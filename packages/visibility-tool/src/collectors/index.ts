@@ -10,5 +10,6 @@ export * from './metadata-collector.js';
 export * from './reachability-collector.js';
 export * from './site-crawler.js';
 export * from './ai-referral-collector.js';
+export * from './citation-collector.js';
 // Future: export * from './gemini-api.js';
 // Future: export * from './serpapi.js';

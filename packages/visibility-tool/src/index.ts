@@ -129,6 +129,19 @@ export {
   type PagePerformanceOptions,
 } from './collectors/ai-referral-collector.js';
 
+// Citation Extraction
+export {
+  queryPerplexity,
+  scrapeGoogleCitations,
+  collectCitations,
+  summarizeCitations,
+  filterCitationsForBrand,
+  type Citation,
+  type CitationResult,
+  type CitationSummary,
+  type PerplexityOptions,
+} from './collectors/citation-collector.js';
+
 // Scoring
 export {
   scoreJsonLd,
