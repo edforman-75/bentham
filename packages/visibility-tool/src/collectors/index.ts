@@ -40,5 +40,19 @@ export {
   type GoogleDomain,
   type BatchOptions,
 } from './oxylabs-collector.js';
+export {
+  queryGoogle,
+  queryBing,
+  queryPerplexitySurface,
+  queryChatGPT,
+  queryAllSurfaces,
+  queryAcrossLocations,
+  summarizeAISurfaceResults,
+  filterCitationsForBrand as filterAISurfaceCitations,
+  type AISurface,
+  type AISurfaceCitation,
+  type AISurfaceResult,
+  type AISurfaceOptions,
+} from './ai-surfaces-collector.js';
 // Future: export * from './gemini-api.js';
 // Future: export * from './serpapi.js';

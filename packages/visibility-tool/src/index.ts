@@ -208,5 +208,21 @@ export {
   type BatchOptions,
 } from './collectors/oxylabs-collector.js';
 
+// AI Surfaces (Google, Bing, Perplexity, ChatGPT)
+export {
+  queryGoogle,
+  queryBing,
+  queryPerplexitySurface,
+  queryChatGPT,
+  queryAllSurfaces,
+  queryAcrossLocations,
+  summarizeAISurfaceResults,
+  filterCitationsForBrand as filterAISurfaceCitations,
+  type AISurface,
+  type AISurfaceCitation,
+  type AISurfaceResult,
+  type AISurfaceOptions,
+} from './collectors/ai-surfaces-collector.js';
+
 // API server
 export { startServer } from './api.js';
