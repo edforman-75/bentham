@@ -118,7 +118,7 @@ export async function queryPerplexity(
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: options.model || 'sonar',  // Current models: sonar, sonar-pro, sonar-reasoning
+        model: options.model || 'llama-3.1-sonar-small-128k-online',
         messages: [
           { role: 'user', content: query },
         ],
