@@ -298,12 +298,17 @@ export class SocialListeningDatabase {
 }
 
 /**
- * Create database instance with default TASC connection
+ * Create database instance for glu tenant (includes TASC data)
  */
-export function createTascDatabase(): SocialListeningDatabase {
-  const connectionString = process.env.TASC_DATABASE_URL;
+export function createGluDatabase(): SocialListeningDatabase {
+  const connectionString = process.env.GLU_DATABASE_URL || process.env.DATABASE_URL;
   if (!connectionString) {
-    throw new Error('TASC_DATABASE_URL environment variable is required');
+    throw new Error('GLU_DATABASE_URL or DATABASE_URL environment variable is required');
   }
   return new SocialListeningDatabase({ connectionString });
 }
+
+/**
+ * @deprecated Use createGluDatabase() instead - TASC data is now in glu-analytics
+ */
+export const createTascDatabase = createGluDatabase;

@@ -48,10 +48,10 @@ const socialMentions = importBrand24File('/path/to/export.csv', keywordId);
 ### Database Operations
 
 ```typescript
-import { SocialListeningDatabase, createTascDatabase } from '@bentham/social-listening';
+import { SocialListeningDatabase, createGluDatabase } from '@bentham/social-listening';
 
-// Create database connection
-const db = createTascDatabase();
+// Create database connection (glu-analytics includes TASC data)
+const db = createGluDatabase();
 
 // Insert mentions
 await db.insertMentions(mentions);
@@ -115,5 +115,7 @@ pnpm typecheck
 ## Environment Variables
 
 ```bash
-TASC_DATABASE_URL=postgresql://...  # Neon connection string
+GLU_DATABASE_URL=postgresql://...  # Neon connection string (glu-analytics)
+# or
+DATABASE_URL=postgresql://...      # Alternative env var name
 ```
