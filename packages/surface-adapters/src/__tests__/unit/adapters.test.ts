@@ -59,8 +59,9 @@ describe('Surface Adapters', () => {
 
     it('should get surfaces by category', () => {
       const apiSurfaces = getSurfacesByCategory('api');
-      expect(apiSurfaces.length).toBe(6);
+      expect(apiSurfaces.length).toBe(7);
       expect(apiSurfaces.map(s => s.id)).toContain('openai-api');
+      expect(apiSurfaces.map(s => s.id)).toContain('openai-responses-api');
       expect(apiSurfaces.map(s => s.id)).toContain('anthropic-api');
       expect(apiSurfaces.map(s => s.id)).toContain('google-ai-api');
       expect(apiSurfaces.map(s => s.id)).toContain('perplexity-api');
@@ -68,7 +69,7 @@ describe('Surface Adapters', () => {
       expect(apiSurfaces.map(s => s.id)).toContain('together-api');
 
       const webChatbots = getSurfacesByCategory('web_chatbot');
-      expect(webChatbots.length).toBe(8); // chatgpt, perplexity, x-grok, meta-ai, copilot, amazon, rufus, zappos
+      expect(webChatbots.length).toBe(10); // chatgpt, perplexity, x-grok, meta-ai, copilot, amazon, rufus, zappos, flipkart, walmart
 
       const searchSurfaces = getSurfacesByCategory('search');
       expect(searchSurfaces.length).toBe(3); // google-search, google-ai-overview, bing-search
