@@ -59,3 +59,8 @@ debug-*.png
 
 # Study results (output data)
 studies/
+
+# Session state files
+*.session.json
+.chatgpt-session.json
+.copilot-session.json
