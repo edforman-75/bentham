@@ -62,36 +62,66 @@ const RUFUS_SELECTORS: WebSurfaceSelectors = {
 
 /**
  * Alternative selectors for Rufus (UI may vary)
+ *
+ * Rufus appears as a LEFT SIDEBAR panel with:
+ * - Header: "Rufus ai" with beta badge
+ * - Input field at BOTTOM with placeholder "Ask Rufus a question"
+ * - Blue circular send button
+ * - Responses with formatted text and action buttons
+ *
+ * Updated: Jan 2026 based on UI analysis
  */
 const RUFUS_ALT_SELECTORS = {
-  // Rufus chat interface selectors
-  chatContainer: [
-    '[data-testid="rufus-chat"]',
-    '#rufus-container',
-    '.rufus-chat-widget',
-    '[class*="rufus"]',
-  ],
-  queryInput: [
-    '[data-testid="rufus-input"]',
-    '#rufus-chat-input',
-    'textarea[placeholder*="Ask Rufus"]',
-    'input[placeholder*="Ask Rufus"]',
-  ],
-  submitButton: [
-    '[data-testid="rufus-send"]',
-    '#rufus-send-button',
-    'button[aria-label*="Send"]',
-  ],
-  responseContainer: [
-    '[data-testid="rufus-response"]',
-    '.rufus-message.assistant',
-    '[data-role="assistant"]',
-  ],
-  // Search bar trigger for Rufus
+  // Nav bar trigger - "✨ Rufus" link in header
   rufusTrigger: [
+    'a[href*="rufus"]',
+    '#nav-rufus',
+    '[data-csa-c-slot-id*="rufus"]',
     '[data-testid="rufus-trigger"]',
     'button[aria-label*="Rufus"]',
     '.rufus-icon',
+  ],
+
+  // Sidebar container
+  chatContainer: [
+    '[class*="rufus"][class*="panel"]',
+    '[class*="rufus"][class*="sidebar"]',
+    '[id*="rufus"]',
+    '[data-testid*="rufus"]',
+    '[data-testid="rufus-chat"]',
+    '#rufus-container',
+    '.rufus-chat-widget',
+  ],
+
+  // Input field at bottom of sidebar
+  queryInput: [
+    'input[placeholder*="Ask Rufus"]',
+    'textarea[placeholder*="Ask Rufus"]',
+    '[class*="rufus"] input',
+    '[class*="rufus"] textarea',
+    '[data-testid="rufus-input"]',
+    '#rufus-chat-input',
+  ],
+
+  // Send button (blue arrow)
+  submitButton: [
+    '[class*="rufus"] button[type="submit"]',
+    'button[aria-label*="send" i]',
+    'button[aria-label*="submit" i]',
+    '[class*="rufus"] button:has(svg)',
+    '[data-testid="rufus-send"]',
+    '#rufus-send-button',
+  ],
+
+  // Response container
+  responseContainer: [
+    '[class*="rufus"][class*="response"]',
+    '[class*="rufus"][class*="message"]',
+    '[class*="rufus"][class*="answer"]',
+    '[class*="rufus"] [class*="content"]',
+    '[data-testid="rufus-response"]',
+    '.rufus-message.assistant',
+    '[data-role="assistant"]',
   ],
 };
 
@@ -134,7 +164,12 @@ export class AmazonRufusAdapter extends BaseWebAdapter {
   protected async extractResponse(page: BrowserPage): Promise<string> {
     // Try to get the latest Rufus response using evaluate with selectors embedded
     const response = await page.evaluate(() => {
+      // Updated selectors based on Jan 2026 UI analysis
       const selectors = [
+        '[class*="rufus"][class*="response"]',
+        '[class*="rufus"][class*="message"]',
+        '[class*="rufus"][class*="answer"]',
+        '[class*="rufus"] [class*="content"]',
         '[data-testid="rufus-response"]',
         '.rufus-message.assistant',
         '[data-role="assistant"]',
@@ -228,7 +263,7 @@ export class AmazonRufusAdapter extends BaseWebAdapter {
     // Try to open Rufus chat
     const rufusOpened = await this.openRufusChat();
     if (!rufusOpened) {
-      throw new Error('Rufus chat interface not available. Rufus may require Amazon app or specific account access.');
+      throw new Error('Rufus chat interface not found - may not be available in this region/account. Rufus appears as a sidebar panel and is triggered via nav link.');
     }
 
     // Find and fill the input
@@ -307,7 +342,7 @@ export class AmazonRufusAdapter extends BaseWebAdapter {
     // Wait for typing indicator to disappear (streaming complete)
     try {
       await this.page!.waitForFunction(
-        () => !document.querySelector('[data-testid="rufus-loading"], .rufus-typing'),
+        () => !document.querySelector('[data-testid="rufus-loading"], .rufus-typing, [class*="rufus"][class*="loading"], [class*="rufus"][class*="typing"]'),
         { timeout: this.webConfig.pageLoadTimeoutMs }
       );
     } catch {
