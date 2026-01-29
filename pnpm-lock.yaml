@@ -540,6 +540,31 @@ importers:
         specifier: ^1.0.0
         version: 1.6.1(@types/node@20.19.30)
 
+  packages/social-listening:
+    dependencies:
+      '@neondatabase/serverless':
+        specifier: ^1.0.2
+        version: 1.0.2
+      csv-parse:
+        specifier: ^5.5.0
+        version: 5.6.0
+    devDependencies:
+      '@types/node':
+        specifier: ^20.10.0
+        version: 20.19.30
+      tsup:
+        specifier: ^8.0.1
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.7.0
+        version: 4.21.0
+      typescript:
+        specifier: ^5.3.0
+        version: 5.9.3
+      vitest:
+        specifier: ^1.0.0
+        version: 1.6.1(@types/node@20.19.30)
+
   packages/surface-adapters:
     dependencies:
       '@bentham/core':
@@ -2378,6 +2403,10 @@ packages:
       shebang-command: 2.0.0
       which: 2.0.2
     dev: true
+
+  /csv-parse@5.6.0:
+    resolution: {integrity: sha512-l3nz3euub2QMg5ouu5U09Ew9Wf6/wQ8I++ch1loQ0ljmzhmfZYrH9fflS22i/PQEvsPvxCwxgz5q7UB8K1JO4Q==}
+    dev: false
 
   /csv-parse@6.1.0:
     resolution: {integrity: sha512-CEE+jwpgLn+MmtCpVcPtiCZpVtB6Z2OKPTr34pycYYoL7sxdOkXDdQ4lRiw6ioC0q6BLqhc6cKweCVvral8yhw==}

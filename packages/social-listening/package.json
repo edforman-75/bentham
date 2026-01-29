@@ -1,0 +1,40 @@
+{
+  "name": "@bentham/social-listening",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Social listening integrations for Bentham (Brand24, etc.)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts",
+    "dev": "tsup src/index.ts --format esm --dts --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "clean": "rm -rf dist",
+    "tasc:import-visibility": "tsx src/tasc-study.ts import-visibility",
+    "tasc:import-brand24": "tsx src/tasc-study.ts import-brand24",
+    "tasc:report": "tsx src/tasc-study.ts report",
+    "tasc:summary": "tsx src/tasc-study.ts summary"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
+    "csv-parse": "^5.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsup": "^8.0.1",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ]
+}
