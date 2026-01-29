@@ -121,6 +121,13 @@ export {
   type TogetherAdapterConfig,
 } from './api-surfaces/together-adapter.js';
 
+export {
+  OpenAIResponsesAdapter,
+  createOpenAIResponsesAdapter,
+  OPENAI_RESPONSES_METADATA,
+  type OpenAIResponsesAdapterConfig,
+} from './api-surfaces/openai-responses-adapter.js';
+
 // SerpAPI Adapter (for Google Search & AI Overview - recommended method)
 export {
   SerpApiAdapter,
@@ -206,6 +213,20 @@ export {
   ZAPPOS_WEB_METADATA,
   type ZapposWebAdapterConfig,
 } from './ecommerce-surfaces/zappos-web-adapter.js';
+
+export {
+  FlipkartAIAdapter,
+  createFlipkartAIAdapter,
+  FLIPKART_AI_METADATA,
+  type FlipkartAIAdapterConfig,
+} from './ecommerce-surfaces/flipkart-ai-adapter.js';
+
+export {
+  WalmartAIAdapter,
+  createWalmartAIAdapter,
+  WALMART_AI_METADATA,
+  type WalmartAIAdapterConfig,
+} from './ecommerce-surfaces/walmart-ai-adapter.js';
 
 // Pool Management
 export {
@@ -309,6 +330,7 @@ export {
 export const ALL_SURFACE_METADATA: Record<string, SurfaceMetadata> = {
   // API Surfaces
   'openai-api': OPENAI_METADATA,
+  'openai-responses-api': OPENAI_RESPONSES_METADATA,
   'anthropic-api': ANTHROPIC_METADATA,
   'google-ai-api': GOOGLE_AI_METADATA,
   'perplexity-api': PERPLEXITY_METADATA,
@@ -328,6 +350,8 @@ export const ALL_SURFACE_METADATA: Record<string, SurfaceMetadata> = {
   'amazon-web': AMAZON_WEB_METADATA,
   'amazon-rufus': AMAZON_RUFUS_METADATA,
   'zappos-web': ZAPPOS_WEB_METADATA,
+  'flipkart-ai': FLIPKART_AI_METADATA,
+  'walmart-ai': WALMART_AI_METADATA,
 };
 
 /**
@@ -374,3 +398,6 @@ import { BING_SEARCH_METADATA } from './search-surfaces/bing-search-adapter.js';
 import { AMAZON_WEB_METADATA } from './ecommerce-surfaces/amazon-web-adapter.js';
 import { AMAZON_RUFUS_METADATA } from './ecommerce-surfaces/amazon-rufus-adapter.js';
 import { ZAPPOS_WEB_METADATA } from './ecommerce-surfaces/zappos-web-adapter.js';
+import { FLIPKART_AI_METADATA } from './ecommerce-surfaces/flipkart-ai-adapter.js';
+import { WALMART_AI_METADATA } from './ecommerce-surfaces/walmart-ai-adapter.js';
+import { OPENAI_RESPONSES_METADATA } from './api-surfaces/openai-responses-adapter.js';

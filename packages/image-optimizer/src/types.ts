@@ -29,7 +29,7 @@ export interface TransformationPreset {
 /**
  * Named preset identifiers
  */
-export type PresetName = 'ogImage' | 'productMain' | 'productThumbnail' | 'schemaImage';
+export type PresetName = 'ogImage' | 'productMain' | 'productThumbnail' | 'schemaImage' | 'amazonMain' | 'walmartMain';
 
 /**
  * Optimized image URLs for a single source image
@@ -45,6 +45,10 @@ export interface OptimizedImageSet {
   productThumbnail: string;
   /** 1000w high-quality image for JSON-LD schema */
   schemaImage: string;
+  /** Amazon main product image (optimized for Amazon requirements) */
+  amazonMain?: string;
+  /** Walmart main product image (optimized for Walmart requirements) */
+  walmartMain?: string;
   /** Provider that generated these URLs */
   provider: 'cloudinary';
   /** Timestamp when URLs were generated */
