@@ -63,6 +63,38 @@ export const PRESETS: Record<PresetName, TransformationPreset> = {
     format: 'auto',
     quality: 90,
   },
+
+  /**
+   * Amazon Main Image preset
+   * - 1600x1600 square format (Amazon requires min 1000px, 1600+ for zoom)
+   * - Uses auto:border to sample edge colors and extend background seamlessly
+   * - JPEG format (Amazon preferred)
+   * - High quality (92) for detail preservation
+   */
+  amazonMain: {
+    width: 1600,
+    height: 1600,
+    crop: 'pad',
+    format: 'jpg',
+    quality: 92,
+    raw: 'b_auto:border',
+  },
+
+  /**
+   * Walmart Main Image preset
+   * - 2000x2000 recommended size for zoom capability
+   * - Uses auto:border to sample edge colors and extend background seamlessly
+   * - JPEG format
+   * - High quality for detail
+   */
+  walmartMain: {
+    width: 2000,
+    height: 2000,
+    crop: 'pad',
+    format: 'jpg',
+    quality: 90,
+    raw: 'b_auto:border',
+  },
 };
 
 /**

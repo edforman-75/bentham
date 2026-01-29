@@ -79,3 +79,24 @@ export {
   isShopifyCdnUrl,
   extractAllProductImages,
 } from './utils/image-extractor.js';
+
+// Background Removal (remove.bg)
+export {
+  removeBackground,
+  likelyNeedsBackgroundRemoval,
+  type RemoveBgConfig,
+  type RemoveBgResult,
+} from './providers/removebg-provider.js';
+
+// Marketplace Processing (Amazon/Walmart)
+export {
+  getCloudinaryMarketplaceUrl,
+  getEdgeToEdgeTransformUrl,
+  getProcessingRules,
+  recommendProcessingApproach,
+  PROCESSING_RULES,
+  type ImageAnalysis,
+  type MarketplaceImageOptions,
+  type MarketplaceProcessorConfig,
+  type ProcessedImage,
+} from './processors/marketplace-processor.js';
