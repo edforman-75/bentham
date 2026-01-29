@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bentham Module Architecture</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            padding: 40px;
+            color: #e0e0e0;
+        }
+        h1 {
+            text-align: center;
+            color: #fff;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        .subtitle {
+            text-align: center;
+            color: #888;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+        .diagram {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .layer {
+            margin-bottom: 30px;
+            position: relative;
+        }
+        .layer-title {
+            font-size: 0.85em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #666;
+            margin-bottom: 15px;
+            padding-left: 10px;
+            border-left: 3px solid #444;
+        }
+        .modules {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        .module {
+            background: linear-gradient(145deg, #2a2a4a, #1e1e3a);
+            border-radius: 12px;
+            padding: 20px;
+            min-width: 160px;
+            max-width: 200px;
+            border: 1px solid #3a3a5a;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        .module:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            border-color: #5a5a8a;
+        }
+        .module-name {
+            font-weight: 600;
+            font-size: 1.1em;
+            margin-bottom: 8px;
+            color: #fff;
+        }
+        .module-desc {
+            font-size: 0.8em;
+            color: #999;
+            line-height: 1.4;
+        }
+
+        /* Module type colors */
+        .core .module { border-left: 4px solid #4ecdc4; }
+        .orchestration .module { border-left: 4px solid #ff6b6b; }
+        .execution .module { border-left: 4px solid #ffd93d; }
+        .data .module { border-left: 4px solid #6bcb77; }
+        .infrastructure .module { border-left: 4px solid #9b59b6; }
+        .tools .module { border-left: 4px solid #3498db; }
+
+        /* Arrows/connections */
+        .connector {
+            text-align: center;
+            padding: 10px 0;
+            color: #555;
+            font-size: 1.5em;
+        }
+
+        /* Dependency flow */
+        .flow-section {
+            margin-top: 60px;
+            padding: 30px;
+            background: rgba(255,255,255,0.03);
+            border-radius: 15px;
+        }
+        .flow-title {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #fff;
+            font-size: 1.3em;
+        }
+        .flow-diagram {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .flow-box {
+            background: #2a2a4a;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 0.9em;
+            border: 1px solid #3a3a5a;
+        }
+        .flow-arrow {
+            color: #666;
+            font-size: 1.2em;
+        }
+
+        /* Legend */
+        .legend {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.85em;
+        }
+        .legend-color {
+            width: 20px;
+            height: 4px;
+            border-radius: 2px;
+        }
+        .legend-color.core { background: #4ecdc4; }
+        .legend-color.orchestration { background: #ff6b6b; }
+        .legend-color.execution { background: #ffd93d; }
+        .legend-color.data { background: #6bcb77; }
+        .legend-color.infrastructure { background: #9b59b6; }
+        .legend-color.tools { background: #3498db; }
+    </style>
+</head>
+<body>
+    <h1>Bentham Module Architecture</h1>
+    <p class="subtitle">Headless Execution Engine for AI Visibility Studies</p>
+
+    <div class="diagram">
+        <!-- API Layer -->
+        <div class="layer core">
+            <div class="layer-title">API Layer</div>
+            <div class="modules">
+                <div class="module">
+                    <div class="module-name">api-gateway</div>
+                    <div class="module-desc">REST/WebSocket API for operators. Authentication, rate limiting, request routing.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="connector">↓</div>
+
+        <!-- Orchestration Layer -->
+        <div class="layer orchestration">
+            <div class="layer-title">Orchestration Layer</div>
+            <div class="modules">
+                <div class="module">
+                    <div class="module-name">orchestrator</div>
+                    <div class="module-desc">Study lifecycle management. Query distribution, progress tracking, retry logic.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="connector">↓</div>
+
+        <!-- Execution Layer -->
+        <div class="layer execution">
+            <div class="layer-title">Execution Layer</div>
+            <div class="modules">
+                <div class="module">
+                    <div class="module-name">executor</div>
+                    <div class="module-desc">Query execution engine. Browser automation, API calls, parallel execution.</div>
+                </div>
+                <div class="module">
+                    <div class="module-name">validator</div>
+                    <div class="module-desc">Response validation. Completeness checks, format verification, anomaly detection.</div>
+                </div>
+                <div class="module">
+                    <div class="module-name">ai-advisor</div>
+                    <div class="module-desc">LLM-based analysis. Query recommendations, response interpretation.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="connector">↓</div>
+
+        <!-- Surface Adapters -->
+        <div class="layer execution">
+            <div class="layer-title">Surface Adapters</div>
+            <div class="modules">
+                <div class="module">
+                    <div class="module-name">google-adapter</div>
+                    <div class="module-desc">Google Search scraping. SERP parsing, AI Overview extraction.</div>
+                </div>
+                <div class="module">
+                    <div class="module-name">perplexity-adapter</div>
+                    <div class="module-desc">Perplexity API integration. Citation extraction.</div>
+                </div>
+                <div class="module">
+                    <div class="module-name">chatgpt-adapter</div>
+                    <div class="module-desc">ChatGPT browser automation. Response capture.</div>
+                </div>
+                <div class="module">
+                    <div class="module-name">copilot-adapter</div>
+                    <div class="module-desc">Bing Copilot automation. Response and citation capture.</div>
+                </div>
+                <div class="module">
+                    <div class="module-name">amazon-adapter</div>
+                    <div class="module-desc">Amazon search automation. Product result extraction.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="connector">↓</div>
+
+        <!-- Data Layer -->
+        <div class="layer data">
+            <div class="layer-title">Data Layer</div>
+            <div class="modules">
+                <div class="module">
+                    <div class="module-name">evidence-collector</div>
+                    <div class="module-desc">Screenshot capture, HTML archiving, response storage.</div>
+                </div>
+                <div class="module">
+                    <div class="module-name">database</div>
+                    <div class="module-desc">PostgreSQL/Neon. Studies, queries, responses, citations.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="connector">↓</div>
+
+        <!-- Infrastructure Layer -->
+        <div class="layer infrastructure">
+            <div class="layer-title">Infrastructure Layer</div>
+            <div class="modules">
+                <div class="module">
+                    <div class="module-name">session-pool</div>
+                    <div class="module-desc">Browser session management. Reuse, health checks, cleanup.</div>
+                </div>
+                <div class="module">
+                    <div class="module-name">proxy-manager</div>
+                    <div class="module-desc">Proxy rotation for scraping. Rate limit avoidance.</div>
+                </div>
+                <div class="module">
+                    <div class="module-name">account-manager</div>
+                    <div class="module-desc">AI service credentials. Rotation, usage tracking.</div>
+                </div>
+                <div class="module">
+                    <div class="module-name">cost-tracker</div>
+                    <div class="module-desc">API cost monitoring. Budget alerts, usage reports.</div>
+                </div>
+                <div class="module">
+                    <div class="module-name">credential-vault</div>
+                    <div class="module-desc">Secure credential storage. Encryption, access control.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Shared Layer -->
+        <div class="layer core" style="margin-top: 40px;">
+            <div class="layer-title">Shared / Core</div>
+            <div class="modules">
+                <div class="module">
+                    <div class="module-name">core</div>
+                    <div class="module-desc">Shared types, utilities, logging, error handling across all modules.</div>
+                </div>
+                <div class="module">
+                    <div class="module-name">audit-logger</div>
+                    <div class="module-desc">Action logging, compliance tracking, change history.</div>
+                </div>
+                <div class="module">
+                    <div class="module-name">notification-hub</div>
+                    <div class="module-desc">Study notifications. Email, Slack, webhooks.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="layer tools" style="margin-top: 40px;">
+            <div class="layer-title">Developer Tools</div>
+            <div class="modules">
+                <div class="module">
+                    <div class="module-name">visibility-tool</div>
+                    <div class="module-desc">CLI for running visibility studies. Query execution, result analysis.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dependency Flow -->
+        <div class="flow-section">
+            <div class="flow-title">Module Dependency Chain</div>
+            <div class="flow-diagram">
+                <div class="flow-box">core</div>
+                <span class="flow-arrow">→</span>
+                <div class="flow-box">database</div>
+                <span class="flow-arrow">→</span>
+                <div class="flow-box">orchestrator</div>
+                <span class="flow-arrow">→</span>
+                <div class="flow-box">executor / validator / ai-advisor</div>
+                <span class="flow-arrow">→</span>
+                <div class="flow-box">surface-adapters</div>
+                <span class="flow-arrow">→</span>
+                <div class="flow-box">evidence-collector</div>
+            </div>
+        </div>
+
+        <!-- Legend -->
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color core"></div>
+                <span>Core / API</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color orchestration"></div>
+                <span>Orchestration</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color execution"></div>
+                <span>Execution</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color data"></div>
+                <span>Data</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color infrastructure"></div>
+                <span>Infrastructure</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color tools"></div>
+                <span>Tools</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
