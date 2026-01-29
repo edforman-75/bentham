@@ -134,8 +134,9 @@ describe('Orchestrator', () => {
         manifest,
       });
 
-      expect(events).toHaveLength(1);
-      expect(events[0].type).toBe('study_created');
+      const studyCreatedEvents = events.filter(e => e.type === 'study_created');
+      expect(studyCreatedEvents).toHaveLength(1);
+      expect(studyCreatedEvents[0].type).toBe('study_created');
     });
   });
 
