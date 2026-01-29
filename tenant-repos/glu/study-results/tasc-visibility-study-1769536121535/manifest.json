@@ -1,0 +1,642 @@
+{
+  "id": "study-1769536121535",
+  "name": "Tasc Visibility Study",
+  "description": "Understand Tasc's visibility relative to main competitors",
+  "version": "1.0",
+  "createdAt": "2026-01-27T17:48:41.535Z",
+  "brands": [
+    {
+      "name": "tasc performance",
+      "category": "primary",
+      "brandSiteUrl": "https://www.tascperformance.com/",
+      "productScope": "all"
+    },
+    {
+      "name": "Lululemon",
+      "category": "competitor",
+      "segment": "athletic wear",
+      "brandSiteUrl": "https://shop.lululemon.com",
+      "productScope": "all"
+    },
+    {
+      "name": "Vuori",
+      "category": "competitor",
+      "brandSiteUrl": "https://vuoriclothing.com/",
+      "productScope": "all"
+    },
+    {
+      "name": "Cotopaxi",
+      "category": "competitor",
+      "segment": "Sustainable outdoor gear",
+      "brandSiteUrl": "https://www.cotopaxi.com",
+      "amazonStoreUrl": "https://www.amazon.com/stores/Cotopaxi/page/F20B4924-9CBB-4DDC-8F74-37534E7957C9?lp_asin=B0F11PM94T&ref_=ast_bln&store_ref=bl_ast_dp_brandLogo_store",
+      "productScope": "all"
+    }
+  ],
+  "queries": [
+    {
+      "text": "What is TASC Performance?",
+      "amazonQuery": "tasc performance",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Who makes TASC Performance clothing?",
+      "amazonQuery": "makes tasc performance clothing",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Where is TASC Performance made?",
+      "amazonQuery": "tasc performance made",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Is TASC Performance a good brand?",
+      "amazonQuery": "tasc performance brand",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "What does TASC stand for?",
+      "amazonQuery": "tasc stand",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Is TASC Performance an American company?",
+      "amazonQuery": "tasc performance american company",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "What is TASC Performance known for?",
+      "amazonQuery": "tasc performance known",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Who founded TASC Performance?",
+      "amazonQuery": "founded tasc performance",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "TASC Performance vs Lululemon",
+      "amazonQuery": "tasc performance vs lululemon",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "TASC Performance vs Vuori",
+      "amazonQuery": "tasc performance vs vuori",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Is TASC better than Lululemon?",
+      "amazonQuery": "tasc better than lululemon",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "TASC vs Vuori which is softer?",
+      "amazonQuery": "tasc vs vuori softer",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "TASC Performance vs Rhone",
+      "amazonQuery": "tasc performance vs rhone",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Rhone vs TASC for golf shirts",
+      "amazonQuery": "rhone vs tasc golf",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Is Vuori or TASC more sustainable?",
+      "amazonQuery": "vuori or tasc more",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "TASC vs Lululemon for men's shirts",
+      "amazonQuery": "tasc vs lululemon mens",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Vuori vs TASC vs Lululemon comparison",
+      "amazonQuery": "vuori vs tasc vs",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Which is better TASC or Rhone for working out?",
+      "amazonQuery": "better tasc or rhone",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "TASC Performance vs Vuori joggers",
+      "amazonQuery": "tasc performance vs vuori",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Lululemon vs TASC bamboo shirts",
+      "amazonQuery": "lululemon vs tasc bamboo",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "TASC Performance vs Nike Dri-Fit",
+      "amazonQuery": "tasc performance vs nike",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "TASC Performance vs Under Armour",
+      "amazonQuery": "tasc performance vs under",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Is TASC better than Nike for golf?",
+      "amazonQuery": "tasc better than nike",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Under Armour vs TASC moisture wicking",
+      "amazonQuery": "under armour vs tasc",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "TASC bamboo vs Nike synthetic shirts",
+      "amazonQuery": "tasc bamboo vs nike",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Is TASC Performance better than Under Armour Tech?",
+      "amazonQuery": "tasc performance better than",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Nike vs TASC for hot weather",
+      "amazonQuery": "nike vs tasc hot",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Under Armour vs TASC which lasts longer?",
+      "amazonQuery": "under armour vs tasc",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "TASC vs Free Fly bamboo shirts",
+      "amazonQuery": "tasc vs free fly",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "TASC Performance vs Cariloha",
+      "amazonQuery": "tasc performance vs cariloha",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Free Fly vs TASC which is better?",
+      "amazonQuery": "free fly vs tasc",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "TASC vs Ibex outdoor clothing",
+      "amazonQuery": "tasc vs ibex outdoor",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "TASC Performance vs Allbirds",
+      "amazonQuery": "tasc performance vs allbirds",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Cariloha vs TASC bamboo quality",
+      "amazonQuery": "cariloha vs tasc bamboo",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Is Free Fly or TASC more comfortable?",
+      "amazonQuery": "free fly or tasc",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "TASC vs BAM bamboo clothing",
+      "amazonQuery": "tasc vs bam bamboo",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "TASC Performance vs Boody activewear",
+      "amazonQuery": "tasc performance vs boody",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Bamtech vs TASC Performance",
+      "amazonQuery": "bamtech vs tasc performance",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "TASC Performance vs Everlane",
+      "amazonQuery": "tasc performance vs everlane",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "TASC vs Patagonia sustainability",
+      "amazonQuery": "tasc vs patagonia sustainability",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Is TASC more eco-friendly than Everlane?",
+      "amazonQuery": "tasc more eco-friendly than",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "TASC Performance vs Cotopaxi",
+      "amazonQuery": "tasc performance vs cotopaxi",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Most sustainable athletic wear brand",
+      "amazonQuery": "sustainable athletic wear brand",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "TASC vs Girlfriend Collective which is greener?",
+      "amazonQuery": "tasc vs girlfriend collective",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Best bamboo athletic clothing brands",
+      "amazonQuery": "bamboo athletic clothing brands",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Best golf shirts for hot weather",
+      "amazonQuery": "golf shirts hot weather",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Best moisture wicking shirts for sweating",
+      "amazonQuery": "moisture wicking shirts sweating",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Best workout shirts that don't smell",
+      "amazonQuery": "workout shirts that dont",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Best sustainable activewear brands",
+      "amazonQuery": "sustainable activewear brands",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Best bamboo polo shirts for golf",
+      "amazonQuery": "bamboo polo shirts golf",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Best chemical-free workout clothes",
+      "amazonQuery": "chemical-free workout clothes",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Best anti-odor athletic shirts",
+      "amazonQuery": "anti-odor athletic shirts",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Best eco-friendly men's activewear",
+      "amazonQuery": "eco-friendly mens activewear",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Best natural fiber performance clothing",
+      "amazonQuery": "natural fiber performance clothing",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "What is TASC bamboo fabric made of?",
+      "amazonQuery": "tasc bamboo fabric made",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Is TASC Performance really chemical-free?",
+      "amazonQuery": "tasc performance chemical-free",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "What is BamCo fabric?",
+      "amazonQuery": "bamco fabric",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Is bamboo clothing better than polyester?",
+      "amazonQuery": "bamboo clothing better than",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Does bamboo fabric smell less than synthetic?",
+      "amazonQuery": "bamboo fabric smell less",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Is TASC Performance fabric anti-odor?",
+      "amazonQuery": "tasc performance fabric anti-odor",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "What is MOSOtech fabric?",
+      "amazonQuery": "mosotech fabric",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Is TASC Performance clothing UPF rated?",
+      "amazonQuery": "tasc performance clothing upf",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Is TASC Performance good for running?",
+      "amazonQuery": "tasc performance running",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Is TASC Performance good for CrossFit?",
+      "amazonQuery": "tasc performance crossfit",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Can you wear TASC Performance to the office?",
+      "amazonQuery": "wear tasc performance office",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Is bamboo clothing good for hiking?",
+      "amazonQuery": "bamboo clothing hiking",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Best shirts for sweaty golfers",
+      "amazonQuery": "shirts sweaty golfers",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Is TASC good for yoga?",
+      "amazonQuery": "tasc yoga",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Can I wear TASC Performance for tennis?",
+      "amazonQuery": "wear tasc performance tennis",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Best athletic shirts for hot humid weather",
+      "amazonQuery": "athletic shirts hot humid",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Does TASC Performance run small or large?",
+      "amazonQuery": "tasc performance run small",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "TASC Performance size chart",
+      "amazonQuery": "tasc performance size chart",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Do TASC shirts shrink after washing?",
+      "amazonQuery": "tasc shirts shrink after",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "How does TASC Carrollton t-shirt fit?",
+      "amazonQuery": "tasc carrollton t-shirt fit",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Is TASC Performance true to size?",
+      "amazonQuery": "tasc performance true size",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "How long does TASC Performance clothing last?",
+      "amazonQuery": "long tasc performance clothing",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "How do you wash bamboo athletic clothing?",
+      "amazonQuery": "wash bamboo athletic clothing",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Does TASC Performance pill after washing?",
+      "amazonQuery": "tasc performance pill after",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Is TASC Performance clothing durable?",
+      "amazonQuery": "tasc performance clothing durable",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Can you put TASC Performance in the dryer?",
+      "amazonQuery": "put tasc performance dryer",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Is TASC Performance sustainable?",
+      "amazonQuery": "tasc performance sustainable",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Is bamboo clothing eco-friendly?",
+      "amazonQuery": "bamboo clothing eco-friendly",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Does TASC Performance use recycled materials?",
+      "amazonQuery": "tasc performance use recycled",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Is TASC Performance non-toxic?",
+      "amazonQuery": "tasc performance non-toxic",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "What makes TASC Performance environmentally friendly?",
+      "amazonQuery": "makes tasc performance environmentally",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Is TASC Performance worth the price?",
+      "amazonQuery": "tasc performance worth price",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Where to buy TASC Performance?",
+      "amazonQuery": "tasc performance",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Does TASC Performance go on sale?",
+      "amazonQuery": "tasc performance go sale",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "TASC Performance discount code",
+      "amazonQuery": "tasc performance discount code",
+      "category": "imported",
+      "intent": "commercial"
+    },
+    {
+      "text": "Is TASC Performance sold at Nordstrom?",
+      "amazonQuery": "tasc performance sold at",
+      "category": "imported",
+      "intent": "commercial"
+    }
+  ],
+  "tests": [
+    {
+      "surface": "jsonld-pdp",
+      "type": "brand-site",
+      "completionTarget": 90,
+      "note": "Brand Site Product Pages (JSON-LD SSOT)"
+    },
+    {
+      "surface": "amazon-pdp",
+      "type": "amazon",
+      "completionTarget": 90,
+      "note": "Amazon Product Pages"
+    },
+    {
+      "surface": "chatgpt-web",
+      "country": "us",
+      "completionTarget": 95
+    },
+    {
+      "surface": "google-ai-overview",
+      "country": "us",
+      "completionTarget": 95
+    },
+    {
+      "surface": "amazon-rufus",
+      "country": "us",
+      "completionTarget": 95
+    },
+    {
+      "surface": "amazon-search",
+      "country": "us",
+      "completionTarget": 95
+    },
+    {
+      "surface": "google-organic",
+      "country": "us",
+      "completionTarget": 95
+    },
+    {
+      "surface": "bing-search",
+      "country": "us",
+      "completionTarget": 95
+    }
+  ],
+  "outputDir": "./results",
+  "report": {
+    "title": "AI Visibility Assessment",
+    "clientName": "Tasc Performance",
+    "reportType": "ceo-strategic",
+    "includeCharts": true,
+    "includeRawData": true,
+    "theme": "corporate"
+  },
+  "job": {
+    "deadline": "2026-01-27",
+    "defaultCompletionTarget": 90
+  },
+  "options": {
+    "parallelSurfaces": false,
+    "retryAttempts": 3,
+    "delayBetweenRequests": 2000,
+    "screenshotEnabled": true,
+    "stealthMode": true
+  }
+}
