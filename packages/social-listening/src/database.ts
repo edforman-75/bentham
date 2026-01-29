@@ -301,7 +301,9 @@ export class SocialListeningDatabase {
  * Create database instance with default TASC connection
  */
 export function createTascDatabase(): SocialListeningDatabase {
-  const connectionString = process.env.TASC_DATABASE_URL ||
-    'postgresql://neondb_owner:npg_XZRvNiQ4wl7h@ep-young-fog-afyz21yl-pooler.c-2.us-west-2.aws.neon.tech/neondb?sslmode=require';
+  const connectionString = process.env.TASC_DATABASE_URL;
+  if (!connectionString) {
+    throw new Error('TASC_DATABASE_URL environment variable is required');
+  }
   return new SocialListeningDatabase({ connectionString });
 }

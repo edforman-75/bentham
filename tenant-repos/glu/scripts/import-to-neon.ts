@@ -17,9 +17,10 @@ import * as path from 'path';
 import { randomUUID } from 'crypto';
 
 // Database connection
-const DATABASE_URL =
-  process.env.DATABASE_URL ||
-  'postgresql://neondb_owner:npg_XksWenTgq60h@ep-hidden-feather-ahp9jd3u-pooler.c-3.us-east-1.aws.neon.tech/neondb?sslmode=require';
+const DATABASE_URL = process.env.DATABASE_URL;
+if (!DATABASE_URL) {
+  throw new Error('DATABASE_URL environment variable is required');
+}
 
 const sql = neon(DATABASE_URL);
 
