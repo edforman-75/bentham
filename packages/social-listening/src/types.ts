@@ -28,6 +28,7 @@ export interface Brand24Mention {
   comments?: number;
   influencerScore?: number;
   avatar?: string;
+  rawTags?: string; // Comma-separated tags from Brand24 Excel export
 }
 
 /**

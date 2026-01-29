@@ -50,19 +50,19 @@ export async function importBrand24ForTasc(
   const files: string[] = [];
   let totalImported = 0;
 
-  // Find all CSV files in directory
+  // Find all CSV and Excel files in directory
   if (!fs.existsSync(csvDirectory)) {
     console.log(`Directory not found: ${csvDirectory}`);
     return { imported: 0, files: [] };
   }
 
-  const csvFiles = fs.readdirSync(csvDirectory)
-    .filter(f => f.endsWith('.csv'))
+  const dataFiles = fs.readdirSync(csvDirectory)
+    .filter(f => f.endsWith('.csv') || f.endsWith('.xlsx') || f.endsWith('.xls'))
     .map(f => path.join(csvDirectory, f));
 
-  console.log(`Found ${csvFiles.length} CSV files to import`);
+  console.log(`Found ${dataFiles.length} data files to import (CSV/Excel)`);
 
-  for (const file of csvFiles) {
+  for (const file of dataFiles) {
     console.log(`Importing ${path.basename(file)}...`);
     files.push(file);
 

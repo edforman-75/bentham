@@ -22,6 +22,7 @@ export { BRAND24_CSV_COLUMNS } from './types.js';
 // Brand24 Importer
 export {
   parseBrand24Csv,
+  parseBrand24Excel,
   toSocialMention,
   importBrand24File,
   findBrand24Exports,
