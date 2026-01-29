@@ -1,0 +1,151 @@
+{
+  "$schema": "../schemas/manifest.schema.json",
+  "name": "Discovery Scan - Pet Industry",
+  "description": "Discover brands mentioned by AI in the pet industry vertical",
+  "version": "1.0.0",
+  "type": "discovery-scan",
+
+  "config": {
+    "estimatedDuration": "5-10 minutes",
+    "purpose": "Identify all brands AI mentions in pet category before client onboarding",
+    "vertical": "pet"
+  },
+
+  "brand": {
+    "name": "DISCOVERY_MODE",
+    "domain": null,
+    "aliases": [],
+    "note": "No target brand - discovering all mentioned brands"
+  },
+
+  "competitors": [],
+
+  "queries": [
+    {
+      "text": "best dog food brands",
+      "category": "best",
+      "subcategory": "dog-food"
+    },
+    {
+      "text": "best cat food brands",
+      "category": "best",
+      "subcategory": "cat-food"
+    },
+    {
+      "text": "best pet food brands 2026",
+      "category": "best",
+      "subcategory": "general"
+    },
+    {
+      "text": "healthiest dog food",
+      "category": "best",
+      "subcategory": "dog-food"
+    },
+    {
+      "text": "premium pet food brands",
+      "category": "best",
+      "subcategory": "premium"
+    },
+    {
+      "text": "grain free dog food recommendations",
+      "category": "recommendation",
+      "subcategory": "dog-food"
+    },
+    {
+      "text": "best wet cat food",
+      "category": "best",
+      "subcategory": "cat-food"
+    },
+    {
+      "text": "best dog treats",
+      "category": "best",
+      "subcategory": "treats"
+    },
+    {
+      "text": "best pet stores online",
+      "category": "retail",
+      "subcategory": "ecommerce"
+    },
+    {
+      "text": "organic pet food brands",
+      "category": "best",
+      "subcategory": "organic"
+    },
+    {
+      "text": "best puppy food",
+      "category": "best",
+      "subcategory": "life-stage"
+    },
+    {
+      "text": "best senior dog food",
+      "category": "best",
+      "subcategory": "life-stage"
+    },
+    {
+      "text": "best dog food for allergies",
+      "category": "use-case",
+      "subcategory": "health"
+    },
+    {
+      "text": "pet food delivery services",
+      "category": "retail",
+      "subcategory": "subscription"
+    },
+    {
+      "text": "veterinarian recommended dog food",
+      "category": "authority",
+      "subcategory": "expert"
+    }
+  ],
+
+  "surfaces": [
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "type": "api",
+      "adapter": "openai-responses-api"
+    },
+    {
+      "id": "google-ai-overview",
+      "name": "Google AI Overview",
+      "type": "serp",
+      "adapter": "serpapi"
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "type": "api",
+      "adapter": "perplexity-api"
+    }
+  ],
+
+  "locations": [
+    {
+      "id": "us",
+      "name": "United States",
+      "country": "US"
+    }
+  ],
+
+  "output": {
+    "format": "json",
+    "extractBrands": true,
+    "brandExtraction": {
+      "enabled": true,
+      "includeRetailers": true,
+      "includeManufacturers": true,
+      "categorize": true
+    }
+  },
+
+  "knownBrands": {
+    "note": "Common brands in this vertical for validation",
+    "brands": [
+      "Purina", "Royal Canin", "Hill's Science Diet", "Blue Buffalo",
+      "Iams", "Pedigree", "Wellness", "Orijen", "Acana", "Taste of the Wild",
+      "Merrick", "Nutro", "Canidae", "Natural Balance", "Rachael Ray Nutrish",
+      "Fromm", "Zignature", "Instinct", "Nulo", "Open Farm",
+      "Chewy", "Petco", "PetSmart", "Amazon", "Walmart"
+    ]
+  }
+}

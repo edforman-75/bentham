@@ -1,0 +1,151 @@
+{
+  "$schema": "../schemas/manifest.schema.json",
+  "name": "Discovery Scan - Beauty Industry",
+  "description": "Discover brands mentioned by AI in the beauty/skincare vertical",
+  "version": "1.0.0",
+  "type": "discovery-scan",
+
+  "config": {
+    "estimatedDuration": "5-10 minutes",
+    "purpose": "Identify all brands AI mentions in beauty category before client onboarding",
+    "vertical": "beauty"
+  },
+
+  "brand": {
+    "name": "DISCOVERY_MODE",
+    "domain": null,
+    "aliases": [],
+    "note": "No target brand - discovering all mentioned brands"
+  },
+
+  "competitors": [],
+
+  "queries": [
+    {
+      "text": "best skincare brands",
+      "category": "best",
+      "subcategory": "skincare"
+    },
+    {
+      "text": "best anti aging skincare",
+      "category": "best",
+      "subcategory": "anti-aging"
+    },
+    {
+      "text": "best moisturizers",
+      "category": "best",
+      "subcategory": "moisturizer"
+    },
+    {
+      "text": "best serums for face",
+      "category": "best",
+      "subcategory": "serum"
+    },
+    {
+      "text": "best clean beauty brands",
+      "category": "best",
+      "subcategory": "clean"
+    },
+    {
+      "text": "best sunscreen brands",
+      "category": "best",
+      "subcategory": "sunscreen"
+    },
+    {
+      "text": "dermatologist recommended skincare",
+      "category": "authority",
+      "subcategory": "expert"
+    },
+    {
+      "text": "best drugstore skincare",
+      "category": "best",
+      "subcategory": "budget"
+    },
+    {
+      "text": "luxury skincare brands",
+      "category": "best",
+      "subcategory": "luxury"
+    },
+    {
+      "text": "best Korean skincare brands",
+      "category": "best",
+      "subcategory": "k-beauty"
+    },
+    {
+      "text": "best skincare for acne",
+      "category": "use-case",
+      "subcategory": "acne"
+    },
+    {
+      "text": "best skincare for sensitive skin",
+      "category": "use-case",
+      "subcategory": "sensitive"
+    },
+    {
+      "text": "best retinol products",
+      "category": "product",
+      "subcategory": "retinol"
+    },
+    {
+      "text": "best vitamin c serums",
+      "category": "product",
+      "subcategory": "vitamin-c"
+    },
+    {
+      "text": "sustainable beauty brands",
+      "category": "best",
+      "subcategory": "sustainable"
+    }
+  ],
+
+  "surfaces": [
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "type": "api",
+      "adapter": "openai-responses-api"
+    },
+    {
+      "id": "google-ai-overview",
+      "name": "Google AI Overview",
+      "type": "serp",
+      "adapter": "serpapi"
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "type": "api",
+      "adapter": "perplexity-api"
+    }
+  ],
+
+  "locations": [
+    {
+      "id": "us",
+      "name": "United States",
+      "country": "US"
+    }
+  ],
+
+  "output": {
+    "format": "json",
+    "extractBrands": true,
+    "brandExtraction": {
+      "enabled": true,
+      "includeRetailers": true,
+      "includeManufacturers": true,
+      "categorize": true
+    }
+  },
+
+  "knownBrands": {
+    "note": "Common brands in this vertical for validation",
+    "brands": [
+      "CeraVe", "The Ordinary", "La Roche-Posay", "Cetaphil", "Neutrogena",
+      "Olay", "SK-II", "Estée Lauder", "Clinique", "Drunk Elephant",
+      "Paula's Choice", "SkinCeuticals", "Tatcha", "Sunday Riley", "Glow Recipe",
+      "Youth to the People", "Kiehl's", "First Aid Beauty", "Glossier", "Herbivore",
+      "Sephora", "Ulta", "Dermstore", "Amazon", "Target"
+    ]
+  }
+}

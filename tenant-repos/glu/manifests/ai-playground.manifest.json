@@ -1,0 +1,107 @@
+{
+  "$schema": "../schemas/manifest.schema.json",
+  "name": "AI Playground - Real-time Query",
+  "description": "Single-query real-time execution across multiple AI surfaces for immediate feedback",
+  "version": "1.0.0",
+  "type": "playground",
+
+  "config": {
+    "purpose": "Real-time AI query testing for immediate visibility feedback",
+    "mode": "interactive"
+  },
+
+  "brand": {
+    "name": "{{brand_name}}",
+    "domain": "{{brand_domain}}",
+    "aliases": []
+  },
+
+  "competitors": [],
+
+  "queries": [
+    {
+      "text": "{{query}}",
+      "category": "playground",
+      "subcategory": "realtime"
+    }
+  ],
+
+  "surfaces": [
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "type": "api",
+      "adapter": "openai-responses-api",
+      "required": true
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "type": "api",
+      "adapter": "perplexity-api",
+      "required": true
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "type": "api",
+      "adapter": "gemini-api",
+      "required": true
+    },
+    {
+      "id": "google-ai-overview",
+      "name": "Google AI Overview",
+      "type": "serp",
+      "adapter": "serpapi",
+      "required": false
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "api",
+      "adapter": "anthropic-api",
+      "required": false
+    }
+  ],
+
+  "locations": [
+    {
+      "id": "us",
+      "name": "United States",
+      "country": "US"
+    }
+  ],
+
+  "execution": {
+    "priority": "critical",
+    "executionOrder": "round-robin",
+    "queryDelayMs": [0, 100],
+    "shuffleQueries": false,
+    "concurrencyPerSurface": 1,
+    "maxConcurrency": 5,
+    "retry": {
+      "maxRetries": 1,
+      "backoffStrategy": "fixed",
+      "initialDelayMs": 500,
+      "maxDelayMs": 1000
+    },
+    "timeouts": {
+      "queryTimeoutMs": 15000,
+      "studyTimeoutMs": 60000
+    }
+  },
+
+  "completionCriteria": {
+    "minCoveragePercent": 60,
+    "maxRetriesPerCell": 1,
+    "requiredSurfaces": ["chatgpt", "perplexity", "gemini"]
+  },
+
+  "output": {
+    "format": "json",
+    "includeRawResponses": true,
+    "extractBrands": true,
+    "extractSentiment": true,
+    "extractSources": true
+  }
+}

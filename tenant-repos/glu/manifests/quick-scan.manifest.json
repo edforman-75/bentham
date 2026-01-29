@@ -1,0 +1,144 @@
+{
+  "$schema": "../schemas/manifest.schema.json",
+  "name": "Quick Visibility Scan",
+  "description": "Lightweight 10-query scan across 3 surfaces for rapid visibility assessment",
+  "version": "1.0.0",
+  "type": "quick-scan",
+
+  "config": {
+    "estimatedDuration": "2-3 minutes",
+    "purpose": "Quick health check - 'Where do I stand today?'"
+  },
+
+  "brand": {
+    "name": "{{BRAND_NAME}}",
+    "domain": "{{BRAND_DOMAIN}}",
+    "aliases": []
+  },
+
+  "competitors": [
+    "{{COMPETITOR_1}}",
+    "{{COMPETITOR_2}}",
+    "{{COMPETITOR_3}}",
+    "{{COMPETITOR_4}}",
+    "{{COMPETITOR_5}}"
+  ],
+
+  "queries": [
+    {
+      "text": "best {{CATEGORY}} brands",
+      "category": "best",
+      "intent": "research"
+    },
+    {
+      "text": "top rated {{CATEGORY}}",
+      "category": "best",
+      "intent": "research"
+    },
+    {
+      "text": "{{CATEGORY}} recommendations",
+      "category": "recommendation",
+      "intent": "purchase"
+    },
+    {
+      "text": "most popular {{CATEGORY}}",
+      "category": "best",
+      "intent": "research"
+    },
+    {
+      "text": "{{BRAND_NAME}} reviews",
+      "category": "brand",
+      "intent": "validation"
+    },
+    {
+      "text": "is {{BRAND_NAME}} good",
+      "category": "brand",
+      "intent": "validation"
+    },
+    {
+      "text": "{{BRAND_NAME}} vs {{COMPETITOR_1}}",
+      "category": "comparison",
+      "intent": "research"
+    },
+    {
+      "text": "{{CATEGORY}} buying guide",
+      "category": "guide",
+      "intent": "research"
+    },
+    {
+      "text": "where to buy {{CATEGORY}}",
+      "category": "purchase",
+      "intent": "purchase"
+    },
+    {
+      "text": "{{CATEGORY}} for {{USE_CASE}}",
+      "category": "use-case",
+      "intent": "purchase"
+    }
+  ],
+
+  "surfaces": [
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "type": "api",
+      "adapter": "openai-responses-api",
+      "priority": 1
+    },
+    {
+      "id": "google-ai-overview",
+      "name": "Google AI Overview",
+      "type": "serp",
+      "adapter": "serpapi",
+      "priority": 2
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "type": "api",
+      "adapter": "perplexity-api",
+      "priority": 3
+    }
+  ],
+
+  "locations": [
+    {
+      "id": "us",
+      "name": "United States",
+      "country": "US",
+      "default": true
+    }
+  ],
+
+  "execution": {
+    "priority": "high",
+    "executionOrder": "round-robin",
+    "queryDelayMs": [100, 500],
+    "shuffleQueries": false,
+    "maxConcurrency": 5,
+    "concurrencyPerSurface": 2,
+    "retry": {
+      "maxRetries": 1,
+      "backoffStrategy": "fixed",
+      "initialDelayMs": 500
+    },
+    "timeouts": {
+      "queryTimeoutMs": 15000,
+      "studyTimeoutMs": 180000
+    },
+    "scheduling": {
+      "mode": "immediate",
+      "preemptLowerPriority": true
+    }
+  },
+
+  "output": {
+    "format": "json",
+    "includeRawResponses": true,
+    "includeEvidence": false,
+    "scoring": {
+      "enabled": true,
+      "metrics": ["visibility", "position", "sentiment"]
+    }
+  }
+}

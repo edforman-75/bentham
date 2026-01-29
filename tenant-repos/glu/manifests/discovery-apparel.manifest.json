@@ -1,0 +1,151 @@
+{
+  "$schema": "../schemas/manifest.schema.json",
+  "name": "Discovery Scan - Apparel Industry",
+  "description": "Discover brands mentioned by AI in the apparel/fashion vertical",
+  "version": "1.0.0",
+  "type": "discovery-scan",
+
+  "config": {
+    "estimatedDuration": "5-10 minutes",
+    "purpose": "Identify all brands AI mentions in apparel category before client onboarding",
+    "vertical": "apparel"
+  },
+
+  "brand": {
+    "name": "DISCOVERY_MODE",
+    "domain": null,
+    "aliases": [],
+    "note": "No target brand - discovering all mentioned brands"
+  },
+
+  "competitors": [],
+
+  "queries": [
+    {
+      "text": "best activewear brands",
+      "category": "best",
+      "subcategory": "activewear"
+    },
+    {
+      "text": "best athletic clothing brands",
+      "category": "best",
+      "subcategory": "athletic"
+    },
+    {
+      "text": "best sustainable clothing brands",
+      "category": "best",
+      "subcategory": "sustainable"
+    },
+    {
+      "text": "best workout clothes",
+      "category": "best",
+      "subcategory": "workout"
+    },
+    {
+      "text": "best yoga pants brands",
+      "category": "best",
+      "subcategory": "yoga"
+    },
+    {
+      "text": "best running apparel",
+      "category": "best",
+      "subcategory": "running"
+    },
+    {
+      "text": "comfortable everyday clothing brands",
+      "category": "best",
+      "subcategory": "casual"
+    },
+    {
+      "text": "best men's activewear",
+      "category": "best",
+      "subcategory": "mens"
+    },
+    {
+      "text": "best women's athletic wear",
+      "category": "best",
+      "subcategory": "womens"
+    },
+    {
+      "text": "premium athleisure brands",
+      "category": "best",
+      "subcategory": "premium"
+    },
+    {
+      "text": "affordable workout clothes",
+      "category": "best",
+      "subcategory": "budget"
+    },
+    {
+      "text": "best moisture wicking shirts",
+      "category": "product",
+      "subcategory": "performance"
+    },
+    {
+      "text": "eco friendly activewear",
+      "category": "best",
+      "subcategory": "sustainable"
+    },
+    {
+      "text": "best clothing for hot weather",
+      "category": "use-case",
+      "subcategory": "climate"
+    },
+    {
+      "text": "best UPF clothing brands",
+      "category": "product",
+      "subcategory": "sun-protection"
+    }
+  ],
+
+  "surfaces": [
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "type": "api",
+      "adapter": "openai-responses-api"
+    },
+    {
+      "id": "google-ai-overview",
+      "name": "Google AI Overview",
+      "type": "serp",
+      "adapter": "serpapi"
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "type": "api",
+      "adapter": "perplexity-api"
+    }
+  ],
+
+  "locations": [
+    {
+      "id": "us",
+      "name": "United States",
+      "country": "US"
+    }
+  ],
+
+  "output": {
+    "format": "json",
+    "extractBrands": true,
+    "brandExtraction": {
+      "enabled": true,
+      "includeRetailers": true,
+      "includeManufacturers": true,
+      "categorize": true
+    }
+  },
+
+  "knownBrands": {
+    "note": "Common brands in this vertical for validation",
+    "brands": [
+      "Lululemon", "Nike", "Adidas", "Under Armour", "Athleta",
+      "Vuori", "Alo Yoga", "Gymshark", "Fabletics", "Outdoor Voices",
+      "Patagonia", "prAna", "Sweaty Betty", "Beyond Yoga", "Girlfriend Collective",
+      "TASC Performance", "Rhone", "Ten Thousand", "Tracksmith", "On Running",
+      "REI", "Dick's Sporting Goods", "Nordstrom", "Amazon"
+    ]
+  }
+}

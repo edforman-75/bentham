@@ -1,0 +1,257 @@
+{
+  "$schema": "../schemas/manifest.schema.json",
+  "name": "Full Visibility Study",
+  "description": "Comprehensive 90-query study across 8 surfaces for complete visibility assessment",
+  "version": "1.0.0",
+  "type": "full-study",
+
+  "config": {
+    "estimatedDuration": "30-45 minutes",
+    "purpose": "Complete visibility audit with competitive analysis"
+  },
+
+  "brand": {
+    "name": "{{BRAND_NAME}}",
+    "domain": "{{BRAND_DOMAIN}}",
+    "aliases": []
+  },
+
+  "competitors": [
+    "{{COMPETITOR_1}}",
+    "{{COMPETITOR_2}}",
+    "{{COMPETITOR_3}}",
+    "{{COMPETITOR_4}}",
+    "{{COMPETITOR_5}}",
+    "{{COMPETITOR_6}}",
+    "{{COMPETITOR_7}}",
+    "{{COMPETITOR_8}}",
+    "{{COMPETITOR_9}}",
+    "{{COMPETITOR_10}}"
+  ],
+
+  "queryCategories": {
+    "best": {
+      "count": 15,
+      "templates": [
+        "best {{CATEGORY}}",
+        "best {{CATEGORY}} brands",
+        "best {{CATEGORY}} {{YEAR}}",
+        "top rated {{CATEGORY}}",
+        "most popular {{CATEGORY}}",
+        "highest quality {{CATEGORY}}",
+        "best {{CATEGORY}} for {{USE_CASE}}",
+        "best {{SUBCATEGORY}}",
+        "best {{CATEGORY}} under {{PRICE}}",
+        "best premium {{CATEGORY}}",
+        "best affordable {{CATEGORY}}",
+        "best {{CATEGORY}} for beginners",
+        "best {{CATEGORY}} for experts",
+        "editor's choice {{CATEGORY}}",
+        "award winning {{CATEGORY}}"
+      ]
+    },
+    "comparison": {
+      "count": 15,
+      "templates": [
+        "{{BRAND_NAME}} vs {{COMPETITOR_1}}",
+        "{{BRAND_NAME}} vs {{COMPETITOR_2}}",
+        "{{BRAND_NAME}} vs {{COMPETITOR_3}}",
+        "{{COMPETITOR_1}} vs {{COMPETITOR_2}}",
+        "{{BRAND_NAME}} alternatives",
+        "brands like {{BRAND_NAME}}",
+        "{{BRAND_NAME}} competitors",
+        "{{CATEGORY}} brand comparison",
+        "{{BRAND_NAME}} or {{COMPETITOR_1}} which is better",
+        "difference between {{BRAND_NAME}} and {{COMPETITOR_1}}",
+        "{{BRAND_NAME}} vs {{COMPETITOR_4}}",
+        "{{BRAND_NAME}} vs {{COMPETITOR_5}}",
+        "is {{BRAND_NAME}} better than {{COMPETITOR_1}}",
+        "{{COMPETITOR_1}} alternatives",
+        "{{COMPETITOR_2}} vs {{COMPETITOR_3}}"
+      ]
+    },
+    "brand": {
+      "count": 15,
+      "templates": [
+        "{{BRAND_NAME}} reviews",
+        "is {{BRAND_NAME}} good",
+        "is {{BRAND_NAME}} worth it",
+        "{{BRAND_NAME}} quality",
+        "{{BRAND_NAME}} reputation",
+        "what is {{BRAND_NAME}} known for",
+        "{{BRAND_NAME}} pros and cons",
+        "{{BRAND_NAME}} customer reviews",
+        "{{BRAND_NAME}} rating",
+        "should I buy {{BRAND_NAME}}",
+        "{{BRAND_NAME}} complaints",
+        "{{BRAND_NAME}} problems",
+        "{{BRAND_NAME}} trustworthy",
+        "{{BRAND_NAME}} reliable",
+        "{{BRAND_NAME}} history"
+      ]
+    },
+    "product": {
+      "count": 15,
+      "templates": [
+        "{{PRODUCT_1}} reviews",
+        "{{PRODUCT_2}} reviews",
+        "best {{PRODUCT_TYPE_1}}",
+        "best {{PRODUCT_TYPE_2}}",
+        "{{BRAND_NAME}} {{PRODUCT_TYPE_1}}",
+        "{{BRAND_NAME}} {{PRODUCT_TYPE_2}}",
+        "{{PRODUCT_1}} vs {{COMPETITOR_PRODUCT_1}}",
+        "{{PRODUCT_TYPE_1}} buying guide",
+        "{{PRODUCT_TYPE_1}} recommendations",
+        "most comfortable {{PRODUCT_TYPE_1}}",
+        "most durable {{PRODUCT_TYPE_1}}",
+        "{{PRODUCT_TYPE_1}} for {{USE_CASE}}",
+        "premium {{PRODUCT_TYPE_1}}",
+        "affordable {{PRODUCT_TYPE_1}}",
+        "{{PRODUCT_TYPE_1}} {{YEAR}}"
+      ]
+    },
+    "use-case": {
+      "count": 15,
+      "templates": [
+        "{{CATEGORY}} for {{USE_CASE_1}}",
+        "{{CATEGORY}} for {{USE_CASE_2}}",
+        "{{CATEGORY}} for {{USE_CASE_3}}",
+        "best {{CATEGORY}} for {{AUDIENCE_1}}",
+        "best {{CATEGORY}} for {{AUDIENCE_2}}",
+        "{{CATEGORY}} for {{ACTIVITY_1}}",
+        "{{CATEGORY}} for {{ACTIVITY_2}}",
+        "{{CATEGORY}} for {{CONDITION_1}}",
+        "{{CATEGORY}} for everyday use",
+        "{{CATEGORY}} for travel",
+        "{{CATEGORY}} for work",
+        "professional {{CATEGORY}}",
+        "casual {{CATEGORY}}",
+        "{{CATEGORY}} for all day wear",
+        "{{CATEGORY}} for long term use"
+      ]
+    },
+    "purchase": {
+      "count": 15,
+      "templates": [
+        "where to buy {{BRAND_NAME}}",
+        "where to buy {{CATEGORY}}",
+        "{{BRAND_NAME}} sale",
+        "{{BRAND_NAME}} discount",
+        "{{BRAND_NAME}} coupon",
+        "{{BRAND_NAME}} price",
+        "how much does {{BRAND_NAME}} cost",
+        "{{BRAND_NAME}} free shipping",
+        "buy {{BRAND_NAME}} online",
+        "{{BRAND_NAME}} store near me",
+        "{{BRAND_NAME}} outlet",
+        "{{BRAND_NAME}} black friday",
+        "{{CATEGORY}} deals",
+        "cheapest place to buy {{BRAND_NAME}}",
+        "{{BRAND_NAME}} subscription"
+      ]
+    }
+  },
+
+  "surfaces": [
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "type": "api",
+      "adapter": "openai-responses-api",
+      "priority": 1
+    },
+    {
+      "id": "google-ai-overview",
+      "name": "Google AI Overview",
+      "type": "serp",
+      "adapter": "serpapi",
+      "priority": 2
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "type": "api",
+      "adapter": "perplexity-api",
+      "priority": 3
+    },
+    {
+      "id": "google-organic",
+      "name": "Google Organic",
+      "type": "serp",
+      "adapter": "serpapi",
+      "priority": 4
+    },
+    {
+      "id": "bing",
+      "name": "Bing Search",
+      "type": "serp",
+      "adapter": "serpapi",
+      "priority": 5
+    },
+    {
+      "id": "copilot",
+      "name": "Microsoft Copilot",
+      "type": "web",
+      "adapter": "copilot-collector",
+      "priority": 6
+    },
+    {
+      "id": "gemini",
+      "name": "Google Gemini",
+      "type": "api",
+      "adapter": "gemini-api",
+      "priority": 7
+    },
+    {
+      "id": "amazon-rufus",
+      "name": "Amazon Rufus",
+      "type": "web",
+      "adapter": "amazon-rufus",
+      "priority": 8
+    }
+  ],
+
+  "locations": [
+    {
+      "id": "us",
+      "name": "United States",
+      "country": "US",
+      "default": true
+    }
+  ],
+
+  "execution": {
+    "priority": "normal",
+    "executionOrder": "surface-first",
+    "queryDelayMs": [500, 2000],
+    "shuffleQueries": true,
+    "maxConcurrency": 3,
+    "concurrencyPerSurface": 1,
+    "retry": {
+      "maxRetries": 3,
+      "backoffStrategy": "exponential",
+      "initialDelayMs": 1000,
+      "maxDelayMs": 30000
+    },
+    "timeouts": {
+      "queryTimeoutMs": 30000,
+      "studyTimeoutMs": 3600000
+    },
+    "scheduling": {
+      "mode": "background",
+      "deferToHigherPriority": true,
+      "pauseOnCritical": true,
+      "resumeDelayMs": 5000
+    }
+  },
+
+  "output": {
+    "format": "json",
+    "includeRawResponses": true,
+    "includeEvidence": true,
+    "scoring": {
+      "enabled": true,
+      "metrics": ["visibility", "position", "sentiment", "citations"]
+    }
+  }
+}
