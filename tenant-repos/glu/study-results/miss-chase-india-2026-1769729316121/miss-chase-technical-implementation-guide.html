@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miss Chase AI Visibility: Technical Implementation Guide | Bentham Research</title>
+  <style>
+    :root {
+      --bentham-navy: #1a2332;
+      --bentham-blue: #2563eb;
+      --bentham-light-blue: #3b82f6;
+      --bentham-gold: #d4a84b;
+      --bentham-gray: #64748b;
+      --bentham-light: #f8fafc;
+      --success: #10b981;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      line-height: 1.6;
+      color: #334155;
+      background: var(--bentham-light);
+    }
+
+    .header {
+      background: linear-gradient(135deg, var(--bentham-navy) 0%, #2d3a4f 100%);
+      color: white;
+      padding: 40px 0;
+      margin-bottom: 40px;
+    }
+
+    .header-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 40px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 30px;
+    }
+
+    .logo-icon {
+      width: 48px;
+      height: 48px;
+      background: var(--bentham-gold);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 24px;
+      color: var(--bentham-navy);
+    }
+
+    .logo-text {
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: -0.5px;
+    }
+
+    .logo-tagline {
+      font-size: 12px;
+      opacity: 0.7;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    h1 {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      letter-spacing: -1px;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      opacity: 0.9;
+      margin-bottom: 20px;
+    }
+
+    .meta {
+      display: flex;
+      gap: 30px;
+      font-size: 14px;
+      opacity: 0.8;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 40px 60px;
+    }
+
+    .executive-summary {
+      background: white;
+      border-radius: 12px;
+      padding: 40px;
+      margin-bottom: 40px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      border-left: 4px solid var(--bentham-gold);
+    }
+
+    .executive-summary h2 {
+      color: var(--bentham-navy);
+      font-size: 24px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .highlight-box {
+      background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+      border-radius: 8px;
+      padding: 24px;
+      margin: 20px 0;
+    }
+
+    .highlight-box.success {
+      background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+      border-left: 4px solid var(--success);
+    }
+
+    .highlight-box.warning {
+      background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+      border-left: 4px solid var(--warning);
+    }
+
+    .visibility-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+
+    .visibility-table th {
+      background: var(--bentham-navy);
+      color: white;
+      padding: 12px 16px;
+      text-align: left;
+      font-weight: 600;
+    }
+
+    .visibility-table td {
+      padding: 12px 16px;
+      border-bottom: 1px solid #e2e8f0;
+    }
+
+    .visibility-table tr:nth-child(even) {
+      background: #f8fafc;
+    }
+
+    .visibility-table tr.client {
+      background: #fef3c7;
+      font-weight: 600;
+    }
+
+    .section {
+      background: white;
+      border-radius: 12px;
+      padding: 40px;
+      margin-bottom: 30px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .section h2 {
+      color: var(--bentham-navy);
+      font-size: 22px;
+      margin-bottom: 24px;
+      padding-bottom: 12px;
+      border-bottom: 2px solid var(--bentham-gold);
+    }
+
+    .section h3 {
+      color: var(--bentham-navy);
+      font-size: 18px;
+      margin: 24px 0 16px;
+    }
+
+    .tier-badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .tier-1 { background: #dcfce7; color: #166534; }
+    .tier-2 { background: #fef3c7; color: #92400e; }
+    .tier-3 { background: #e0e7ff; color: #3730a3; }
+
+    .audit-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 12px 0;
+      border-bottom: 1px solid #f1f5f9;
+    }
+
+    .audit-status {
+      font-size: 18px;
+      flex-shrink: 0;
+    }
+
+    .code-block {
+      background: #1e293b;
+      color: #e2e8f0;
+      padding: 20px;
+      border-radius: 8px;
+      overflow-x: auto;
+      font-family: 'Fira Code', 'Monaco', monospace;
+      font-size: 13px;
+      line-height: 1.5;
+      margin: 16px 0;
+    }
+
+    .code-block .comment { color: #64748b; }
+    .code-block .string { color: #a5d6ff; }
+    .code-block .key { color: #7dd3fc; }
+    .code-block .tag { color: #f472b6; }
+
+    .implementation-card {
+      background: #f8fafc;
+      border-radius: 8px;
+      padding: 24px;
+      margin: 20px 0;
+      border: 1px solid #e2e8f0;
+    }
+
+    .implementation-card h4 {
+      color: var(--bentham-navy);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .checklist {
+      list-style: none;
+    }
+
+    .checklist li {
+      padding: 8px 0;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .checklist li::before {
+      content: "☐";
+      font-size: 16px;
+      color: var(--bentham-gray);
+    }
+
+    .impact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin: 20px 0;
+    }
+
+    .impact-card {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 20px;
+    }
+
+    .impact-card h4 {
+      font-size: 14px;
+      color: var(--bentham-gray);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 8px;
+    }
+
+    .impact-value {
+      font-size: 32px;
+      font-weight: 700;
+      color: var(--bentham-navy);
+    }
+
+    .impact-value.positive { color: var(--success); }
+    .impact-value.warning { color: var(--warning); }
+
+    .not-tested-banner {
+      background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+      border: 1px solid #fecaca;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .not-tested-banner .icon {
+      font-size: 24px;
+    }
+
+    .footer {
+      background: var(--bentham-navy);
+      color: white;
+      padding: 40px;
+      margin-top: 60px;
+    }
+
+    .footer-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .footer-logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .footer-text {
+      font-size: 14px;
+      opacity: 0.8;
+    }
+
+    @media print {
+      .header { break-after: page; }
+      .section { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-content">
+      <div class="logo">
+        <div class="logo-icon">B</div>
+        <div>
+          <div class="logo-text">Bentham Research</div>
+          <div class="logo-tagline">AI Visibility Intelligence</div>
+        </div>
+      </div>
+      <h1>Miss Chase: Technical Implementation Guide</h1>
+      <p class="subtitle">Actionable roadmap to improve AI visibility across discovery surfaces</p>
+      <div class="meta">
+        <span>Client: Miss Chase / Chase Haul</span>
+        <span>Prepared: January 30, 2026</span>
+        <span>Study ID: miss-chase-india-2026</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <section class="executive-summary">
+      <h2>Executive Summary: A D2C Success Story with Room to Grow</h2>
+
+      <div class="highlight-box success">
+        <strong>The Good News:</strong> Miss Chase is the <strong>#2 most visible brand</strong> in AI responses across all surfaces tested - remarkable for a young D2C brand competing against AND, a decades-old retail giant with 400+ physical stores across India.
+      </div>
+
+      <table class="visibility-table">
+        <thead>
+          <tr>
+            <th>Brand</th>
+            <th>Type</th>
+            <th>Est.</th>
+            <th>Stores</th>
+            <th>AI Visibility</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>AND</td>
+            <td>Retail chain</td>
+            <td>1998</td>
+            <td>400+</td>
+            <td>97%</td>
+          </tr>
+          <tr class="client">
+            <td>Miss Chase</td>
+            <td>D2C</td>
+            <td>2015</td>
+            <td>0</td>
+            <td>38-43%</td>
+          </tr>
+          <tr>
+            <td>Myntra</td>
+            <td>Marketplace</td>
+            <td>2007</td>
+            <td>0</td>
+            <td>30%</td>
+          </tr>
+          <tr>
+            <td>H&M</td>
+            <td>Global retail</td>
+            <td>2015 (India)</td>
+            <td>50+</td>
+            <td>13%</td>
+          </tr>
+          <tr>
+            <td>Zara</td>
+            <td>Global retail</td>
+            <td>2010 (India)</td>
+            <td>20+</td>
+            <td>8%</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p><strong>Miss Chase outperforms H&M, Zara, ONLY, and Vero Moda in AI visibility</strong> despite having no physical retail presence. This is a significant achievement for a 9-year-old D2C brand.</p>
+
+      <div class="highlight-box warning">
+        <strong>The Opportunity:</strong> The 54-59 point gap to AND isn't a failure - it's a roadmap. AND's dominance comes from 25+ years of brand building, 400+ physical stores creating offline touchpoints, extensive press coverage, and marketplace omnipresence. Miss Chase can close this gap through <strong>technical optimizations entirely within their control</strong>.
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Surfaces Tested</h2>
+
+      <div class="impact-grid">
+        <div class="impact-card">
+          <h4>ChatGPT Web</h4>
+          <div class="impact-value positive">43%</div>
+          <p>Miss Chase visibility (86 queries)</p>
+        </div>
+        <div class="impact-card">
+          <h4>Perplexity</h4>
+          <div class="impact-value positive">38%</div>
+          <p>Miss Chase visibility (90 queries)</p>
+        </div>
+        <div class="impact-card">
+          <h4>Google AI Overview</h4>
+          <div class="impact-value warning">Limited</div>
+          <p>Visible in brand queries, absent in category</p>
+        </div>
+        <div class="impact-card">
+          <h4>Amazon India</h4>
+          <div class="impact-value positive">35%</div>
+          <p>Product visibility in search</p>
+        </div>
+      </div>
+
+      <div class="not-tested-banner">
+        <div class="icon">⚠️</div>
+        <div>
+          <strong>Social Media Surfaces NOT Tested</strong>
+          <p>This study did not include Instagram, TikTok, YouTube, or other social discovery surfaces. These represent significant discovery channels for Gen Z and millennial consumers that should be evaluated in future studies.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Current Technical State Audit</h2>
+
+      <h3>Foundation Checks</h3>
+
+      <div class="audit-item">
+        <span class="audit-status">✅</span>
+        <div>
+          <strong>robots.txt</strong> - Present, standard Shopify configuration with sitemap reference
+        </div>
+      </div>
+      <div class="audit-item">
+        <span class="audit-status">✅</span>
+        <div>
+          <strong>sitemap.xml</strong> - Comprehensive sitemap index with products, pages, collections, blogs
+        </div>
+      </div>
+      <div class="audit-item">
+        <span class="audit-status">❌</span>
+        <div>
+          <strong>llms.txt</strong> - NOT FOUND (404). This file helps AI crawlers understand your site for LLM training and retrieval.
+        </div>
+      </div>
+
+      <h3>Homepage Schema</h3>
+
+      <div class="audit-item">
+        <span class="audit-status">✅</span>
+        <div><strong>WebSite schema</strong> with SearchAction (enables sitelinks search box)</div>
+      </div>
+      <div class="audit-item">
+        <span class="audit-status">⚠️</span>
+        <div><strong>Organization schema</strong> - Present but minimal (no description, founding date, social links)</div>
+      </div>
+      <div class="audit-item">
+        <span class="audit-status">✅</span>
+        <div><strong>BreadcrumbList schema</strong> - Present</div>
+      </div>
+      <div class="audit-item">
+        <span class="audit-status">⚠️</span>
+        <div><strong>Brand naming</strong> - Inconsistent: uses "Chase Haul" instead of "Miss Chase"</div>
+      </div>
+
+      <h3>Collection Pages</h3>
+
+      <div class="audit-item">
+        <span class="audit-status">✅</span>
+        <div><strong>BreadcrumbList schema</strong> - Present</div>
+      </div>
+      <div class="audit-item">
+        <span class="audit-status">❌</span>
+        <div><strong>ItemList schema</strong> - NOT PRESENT (critical gap - AI systems see zero product data)</div>
+      </div>
+      <div class="audit-item">
+        <span class="audit-status">❌</span>
+        <div><strong>CollectionPage schema</strong> - NOT PRESENT</div>
+      </div>
+      <div class="audit-item">
+        <span class="audit-status">⚠️</span>
+        <div><strong>OG titles</strong> - Generic ("Jeans" instead of "Women's Jeans | Miss Chase India")</div>
+      </div>
+
+      <h3>FAQ Page (/pages/faqs)</h3>
+
+      <div class="audit-item">
+        <span class="audit-status">✅</span>
+        <div><strong>Content exists</strong> - FAQ questions and answers are present on the page</div>
+      </div>
+      <div class="audit-item">
+        <span class="audit-status">❌</span>
+        <div><strong>FAQPage schema</strong> - NOT PRESENT (this is the #1 easy win for AI visibility)</div>
+      </div>
+
+      <h3>Product Pages (PDPs)</h3>
+
+      <div class="audit-item">
+        <span class="audit-status">⚠️</span>
+        <div><strong>Product schema</strong> - Present but incomplete (missing description, aggregateRating, review, shipping details)</div>
+      </div>
+      <div class="audit-item">
+        <span class="audit-status">⚠️</span>
+        <div><strong>Brand property</strong> - Uses "Chase Haul" inconsistently</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Implementation Priority: Tier 1 - Easy Wins</h2>
+      <p>These changes take 1-2 hours each and have immediate impact on AI visibility.</p>
+
+      <div class="implementation-card">
+        <span class="tier-badge tier-1">Tier 1</span>
+        <h4>1. Add llms.txt File</h4>
+        <p>Create a simple text file that helps AI systems understand your brand and site structure.</p>
+
+        <div class="code-block">
+<span class="comment"># /llms.txt - Place at root of chasehaul.com</span>
+
+# Miss Chase
+
+> Miss Chase is India's fastest-growing women's western wear brand, known for
+> affordable, stylish clothing including our award-winning CHASEstretch jeans,
+> dresses, and jumpsuits. Founded in Kolkata in 2015.
+
+## Brand Information
+- Official Name: Miss Chase
+- Also Known As: Chase Haul, MissChase
+- Founded: 2015
+- Location: Kolkata, India
+- Category: Women's Western Wear Fashion
+- Price Range: Budget to Mid-range (INR 500-3000)
+
+## Products
+- Jeans (CHASEstretch technology, sizes 24-44)
+- Dresses (casual, party, work wear)
+- Tops (crop tops, blouses, t-shirts)
+- Jumpsuits and Co-ord Sets
+
+## Official Channels
+- Website: https://chasehaul.com
+- Myntra: https://www.myntra.com/miss-chase
+- Amazon India: https://www.amazon.in/stores/MissChase
+- AJIO: https://www.ajio.com/miss-chase
+- Instagram: @misschaseindia
+
+## Customer Info
+- Free shipping in India
+- 7-day easy returns
+- Sizes: XS to 3XL (24-44)
+- Customer support: support@chasehaul.com
+        </div>
+      </div>
+
+      <div class="implementation-card">
+        <span class="tier-badge tier-1">Tier 1</span>
+        <h4>2. Add FAQPage Schema to /pages/faqs</h4>
+        <p>The FAQ page has content but no structured data. This is one of the most powerful schemas for AI visibility.</p>
+
+        <div class="code-block">
+<span class="comment">&lt;!-- Add to theme/sections/faq-page.liquid or equivalent --&gt;</span>
+<span class="tag">&lt;script</span> type="application/ld+json"<span class="tag">&gt;</span>
+{
+  <span class="key">"@context"</span>: <span class="string">"https://schema.org"</span>,
+  <span class="key">"@type"</span>: <span class="string">"FAQPage"</span>,
+  <span class="key">"mainEntity"</span>: [
+    {
+      <span class="key">"@type"</span>: <span class="string">"Question"</span>,
+      <span class="key">"name"</span>: <span class="string">"What sizes does Miss Chase offer?"</span>,
+      <span class="key">"acceptedAnswer"</span>: {
+        <span class="key">"@type"</span>: <span class="string">"Answer"</span>,
+        <span class="key">"text"</span>: <span class="string">"Miss Chase offers sizes from 24 to 44 (XS to 3XL), with detailed size charts available on each product page."</span>
+      }
+    },
+    {
+      <span class="key">"@type"</span>: <span class="string">"Question"</span>,
+      <span class="key">"name"</span>: <span class="string">"What is Miss Chase's return policy?"</span>,
+      <span class="key">"acceptedAnswer"</span>: {
+        <span class="key">"@type"</span>: <span class="string">"Answer"</span>,
+        <span class="key">"text"</span>: <span class="string">"We offer 7-day easy returns on all products. Items must be unworn with original tags attached."</span>
+      }
+    },
+    {
+      <span class="key">"@type"</span>: <span class="string">"Question"</span>,
+      <span class="key">"name"</span>: <span class="string">"Is Miss Chase an Indian brand?"</span>,
+      <span class="key">"acceptedAnswer"</span>: {
+        <span class="key">"@type"</span>: <span class="string">"Answer"</span>,
+        <span class="key">"text"</span>: <span class="string">"Yes, Miss Chase is a proudly Indian brand founded in 2015 in Kolkata. We design and manufacture all our products in India."</span>
+      }
+    },
+    {
+      <span class="key">"@type"</span>: <span class="string">"Question"</span>,
+      <span class="key">"name"</span>: <span class="string">"Where can I buy Miss Chase products?"</span>,
+      <span class="key">"acceptedAnswer"</span>: {
+        <span class="key">"@type"</span>: <span class="string">"Answer"</span>,
+        <span class="key">"text"</span>: <span class="string">"Miss Chase products are available at chasehaul.com, Myntra, Amazon India, AJIO, and Flipkart."</span>
+      }
+    }
+  ]
+}
+<span class="tag">&lt;/script&gt;</span>
+        </div>
+      </div>
+
+      <div class="implementation-card">
+        <span class="tier-badge tier-1">Tier 1</span>
+        <h4>3. Enrich Organization Schema on Homepage</h4>
+        <p>Current Organization schema is minimal. Expand it with full brand information.</p>
+
+        <div class="code-block">
+{
+  <span class="key">"@context"</span>: <span class="string">"https://schema.org"</span>,
+  <span class="key">"@type"</span>: <span class="string">"Organization"</span>,
+  <span class="key">"name"</span>: <span class="string">"Miss Chase"</span>,
+  <span class="key">"alternateName"</span>: [<span class="string">"Chase Haul"</span>, <span class="string">"MissChase"</span>, <span class="string">"Miss Chase India"</span>],
+  <span class="key">"url"</span>: <span class="string">"https://chasehaul.com"</span>,
+  <span class="key">"logo"</span>: {
+    <span class="key">"@type"</span>: <span class="string">"ImageObject"</span>,
+    <span class="key">"url"</span>: <span class="string">"https://chasehaul.com/cdn/shop/files/logo.png"</span>,
+    <span class="key">"width"</span>: 600,
+    <span class="key">"height"</span>: 200
+  },
+  <span class="key">"description"</span>: <span class="string">"Miss Chase is India's fastest-growing women's western wear brand, known for affordable, stylish clothing including award-winning CHASEstretch jeans."</span>,
+  <span class="key">"foundingDate"</span>: <span class="string">"2015"</span>,
+  <span class="key">"foundingLocation"</span>: {
+    <span class="key">"@type"</span>: <span class="string">"Place"</span>,
+    <span class="key">"name"</span>: <span class="string">"Kolkata, India"</span>
+  },
+  <span class="key">"sameAs"</span>: [
+    <span class="string">"https://www.instagram.com/misschaseindia/"</span>,
+    <span class="string">"https://www.facebook.com/misschaseindia/"</span>,
+    <span class="string">"https://www.myntra.com/miss-chase"</span>,
+    <span class="string">"https://www.amazon.in/stores/MissChase"</span>
+  ]
+}
+        </div>
+
+        <p><strong>Critical fix:</strong> Change <code>"name": "Chase Haul"</code> to <code>"name": "Miss Chase"</code> with <code>"alternateName": ["Chase Haul"]</code>.</p>
+      </div>
+
+      <div class="implementation-card">
+        <span class="tier-badge tier-1">Tier 1</span>
+        <h4>4. Fix Collection Page OG Titles</h4>
+
+        <p><strong>Current state:</strong></p>
+        <div class="code-block">
+&lt;meta property="og:title" content="Jeans"&gt;
+        </div>
+
+        <p><strong>Should be:</strong></p>
+        <div class="code-block">
+<span class="comment">&lt;!-- In theme/layout/theme.liquid or collection template --&gt;</span>
+&lt;meta property="og:title" content="{{ collection.title }} | {{ collection.products_count }} Styles | Miss Chase India"&gt;
+&lt;meta property="og:description" content="Shop {{ collection.title | downcase }} from Miss Chase. Sizes 24-44. Free delivery. 7-day returns."&gt;
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Implementation Priority: Tier 2 - Medium Effort</h2>
+      <p>These changes take 4-8 hours and have high impact on AI visibility for product queries.</p>
+
+      <div class="implementation-card">
+        <span class="tier-badge tier-2">Tier 2</span>
+        <h4>5. Add ItemList Schema to Collection Pages</h4>
+        <p>This is the <strong>biggest technical gap</strong>. Collection pages show 40+ products but provide ZERO structured data about them to AI systems.</p>
+
+        <div class="code-block">
+<span class="comment">&lt;!-- Add to theme/sections/collection-template.liquid --&gt;</span>
+<span class="tag">&lt;script</span> type="application/ld+json"<span class="tag">&gt;</span>
+{
+  <span class="key">"@context"</span>: <span class="string">"https://schema.org"</span>,
+  <span class="key">"@type"</span>: <span class="string">"CollectionPage"</span>,
+  <span class="key">"name"</span>: <span class="string">"{{ collection.title }} | Miss Chase"</span>,
+  <span class="key">"description"</span>: <span class="string">"{{ collection.description | strip_html | escape }}"</span>,
+  <span class="key">"url"</span>: <span class="string">"{{ shop.url }}{{ collection.url }}"</span>,
+  <span class="key">"numberOfItems"</span>: {{ collection.products_count }},
+  <span class="key">"mainEntity"</span>: {
+    <span class="key">"@type"</span>: <span class="string">"ItemList"</span>,
+    <span class="key">"numberOfItems"</span>: {{ collection.products_count }},
+    <span class="key">"itemListElement"</span>: [
+      {% for product in collection.products limit: 20 %}
+      {
+        <span class="key">"@type"</span>: <span class="string">"ListItem"</span>,
+        <span class="key">"position"</span>: {{ forloop.index }},
+        <span class="key">"item"</span>: {
+          <span class="key">"@type"</span>: <span class="string">"Product"</span>,
+          <span class="key">"name"</span>: <span class="string">"{{ product.title | escape }}"</span>,
+          <span class="key">"url"</span>: <span class="string">"{{ shop.url }}{{ product.url }}"</span>,
+          <span class="key">"image"</span>: <span class="string">"{{ product.featured_image | image_url: width: 800 }}"</span>,
+          <span class="key">"brand"</span>: { <span class="key">"@type"</span>: <span class="string">"Brand"</span>, <span class="key">"name"</span>: <span class="string">"Miss Chase"</span> },
+          <span class="key">"offers"</span>: {
+            <span class="key">"@type"</span>: <span class="string">"Offer"</span>,
+            <span class="key">"price"</span>: <span class="string">"{{ product.price | money_without_currency }}"</span>,
+            <span class="key">"priceCurrency"</span>: <span class="string">"INR"</span>,
+            <span class="key">"availability"</span>: <span class="string">"{% if product.available %}https://schema.org/InStock{% else %}https://schema.org/OutOfStock{% endif %}"</span>
+          }
+        }
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  }
+}
+<span class="tag">&lt;/script&gt;</span>
+        </div>
+      </div>
+
+      <div class="implementation-card">
+        <span class="tier-badge tier-2">Tier 2</span>
+        <h4>6. Enhance Product Page Schema</h4>
+        <p>Current product schema is missing critical fields. Add these properties:</p>
+
+        <ul class="checklist">
+          <li>Add <code>description</code> (currently often empty)</li>
+          <li>Add <code>aggregateRating</code> with review data</li>
+          <li>Add <code>review</code> individual reviews</li>
+          <li>Standardize <code>brand</code> to "Miss Chase"</li>
+          <li>Add <code>shippingDetails</code> and <code>hasMerchantReturnPolicy</code></li>
+          <li>Add <code>material</code>, <code>color</code>, <code>size</code> properties</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Implementation Priority: Tier 3 - Strategic Initiatives</h2>
+
+      <div class="implementation-card">
+        <span class="tier-badge tier-3">Tier 3</span>
+        <h4>7. Content Strategy for Category Visibility</h4>
+        <p>Miss Chase is invisible for category queries ("best jeans brands India") because there's no content for AI to cite. Create:</p>
+
+        <ul class="checklist">
+          <li><strong>/pages/best-jeans-brands-india</strong> - "Best Women's Jeans Brands in India: A Complete Guide" (include Miss Chase with competitors)</li>
+          <li><strong>/pages/western-wear-guide</strong> - "Complete Guide to Western Wear for Indian Women"</li>
+          <li><strong>/blogs/style-guides/jeans-fit-guide</strong> - "How to Find Your Perfect Jeans Fit" with HowTo schema</li>
+        </ul>
+
+        <p>Each page should have 1500+ words, internal links to collections, embedded products, and FAQ schema at bottom.</p>
+      </div>
+
+      <div class="implementation-card">
+        <span class="tier-badge tier-3">Tier 3</span>
+        <h4>8. PR & Citation Building</h4>
+        <p>Miss Chase needs to appear in third-party "best of" articles that AI systems cite.</p>
+
+        <p><strong>Target publications:</strong></p>
+        <ul>
+          <li>Fashion: POPxo, MissMalini, WedMeGood</li>
+          <li>Business: YourStory, Inc42, Economic Times</li>
+          <li>Lifestyle: Femina, Elle India, Cosmopolitan India</li>
+        </ul>
+
+        <p><strong>Story angles:</strong></p>
+        <ul>
+          <li>"Kolkata D2C brand disrupting fast fashion"</li>
+          <li>"How Miss Chase sold 1M+ jeans without a single store"</li>
+          <li>"Indian D2C brand competing with H&M, Zara"</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Implementation Checklist</h2>
+
+      <h3>Week 1: Quick Wins</h3>
+      <ul class="checklist">
+        <li>Create llms.txt at site root</li>
+        <li>Add FAQPage schema to /pages/faqs</li>
+        <li>Update Organization schema on homepage</li>
+        <li>Fix collection page OG titles</li>
+        <li>Standardize brand name to "Miss Chase" in all schema</li>
+      </ul>
+
+      <h3>Week 2-3: Collection Pages</h3>
+      <ul class="checklist">
+        <li>Add ItemList schema to all collection pages</li>
+        <li>Add collection descriptions (many are empty)</li>
+        <li>Create collection-specific meta descriptions</li>
+      </ul>
+
+      <h3>Week 4-6: Content & Authority</h3>
+      <ul class="checklist">
+        <li>Create "Best Jeans Brands India" guide page</li>
+        <li>Create "Western Wear Guide" page</li>
+        <li>Enhance Product schema on PDPs</li>
+        <li>Begin PR outreach</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Expected Impact</h2>
+
+      <table class="visibility-table">
+        <thead>
+          <tr>
+            <th>Initiative</th>
+            <th>Effort</th>
+            <th>Impact on AI Visibility</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>llms.txt</td>
+            <td>30 minutes</td>
+            <td>+2-5% LLM recognition</td>
+          </tr>
+          <tr>
+            <td>FAQPage schema</td>
+            <td>2 hours</td>
+            <td>+5-10% for brand queries</td>
+          </tr>
+          <tr>
+            <td>Organization schema</td>
+            <td>1 hour</td>
+            <td>+2-5% brand recognition</td>
+          </tr>
+          <tr>
+            <td>Collection ItemList</td>
+            <td>4 hours</td>
+            <td>+10-15% for product queries</td>
+          </tr>
+          <tr>
+            <td>Content pages</td>
+            <td>20+ hours</td>
+            <td>+15-25% for category queries</td>
+          </tr>
+          <tr>
+            <td>PR citations</td>
+            <td>Ongoing</td>
+            <td>+10-20% over 6 months</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="highlight-box success">
+        <strong>Realistic Goal:</strong> Close the gap from 38-43% to 60-70% visibility within 6 months through technical optimization + content strategy. This would put Miss Chase clearly ahead of all competitors except AND.
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Appendix: Shopify Theme Files to Modify</h2>
+
+      <table class="visibility-table">
+        <thead>
+          <tr>
+            <th>File</th>
+            <th>Changes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>layout/theme.liquid</code></td>
+            <td>Enhanced Organization schema, OG meta tags</td>
+          </tr>
+          <tr>
+            <td><code>templates/collection.liquid</code></td>
+            <td>ItemList schema, CollectionPage schema</td>
+          </tr>
+          <tr>
+            <td><code>templates/product.liquid</code></td>
+            <td>Enhanced Product schema with all fields</td>
+          </tr>
+          <tr>
+            <td><code>sections/faq-page.liquid</code></td>
+            <td>FAQPage schema</td>
+          </tr>
+          <tr>
+            <td><code>snippets/schema-organization.liquid</code></td>
+            <td>Create new snippet for reuse</td>
+          </tr>
+          <tr>
+            <td><code>/llms.txt</code></td>
+            <td>Create new file at root</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <div class="logo-icon" style="background: var(--bentham-gold); width: 36px; height: 36px; font-size: 18px;">B</div>
+        <div>
+          <div style="font-weight: 600;">Bentham Research</div>
+          <div class="footer-text">AI Visibility Intelligence</div>
+        </div>
+      </div>
+      <div class="footer-text">
+        Report generated January 30, 2026 | Study ID: miss-chase-india-2026
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
