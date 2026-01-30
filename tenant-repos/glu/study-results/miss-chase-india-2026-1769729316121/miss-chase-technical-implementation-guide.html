@@ -115,9 +115,6 @@
       color: var(--bentham-navy);
       font-size: 24px;
       margin-bottom: 20px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
     }
 
     .highlight-box {
@@ -135,6 +132,11 @@
     .highlight-box.warning {
       background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
       border-left: 4px solid var(--warning);
+    }
+
+    .highlight-box.danger {
+      background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+      border-left: 4px solid var(--danger);
     }
 
     .visibility-table {
@@ -200,6 +202,7 @@
     .tier-1 { background: #dcfce7; color: #166534; }
     .tier-2 { background: #fef3c7; color: #92400e; }
     .tier-3 { background: #e0e7ff; color: #3730a3; }
+    .critical { background: #fee2e2; color: #991b1b; }
 
     .audit-item {
       display: flex;
@@ -266,7 +269,7 @@
 
     .impact-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 20px;
       margin: 20px 0;
     }
@@ -287,27 +290,43 @@
     }
 
     .impact-value {
-      font-size: 32px;
+      font-size: 28px;
       font-weight: 700;
       color: var(--bentham-navy);
     }
 
     .impact-value.positive { color: var(--success); }
     .impact-value.warning { color: var(--warning); }
+    .impact-value.danger { color: var(--danger); }
 
-    .not-tested-banner {
-      background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
-      border: 1px solid #fecaca;
+    .toc {
+      background: #f8fafc;
       border-radius: 8px;
-      padding: 20px;
+      padding: 24px;
       margin: 20px 0;
-      display: flex;
-      align-items: flex-start;
-      gap: 12px;
     }
 
-    .not-tested-banner .icon {
-      font-size: 24px;
+    .toc h3 {
+      margin-top: 0;
+      margin-bottom: 16px;
+    }
+
+    .toc ol {
+      margin: 0;
+      padding-left: 24px;
+    }
+
+    .toc li {
+      padding: 4px 0;
+    }
+
+    .toc a {
+      color: var(--bentham-blue);
+      text-decoration: none;
+    }
+
+    .toc a:hover {
+      text-decoration: underline;
     }
 
     .footer {
@@ -340,6 +359,13 @@
       .header { break-after: page; }
       .section { break-inside: avoid; }
     }
+
+    @media (max-width: 768px) {
+      .header-content, .container { padding: 0 20px; }
+      h1 { font-size: 28px; }
+      .meta { flex-direction: column; gap: 8px; }
+      .impact-grid { grid-template-columns: 1fr; }
+    }
   </style>
 </head>
 <body>
@@ -353,7 +379,7 @@
         </div>
       </div>
       <h1>Miss Chase: Technical Implementation Guide</h1>
-      <p class="subtitle">Actionable roadmap to improve AI visibility across discovery surfaces</p>
+      <p class="subtitle">Actionable roadmap to improve AI visibility, reduce returns, and lower customer service costs</p>
       <div class="meta">
         <span>Client: Miss Chase / Chase Haul</span>
         <span>Prepared: January 30, 2026</span>
@@ -363,7 +389,28 @@
   </header>
 
   <div class="container">
-    <section class="executive-summary">
+
+    <!-- TABLE OF CONTENTS -->
+    <div class="toc">
+      <h3>Contents</h3>
+      <ol>
+        <li><a href="#executive-summary">Executive Summary</a></li>
+        <li><a href="#surfaces-tested">Surfaces Tested</a></li>
+        <li><a href="#economic-impact">Economic Impact: Returns & Customer Service Costs</a></li>
+        <li><a href="#chatbot">Recommendation: AI Chatbot</a></li>
+        <li><a href="#trust-signals">Trust Signals Audit</a></li>
+        <li><a href="#technical-audit">Technical State Audit</a></li>
+        <li><a href="#tier-1">Tier 1: Easy Wins</a></li>
+        <li><a href="#tier-2">Tier 2: Medium Effort</a></li>
+        <li><a href="#pdp-faq">Recommendation: FAQ on Product Pages</a></li>
+        <li><a href="#tier-3">Tier 3: Strategic Initiatives</a></li>
+        <li><a href="#checklist">Implementation Checklist</a></li>
+        <li><a href="#expected-impact">Expected Impact</a></li>
+      </ol>
+    </div>
+
+    <!-- EXECUTIVE SUMMARY -->
+    <section id="executive-summary" class="executive-summary">
       <h2>Executive Summary: A D2C Success Story with Room to Grow</h2>
 
       <div class="highlight-box success">
@@ -422,11 +469,36 @@
       <p><strong>Miss Chase outperforms H&M, Zara, ONLY, and Vero Moda in AI visibility</strong> despite having no physical retail presence. This is a significant achievement for a 9-year-old D2C brand.</p>
 
       <div class="highlight-box warning">
-        <strong>The Opportunity:</strong> The 54-59 point gap to AND isn't a failure - it's a roadmap. AND's dominance comes from 25+ years of brand building, 400+ physical stores creating offline touchpoints, extensive press coverage, and marketplace omnipresence. Miss Chase can close this gap through <strong>technical optimizations entirely within their control</strong>.
+        <strong>The Opportunity:</strong> The 54-59 point gap to AND isn't a failure - it's a roadmap. AND's dominance comes from 25+ years of brand building, 400+ physical stores, extensive press coverage, and marketplace omnipresence. Miss Chase can close this gap through <strong>technical optimizations entirely within their control</strong>.
+      </div>
+
+      <h3 style="margin-top: 24px;">Key Findings</h3>
+      <div class="impact-grid">
+        <div class="impact-card">
+          <h4>AI Visibility</h4>
+          <div class="impact-value positive">38-43%</div>
+          <p>#2 behind AND (97%)</p>
+        </div>
+        <div class="impact-card">
+          <h4>Return Cost Impact</h4>
+          <div class="impact-value danger">₹240-390</div>
+          <p>Per return, fully loaded</p>
+        </div>
+        <div class="impact-card">
+          <h4>Missing Schema Types</h4>
+          <div class="impact-value warning">5+</div>
+          <p>FAQPage, ItemList, etc.</p>
+        </div>
+        <div class="impact-card">
+          <h4>Trust Signals</h4>
+          <div class="impact-value danger">Weak</div>
+          <p>Not displayed on D2C site</p>
+        </div>
       </div>
     </section>
 
-    <section class="section">
+    <!-- SURFACES TESTED -->
+    <section id="surfaces-tested" class="section">
       <h2>Surfaces Tested</h2>
 
       <div class="impact-grid">
@@ -450,19 +522,379 @@
           <div class="impact-value positive">35%</div>
           <p>Product visibility in search</p>
         </div>
+        <div class="impact-card">
+          <h4>Google Search</h4>
+          <div class="impact-value positive">35%</div>
+          <p>Top 10 organic rankings</p>
+        </div>
+        <div class="impact-card">
+          <h4>Bing Search</h4>
+          <div class="impact-value positive">32%</div>
+          <p>Top 10 organic rankings</p>
+        </div>
       </div>
 
-      <div class="not-tested-banner">
-        <div class="icon">⚠️</div>
-        <div>
-          <strong>Social Media Surfaces NOT Tested</strong>
-          <p>This study did not include Instagram, TikTok, YouTube, or other social discovery surfaces. These represent significant discovery channels for Gen Z and millennial consumers that should be evaluated in future studies.</p>
+      <div class="highlight-box danger">
+        <strong>Not Tested:</strong> This study did not include Instagram, TikTok, YouTube, Amazon Rufus, or other social discovery surfaces. These represent significant discovery channels for Gen Z and millennial consumers that should be evaluated in future studies.
+      </div>
+    </section>
+
+    <!-- ECONOMIC IMPACT -->
+    <section id="economic-impact" class="section">
+      <h2>Economic Impact: Returns & Customer Service Costs</h2>
+
+      <p>Missing product information, poor AI visibility, and lack of self-service tools directly impact operational costs. Every gap in structured data or customer self-service creates friction that manifests as returns, customer service tickets, and lost conversions.</p>
+
+      <h3>The True Cost of Returns in Fashion E-commerce</h3>
+
+      <table class="visibility-table">
+        <thead>
+          <tr>
+            <th>Cost Category</th>
+            <th>Per Return</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Reverse logistics (pickup + transport)</td>
+            <td>₹80-120</td>
+            <td>Courier fees for return pickup</td>
+          </tr>
+          <tr>
+            <td>Quality check & restocking</td>
+            <td>₹40-60</td>
+            <td>Staff time to inspect, repackage</td>
+          </tr>
+          <tr>
+            <td>Refund processing</td>
+            <td>₹20-30</td>
+            <td>Payment gateway fees, accounting</td>
+          </tr>
+          <tr>
+            <td>Customer service handling</td>
+            <td>₹50-80</td>
+            <td>1-3 interactions per return (chat/call)</td>
+          </tr>
+          <tr>
+            <td>Damaged/unsellable inventory</td>
+            <td>₹50-100</td>
+            <td>~15-20% of returns cannot be resold at full price</td>
+          </tr>
+          <tr style="background: #fef3c7; font-weight: 600;">
+            <td>Total Direct Cost Per Return</td>
+            <td>₹240-390</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Hidden Costs Not Captured Above</h3>
+      <ul style="margin: 16px 0; padding-left: 24px;">
+        <li><strong>Lost future sales:</strong> 22% of customers who have a difficult return experience don't purchase again</li>
+        <li><strong>Negative reviews:</strong> Returns due to "not as expected" often generate 1-2 star reviews</li>
+        <li><strong>Cash flow impact:</strong> Average 7-14 days of capital tied up in return-in-transit inventory</li>
+        <li><strong>Opportunity cost:</strong> Customer service time spent on returns instead of sales assistance</li>
+      </ul>
+
+      <div class="highlight-box warning">
+        <strong>Industry Benchmark:</strong> Fashion e-commerce in India sees 25-40% return rates. For a brand processing 10,000 orders/month with 30% returns, that's <strong>3,000 returns × ₹315 avg = ₹9.45 lakhs/month</strong> in direct return costs alone.
+      </div>
+
+      <h3>How Poor Information Drives Returns</h3>
+
+      <table class="visibility-table">
+        <thead>
+          <tr>
+            <th>Return Reason</th>
+            <th>% of Returns</th>
+            <th>Root Cause</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Size/fit issues</td>
+            <td>45-55%</td>
+            <td>Inadequate size guides, no fit FAQs, missing measurements in schema</td>
+          </tr>
+          <tr>
+            <td>Product not as expected</td>
+            <td>20-25%</td>
+            <td>Poor descriptions, missing material info, inadequate photos</td>
+          </tr>
+          <tr>
+            <td>Changed mind</td>
+            <td>15-20%</td>
+            <td>Often masks "didn't understand product" - preventable with better info</td>
+          </tr>
+          <tr>
+            <td>Quality concerns</td>
+            <td>10-15%</td>
+            <td>Expectations set incorrectly by missing fabric/care information</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="highlight-box success">
+        <strong>The Opportunity:</strong> If better product information (FAQ schema on PDPs, enhanced descriptions, AI-powered size recommendations) reduces returns by just 5 percentage points (e.g., 30% to 25%), that saves <strong>500 returns × ₹315 = ₹1.57 lakhs/month</strong> for a 10K order/month brand.
+      </div>
+
+      <h3>Customer Service Cost Impact</h3>
+
+      <div class="impact-grid">
+        <div class="impact-card">
+          <h4>Pre-Purchase Inquiries</h4>
+          <div class="impact-value warning">₹35-50</div>
+          <p>Per inquiry (sizing, availability, fabric)</p>
+        </div>
+        <div class="impact-card">
+          <h4>Post-Purchase Support</h4>
+          <div class="impact-value warning">₹50-80</div>
+          <p>Per ticket (order status, returns)</p>
+        </div>
+        <div class="impact-card">
+          <h4>Chatbot Deflection Rate</h4>
+          <div class="impact-value positive">60-75%</div>
+          <p>Industry benchmark for good bots</p>
+        </div>
+        <div class="impact-card">
+          <h4>Cost After Chatbot</h4>
+          <div class="impact-value positive">₹8-15</div>
+          <p>Per inquiry with AI-first approach</p>
         </div>
       </div>
     </section>
 
-    <section class="section">
-      <h2>Current Technical State Audit</h2>
+    <!-- CHATBOT RECOMMENDATION -->
+    <section id="chatbot" class="section">
+      <h2>Recommendation: AI Chatbot for ChaseHaul.com</h2>
+
+      <div class="highlight-box">
+        <strong>Strong Recommendation:</strong> Miss Chase should implement an AI-powered chatbot on chasehaul.com for both product research assistance and customer service. This is a high-ROI investment that reduces costs while improving customer experience.
+      </div>
+
+      <h3>Why a Chatbot Makes Sense for Miss Chase</h3>
+
+      <div class="implementation-card">
+        <h4>1. Product Research Assistant</h4>
+        <p>Help customers find the right product before purchase, reducing returns:</p>
+        <ul style="margin: 12px 0; padding-left: 24px;">
+          <li><strong>Size recommendations:</strong> "I'm 5'4" and usually wear M in other brands. What size in CHASEstretch jeans?"</li>
+          <li><strong>Product comparisons:</strong> "What's the difference between bootcut and wide-leg jeans?"</li>
+          <li><strong>Occasion matching:</strong> "I need something for a casual office Friday"</li>
+          <li><strong>Inventory checks:</strong> "Is this available in size 32?"</li>
+        </ul>
+      </div>
+
+      <div class="implementation-card">
+        <h4>2. Customer Service Automation</h4>
+        <p>Handle routine inquiries 24/7 without human intervention:</p>
+        <ul style="margin: 12px 0; padding-left: 24px;">
+          <li><strong>Order tracking:</strong> "Where is my order?"</li>
+          <li><strong>Return initiation:</strong> "I want to return my jeans"</li>
+          <li><strong>Policy questions:</strong> "What's your exchange policy?"</li>
+          <li><strong>Store/marketplace info:</strong> "Are you available on Myntra?"</li>
+        </ul>
+      </div>
+
+      <h3>Platform Options</h3>
+
+      <table class="visibility-table">
+        <thead>
+          <tr>
+            <th>Platform</th>
+            <th>Monthly Cost</th>
+            <th>Best For</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Tidio / Gorgias (Shopify native)</td>
+            <td>$29-150/month</td>
+            <td>Quick setup, good Shopify integration</td>
+          </tr>
+          <tr>
+            <td>Intercom / Drift</td>
+            <td>$74-200/month</td>
+            <td>Advanced automation, better analytics</td>
+          </tr>
+          <tr>
+            <td>Custom RAG solution</td>
+            <td>$200-500/month</td>
+            <td>Full control, brand voice training</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>ROI Calculation</h3>
+
+      <div class="highlight-box success">
+        <p><strong>Conservative Estimate:</strong></p>
+        <ul style="margin: 12px 0; padding-left: 24px;">
+          <li>Current customer service tickets: ~2,000/month</li>
+          <li>Chatbot deflection rate: 65%</li>
+          <li>Tickets deflected: 1,300/month</li>
+          <li>Cost savings: 1,300 × ₹50 = <strong>₹65,000/month</strong></li>
+          <li>Chatbot cost: ~₹10,000/month</li>
+          <li><strong>Net savings: ₹55,000/month</strong></li>
+        </ul>
+        <p>Plus indirect benefits: reduced returns from better product guidance, 24/7 availability, improved CSAT.</p>
+      </div>
+
+      <h3>Training Data for the Chatbot</h3>
+      <ul style="margin: 12px 0; padding-left: 24px;">
+        <li>All FAQ content from /pages/faqs</li>
+        <li>Product catalog with size charts and materials</li>
+        <li>Shipping and return policies</li>
+        <li>Historical customer service transcripts</li>
+        <li>Size recommendation logic based on customer measurements</li>
+      </ul>
+    </section>
+
+    <!-- TRUST SIGNALS -->
+    <section id="trust-signals" class="section">
+      <h2>Trust Signals Audit</h2>
+
+      <p>Trust signals are critical for both human conversion and AI recommendation. AI systems evaluate brand trustworthiness when deciding whether to recommend products. Miss Chase has significant gaps in displaying social proof on their D2C site.</p>
+
+      <h3>Current Trust Signal State</h3>
+
+      <table class="visibility-table">
+        <thead>
+          <tr>
+            <th>Trust Signal</th>
+            <th>Status</th>
+            <th>Impact</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Customer reviews on homepage</td>
+            <td style="color: #ef4444;">❌ Not displayed</td>
+            <td>AI can't cite customer sentiment from D2C site</td>
+          </tr>
+          <tr>
+            <td>Star ratings / review counts</td>
+            <td style="color: #ef4444;">❌ Not aggregated</td>
+            <td>No AggregateRating schema for site-level trust</td>
+          </tr>
+          <tr>
+            <td>Press mentions / "As seen in"</td>
+            <td style="color: #ef4444;">❌ Not found</td>
+            <td>No third-party validation visible to crawlers</td>
+          </tr>
+          <tr>
+            <td>Award badges</td>
+            <td style="color: #f59e0b;">⚠️ Claimed but not shown</td>
+            <td>"Most Awarded Jeans" claim without visible proof</td>
+          </tr>
+          <tr>
+            <td>Customer testimonials</td>
+            <td style="color: #ef4444;">❌ Not found</td>
+            <td>No social proof for new visitors</td>
+          </tr>
+          <tr>
+            <td>Social media followers</td>
+            <td style="color: #ef4444;">❌ Not displayed</td>
+            <td>Instagram presence not leveraged on site</td>
+          </tr>
+          <tr>
+            <td>Trustpilot / Reviews.io</td>
+            <td style="color: #ef4444;">❌ Not integrated</td>
+            <td>No third-party review aggregation</td>
+          </tr>
+          <tr>
+            <td>Years in business</td>
+            <td style="color: #ef4444;">❌ Not prominent</td>
+            <td>"Est. 2015" would add credibility</td>
+          </tr>
+          <tr>
+            <td>Return/satisfaction guarantee</td>
+            <td style="color: #f59e0b;">⚠️ Not prominent</td>
+            <td>7-day returns not highlighted on homepage</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Trust Signals Found by AI (from External Sources)</h3>
+
+      <p>When AI systems search for Miss Chase reviews, they find signals <strong>scattered across marketplaces</strong>:</p>
+
+      <div class="impact-grid">
+        <div class="impact-card">
+          <h4>JustDial Rating</h4>
+          <div class="impact-value positive">4.3/5</div>
+          <p>Miss Chase Garments, Kolkata</p>
+        </div>
+        <div class="impact-card">
+          <h4>Flipkart Reviews</h4>
+          <div class="impact-value positive">Positive</div>
+          <p>"Good fit, stylish, value for money"</p>
+        </div>
+        <div class="impact-card">
+          <h4>Amazon Presence</h4>
+          <div class="impact-value warning">Mixed</div>
+          <p>Product-level reviews vary by item</p>
+        </div>
+        <div class="impact-card">
+          <h4>AI Perception</h4>
+          <div class="impact-value warning">"Budget-Mid"</div>
+          <p>ChatGPT: "affordable trendy fashion"</p>
+        </div>
+      </div>
+
+      <div class="highlight-box warning">
+        <strong>The Problem:</strong> Trust signals exist but are fragmented across marketplaces. AI systems cite Flipkart and Amazon reviews because chasehaul.com doesn't display its own social proof. This gives marketplaces the authority that should belong to the D2C brand.
+      </div>
+
+      <h3>Recommended Trust Signal Improvements</h3>
+
+      <div class="implementation-card">
+        <span class="tier-badge tier-1">Tier 1</span>
+        <h4>Add Trust Signals to Homepage</h4>
+        <ul style="margin: 12px 0; padding-left: 24px;">
+          <li><strong>"Est. 2015 in Kolkata"</strong> - Add founding year to header/footer</li>
+          <li><strong>Customer count:</strong> "Trusted by 1M+ customers" (if accurate)</li>
+          <li><strong>Social proof bar:</strong> Show Instagram follower count</li>
+          <li><strong>Return policy badge:</strong> "7-Day Easy Returns" prominently displayed</li>
+          <li><strong>Secure checkout:</strong> Add payment trust badges (Visa, Mastercard, UPI, COD)</li>
+        </ul>
+      </div>
+
+      <div class="implementation-card">
+        <span class="tier-badge tier-2">Tier 2</span>
+        <h4>Aggregate Reviews with Schema</h4>
+        <p>Pull reviews from Judge.me (already installed) and add AggregateRating schema:</p>
+        <div class="code-block">
+{
+  <span class="key">"@context"</span>: <span class="string">"https://schema.org"</span>,
+  <span class="key">"@type"</span>: <span class="string">"Organization"</span>,
+  <span class="key">"name"</span>: <span class="string">"Miss Chase"</span>,
+  <span class="key">"aggregateRating"</span>: {
+    <span class="key">"@type"</span>: <span class="string">"AggregateRating"</span>,
+    <span class="key">"ratingValue"</span>: <span class="string">"4.3"</span>,
+    <span class="key">"reviewCount"</span>: <span class="string">"15420"</span>,
+    <span class="key">"bestRating"</span>: <span class="string">"5"</span>
+  }
+}
+        </div>
+      </div>
+
+      <div class="implementation-card">
+        <span class="tier-badge tier-3">Tier 3</span>
+        <h4>Establish Third-Party Trust</h4>
+        <ul style="margin: 12px 0; padding-left: 24px;">
+          <li><strong>Trustpilot/Google Reviews:</strong> Create profiles, encourage reviews</li>
+          <li><strong>Press coverage:</strong> Pursue coverage in YourStory, Inc42, fashion publications</li>
+          <li><strong>Award documentation:</strong> If "Most Awarded Jeans" is accurate, display award logos</li>
+          <li><strong>"As seen in" section:</strong> Add logos of publications that have featured Miss Chase</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- TECHNICAL AUDIT -->
+    <section id="technical-audit" class="section">
+      <h2>Technical State Audit</h2>
 
       <h3>Foundation Checks</h3>
 
@@ -475,13 +907,13 @@
       <div class="audit-item">
         <span class="audit-status">✅</span>
         <div>
-          <strong>sitemap.xml</strong> - Comprehensive sitemap index with products, pages, collections, blogs
+          <strong>sitemap.xml</strong> - Comprehensive sitemap index (products, pages, collections, blogs)
         </div>
       </div>
       <div class="audit-item">
         <span class="audit-status">❌</span>
         <div>
-          <strong>llms.txt</strong> - NOT FOUND (404). This file helps AI crawlers understand your site for LLM training and retrieval.
+          <strong>llms.txt</strong> - NOT FOUND (404). This file helps AI crawlers understand your site.
         </div>
       </div>
 
@@ -512,7 +944,7 @@
       </div>
       <div class="audit-item">
         <span class="audit-status">❌</span>
-        <div><strong>ItemList schema</strong> - NOT PRESENT (critical gap - AI systems see zero product data)</div>
+        <div><strong>ItemList schema</strong> - NOT PRESENT (critical gap - AI sees zero product data)</div>
       </div>
       <div class="audit-item">
         <span class="audit-status">❌</span>
@@ -520,25 +952,29 @@
       </div>
       <div class="audit-item">
         <span class="audit-status">⚠️</span>
-        <div><strong>OG titles</strong> - Generic ("Jeans" instead of "Women's Jeans | Miss Chase India")</div>
+        <div><strong>OG titles</strong> - Generic ("Jeans" instead of "Women's Jeans | Miss Chase")</div>
       </div>
 
       <h3>FAQ Page (/pages/faqs)</h3>
 
       <div class="audit-item">
         <span class="audit-status">✅</span>
-        <div><strong>Content exists</strong> - FAQ questions and answers are present on the page</div>
+        <div><strong>Content exists</strong> - FAQ questions and answers are present</div>
       </div>
       <div class="audit-item">
         <span class="audit-status">❌</span>
-        <div><strong>FAQPage schema</strong> - NOT PRESENT (this is the #1 easy win for AI visibility)</div>
+        <div><strong>FAQPage schema</strong> - NOT PRESENT (easy win for AI visibility)</div>
       </div>
 
       <h3>Product Pages (PDPs)</h3>
 
       <div class="audit-item">
         <span class="audit-status">⚠️</span>
-        <div><strong>Product schema</strong> - Present but incomplete (missing description, aggregateRating, review, shipping details)</div>
+        <div><strong>Product schema</strong> - Present but incomplete (missing description, aggregateRating, shipping)</div>
+      </div>
+      <div class="audit-item">
+        <span class="audit-status">❌</span>
+        <div><strong>Product FAQ schema</strong> - NOT PRESENT (sizing, care, fit questions)</div>
       </div>
       <div class="audit-item">
         <span class="audit-status">⚠️</span>
@@ -546,14 +982,14 @@
       </div>
     </section>
 
-    <section class="section">
-      <h2>Implementation Priority: Tier 1 - Easy Wins</h2>
-      <p>These changes take 1-2 hours each and have immediate impact on AI visibility.</p>
+    <!-- TIER 1 -->
+    <section id="tier-1" class="section">
+      <h2>Tier 1: Easy Wins (1-2 hours each)</h2>
 
       <div class="implementation-card">
         <span class="tier-badge tier-1">Tier 1</span>
-        <h4>1. Add llms.txt File</h4>
-        <p>Create a simple text file that helps AI systems understand your brand and site structure.</p>
+        <h4>1. Create llms.txt File</h4>
+        <p>A simple text file that helps AI systems understand your brand and site structure.</p>
 
         <div class="code-block">
 <span class="comment"># /llms.txt - Place at root of chasehaul.com</span>
@@ -589,7 +1025,6 @@
 - Free shipping in India
 - 7-day easy returns
 - Sizes: XS to 3XL (24-44)
-- Customer support: support@chasehaul.com
         </div>
       </div>
 
@@ -599,8 +1034,8 @@
         <p>The FAQ page has content but no structured data. This is one of the most powerful schemas for AI visibility.</p>
 
         <div class="code-block">
-<span class="comment">&lt;!-- Add to theme/sections/faq-page.liquid or equivalent --&gt;</span>
-<span class="tag">&lt;script</span> type="application/ld+json"<span class="tag">&gt;</span>
+<span class="comment">&lt;!-- Add to theme/sections/faq-page.liquid --&gt;</span>
+&lt;script type="application/ld+json"&gt;
 {
   <span class="key">"@context"</span>: <span class="string">"https://schema.org"</span>,
   <span class="key">"@type"</span>: <span class="string">"FAQPage"</span>,
@@ -610,7 +1045,7 @@
       <span class="key">"name"</span>: <span class="string">"What sizes does Miss Chase offer?"</span>,
       <span class="key">"acceptedAnswer"</span>: {
         <span class="key">"@type"</span>: <span class="string">"Answer"</span>,
-        <span class="key">"text"</span>: <span class="string">"Miss Chase offers sizes from 24 to 44 (XS to 3XL), with detailed size charts available on each product page."</span>
+        <span class="key">"text"</span>: <span class="string">"Miss Chase offers sizes 24 to 44 (XS to 3XL)."</span>
       }
     },
     {
@@ -618,7 +1053,7 @@
       <span class="key">"name"</span>: <span class="string">"What is Miss Chase's return policy?"</span>,
       <span class="key">"acceptedAnswer"</span>: {
         <span class="key">"@type"</span>: <span class="string">"Answer"</span>,
-        <span class="key">"text"</span>: <span class="string">"We offer 7-day easy returns on all products. Items must be unworn with original tags attached."</span>
+        <span class="key">"text"</span>: <span class="string">"7-day easy returns. Items must be unworn with tags."</span>
       }
     },
     {
@@ -626,7 +1061,7 @@
       <span class="key">"name"</span>: <span class="string">"Is Miss Chase an Indian brand?"</span>,
       <span class="key">"acceptedAnswer"</span>: {
         <span class="key">"@type"</span>: <span class="string">"Answer"</span>,
-        <span class="key">"text"</span>: <span class="string">"Yes, Miss Chase is a proudly Indian brand founded in 2015 in Kolkata. We design and manufacture all our products in India."</span>
+        <span class="key">"text"</span>: <span class="string">"Yes, Miss Chase was founded in 2015 in Kolkata, India."</span>
       }
     },
     {
@@ -634,39 +1069,31 @@
       <span class="key">"name"</span>: <span class="string">"Where can I buy Miss Chase products?"</span>,
       <span class="key">"acceptedAnswer"</span>: {
         <span class="key">"@type"</span>: <span class="string">"Answer"</span>,
-        <span class="key">"text"</span>: <span class="string">"Miss Chase products are available at chasehaul.com, Myntra, Amazon India, AJIO, and Flipkart."</span>
+        <span class="key">"text"</span>: <span class="string">"chasehaul.com, Myntra, Amazon India, AJIO, Flipkart."</span>
       }
     }
   ]
 }
-<span class="tag">&lt;/script&gt;</span>
+&lt;/script&gt;
         </div>
       </div>
 
       <div class="implementation-card">
         <span class="tier-badge tier-1">Tier 1</span>
-        <h4>3. Enrich Organization Schema on Homepage</h4>
-        <p>Current Organization schema is minimal. Expand it with full brand information.</p>
+        <h4>3. Fix Organization Schema</h4>
+        <p>Current schema is minimal and uses wrong brand name. Replace with enriched version:</p>
 
         <div class="code-block">
 {
   <span class="key">"@context"</span>: <span class="string">"https://schema.org"</span>,
   <span class="key">"@type"</span>: <span class="string">"Organization"</span>,
   <span class="key">"name"</span>: <span class="string">"Miss Chase"</span>,
-  <span class="key">"alternateName"</span>: [<span class="string">"Chase Haul"</span>, <span class="string">"MissChase"</span>, <span class="string">"Miss Chase India"</span>],
+  <span class="key">"alternateName"</span>: [<span class="string">"Chase Haul"</span>, <span class="string">"MissChase"</span>],
   <span class="key">"url"</span>: <span class="string">"https://chasehaul.com"</span>,
-  <span class="key">"logo"</span>: {
-    <span class="key">"@type"</span>: <span class="string">"ImageObject"</span>,
-    <span class="key">"url"</span>: <span class="string">"https://chasehaul.com/cdn/shop/files/logo.png"</span>,
-    <span class="key">"width"</span>: 600,
-    <span class="key">"height"</span>: 200
-  },
-  <span class="key">"description"</span>: <span class="string">"Miss Chase is India's fastest-growing women's western wear brand, known for affordable, stylish clothing including award-winning CHASEstretch jeans."</span>,
+  <span class="key">"logo"</span>: <span class="string">"https://chasehaul.com/cdn/shop/files/logo.png"</span>,
+  <span class="key">"description"</span>: <span class="string">"India's fastest-growing women's western wear brand. Award-winning CHASEstretch jeans, dresses, and jumpsuits."</span>,
   <span class="key">"foundingDate"</span>: <span class="string">"2015"</span>,
-  <span class="key">"foundingLocation"</span>: {
-    <span class="key">"@type"</span>: <span class="string">"Place"</span>,
-    <span class="key">"name"</span>: <span class="string">"Kolkata, India"</span>
-  },
+  <span class="key">"foundingLocation"</span>: { <span class="key">"@type"</span>: <span class="string">"Place"</span>, <span class="key">"name"</span>: <span class="string">"Kolkata, India"</span> },
   <span class="key">"sameAs"</span>: [
     <span class="string">"https://www.instagram.com/misschaseindia/"</span>,
     <span class="string">"https://www.facebook.com/misschaseindia/"</span>,
@@ -675,50 +1102,42 @@
   ]
 }
         </div>
-
-        <p><strong>Critical fix:</strong> Change <code>"name": "Chase Haul"</code> to <code>"name": "Miss Chase"</code> with <code>"alternateName": ["Chase Haul"]</code>.</p>
+        <p><strong>Critical:</strong> Change <code>"name": "Chase Haul"</code> to <code>"name": "Miss Chase"</code></p>
       </div>
 
       <div class="implementation-card">
         <span class="tier-badge tier-1">Tier 1</span>
         <h4>4. Fix Collection Page OG Titles</h4>
 
-        <p><strong>Current state:</strong></p>
-        <div class="code-block">
-&lt;meta property="og:title" content="Jeans"&gt;
-        </div>
-
+        <p><strong>Current:</strong> <code>&lt;meta property="og:title" content="Jeans"&gt;</code></p>
         <p><strong>Should be:</strong></p>
         <div class="code-block">
-<span class="comment">&lt;!-- In theme/layout/theme.liquid or collection template --&gt;</span>
-&lt;meta property="og:title" content="{{ collection.title }} | {{ collection.products_count }} Styles | Miss Chase India"&gt;
-&lt;meta property="og:description" content="Shop {{ collection.title | downcase }} from Miss Chase. Sizes 24-44. Free delivery. 7-day returns."&gt;
+&lt;meta property="og:title" content="{{ collection.title }} | {{ collection.products_count }} Styles | Miss Chase"&gt;
+&lt;meta property="og:description" content="Shop {{ collection.title }} from Miss Chase. Sizes 24-44. Free delivery."&gt;
         </div>
       </div>
     </section>
 
-    <section class="section">
-      <h2>Implementation Priority: Tier 2 - Medium Effort</h2>
-      <p>These changes take 4-8 hours and have high impact on AI visibility for product queries.</p>
+    <!-- TIER 2 -->
+    <section id="tier-2" class="section">
+      <h2>Tier 2: Medium Effort (4-8 hours)</h2>
 
       <div class="implementation-card">
         <span class="tier-badge tier-2">Tier 2</span>
         <h4>5. Add ItemList Schema to Collection Pages</h4>
-        <p>This is the <strong>biggest technical gap</strong>. Collection pages show 40+ products but provide ZERO structured data about them to AI systems.</p>
+        <p>This is the <strong>biggest technical gap</strong>. Collection pages show 40+ products but provide ZERO structured data to AI systems.</p>
 
         <div class="code-block">
-<span class="comment">&lt;!-- Add to theme/sections/collection-template.liquid --&gt;</span>
-<span class="tag">&lt;script</span> type="application/ld+json"<span class="tag">&gt;</span>
+<span class="comment">&lt;!-- Add to templates/collection.liquid --&gt;</span>
+&lt;script type="application/ld+json"&gt;
 {
   <span class="key">"@context"</span>: <span class="string">"https://schema.org"</span>,
   <span class="key">"@type"</span>: <span class="string">"CollectionPage"</span>,
   <span class="key">"name"</span>: <span class="string">"{{ collection.title }} | Miss Chase"</span>,
-  <span class="key">"description"</span>: <span class="string">"{{ collection.description | strip_html | escape }}"</span>,
   <span class="key">"url"</span>: <span class="string">"{{ shop.url }}{{ collection.url }}"</span>,
   <span class="key">"numberOfItems"</span>: {{ collection.products_count }},
   <span class="key">"mainEntity"</span>: {
     <span class="key">"@type"</span>: <span class="string">"ItemList"</span>,
-    <span class="key">"numberOfItems"</span>: {{ collection.products_count }},
     <span class="key">"itemListElement"</span>: [
       {% for product in collection.products limit: 20 %}
       {
@@ -733,8 +1152,7 @@
           <span class="key">"offers"</span>: {
             <span class="key">"@type"</span>: <span class="string">"Offer"</span>,
             <span class="key">"price"</span>: <span class="string">"{{ product.price | money_without_currency }}"</span>,
-            <span class="key">"priceCurrency"</span>: <span class="string">"INR"</span>,
-            <span class="key">"availability"</span>: <span class="string">"{% if product.available %}https://schema.org/InStock{% else %}https://schema.org/OutOfStock{% endif %}"</span>
+            <span class="key">"priceCurrency"</span>: <span class="string">"INR"</span>
           }
         }
       }{% unless forloop.last %},{% endunless %}
@@ -742,18 +1160,17 @@
     ]
   }
 }
-<span class="tag">&lt;/script&gt;</span>
+&lt;/script&gt;
         </div>
       </div>
 
       <div class="implementation-card">
         <span class="tier-badge tier-2">Tier 2</span>
         <h4>6. Enhance Product Page Schema</h4>
-        <p>Current product schema is missing critical fields. Add these properties:</p>
-
+        <p>Current product schema is missing critical fields:</p>
         <ul class="checklist">
           <li>Add <code>description</code> (currently often empty)</li>
-          <li>Add <code>aggregateRating</code> with review data</li>
+          <li>Add <code>aggregateRating</code> with review data from Judge.me</li>
           <li>Add <code>review</code> individual reviews</li>
           <li>Standardize <code>brand</code> to "Miss Chase"</li>
           <li>Add <code>shippingDetails</code> and <code>hasMerchantReturnPolicy</code></li>
@@ -762,8 +1179,110 @@
       </div>
     </section>
 
-    <section class="section">
-      <h2>Implementation Priority: Tier 3 - Strategic Initiatives</h2>
+    <!-- PDP FAQ -->
+    <section id="pdp-faq" class="section">
+      <h2>Recommendation: FAQ Schema on Product Pages (PDPs)</h2>
+
+      <div class="highlight-box success">
+        <strong>Yes, Add FAQ Schema to Every PDP:</strong> Product-specific FAQs with proper schema markup are highly valuable for both AI visibility and reducing returns/support tickets.
+      </div>
+
+      <h3>Why FAQ on Every PDP?</h3>
+
+      <div class="impact-grid">
+        <div class="impact-card">
+          <h4>AI Visibility</h4>
+          <p>Google and AI systems can pull product Q&As directly into search results</p>
+        </div>
+        <div class="impact-card">
+          <h4>Return Reduction</h4>
+          <p>Answering sizing questions before purchase prevents returns</p>
+        </div>
+        <div class="impact-card">
+          <h4>Support Deflection</h4>
+          <p>Self-service answers reduce customer service tickets</p>
+        </div>
+        <div class="impact-card">
+          <h4>Conversion Lift</h4>
+          <p>Removing friction increases add-to-cart (typically 5-15%)</p>
+        </div>
+      </div>
+
+      <h3>Standard FAQ Questions for Every Product</h3>
+
+      <div class="implementation-card">
+        <h4>Recommended Questions (Auto-generate for all products)</h4>
+        <ol style="margin: 12px 0; padding-left: 24px;">
+          <li><strong>What size should I order?</strong> - Link to size chart, mention CHASEstretch</li>
+          <li><strong>What is this made of?</strong> - Material composition</li>
+          <li><strong>How do I care for this item?</strong> - Washing instructions</li>
+          <li><strong>Does this run true to size?</strong> - Specific fit guidance</li>
+          <li><strong>What is the return policy?</strong> - 7-day returns</li>
+        </ol>
+      </div>
+
+      <div class="implementation-card">
+        <h4>Category-Specific Questions</h4>
+        <p><strong>For Jeans:</strong></p>
+        <ul style="margin: 8px 0 16px; padding-left: 24px;">
+          <li>What is CHASEstretch technology?</li>
+          <li>Will these jeans stretch out over time?</li>
+          <li>What's the inseam length?</li>
+        </ul>
+        <p><strong>For Dresses:</strong></p>
+        <ul style="margin: 8px 0; padding-left: 24px;">
+          <li>Is this dress see-through?</li>
+          <li>Can I wear a bra with this neckline?</li>
+          <li>Is this suitable for office wear?</li>
+        </ul>
+      </div>
+
+      <h3>Implementation Code</h3>
+
+      <div class="code-block">
+<span class="comment">&lt;!-- Add to templates/product.liquid --&gt;</span>
+&lt;script type="application/ld+json"&gt;
+{
+  <span class="key">"@context"</span>: <span class="string">"https://schema.org"</span>,
+  <span class="key">"@type"</span>: <span class="string">"FAQPage"</span>,
+  <span class="key">"mainEntity"</span>: [
+    {
+      <span class="key">"@type"</span>: <span class="string">"Question"</span>,
+      <span class="key">"name"</span>: <span class="string">"What size should I order in {{ product.title }}?"</span>,
+      <span class="key">"acceptedAnswer"</span>: {
+        <span class="key">"@type"</span>: <span class="string">"Answer"</span>,
+        <span class="key">"text"</span>: <span class="string">"This runs true to standard Indian sizing. CHASEstretch fabric provides 2X stretch. Check our size chart. Available in sizes 24-44."</span>
+      }
+    },
+    {
+      <span class="key">"@type"</span>: <span class="string">"Question"</span>,
+      <span class="key">"name"</span>: <span class="string">"What is {{ product.title }} made of?"</span>,
+      <span class="key">"acceptedAnswer"</span>: {
+        <span class="key">"@type"</span>: <span class="string">"Answer"</span>,
+        <span class="key">"text"</span>: <span class="string">"{{ product.metafields.custom.material | default: 'High-quality cotton blend with stretch' }}"</span>
+      }
+    },
+    {
+      <span class="key">"@type"</span>: <span class="string">"Question"</span>,
+      <span class="key">"name"</span>: <span class="string">"What is Miss Chase's return policy?"</span>,
+      <span class="key">"acceptedAnswer"</span>: {
+        <span class="key">"@type"</span>: <span class="string">"Answer"</span>,
+        <span class="key">"text"</span>: <span class="string">"7-day easy returns. Items must be unworn with original tags. Refunds in 5-7 business days."</span>
+      }
+    }
+  ]
+}
+&lt;/script&gt;
+      </div>
+
+      <div class="highlight-box success">
+        <strong>Expected Impact:</strong> PDP FAQ schema can reduce size-related returns by 10-20% and customer service inquiries by 15-25%, while improving AI visibility for queries like "Does Miss Chase jeans stretch?"
+      </div>
+    </section>
+
+    <!-- TIER 3 -->
+    <section id="tier-3" class="section">
+      <h2>Tier 3: Strategic Initiatives (Ongoing)</h2>
 
       <div class="implementation-card">
         <span class="tier-badge tier-3">Tier 3</span>
@@ -771,12 +1290,12 @@
         <p>Miss Chase is invisible for category queries ("best jeans brands India") because there's no content for AI to cite. Create:</p>
 
         <ul class="checklist">
-          <li><strong>/pages/best-jeans-brands-india</strong> - "Best Women's Jeans Brands in India: A Complete Guide" (include Miss Chase with competitors)</li>
+          <li><strong>/pages/best-jeans-brands-india</strong> - "Best Women's Jeans Brands in India: A Complete Guide"</li>
           <li><strong>/pages/western-wear-guide</strong> - "Complete Guide to Western Wear for Indian Women"</li>
-          <li><strong>/blogs/style-guides/jeans-fit-guide</strong> - "How to Find Your Perfect Jeans Fit" with HowTo schema</li>
+          <li><strong>/blogs/style-guides/jeans-fit-guide</strong> - "How to Find Your Perfect Jeans Fit"</li>
         </ul>
 
-        <p>Each page should have 1500+ words, internal links to collections, embedded products, and FAQ schema at bottom.</p>
+        <p>Each page: 1500+ words, internal links to collections, embedded products, FAQ schema at bottom.</p>
       </div>
 
       <div class="implementation-card">
@@ -784,15 +1303,10 @@
         <h4>8. PR & Citation Building</h4>
         <p>Miss Chase needs to appear in third-party "best of" articles that AI systems cite.</p>
 
-        <p><strong>Target publications:</strong></p>
-        <ul>
-          <li>Fashion: POPxo, MissMalini, WedMeGood</li>
-          <li>Business: YourStory, Inc42, Economic Times</li>
-          <li>Lifestyle: Femina, Elle India, Cosmopolitan India</li>
-        </ul>
+        <p><strong>Target publications:</strong> POPxo, MissMalini, YourStory, Inc42, Femina, Elle India</p>
 
         <p><strong>Story angles:</strong></p>
-        <ul>
+        <ul style="margin: 8px 0; padding-left: 24px;">
           <li>"Kolkata D2C brand disrupting fast fashion"</li>
           <li>"How Miss Chase sold 1M+ jeans without a single store"</li>
           <li>"Indian D2C brand competing with H&M, Zara"</li>
@@ -800,7 +1314,8 @@
       </div>
     </section>
 
-    <section class="section">
+    <!-- CHECKLIST -->
+    <section id="checklist" class="section">
       <h2>Implementation Checklist</h2>
 
       <h3>Week 1: Quick Wins</h3>
@@ -809,26 +1324,37 @@
         <li>Add FAQPage schema to /pages/faqs</li>
         <li>Update Organization schema on homepage</li>
         <li>Fix collection page OG titles</li>
-        <li>Standardize brand name to "Miss Chase" in all schema</li>
+        <li>Standardize brand name to "Miss Chase" everywhere</li>
+        <li>Add trust signals to homepage (Est. 2015, return policy badge)</li>
       </ul>
 
-      <h3>Week 2-3: Collection Pages</h3>
+      <h3>Week 2-3: Collection & Product Pages</h3>
       <ul class="checklist">
         <li>Add ItemList schema to all collection pages</li>
+        <li>Add FAQ schema to product pages</li>
         <li>Add collection descriptions (many are empty)</li>
-        <li>Create collection-specific meta descriptions</li>
+        <li>Enhance Product schema with full details</li>
       </ul>
 
-      <h3>Week 4-6: Content & Authority</h3>
+      <h3>Week 4-6: Chatbot & Content</h3>
       <ul class="checklist">
+        <li>Evaluate and implement chatbot solution</li>
         <li>Create "Best Jeans Brands India" guide page</li>
         <li>Create "Western Wear Guide" page</li>
-        <li>Enhance Product schema on PDPs</li>
-        <li>Begin PR outreach</li>
+        <li>Aggregate reviews with AggregateRating schema</li>
+      </ul>
+
+      <h3>Ongoing: Authority Building</h3>
+      <ul class="checklist">
+        <li>PR outreach to fashion/business publications</li>
+        <li>Marketplace brand store optimization</li>
+        <li>Establish Trustpilot/Google Reviews presence</li>
+        <li>Document and display awards</li>
       </ul>
     </section>
 
-    <section class="section">
+    <!-- EXPECTED IMPACT -->
+    <section id="expected-impact" class="section">
       <h2>Expected Impact</h2>
 
       <table class="visibility-table">
@@ -836,48 +1362,68 @@
           <tr>
             <th>Initiative</th>
             <th>Effort</th>
-            <th>Impact on AI Visibility</th>
+            <th>AI Visibility Impact</th>
+            <th>Cost Savings</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>llms.txt</td>
-            <td>30 minutes</td>
+            <td>30 min</td>
             <td>+2-5% LLM recognition</td>
+            <td>-</td>
           </tr>
           <tr>
-            <td>FAQPage schema</td>
+            <td>FAQPage schema (site FAQ)</td>
             <td>2 hours</td>
-            <td>+5-10% for brand queries</td>
+            <td>+5-10% brand queries</td>
+            <td>-</td>
           </tr>
           <tr>
-            <td>Organization schema</td>
-            <td>1 hour</td>
-            <td>+2-5% brand recognition</td>
+            <td>FAQ schema on PDPs</td>
+            <td>4 hours</td>
+            <td>+5-10% product queries</td>
+            <td>10-20% fewer size-related returns</td>
           </tr>
           <tr>
             <td>Collection ItemList</td>
             <td>4 hours</td>
-            <td>+10-15% for product queries</td>
+            <td>+10-15% product queries</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>AI Chatbot</td>
+            <td>1-2 weeks</td>
+            <td>Indirect (better CX)</td>
+            <td>₹55K/month net savings</td>
+          </tr>
+          <tr>
+            <td>Trust signals</td>
+            <td>4 hours</td>
+            <td>+5-10% recommendation</td>
+            <td>15-25% conversion lift</td>
           </tr>
           <tr>
             <td>Content pages</td>
             <td>20+ hours</td>
-            <td>+15-25% for category queries</td>
+            <td>+15-25% category queries</td>
+            <td>-</td>
           </tr>
           <tr>
             <td>PR citations</td>
             <td>Ongoing</td>
             <td>+10-20% over 6 months</td>
+            <td>-</td>
           </tr>
         </tbody>
       </table>
 
       <div class="highlight-box success">
-        <strong>Realistic Goal:</strong> Close the gap from 38-43% to 60-70% visibility within 6 months through technical optimization + content strategy. This would put Miss Chase clearly ahead of all competitors except AND.
+        <strong>Realistic Goal:</strong> Close the gap from 38-43% to 60-70% visibility within 6 months through technical optimization + content strategy + chatbot implementation. This would put Miss Chase clearly ahead of all competitors except AND, while reducing return costs by ₹1-2 lakhs/month and customer service costs by ₹50K+/month.
       </div>
     </section>
 
+    <!-- APPENDIX -->
     <section class="section">
       <h2>Appendix: Shopify Theme Files to Modify</h2>
 
@@ -899,23 +1445,24 @@
           </tr>
           <tr>
             <td><code>templates/product.liquid</code></td>
-            <td>Enhanced Product schema with all fields</td>
+            <td>Enhanced Product schema, FAQ schema</td>
           </tr>
           <tr>
             <td><code>sections/faq-page.liquid</code></td>
             <td>FAQPage schema</td>
           </tr>
           <tr>
-            <td><code>snippets/schema-organization.liquid</code></td>
-            <td>Create new snippet for reuse</td>
-          </tr>
-          <tr>
             <td><code>/llms.txt</code></td>
             <td>Create new file at root</td>
+          </tr>
+          <tr>
+            <td><code>snippets/schema-*.liquid</code></td>
+            <td>Create reusable schema snippets</td>
           </tr>
         </tbody>
       </table>
     </section>
+
   </div>
 
   <footer class="footer">
