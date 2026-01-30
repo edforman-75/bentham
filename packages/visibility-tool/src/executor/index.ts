@@ -8,6 +8,9 @@
 import { Manifest, Test, Brand, Query } from '../manifest-schema.js';
 import { collectFromUrls, CollectionResult } from '../collectors/jsonld-collector.js';
 import { discoverBrandSiteProducts, discoverAmazonProducts, DiscoveredProduct } from '../collectors/url-discovery.js';
+import { queryChatGPTBatch, hasValidSession, ChatGPTResult, getOxylabsProxy } from '../collectors/chatgpt-collector.js';
+import { searchGoogle, searchBing, SerpApiResult } from '../collectors/serpapi-collector.js';
+import { queryPerplexitySurface, AISurfaceResult } from '../collectors/ai-surfaces-collector.js';
 import { chromium, Browser, Page } from 'playwright';
 import * as path from 'path';
 import * as fs from 'fs';
@@ -304,13 +307,114 @@ async function executeTest(
         test.results = results;
       }
     } else {
-      // AI surface test - placeholder for now
-      // TODO: Implement AI surface collectors
-      console.log(`  [${test.test.surface}] AI surface testing not yet implemented`);
-      test.completedItems = 0;
-      test.failedItems = test.totalItems;
-      if (test.totalItems > 0) {
-        test.errors.push(`Surface ${test.test.surface} not yet implemented`);
+      // AI surface test - route to appropriate collector
+      const queries = manifest.queries.map(q => q.text);
+      const surface = test.test.surface;
+
+      if (surface === 'chatgpt-web') {
+        // ChatGPT via Playwright with session
+        if (!hasValidSession()) {
+          console.log(`  [${surface}] No valid ChatGPT session found. Run: npx tsx scripts/chatgpt-login.ts`);
+          test.errors.push('No valid ChatGPT session. Run chatgpt-login.ts first.');
+          test.failedItems = test.totalItems;
+        } else {
+          // Check if we have Oxylabs proxy for geo-targeting
+          const country = test.test.country;
+          const hasProxy = country && getOxylabsProxy(country);
+          console.log(`  [${surface}] Running ${queries.length} queries via ChatGPT${hasProxy ? ` (via ${country} proxy)` : ''}...`);
+
+          const results = await queryChatGPTBatch(queries, {
+            headless: true,
+            country: country, // Pass country for Oxylabs geo-targeting
+            delay: manifest.options?.delayBetweenRequests ?? 5000,
+            onProgress: (completed, total, result) => {
+              if (result.success) {
+                test.completedItems++;
+              } else {
+                test.failedItems++;
+                test.errors.push(`Query "${result.query}": ${result.error || 'Unknown error'}`);
+              }
+              updateTestMetrics(test);
+              onProgress?.(test.id, completed, total, result);
+            },
+          });
+          test.results = results;
+        }
+      } else if (surface === 'perplexity') {
+        // Perplexity via Oxylabs
+        console.log(`  [${surface}] Running ${queries.length} queries via Perplexity...`);
+        const results: AISurfaceResult[] = [];
+        for (let i = 0; i < queries.length; i++) {
+          const result = await queryPerplexitySurface(queries[i], {
+            geo_location: test.test.country,
+          });
+          results.push(result);
+          if (result.success) {
+            test.completedItems++;
+          } else {
+            test.failedItems++;
+            test.errors.push(`Query "${queries[i]}": ${result.error || 'Unknown error'}`);
+          }
+          updateTestMetrics(test);
+          onProgress?.(test.id, i + 1, queries.length, result);
+          // Rate limiting
+          if (i < queries.length - 1) {
+            await new Promise(r => setTimeout(r, manifest.options?.delayBetweenRequests ?? 2000));
+          }
+        }
+        test.results = results;
+      } else if (surface === 'google-organic' || surface === 'google-ai-overview') {
+        // Google via SerpApi
+        console.log(`  [${surface}] Running ${queries.length} queries via Google...`);
+        const results: SerpApiResult[] = [];
+        for (let i = 0; i < queries.length; i++) {
+          const result = await searchGoogle(queries[i], {
+            country: test.test.country,
+            location: test.test.city,
+          });
+          results.push(result);
+          if (result.success) {
+            test.completedItems++;
+          } else {
+            test.failedItems++;
+            test.errors.push(`Query "${queries[i]}": ${result.error || 'Unknown error'}`);
+          }
+          updateTestMetrics(test);
+          onProgress?.(test.id, i + 1, queries.length, result);
+          // Rate limiting
+          if (i < queries.length - 1) {
+            await new Promise(r => setTimeout(r, manifest.options?.delayBetweenRequests ?? 1000));
+          }
+        }
+        test.results = results;
+      } else if (surface === 'bing-search') {
+        // Bing via SerpApi
+        console.log(`  [${surface}] Running ${queries.length} queries via Bing...`);
+        const results: SerpApiResult[] = [];
+        for (let i = 0; i < queries.length; i++) {
+          const result = await searchBing(queries[i], {
+            country: test.test.country,
+          });
+          results.push(result);
+          if (result.success) {
+            test.completedItems++;
+          } else {
+            test.failedItems++;
+            test.errors.push(`Query "${queries[i]}": ${result.error || 'Unknown error'}`);
+          }
+          updateTestMetrics(test);
+          onProgress?.(test.id, i + 1, queries.length, result);
+          // Rate limiting
+          if (i < queries.length - 1) {
+            await new Promise(r => setTimeout(r, manifest.options?.delayBetweenRequests ?? 1000));
+          }
+        }
+        test.results = results;
+      } else {
+        // Unsupported surface
+        console.log(`  [${surface}] Surface not yet implemented`);
+        test.failedItems = test.totalItems;
+        test.errors.push(`Surface ${surface} not yet implemented`);
       }
     }
 

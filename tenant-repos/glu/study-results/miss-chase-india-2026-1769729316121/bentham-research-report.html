@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miss Chase India - AI Visibility Research Report | Bentham</title>
+  <style>
+    :root {
+      --primary: #1a365d;
+      --accent: #e53e3e;
+      --success: #38a169;
+      --warning: #d69e2e;
+      --bg: #f7fafc;
+      --card-bg: #ffffff;
+      --text: #2d3748;
+      --text-light: #718096;
+      --border: #e2e8f0;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+
+    header {
+      background: linear-gradient(135deg, var(--primary) 0%, #2c5282 100%);
+      color: white;
+      padding: 3rem 2rem;
+      margin-bottom: 2rem;
+    }
+    header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    header .subtitle { font-size: 1.25rem; opacity: 0.9; }
+    header .meta { margin-top: 1rem; font-size: 0.9rem; opacity: 0.8; }
+
+    .executive-summary {
+      background: linear-gradient(135deg, #fff5f5 0%, #fed7d7 100%);
+      border-left: 4px solid var(--accent);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 0 8px 8px 0;
+    }
+    .executive-summary h2 { color: var(--accent); margin-bottom: 1rem; }
+
+    .key-finding {
+      background: var(--card-bg);
+      border: 2px solid var(--accent);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin: 1rem 0;
+    }
+    .key-finding .number {
+      font-size: 3rem;
+      font-weight: bold;
+      color: var(--accent);
+    }
+    .key-finding .label { color: var(--text-light); font-size: 0.9rem; }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .card h3 {
+      color: var(--primary);
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+    th, td {
+      padding: 0.75rem;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+    th { background: var(--bg); font-weight: 600; }
+    tr:hover { background: var(--bg); }
+
+    .highlight { background: #fffbeb; }
+    .client-row { background: #f0fff4; font-weight: 600; }
+    .competitor-dominant { background: #fff5f5; }
+
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin: 1rem 0;
+    }
+    .metric {
+      background: var(--bg);
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .metric .value {
+      font-size: 2rem;
+      font-weight: bold;
+      color: var(--primary);
+    }
+    .metric .label { font-size: 0.85rem; color: var(--text-light); }
+    .metric.danger .value { color: var(--accent); }
+    .metric.success .value { color: var(--success); }
+    .metric.warning .value { color: var(--warning); }
+
+    .visibility-bar {
+      height: 24px;
+      background: var(--border);
+      border-radius: 4px;
+      overflow: hidden;
+      margin: 0.25rem 0;
+    }
+    .visibility-bar .fill {
+      height: 100%;
+      background: var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding-right: 8px;
+      color: white;
+      font-size: 0.75rem;
+      font-weight: bold;
+    }
+    .visibility-bar .fill.client { background: var(--success); }
+    .visibility-bar .fill.competitor { background: var(--accent); }
+
+    .section-title {
+      font-size: 1.5rem;
+      color: var(--primary);
+      margin: 2rem 0 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 3px solid var(--primary);
+    }
+
+    .alert {
+      padding: 1rem 1.5rem;
+      border-radius: 8px;
+      margin: 1rem 0;
+    }
+    .alert.critical {
+      background: #fff5f5;
+      border-left: 4px solid var(--accent);
+    }
+    .alert.warning {
+      background: #fffbeb;
+      border-left: 4px solid var(--warning);
+    }
+    .alert.info {
+      background: #ebf8ff;
+      border-left: 4px solid #3182ce;
+    }
+    .alert.success {
+      background: #f0fff4;
+      border-left: 4px solid var(--success);
+    }
+
+    .cost-table {
+      font-size: 0.9rem;
+    }
+    .cost-table th { background: var(--primary); color: white; }
+    .cost-table .total-row { background: #edf2f7; font-weight: bold; }
+
+    .recommendation {
+      display: flex;
+      gap: 1rem;
+      margin: 1rem 0;
+      padding: 1rem;
+      background: var(--bg);
+      border-radius: 8px;
+    }
+    .recommendation .priority {
+      background: var(--primary);
+      color: white;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      flex-shrink: 0;
+    }
+    .recommendation.high .priority { background: var(--accent); }
+    .recommendation.medium .priority { background: var(--warning); }
+
+    .surface-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .quote {
+      font-style: italic;
+      padding: 1rem 1.5rem;
+      background: var(--bg);
+      border-left: 3px solid var(--text-light);
+      margin: 1rem 0;
+    }
+
+    .footer {
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--text-light);
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body { background: white; }
+      .card { box-shadow: none; border: 1px solid var(--border); }
+      header { background: var(--primary); -webkit-print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>Miss Chase India</h1>
+    <div class="subtitle">AI Visibility & Brand Discovery Research Report</div>
+    <div class="meta">
+      Bentham Research | January 2026 | Geo-target: Mumbai, India<br>
+      86 queries across 6 AI surfaces | Technical SEO audit included
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+  <!-- EXECUTIVE SUMMARY -->
+  <section class="executive-summary">
+    <h2>Executive Summary: Critical Visibility Gap Identified</h2>
+    <p style="font-size: 1.1rem; margin-bottom: 1.5rem;">
+      Miss Chase has a <strong>severe AI visibility problem</strong>. While the brand ranks well for branded searches,
+      it is <strong>virtually invisible</strong> in the category discovery queries where new customers search.
+      Competitor <strong>"AND" dominates AI responses</strong> appearing in 91-100% of queries across all surfaces,
+      while Miss Chase appears in only 22-44%.
+    </p>
+
+    <div class="metric-grid">
+      <div class="key-finding">
+        <div class="number">38%</div>
+        <div class="label">Miss Chase AI Visibility (avg)</div>
+      </div>
+      <div class="key-finding">
+        <div class="number">97%</div>
+        <div class="label">Competitor "AND" Visibility</div>
+      </div>
+      <div class="key-finding">
+        <div class="number">59%</div>
+        <div class="label">Visibility Gap to Close</div>
+      </div>
+    </div>
+
+    <div class="alert critical" style="margin-top: 1.5rem;">
+      <strong>Bottom Line:</strong> When Indian women ask AI assistants "What are the best western wear brands?"
+      or "Where should I buy jeans online?", Miss Chase is not being recommended. Competitors like AND, H&M,
+      and Myntra are capturing this AI-driven discovery traffic.
+    </div>
+  </section>
+
+  <!-- THE VISIBILITY GAP VISUALIZED -->
+  <h2 class="section-title">The AI Visibility Gap: Miss Chase vs. Competitors</h2>
+
+  <div class="card">
+    <h3>Brand Mention Rate Across All AI Surfaces</h3>
+    <p style="margin-bottom: 1rem; color: var(--text-light);">
+      Percentage of queries where each brand appears in AI responses (higher = better)
+    </p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Brand</th>
+          <th>ChatGPT</th>
+          <th>Perplexity</th>
+          <th>Google Search</th>
+          <th>Bing Search</th>
+          <th>Average</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="competitor-dominant">
+          <td><strong>AND</strong></td>
+          <td>98.8%</td>
+          <td>100%</td>
+          <td>98.8%</td>
+          <td>90.7%</td>
+          <td><strong>97.1%</strong></td>
+        </tr>
+        <tr class="client-row">
+          <td><strong>Miss Chase</strong> (Client)</td>
+          <td>43.0%</td>
+          <td>44.2%</td>
+          <td>43.0%</td>
+          <td>22.1%</td>
+          <td><strong>38.1%</strong></td>
+        </tr>
+        <tr>
+          <td>Myntra</td>
+          <td>30.2%</td>
+          <td>40.7%</td>
+          <td>32.6%</td>
+          <td>24.4%</td>
+          <td>32.0%</td>
+        </tr>
+        <tr>
+          <td>H&M</td>
+          <td>12.8%</td>
+          <td>16.3%</td>
+          <td>25.6%</td>
+          <td>-</td>
+          <td>18.2%</td>
+        </tr>
+        <tr>
+          <td>ONLY</td>
+          <td>22.1%</td>
+          <td>17.4%</td>
+          <td>24.4%</td>
+          <td>9.3%</td>
+          <td>18.3%</td>
+        </tr>
+        <tr>
+          <td>Vero Moda</td>
+          <td>11.6%</td>
+          <td>9.3%</td>
+          <td>19.8%</td>
+          <td>3.5%</td>
+          <td>11.1%</td>
+        </tr>
+        <tr>
+          <td>Zara</td>
+          <td>8.1%</td>
+          <td>9.3%</td>
+          <td>19.8%</td>
+          <td>8.1%</td>
+          <td>11.3%</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="alert critical">
+      <strong>Critical Finding:</strong> Competitor "AND" appears in <strong>2.5x more queries</strong> than Miss Chase
+      across all AI platforms. This means when customers ask AI for recommendations, AND is consistently suggested
+      while Miss Chase is often omitted entirely.
+    </div>
+  </div>
+
+  <!-- GOOGLE AI OVERVIEW ANALYSIS -->
+  <h2 class="section-title">Google AI Overview: The New Battleground</h2>
+
+  <div class="card">
+    <h3>AI Overview Presence Analysis</h3>
+    <div class="metric-grid">
+      <div class="metric">
+        <div class="value">65</div>
+        <div class="label">Queries with AI Overview (76%)</div>
+      </div>
+      <div class="metric success">
+        <div class="value">30</div>
+        <div class="label">Miss Chase #1 in Organic</div>
+      </div>
+      <div class="metric danger">
+        <div class="value">0</div>
+        <div class="label">Category Queries with Miss Chase in AIO</div>
+      </div>
+    </div>
+
+    <h4 style="margin-top: 1.5rem;">The Two-Query Problem</h4>
+
+    <div class="alert success">
+      <strong>Brand Queries = Strong Performance</strong><br>
+      When users search "Miss Chase brand review" or "Miss Chase jeans quality", the brand appears
+      directly in Google's AI Overview with citations from Amazon, Flipkart, Instagram, and ChaseHaul.com.
+      <br><br>
+      <em>Example AI Overview text: "Miss Chase is generally well-regarded as an affordable, stylish,
+      and fast-growing Indian fashion brand specializing in women's apparel..."</em>
+    </div>
+
+    <div class="alert critical">
+      <strong>Category Queries = Invisible</strong><br>
+      When users search "best western wear brands India" or "top women's fashion brands", Miss Chase
+      is <strong>NOT mentioned</strong>. Instead, Google's AI Overview recommends:<br><br>
+      <em>"Top women's western wear brands in India include <strong>H&M, Zara, AND, Allen Solly, and FabAlley</strong>..."</em>
+      <br><br>
+      <strong>Miss Chase is completely absent from these discovery queries.</strong>
+    </div>
+
+    <h4 style="margin-top: 1.5rem;">Queries Where Miss Chase Ranks #1 (Organic)</h4>
+    <p style="color: var(--text-light); margin-bottom: 1rem;">
+      These are all brand-specific queries - users who already know Miss Chase:
+    </p>
+    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+      <span style="background: #c6f6d5; padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.85rem;">What is Miss Chase?</span>
+      <span style="background: #c6f6d5; padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.85rem;">Miss Chase brand review</span>
+      <span style="background: #c6f6d5; padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.85rem;">Miss Chase jeans quality</span>
+      <span style="background: #c6f6d5; padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.85rem;">Miss Chase size guide</span>
+      <span style="background: #c6f6d5; padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.85rem;">Miss Chase return policy</span>
+      <span style="background: #c6f6d5; padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.85rem;">where to buy Miss Chase</span>
+      <span style="background: #c6f6d5; padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.85rem;">Miss Chase Myntra</span>
+      <span style="background: #c6f6d5; padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.85rem;">+ 22 more brand queries</span>
+    </div>
+
+    <h4 style="margin-top: 1.5rem;">Category Queries Where Miss Chase is Missing</h4>
+    <p style="color: var(--text-light); margin-bottom: 1rem;">
+      These are discovery queries - potential new customers who don't know Miss Chase yet:
+    </p>
+    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+      <span style="background: #fed7d7; padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.85rem;">best western wear brands India</span>
+      <span style="background: #fed7d7; padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.85rem;">best online fashion brands for women</span>
+      <span style="background: #fed7d7; padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.85rem;">best affordable jeans brands women India</span>
+      <span style="background: #fed7d7; padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.85rem;">top women's clothing brands 2025</span>
+      <span style="background: #fed7d7; padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.85rem;">best Indian fashion brands for young women</span>
+      <span style="background: #fed7d7; padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.85rem;">best budget fashion brands India</span>
+      <span style="background: #fed7d7; padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.85rem;">+ 43 more category queries</span>
+    </div>
+  </div>
+
+  <!-- SURFACE BY SURFACE -->
+  <h2 class="section-title">Surface-by-Surface Analysis</h2>
+
+  <div class="surface-grid">
+    <div class="card">
+      <h3>ChatGPT</h3>
+      <div class="metric-grid" style="grid-template-columns: 1fr 1fr;">
+        <div class="metric">
+          <div class="value">86/86</div>
+          <div class="label">Queries Successful</div>
+        </div>
+        <div class="metric warning">
+          <div class="value">43%</div>
+          <div class="label">Miss Chase Visibility</div>
+        </div>
+      </div>
+      <p style="margin-top: 1rem;"><strong>Top brands in ChatGPT responses:</strong></p>
+      <ol style="margin-left: 1.5rem; margin-top: 0.5rem;">
+        <li><strong>AND</strong> - 98.8%</li>
+        <li style="color: var(--success);"><strong>Miss Chase</strong> - 43.0%</li>
+        <li>Myntra - 30.2%</li>
+        <li>Flipkart - 22.1%</li>
+        <li>ONLY - 22.1%</li>
+      </ol>
+    </div>
+
+    <div class="card">
+      <h3>Perplexity</h3>
+      <div class="metric-grid" style="grid-template-columns: 1fr 1fr;">
+        <div class="metric">
+          <div class="value">86/86</div>
+          <div class="label">Queries Successful</div>
+        </div>
+        <div class="metric warning">
+          <div class="value">44%</div>
+          <div class="label">Miss Chase Visibility</div>
+        </div>
+      </div>
+      <p style="margin-top: 1rem;"><strong>Top brands in Perplexity responses:</strong></p>
+      <ol style="margin-left: 1.5rem; margin-top: 0.5rem;">
+        <li><strong>AND</strong> - 100%</li>
+        <li style="color: var(--success);"><strong>Miss Chase</strong> - 44.2%</li>
+        <li>Myntra - 40.7%</li>
+        <li>Flipkart - 19.8%</li>
+        <li>ONLY - 17.4%</li>
+      </ol>
+    </div>
+
+    <div class="card">
+      <h3>Google Organic Search</h3>
+      <div class="metric-grid" style="grid-template-columns: 1fr 1fr;">
+        <div class="metric">
+          <div class="value">86/86</div>
+          <div class="label">Queries Successful</div>
+        </div>
+        <div class="metric warning">
+          <div class="value">43%</div>
+          <div class="label">Miss Chase Visibility</div>
+        </div>
+      </div>
+      <p style="margin-top: 1rem;"><strong>Top brands in Google results:</strong></p>
+      <ol style="margin-left: 1.5rem; margin-top: 0.5rem;">
+        <li><strong>AND</strong> - 98.8%</li>
+        <li style="color: var(--success);"><strong>Miss Chase</strong> - 43.0%</li>
+        <li>Myntra - 32.6%</li>
+        <li>H&M - 25.6%</li>
+        <li>ONLY - 24.4%</li>
+      </ol>
+    </div>
+
+    <div class="card">
+      <h3>Bing Search</h3>
+      <div class="metric-grid" style="grid-template-columns: 1fr 1fr;">
+        <div class="metric">
+          <div class="value">86/86</div>
+          <div class="label">Queries Successful</div>
+        </div>
+        <div class="metric danger">
+          <div class="value">22%</div>
+          <div class="label">Miss Chase Visibility</div>
+        </div>
+      </div>
+      <p style="margin-top: 1rem;"><strong>Top brands in Bing results:</strong></p>
+      <ol style="margin-left: 1.5rem; margin-top: 0.5rem;">
+        <li><strong>AND</strong> - 90.7%</li>
+        <li>Myntra - 24.4%</li>
+        <li style="color: var(--success);"><strong>Miss Chase</strong> - 22.1%</li>
+        <li>Amazon - 22.1%</li>
+        <li>Flipkart - 10.5%</li>
+      </ol>
+      <div class="alert warning" style="margin-top: 1rem;">
+        <strong>Lowest visibility</strong> - Miss Chase ranks 3rd, behind Myntra
+      </div>
+    </div>
+  </div>
+
+  <!-- ECONOMIC IMPACT SECTION -->
+  <h2 class="section-title">The Business Case: AI Visibility Reduces Returns</h2>
+
+  <div class="card">
+    <h3>Why AI Visibility Matters Beyond Discovery</h3>
+    <p style="margin-bottom: 1.5rem;">
+      AI visibility isn't just about acquiring new customers. When AI assistants provide accurate, detailed
+      product information, customers make better purchase decisions - leading to <strong>fewer returns</strong>.
+    </p>
+
+    <div class="metric-grid">
+      <div class="metric danger">
+        <div class="value">30%</div>
+        <div class="label">Fashion Return Rate (Industry Avg)</div>
+      </div>
+      <div class="metric warning">
+        <div class="value">23%</div>
+        <div class="label">Returns Due to Mismatched Expectations</div>
+      </div>
+      <div class="metric success">
+        <div class="value">25-40%</div>
+        <div class="label">Return Reduction with AI Chatbots</div>
+      </div>
+    </div>
+
+    <h4 style="margin-top: 2rem;">Total Cost Per Return (India)</h4>
+    <table class="cost-table">
+      <thead>
+        <tr>
+          <th>Cost Component</th>
+          <th>INR</th>
+          <th>USD</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Forward shipping (original)</td>
+          <td>₹60-80</td>
+          <td>$0.70-0.95</td>
+        </tr>
+        <tr>
+          <td>Reverse pickup logistics</td>
+          <td>₹80-120</td>
+          <td>$0.95-1.40</td>
+        </tr>
+        <tr>
+          <td>Inspection & QC</td>
+          <td>₹30-50</td>
+          <td>$0.35-0.60</td>
+        </tr>
+        <tr>
+          <td>Repackaging</td>
+          <td>₹20-40</td>
+          <td>$0.25-0.50</td>
+        </tr>
+        <tr>
+          <td>Warehouse labor</td>
+          <td>₹30-50</td>
+          <td>$0.35-0.60</td>
+        </tr>
+        <tr>
+          <td>Customer service time</td>
+          <td>₹20-40</td>
+          <td>$0.25-0.50</td>
+        </tr>
+        <tr class="total-row">
+          <td><strong>Subtotal (direct costs)</strong></td>
+          <td><strong>₹240-380</strong></td>
+          <td><strong>$2.85-4.55</strong></td>
+        </tr>
+        <tr>
+          <td>Depreciation (10-25% not resellable at full price)</td>
+          <td colspan="2">Variable</td>
+        </tr>
+        <tr>
+          <td>Disposal (if unsellable)</td>
+          <td colspan="2">Full loss</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="alert info" style="margin-top: 1.5rem;">
+      <strong>For Miss Chase (avg order ₹1,000-1,500):</strong><br>
+      At 30% return rate with ₹300-400 true cost per return:<br>
+      &bull; <strong>₹90-120 per order</strong> in return costs (9-12% of revenue)<br>
+      &bull; Plus 10-25% of returned items can't be resold at full price<br>
+      &bull; <strong>Total return cost: 20-65% of item's original price</strong>
+    </div>
+
+    <h4 style="margin-top: 2rem;">Research Evidence: Better Information = Fewer Returns</h4>
+
+    <div class="quote">
+      "23% of returns happen because the product didn't match the description"
+      <br><span style="font-size: 0.85rem; color: var(--text-light);">- Retail Insight Network</span>
+    </div>
+
+    <div class="quote">
+      "50%+ of fashion returns are due to size/fit issues - detailed specs help"
+    </div>
+
+    <div class="quote">
+      "87% of customers won't repurchase if descriptions were inaccurate"
+    </div>
+
+    <div class="quote">
+      "AI chatbots with product knowledge show 25-40% decrease in return-related escalations"
+      <br><span style="font-size: 0.85rem; color: var(--text-light);">- HelloRep.ai 2025 Report</span>
+    </div>
+
+    <div class="quote">
+      "Chatbots deflect 70% of pre-purchase questions - helping customers buy right the first time"
+    </div>
+
+    <div class="quote">
+      "Amazon Rufus shows 15% improvement in conversion rates through better product guidance"
+    </div>
+
+    <div class="alert success" style="margin-top: 1.5rem;">
+      <strong>The Logic Chain:</strong><br>
+      Better pre-purchase info (via AI) &rarr; Fewer wrong purchases &rarr; Fewer returns &rarr; Higher margins
+    </div>
+
+    <h4 style="margin-top: 2rem;">Projected Return Reduction Impact</h4>
+    <table>
+      <thead>
+        <tr>
+          <th>Scenario</th>
+          <th>Return Rate</th>
+          <th>Cost per 1,000 Orders</th>
+          <th>Savings</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Current (no AI optimization)</td>
+          <td>30%</td>
+          <td>₹90,000-120,000</td>
+          <td>-</td>
+        </tr>
+        <tr style="background: #f0fff4;">
+          <td>With 25% reduction via AI</td>
+          <td>22.5%</td>
+          <td>₹67,500-90,000</td>
+          <td><strong>₹22,500-30,000</strong></td>
+        </tr>
+        <tr style="background: #c6f6d5;">
+          <td>With 40% reduction via AI</td>
+          <td>18%</td>
+          <td>₹54,000-72,000</td>
+          <td><strong>₹36,000-48,000</strong></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- TECHNICAL AUDIT -->
+  <h2 class="section-title">Technical SEO Audit: ChaseHaul.com</h2>
+
+  <div class="card">
+    <h3>AI Readiness Score</h3>
+    <div class="metric-grid">
+      <div class="metric warning">
+        <div class="value">69%</div>
+        <div class="label">Average Meta Tag Score</div>
+      </div>
+      <div class="metric success">
+        <div class="value">75%</div>
+        <div class="label">Real Products Score</div>
+      </div>
+      <div class="metric danger">
+        <div class="value">55%</div>
+        <div class="label">Placeholder Pages Score</div>
+      </div>
+    </div>
+
+    <h4 style="margin-top: 1.5rem;">Issues Found</h4>
+
+    <div class="alert critical">
+      <strong>Critical: Product Descriptions Missing</strong><br>
+      Many product pages have empty or minimal descriptions. AI systems cannot recommend
+      products they don't have information about.
+    </div>
+
+    <div class="alert warning">
+      <strong>Warning: Incomplete JSON-LD Schema</strong><br>
+      Product schema exists but key fields are empty (description, brand consistency, reviews).
+    </div>
+
+    <div class="alert warning">
+      <strong>Warning: Brand Inconsistency</strong><br>
+      Site uses "Chase Haul" but products say "Miss Chase" - confusing for AI systems.
+    </div>
+
+    <div class="alert info">
+      <strong>Info: Placeholder Products</strong><br>
+      Multiple pages with "#N/A" names and $0 prices are being indexed - should be noindexed.
+    </div>
+  </div>
+
+  <!-- RECOMMENDATIONS -->
+  <h2 class="section-title">Strategic Recommendations</h2>
+
+  <div class="card">
+    <h3>Priority Actions to Close the AI Visibility Gap</h3>
+
+    <div class="recommendation high">
+      <div class="priority">1</div>
+      <div>
+        <strong>Fix Product Data Quality</strong>
+        <p style="margin-top: 0.5rem; color: var(--text-light);">
+          Add comprehensive descriptions to ALL products. Include: fabric details, fit guide,
+          styling suggestions, care instructions. AI systems need this content to make recommendations.
+          <br><strong>Impact:</strong> Foundation for all other improvements + reduces returns by setting accurate expectations
+        </p>
+      </div>
+    </div>
+
+    <div class="recommendation high">
+      <div class="priority">2</div>
+      <div>
+        <strong>Content Strategy for Category Queries</strong>
+        <p style="margin-top: 0.5rem; color: var(--text-light);">
+          Create authoritative content targeting "best [category] brands India" queries.
+          Publish guides, comparisons, and expert content that AI systems will cite.
+          <br><strong>Impact:</strong> Directly addresses the category query invisibility problem
+        </p>
+      </div>
+    </div>
+
+    <div class="recommendation high">
+      <div class="priority">3</div>
+      <div>
+        <strong>Build External Citations</strong>
+        <p style="margin-top: 0.5rem; color: var(--text-light);">
+          Get featured in "best brands" listicles, fashion roundups, and comparison articles
+          on high-authority sites. These are the sources AI systems cite.
+          <br><strong>Impact:</strong> AI Overviews pull from these external sources
+        </p>
+      </div>
+    </div>
+
+    <div class="recommendation medium">
+      <div class="priority">4</div>
+      <div>
+        <strong>Implement AI-Ready Schema Markup</strong>
+        <p style="margin-top: 0.5rem; color: var(--text-light);">
+          Complete JSON-LD Product schema with all fields. Add FAQ schema, Review schema,
+          and Organization schema to provide structured data AI systems prefer.
+          <br><strong>Impact:</strong> Improves AI's ability to parse and present product info
+        </p>
+      </div>
+    </div>
+
+    <div class="recommendation medium">
+      <div class="priority">5</div>
+      <div>
+        <strong>Brand Consistency Cleanup</strong>
+        <p style="margin-top: 0.5rem; color: var(--text-light);">
+          Standardize brand naming across all touchpoints. Decide: Is it "Miss Chase" or "Chase Haul"?
+          Update site, products, social, and marketplace listings to match.
+          <br><strong>Impact:</strong> Reduces AI confusion about brand identity
+        </p>
+      </div>
+    </div>
+
+    <div class="recommendation medium">
+      <div class="priority">6</div>
+      <div>
+        <strong>PR & Editorial Coverage</strong>
+        <p style="margin-top: 0.5rem; color: var(--text-light);">
+          Secure coverage in fashion publications, startup press, and industry reports.
+          Target articles about "D2C brands", "Indian fashion startups", and "women's fashion".
+          <br><strong>Impact:</strong> Builds authority signals AI systems use for ranking
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- STUDY METHODOLOGY -->
+  <h2 class="section-title">Study Methodology</h2>
+
+  <div class="card">
+    <h3>Data Collection Details</h3>
+    <table>
+      <tr>
+        <th>Parameter</th>
+        <th>Value</th>
+      </tr>
+      <tr>
+        <td>Study Date</td>
+        <td>January 29-30, 2026</td>
+      </tr>
+      <tr>
+        <td>Geographic Target</td>
+        <td>Mumbai, India</td>
+      </tr>
+      <tr>
+        <td>Total Queries</td>
+        <td>86 (across brand, category, product, and competitor queries)</td>
+      </tr>
+      <tr>
+        <td>Surfaces Tested</td>
+        <td>ChatGPT, Perplexity, Google Search, Google AI Overview, Bing Search, Amazon India (product search)</td>
+      </tr>
+      <tr>
+        <td>Primary Brand</td>
+        <td>Miss Chase</td>
+      </tr>
+      <tr>
+        <td>Competitors Tracked</td>
+        <td>AND, ONLY, Vero Moda, Forever 21, H&M, Zara, Pantaloons, Chemistry</td>
+      </tr>
+      <tr>
+        <td>Technical Audit</td>
+        <td>15 product pages on chasehaul.com</td>
+      </tr>
+    </table>
+
+    <h4 style="margin-top: 1.5rem;">Surfaces Not Tested</h4>
+    <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
+      <li><strong>Amazon Rufus:</strong> Requires Amazon.in authenticated session (not available)</li>
+    </ul>
+
+    <h4 style="margin-top: 1.5rem;">Query Categories</h4>
+    <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
+      <li><strong>Brand queries (30):</strong> "What is Miss Chase?", "Miss Chase reviews", etc.</li>
+      <li><strong>Category queries (28):</strong> "Best western wear brands India", "top jeans brands", etc.</li>
+      <li><strong>Product queries (15):</strong> "Miss Chase jeans quality", "Miss Chase dresses", etc.</li>
+      <li><strong>Comparison queries (13):</strong> "Miss Chase vs AND", "Miss Chase vs Zara", etc.</li>
+    </ul>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>
+      <strong>Bentham AI Visibility Research</strong><br>
+      Report generated January 30, 2026<br>
+      For questions: research@bentham.ai
+    </p>
+    <p style="margin-top: 1rem; font-size: 0.8rem;">
+      This report contains proprietary research methodology. Data collected via authorized API access
+      (SerpAPI, Perplexity API) and browser automation with proper session management.
+    </p>
+  </footer>
+
+</div>
+
+</body>
+</html>

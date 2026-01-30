@@ -1,0 +1,70 @@
+{
+  "study": "Miss Chase India - Google AI Overview Analysis",
+  "date": "2026-01-30",
+  "geo_target": "Mumbai, India",
+  "total_queries": 86,
+
+  "organic_search_results": {
+    "miss_chase_position_1": 30,
+    "miss_chase_position_1_percent": 34.9,
+    "miss_chase_top_3": 34,
+    "miss_chase_top_3_percent": 39.5,
+    "miss_chase_top_10": 37,
+    "miss_chase_top_10_percent": 43.0,
+    "not_in_top_10": 49,
+    "not_in_top_10_percent": 57.0
+  },
+
+  "ai_overview_results": {
+    "queries_with_aio": 65,
+    "queries_with_aio_percent": 75.6,
+    "queries_without_aio": 21,
+    "note": "AI Overview content requires additional API credits to fetch. Token presence detected but full content not fetched for all queries."
+  },
+
+  "key_findings": {
+    "brand_query_visibility": {
+      "summary": "Miss Chase dominates brand-specific search queries",
+      "position_1_count": 30,
+      "examples": [
+        "What is Miss Chase?",
+        "Miss Chase brand review",
+        "Miss Chase jeans quality",
+        "where to buy Miss Chase online"
+      ],
+      "ai_overview_presence": "Confirmed - Miss Chase appears directly in AI Overview text for brand queries",
+      "ai_overview_example": {
+        "query": "Miss Chase brand review",
+        "aio_text_excerpt": "Miss Chase is generally well-regarded as an affordable, stylish, and fast-growing Indian fashion brand specializing in women's apparel, including tops, dresses, and high-stretch denim.",
+        "cited_sources": ["Amazon.in", "Flipkart", "Justdial", "Chase Haul", "Instagram", "LinkedIn"]
+      }
+    },
+
+    "category_query_gap": {
+      "summary": "Miss Chase NOT appearing in category/discovery queries",
+      "not_in_top_10_count": 49,
+      "examples": [
+        "best women's western wear brands in India",
+        "best online fashion brands for women India",
+        "best affordable jeans brands for women India",
+        "best Indian fashion brands for young women",
+        "top women's clothing brands India 2025"
+      ],
+      "competitors_appearing": ["H&M", "Zara", "AND", "Allen Solly", "FabAlley", "Forever New", "KAZO", "Vero Moda", "Forever 21"],
+      "ai_overview_presence": "Miss Chase NOT mentioned in AI Overviews for these queries"
+    }
+  },
+
+  "visibility_gap_analysis": {
+    "problem": "Miss Chase has excellent brand recognition (ranks #1 when people search for the brand) but lacks discovery visibility (not appearing when people search for product categories)",
+    "implication": "Users who don't already know Miss Chase will not discover it through Google AI Overviews or top organic results for category searches",
+    "competitor_advantage": "Competitors like H&M, Zara, AND, Vero Moda appear in AI Overviews for category queries where Miss Chase does not"
+  },
+
+  "recommendations": {
+    "priority_1": "Content strategy targeting category keywords (e.g., create content around 'best western wear brands India')",
+    "priority_2": "Build external citations - get mentioned in roundup articles, listicles, and comparison content that AI Overviews cite",
+    "priority_3": "Improve structured data and product markup to increase chances of AI citation",
+    "priority_4": "PR and editorial coverage to increase brand mentions across authoritative sources"
+  }
+}

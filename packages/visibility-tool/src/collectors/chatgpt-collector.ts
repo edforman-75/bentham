@@ -40,6 +40,18 @@ export interface ChatGPTResult {
 }
 
 /**
+ * Proxy configuration for geo-targeting
+ */
+export interface ProxyConfig {
+  /** Proxy server host */
+  server: string;
+  /** Proxy username */
+  username?: string;
+  /** Proxy password */
+  password?: string;
+}
+
+/**
  * Session options
  */
 export interface ChatGPTSessionOptions {
@@ -49,6 +61,30 @@ export interface ChatGPTSessionOptions {
   headless?: boolean;
   /** Timeout for responses (ms) */
   timeout?: number;
+  /** Proxy configuration for geo-targeting */
+  proxy?: ProxyConfig;
+  /** Country code for Oxylabs geo-targeting (e.g., 'in', 'us') */
+  country?: string;
+}
+
+/**
+ * Get Oxylabs residential proxy config for a country
+ */
+export function getOxylabsProxy(country: string): ProxyConfig | null {
+  const username = process.env.OXYLABS_USERNAME;
+  const password = process.env.OXYLABS_PASSWORD;
+
+  if (!username || !password) {
+    return null;
+  }
+
+  // Oxylabs residential proxy format with country targeting
+  // Format: customer-USERNAME-cc-COUNTRY:PASSWORD@pr.oxylabs.io:7777
+  return {
+    server: 'http://pr.oxylabs.io:7777',
+    username: `customer-${username}-cc-${country.toLowerCase()}`,
+    password: password,
+  };
 }
 
 const DEFAULT_SESSION_PATH = '.chatgpt-session.json';
@@ -200,7 +236,27 @@ export async function queryChatGPT(
     };
   }
 
-  const browser = await chromium.launch({ headless });
+  // Get proxy config - either provided or from Oxylabs with country targeting
+  let proxyConfig: ProxyConfig | undefined = options.proxy;
+  if (!proxyConfig && options.country) {
+    const oxylabsProxy = getOxylabsProxy(options.country);
+    if (oxylabsProxy) {
+      proxyConfig = oxylabsProxy;
+      console.log(`  Using Oxylabs proxy for country: ${options.country}`);
+    }
+  }
+
+  // Launch browser with optional proxy
+  const launchOptions: Parameters<typeof chromium.launch>[0] = { headless };
+  if (proxyConfig) {
+    launchOptions.proxy = {
+      server: proxyConfig.server,
+      username: proxyConfig.username,
+      password: proxyConfig.password,
+    };
+  }
+
+  const browser = await chromium.launch(launchOptions);
 
   try {
     const context = await createAuthenticatedContext(browser, sessionPath);

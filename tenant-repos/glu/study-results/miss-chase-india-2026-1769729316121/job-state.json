@@ -1,0 +1,35 @@
+{
+  "id": "job-1769733906065-v5sm6m",
+  "manifestId": "miss-chase-india-2026",
+  "manifestName": "Miss Chase India Visibility Study",
+  "status": "failed",
+  "createdAt": "2026-01-30T00:45:06.065Z",
+  "tests": [
+    {
+      "id": "job-1769733906065-v5sm6m-test-0",
+      "test": {
+        "surface": "google-ai-overview",
+        "country": "IN",
+        "city": "Mumbai",
+        "completionTarget": 90,
+        "note": "Google AI Overview from India"
+      },
+      "status": "failed",
+      "totalItems": 86,
+      "completedItems": 0,
+      "failedItems": 86,
+      "completionPercentage": 0,
+      "meetsTarget": false,
+      "results": [],
+      "errors": [
+        "Surface google-ai-overview not yet implemented"
+      ],
+      "startedAt": "2026-01-30T00:45:06.066Z",
+      "completedAt": "2026-01-30T00:45:06.066Z"
+    }
+  ],
+  "overallCompletion": 0,
+  "meetsAllTargets": false,
+  "startedAt": "2026-01-30T00:45:06.066Z",
+  "completedAt": "2026-01-30T00:45:06.066Z"
+}

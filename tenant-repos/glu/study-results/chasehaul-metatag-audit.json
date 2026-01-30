@@ -1,0 +1,3615 @@
+{
+  "timestamp": "2026-01-30T05:08:40.694Z",
+  "summary": {
+    "pagesAudited": 15,
+    "averageScore": 69
+  },
+  "results": [
+    {
+      "url": "https://chasehaul.com/products/chase-haul-gift-card",
+      "title": "Chase Haul Gift Card",
+      "metaTags": [
+        {},
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        },
+        {
+          "property": "og:type",
+          "content": "product"
+        },
+        {
+          "property": "og:title",
+          "content": "Chase Haul Gift Card"
+        },
+        {
+          "property": "product:price:amount",
+          "content": "2,000"
+        },
+        {
+          "property": "product:price:currency",
+          "content": "INR"
+        },
+        {
+          "property": "og:image",
+          "content": "http://chasehaul.com/cdn/shop/files/CHASE_HAUL_LOGO_WH.png?v=1755609713&width=2048"
+        },
+        {
+          "property": "og:image:secure_url",
+          "content": "https://chasehaul.com/cdn/shop/files/CHASE_HAUL_LOGO_WH.png?v=1755609713&width=2048"
+        },
+        {
+          "property": "og:image:width",
+          "content": "1176"
+        },
+        {
+          "property": "og:image:height",
+          "content": "674"
+        },
+        {
+          "property": "og:url",
+          "content": "https://chasehaul.com/products/chase-haul-gift-card"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Chase Haul"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        },
+        {
+          "name": "twitter:title",
+          "content": "Chase Haul Gift Card"
+        },
+        {
+          "name": "twitter:description",
+          "content": ""
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://chasehaul.com/cdn/shop/files/CHASE_HAUL_LOGO_WH.png?crop=center&height=1200&v=1755609713&width=1200"
+        },
+        {
+          "name": "twitter:image:alt",
+          "content": ""
+        },
+        {
+          "name": "google-site-verification",
+          "content": "Az7ko13v9S1I-bj1_O421-jyV8SYnC4G-jURvsONLUg"
+        },
+        {
+          "name": "shopify-digital-wallet",
+          "content": "/67439067414/digital_wallets/dialog"
+        }
+      ],
+      "jsonLd": [
+        {
+          "@context": "http://schema.org/",
+          "@id": "/products/chase-haul-gift-card#product",
+          "@type": "ProductGroup",
+          "brand": {
+            "@type": "Brand",
+            "name": "Chase Haul"
+          },
+          "category": "Gift Cards",
+          "description": "",
+          "hasVariant": [
+            {
+              "@id": "/products/chase-haul-gift-card?variant=48799838208278#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/CHASE_HAUL_LOGO_WH.png?v=1755609713&width=1920",
+              "name": "Chase Haul Gift Card - ₹2,000.00",
+              "offers": {
+                "@id": "/products/chase-haul-gift-card?variant=48799838208278#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "2000.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/chase-haul-gift-card?variant=48799838208278"
+              },
+              "sku": "500000"
+            },
+            {
+              "@id": "/products/chase-haul-gift-card?variant=48799838241046#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/CHASE_HAUL_LOGO_WH.png?v=1755609713&width=1920",
+              "name": "Chase Haul Gift Card - ₹3,000.00",
+              "offers": {
+                "@id": "/products/chase-haul-gift-card?variant=48799838241046#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "3000.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/chase-haul-gift-card?variant=48799838241046"
+              },
+              "sku": "500000"
+            },
+            {
+              "@id": "/products/chase-haul-gift-card?variant=48799838273814#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/CHASE_HAUL_LOGO_WH.png?v=1755609713&width=1920",
+              "name": "Chase Haul Gift Card - ₹5,000.00",
+              "offers": {
+                "@id": "/products/chase-haul-gift-card?variant=48799838273814#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "5000.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/chase-haul-gift-card?variant=48799838273814"
+              },
+              "sku": "500000"
+            },
+            {
+              "@id": "/products/chase-haul-gift-card?variant=48799838306582#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/CHASE_HAUL_LOGO_WH.png?v=1755609713&width=1920",
+              "name": "Chase Haul Gift Card - ₹10,000.00",
+              "offers": {
+                "@id": "/products/chase-haul-gift-card?variant=48799838306582#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "10000.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/chase-haul-gift-card?variant=48799838306582"
+              },
+              "sku": "500000"
+            }
+          ],
+          "name": "Chase Haul Gift Card",
+          "productGroupID": "9611247223062",
+          "url": "https://chasehaul.com/products/chase-haul-gift-card"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chasehaul.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Chase Haul Gift Card",
+              "item": "https://chasehaul.com/products/chase-haul-gift-card"
+            }
+          ]
+        }
+      ],
+      "og": {
+        "og:type": "product",
+        "og:title": "Chase Haul Gift Card",
+        "og:image": "http://chasehaul.com/cdn/shop/files/CHASE_HAUL_LOGO_WH.png?v=1755609713&width=2048",
+        "og:image:secure_url": "https://chasehaul.com/cdn/shop/files/CHASE_HAUL_LOGO_WH.png?v=1755609713&width=2048",
+        "og:image:width": "1176",
+        "og:image:height": "674",
+        "og:url": "https://chasehaul.com/products/chase-haul-gift-card",
+        "og:site_name": "Chase Haul"
+      },
+      "twitter": {
+        "twitter:card": "summary",
+        "twitter:title": "Chase Haul Gift Card",
+        "twitter:description": "",
+        "twitter:image": "https://chasehaul.com/cdn/shop/files/CHASE_HAUL_LOGO_WH.png?crop=center&height=1200&v=1755609713&width=1200",
+        "twitter:image:alt": ""
+      },
+      "standard": {
+        "canonical": "https://chasehaul.com/products/chase-haul-gift-card"
+      },
+      "missing": {
+        "critical": [
+          "og:description - Product description (150-300 chars ideal)",
+          "meta description - Meta description for search engines",
+          "JSON-LD Product schema - Critical for AI visibility"
+        ],
+        "recommended": [
+          "og:price:amount - Product price",
+          "og:price:currency - Currency code (INR, USD)",
+          "twitter:description - Falls back to og:description",
+          "meta robots - Indexing directives"
+        ]
+      },
+      "present": [
+        "og:title",
+        "og:image",
+        "og:url",
+        "og:type",
+        "og:site_name",
+        "twitter:card",
+        "twitter:title",
+        "twitter:image",
+        "meta canonical"
+      ],
+      "score": 56,
+      "imageAnalysis": {
+        "ogImage": "http://chasehaul.com/cdn/shop/files/CHASE_HAUL_LOGO_WH.png?v=1755609713&width=2048",
+        "hasHighResImage": false
+      }
+    },
+    {
+      "url": "https://chasehaul.com/products/when-you-feel-good-anything-is-possibel",
+      "title": "#N/A",
+      "metaTags": [
+        {},
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        },
+        {
+          "property": "og:type",
+          "content": "product"
+        },
+        {
+          "property": "og:title",
+          "content": "#N/A"
+        },
+        {
+          "property": "product:price:amount",
+          "content": "0"
+        },
+        {
+          "property": "product:price:currency",
+          "content": "INR"
+        },
+        {
+          "property": "og:image",
+          "content": "http://chasehaul.com/cdn/shop/files/jumpsuits2copy.jpg?v=1745334212&width=2048"
+        },
+        {
+          "property": "og:image:secure_url",
+          "content": "https://chasehaul.com/cdn/shop/files/jumpsuits2copy.jpg?v=1745334212&width=2048"
+        },
+        {
+          "property": "og:image:width",
+          "content": "448"
+        },
+        {
+          "property": "og:image:height",
+          "content": "768"
+        },
+        {
+          "property": "og:url",
+          "content": "https://chasehaul.com/products/when-you-feel-good-anything-is-possibel"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Chase Haul"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        },
+        {
+          "name": "twitter:title",
+          "content": "#N/A"
+        },
+        {
+          "name": "twitter:description",
+          "content": ""
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://chasehaul.com/cdn/shop/files/jumpsuits2copy.jpg?crop=center&height=1200&v=1745334212&width=1200"
+        },
+        {
+          "name": "twitter:image:alt",
+          "content": ""
+        },
+        {
+          "name": "google-site-verification",
+          "content": "Az7ko13v9S1I-bj1_O421-jyV8SYnC4G-jURvsONLUg"
+        },
+        {
+          "name": "shopify-digital-wallet",
+          "content": "/67439067414/digital_wallets/dialog"
+        }
+      ],
+      "jsonLd": [
+        {
+          "@context": "http://schema.org/",
+          "@id": "/products/when-you-feel-good-anything-is-possibel#product",
+          "@type": "Product",
+          "brand": {
+            "@type": "Brand",
+            "name": "Chase Haul"
+          },
+          "category": "",
+          "description": "",
+          "image": "https://chasehaul.com/cdn/shop/files/jumpsuits2copy.jpg?v=1745334212&width=1920",
+          "name": "#N/A",
+          "offers": {
+            "@id": "/products/when-you-feel-good-anything-is-possibel?variant=43877134926102#offer",
+            "@type": "Offer",
+            "availability": "http://schema.org/OutOfStock",
+            "price": "0.00",
+            "priceCurrency": "INR",
+            "url": "https://chasehaul.com/products/when-you-feel-good-anything-is-possibel?variant=43877134926102"
+          },
+          "url": "https://chasehaul.com/products/when-you-feel-good-anything-is-possibel"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chasehaul.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "#N/A",
+              "item": "https://chasehaul.com/products/when-you-feel-good-anything-is-possibel"
+            }
+          ]
+        }
+      ],
+      "og": {
+        "og:type": "product",
+        "og:title": "#N/A",
+        "og:image": "http://chasehaul.com/cdn/shop/files/jumpsuits2copy.jpg?v=1745334212&width=2048",
+        "og:image:secure_url": "https://chasehaul.com/cdn/shop/files/jumpsuits2copy.jpg?v=1745334212&width=2048",
+        "og:image:width": "448",
+        "og:image:height": "768",
+        "og:url": "https://chasehaul.com/products/when-you-feel-good-anything-is-possibel",
+        "og:site_name": "Chase Haul"
+      },
+      "twitter": {
+        "twitter:card": "summary",
+        "twitter:title": "#N/A",
+        "twitter:description": "",
+        "twitter:image": "https://chasehaul.com/cdn/shop/files/jumpsuits2copy.jpg?crop=center&height=1200&v=1745334212&width=1200",
+        "twitter:image:alt": ""
+      },
+      "standard": {
+        "canonical": "https://chasehaul.com/products/when-you-feel-good-anything-is-possibel"
+      },
+      "missing": {
+        "critical": [
+          "og:description - Product description (150-300 chars ideal)",
+          "meta description - Meta description for search engines",
+          "schema:description - Product description"
+        ],
+        "recommended": [
+          "og:price:amount - Product price",
+          "og:price:currency - Currency code (INR, USD)",
+          "twitter:description - Falls back to og:description",
+          "meta robots - Indexing directives",
+          "schema:sku - Product SKU",
+          "schema:gtin/gtin13/gtin14 - Barcode (helps product matching)",
+          "schema:aggregateRating - Average rating (boosts AI trust)",
+          "schema:review - Individual reviews",
+          "schema:color - Product color",
+          "schema:material - Product material",
+          "schema:category - Product category"
+        ]
+      },
+      "present": [
+        "og:title",
+        "og:image",
+        "og:url",
+        "og:type",
+        "og:site_name",
+        "twitter:card",
+        "twitter:title",
+        "twitter:image",
+        "meta canonical",
+        "JSON-LD Product schema",
+        "schema:name",
+        "schema:image",
+        "schema:brand",
+        "schema:offers",
+        "schema:offers.price",
+        "schema:offers.priceCurrency",
+        "schema:offers.availability"
+      ],
+      "score": 55,
+      "imageAnalysis": {
+        "ogImage": "http://chasehaul.com/cdn/shop/files/jumpsuits2copy.jpg?v=1745334212&width=2048",
+        "hasHighResImage": false
+      }
+    },
+    {
+      "url": "https://chasehaul.com/products/n-dress-infold",
+      "title": "#N/A",
+      "metaTags": [
+        {},
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        },
+        {
+          "property": "og:type",
+          "content": "product"
+        },
+        {
+          "property": "og:title",
+          "content": "#N/A"
+        },
+        {
+          "property": "product:price:amount",
+          "content": "0"
+        },
+        {
+          "property": "product:price:currency",
+          "content": "INR"
+        },
+        {
+          "property": "og:image",
+          "content": "http://chasehaul.com/cdn/shop/files/dress2copy.jpg?v=1745334212&width=2048"
+        },
+        {
+          "property": "og:image:secure_url",
+          "content": "https://chasehaul.com/cdn/shop/files/dress2copy.jpg?v=1745334212&width=2048"
+        },
+        {
+          "property": "og:image:width",
+          "content": "448"
+        },
+        {
+          "property": "og:image:height",
+          "content": "768"
+        },
+        {
+          "property": "og:url",
+          "content": "https://chasehaul.com/products/n-dress-infold"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Chase Haul"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        },
+        {
+          "name": "twitter:title",
+          "content": "#N/A"
+        },
+        {
+          "name": "twitter:description",
+          "content": ""
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://chasehaul.com/cdn/shop/files/dress2copy.jpg?crop=center&height=1200&v=1745334212&width=1200"
+        },
+        {
+          "name": "twitter:image:alt",
+          "content": ""
+        },
+        {
+          "name": "google-site-verification",
+          "content": "Az7ko13v9S1I-bj1_O421-jyV8SYnC4G-jURvsONLUg"
+        },
+        {
+          "name": "shopify-digital-wallet",
+          "content": "/67439067414/digital_wallets/dialog"
+        }
+      ],
+      "jsonLd": [
+        {
+          "@context": "http://schema.org/",
+          "@id": "/products/n-dress-infold#product",
+          "@type": "Product",
+          "brand": {
+            "@type": "Brand",
+            "name": "Chase Haul"
+          },
+          "category": "",
+          "description": "",
+          "image": "https://chasehaul.com/cdn/shop/files/dress2copy.jpg?v=1745334212&width=1920",
+          "mpn": "1",
+          "name": "#N/A",
+          "offers": {
+            "@id": "/products/n-dress-infold?variant=43877137416470#offer",
+            "@type": "Offer",
+            "availability": "http://schema.org/OutOfStock",
+            "price": "0.00",
+            "priceCurrency": "INR",
+            "url": "https://chasehaul.com/products/n-dress-infold?variant=43877137416470"
+          },
+          "sku": "1",
+          "url": "https://chasehaul.com/products/n-dress-infold"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chasehaul.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "#N/A",
+              "item": "https://chasehaul.com/products/n-dress-infold"
+            }
+          ]
+        }
+      ],
+      "og": {
+        "og:type": "product",
+        "og:title": "#N/A",
+        "og:image": "http://chasehaul.com/cdn/shop/files/dress2copy.jpg?v=1745334212&width=2048",
+        "og:image:secure_url": "https://chasehaul.com/cdn/shop/files/dress2copy.jpg?v=1745334212&width=2048",
+        "og:image:width": "448",
+        "og:image:height": "768",
+        "og:url": "https://chasehaul.com/products/n-dress-infold",
+        "og:site_name": "Chase Haul"
+      },
+      "twitter": {
+        "twitter:card": "summary",
+        "twitter:title": "#N/A",
+        "twitter:description": "",
+        "twitter:image": "https://chasehaul.com/cdn/shop/files/dress2copy.jpg?crop=center&height=1200&v=1745334212&width=1200",
+        "twitter:image:alt": ""
+      },
+      "standard": {
+        "canonical": "https://chasehaul.com/products/n-dress-infold"
+      },
+      "missing": {
+        "critical": [
+          "og:description - Product description (150-300 chars ideal)",
+          "meta description - Meta description for search engines",
+          "schema:description - Product description"
+        ],
+        "recommended": [
+          "og:price:amount - Product price",
+          "og:price:currency - Currency code (INR, USD)",
+          "twitter:description - Falls back to og:description",
+          "meta robots - Indexing directives",
+          "schema:gtin/gtin13/gtin14 - Barcode (helps product matching)",
+          "schema:aggregateRating - Average rating (boosts AI trust)",
+          "schema:review - Individual reviews",
+          "schema:color - Product color",
+          "schema:material - Product material",
+          "schema:category - Product category"
+        ]
+      },
+      "present": [
+        "og:title",
+        "og:image",
+        "og:url",
+        "og:type",
+        "og:site_name",
+        "twitter:card",
+        "twitter:title",
+        "twitter:image",
+        "meta canonical",
+        "JSON-LD Product schema",
+        "schema:name",
+        "schema:image",
+        "schema:brand",
+        "schema:sku",
+        "schema:offers",
+        "schema:offers.price",
+        "schema:offers.priceCurrency",
+        "schema:offers.availability"
+      ],
+      "score": 58,
+      "imageAnalysis": {
+        "ogImage": "http://chasehaul.com/cdn/shop/files/dress2copy.jpg?v=1745334212&width=2048",
+        "hasHighResImage": false
+      }
+    },
+    {
+      "url": "https://chasehaul.com/products/n-alldegreewear",
+      "title": "#N/A",
+      "metaTags": [
+        {},
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        },
+        {
+          "property": "og:type",
+          "content": "product"
+        },
+        {
+          "property": "og:title",
+          "content": "#N/A"
+        },
+        {
+          "property": "product:price:amount",
+          "content": "0"
+        },
+        {
+          "property": "product:price:currency",
+          "content": "INR"
+        },
+        {
+          "property": "og:image",
+          "content": "http://chasehaul.com/cdn/shop/files/BestJeansEvercopy2.jpg?v=1745332688&width=2048"
+        },
+        {
+          "property": "og:image:secure_url",
+          "content": "https://chasehaul.com/cdn/shop/files/BestJeansEvercopy2.jpg?v=1745332688&width=2048"
+        },
+        {
+          "property": "og:image:width",
+          "content": "448"
+        },
+        {
+          "property": "og:image:height",
+          "content": "768"
+        },
+        {
+          "property": "og:url",
+          "content": "https://chasehaul.com/products/n-alldegreewear"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Chase Haul"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        },
+        {
+          "name": "twitter:title",
+          "content": "#N/A"
+        },
+        {
+          "name": "twitter:description",
+          "content": ""
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://chasehaul.com/cdn/shop/files/BestJeansEvercopy2.jpg?crop=center&height=1200&v=1745332688&width=1200"
+        },
+        {
+          "name": "twitter:image:alt",
+          "content": ""
+        },
+        {
+          "name": "google-site-verification",
+          "content": "Az7ko13v9S1I-bj1_O421-jyV8SYnC4G-jURvsONLUg"
+        },
+        {
+          "name": "shopify-digital-wallet",
+          "content": "/67439067414/digital_wallets/dialog"
+        }
+      ],
+      "jsonLd": [
+        {
+          "@context": "http://schema.org/",
+          "@id": "/products/n-alldegreewear#product",
+          "@type": "Product",
+          "brand": {
+            "@type": "Brand",
+            "name": "Chase Haul"
+          },
+          "category": "",
+          "description": "",
+          "image": "https://chasehaul.com/cdn/shop/files/BestJeansEvercopy2.jpg?v=1745332688&width=1920",
+          "name": "#N/A",
+          "offers": {
+            "@id": "/products/n-alldegreewear?variant=44731568423190#offer",
+            "@type": "Offer",
+            "availability": "http://schema.org/OutOfStock",
+            "price": "0.00",
+            "priceCurrency": "INR",
+            "url": "https://chasehaul.com/products/n-alldegreewear?variant=44731568423190"
+          },
+          "url": "https://chasehaul.com/products/n-alldegreewear"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chasehaul.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "#N/A",
+              "item": "https://chasehaul.com/products/n-alldegreewear"
+            }
+          ]
+        }
+      ],
+      "og": {
+        "og:type": "product",
+        "og:title": "#N/A",
+        "og:image": "http://chasehaul.com/cdn/shop/files/BestJeansEvercopy2.jpg?v=1745332688&width=2048",
+        "og:image:secure_url": "https://chasehaul.com/cdn/shop/files/BestJeansEvercopy2.jpg?v=1745332688&width=2048",
+        "og:image:width": "448",
+        "og:image:height": "768",
+        "og:url": "https://chasehaul.com/products/n-alldegreewear",
+        "og:site_name": "Chase Haul"
+      },
+      "twitter": {
+        "twitter:card": "summary",
+        "twitter:title": "#N/A",
+        "twitter:description": "",
+        "twitter:image": "https://chasehaul.com/cdn/shop/files/BestJeansEvercopy2.jpg?crop=center&height=1200&v=1745332688&width=1200",
+        "twitter:image:alt": ""
+      },
+      "standard": {
+        "canonical": "https://chasehaul.com/products/n-alldegreewear"
+      },
+      "missing": {
+        "critical": [
+          "og:description - Product description (150-300 chars ideal)",
+          "meta description - Meta description for search engines",
+          "schema:description - Product description"
+        ],
+        "recommended": [
+          "og:price:amount - Product price",
+          "og:price:currency - Currency code (INR, USD)",
+          "twitter:description - Falls back to og:description",
+          "meta robots - Indexing directives",
+          "schema:sku - Product SKU",
+          "schema:gtin/gtin13/gtin14 - Barcode (helps product matching)",
+          "schema:aggregateRating - Average rating (boosts AI trust)",
+          "schema:review - Individual reviews",
+          "schema:color - Product color",
+          "schema:material - Product material",
+          "schema:category - Product category"
+        ]
+      },
+      "present": [
+        "og:title",
+        "og:image",
+        "og:url",
+        "og:type",
+        "og:site_name",
+        "twitter:card",
+        "twitter:title",
+        "twitter:image",
+        "meta canonical",
+        "JSON-LD Product schema",
+        "schema:name",
+        "schema:image",
+        "schema:brand",
+        "schema:offers",
+        "schema:offers.price",
+        "schema:offers.priceCurrency",
+        "schema:offers.availability"
+      ],
+      "score": 55,
+      "imageAnalysis": {
+        "ogImage": "http://chasehaul.com/cdn/shop/files/BestJeansEvercopy2.jpg?v=1745332688&width=2048",
+        "hasHighResImage": false
+      }
+    },
+    {
+      "url": "https://chasehaul.com/products/n-saychase",
+      "title": "#N/A",
+      "metaTags": [
+        {},
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        },
+        {
+          "property": "og:type",
+          "content": "product"
+        },
+        {
+          "property": "og:title",
+          "content": "#N/A"
+        },
+        {
+          "property": "product:price:amount",
+          "content": "0"
+        },
+        {
+          "property": "product:price:currency",
+          "content": "INR"
+        },
+        {
+          "property": "og:image",
+          "content": "http://chasehaul.com/cdn/shop/files/image_8_db2f61cb-6800-45c5-af35-aa3d3363e11b.png?v=1745332094&width=2048"
+        },
+        {
+          "property": "og:image:secure_url",
+          "content": "https://chasehaul.com/cdn/shop/files/image_8_db2f61cb-6800-45c5-af35-aa3d3363e11b.png?v=1745332094&width=2048"
+        },
+        {
+          "property": "og:image:width",
+          "content": "448"
+        },
+        {
+          "property": "og:image:height",
+          "content": "768"
+        },
+        {
+          "property": "og:url",
+          "content": "https://chasehaul.com/products/n-saychase"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Chase Haul"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        },
+        {
+          "name": "twitter:title",
+          "content": "#N/A"
+        },
+        {
+          "name": "twitter:description",
+          "content": ""
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://chasehaul.com/cdn/shop/files/image_8_db2f61cb-6800-45c5-af35-aa3d3363e11b.png?crop=center&height=1200&v=1745332094&width=1200"
+        },
+        {
+          "name": "twitter:image:alt",
+          "content": ""
+        },
+        {
+          "name": "google-site-verification",
+          "content": "Az7ko13v9S1I-bj1_O421-jyV8SYnC4G-jURvsONLUg"
+        },
+        {
+          "name": "shopify-digital-wallet",
+          "content": "/67439067414/digital_wallets/dialog"
+        }
+      ],
+      "jsonLd": [
+        {
+          "@context": "http://schema.org/",
+          "@id": "/products/n-saychase#product",
+          "@type": "Product",
+          "brand": {
+            "@type": "Brand",
+            "name": "Chase Haul"
+          },
+          "category": "",
+          "description": "",
+          "image": "https://chasehaul.com/cdn/shop/files/image_8_db2f61cb-6800-45c5-af35-aa3d3363e11b.png?v=1745332094&width=1920",
+          "name": "#N/A",
+          "offers": {
+            "@id": "/products/n-saychase?variant=46147010330902#offer",
+            "@type": "Offer",
+            "availability": "http://schema.org/OutOfStock",
+            "price": "0.00",
+            "priceCurrency": "INR",
+            "url": "https://chasehaul.com/products/n-saychase?variant=46147010330902"
+          },
+          "url": "https://chasehaul.com/products/n-saychase"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chasehaul.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "#N/A",
+              "item": "https://chasehaul.com/products/n-saychase"
+            }
+          ]
+        }
+      ],
+      "og": {
+        "og:type": "product",
+        "og:title": "#N/A",
+        "og:image": "http://chasehaul.com/cdn/shop/files/image_8_db2f61cb-6800-45c5-af35-aa3d3363e11b.png?v=1745332094&width=2048",
+        "og:image:secure_url": "https://chasehaul.com/cdn/shop/files/image_8_db2f61cb-6800-45c5-af35-aa3d3363e11b.png?v=1745332094&width=2048",
+        "og:image:width": "448",
+        "og:image:height": "768",
+        "og:url": "https://chasehaul.com/products/n-saychase",
+        "og:site_name": "Chase Haul"
+      },
+      "twitter": {
+        "twitter:card": "summary",
+        "twitter:title": "#N/A",
+        "twitter:description": "",
+        "twitter:image": "https://chasehaul.com/cdn/shop/files/image_8_db2f61cb-6800-45c5-af35-aa3d3363e11b.png?crop=center&height=1200&v=1745332094&width=1200",
+        "twitter:image:alt": ""
+      },
+      "standard": {
+        "canonical": "https://chasehaul.com/products/n-saychase"
+      },
+      "missing": {
+        "critical": [
+          "og:description - Product description (150-300 chars ideal)",
+          "meta description - Meta description for search engines",
+          "schema:description - Product description"
+        ],
+        "recommended": [
+          "og:price:amount - Product price",
+          "og:price:currency - Currency code (INR, USD)",
+          "twitter:description - Falls back to og:description",
+          "meta robots - Indexing directives",
+          "schema:sku - Product SKU",
+          "schema:gtin/gtin13/gtin14 - Barcode (helps product matching)",
+          "schema:aggregateRating - Average rating (boosts AI trust)",
+          "schema:review - Individual reviews",
+          "schema:color - Product color",
+          "schema:material - Product material",
+          "schema:category - Product category"
+        ]
+      },
+      "present": [
+        "og:title",
+        "og:image",
+        "og:url",
+        "og:type",
+        "og:site_name",
+        "twitter:card",
+        "twitter:title",
+        "twitter:image",
+        "meta canonical",
+        "JSON-LD Product schema",
+        "schema:name",
+        "schema:image",
+        "schema:brand",
+        "schema:offers",
+        "schema:offers.price",
+        "schema:offers.priceCurrency",
+        "schema:offers.availability"
+      ],
+      "score": 55,
+      "imageAnalysis": {
+        "ogImage": "http://chasehaul.com/cdn/shop/files/image_8_db2f61cb-6800-45c5-af35-aa3d3363e11b.png?v=1745332094&width=2048",
+        "hasHighResImage": false
+      }
+    },
+    {
+      "url": "https://chasehaul.com/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158",
+      "title": "24/7 Comfort Light Blue Wide-Leg Mid-Rise Light weight Denim Jeans",
+      "metaTags": [
+        {},
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        },
+        {
+          "name": "description",
+          "content": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Light blue wide leg mid rise light weight clean look blast effect denim jeans, Has five pockets, belt loops and a button zip closure Color: Light Blue Material Composition: 69% Cotton, 29% Polyester 2% Elastane Fabric: Denim Length: "
+        },
+        {
+          "property": "og:type",
+          "content": "product"
+        },
+        {
+          "property": "og:title",
+          "content": "24/7 Comfort  Light Blue Wide-Leg Mid-Rise Light weight Denim Jeans"
+        },
+        {
+          "property": "product:price:amount",
+          "content": "1,295"
+        },
+        {
+          "property": "product:price:currency",
+          "content": "INR"
+        },
+        {
+          "property": "og:image",
+          "content": "http://chasehaul.com/cdn/shop/files/1copy_796736bc-68e7-4092-a72e-fafafd0e29f5.jpg?v=1755612723&width=2048"
+        },
+        {
+          "property": "og:image:secure_url",
+          "content": "https://chasehaul.com/cdn/shop/files/1copy_796736bc-68e7-4092-a72e-fafafd0e29f5.jpg?v=1755612723&width=2048"
+        },
+        {
+          "property": "og:image:width",
+          "content": "1080"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1440"
+        },
+        {
+          "property": "og:description",
+          "content": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Light blue wide leg mid rise light weight clean look blast effect denim jeans, Has five pockets, belt loops and a button zip closure Color: Light Blue Material Composition: 69% Cotton, 29% Polyester 2% Elastane Fabric: Denim Length: "
+        },
+        {
+          "property": "og:url",
+          "content": "https://chasehaul.com/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Chase Haul"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        },
+        {
+          "name": "twitter:title",
+          "content": "24/7 Comfort  Light Blue Wide-Leg Mid-Rise Light weight Denim Jeans"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Light blue wide leg mid rise light weight clean look blast effect denim jeans, Has five pockets, belt loops and a button zip closure\n\n\nColor: Light Blue\n\nMaterial Composition: 69% Cotton, 29% Polyester 2% Elastane\n\nFabric: Denim\n\nLength: Regular\n\nFit: Wide-Leg Fit\n\nOccasion: Casual\n\nClosure: Button and Zip\n\nNumber of Pockets: 2 Side Pockets, 2 Back Pockets &amp; 1 Coin Pocket\n"
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://chasehaul.com/cdn/shop/files/1copy_796736bc-68e7-4092-a72e-fafafd0e29f5.jpg?crop=center&height=1200&v=1755612723&width=1200"
+        },
+        {
+          "name": "twitter:image:alt",
+          "content": ""
+        },
+        {
+          "name": "google-site-verification",
+          "content": "Az7ko13v9S1I-bj1_O421-jyV8SYnC4G-jURvsONLUg"
+        },
+        {
+          "name": "shopify-digital-wallet",
+          "content": "/67439067414/digital_wallets/dialog"
+        }
+      ],
+      "jsonLd": [
+        {
+          "@context": "http://schema.org/",
+          "@id": "/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158#product",
+          "@type": "ProductGroup",
+          "brand": {
+            "@type": "Brand",
+            "name": "Dolce Crudo"
+          },
+          "category": "Jeans",
+          "description": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Light blue wide leg mid rise light weight clean look blast effect denim jeans, Has five pockets, belt loops and a button zip closure\n\n\nColor: Light Blue\n\nMaterial Composition: 69% Cotton, 29% Polyester 2% Elastane\n\nFabric: Denim\n\nLength: Regular\n\nFit: Wide-Leg Fit\n\nOccasion: Casual\n\nClosure: Button and Zip\n\nNumber of Pockets: 2 Side Pockets, 2 Back Pockets &amp; 1 Coin Pocket\n",
+          "hasVariant": [
+            {
+              "@id": "/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158?variant=49405935091990#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1copy_796736bc-68e7-4092-a72e-fafafd0e29f5.jpg?v=1755612723&width=1920",
+              "name": "24/7 Comfort  Light Blue Wide-Leg Mid-Rise Light weight Denim Jeans - 26 / Blue",
+              "offers": {
+                "@id": "/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158?variant=49405935091990#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1295.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158?variant=49405935091990"
+              },
+              "sku": "DOSS18DEN02-50-158-26"
+            },
+            {
+              "@id": "/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158?variant=49405935124758#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1copy_796736bc-68e7-4092-a72e-fafafd0e29f5.jpg?v=1755612723&width=1920",
+              "name": "24/7 Comfort  Light Blue Wide-Leg Mid-Rise Light weight Denim Jeans - 28 / Blue",
+              "offers": {
+                "@id": "/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158?variant=49405935124758#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1295.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158?variant=49405935124758"
+              },
+              "sku": "DOSS18DEN02-50-158-28"
+            },
+            {
+              "@id": "/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158?variant=49405935157526#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1copy_796736bc-68e7-4092-a72e-fafafd0e29f5.jpg?v=1755612723&width=1920",
+              "name": "24/7 Comfort  Light Blue Wide-Leg Mid-Rise Light weight Denim Jeans - 30 / Blue",
+              "offers": {
+                "@id": "/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158?variant=49405935157526#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1295.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158?variant=49405935157526"
+              },
+              "sku": "DOSS18DEN02-50-158-30"
+            },
+            {
+              "@id": "/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158?variant=49405935190294#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1copy_796736bc-68e7-4092-a72e-fafafd0e29f5.jpg?v=1755612723&width=1920",
+              "name": "24/7 Comfort  Light Blue Wide-Leg Mid-Rise Light weight Denim Jeans - 32 / Blue",
+              "offers": {
+                "@id": "/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158?variant=49405935190294#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1295.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158?variant=49405935190294"
+              },
+              "sku": "DOSS18DEN02-50-158-32"
+            },
+            {
+              "@id": "/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158?variant=49405935223062#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1copy_796736bc-68e7-4092-a72e-fafafd0e29f5.jpg?v=1755612723&width=1920",
+              "name": "24/7 Comfort  Light Blue Wide-Leg Mid-Rise Light weight Denim Jeans - 34 / Blue",
+              "offers": {
+                "@id": "/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158?variant=49405935223062#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1295.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158?variant=49405935223062"
+              },
+              "sku": "DOSS18DEN02-50-158-34"
+            },
+            {
+              "@id": "/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158?variant=49405935255830#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1copy_796736bc-68e7-4092-a72e-fafafd0e29f5.jpg?v=1755612723&width=1920",
+              "name": "24/7 Comfort  Light Blue Wide-Leg Mid-Rise Light weight Denim Jeans - 36 / Blue",
+              "offers": {
+                "@id": "/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158?variant=49405935255830#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1295.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158?variant=49405935255830"
+              },
+              "sku": "DOSS18DEN02-50-158-36"
+            },
+            {
+              "@id": "/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158?variant=49405935288598#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1copy_796736bc-68e7-4092-a72e-fafafd0e29f5.jpg?v=1755612723&width=1920",
+              "name": "24/7 Comfort  Light Blue Wide-Leg Mid-Rise Light weight Denim Jeans - 38 / Blue",
+              "offers": {
+                "@id": "/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158?variant=49405935288598#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1295.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158?variant=49405935288598"
+              },
+              "sku": "DOSS18DEN02-50-158-38"
+            }
+          ],
+          "name": "24/7 Comfort  Light Blue Wide-Leg Mid-Rise Light weight Denim Jeans",
+          "productGroupID": "8210478858518",
+          "url": "https://chasehaul.com/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chasehaul.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "24/7 Comfort  Light Blue Wide-Leg Mid-Rise Light weight Denim Jeans",
+              "item": "https://chasehaul.com/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158"
+            }
+          ]
+        }
+      ],
+      "og": {
+        "og:type": "product",
+        "og:title": "24/7 Comfort  Light Blue Wide-Leg Mid-Rise Light weight Denim Jeans",
+        "og:image": "http://chasehaul.com/cdn/shop/files/1copy_796736bc-68e7-4092-a72e-fafafd0e29f5.jpg?v=1755612723&width=2048",
+        "og:image:secure_url": "https://chasehaul.com/cdn/shop/files/1copy_796736bc-68e7-4092-a72e-fafafd0e29f5.jpg?v=1755612723&width=2048",
+        "og:image:width": "1080",
+        "og:image:height": "1440",
+        "og:description": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Light blue wide leg mid rise light weight clean look blast effect denim jeans, Has five pockets, belt loops and a button zip closure Color: Light Blue Material Composition: 69% Cotton, 29% Polyester 2% Elastane Fabric: Denim Length: ",
+        "og:url": "https://chasehaul.com/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158",
+        "og:site_name": "Chase Haul"
+      },
+      "twitter": {
+        "twitter:card": "summary",
+        "twitter:title": "24/7 Comfort  Light Blue Wide-Leg Mid-Rise Light weight Denim Jeans",
+        "twitter:description": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Light blue wide leg mid rise light weight clean look blast effect denim jeans, Has five pockets, belt loops and a button zip closure\n\n\nColor: Light Blue\n\nMaterial Composition: 69% Cotton, 29% Polyester 2% Elastane\n\nFabric: Denim\n\nLength: Regular\n\nFit: Wide-Leg Fit\n\nOccasion: Casual\n\nClosure: Button and Zip\n\nNumber of Pockets: 2 Side Pockets, 2 Back Pockets &amp; 1 Coin Pocket\n",
+        "twitter:image": "https://chasehaul.com/cdn/shop/files/1copy_796736bc-68e7-4092-a72e-fafafd0e29f5.jpg?crop=center&height=1200&v=1755612723&width=1200",
+        "twitter:image:alt": ""
+      },
+      "standard": {
+        "description": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Light blue wide leg mid rise light weight clean look blast effect denim jeans, Has five pockets, belt loops and a button zip closure Color: Light Blue Material Composition: 69% Cotton, 29% Polyester 2% Elastane Fabric: Denim Length: ",
+        "canonical": "https://chasehaul.com/products/womens-light-blue-wide-leg-mid-rise-clean-look-regular-length-blast-effect-denim-jeans-doss18den02-50-158"
+      },
+      "missing": {
+        "critical": [
+          "JSON-LD Product schema - Critical for AI visibility"
+        ],
+        "recommended": [
+          "og:price:amount - Product price",
+          "og:price:currency - Currency code (INR, USD)",
+          "meta robots - Indexing directives"
+        ]
+      },
+      "present": [
+        "og:title",
+        "og:description",
+        "og:image",
+        "og:url",
+        "og:type",
+        "og:site_name",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image",
+        "meta description",
+        "meta canonical"
+      ],
+      "score": 75,
+      "imageAnalysis": {
+        "ogImage": "http://chasehaul.com/cdn/shop/files/1copy_796736bc-68e7-4092-a72e-fafafd0e29f5.jpg?v=1755612723&width=2048",
+        "hasHighResImage": false
+      }
+    },
+    {
+      "url": "https://chasehaul.com/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115",
+      "title": "24/7 Comfort 24/7 Comfort Blue Semi-Bootcut Mid-Rise Stretchable Denim",
+      "metaTags": [
+        {},
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        },
+        {
+          "name": "description",
+          "content": "Blue flared mid rise regular length stretchable boot-cut denim jeans, Has five pockets, belt loops and a button zip closure, Has a clean look and slit detailing Color: Blue Material Composition: 69% Cotton, 29% Polyester 2% Elastane Fabric: Denim Length: Regular Pattern: Clean Look Fit: Bootcut Fit Occasion: Casual Kni"
+        },
+        {
+          "property": "og:type",
+          "content": "product"
+        },
+        {
+          "property": "og:title",
+          "content": "24/7 Comfort 24/7 Comfort Blue Semi-Bootcut Mid-Rise Stretchable Denim Jeans"
+        },
+        {
+          "property": "product:price:amount",
+          "content": "1,250"
+        },
+        {
+          "property": "product:price:currency",
+          "content": "INR"
+        },
+        {
+          "property": "og:image",
+          "content": "http://chasehaul.com/cdn/shop/files/0_97ca71c2-8cf5-4d61-8d62-b29db8015e0a.jpg?v=1755609889&width=2048"
+        },
+        {
+          "property": "og:image:secure_url",
+          "content": "https://chasehaul.com/cdn/shop/files/0_97ca71c2-8cf5-4d61-8d62-b29db8015e0a.jpg?v=1755609889&width=2048"
+        },
+        {
+          "property": "og:image:width",
+          "content": "1080"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1440"
+        },
+        {
+          "property": "og:description",
+          "content": "Blue flared mid rise regular length stretchable boot-cut denim jeans, Has five pockets, belt loops and a button zip closure, Has a clean look and slit detailing Color: Blue Material Composition: 69% Cotton, 29% Polyester 2% Elastane Fabric: Denim Length: Regular Pattern: Clean Look Fit: Bootcut Fit Occasion: Casual Kni"
+        },
+        {
+          "property": "og:url",
+          "content": "https://chasehaul.com/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Chase Haul"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        },
+        {
+          "name": "twitter:title",
+          "content": "24/7 Comfort 24/7 Comfort Blue Semi-Bootcut Mid-Rise Stretchable Denim Jeans"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Blue flared mid rise regular length stretchable boot-cut denim jeans, Has five pockets, belt loops and a button zip closure, Has a clean look and slit detailing\n\n\nColor: Blue\n\nMaterial Composition: 69% Cotton, 29% Polyester 2% Elastane\n\nFabric: Denim\n\nLength: Regular\n\nPattern: Clean Look\n\nFit: Bootcut Fit\n\nOccasion: Casual\nKnit/Woven: \n\nClosure: Button and Zip\n\nNumber of Pockets: 2 Side Pockets, 2 Back Pockets &amp; 1 Coin Pocket\n"
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://chasehaul.com/cdn/shop/files/0_97ca71c2-8cf5-4d61-8d62-b29db8015e0a.jpg?crop=center&height=1200&v=1755609889&width=1200"
+        },
+        {
+          "name": "twitter:image:alt",
+          "content": ""
+        },
+        {
+          "name": "google-site-verification",
+          "content": "Az7ko13v9S1I-bj1_O421-jyV8SYnC4G-jURvsONLUg"
+        },
+        {
+          "name": "shopify-digital-wallet",
+          "content": "/67439067414/digital_wallets/dialog"
+        }
+      ],
+      "jsonLd": [
+        {
+          "@context": "http://schema.org/",
+          "@id": "/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115#product",
+          "@type": "ProductGroup",
+          "brand": {
+            "@type": "Brand",
+            "name": "Dolce Crudo"
+          },
+          "category": "Jeans",
+          "description": "Blue flared mid rise regular length stretchable boot-cut denim jeans, Has five pockets, belt loops and a button zip closure, Has a clean look and slit detailing\n\n\nColor: Blue\n\nMaterial Composition: 69% Cotton, 29% Polyester 2% Elastane\n\nFabric: Denim\n\nLength: Regular\n\nPattern: Clean Look\n\nFit: Bootcut Fit\n\nOccasion: Casual\nKnit/Woven: \n\nClosure: Button and Zip\n\nNumber of Pockets: 2 Side Pockets, 2 Back Pockets &amp; 1 Coin Pocket\n",
+          "hasVariant": [
+            {
+              "@id": "/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115?variant=49405849829654#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/0_97ca71c2-8cf5-4d61-8d62-b29db8015e0a.jpg?v=1755609889&width=1920",
+              "name": "24/7 Comfort 24/7 Comfort Blue Semi-Bootcut Mid-Rise Stretchable Denim Jeans - 26 / Navy Blue",
+              "offers": {
+                "@id": "/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115?variant=49405849829654#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1250.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115?variant=49405849829654"
+              },
+              "sku": "DOSS24DEN68-51-115-26"
+            },
+            {
+              "@id": "/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115?variant=49405849862422#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/0_97ca71c2-8cf5-4d61-8d62-b29db8015e0a.jpg?v=1755609889&width=1920",
+              "name": "24/7 Comfort 24/7 Comfort Blue Semi-Bootcut Mid-Rise Stretchable Denim Jeans - 28 / Navy Blue",
+              "offers": {
+                "@id": "/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115?variant=49405849862422#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1250.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115?variant=49405849862422"
+              },
+              "sku": "DOSS24DEN68-51-115-28"
+            },
+            {
+              "@id": "/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115?variant=49405849895190#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/0_97ca71c2-8cf5-4d61-8d62-b29db8015e0a.jpg?v=1755609889&width=1920",
+              "name": "24/7 Comfort 24/7 Comfort Blue Semi-Bootcut Mid-Rise Stretchable Denim Jeans - 30 / Navy Blue",
+              "offers": {
+                "@id": "/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115?variant=49405849895190#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1250.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115?variant=49405849895190"
+              },
+              "sku": "DOSS24DEN68-51-115-30"
+            },
+            {
+              "@id": "/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115?variant=49405849927958#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/0_97ca71c2-8cf5-4d61-8d62-b29db8015e0a.jpg?v=1755609889&width=1920",
+              "name": "24/7 Comfort 24/7 Comfort Blue Semi-Bootcut Mid-Rise Stretchable Denim Jeans - 32 / Navy Blue",
+              "offers": {
+                "@id": "/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115?variant=49405849927958#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1250.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115?variant=49405849927958"
+              },
+              "sku": "DOSS24DEN68-51-115-32"
+            },
+            {
+              "@id": "/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115?variant=49405849960726#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/0_97ca71c2-8cf5-4d61-8d62-b29db8015e0a.jpg?v=1755609889&width=1920",
+              "name": "24/7 Comfort 24/7 Comfort Blue Semi-Bootcut Mid-Rise Stretchable Denim Jeans - 34 / Navy Blue",
+              "offers": {
+                "@id": "/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115?variant=49405849960726#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1250.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115?variant=49405849960726"
+              },
+              "sku": "DOSS24DEN68-51-115-34"
+            },
+            {
+              "@id": "/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115?variant=50606834385174#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/0_97ca71c2-8cf5-4d61-8d62-b29db8015e0a.jpg?v=1755609889&width=1920",
+              "name": "24/7 Comfort 24/7 Comfort Blue Semi-Bootcut Mid-Rise Stretchable Denim Jeans - 36 / Navy Blue",
+              "offers": {
+                "@id": "/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115?variant=50606834385174#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/OutOfStock",
+                "price": "1250.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115?variant=50606834385174"
+              },
+              "sku": "DOSS24DEN68-51-115-36"
+            },
+            {
+              "@id": "/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115?variant=50606834417942#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/0_97ca71c2-8cf5-4d61-8d62-b29db8015e0a.jpg?v=1755609889&width=1920",
+              "name": "24/7 Comfort 24/7 Comfort Blue Semi-Bootcut Mid-Rise Stretchable Denim Jeans - 38 / Navy Blue",
+              "offers": {
+                "@id": "/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115?variant=50606834417942#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/OutOfStock",
+                "price": "1250.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115?variant=50606834417942"
+              },
+              "sku": "DOSS24DEN68-51-115-38"
+            }
+          ],
+          "name": "24/7 Comfort 24/7 Comfort Blue Semi-Bootcut Mid-Rise Stretchable Denim Jeans",
+          "productGroupID": "9554534891798",
+          "url": "https://chasehaul.com/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chasehaul.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "24/7 Comfort 24/7 Comfort Blue Semi-Bootcut Mid-Rise Stretchable Denim Jeans",
+              "item": "https://chasehaul.com/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115"
+            }
+          ]
+        }
+      ],
+      "og": {
+        "og:type": "product",
+        "og:title": "24/7 Comfort 24/7 Comfort Blue Semi-Bootcut Mid-Rise Stretchable Denim Jeans",
+        "og:image": "http://chasehaul.com/cdn/shop/files/0_97ca71c2-8cf5-4d61-8d62-b29db8015e0a.jpg?v=1755609889&width=2048",
+        "og:image:secure_url": "https://chasehaul.com/cdn/shop/files/0_97ca71c2-8cf5-4d61-8d62-b29db8015e0a.jpg?v=1755609889&width=2048",
+        "og:image:width": "1080",
+        "og:image:height": "1440",
+        "og:description": "Blue flared mid rise regular length stretchable boot-cut denim jeans, Has five pockets, belt loops and a button zip closure, Has a clean look and slit detailing Color: Blue Material Composition: 69% Cotton, 29% Polyester 2% Elastane Fabric: Denim Length: Regular Pattern: Clean Look Fit: Bootcut Fit Occasion: Casual Kni",
+        "og:url": "https://chasehaul.com/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115",
+        "og:site_name": "Chase Haul"
+      },
+      "twitter": {
+        "twitter:card": "summary",
+        "twitter:title": "24/7 Comfort 24/7 Comfort Blue Semi-Bootcut Mid-Rise Stretchable Denim Jeans",
+        "twitter:description": "Blue flared mid rise regular length stretchable boot-cut denim jeans, Has five pockets, belt loops and a button zip closure, Has a clean look and slit detailing\n\n\nColor: Blue\n\nMaterial Composition: 69% Cotton, 29% Polyester 2% Elastane\n\nFabric: Denim\n\nLength: Regular\n\nPattern: Clean Look\n\nFit: Bootcut Fit\n\nOccasion: Casual\nKnit/Woven: \n\nClosure: Button and Zip\n\nNumber of Pockets: 2 Side Pockets, 2 Back Pockets &amp; 1 Coin Pocket\n",
+        "twitter:image": "https://chasehaul.com/cdn/shop/files/0_97ca71c2-8cf5-4d61-8d62-b29db8015e0a.jpg?crop=center&height=1200&v=1755609889&width=1200",
+        "twitter:image:alt": ""
+      },
+      "standard": {
+        "description": "Blue flared mid rise regular length stretchable boot-cut denim jeans, Has five pockets, belt loops and a button zip closure, Has a clean look and slit detailing Color: Blue Material Composition: 69% Cotton, 29% Polyester 2% Elastane Fabric: Denim Length: Regular Pattern: Clean Look Fit: Bootcut Fit Occasion: Casual Kni",
+        "canonical": "https://chasehaul.com/products/women-s-blue-bootcut-mid-rise-regular-length-denim-stretchable-jeans-doss24den68-51-115"
+      },
+      "missing": {
+        "critical": [
+          "JSON-LD Product schema - Critical for AI visibility"
+        ],
+        "recommended": [
+          "og:price:amount - Product price",
+          "og:price:currency - Currency code (INR, USD)",
+          "meta robots - Indexing directives"
+        ]
+      },
+      "present": [
+        "og:title",
+        "og:description",
+        "og:image",
+        "og:url",
+        "og:type",
+        "og:site_name",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image",
+        "meta description",
+        "meta canonical"
+      ],
+      "score": 75,
+      "imageAnalysis": {
+        "ogImage": "http://chasehaul.com/cdn/shop/files/0_97ca71c2-8cf5-4d61-8d62-b29db8015e0a.jpg?v=1755609889&width=2048",
+        "hasHighResImage": false
+      }
+    },
+    {
+      "url": "https://chasehaul.com/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62",
+      "title": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jea",
+      "metaTags": [
+        {},
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        },
+        {
+          "name": "description",
+          "content": "Black Bootcut High rise Clean look Regular Stretchable Denim Jeans. It has a button and zip fly closure with coin, patch and side pockets. Color: Black Material Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane Fabric: Cotton Length: Regular Pattern: Solid Fit: Wide-Leg Occasion: Casual Knit/Woven: Woven Waist Ri"
+        },
+        {
+          "property": "og:type",
+          "content": "product"
+        },
+        {
+          "property": "og:title",
+          "content": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans"
+        },
+        {
+          "property": "product:price:amount",
+          "content": "1,295"
+        },
+        {
+          "property": "product:price:currency",
+          "content": "INR"
+        },
+        {
+          "property": "og:image",
+          "content": "http://chasehaul.com/cdn/shop/files/6_60e84b41-ee99-4a55-afd3-387861375c15.jpg?v=1755611986&width=2048"
+        },
+        {
+          "property": "og:image:secure_url",
+          "content": "https://chasehaul.com/cdn/shop/files/6_60e84b41-ee99-4a55-afd3-387861375c15.jpg?v=1755611986&width=2048"
+        },
+        {
+          "property": "og:image:width",
+          "content": "1080"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1440"
+        },
+        {
+          "property": "og:description",
+          "content": "Black Bootcut High rise Clean look Regular Stretchable Denim Jeans. It has a button and zip fly closure with coin, patch and side pockets. Color: Black Material Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane Fabric: Cotton Length: Regular Pattern: Solid Fit: Wide-Leg Occasion: Casual Knit/Woven: Woven Waist Ri"
+        },
+        {
+          "property": "og:url",
+          "content": "https://chasehaul.com/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Chase Haul"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        },
+        {
+          "name": "twitter:title",
+          "content": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Black Bootcut High rise Clean look Regular Stretchable Denim Jeans. It has a button and zip fly closure with coin, patch and side pockets.\n\n\nColor: Black\n\nMaterial Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane\n\nFabric: Cotton\n\nLength: Regular\n\nPattern: Solid\n\nFit: Wide-Leg\n\nOccasion: Casual\n\nKnit/Woven: Woven\n\nWaist Rise: High rise\n\nClosure: Button and Zip Fly\n\nNumber of Pockets: 2\n\nWash Care: Machine wash cold with like colors, wash inside out, do not tumble dry, do not bleach\n"
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://chasehaul.com/cdn/shop/files/6_60e84b41-ee99-4a55-afd3-387861375c15.jpg?crop=center&height=1200&v=1755611986&width=1200"
+        },
+        {
+          "name": "twitter:image:alt",
+          "content": ""
+        },
+        {
+          "name": "google-site-verification",
+          "content": "Az7ko13v9S1I-bj1_O421-jyV8SYnC4G-jURvsONLUg"
+        },
+        {
+          "name": "shopify-digital-wallet",
+          "content": "/67439067414/digital_wallets/dialog"
+        }
+      ],
+      "jsonLd": [
+        {
+          "@context": "http://schema.org/",
+          "@id": "/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62#product",
+          "@type": "ProductGroup",
+          "brand": {
+            "@type": "Brand",
+            "name": "Miss Chase"
+          },
+          "category": "Jeans",
+          "description": "Black Bootcut High rise Clean look Regular Stretchable Denim Jeans. It has a button and zip fly closure with coin, patch and side pockets.\n\n\nColor: Black\n\nMaterial Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane\n\nFabric: Cotton\n\nLength: Regular\n\nPattern: Solid\n\nFit: Wide-Leg\n\nOccasion: Casual\n\nKnit/Woven: Woven\n\nWaist Rise: High rise\n\nClosure: Button and Zip Fly\n\nNumber of Pockets: 2\n\nWash Care: Machine wash cold with like colors, wash inside out, do not tumble dry, do not bleach\n",
+          "hasVariant": [
+            {
+              "@id": "/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62?variant=49405909860630#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/6_60e84b41-ee99-4a55-afd3-387861375c15.jpg?v=1755611986&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans - 26 / Black",
+              "offers": {
+                "@id": "/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62?variant=49405909860630#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1295.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62?variant=49405909860630"
+              },
+              "sku": "MCSS22DEN12-14-62-26"
+            },
+            {
+              "@id": "/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62?variant=49405909893398#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/6_60e84b41-ee99-4a55-afd3-387861375c15.jpg?v=1755611986&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans - 28 / Black",
+              "offers": {
+                "@id": "/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62?variant=49405909893398#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1295.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62?variant=49405909893398"
+              },
+              "sku": "MCSS22DEN12-14-62-28"
+            },
+            {
+              "@id": "/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62?variant=49405909926166#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/6_60e84b41-ee99-4a55-afd3-387861375c15.jpg?v=1755611986&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans - 30 / Black",
+              "offers": {
+                "@id": "/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62?variant=49405909926166#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1295.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62?variant=49405909926166"
+              },
+              "sku": "MCSS22DEN12-14-62-30"
+            },
+            {
+              "@id": "/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62?variant=49405909958934#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/6_60e84b41-ee99-4a55-afd3-387861375c15.jpg?v=1755611986&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans - 32 / Black",
+              "offers": {
+                "@id": "/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62?variant=49405909958934#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1295.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62?variant=49405909958934"
+              },
+              "sku": "MCSS22DEN12-14-62-32"
+            },
+            {
+              "@id": "/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62?variant=49405909991702#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/6_60e84b41-ee99-4a55-afd3-387861375c15.jpg?v=1755611986&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans - 34 / Black",
+              "offers": {
+                "@id": "/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62?variant=49405909991702#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1295.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62?variant=49405909991702"
+              },
+              "sku": "MCSS22DEN12-14-62-34"
+            },
+            {
+              "@id": "/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62?variant=49405910024470#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/6_60e84b41-ee99-4a55-afd3-387861375c15.jpg?v=1755611986&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans - 36 / Black",
+              "offers": {
+                "@id": "/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62?variant=49405910024470#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1295.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62?variant=49405910024470"
+              },
+              "sku": "MCSS22DEN12-14-62-36"
+            },
+            {
+              "@id": "/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62?variant=49405910057238#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/6_60e84b41-ee99-4a55-afd3-387861375c15.jpg?v=1755611986&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans - 38 / Black",
+              "offers": {
+                "@id": "/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62?variant=49405910057238#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1295.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62?variant=49405910057238"
+              },
+              "sku": "MCSS22DEN12-14-62-38"
+            }
+          ],
+          "name": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans",
+          "productGroupID": "8310648963350",
+          "url": "https://chasehaul.com/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chasehaul.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans",
+              "item": "https://chasehaul.com/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62"
+            }
+          ]
+        }
+      ],
+      "og": {
+        "og:type": "product",
+        "og:title": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans",
+        "og:image": "http://chasehaul.com/cdn/shop/files/6_60e84b41-ee99-4a55-afd3-387861375c15.jpg?v=1755611986&width=2048",
+        "og:image:secure_url": "https://chasehaul.com/cdn/shop/files/6_60e84b41-ee99-4a55-afd3-387861375c15.jpg?v=1755611986&width=2048",
+        "og:image:width": "1080",
+        "og:image:height": "1440",
+        "og:description": "Black Bootcut High rise Clean look Regular Stretchable Denim Jeans. It has a button and zip fly closure with coin, patch and side pockets. Color: Black Material Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane Fabric: Cotton Length: Regular Pattern: Solid Fit: Wide-Leg Occasion: Casual Knit/Woven: Woven Waist Ri",
+        "og:url": "https://chasehaul.com/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62",
+        "og:site_name": "Chase Haul"
+      },
+      "twitter": {
+        "twitter:card": "summary",
+        "twitter:title": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans",
+        "twitter:description": "Black Bootcut High rise Clean look Regular Stretchable Denim Jeans. It has a button and zip fly closure with coin, patch and side pockets.\n\n\nColor: Black\n\nMaterial Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane\n\nFabric: Cotton\n\nLength: Regular\n\nPattern: Solid\n\nFit: Wide-Leg\n\nOccasion: Casual\n\nKnit/Woven: Woven\n\nWaist Rise: High rise\n\nClosure: Button and Zip Fly\n\nNumber of Pockets: 2\n\nWash Care: Machine wash cold with like colors, wash inside out, do not tumble dry, do not bleach\n",
+        "twitter:image": "https://chasehaul.com/cdn/shop/files/6_60e84b41-ee99-4a55-afd3-387861375c15.jpg?crop=center&height=1200&v=1755611986&width=1200",
+        "twitter:image:alt": ""
+      },
+      "standard": {
+        "description": "Black Bootcut High rise Clean look Regular Stretchable Denim Jeans. It has a button and zip fly closure with coin, patch and side pockets. Color: Black Material Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane Fabric: Cotton Length: Regular Pattern: Solid Fit: Wide-Leg Occasion: Casual Knit/Woven: Woven Waist Ri",
+        "canonical": "https://chasehaul.com/products/miss-chase-womens-black-wide-leg-high-rise-clean-look-regular-stretchable-denim-jeans-mcss22den12-14-62"
+      },
+      "missing": {
+        "critical": [
+          "JSON-LD Product schema - Critical for AI visibility"
+        ],
+        "recommended": [
+          "og:price:amount - Product price",
+          "og:price:currency - Currency code (INR, USD)",
+          "meta robots - Indexing directives"
+        ]
+      },
+      "present": [
+        "og:title",
+        "og:description",
+        "og:image",
+        "og:url",
+        "og:type",
+        "og:site_name",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image",
+        "meta description",
+        "meta canonical"
+      ],
+      "score": 75,
+      "imageAnalysis": {
+        "ogImage": "http://chasehaul.com/cdn/shop/files/6_60e84b41-ee99-4a55-afd3-387861375c15.jpg?v=1755611986&width=2048",
+        "hasHighResImage": false
+      }
+    },
+    {
+      "url": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doaw23den12-80-62",
+      "title": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jea",
+      "metaTags": [
+        {},
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        },
+        {
+          "name": "description",
+          "content": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High-Rise Clean-Look Regular-Length Stretchable Denim Jeans. It Is With Belt-Loops And Button And Zipper Fly. Color: Black Material Composition: 79% Cotton 19% Polyester 2% Elastane Fabric: Denim Length: Regular Pattern"
+        },
+        {
+          "property": "og:type",
+          "content": "product"
+        },
+        {
+          "property": "og:title",
+          "content": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans"
+        },
+        {
+          "property": "product:price:amount",
+          "content": "1,399"
+        },
+        {
+          "property": "product:price:currency",
+          "content": "INR"
+        },
+        {
+          "property": "og:image",
+          "content": "http://chasehaul.com/cdn/shop/files/1-Photoroom_8f56a9a5-e2a2-431b-a24e-8275e36d5388.jpg?v=1755610665&width=2048"
+        },
+        {
+          "property": "og:image:secure_url",
+          "content": "https://chasehaul.com/cdn/shop/files/1-Photoroom_8f56a9a5-e2a2-431b-a24e-8275e36d5388.jpg?v=1755610665&width=2048"
+        },
+        {
+          "property": "og:image:width",
+          "content": "1080"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1440"
+        },
+        {
+          "property": "og:description",
+          "content": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High-Rise Clean-Look Regular-Length Stretchable Denim Jeans. It Is With Belt-Loops And Button And Zipper Fly. Color: Black Material Composition: 79% Cotton 19% Polyester 2% Elastane Fabric: Denim Length: Regular Pattern"
+        },
+        {
+          "property": "og:url",
+          "content": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doaw23den12-80-62"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Chase Haul"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        },
+        {
+          "name": "twitter:title",
+          "content": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High-Rise Clean-Look Regular-Length Stretchable Denim Jeans. It Is With Belt-Loops And Button And Zipper Fly.\n\n\nColor: Black\n\nMaterial Composition: 79% Cotton 19% Polyester 2% Elastane\n\nFabric: Denim\n\nLength: Regular\n\nPattern: Clean look\n\nFit: Bootcut\n\nOccasion: Casual\n\nClosure: Button and Zip Fly\n\nNumber of Pockets: 4 Pocket\n"
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://chasehaul.com/cdn/shop/files/1-Photoroom_8f56a9a5-e2a2-431b-a24e-8275e36d5388.jpg?crop=center&height=1200&v=1755610665&width=1200"
+        },
+        {
+          "name": "twitter:image:alt",
+          "content": ""
+        },
+        {
+          "name": "google-site-verification",
+          "content": "Az7ko13v9S1I-bj1_O421-jyV8SYnC4G-jURvsONLUg"
+        },
+        {
+          "name": "shopify-digital-wallet",
+          "content": "/67439067414/digital_wallets/dialog"
+        }
+      ],
+      "jsonLd": [
+        {
+          "@context": "http://schema.org/",
+          "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doaw23den12-80-62#product",
+          "@type": "ProductGroup",
+          "brand": {
+            "@type": "Brand",
+            "name": "Dolce Crudo"
+          },
+          "category": "Jeans",
+          "description": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High-Rise Clean-Look Regular-Length Stretchable Denim Jeans. It Is With Belt-Loops And Button And Zipper Fly.\n\n\nColor: Black\n\nMaterial Composition: 79% Cotton 19% Polyester 2% Elastane\n\nFabric: Denim\n\nLength: Regular\n\nPattern: Clean look\n\nFit: Bootcut\n\nOccasion: Casual\n\nClosure: Button and Zip Fly\n\nNumber of Pockets: 4 Pocket\n",
+          "hasVariant": [
+            {
+              "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doaw23den12-80-62?variant=49405883220246#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1-Photoroom_8f56a9a5-e2a2-431b-a24e-8275e36d5388.jpg?v=1755610665&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans - 26 / Black",
+              "offers": {
+                "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doaw23den12-80-62?variant=49405883220246#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1399.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doaw23den12-80-62?variant=49405883220246"
+              },
+              "sku": "DOAW23DEN12-80-62-26"
+            },
+            {
+              "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doaw23den12-80-62?variant=49405883253014#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1-Photoroom_8f56a9a5-e2a2-431b-a24e-8275e36d5388.jpg?v=1755610665&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans - 28 / Black",
+              "offers": {
+                "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doaw23den12-80-62?variant=49405883253014#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1399.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doaw23den12-80-62?variant=49405883253014"
+              },
+              "sku": "DOAW23DEN12-80-62-28"
+            },
+            {
+              "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doaw23den12-80-62?variant=49405883285782#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1-Photoroom_8f56a9a5-e2a2-431b-a24e-8275e36d5388.jpg?v=1755610665&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans - 30 / Black",
+              "offers": {
+                "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doaw23den12-80-62?variant=49405883285782#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1399.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doaw23den12-80-62?variant=49405883285782"
+              },
+              "sku": "DOAW23DEN12-80-62-30"
+            },
+            {
+              "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doaw23den12-80-62?variant=49405883318550#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1-Photoroom_8f56a9a5-e2a2-431b-a24e-8275e36d5388.jpg?v=1755610665&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans - 32 / Black",
+              "offers": {
+                "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doaw23den12-80-62?variant=49405883318550#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1399.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doaw23den12-80-62?variant=49405883318550"
+              },
+              "sku": "DOAW23DEN12-80-62-32"
+            },
+            {
+              "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doaw23den12-80-62?variant=49405883351318#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1-Photoroom_8f56a9a5-e2a2-431b-a24e-8275e36d5388.jpg?v=1755610665&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans - 34 / Black",
+              "offers": {
+                "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doaw23den12-80-62?variant=49405883351318#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1399.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doaw23den12-80-62?variant=49405883351318"
+              },
+              "sku": "DOAW23DEN12-80-62-34"
+            }
+          ],
+          "name": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans",
+          "productGroupID": "9183436275990",
+          "url": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doaw23den12-80-62"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chasehaul.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans",
+              "item": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doaw23den12-80-62"
+            }
+          ]
+        }
+      ],
+      "og": {
+        "og:type": "product",
+        "og:title": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans",
+        "og:image": "http://chasehaul.com/cdn/shop/files/1-Photoroom_8f56a9a5-e2a2-431b-a24e-8275e36d5388.jpg?v=1755610665&width=2048",
+        "og:image:secure_url": "https://chasehaul.com/cdn/shop/files/1-Photoroom_8f56a9a5-e2a2-431b-a24e-8275e36d5388.jpg?v=1755610665&width=2048",
+        "og:image:width": "1080",
+        "og:image:height": "1440",
+        "og:description": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High-Rise Clean-Look Regular-Length Stretchable Denim Jeans. It Is With Belt-Loops And Button And Zipper Fly. Color: Black Material Composition: 79% Cotton 19% Polyester 2% Elastane Fabric: Denim Length: Regular Pattern",
+        "og:url": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doaw23den12-80-62",
+        "og:site_name": "Chase Haul"
+      },
+      "twitter": {
+        "twitter:card": "summary",
+        "twitter:title": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans",
+        "twitter:description": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High-Rise Clean-Look Regular-Length Stretchable Denim Jeans. It Is With Belt-Loops And Button And Zipper Fly.\n\n\nColor: Black\n\nMaterial Composition: 79% Cotton 19% Polyester 2% Elastane\n\nFabric: Denim\n\nLength: Regular\n\nPattern: Clean look\n\nFit: Bootcut\n\nOccasion: Casual\n\nClosure: Button and Zip Fly\n\nNumber of Pockets: 4 Pocket\n",
+        "twitter:image": "https://chasehaul.com/cdn/shop/files/1-Photoroom_8f56a9a5-e2a2-431b-a24e-8275e36d5388.jpg?crop=center&height=1200&v=1755610665&width=1200",
+        "twitter:image:alt": ""
+      },
+      "standard": {
+        "description": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High-Rise Clean-Look Regular-Length Stretchable Denim Jeans. It Is With Belt-Loops And Button And Zipper Fly. Color: Black Material Composition: 79% Cotton 19% Polyester 2% Elastane Fabric: Denim Length: Regular Pattern",
+        "canonical": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doaw23den12-80-62"
+      },
+      "missing": {
+        "critical": [
+          "JSON-LD Product schema - Critical for AI visibility"
+        ],
+        "recommended": [
+          "og:price:amount - Product price",
+          "og:price:currency - Currency code (INR, USD)",
+          "meta robots - Indexing directives"
+        ]
+      },
+      "present": [
+        "og:title",
+        "og:description",
+        "og:image",
+        "og:url",
+        "og:type",
+        "og:site_name",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image",
+        "meta description",
+        "meta canonical"
+      ],
+      "score": 75,
+      "imageAnalysis": {
+        "ogImage": "http://chasehaul.com/cdn/shop/files/1-Photoroom_8f56a9a5-e2a2-431b-a24e-8275e36d5388.jpg?v=1755610665&width=2048",
+        "hasHighResImage": false
+      }
+    },
+    {
+      "url": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62",
+      "title": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jea",
+      "metaTags": [
+        {},
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        },
+        {
+          "name": "description",
+          "content": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High-Rise Clean-Look Regular-Length Stretchable Denim Jeans. It Is With Belt-Loops And Button And Zipper Fly. Color: Black Material Composition: 79% Cotton 19% Polyester 2% Elastane Fabric: Denim Length: Regular Pattern"
+        },
+        {
+          "property": "og:type",
+          "content": "product"
+        },
+        {
+          "property": "og:title",
+          "content": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans"
+        },
+        {
+          "property": "product:price:amount",
+          "content": "1,399"
+        },
+        {
+          "property": "product:price:currency",
+          "content": "INR"
+        },
+        {
+          "property": "og:image",
+          "content": "http://chasehaul.com/cdn/shop/files/2_f940a4a5-0d19-4d1f-9708-7b5244b33ca4.jpg?v=1755609961&width=2048"
+        },
+        {
+          "property": "og:image:secure_url",
+          "content": "https://chasehaul.com/cdn/shop/files/2_f940a4a5-0d19-4d1f-9708-7b5244b33ca4.jpg?v=1755609961&width=2048"
+        },
+        {
+          "property": "og:image:width",
+          "content": "1080"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1440"
+        },
+        {
+          "property": "og:description",
+          "content": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High-Rise Clean-Look Regular-Length Stretchable Denim Jeans. It Is With Belt-Loops And Button And Zipper Fly. Color: Black Material Composition: 79% Cotton 19% Polyester 2% Elastane Fabric: Denim Length: Regular Pattern"
+        },
+        {
+          "property": "og:url",
+          "content": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Chase Haul"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        },
+        {
+          "name": "twitter:title",
+          "content": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High-Rise Clean-Look Regular-Length Stretchable Denim Jeans. It Is With Belt-Loops And Button And Zipper Fly.\n\n\nColor: Black\n\nMaterial Composition: 79% Cotton 19% Polyester 2% Elastane\n\nFabric: Denim\n\nLength: Regular\n\nPattern: Clean look\n\nFit: Bootcut\n\nOccasion: Casual\n\nKnit/Woven: Woven\n\nClosure: Button and Zip Fly\n\nNumber of Pockets: Yes\n"
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://chasehaul.com/cdn/shop/files/2_f940a4a5-0d19-4d1f-9708-7b5244b33ca4.jpg?crop=center&height=1200&v=1755609961&width=1200"
+        },
+        {
+          "name": "twitter:image:alt",
+          "content": ""
+        },
+        {
+          "name": "google-site-verification",
+          "content": "Az7ko13v9S1I-bj1_O421-jyV8SYnC4G-jURvsONLUg"
+        },
+        {
+          "name": "shopify-digital-wallet",
+          "content": "/67439067414/digital_wallets/dialog"
+        }
+      ],
+      "jsonLd": [
+        {
+          "@context": "http://schema.org/",
+          "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62#product",
+          "@type": "ProductGroup",
+          "brand": {
+            "@type": "Brand",
+            "name": "Miss Chase"
+          },
+          "category": "Jeans",
+          "description": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High-Rise Clean-Look Regular-Length Stretchable Denim Jeans. It Is With Belt-Loops And Button And Zipper Fly.\n\n\nColor: Black\n\nMaterial Composition: 79% Cotton 19% Polyester 2% Elastane\n\nFabric: Denim\n\nLength: Regular\n\nPattern: Clean look\n\nFit: Bootcut\n\nOccasion: Casual\n\nKnit/Woven: Woven\n\nClosure: Button and Zip Fly\n\nNumber of Pockets: Yes\n",
+          "hasVariant": [
+            {
+              "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62?variant=49405852123414#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/2_f940a4a5-0d19-4d1f-9708-7b5244b33ca4.jpg?v=1755609961&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans - 26 / Black",
+              "offers": {
+                "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62?variant=49405852123414#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1399.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62?variant=49405852123414"
+              },
+              "sku": "MCAW23DEN12-80-62-26"
+            },
+            {
+              "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62?variant=49405852156182#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/2_f940a4a5-0d19-4d1f-9708-7b5244b33ca4.jpg?v=1755609961&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans - 28 / Black",
+              "offers": {
+                "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62?variant=49405852156182#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1399.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62?variant=49405852156182"
+              },
+              "sku": "MCAW23DEN12-80-62-28"
+            },
+            {
+              "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62?variant=49405852188950#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/2_f940a4a5-0d19-4d1f-9708-7b5244b33ca4.jpg?v=1755609961&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans - 30 / Black",
+              "offers": {
+                "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62?variant=49405852188950#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1399.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62?variant=49405852188950"
+              },
+              "sku": "MCAW23DEN12-80-62-30"
+            },
+            {
+              "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62?variant=49405852221718#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/2_f940a4a5-0d19-4d1f-9708-7b5244b33ca4.jpg?v=1755609961&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans - 32 / Black",
+              "offers": {
+                "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62?variant=49405852221718#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1399.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62?variant=49405852221718"
+              },
+              "sku": "MCAW23DEN12-80-62-32"
+            },
+            {
+              "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62?variant=49405852254486#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/2_f940a4a5-0d19-4d1f-9708-7b5244b33ca4.jpg?v=1755609961&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans - 34 / Black",
+              "offers": {
+                "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62?variant=49405852254486#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1399.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62?variant=49405852254486"
+              },
+              "sku": "MCAW23DEN12-80-62-34"
+            },
+            {
+              "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62?variant=50498162622742#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/2_f940a4a5-0d19-4d1f-9708-7b5244b33ca4.jpg?v=1755609961&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans - 36 / Black",
+              "offers": {
+                "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62?variant=50498162622742#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1399.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62?variant=50498162622742"
+              },
+              "sku": "MCAW23DEN12-80-62-36"
+            },
+            {
+              "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62?variant=50498162655510#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/2_f940a4a5-0d19-4d1f-9708-7b5244b33ca4.jpg?v=1755609961&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans - 38 / Black",
+              "offers": {
+                "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62?variant=50498162655510#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1399.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62?variant=50498162655510"
+              },
+              "sku": "MCAW23DEN12-80-62-38"
+            }
+          ],
+          "name": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans",
+          "productGroupID": "9520756359446",
+          "url": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chasehaul.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans",
+              "item": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62"
+            }
+          ]
+        }
+      ],
+      "og": {
+        "og:type": "product",
+        "og:title": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans",
+        "og:image": "http://chasehaul.com/cdn/shop/files/2_f940a4a5-0d19-4d1f-9708-7b5244b33ca4.jpg?v=1755609961&width=2048",
+        "og:image:secure_url": "https://chasehaul.com/cdn/shop/files/2_f940a4a5-0d19-4d1f-9708-7b5244b33ca4.jpg?v=1755609961&width=2048",
+        "og:image:width": "1080",
+        "og:image:height": "1440",
+        "og:description": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High-Rise Clean-Look Regular-Length Stretchable Denim Jeans. It Is With Belt-Loops And Button And Zipper Fly. Color: Black Material Composition: 79% Cotton 19% Polyester 2% Elastane Fabric: Denim Length: Regular Pattern",
+        "og:url": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62",
+        "og:site_name": "Chase Haul"
+      },
+      "twitter": {
+        "twitter:card": "summary",
+        "twitter:title": "24/7 Comfort Black Bell-Bottom Bootcut High-Rise Stretchable Denim Jeans",
+        "twitter:description": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High-Rise Clean-Look Regular-Length Stretchable Denim Jeans. It Is With Belt-Loops And Button And Zipper Fly.\n\n\nColor: Black\n\nMaterial Composition: 79% Cotton 19% Polyester 2% Elastane\n\nFabric: Denim\n\nLength: Regular\n\nPattern: Clean look\n\nFit: Bootcut\n\nOccasion: Casual\n\nKnit/Woven: Woven\n\nClosure: Button and Zip Fly\n\nNumber of Pockets: Yes\n",
+        "twitter:image": "https://chasehaul.com/cdn/shop/files/2_f940a4a5-0d19-4d1f-9708-7b5244b33ca4.jpg?crop=center&height=1200&v=1755609961&width=1200",
+        "twitter:image:alt": ""
+      },
+      "standard": {
+        "description": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High-Rise Clean-Look Regular-Length Stretchable Denim Jeans. It Is With Belt-Loops And Button And Zipper Fly. Color: Black Material Composition: 79% Cotton 19% Polyester 2% Elastane Fabric: Denim Length: Regular Pattern",
+        "canonical": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcaw23den12-80-62"
+      },
+      "missing": {
+        "critical": [
+          "JSON-LD Product schema - Critical for AI visibility"
+        ],
+        "recommended": [
+          "og:price:amount - Product price",
+          "og:price:currency - Currency code (INR, USD)",
+          "meta robots - Indexing directives"
+        ]
+      },
+      "present": [
+        "og:title",
+        "og:description",
+        "og:image",
+        "og:url",
+        "og:type",
+        "og:site_name",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image",
+        "meta description",
+        "meta canonical"
+      ],
+      "score": 75,
+      "imageAnalysis": {
+        "ogImage": "http://chasehaul.com/cdn/shop/files/2_f940a4a5-0d19-4d1f-9708-7b5244b33ca4.jpg?v=1755609961&width=2048",
+        "hasHighResImage": false
+      }
+    },
+    {
+      "url": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doss23den12-45-62",
+      "title": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable",
+      "metaTags": [
+        {},
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        },
+        {
+          "name": "description",
+          "content": "Black Bootcut High Rise Clean Look Denim Jeans. It Has Five Pockets, Belt Loops And Button Zip Closure. Color: Black Material Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane Fabric: Denim Length: Regular Pattern: Clean look Fit: Bootcut Occasion: Casual Knit/Woven: Woven Closure: Button and Zip Fly Number of Po"
+        },
+        {
+          "property": "og:type",
+          "content": "product"
+        },
+        {
+          "property": "og:title",
+          "content": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Denim Jeans"
+        },
+        {
+          "property": "product:price:amount",
+          "content": "1,439"
+        },
+        {
+          "property": "product:price:currency",
+          "content": "INR"
+        },
+        {
+          "property": "og:image",
+          "content": "http://chasehaul.com/cdn/shop/files/2_80155a7e-5f0e-4ab6-82d0-bef6d0518b06.jpg?v=1755610112&width=2048"
+        },
+        {
+          "property": "og:image:secure_url",
+          "content": "https://chasehaul.com/cdn/shop/files/2_80155a7e-5f0e-4ab6-82d0-bef6d0518b06.jpg?v=1755610112&width=2048"
+        },
+        {
+          "property": "og:image:width",
+          "content": "1080"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1440"
+        },
+        {
+          "property": "og:description",
+          "content": "Black Bootcut High Rise Clean Look Denim Jeans. It Has Five Pockets, Belt Loops And Button Zip Closure. Color: Black Material Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane Fabric: Denim Length: Regular Pattern: Clean look Fit: Bootcut Occasion: Casual Knit/Woven: Woven Closure: Button and Zip Fly Number of Po"
+        },
+        {
+          "property": "og:url",
+          "content": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doss23den12-45-62"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Chase Haul"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        },
+        {
+          "name": "twitter:title",
+          "content": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Denim Jeans"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Black Bootcut High Rise Clean Look Denim Jeans. It Has Five Pockets, Belt Loops And Button Zip Closure.\n\n\nColor: Black\n\nMaterial Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane\n\nFabric: Denim\n\nLength: Regular\n\nPattern: Clean look\n\nFit: Bootcut\n\nOccasion: Casual\n\nKnit/Woven: Woven\n\nClosure: Button and Zip Fly\n\n\n\nNumber of Pockets: 2 Side Pockets, 2 Back Pockets &amp; 1 Coin Pocket\n"
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://chasehaul.com/cdn/shop/files/2_80155a7e-5f0e-4ab6-82d0-bef6d0518b06.jpg?crop=center&height=1200&v=1755610112&width=1200"
+        },
+        {
+          "name": "twitter:image:alt",
+          "content": ""
+        },
+        {
+          "name": "google-site-verification",
+          "content": "Az7ko13v9S1I-bj1_O421-jyV8SYnC4G-jURvsONLUg"
+        },
+        {
+          "name": "shopify-digital-wallet",
+          "content": "/67439067414/digital_wallets/dialog"
+        }
+      ],
+      "jsonLd": [
+        {
+          "@context": "http://schema.org/",
+          "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doss23den12-45-62#product",
+          "@type": "ProductGroup",
+          "brand": {
+            "@type": "Brand",
+            "name": "Dolce Crudo"
+          },
+          "category": "Jeans",
+          "description": "Black Bootcut High Rise Clean Look Denim Jeans. It Has Five Pockets, Belt Loops And Button Zip Closure.\n\n\nColor: Black\n\nMaterial Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane\n\nFabric: Denim\n\nLength: Regular\n\nPattern: Clean look\n\nFit: Bootcut\n\nOccasion: Casual\n\nKnit/Woven: Woven\n\nClosure: Button and Zip Fly\n\n\n\nNumber of Pockets: 2 Side Pockets, 2 Back Pockets &amp; 1 Coin Pocket\n",
+          "hasVariant": [
+            {
+              "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doss23den12-45-62?variant=49405853794582#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/2_80155a7e-5f0e-4ab6-82d0-bef6d0518b06.jpg?v=1755610112&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Denim Jeans - 26 / Black",
+              "offers": {
+                "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doss23den12-45-62?variant=49405853794582#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1439.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doss23den12-45-62?variant=49405853794582"
+              },
+              "sku": "DOSS23DEN12-45-62-26"
+            },
+            {
+              "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doss23den12-45-62?variant=49405853827350#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/2_80155a7e-5f0e-4ab6-82d0-bef6d0518b06.jpg?v=1755610112&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Denim Jeans - 28 / Black",
+              "offers": {
+                "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doss23den12-45-62?variant=49405853827350#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1439.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doss23den12-45-62?variant=49405853827350"
+              },
+              "sku": "DOSS23DEN12-45-62-28"
+            },
+            {
+              "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doss23den12-45-62?variant=49405853860118#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/2_80155a7e-5f0e-4ab6-82d0-bef6d0518b06.jpg?v=1755610112&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Denim Jeans - 30 / Black",
+              "offers": {
+                "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doss23den12-45-62?variant=49405853860118#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1439.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doss23den12-45-62?variant=49405853860118"
+              },
+              "sku": "DOSS23DEN12-45-62-30"
+            },
+            {
+              "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doss23den12-45-62?variant=49405853892886#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/2_80155a7e-5f0e-4ab6-82d0-bef6d0518b06.jpg?v=1755610112&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Denim Jeans - 32 / Black",
+              "offers": {
+                "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doss23den12-45-62?variant=49405853892886#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1439.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doss23den12-45-62?variant=49405853892886"
+              },
+              "sku": "DOSS23DEN12-45-62-32"
+            },
+            {
+              "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doss23den12-45-62?variant=49405853925654#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/2_80155a7e-5f0e-4ab6-82d0-bef6d0518b06.jpg?v=1755610112&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Denim Jeans - 34 / Black",
+              "offers": {
+                "@id": "/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doss23den12-45-62?variant=49405853925654#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1439.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doss23den12-45-62?variant=49405853925654"
+              },
+              "sku": "DOSS23DEN12-45-62-34"
+            }
+          ],
+          "name": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Denim Jeans",
+          "productGroupID": "9418923540758",
+          "url": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doss23den12-45-62"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chasehaul.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Denim Jeans",
+              "item": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doss23den12-45-62"
+            }
+          ]
+        }
+      ],
+      "og": {
+        "og:type": "product",
+        "og:title": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Denim Jeans",
+        "og:image": "http://chasehaul.com/cdn/shop/files/2_80155a7e-5f0e-4ab6-82d0-bef6d0518b06.jpg?v=1755610112&width=2048",
+        "og:image:secure_url": "https://chasehaul.com/cdn/shop/files/2_80155a7e-5f0e-4ab6-82d0-bef6d0518b06.jpg?v=1755610112&width=2048",
+        "og:image:width": "1080",
+        "og:image:height": "1440",
+        "og:description": "Black Bootcut High Rise Clean Look Denim Jeans. It Has Five Pockets, Belt Loops And Button Zip Closure. Color: Black Material Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane Fabric: Denim Length: Regular Pattern: Clean look Fit: Bootcut Occasion: Casual Knit/Woven: Woven Closure: Button and Zip Fly Number of Po",
+        "og:url": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doss23den12-45-62",
+        "og:site_name": "Chase Haul"
+      },
+      "twitter": {
+        "twitter:card": "summary",
+        "twitter:title": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Denim Jeans",
+        "twitter:description": "Black Bootcut High Rise Clean Look Denim Jeans. It Has Five Pockets, Belt Loops And Button Zip Closure.\n\n\nColor: Black\n\nMaterial Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane\n\nFabric: Denim\n\nLength: Regular\n\nPattern: Clean look\n\nFit: Bootcut\n\nOccasion: Casual\n\nKnit/Woven: Woven\n\nClosure: Button and Zip Fly\n\n\n\nNumber of Pockets: 2 Side Pockets, 2 Back Pockets &amp; 1 Coin Pocket\n",
+        "twitter:image": "https://chasehaul.com/cdn/shop/files/2_80155a7e-5f0e-4ab6-82d0-bef6d0518b06.jpg?crop=center&height=1200&v=1755610112&width=1200",
+        "twitter:image:alt": ""
+      },
+      "standard": {
+        "description": "Black Bootcut High Rise Clean Look Denim Jeans. It Has Five Pockets, Belt Loops And Button Zip Closure. Color: Black Material Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane Fabric: Denim Length: Regular Pattern: Clean look Fit: Bootcut Occasion: Casual Knit/Woven: Woven Closure: Button and Zip Fly Number of Po",
+        "canonical": "https://chasehaul.com/products/women-s-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-doss23den12-45-62"
+      },
+      "missing": {
+        "critical": [
+          "JSON-LD Product schema - Critical for AI visibility"
+        ],
+        "recommended": [
+          "og:price:amount - Product price",
+          "og:price:currency - Currency code (INR, USD)",
+          "meta robots - Indexing directives"
+        ]
+      },
+      "present": [
+        "og:title",
+        "og:description",
+        "og:image",
+        "og:url",
+        "og:type",
+        "og:site_name",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image",
+        "meta description",
+        "meta canonical"
+      ],
+      "score": 75,
+      "imageAnalysis": {
+        "ogImage": "http://chasehaul.com/cdn/shop/files/2_80155a7e-5f0e-4ab6-82d0-bef6d0518b06.jpg?v=1755610112&width=2048",
+        "hasHighResImage": false
+      }
+    },
+    {
+      "url": "https://chasehaul.com/products/womens-black-bootcut-high-rise-clean-look-regular-lengthstretchable-denim-jeans-mcss23den12-45-62",
+      "title": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable",
+      "metaTags": [
+        {},
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        },
+        {
+          "name": "description",
+          "content": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High Rise Clean Look Denim Jeans. It Has Five Pockets, Belt Loops And Button Zip Closure. Color: Black Material Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane Fabric: Denim Length: Regular Fit: Bootcut Occasion"
+        },
+        {
+          "property": "og:type",
+          "content": "product"
+        },
+        {
+          "property": "og:title",
+          "content": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Slit Denim Jeans"
+        },
+        {
+          "property": "product:price:amount",
+          "content": "1,439"
+        },
+        {
+          "property": "product:price:currency",
+          "content": "INR"
+        },
+        {
+          "property": "og:image",
+          "content": "http://chasehaul.com/cdn/shop/files/1_4e0eaf4d-24fd-4483-8a07-8b7ad157caf0.jpg?v=1755612120&width=2048"
+        },
+        {
+          "property": "og:image:secure_url",
+          "content": "https://chasehaul.com/cdn/shop/files/1_4e0eaf4d-24fd-4483-8a07-8b7ad157caf0.jpg?v=1755612120&width=2048"
+        },
+        {
+          "property": "og:image:width",
+          "content": "1080"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1440"
+        },
+        {
+          "property": "og:description",
+          "content": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High Rise Clean Look Denim Jeans. It Has Five Pockets, Belt Loops And Button Zip Closure. Color: Black Material Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane Fabric: Denim Length: Regular Fit: Bootcut Occasion"
+        },
+        {
+          "property": "og:url",
+          "content": "https://chasehaul.com/products/womens-black-bootcut-high-rise-clean-look-regular-lengthstretchable-denim-jeans-mcss23den12-45-62"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Chase Haul"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        },
+        {
+          "name": "twitter:title",
+          "content": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Slit Denim Jeans"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High Rise Clean Look Denim Jeans. It Has Five Pockets, Belt Loops And Button Zip Closure.\n\n\nColor: Black\n\nMaterial Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane\n\nFabric: Denim\n\nLength: Regular\n\nFit: Bootcut\n\nOccasion: Casual\n\nClosure: Button and Zip Fly\n\nNumber of Pockets: Yes, 5 pockets\n"
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://chasehaul.com/cdn/shop/files/1_4e0eaf4d-24fd-4483-8a07-8b7ad157caf0.jpg?crop=center&height=1200&v=1755612120&width=1200"
+        },
+        {
+          "name": "twitter:image:alt",
+          "content": ""
+        },
+        {
+          "name": "google-site-verification",
+          "content": "Az7ko13v9S1I-bj1_O421-jyV8SYnC4G-jURvsONLUg"
+        },
+        {
+          "name": "shopify-digital-wallet",
+          "content": "/67439067414/digital_wallets/dialog"
+        }
+      ],
+      "jsonLd": [
+        {
+          "@context": "http://schema.org/",
+          "@id": "/products/womens-black-bootcut-high-rise-clean-look-regular-lengthstretchable-denim-jeans-mcss23den12-45-62#product",
+          "@type": "ProductGroup",
+          "brand": {
+            "@type": "Brand",
+            "name": "Miss Chase"
+          },
+          "category": "Jeans",
+          "description": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High Rise Clean Look Denim Jeans. It Has Five Pockets, Belt Loops And Button Zip Closure.\n\n\nColor: Black\n\nMaterial Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane\n\nFabric: Denim\n\nLength: Regular\n\nFit: Bootcut\n\nOccasion: Casual\n\nClosure: Button and Zip Fly\n\nNumber of Pockets: Yes, 5 pockets\n",
+          "hasVariant": [
+            {
+              "@id": "/products/womens-black-bootcut-high-rise-clean-look-regular-lengthstretchable-denim-jeans-mcss23den12-45-62?variant=49405914218774#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1_4e0eaf4d-24fd-4483-8a07-8b7ad157caf0.jpg?v=1755612120&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Slit Denim Jeans - 26 / Black",
+              "offers": {
+                "@id": "/products/womens-black-bootcut-high-rise-clean-look-regular-lengthstretchable-denim-jeans-mcss23den12-45-62?variant=49405914218774#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1439.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-black-bootcut-high-rise-clean-look-regular-lengthstretchable-denim-jeans-mcss23den12-45-62?variant=49405914218774"
+              },
+              "sku": "MCSS23DEN12-45-62-26"
+            },
+            {
+              "@id": "/products/womens-black-bootcut-high-rise-clean-look-regular-lengthstretchable-denim-jeans-mcss23den12-45-62?variant=49405914251542#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1_4e0eaf4d-24fd-4483-8a07-8b7ad157caf0.jpg?v=1755612120&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Slit Denim Jeans - 28 / Black",
+              "offers": {
+                "@id": "/products/womens-black-bootcut-high-rise-clean-look-regular-lengthstretchable-denim-jeans-mcss23den12-45-62?variant=49405914251542#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1439.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-black-bootcut-high-rise-clean-look-regular-lengthstretchable-denim-jeans-mcss23den12-45-62?variant=49405914251542"
+              },
+              "sku": "MCSS23DEN12-45-62-28"
+            },
+            {
+              "@id": "/products/womens-black-bootcut-high-rise-clean-look-regular-lengthstretchable-denim-jeans-mcss23den12-45-62?variant=49405914284310#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1_4e0eaf4d-24fd-4483-8a07-8b7ad157caf0.jpg?v=1755612120&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Slit Denim Jeans - 30 / Black",
+              "offers": {
+                "@id": "/products/womens-black-bootcut-high-rise-clean-look-regular-lengthstretchable-denim-jeans-mcss23den12-45-62?variant=49405914284310#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1439.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-black-bootcut-high-rise-clean-look-regular-lengthstretchable-denim-jeans-mcss23den12-45-62?variant=49405914284310"
+              },
+              "sku": "MCSS23DEN12-45-62-30"
+            },
+            {
+              "@id": "/products/womens-black-bootcut-high-rise-clean-look-regular-lengthstretchable-denim-jeans-mcss23den12-45-62?variant=49405914317078#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1_4e0eaf4d-24fd-4483-8a07-8b7ad157caf0.jpg?v=1755612120&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Slit Denim Jeans - 32 / Black",
+              "offers": {
+                "@id": "/products/womens-black-bootcut-high-rise-clean-look-regular-lengthstretchable-denim-jeans-mcss23den12-45-62?variant=49405914317078#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1439.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-black-bootcut-high-rise-clean-look-regular-lengthstretchable-denim-jeans-mcss23den12-45-62?variant=49405914317078"
+              },
+              "sku": "MCSS23DEN12-45-62-32"
+            },
+            {
+              "@id": "/products/womens-black-bootcut-high-rise-clean-look-regular-lengthstretchable-denim-jeans-mcss23den12-45-62?variant=49405914349846#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1_4e0eaf4d-24fd-4483-8a07-8b7ad157caf0.jpg?v=1755612120&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Slit Denim Jeans - 34 / Black",
+              "offers": {
+                "@id": "/products/womens-black-bootcut-high-rise-clean-look-regular-lengthstretchable-denim-jeans-mcss23den12-45-62?variant=49405914349846#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1439.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-black-bootcut-high-rise-clean-look-regular-lengthstretchable-denim-jeans-mcss23den12-45-62?variant=49405914349846"
+              },
+              "sku": "MCSS23DEN12-45-62-34"
+            }
+          ],
+          "name": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Slit Denim Jeans",
+          "productGroupID": "8310646374678",
+          "url": "https://chasehaul.com/products/womens-black-bootcut-high-rise-clean-look-regular-lengthstretchable-denim-jeans-mcss23den12-45-62"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chasehaul.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Slit Denim Jeans",
+              "item": "https://chasehaul.com/products/womens-black-bootcut-high-rise-clean-look-regular-lengthstretchable-denim-jeans-mcss23den12-45-62"
+            }
+          ]
+        }
+      ],
+      "og": {
+        "og:type": "product",
+        "og:title": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Slit Denim Jeans",
+        "og:image": "http://chasehaul.com/cdn/shop/files/1_4e0eaf4d-24fd-4483-8a07-8b7ad157caf0.jpg?v=1755612120&width=2048",
+        "og:image:secure_url": "https://chasehaul.com/cdn/shop/files/1_4e0eaf4d-24fd-4483-8a07-8b7ad157caf0.jpg?v=1755612120&width=2048",
+        "og:image:width": "1080",
+        "og:image:height": "1440",
+        "og:description": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High Rise Clean Look Denim Jeans. It Has Five Pockets, Belt Loops And Button Zip Closure. Color: Black Material Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane Fabric: Denim Length: Regular Fit: Bootcut Occasion",
+        "og:url": "https://chasehaul.com/products/womens-black-bootcut-high-rise-clean-look-regular-lengthstretchable-denim-jeans-mcss23den12-45-62",
+        "og:site_name": "Chase Haul"
+      },
+      "twitter": {
+        "twitter:card": "summary",
+        "twitter:title": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Slit Denim Jeans",
+        "twitter:description": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High Rise Clean Look Denim Jeans. It Has Five Pockets, Belt Loops And Button Zip Closure.\n\n\nColor: Black\n\nMaterial Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane\n\nFabric: Denim\n\nLength: Regular\n\nFit: Bootcut\n\nOccasion: Casual\n\nClosure: Button and Zip Fly\n\nNumber of Pockets: Yes, 5 pockets\n",
+        "twitter:image": "https://chasehaul.com/cdn/shop/files/1_4e0eaf4d-24fd-4483-8a07-8b7ad157caf0.jpg?crop=center&height=1200&v=1755612120&width=1200",
+        "twitter:image:alt": ""
+      },
+      "standard": {
+        "description": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High Rise Clean Look Denim Jeans. It Has Five Pockets, Belt Loops And Button Zip Closure. Color: Black Material Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane Fabric: Denim Length: Regular Fit: Bootcut Occasion",
+        "canonical": "https://chasehaul.com/products/womens-black-bootcut-high-rise-clean-look-regular-lengthstretchable-denim-jeans-mcss23den12-45-62"
+      },
+      "missing": {
+        "critical": [
+          "JSON-LD Product schema - Critical for AI visibility"
+        ],
+        "recommended": [
+          "og:price:amount - Product price",
+          "og:price:currency - Currency code (INR, USD)",
+          "meta robots - Indexing directives"
+        ]
+      },
+      "present": [
+        "og:title",
+        "og:description",
+        "og:image",
+        "og:url",
+        "og:type",
+        "og:site_name",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image",
+        "meta description",
+        "meta canonical"
+      ],
+      "score": 75,
+      "imageAnalysis": {
+        "ogImage": "http://chasehaul.com/cdn/shop/files/1_4e0eaf4d-24fd-4483-8a07-8b7ad157caf0.jpg?v=1755612120&width=2048",
+        "hasHighResImage": false
+      }
+    },
+    {
+      "url": "https://chasehaul.com/products/womens-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcss24den79-03-62",
+      "title": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable",
+      "metaTags": [
+        {},
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        },
+        {
+          "name": "description",
+          "content": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High Rise Clean Look Denim Jeans. It Has Five Pockets, Belt Loops And Button Zip Closure. Color: Black Material Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane Fabric: Denim Length: Regular Pattern: Clean look F"
+        },
+        {
+          "property": "og:type",
+          "content": "product"
+        },
+        {
+          "property": "og:title",
+          "content": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Slit Denim Jeans"
+        },
+        {
+          "property": "product:price:amount",
+          "content": "1,349"
+        },
+        {
+          "property": "product:price:currency",
+          "content": "INR"
+        },
+        {
+          "property": "og:image",
+          "content": "http://chasehaul.com/cdn/shop/files/1_AMZ_WB_copy_5b499c82-76b9-42df-a796-501a76be7364.jpg?v=1755609724&width=2048"
+        },
+        {
+          "property": "og:image:secure_url",
+          "content": "https://chasehaul.com/cdn/shop/files/1_AMZ_WB_copy_5b499c82-76b9-42df-a796-501a76be7364.jpg?v=1755609724&width=2048"
+        },
+        {
+          "property": "og:image:width",
+          "content": "1080"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1440"
+        },
+        {
+          "property": "og:description",
+          "content": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High Rise Clean Look Denim Jeans. It Has Five Pockets, Belt Loops And Button Zip Closure. Color: Black Material Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane Fabric: Denim Length: Regular Pattern: Clean look F"
+        },
+        {
+          "property": "og:url",
+          "content": "https://chasehaul.com/products/womens-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcss24den79-03-62"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Chase Haul"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        },
+        {
+          "name": "twitter:title",
+          "content": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Slit Denim Jeans"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High Rise Clean Look Denim Jeans. It Has Five Pockets, Belt Loops And Button Zip Closure.\n\n\nColor: Black\n\nMaterial Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane\n\nFabric: Denim\n\nLength: Regular\n\nPattern: Clean look\n\nFit: Bootcut\n\nOccasion: Casual\n\nKnit/Woven: Woven\n\nClosure: Button and Zip Fly\n\nNumber of Pockets: Yes\n"
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://chasehaul.com/cdn/shop/files/1_AMZ_WB_copy_5b499c82-76b9-42df-a796-501a76be7364.jpg?crop=center&height=1200&v=1755609724&width=1200"
+        },
+        {
+          "name": "twitter:image:alt",
+          "content": ""
+        },
+        {
+          "name": "google-site-verification",
+          "content": "Az7ko13v9S1I-bj1_O421-jyV8SYnC4G-jURvsONLUg"
+        },
+        {
+          "name": "shopify-digital-wallet",
+          "content": "/67439067414/digital_wallets/dialog"
+        }
+      ],
+      "jsonLd": [
+        {
+          "@context": "http://schema.org/",
+          "@id": "/products/womens-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcss24den79-03-62#product",
+          "@type": "ProductGroup",
+          "brand": {
+            "@type": "Brand",
+            "name": "Miss Chase"
+          },
+          "category": "Jeans",
+          "description": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High Rise Clean Look Denim Jeans. It Has Five Pockets, Belt Loops And Button Zip Closure.\n\n\nColor: Black\n\nMaterial Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane\n\nFabric: Denim\n\nLength: Regular\n\nPattern: Clean look\n\nFit: Bootcut\n\nOccasion: Casual\n\nKnit/Woven: Woven\n\nClosure: Button and Zip Fly\n\nNumber of Pockets: Yes\n",
+          "hasVariant": [
+            {
+              "@id": "/products/womens-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcss24den79-03-62?variant=49405839245590#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1_AMZ_WB_copy_5b499c82-76b9-42df-a796-501a76be7364.jpg?v=1755609724&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Slit Denim Jeans - 26 / Black",
+              "offers": {
+                "@id": "/products/womens-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcss24den79-03-62?variant=49405839245590#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1349.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcss24den79-03-62?variant=49405839245590"
+              },
+              "sku": "MCSS24DEN79-03-62-26"
+            },
+            {
+              "@id": "/products/womens-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcss24den79-03-62?variant=49405839278358#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1_AMZ_WB_copy_5b499c82-76b9-42df-a796-501a76be7364.jpg?v=1755609724&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Slit Denim Jeans - 28 / Black",
+              "offers": {
+                "@id": "/products/womens-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcss24den79-03-62?variant=49405839278358#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1349.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcss24den79-03-62?variant=49405839278358"
+              },
+              "sku": "MCSS24DEN79-03-62-28"
+            },
+            {
+              "@id": "/products/womens-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcss24den79-03-62?variant=49405839311126#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1_AMZ_WB_copy_5b499c82-76b9-42df-a796-501a76be7364.jpg?v=1755609724&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Slit Denim Jeans - 30 / Black",
+              "offers": {
+                "@id": "/products/womens-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcss24den79-03-62?variant=49405839311126#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1349.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcss24den79-03-62?variant=49405839311126"
+              },
+              "sku": "MCSS24DEN79-03-62-30"
+            },
+            {
+              "@id": "/products/womens-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcss24den79-03-62?variant=49405839343894#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1_AMZ_WB_copy_5b499c82-76b9-42df-a796-501a76be7364.jpg?v=1755609724&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Slit Denim Jeans - 32 / Black",
+              "offers": {
+                "@id": "/products/womens-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcss24den79-03-62?variant=49405839343894#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1349.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcss24den79-03-62?variant=49405839343894"
+              },
+              "sku": "MCSS24DEN79-03-62-32"
+            },
+            {
+              "@id": "/products/womens-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcss24den79-03-62?variant=49405839376662#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1_AMZ_WB_copy_5b499c82-76b9-42df-a796-501a76be7364.jpg?v=1755609724&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Slit Denim Jeans - 34 / Black",
+              "offers": {
+                "@id": "/products/womens-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcss24den79-03-62?variant=49405839376662#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1349.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcss24den79-03-62?variant=49405839376662"
+              },
+              "sku": "MCSS24DEN79-03-62-34"
+            }
+          ],
+          "name": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Slit Denim Jeans",
+          "productGroupID": "9584461938966",
+          "url": "https://chasehaul.com/products/womens-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcss24den79-03-62"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chasehaul.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Slit Denim Jeans",
+              "item": "https://chasehaul.com/products/womens-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcss24den79-03-62"
+            }
+          ]
+        }
+      ],
+      "og": {
+        "og:type": "product",
+        "og:title": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Slit Denim Jeans",
+        "og:image": "http://chasehaul.com/cdn/shop/files/1_AMZ_WB_copy_5b499c82-76b9-42df-a796-501a76be7364.jpg?v=1755609724&width=2048",
+        "og:image:secure_url": "https://chasehaul.com/cdn/shop/files/1_AMZ_WB_copy_5b499c82-76b9-42df-a796-501a76be7364.jpg?v=1755609724&width=2048",
+        "og:image:width": "1080",
+        "og:image:height": "1440",
+        "og:description": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High Rise Clean Look Denim Jeans. It Has Five Pockets, Belt Loops And Button Zip Closure. Color: Black Material Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane Fabric: Denim Length: Regular Pattern: Clean look F",
+        "og:url": "https://chasehaul.com/products/womens-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcss24den79-03-62",
+        "og:site_name": "Chase Haul"
+      },
+      "twitter": {
+        "twitter:card": "summary",
+        "twitter:title": "24/7 Comfort Black Bell-Bottom Bootcut Hourglass High-Rise Stretchable Slit Denim Jeans",
+        "twitter:description": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High Rise Clean Look Denim Jeans. It Has Five Pockets, Belt Loops And Button Zip Closure.\n\n\nColor: Black\n\nMaterial Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane\n\nFabric: Denim\n\nLength: Regular\n\nPattern: Clean look\n\nFit: Bootcut\n\nOccasion: Casual\n\nKnit/Woven: Woven\n\nClosure: Button and Zip Fly\n\nNumber of Pockets: Yes\n",
+        "twitter:image": "https://chasehaul.com/cdn/shop/files/1_AMZ_WB_copy_5b499c82-76b9-42df-a796-501a76be7364.jpg?crop=center&height=1200&v=1755609724&width=1200",
+        "twitter:image:alt": ""
+      },
+      "standard": {
+        "description": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black Bootcut High Rise Clean Look Denim Jeans. It Has Five Pockets, Belt Loops And Button Zip Closure. Color: Black Material Composition: 71.4% Cotton, 26.6% Polyester, 2% Elastane Fabric: Denim Length: Regular Pattern: Clean look F",
+        "canonical": "https://chasehaul.com/products/womens-black-bootcut-high-rise-clean-look-regular-length-stretchable-denim-jeans-mcss24den79-03-62"
+      },
+      "missing": {
+        "critical": [
+          "JSON-LD Product schema - Critical for AI visibility"
+        ],
+        "recommended": [
+          "og:price:amount - Product price",
+          "og:price:currency - Currency code (INR, USD)",
+          "meta robots - Indexing directives"
+        ]
+      },
+      "present": [
+        "og:title",
+        "og:description",
+        "og:image",
+        "og:url",
+        "og:type",
+        "og:site_name",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image",
+        "meta description",
+        "meta canonical"
+      ],
+      "score": 75,
+      "imageAnalysis": {
+        "ogImage": "http://chasehaul.com/cdn/shop/files/1_AMZ_WB_copy_5b499c82-76b9-42df-a796-501a76be7364.jpg?v=1755609724&width=2048",
+        "hasHighResImage": false
+      }
+    },
+    {
+      "url": "https://chasehaul.com/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62",
+      "title": "24/7 Comfort Black Bell-Bottom Bootcut Mid-Rise Stretchable Denim Jean",
+      "metaTags": [
+        {},
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        },
+        {
+          "name": "description",
+          "content": "Black OD Bootcut Mid Rise Clean Look Regular Stretchable Denim Jeans. It has a button and zip fly closure. It has coin, patch and side pockets. Color: Black Material Composition: 79% Cotton 19% Polyester 2% Elastane Fabric: Denim Length: Regular Fit: Bootcut Occasion: Casual Closure: Button and Zip Fly Number of Pocket"
+        },
+        {
+          "property": "og:type",
+          "content": "product"
+        },
+        {
+          "property": "og:title",
+          "content": "24/7 Comfort Black Bell-Bottom Bootcut Mid-Rise Stretchable Denim Jeans"
+        },
+        {
+          "property": "product:price:amount",
+          "content": "1,165"
+        },
+        {
+          "property": "product:price:currency",
+          "content": "INR"
+        },
+        {
+          "property": "og:image",
+          "content": "http://chasehaul.com/cdn/shop/files/1_d33bce59-2b0d-44e2-b4b8-9615fc75c073.jpg?v=1755612090&width=2048"
+        },
+        {
+          "property": "og:image:secure_url",
+          "content": "https://chasehaul.com/cdn/shop/files/1_d33bce59-2b0d-44e2-b4b8-9615fc75c073.jpg?v=1755612090&width=2048"
+        },
+        {
+          "property": "og:image:width",
+          "content": "1080"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1440"
+        },
+        {
+          "property": "og:description",
+          "content": "Black OD Bootcut Mid Rise Clean Look Regular Stretchable Denim Jeans. It has a button and zip fly closure. It has coin, patch and side pockets. Color: Black Material Composition: 79% Cotton 19% Polyester 2% Elastane Fabric: Denim Length: Regular Fit: Bootcut Occasion: Casual Closure: Button and Zip Fly Number of Pocket"
+        },
+        {
+          "property": "og:url",
+          "content": "https://chasehaul.com/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Chase Haul"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        },
+        {
+          "name": "twitter:title",
+          "content": "24/7 Comfort Black Bell-Bottom Bootcut Mid-Rise Stretchable Denim Jeans"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Black OD Bootcut Mid Rise Clean Look Regular Stretchable Denim Jeans. It has a button and zip fly closure. It has coin, patch and side pockets.\n\n\nColor: Black\n\nMaterial Composition: 79% Cotton 19% Polyester 2% Elastane\n\nFabric: Denim\n\nLength: Regular\n\nFit: Bootcut\n\nOccasion: Casual\n\nClosure: Button and Zip Fly\n\nNumber of Pockets: Yes, 5 pockets\n"
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://chasehaul.com/cdn/shop/files/1_d33bce59-2b0d-44e2-b4b8-9615fc75c073.jpg?crop=center&height=1200&v=1755612090&width=1200"
+        },
+        {
+          "name": "twitter:image:alt",
+          "content": ""
+        },
+        {
+          "name": "google-site-verification",
+          "content": "Az7ko13v9S1I-bj1_O421-jyV8SYnC4G-jURvsONLUg"
+        },
+        {
+          "name": "shopify-digital-wallet",
+          "content": "/67439067414/digital_wallets/dialog"
+        }
+      ],
+      "jsonLd": [
+        {
+          "@context": "http://schema.org/",
+          "@id": "/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62#product",
+          "@type": "ProductGroup",
+          "brand": {
+            "@type": "Brand",
+            "name": "Miss Chase"
+          },
+          "category": "Jeans",
+          "description": "Black OD Bootcut Mid Rise Clean Look Regular Stretchable Denim Jeans. It has a button and zip fly closure. It has coin, patch and side pockets.\n\n\nColor: Black\n\nMaterial Composition: 79% Cotton 19% Polyester 2% Elastane\n\nFabric: Denim\n\nLength: Regular\n\nFit: Bootcut\n\nOccasion: Casual\n\nClosure: Button and Zip Fly\n\nNumber of Pockets: Yes, 5 pockets\n",
+          "hasVariant": [
+            {
+              "@id": "/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62?variant=49408693240086#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1_d33bce59-2b0d-44e2-b4b8-9615fc75c073.jpg?v=1755612090&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut Mid-Rise Stretchable Denim Jeans - 26 / Black",
+              "offers": {
+                "@id": "/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62?variant=49408693240086#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/OutOfStock",
+                "price": "1165.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62?variant=49408693240086"
+              },
+              "sku": "MCSS22DEN12-28-62-26"
+            },
+            {
+              "@id": "/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62?variant=49408693109014#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1_d33bce59-2b0d-44e2-b4b8-9615fc75c073.jpg?v=1755612090&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut Mid-Rise Stretchable Denim Jeans - 28 / Black",
+              "offers": {
+                "@id": "/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62?variant=49408693109014#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/OutOfStock",
+                "price": "1165.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62?variant=49408693109014"
+              },
+              "sku": "MCSS22DEN12-28-62-28"
+            },
+            {
+              "@id": "/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62?variant=49408693141782#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1_d33bce59-2b0d-44e2-b4b8-9615fc75c073.jpg?v=1755612090&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut Mid-Rise Stretchable Denim Jeans - 30 / Black",
+              "offers": {
+                "@id": "/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62?variant=49408693141782#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/OutOfStock",
+                "price": "1165.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62?variant=49408693141782"
+              },
+              "sku": "MCSS22DEN12-28-62-30"
+            },
+            {
+              "@id": "/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62?variant=49408693174550#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1_d33bce59-2b0d-44e2-b4b8-9615fc75c073.jpg?v=1755612090&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut Mid-Rise Stretchable Denim Jeans - 32 / Black",
+              "offers": {
+                "@id": "/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62?variant=49408693174550#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1165.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62?variant=49408693174550"
+              },
+              "sku": "MCSS22DEN12-28-62-32"
+            },
+            {
+              "@id": "/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62?variant=49408693207318#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1_d33bce59-2b0d-44e2-b4b8-9615fc75c073.jpg?v=1755612090&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut Mid-Rise Stretchable Denim Jeans - 34 / Black",
+              "offers": {
+                "@id": "/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62?variant=49408693207318#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/OutOfStock",
+                "price": "1165.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62?variant=49408693207318"
+              },
+              "sku": "MCSS22DEN12-28-62-34"
+            },
+            {
+              "@id": "/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62?variant=50498064711958#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1_d33bce59-2b0d-44e2-b4b8-9615fc75c073.jpg?v=1755612090&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut Mid-Rise Stretchable Denim Jeans - 36 / Black",
+              "offers": {
+                "@id": "/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62?variant=50498064711958#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/OutOfStock",
+                "price": "1165.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62?variant=50498064711958"
+              },
+              "sku": "MCSS22DEN12-28-62-36"
+            },
+            {
+              "@id": "/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62?variant=50498064744726#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1_d33bce59-2b0d-44e2-b4b8-9615fc75c073.jpg?v=1755612090&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut Mid-Rise Stretchable Denim Jeans - 38 / Black",
+              "offers": {
+                "@id": "/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62?variant=50498064744726#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/OutOfStock",
+                "price": "1165.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62?variant=50498064744726"
+              },
+              "sku": "MCSS22DEN12-28-62-38"
+            }
+          ],
+          "name": "24/7 Comfort Black Bell-Bottom Bootcut Mid-Rise Stretchable Denim Jeans",
+          "productGroupID": "8310646997270",
+          "url": "https://chasehaul.com/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chasehaul.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "24/7 Comfort Black Bell-Bottom Bootcut Mid-Rise Stretchable Denim Jeans",
+              "item": "https://chasehaul.com/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62"
+            }
+          ]
+        }
+      ],
+      "og": {
+        "og:type": "product",
+        "og:title": "24/7 Comfort Black Bell-Bottom Bootcut Mid-Rise Stretchable Denim Jeans",
+        "og:image": "http://chasehaul.com/cdn/shop/files/1_d33bce59-2b0d-44e2-b4b8-9615fc75c073.jpg?v=1755612090&width=2048",
+        "og:image:secure_url": "https://chasehaul.com/cdn/shop/files/1_d33bce59-2b0d-44e2-b4b8-9615fc75c073.jpg?v=1755612090&width=2048",
+        "og:image:width": "1080",
+        "og:image:height": "1440",
+        "og:description": "Black OD Bootcut Mid Rise Clean Look Regular Stretchable Denim Jeans. It has a button and zip fly closure. It has coin, patch and side pockets. Color: Black Material Composition: 79% Cotton 19% Polyester 2% Elastane Fabric: Denim Length: Regular Fit: Bootcut Occasion: Casual Closure: Button and Zip Fly Number of Pocket",
+        "og:url": "https://chasehaul.com/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62",
+        "og:site_name": "Chase Haul"
+      },
+      "twitter": {
+        "twitter:card": "summary",
+        "twitter:title": "24/7 Comfort Black Bell-Bottom Bootcut Mid-Rise Stretchable Denim Jeans",
+        "twitter:description": "Black OD Bootcut Mid Rise Clean Look Regular Stretchable Denim Jeans. It has a button and zip fly closure. It has coin, patch and side pockets.\n\n\nColor: Black\n\nMaterial Composition: 79% Cotton 19% Polyester 2% Elastane\n\nFabric: Denim\n\nLength: Regular\n\nFit: Bootcut\n\nOccasion: Casual\n\nClosure: Button and Zip Fly\n\nNumber of Pockets: Yes, 5 pockets\n",
+        "twitter:image": "https://chasehaul.com/cdn/shop/files/1_d33bce59-2b0d-44e2-b4b8-9615fc75c073.jpg?crop=center&height=1200&v=1755612090&width=1200",
+        "twitter:image:alt": ""
+      },
+      "standard": {
+        "description": "Black OD Bootcut Mid Rise Clean Look Regular Stretchable Denim Jeans. It has a button and zip fly closure. It has coin, patch and side pockets. Color: Black Material Composition: 79% Cotton 19% Polyester 2% Elastane Fabric: Denim Length: Regular Fit: Bootcut Occasion: Casual Closure: Button and Zip Fly Number of Pocket",
+        "canonical": "https://chasehaul.com/products/womens-black-od-bootcut-mid-rise-clean-look-regularstretchable-denim-jeans-mcss22den12-28-62"
+      },
+      "missing": {
+        "critical": [
+          "JSON-LD Product schema - Critical for AI visibility"
+        ],
+        "recommended": [
+          "og:price:amount - Product price",
+          "og:price:currency - Currency code (INR, USD)",
+          "meta robots - Indexing directives"
+        ]
+      },
+      "present": [
+        "og:title",
+        "og:description",
+        "og:image",
+        "og:url",
+        "og:type",
+        "og:site_name",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image",
+        "meta description",
+        "meta canonical"
+      ],
+      "score": 75,
+      "imageAnalysis": {
+        "ogImage": "http://chasehaul.com/cdn/shop/files/1_d33bce59-2b0d-44e2-b4b8-9615fc75c073.jpg?v=1755612090&width=2048",
+        "hasHighResImage": false
+      }
+    },
+    {
+      "url": "https://chasehaul.com/products/womens-black-od-bootcut-mid-rise-clean-look-regular-stretchable-denim-jeans-doss22den12-28-62",
+      "title": "24/7 Comfort Black Bell-Bottom Semi-Bootcut Mid-Rise Stretchable Denim",
+      "metaTags": [
+        {},
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        },
+        {
+          "name": "description",
+          "content": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black OD Bootcut Mid Rise Clean Look Regular Stretchable Denim Jeans. It has a button and zip fly closure. It has coin, patch and side pockets. Color: Black Material Composition: 79% Cotton 19% Polyester 2% Elastane Fabric: Denim Len"
+        },
+        {
+          "property": "og:type",
+          "content": "product"
+        },
+        {
+          "property": "og:title",
+          "content": "24/7 Comfort Black Bell-Bottom Semi-Bootcut Mid-Rise Stretchable Denim Jeans"
+        },
+        {
+          "property": "product:price:amount",
+          "content": "1,259"
+        },
+        {
+          "property": "product:price:currency",
+          "content": "INR"
+        },
+        {
+          "property": "og:image",
+          "content": "http://chasehaul.com/cdn/shop/files/1_38edd227-6cc5-4af5-a51f-a6453afccf45.jpg?v=1755612201&width=2048"
+        },
+        {
+          "property": "og:image:secure_url",
+          "content": "https://chasehaul.com/cdn/shop/files/1_38edd227-6cc5-4af5-a51f-a6453afccf45.jpg?v=1755612201&width=2048"
+        },
+        {
+          "property": "og:image:width",
+          "content": "1080"
+        },
+        {
+          "property": "og:image:height",
+          "content": "1440"
+        },
+        {
+          "property": "og:description",
+          "content": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black OD Bootcut Mid Rise Clean Look Regular Stretchable Denim Jeans. It has a button and zip fly closure. It has coin, patch and side pockets. Color: Black Material Composition: 79% Cotton 19% Polyester 2% Elastane Fabric: Denim Len"
+        },
+        {
+          "property": "og:url",
+          "content": "https://chasehaul.com/products/womens-black-od-bootcut-mid-rise-clean-look-regular-stretchable-denim-jeans-doss22den12-28-62"
+        },
+        {
+          "property": "og:site_name",
+          "content": "Chase Haul"
+        },
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        },
+        {
+          "name": "twitter:title",
+          "content": "24/7 Comfort Black Bell-Bottom Semi-Bootcut Mid-Rise Stretchable Denim Jeans"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black OD Bootcut Mid Rise Clean Look Regular Stretchable Denim Jeans. It has a button and zip fly closure. It has coin, patch and side pockets.\n\n\nColor: Black\n\nMaterial Composition: 79% Cotton 19% Polyester 2% Elastane\n\nFabric: Denim\n\nLength: Regular\n\nFit: Bootcut\n\nOccasion: Casual\n\nClosure: Button and Zip Fly\n\nMultipack Set: Single\n\nNumber of Pockets: Yes, 5 pockets\n"
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://chasehaul.com/cdn/shop/files/1_38edd227-6cc5-4af5-a51f-a6453afccf45.jpg?crop=center&height=1200&v=1755612201&width=1200"
+        },
+        {
+          "name": "twitter:image:alt",
+          "content": ""
+        },
+        {
+          "name": "google-site-verification",
+          "content": "Az7ko13v9S1I-bj1_O421-jyV8SYnC4G-jURvsONLUg"
+        },
+        {
+          "name": "shopify-digital-wallet",
+          "content": "/67439067414/digital_wallets/dialog"
+        }
+      ],
+      "jsonLd": [
+        {
+          "@context": "http://schema.org/",
+          "@id": "/products/womens-black-od-bootcut-mid-rise-clean-look-regular-stretchable-denim-jeans-doss22den12-28-62#product",
+          "@type": "ProductGroup",
+          "brand": {
+            "@type": "Brand",
+            "name": "Dolce Crudo"
+          },
+          "category": "Jeans",
+          "description": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black OD Bootcut Mid Rise Clean Look Regular Stretchable Denim Jeans. It has a button and zip fly closure. It has coin, patch and side pockets.\n\n\nColor: Black\n\nMaterial Composition: 79% Cotton 19% Polyester 2% Elastane\n\nFabric: Denim\n\nLength: Regular\n\nFit: Bootcut\n\nOccasion: Casual\n\nClosure: Button and Zip Fly\n\nMultipack Set: Single\n\nNumber of Pockets: Yes, 5 pockets\n",
+          "hasVariant": [
+            {
+              "@id": "/products/womens-black-od-bootcut-mid-rise-clean-look-regular-stretchable-denim-jeans-doss22den12-28-62?variant=49405917757718#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1_38edd227-6cc5-4af5-a51f-a6453afccf45.jpg?v=1755612201&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Semi-Bootcut Mid-Rise Stretchable Denim Jeans - 26 / Black",
+              "offers": {
+                "@id": "/products/womens-black-od-bootcut-mid-rise-clean-look-regular-stretchable-denim-jeans-doss22den12-28-62?variant=49405917757718#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/OutOfStock",
+                "price": "1259.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-black-od-bootcut-mid-rise-clean-look-regular-stretchable-denim-jeans-doss22den12-28-62?variant=49405917757718"
+              },
+              "sku": "DOSS22DEN12-28-62-26"
+            },
+            {
+              "@id": "/products/womens-black-od-bootcut-mid-rise-clean-look-regular-stretchable-denim-jeans-doss22den12-28-62?variant=49405917790486#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1_38edd227-6cc5-4af5-a51f-a6453afccf45.jpg?v=1755612201&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Semi-Bootcut Mid-Rise Stretchable Denim Jeans - 28 / Black",
+              "offers": {
+                "@id": "/products/womens-black-od-bootcut-mid-rise-clean-look-regular-stretchable-denim-jeans-doss22den12-28-62?variant=49405917790486#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/OutOfStock",
+                "price": "1259.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-black-od-bootcut-mid-rise-clean-look-regular-stretchable-denim-jeans-doss22den12-28-62?variant=49405917790486"
+              },
+              "sku": "DOSS22DEN12-28-62-28"
+            },
+            {
+              "@id": "/products/womens-black-od-bootcut-mid-rise-clean-look-regular-stretchable-denim-jeans-doss22den12-28-62?variant=49405917823254#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1_38edd227-6cc5-4af5-a51f-a6453afccf45.jpg?v=1755612201&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Semi-Bootcut Mid-Rise Stretchable Denim Jeans - 30 / Black",
+              "offers": {
+                "@id": "/products/womens-black-od-bootcut-mid-rise-clean-look-regular-stretchable-denim-jeans-doss22den12-28-62?variant=49405917823254#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/OutOfStock",
+                "price": "1259.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-black-od-bootcut-mid-rise-clean-look-regular-stretchable-denim-jeans-doss22den12-28-62?variant=49405917823254"
+              },
+              "sku": "DOSS22DEN12-28-62-30"
+            },
+            {
+              "@id": "/products/womens-black-od-bootcut-mid-rise-clean-look-regular-stretchable-denim-jeans-doss22den12-28-62?variant=49405917856022#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1_38edd227-6cc5-4af5-a51f-a6453afccf45.jpg?v=1755612201&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Semi-Bootcut Mid-Rise Stretchable Denim Jeans - 32 / Black",
+              "offers": {
+                "@id": "/products/womens-black-od-bootcut-mid-rise-clean-look-regular-stretchable-denim-jeans-doss22den12-28-62?variant=49405917856022#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/InStock",
+                "price": "1259.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-black-od-bootcut-mid-rise-clean-look-regular-stretchable-denim-jeans-doss22den12-28-62?variant=49405917856022"
+              },
+              "sku": "DOSS22DEN12-28-62-32"
+            },
+            {
+              "@id": "/products/womens-black-od-bootcut-mid-rise-clean-look-regular-stretchable-denim-jeans-doss22den12-28-62?variant=49405917888790#variant",
+              "@type": "Product",
+              "image": "https://chasehaul.com/cdn/shop/files/1_38edd227-6cc5-4af5-a51f-a6453afccf45.jpg?v=1755612201&width=1920",
+              "name": "24/7 Comfort Black Bell-Bottom Semi-Bootcut Mid-Rise Stretchable Denim Jeans - 34 / Black",
+              "offers": {
+                "@id": "/products/womens-black-od-bootcut-mid-rise-clean-look-regular-stretchable-denim-jeans-doss22den12-28-62?variant=49405917888790#offer",
+                "@type": "Offer",
+                "availability": "http://schema.org/OutOfStock",
+                "price": "1259.00",
+                "priceCurrency": "INR",
+                "url": "https://chasehaul.com/products/womens-black-od-bootcut-mid-rise-clean-look-regular-stretchable-denim-jeans-doss22den12-28-62?variant=49405917888790"
+              },
+              "sku": "DOSS22DEN12-28-62-34"
+            }
+          ],
+          "name": "24/7 Comfort Black Bell-Bottom Semi-Bootcut Mid-Rise Stretchable Denim Jeans",
+          "productGroupID": "8310645555478",
+          "url": "https://chasehaul.com/products/womens-black-od-bootcut-mid-rise-clean-look-regular-stretchable-denim-jeans-doss22den12-28-62"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://chasehaul.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "24/7 Comfort Black Bell-Bottom Semi-Bootcut Mid-Rise Stretchable Denim Jeans",
+              "item": "https://chasehaul.com/products/womens-black-od-bootcut-mid-rise-clean-look-regular-stretchable-denim-jeans-doss22den12-28-62"
+            }
+          ]
+        }
+      ],
+      "og": {
+        "og:type": "product",
+        "og:title": "24/7 Comfort Black Bell-Bottom Semi-Bootcut Mid-Rise Stretchable Denim Jeans",
+        "og:image": "http://chasehaul.com/cdn/shop/files/1_38edd227-6cc5-4af5-a51f-a6453afccf45.jpg?v=1755612201&width=2048",
+        "og:image:secure_url": "https://chasehaul.com/cdn/shop/files/1_38edd227-6cc5-4af5-a51f-a6453afccf45.jpg?v=1755612201&width=2048",
+        "og:image:width": "1080",
+        "og:image:height": "1440",
+        "og:description": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black OD Bootcut Mid Rise Clean Look Regular Stretchable Denim Jeans. It has a button and zip fly closure. It has coin, patch and side pockets. Color: Black Material Composition: 79% Cotton 19% Polyester 2% Elastane Fabric: Denim Len",
+        "og:url": "https://chasehaul.com/products/womens-black-od-bootcut-mid-rise-clean-look-regular-stretchable-denim-jeans-doss22den12-28-62",
+        "og:site_name": "Chase Haul"
+      },
+      "twitter": {
+        "twitter:card": "summary",
+        "twitter:title": "24/7 Comfort Black Bell-Bottom Semi-Bootcut Mid-Rise Stretchable Denim Jeans",
+        "twitter:description": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black OD Bootcut Mid Rise Clean Look Regular Stretchable Denim Jeans. It has a button and zip fly closure. It has coin, patch and side pockets.\n\n\nColor: Black\n\nMaterial Composition: 79% Cotton 19% Polyester 2% Elastane\n\nFabric: Denim\n\nLength: Regular\n\nFit: Bootcut\n\nOccasion: Casual\n\nClosure: Button and Zip Fly\n\nMultipack Set: Single\n\nNumber of Pockets: Yes, 5 pockets\n",
+        "twitter:image": "https://chasehaul.com/cdn/shop/files/1_38edd227-6cc5-4af5-a51f-a6453afccf45.jpg?crop=center&height=1200&v=1755612201&width=1200",
+        "twitter:image:alt": ""
+      },
+      "standard": {
+        "description": "Advanced specially engineered fabric that keeps you cool even in hot or humid weather. Black OD Bootcut Mid Rise Clean Look Regular Stretchable Denim Jeans. It has a button and zip fly closure. It has coin, patch and side pockets. Color: Black Material Composition: 79% Cotton 19% Polyester 2% Elastane Fabric: Denim Len",
+        "canonical": "https://chasehaul.com/products/womens-black-od-bootcut-mid-rise-clean-look-regular-stretchable-denim-jeans-doss22den12-28-62"
+      },
+      "missing": {
+        "critical": [
+          "JSON-LD Product schema - Critical for AI visibility"
+        ],
+        "recommended": [
+          "og:price:amount - Product price",
+          "og:price:currency - Currency code (INR, USD)",
+          "meta robots - Indexing directives"
+        ]
+      },
+      "present": [
+        "og:title",
+        "og:description",
+        "og:image",
+        "og:url",
+        "og:type",
+        "og:site_name",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image",
+        "meta description",
+        "meta canonical"
+      ],
+      "score": 75,
+      "imageAnalysis": {
+        "ogImage": "http://chasehaul.com/cdn/shop/files/1_38edd227-6cc5-4af5-a51f-a6453afccf45.jpg?v=1755612201&width=2048",
+        "hasHighResImage": false
+      }
+    }
+  ]
+}
