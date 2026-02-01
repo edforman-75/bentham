@@ -1,0 +1,268 @@
+{
+  "id": "brand-voice-analysis",
+  "name": "Brand Voice Analysis & Catalog Rewriting",
+  "version": "1.0.0",
+  "description": "Automated brand voice extraction and content generation for e-commerce catalogs",
+  "author": "Bentham",
+  "created": "2026-01-30",
+
+  "workflow": {
+    "phases": [
+      {
+        "id": "data_collection",
+        "name": "Data Collection",
+        "description": "Gather product data from Shopify and Amazon",
+        "inputs": ["shopify_export", "amazon_scrape", "brand_assets"],
+        "outputs": ["unified_product_database"],
+        "tools": ["shopify_api", "amazon_scraper", "data_merger"]
+      },
+      {
+        "id": "voice_extraction",
+        "name": "Brand Voice Extraction",
+        "description": "Analyze existing content to extract authentic brand voice",
+        "inputs": ["unified_product_database", "sample_size"],
+        "outputs": ["brand_voice_guide", "vocabulary_lists", "sentence_patterns"],
+        "tools": ["voice_analyzer", "pattern_detector", "subbrand_detector"]
+      },
+      {
+        "id": "prompt_engineering",
+        "name": "Prompt Engineering",
+        "description": "Create production-ready prompts for content generation",
+        "inputs": ["brand_voice_guide", "product_taxonomy"],
+        "outputs": ["master_prompt", "category_prompts", "subbrand_prompts"],
+        "tools": ["prompt_builder", "prompt_tester"]
+      },
+      {
+        "id": "catalog_processing",
+        "name": "Catalog Processing",
+        "description": "Generate optimized content for all products",
+        "inputs": ["unified_product_database", "prompt_library"],
+        "outputs": ["enhanced_catalog"],
+        "tools": ["batch_processor", "llm_api", "output_validator"]
+      },
+      {
+        "id": "quality_assurance",
+        "name": "Quality Assurance",
+        "description": "Validate and refine generated content",
+        "inputs": ["enhanced_catalog"],
+        "outputs": ["approved_catalog", "qa_report"],
+        "tools": ["ai_tell_detector", "human_review_queue", "brand_approval"]
+      },
+      {
+        "id": "deployment",
+        "name": "Deployment",
+        "description": "Push approved content to Shopify",
+        "inputs": ["approved_catalog"],
+        "outputs": ["live_products", "deployment_report"],
+        "tools": ["shopify_importer", "verification_checker"]
+      }
+    ]
+  },
+
+  "data_models": {
+    "product_input": {
+      "handle": "string",
+      "current_title": "string",
+      "current_description": "string",
+      "category": "string",
+      "sub_brand": "string|null",
+      "attributes": {
+        "ingredients": "string[]",
+        "dietary": "string[]",
+        "life_stage": "string",
+        "size_weight": "string",
+        "materials": "string[]"
+      },
+      "amazon": {
+        "asin": "string|null",
+        "bullets": "string[]",
+        "backend_keywords": "string",
+        "a_plus_content": "string|null"
+      },
+      "images": [
+        {
+          "filename": "string",
+          "current_alt": "string"
+        }
+      ]
+    },
+    "content_output": {
+      "handle": "string",
+      "enhanced_title": "string",
+      "enhanced_description": "string",
+      "faqs": [
+        {
+          "question": "string",
+          "answer": "string"
+        }
+      ],
+      "json_ld": "object",
+      "alt_texts": "string[]",
+      "validation": {
+        "passed": "boolean",
+        "issues": "string[]",
+        "score": "number"
+      }
+    },
+    "brand_voice_guide": {
+      "brand_name": "string",
+      "market": "string",
+      "analysis_date": "string",
+      "sample_size": "number",
+      "core_characteristics": [
+        {
+          "attribute": "string",
+          "style": "string",
+          "evidence": "string"
+        }
+      ],
+      "vocabulary": {
+        "quality_words": "string[]",
+        "process_words": "string[]",
+        "negative_words": "string[]",
+        "comfort_words": "string[]",
+        "brand_specific": "string[]"
+      },
+      "sentence_patterns": {
+        "openers": "string[]",
+        "middle": "string[]",
+        "closers": "string[]"
+      },
+      "sub_brands": [
+        {
+          "id": "string",
+          "name": "string",
+          "categories": "string[]",
+          "voice_character": "string",
+          "target_emotion": "string",
+          "vocabulary_emphasis": "string[]",
+          "tone_markers": "string[]"
+        }
+      ],
+      "ai_tells_to_avoid": "string[]",
+      "quality_checklist": "string[]"
+    }
+  },
+
+  "validation_rules": {
+    "title": {
+      "min_length": 40,
+      "max_length": 100,
+      "required_elements": []
+    },
+    "description": {
+      "min_length": 100,
+      "max_length": 500,
+      "min_words": 80,
+      "max_words": 300
+    },
+    "faqs": {
+      "min_count": 3,
+      "max_count": 7
+    },
+    "ai_tells": [
+      "elevate your",
+      "experience the",
+      "premium quality",
+      "ensures",
+      "providing",
+      "boasts",
+      "whether you're looking for",
+      "not only X but also Y"
+    ],
+    "overuse_patterns": [
+      {
+        "pattern": "^This ",
+        "max_occurrences": 2,
+        "description": "Sentences starting with 'This'"
+      },
+      {
+        "pattern": "—",
+        "max_occurrences": 2,
+        "description": "Em-dash usage"
+      },
+      {
+        "pattern": "designed to",
+        "max_occurrences": 1,
+        "description": "Passive 'designed to' phrase"
+      }
+    ]
+  },
+
+  "outputs": {
+    "shopify_csv": {
+      "format": "csv",
+      "columns": [
+        "Handle",
+        "Title",
+        "Body (HTML)",
+        "Metafield: custom.faqs [json]",
+        "Metafield: custom.json_ld [json]",
+        "Image Alt Text"
+      ]
+    },
+    "brand_voice_guide": {
+      "format": "markdown",
+      "template": "brand-voice-guide.template.md"
+    },
+    "qa_report": {
+      "format": "json",
+      "includes": [
+        "total_processed",
+        "passed_validation",
+        "failed_validation",
+        "ai_tells_found",
+        "human_review_required",
+        "issues_by_type"
+      ]
+    },
+    "analysis_report": {
+      "format": "html",
+      "template": "analysis-report.template.html"
+    }
+  },
+
+  "api_config": {
+    "llm": {
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-20250514",
+      "max_tokens": 2000,
+      "temperature": 0.7
+    },
+    "shopify": {
+      "api_version": "2024-01",
+      "rate_limit": 2
+    }
+  },
+
+  "cost_estimates": {
+    "tokens_per_product": 2000,
+    "cost_per_1m_tokens": 3.00,
+    "examples": {
+      "1000_products": {"tokens": 2000000, "cost_usd": 6},
+      "5000_products": {"tokens": 10000000, "cost_usd": 30},
+      "10000_products": {"tokens": 20000000, "cost_usd": 60}
+    }
+  },
+
+  "time_estimates": {
+    "1000_products": {
+      "data_collection": "1 day",
+      "voice_extraction": "2 days",
+      "prompt_engineering": "3 days",
+      "batch_processing": "1 day",
+      "qa_iteration": "2 days",
+      "deployment": "1 day",
+      "total": "10 days"
+    },
+    "5000_products": {
+      "data_collection": "2 days",
+      "voice_extraction": "3 days",
+      "prompt_engineering": "4 days",
+      "batch_processing": "2 days",
+      "qa_iteration": "3 days",
+      "deployment": "1 day",
+      "total": "15 days"
+    }
+  }
+}

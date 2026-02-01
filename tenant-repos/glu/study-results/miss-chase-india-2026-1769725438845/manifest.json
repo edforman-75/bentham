@@ -1,0 +1,555 @@
+{
+  "id": "miss-chase-india-2026",
+  "name": "Miss Chase India Visibility Study",
+  "description": "Comprehensive AI visibility study for Miss Chase, Indian women's fast fashion brand",
+  "version": "1.0",
+  "brands": [
+    {
+      "name": "Miss Chase",
+      "category": "primary",
+      "brandSiteUrl": "https://misschase.com",
+      "amazonStoreUrl": "https://www.amazon.in/stores/MissChase/page/ABCBB6FF-B114-4C91-84E7-654A2BB76A55",
+      "segment": "womens-fashion"
+    },
+    {
+      "name": "AND",
+      "category": "competitor",
+      "brandSiteUrl": "https://www.anddesignsindia.com",
+      "segment": "womens-fashion"
+    },
+    {
+      "name": "Chemistry",
+      "category": "competitor",
+      "brandSiteUrl": "https://www.chemistry.in",
+      "segment": "womens-fashion"
+    },
+    {
+      "name": "Pantaloons",
+      "category": "competitor",
+      "brandSiteUrl": "https://www.pantaloons.com",
+      "segment": "womens-fashion"
+    },
+    {
+      "name": "ONLY",
+      "category": "competitor",
+      "brandSiteUrl": "https://www.only.in",
+      "segment": "womens-fashion"
+    },
+    {
+      "name": "Vero Moda",
+      "category": "competitor",
+      "brandSiteUrl": "https://www.veromoda.in",
+      "segment": "womens-fashion"
+    },
+    {
+      "name": "Forever 21",
+      "category": "competitor",
+      "brandSiteUrl": "https://www.forever21.in",
+      "segment": "womens-fashion"
+    },
+    {
+      "name": "H&M",
+      "category": "competitor",
+      "brandSiteUrl": "https://www2.hm.com/en_in",
+      "segment": "womens-fashion"
+    },
+    {
+      "name": "Zara",
+      "category": "competitor",
+      "brandSiteUrl": "https://www.zara.com/in",
+      "segment": "womens-fashion"
+    }
+  ],
+  "queries": [
+    {
+      "text": "What is Miss Chase?",
+      "category": "brand",
+      "intent": "informational"
+    },
+    {
+      "text": "Is Miss Chase a good brand?",
+      "category": "brand",
+      "intent": "informational"
+    },
+    {
+      "text": "Where is Miss Chase based?",
+      "category": "brand",
+      "intent": "informational"
+    },
+    {
+      "text": "Who owns Miss Chase India?",
+      "category": "brand",
+      "intent": "informational"
+    },
+    {
+      "text": "Is Miss Chase an Indian brand?",
+      "category": "brand",
+      "intent": "informational"
+    },
+    {
+      "text": "Miss Chase brand review",
+      "category": "brand",
+      "intent": "informational"
+    },
+    {
+      "text": "Miss Chase vs AND",
+      "category": "comparison",
+      "intent": "commercial"
+    },
+    {
+      "text": "Miss Chase vs ONLY",
+      "category": "comparison",
+      "intent": "commercial"
+    },
+    {
+      "text": "Miss Chase vs Vero Moda",
+      "category": "comparison",
+      "intent": "commercial"
+    },
+    {
+      "text": "Miss Chase vs Forever 21",
+      "category": "comparison",
+      "intent": "commercial"
+    },
+    {
+      "text": "Miss Chase vs H&M",
+      "category": "comparison",
+      "intent": "commercial"
+    },
+    {
+      "text": "Miss Chase vs Zara",
+      "category": "comparison",
+      "intent": "commercial"
+    },
+    {
+      "text": "Miss Chase vs Pantaloons",
+      "category": "comparison",
+      "intent": "commercial"
+    },
+    {
+      "text": "Miss Chase or ONLY which is better",
+      "category": "comparison",
+      "intent": "commercial"
+    },
+    {
+      "text": "affordable western wear brands like Miss Chase",
+      "category": "comparison",
+      "intent": "commercial"
+    },
+    {
+      "text": "brands similar to Miss Chase India",
+      "category": "comparison",
+      "intent": "commercial"
+    },
+    {
+      "text": "best women's western wear brands in India",
+      "category": "best",
+      "intent": "commercial"
+    },
+    {
+      "text": "best online fashion brands for women India",
+      "category": "best",
+      "intent": "commercial"
+    },
+    {
+      "text": "best affordable jeans brands for women India",
+      "category": "best",
+      "intent": "commercial"
+    },
+    {
+      "text": "best women's tops brands India",
+      "category": "best",
+      "intent": "commercial"
+    },
+    {
+      "text": "best dresses for women online India",
+      "category": "best",
+      "intent": "commercial"
+    },
+    {
+      "text": "best jumpsuit brands India",
+      "category": "best",
+      "intent": "commercial"
+    },
+    {
+      "text": "best co-ord sets brands India",
+      "category": "best",
+      "intent": "commercial"
+    },
+    {
+      "text": "best fast fashion brands in India",
+      "category": "best",
+      "intent": "commercial"
+    },
+    {
+      "text": "best Indian fashion brands for young women",
+      "category": "best",
+      "intent": "commercial"
+    },
+    {
+      "text": "top women's clothing brands India 2025",
+      "category": "best",
+      "intent": "commercial"
+    },
+    {
+      "text": "best trendy clothes for women India",
+      "category": "best",
+      "intent": "commercial"
+    },
+    {
+      "text": "best budget fashion brands India",
+      "category": "best",
+      "intent": "commercial"
+    },
+    {
+      "text": "Miss Chase jeans quality",
+      "category": "product",
+      "intent": "informational"
+    },
+    {
+      "text": "Miss Chase dresses review",
+      "category": "product",
+      "intent": "informational"
+    },
+    {
+      "text": "Miss Chase tops quality",
+      "category": "product",
+      "intent": "informational"
+    },
+    {
+      "text": "Miss Chase jumpsuit review",
+      "category": "product",
+      "intent": "informational"
+    },
+    {
+      "text": "Are Miss Chase jeans good?",
+      "category": "product",
+      "intent": "informational"
+    },
+    {
+      "text": "Miss Chase fabric quality",
+      "category": "product",
+      "intent": "informational"
+    },
+    {
+      "text": "Miss Chase size guide",
+      "category": "product",
+      "intent": "informational"
+    },
+    {
+      "text": "Does Miss Chase run true to size?",
+      "category": "product",
+      "intent": "informational"
+    },
+    {
+      "text": "best jeans for curvy women India",
+      "category": "use-case",
+      "intent": "commercial"
+    },
+    {
+      "text": "comfortable work wear for women India",
+      "category": "use-case",
+      "intent": "commercial"
+    },
+    {
+      "text": "casual western wear for college girls India",
+      "category": "use-case",
+      "intent": "commercial"
+    },
+    {
+      "text": "party wear dresses for women India",
+      "category": "use-case",
+      "intent": "commercial"
+    },
+    {
+      "text": "office wear tops for women India",
+      "category": "use-case",
+      "intent": "commercial"
+    },
+    {
+      "text": "date night outfit ideas India",
+      "category": "use-case",
+      "intent": "commercial"
+    },
+    {
+      "text": "what to wear for brunch India",
+      "category": "use-case",
+      "intent": "commercial"
+    },
+    {
+      "text": "trendy outfits for women in their 20s India",
+      "category": "use-case",
+      "intent": "commercial"
+    },
+    {
+      "text": "where to buy Miss Chase online",
+      "category": "purchase",
+      "intent": "transactional"
+    },
+    {
+      "text": "Miss Chase Myntra",
+      "category": "purchase",
+      "intent": "transactional"
+    },
+    {
+      "text": "Miss Chase Amazon India",
+      "category": "purchase",
+      "intent": "transactional"
+    },
+    {
+      "text": "Miss Chase AJIO",
+      "category": "purchase",
+      "intent": "transactional"
+    },
+    {
+      "text": "Miss Chase discount code",
+      "category": "purchase",
+      "intent": "transactional"
+    },
+    {
+      "text": "Miss Chase sale",
+      "category": "purchase",
+      "intent": "transactional"
+    },
+    {
+      "text": "buy western wear online India",
+      "category": "purchase",
+      "intent": "transactional"
+    },
+    {
+      "text": "affordable dresses online India",
+      "category": "purchase",
+      "intent": "transactional"
+    },
+    {
+      "text": "women's fashion brands Kolkata",
+      "category": "best",
+      "intent": "commercial"
+    },
+    {
+      "text": "Indian fashion startups for women",
+      "category": "best",
+      "intent": "informational"
+    },
+    {
+      "text": "D2C fashion brands India women",
+      "category": "best",
+      "intent": "informational"
+    },
+    {
+      "text": "Miss Chase return policy",
+      "category": "brand",
+      "intent": "informational"
+    },
+    {
+      "text": "Miss Chase shipping time",
+      "category": "brand",
+      "intent": "informational"
+    },
+    {
+      "text": "is Miss Chase available on Flipkart",
+      "category": "purchase",
+      "intent": "transactional"
+    },
+    {
+      "text": "western wear under 1000 rupees India",
+      "category": "purchase",
+      "intent": "transactional"
+    },
+    {
+      "text": "stylish jeans under 2000 rupees women",
+      "category": "purchase",
+      "intent": "transactional"
+    },
+    {
+      "text": "best summer dresses India",
+      "category": "best",
+      "intent": "commercial"
+    },
+    {
+      "text": "best winter wear brands women India",
+      "category": "best",
+      "intent": "commercial"
+    },
+    {
+      "text": "stretchy jeans for women India",
+      "category": "use-case",
+      "intent": "commercial"
+    },
+    {
+      "text": "high waist jeans brands India",
+      "category": "best",
+      "intent": "commercial"
+    },
+    {
+      "text": "Mom jeans brands India",
+      "category": "best",
+      "intent": "commercial"
+    },
+    {
+      "text": "wide leg jeans brands India women",
+      "category": "best",
+      "intent": "commercial"
+    },
+    {
+      "text": "cargo jeans women India",
+      "category": "best",
+      "intent": "commercial"
+    },
+    {
+      "text": "skinny jeans brands women India",
+      "category": "best",
+      "intent": "commercial"
+    },
+    {
+      "text": "bootcut jeans women India",
+      "category": "best",
+      "intent": "commercial"
+    },
+    {
+      "text": "jeggings brands India women",
+      "category": "best",
+      "intent": "commercial"
+    },
+    {
+      "text": "Myntra vs AJIO for western wear",
+      "category": "comparison",
+      "intent": "commercial"
+    },
+    {
+      "text": "best website for women's western wear India",
+      "category": "best",
+      "intent": "commercial"
+    },
+    {
+      "text": "Chase Haul website review",
+      "category": "brand",
+      "intent": "informational"
+    },
+    {
+      "text": "Dolce Crudo brand review",
+      "category": "brand",
+      "intent": "informational"
+    },
+    {
+      "text": "Miss Chase A+ collection",
+      "category": "product",
+      "intent": "informational"
+    },
+    {
+      "text": "what brands do Indian women prefer for western wear",
+      "category": "best",
+      "intent": "informational"
+    },
+    {
+      "text": "Indian Instagram fashion brands women",
+      "category": "best",
+      "intent": "informational"
+    },
+    {
+      "text": "trendy Instagram worthy outfits India",
+      "category": "use-case",
+      "intent": "commercial"
+    },
+    {
+      "text": "best brands on Myntra for women",
+      "category": "best",
+      "intent": "commercial"
+    },
+    {
+      "text": "best brands on AJIO for women",
+      "category": "best",
+      "intent": "commercial"
+    },
+    {
+      "text": "women's fashion trends India 2025",
+      "category": "best",
+      "intent": "informational"
+    },
+    {
+      "text": "sustainable fashion brands India women",
+      "category": "best",
+      "intent": "commercial"
+    },
+    {
+      "text": "ethical fashion brands India",
+      "category": "best",
+      "intent": "commercial"
+    },
+    {
+      "text": "Miss Chase customer service",
+      "category": "brand",
+      "intent": "informational"
+    },
+    {
+      "text": "Miss Chase delivery experience",
+      "category": "brand",
+      "intent": "informational"
+    },
+    {
+      "text": "Miss Chase exchange policy",
+      "category": "brand",
+      "intent": "informational"
+    }
+  ],
+  "tests": [
+    {
+      "surface": "chatgpt",
+      "country": "IN",
+      "city": "Mumbai",
+      "completionTarget": 90,
+      "note": "ChatGPT queries from India"
+    },
+    {
+      "surface": "perplexity",
+      "country": "IN",
+      "completionTarget": 90,
+      "note": "Perplexity with India context"
+    },
+    {
+      "surface": "google-organic",
+      "country": "IN",
+      "city": "Mumbai",
+      "completionTarget": 90,
+      "note": "Google India organic search"
+    },
+    {
+      "surface": "google-ai-overview",
+      "country": "IN",
+      "city": "Mumbai",
+      "completionTarget": 90,
+      "note": "Google AI Overview from India"
+    },
+    {
+      "surface": "bing",
+      "country": "IN",
+      "completionTarget": 90,
+      "note": "Bing search from India"
+    },
+    {
+      "surface": "amazon-search",
+      "country": "IN",
+      "completionTarget": 90,
+      "note": "Amazon India search"
+    }
+  ],
+  "outputDir": "./study-results/miss-chase-visibility-study",
+  "report": {
+    "title": "Miss Chase AI Visibility Study",
+    "subtitle": "Comprehensive Analysis of AI Discovery Surfaces in India",
+    "clientName": "Miss Chase",
+    "reportType": "ceo-strategic",
+    "includeCharts": true,
+    "theme": "corporate"
+  },
+  "job": {
+    "defaultCompletionTarget": 90
+  },
+  "options": {
+    "parallelSurfaces": false,
+    "retryAttempts": 3,
+    "delayBetweenRequests": 2000,
+    "screenshotEnabled": false,
+    "stealthMode": true
+  }
+}

@@ -1,0 +1,926 @@
+{
+  "timestamp": "2026-01-29T22:25:18.443Z",
+  "studyName": "Miss Chase India Visibility Study - google-search",
+  "manifest": {
+    "id": "miss-chase-india-2026",
+    "name": "Miss Chase India Visibility Study",
+    "queryCount": 86,
+    "primaryBrand": "Miss Chase",
+    "competitors": [
+      "AND",
+      "Chemistry",
+      "Pantaloons",
+      "ONLY",
+      "Vero Moda",
+      "Forever 21",
+      "H&M",
+      "Zara"
+    ]
+  },
+  "surface": "google-search",
+  "location": "India (Mumbai)",
+  "summary": {
+    "total": 86,
+    "successful": 10,
+    "failed": 0,
+    "avgResponseTime": 3556
+  },
+  "brandVisibility": {
+    "Miss Chase": {
+      "queriesAppearing": 10,
+      "percentOfQueries": "100.0%",
+      "isClient": true
+    },
+    "AND": {
+      "queriesAppearing": 10,
+      "percentOfQueries": "100.0%",
+      "isClient": false
+    },
+    "ONLY": {
+      "queriesAppearing": 5,
+      "percentOfQueries": "50.0%",
+      "isClient": false
+    },
+    "Amazon": {
+      "queriesAppearing": 5,
+      "percentOfQueries": "50.0%",
+      "isClient": false
+    },
+    "Myntra": {
+      "queriesAppearing": 3,
+      "percentOfQueries": "30.0%",
+      "isClient": false
+    },
+    "Vero Moda": {
+      "queriesAppearing": 1,
+      "percentOfQueries": "10.0%",
+      "isClient": false
+    },
+    "Forever 21": {
+      "queriesAppearing": 1,
+      "percentOfQueries": "10.0%",
+      "isClient": false
+    }
+  },
+  "results": [
+    {
+      "queryIndex": 1,
+      "queryText": "What is Miss Chase?",
+      "category": "brand",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Miss Chase",
+          "url": "https://www.amazon.com/stores/MissChase/page/E44F6849-23A4-40F4-B9B5-7C59A5F57284",
+          "snippet": "In the world of outrageous fashion statements- we at Miss Chase recognize ourselves as a lifestyle brand that transforms the latest trends into accessible ..."
+        },
+        {
+          "position": 2,
+          "title": "Miss Chase",
+          "url": "https://in.linkedin.com/company/miss-chase",
+          "snippet": "Miss Chase is a global fashion brand that uses data science to develop chic designs exclusively for women. After playing leadership roles at Google and ..."
+        },
+        {
+          "position": 3,
+          "title": "Miss Chase",
+          "url": "https://chasehaul.com/collections/miss-chase?srsltid=AfmBOopulXnZylq16nNeiUIVGstKPKcvFTxSesSaUt57aevNiL68eFvH",
+          "snippet": "Women's Maroon V-Neck Wrap Maxi Dress with Tie-Up Closure and Flutter Sleeves Sale price₹ 1,379 Regular price₹ 2,299. (40% Off). inclusive of all taxes."
+        },
+        {
+          "position": 4,
+          "title": "Fastest Growing Fashion Brand In India (@misschaseindia)",
+          "url": "https://www.instagram.com/misschaseindia/?hl=en",
+          "snippet": "Photo by Miss Chase | Fastest Growing Fashion Brand In India on January 15, 2026. Shop our gorgeous dresses! ✨️ Link in bio!"
+        },
+        {
+          "position": 5,
+          "title": "Miss Chase (@MissChaseIndia)",
+          "url": "https://www.facebook.com/MissChaseIndia/",
+          "snippet": "Check out our brand Miss Chase's fabulous festive collection at exclusive prices only on Amazon Sale starting from today midnight (September 23rd)"
+        },
+        {
+          "position": 6,
+          "title": "Miss Chase (MissChaseIndia) – Profile",
+          "url": "https://in.pinterest.com/misschaseindia/",
+          "snippet": "Miss Chase is a global fashion brand that creates chic designs exclusively for women while keeping in mind that every woman rightfully deserves the best."
+        },
+        {
+          "position": 7,
+          "title": "Miss Chase Company Profile Funding & Investors",
+          "url": "https://yourstory.com/companies/miss-chase",
+          "snippet": "Kolkata, West Bengal based Miss Chase is a global fashion brand that uses data science to develop chic designs exclusively for women."
+        },
+        {
+          "position": 8,
+          "title": "Miss Chase 2025 Company Profile",
+          "url": "https://pitchbook.com/profiles/company/129358-63",
+          "snippet": "Manufacturer and retailer of women's clothing, Miss Chase offers a wide range of fashion options including dresses, jumpsuits, jeans, and tops."
+        },
+        {
+          "position": 9,
+          "title": "Chase Haul",
+          "url": "https://chasehaul.com/?srsltid=AfmBOooDg-upnjO5ywXwesUXnrw_plAg0tHmpj2qcQIIbPIdd12rlSb-",
+          "snippet": "Viral Tummy Shaping Jeans · Softest Denim in India · 2X Stretch Denim · Internet's Favourite Dresses and Jumpsuits."
+        },
+        {
+          "position": 10,
+          "title": "Miss Chase - Overview, News & Similar companies",
+          "url": "https://www.zoominfo.com/c/miss-chase/358101336",
+          "snippet": "Miss Chase is a fashion retail brand specializing in a wide range of women's apparel, including dresses, tops, and denim jeans designed for various body ..."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "Miss Chase",
+          "count": 16,
+          "isClient": true
+        },
+        {
+          "brand": "AND",
+          "count": 14,
+          "isClient": false
+        },
+        {
+          "brand": "ONLY",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Amazon",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 1111,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 2,
+      "queryText": "Is Miss Chase a good brand?",
+      "category": "brand",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Name brands that sell decently high quality clothes at an ...",
+          "url": "https://www.reddit.com/r/IndianFashionAddicts/comments/191lmne/name_brands_that_sell_decently_high_quality/",
+          "snippet": "Good brands for girls is Miss chase & Sassafras you can find them online.one of them is Indian brand clothing is really good."
+        },
+        {
+          "position": 2,
+          "title": "Latest Review of Miss Chase Casual Full Sleeve Solid ...",
+          "url": "https://www.flipkart.com/miss-chase-casual-full-sleeve-solid-women-s-black-top/product-reviews/itmf3z38cwfvhwhy?pid=TOPE2ZMUQX8HGTWW",
+          "snippet": "Pretty good · Miss Chase brand never disappoints me in terms of fit & style . I wished got the black colour but size wasn't available .But still satisfied with ..."
+        },
+        {
+          "position": 3,
+          "title": "Miss Chase Women's Wide Leg High Rise Regular ...",
+          "url": "https://www.amazon.in/Miss-Chase-Womens-Regular-Stretchable/dp/B0BKRB284Y",
+          "snippet": "The product is of superior quality. It is worth every single money you have spent. The fabric is very smooth and comfortable. It is mildly elastic. The colour ..."
+        },
+        {
+          "position": 4,
+          "title": "Fastest Growing Fashion Brand In India (@misschaseindia)",
+          "url": "https://www.instagram.com/misschaseindia/?hl=en",
+          "snippet": "1M+ Happy Customers New account: @chasehaulofficial. For fits that feel custom, click below. Photo by Miss Chase | Fastest Growing Fashion Brand In India ..."
+        },
+        {
+          "position": 5,
+          "title": "Miss Chase",
+          "url": "https://chasehaul.com/collections/miss-chase?srsltid=AfmBOooJ0QoV11NMUss9zZNJxBnV41qMVDo4-3BJf4S3flxv7znGkx69",
+          "snippet": "Our model minimizes waste with the planet in mind. Easy Returns. Don't love it? No worries."
+        },
+        {
+          "position": 6,
+          "title": "Miss Chase (@MissChaseIndia)",
+          "url": "https://www.facebook.com/MissChaseIndia/",
+          "snippet": "Check out our brand Miss Chase's fabulous festive collection at exclusive prices only on Amazon Sale starting from today midnight (September 23rd)"
+        },
+        {
+          "position": 7,
+          "title": "Miss Chase",
+          "url": "https://in.linkedin.com/company/miss-chase",
+          "snippet": "Miss Chase is a global fashion brand that uses data science to develop chic designs exclusively for women. After playing leadership roles at Google and ..."
+        },
+        {
+          "position": 8,
+          "title": "Exclusive Miss Chase Online Store in India at Myntra",
+          "url": "https://www.myntra.com/miss-chase",
+          "snippet": "Miss Chase online store in India. Shop from the latest collection of Miss Chase apparels online at great prices from Myntra. ✯ Free Shipping ✯ COD ✯ Easy ..."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "Miss Chase",
+          "count": 13,
+          "isClient": true
+        },
+        {
+          "brand": "AND",
+          "count": 10,
+          "isClient": false
+        },
+        {
+          "brand": "Myntra",
+          "count": 2,
+          "isClient": false
+        },
+        {
+          "brand": "ONLY",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Amazon",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 8111,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 3,
+      "queryText": "Where is Miss Chase based?",
+      "category": "brand",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Miss Chase - 2025 Company Profile, Team, Competitors & ...",
+          "url": "https://tracxn.com/d/companies/miss-chase/__pde-c8ydP-uyCndvjNC32Blam3MAyu9FZ0jd6HQ0LLM",
+          "snippet": "Miss Chase is an unfunded company based in Kolkata (India), founded in 2012 by Udayan Bubna and Ananya Bubna."
+        },
+        {
+          "position": 2,
+          "title": "Miss Chase Company Profile Funding & Investors",
+          "url": "https://yourstory.com/companies/miss-chase",
+          "snippet": "Kolkata, West Bengal based Miss Chase is a global fashion brand that uses data science to develop chic designs exclusively for women."
+        },
+        {
+          "position": 3,
+          "title": "Miss Chase Information",
+          "url": "https://rocketreach.co/miss-chase-profile_b5ec9b74f42e73df",
+          "snippet": "Where is Miss Chase based? Miss Chase is based in West Bengal, West Bengal. What is the NAICS code for Miss Chase? The NAICS codes for Miss Chase are [424, 42]."
+        },
+        {
+          "position": 4,
+          "title": "Miss Chase - Crunchbase Company Profile & Funding",
+          "url": "https://www.crunchbase.com/organization/miss-chase",
+          "snippet": "Where is Miss Chase 's headquarters? Miss Chase is located in Kolkata, West Bengal, India . Browse By: Organizations, People, Events. Stay Connected."
+        },
+        {
+          "position": 5,
+          "title": "Miss Chase Garments from Kolkata, India | About Us",
+          "url": "https://www.indiamart.com/miss-chase/aboutus.html?srsltid=AfmBOoqDK2MztZ5lU_LRSF52XdP6gbclz34SKYajhzol8n41n6FQe76Z",
+          "snippet": "Miss Chase Garments, Kolkata, West Bengal - Deals in Miss Chase No Holding Back Denim Jogger, Miss Chase Hips Don't Lie Crochet Shorts, Miss Chase Summer ..."
+        },
+        {
+          "position": 6,
+          "title": "Miss Chase",
+          "url": "https://in.linkedin.com/company/miss-chase",
+          "snippet": "Website: http://www.misschase.com. External link for Miss Chase ; Industry: Retail Apparel and Fashion ; Company size: 51-200 employees ; Headquarters: West Bengal."
+        },
+        {
+          "position": 7,
+          "title": "Miss Chase - An Ecommerce Bootstrapped Company ...",
+          "url": "https://inc42.com/company/miss-chase/",
+          "snippet": "Miss Chase: Key Highlights ; sector_logo. Sector. Ecommerce ; founded_year_logo. Founding Year. 2012 ; headquarter_logo. Headquarters. Kolkata ; founders_logo."
+        },
+        {
+          "position": 8,
+          "title": "Miss Chase: Employee Directory",
+          "url": "https://www.zoominfo.com/pic/miss-chase/358101336",
+          "snippet": "Miss Chase's headquarters are located at Kolkata, West Bengal, India How do I contact Miss Chase? Miss Chase Contact Info: Phone number: +91 2248934146 Website: ..."
+        },
+        {
+          "position": 9,
+          "title": "All Miss Chase Office Locations in India",
+          "url": "https://www.ambitionbox.com/overview/miss-chase-overview/locations",
+          "snippet": "All Miss Chase Offices. West Bengal. 1 city with 1 office. Kolkata."
+        },
+        {
+          "position": 10,
+          "title": "What is Dooky Chase's restaurant like for a solo traveler?",
+          "url": "https://www.facebook.com/groups/neworleansfoodies/posts/1863888884447466/",
+          "snippet": "Leyah (Leah) Chase was an American chef based in New Orleans, Louisiana. An author and television personality, she was known as the Queen of ..."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "Miss Chase",
+          "count": 27,
+          "isClient": true
+        },
+        {
+          "brand": "AND",
+          "count": 4,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 1849,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 4,
+      "queryText": "Who owns Miss Chase India?",
+      "category": "brand",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Udayan Bubna - Miss Chase",
+          "url": "https://in.linkedin.com/in/udayanbubna",
+          "snippet": "Udayan is a serial entrepreneur and an operations expert. He successfully scaled and sold… · Experience: Miss Chase · Education: Stanford University ..."
+        },
+        {
+          "position": 2,
+          "title": "Miss Chase - 2025 Company Profile, Team, Competitors & ...",
+          "url": "https://tracxn.com/d/companies/miss-chase/__pde-c8ydP-uyCndvjNC32Blam3MAyu9FZ0jd6HQ0LLM",
+          "snippet": "Miss Chase is an unfunded company based in Kolkata (India), founded in 2012 by Udayan Bubna and Ananya Bubna."
+        },
+        {
+          "position": 3,
+          "title": "Kolkata Is Home to Many Women's Wear Brands, Miss ...",
+          "url": "https://eastindiaretail.com/?p=7897",
+          "snippet": "Miss Chase, founded in 2012 by Udayan Bubna in Kolkata, launched with a mission: to bring runway-inspired European elegance to Indian wardrobes. Merging ..."
+        },
+        {
+          "position": 4,
+          "title": "Udayan Bubna - Co Founder @ Miss Chase",
+          "url": "https://www.crunchbase.com/person/udayan-bubna",
+          "snippet": "Udayan Bubna is the Co Founder at Miss Chase . Additionally, Udayan Bubna has had 1 past job as the Co-Founder & VP Business Operations at SoSasta.com ."
+        },
+        {
+          "position": 5,
+          "title": "Miss Chase Company Profile Funding & Investors",
+          "url": "https://yourstory.com/companies/miss-chase",
+          "snippet": "Basic Information. Kolkata, West Bengal based Miss Chase is a global fashion brand that uses data science to develop chic designs exclusively for women."
+        },
+        {
+          "position": 6,
+          "title": "Udayan Bubna Email & Phone Number | Miss Chase ...",
+          "url": "https://rocketreach.co/udayan-bubna-email_24225979",
+          "snippet": "Udayan Bubna, based in Kolkata, WB, IN, is currently a Co Founder at Miss Chase. Udayan Bubna brings experience from previous roles at Tech Pourri, Groupon, ..."
+        },
+        {
+          "position": 7,
+          "title": "What She Is Buying Online And Why",
+          "url": "https://www.telegraphindia.com/entertainment/what-she-is-buying-online-and-why/cid/287305",
+          "snippet": "Don Bosco Park Circus alumni Ananya Bubna and Udayan Bubna launched www.misschase.com, the latest women's fashion store on the Internet, ..."
+        },
+        {
+          "position": 8,
+          "title": "Miss Chase - Crunchbase Company Profile & Funding",
+          "url": "https://www.crunchbase.com/organization/miss-chase",
+          "snippet": "Company Type For Profit. Founders Udayan Bubna. About the Company. Miss Chase is a ... Miss Chase is located in Kolkata, West Bengal, India . Browse By ..."
+        },
+        {
+          "position": 9,
+          "title": "Miss Chase 2025 Company Profile",
+          "url": "https://pitchbook.com/profiles/company/129358-63",
+          "snippet": "Information on valuation, funding, cap tables, investors, and executives for Miss Chase. Use the PitchBook Platform to explore the full profile."
+        },
+        {
+          "position": 10,
+          "title": "Miss Chase - Overview, News & Similar companies",
+          "url": "https://www.zoominfo.com/c/miss-chase/358101336",
+          "snippet": "Miss Chase Overview Metrics ; Headquarters. Kolkata, West Bengal, India ; Phone Number. +91 2248934146 ; Revenue. $14.8 Million ..."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "Miss Chase",
+          "count": 18,
+          "isClient": true
+        },
+        {
+          "brand": "AND",
+          "count": 8,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 3179,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 5,
+      "queryText": "Is Miss Chase an Indian brand?",
+      "category": "brand",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Fastest Growing Fashion Brand In India (@misschaseindia)",
+          "url": "https://www.instagram.com/misschaseindia/?hl=en",
+          "snippet": "Photo by Miss Chase | Fastest Growing Fashion Brand In India on December 22, 2025. Grab the prettiest dresses and jumpsuits from our catalogue of amazing styles ..."
+        },
+        {
+          "position": 2,
+          "title": "Miss Chase - 2025 Company Profile, Team, Competitors & ...",
+          "url": "https://tracxn.com/d/companies/miss-chase/__pde-c8ydP-uyCndvjNC32Blam3MAyu9FZ0jd6HQ0LLM",
+          "snippet": "Miss Chase is an unfunded company based in Kolkata (India), founded in 2012 by Udayan Bubna and Ananya Bubna."
+        },
+        {
+          "position": 3,
+          "title": "Miss Chase Company Profile Funding & Investors",
+          "url": "https://yourstory.com/companies/miss-chase",
+          "snippet": "Kolkata, West Bengal based Miss Chase is a global fashion brand that uses data science to develop chic designs exclusively for women."
+        },
+        {
+          "position": 4,
+          "title": "Miss Chase 2025 Company Profile",
+          "url": "https://pitchbook.com/profiles/company/129358-63",
+          "snippet": "Miss Chase FAQs. When was Miss Chase founded? Miss Chase was founded in 2012. Where is Miss Chase headquartered? Miss Chase is headquartered in Kolkata, India."
+        },
+        {
+          "position": 5,
+          "title": "Miss Chase - Crunchbase Company Profile & Funding",
+          "url": "https://www.crunchbase.com/organization/miss-chase",
+          "snippet": "Miss Chase is a global fashion brand that creates chic designs exclusively for women ... Miss Chase is located in Kolkata, West Bengal, India . Browse By ..."
+        },
+        {
+          "position": 6,
+          "title": "Miss Chase Garments from Kolkata, India | About Us",
+          "url": "https://www.indiamart.com/miss-chase/aboutus.html?srsltid=AfmBOoqHTozwsD8XhSdUanBsf0o6zAmE_wLLLQt5xB2X2lWxwsi2Sc4R",
+          "snippet": "Miss Chase is a global fashion brand that creates chic designs exclusively for women while keeping in mind that every woman rightfully deserves the best."
+        },
+        {
+          "position": 7,
+          "title": "Miss Chase",
+          "url": "https://in.linkedin.com/company/miss-chase",
+          "snippet": "Miss Chase is a global fashion brand that uses data science to develop chic designs exclusively for women. After playing leadership roles at Google and ..."
+        },
+        {
+          "position": 8,
+          "title": "Miss Chase, A UK Fashion Brand, Disrupts the Indian Market ...",
+          "url": "https://www.prlog.org/12155370-miss-chase-uk-fashion-brand-disrupts-the-indian-market-with-shockingly-low-prices.html",
+          "snippet": "Miss Chase, A UK Fashion Brand, Disrupts the Indian Market with Shockingly Low Prices. Miss Chase is a UK fashion brand providing European Inspired fashion ..."
+        },
+        {
+          "position": 9,
+          "title": "Miss Chase Information",
+          "url": "https://rocketreach.co/miss-chase-profile_b5ec9b74f42e73df",
+          "snippet": "Miss Chase is a Fashion, Retail, and Retail Apparel and Fashion company located in West Bengal, West Bengal with $14.8 million in revenue and 60 employees."
+        },
+        {
+          "position": 10,
+          "title": "Miss Chase Company Profile & Overview",
+          "url": "https://internshala.com/company/miss-chase-1507965444/",
+          "snippet": "Miss Chase is a global fashion brand that creates chic designs ... We retail via/over 30 online channels across India including Myntra, Jabong, and Amazon."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "Miss Chase",
+          "count": 25,
+          "isClient": true
+        },
+        {
+          "brand": "AND",
+          "count": 17,
+          "isClient": false
+        },
+        {
+          "brand": "Amazon",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Myntra",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 1965,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 6,
+      "queryText": "Miss Chase brand review",
+      "category": "brand",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Latest Review of Miss Chase Casual Full Sleeve Solid ...",
+          "url": "https://www.flipkart.com/miss-chase-casual-full-sleeve-solid-women-s-black-top/product-reviews/itmf3z38cwfvhwhy?pid=TOPE2ZMUQX8HGTWW",
+          "snippet": "Pretty good · Miss Chase brand never disappoints me in terms of fit & style . I wished got the black colour but size wasn't available .But still satisfied with ..."
+        },
+        {
+          "position": 2,
+          "title": "Miss Chase Women's Wide-Leg High-Rise Regular-Length ...",
+          "url": "https://www.amazon.in/Miss-Chase-Womens-Cropped-Stretchable/dp/B07VMMMR37",
+          "snippet": "Top Brand. Top Brand indicates high quality, trusted brands on Amazon aggregated basis verified ratings, returns/refunds and recent order history at brand level ..."
+        },
+        {
+          "position": 3,
+          "title": "Most reviewed jeans",
+          "url": "https://chasehaul.com/collections/best-fit-jeans?srsltid=AfmBOor-sn6PgREFaGis42sjzqWfTzMzwZw-7_NZGkHYeONdUwrhkjQG",
+          "snippet": "24/7 Comfort Black Skinny-Fit High-Rise Stretchable Denim Jeans Sale price₹ 1,189 Regular price₹ 1,949. (38% Off). inclusive of all taxes."
+        },
+        {
+          "position": 4,
+          "title": "Miss Chase (@MissChaseIndia)",
+          "url": "https://www.facebook.com/MissChaseIndia/",
+          "snippet": "Check out our brand Miss Chase's fabulous festive collection at exclusive prices only on Amazon Sale starting from today midnight (September 23rd)"
+        },
+        {
+          "position": 5,
+          "title": "Fastest Growing Fashion Brand In India (@misschaseindia)",
+          "url": "https://www.instagram.com/misschaseindia/?hl=en",
+          "snippet": "1M+ Happy Customers New account: @chasehaulofficial. For fits that feel custom, click below. Photo by Miss Chase | Fastest Growing Fashion Brand In India ..."
+        },
+        {
+          "position": 6,
+          "title": "Exclusive Miss Chase Online Store in India at Myntra",
+          "url": "https://www.myntra.com/miss-chase",
+          "snippet": "Miss Chase. Women Denim Shorts. 989 1799 (45% OFF). Best Price ₹692 with coupon · 4.2|10. Miss Chase. V-Neck Basic Jumpsuit. 1496 3399 (56% OFF)."
+        },
+        {
+          "position": 7,
+          "title": "Miss Chase",
+          "url": "https://www.amazon.in/stores/MissChase/page/ABCBB6FF-B114-4C91-84E7-654A2BB76A55",
+          "snippet": "The trend chaser in you always wants something little different! Flattering clothes in carefully crafted shapes with a beautiful soft hang and yet sharply ..."
+        },
+        {
+          "position": 8,
+          "title": "Reviews for Miss Chase Garments in Midleton Row, Kolkata",
+          "url": "https://www.justdial.com/Kolkata/Miss-Chase-Garments-Beside-Niit-Building-Midleton-Row/033PXX33-XX33-190610094855-S4N5_BZDET/reviews",
+          "snippet": "Good quality products: Several users praised the quality of the products offered by Miss Chase. What can be improved. No specific dislikes were mentioned in the ..."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "Miss Chase",
+          "count": 12,
+          "isClient": true
+        },
+        {
+          "brand": "AND",
+          "count": 10,
+          "isClient": false
+        },
+        {
+          "brand": "Amazon",
+          "count": 2,
+          "isClient": false
+        },
+        {
+          "brand": "ONLY",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Myntra",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 2713,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 7,
+      "queryText": "Miss Chase vs AND",
+      "category": "comparison",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Miss Chase",
+          "url": "https://chasehaul.com/collections/miss-chase?srsltid=AfmBOopo9fi6ybiHTBXERAwCv4JYzIAPdcuJ5RuVywg3IDXT4scXkquT",
+          "snippet": "Women's Maroon V-Neck Wrap Maxi Dress with Tie-Up Closure and Flutter Sleeves Sale price₹ 1,379 Regular price₹ 2,299. (40% Off). inclusive of all taxes."
+        },
+        {
+          "position": 2,
+          "title": "Alex and Ms. Chase Text Conversations: Part 5 Reddit Stories",
+          "url": "https://www.tiktok.com/@toweringtexts/video/7432053429888945441",
+          "snippet": "Experience the continuing saga of Alex and Ms. Chase in this thrilling text story installment. Dive into Minecraft parkour, funny conversations, and unexpected ..."
+        },
+        {
+          "position": 3,
+          "title": "Ja'Marr Chase Highlights vs Ole Miss | NCAA",
+          "url": "https://www.youtube.com/watch?v=qPr8_jZRQ54",
+          "snippet": "LSU WR Ja'Marr Chase had 8 receptions for 227 yards and 3 touchdowns. Comment suggestions for future videos and enjoy!"
+        },
+        {
+          "position": 4,
+          "title": "Anyone else a lil confused seeing Amelia Chase on SVU",
+          "url": "https://www.reddit.com/r/SVU/comments/184by3z/anyone_else_a_lil_confused_seeing_amelia_chase_on/",
+          "snippet": "It's so funny seeing actors portray different characters. I was confused at first seeing her not speak lawyer jargon and be a villain in the episode."
+        },
+        {
+          "position": 5,
+          "title": "Miss Chase A+ Women's V-Neck Sleeveless Embellished ...",
+          "url": "https://www.amazon.in/Miss-Chase-Womens-Sleeveless-Embellished/dp/B0D1G5N6MD",
+          "snippet": "Customers find the dress to be of superb quality and appreciate its perfect fit and classy appearance. They also consider it good value for money. AI Generated ..."
+        },
+        {
+          "position": 6,
+          "title": "Batter Tendencies (take/miss/chase) - MVP Baseball 2005",
+          "url": "https://www.mvpmods.com/forums/topic/11554-batter-tendencies-takemisschase/",
+          "snippet": "I Global edited ALL Miss/Chase stats on every player by static +10 and lowered contact by 25% and the top 25 Pitchers HAD LESS Ks than they did ..."
+        },
+        {
+          "position": 7,
+          "title": "Miss Chase (@MissChaseIndia)",
+          "url": "https://www.facebook.com/MissChaseIndia/",
+          "snippet": "Miss Chase · Shop our gorgeous dresses! · Grab the prettiest dresses and jumpsuits from our catalogue of amazing styles, NOW! · Grav the prettiest dresses and ..."
+        },
+        {
+          "position": 8,
+          "title": "Miss Chase Women Dress",
+          "url": "https://pricehistory.app/p/miss-chase-women-dress-jtjI7xce",
+          "snippet": "You can check the price history of Miss Chase Women Dress here. This product's current Price in India is ₹1,399. The average and highest prices are ₹1,399 and ₹ ..."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "AND",
+          "count": 15,
+          "isClient": false
+        },
+        {
+          "brand": "Miss Chase",
+          "count": 6,
+          "isClient": true
+        }
+      ],
+      "responseTimeMs": 1878,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 8,
+      "queryText": "Miss Chase vs ONLY",
+      "category": "comparison",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Miss Chase A+",
+          "url": "https://chasehaul.com/collections/miss-chase-a?srsltid=AfmBOoqM5XAPDo_61VUb0FX35B1O2dIpvETHYgflVM_Ah609R-v4Nv1l",
+          "snippet": "Miss Chase A+ · Women's Teal V-Neck Cap-Sleeves Solid Wrapped Knee-Long Dress Sale price₹ 1,393 Regular price₹ 2,445. (43% Off). inclusive of all taxes."
+        },
+        {
+          "position": 2,
+          "title": "Chase Haul",
+          "url": "https://chasehaul.com/?srsltid=AfmBOopiFrmb8ZUU_i74TFeqzu1mbVCKwVKxnDGzstfQ00QnkzjBb7Bq",
+          "snippet": "Viral Tummy Shaping Jeans · Softest Denim in India · 2X Stretch Denim · Internet's Favourite Dresses and Jumpsuits."
+        },
+        {
+          "position": 3,
+          "title": "Don't miss these FRESH drops! [Miss Chase, denim jeans ...",
+          "url": "https://www.instagram.com/p/DMXmVSpShh9/",
+          "snippet": "✨ Rock the streets with this unique blend of classic denim and shimmering studs—perfect for elevating any outfit. Ready to dazzle? Explore more ..."
+        },
+        {
+          "position": 4,
+          "title": "https://amzn.to/4ewZ7d9 👈1499 RS only Miss Chase Women's ...",
+          "url": "https://www.facebook.com/groups/2011793019028774/posts/2664512720423464/",
+          "snippet": "https://amzn.to/4ewZ7d9 1499 RS only Miss Chase Women's Keyhole Neck Regular Sleeve Regular Length Jumpsuit with Pockets इसे खरीदने के लिए इस लिंक पर ..."
+        },
+        {
+          "position": 5,
+          "title": "Chase Upgraded my Card, but I missed out on SUB",
+          "url": "https://www.reddit.com/r/CreditCards/comments/1qokva2/chase_upgraded_my_card_but_i_missed_out_on_sub/",
+          "snippet": "My Chase Freedom Rise was automatically upgraded to a Chase Freedom Unlimited, meaning I missed out on the SUB. The new card has already ..."
+        },
+        {
+          "position": 6,
+          "title": "Latest Review of Miss Chase Skinny Women Blue Jeans",
+          "url": "https://www.flipkart.com/miss-chase-skinny-women-blue-jeans/product-reviews/itmfavu5zjg8w9gw?pid=JEAFAVRKJMHMYWMC",
+          "snippet": "Ohh my god... Its just the perfect fitting jeans. You can definitely buy one size down than your usual size for a better fitted look as these are very ..."
+        },
+        {
+          "position": 7,
+          "title": "Buy Beige Women Dresses Only Miss Chase online in India",
+          "url": "https://www.myntra.com/beige-women-dresses-only-miss-chase",
+          "snippet": "Miss Chase Women Beige Printed Shirt Dress, Rs. 849. Miss Chase V-Neck Floral Dress, Rs. 1200. ONLY Women Print Fit & Flare Mini Dress, Rs. 2089. StyleCast ..."
+        },
+        {
+          "position": 8,
+          "title": "Buy Women's Apparel Online At Miss Chase - Delhi",
+          "url": "https://lbb.in/delhi/shop-miss-chase-western-wear-online/",
+          "snippet": "Shop online for affordable women's dresses, tunics at Miss Chase. Know prices, more about the brand, and shop on LBB here."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "Miss Chase",
+          "count": 11,
+          "isClient": true
+        },
+        {
+          "brand": "AND",
+          "count": 4,
+          "isClient": false
+        },
+        {
+          "brand": "ONLY",
+          "count": 4,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 9378,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 9,
+      "queryText": "Miss Chase vs Vero Moda",
+      "category": "comparison",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "10 Best Crop Top Brands to Flash Waist Glamorously",
+          "url": "https://veryinterestingtips.wordpress.com/2017/05/31/10-best-crop-top-brands-to-flash-waist-glamorously/",
+          "snippet": "Vero moda is worth every penny brand and you can breathe life into ... Miss chase totally is a chaser. The brand dares to show off crop ..."
+        },
+        {
+          "position": 2,
+          "title": "Women's Vero Moda & Miss Chase Dresses @ minimum ...",
+          "url": "https://www.dealsmagnet.com/deal/womens-vero-moda-miss-chase-dresses-minimum-60-off-198c5i8n",
+          "snippet": "Women's Vero Moda & Miss Chase Branded, Premium & Exclusive Dresses @ minimum 50% off, do grab. More information on Women's Vero Moda & Miss ..."
+        },
+        {
+          "position": 3,
+          "title": "#ad Be a trendsetter this summer with Amazon India's ...",
+          "url": "https://www.instagram.com/reel/CsAwIzeIMjQ/",
+          "snippet": "VERO MODA Women's Viscose Fit and Flare Above The Knee Casual Dress - B09M3PCSQ7 Miss Chase Women's Dark Lavender Solid Embellished Mini Dress - ..."
+        },
+        {
+          "position": 4,
+          "title": "VERO MODA Online Shop Reviews",
+          "url": "https://www.trustpilot.com/review/www.veromoda.com?page=2",
+          "snippet": "At VERO MODA we offer high quality and inspiring clothing, developed from comprehensive trend research from the world's leading trend forecasting agencies."
+        },
+        {
+          "position": 5,
+          "title": "𝐶ℎ𝑎𝑠𝑒 𝑡ℎ𝑒 𝑠𝑢𝑛 and experience 𝐕𝐄𝐑𝐎 𝐌𝐎𝐃𝐀 ...",
+          "url": "https://www.instagram.com/reel/C5Vq-GGo1Yh/",
+          "snippet": "Cℎase tℎe sun and experience VERO MODA Spring Summer'24 collection only at Nexus Ahmedabad One Mall ! Discover chic dresses, co-ord sets, ..."
+        },
+        {
+          "position": 6,
+          "title": "Fall fashion clothing reviews and prices",
+          "url": "https://www.facebook.com/groups/401299187517347/posts/1617139125933341/",
+          "snippet": "Product Features: ✔️Windproof and water-resistant outer layer ✔️ Soft, warm plush fleece lining for winter ✔️Popular cargo style design ✔️Does not ..."
+        },
+        {
+          "position": 7,
+          "title": "Okay bestie, December outfit stress? Not on our watch. From ...",
+          "url": "https://www.instagram.com/reel/DSg3tNfiZti/",
+          "snippet": "In the look number two we have this beautiful dress from miss Chase which will be very perfect for your December girls night. For dinner and ..."
+        },
+        {
+          "position": 8,
+          "title": "Dresses to Impress: Top Picks for Women - Zee News",
+          "url": "https://zeenews.india.com/top-deals/apparel/dresses-to-impress-top-picks-for-women-2779970.html",
+          "snippet": "Elevate your wardrobe with the VERO MODA Women's A-Line Dress, a ... Make a statement with the Miss Chase Women's Sweetheart Ruffled ..."
+        },
+        {
+          "position": 9,
+          "title": "14 Best Women Jeans Brands in India Worth Your Money",
+          "url": "https://cashkaro.com/blog/best-women-jeans-brands-in-india/170049",
+          "snippet": "Miss Chase is an Indian fashion brand that exclusively retails women's clothing products. It was founded in 2012 by Udayan Bubna and is headquartered in Kolkata ..."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "AND",
+          "count": 15,
+          "isClient": false
+        },
+        {
+          "brand": "Vero Moda",
+          "count": 9,
+          "isClient": false
+        },
+        {
+          "brand": "Miss Chase",
+          "count": 7,
+          "isClient": true
+        },
+        {
+          "brand": "ONLY",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Amazon",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 1267,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 10,
+      "queryText": "Miss Chase vs Forever 21",
+      "category": "comparison",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "7 Best Brands To Shop To Keep You Looking Forever 21 - LBB",
+          "url": "https://lbb.in/bangalore/brands-like-forever-21-young-adults/",
+          "snippet": "Look, you cannot go wrong with denim. You will always look stunning in it because it never goes out of fashion. So, pick Miss Chase for tunics, mini dresses and ..."
+        },
+        {
+          "position": 2,
+          "title": "Has anyone made it in to the Q Fashion that's taken over ...",
+          "url": "https://www.facebook.com/TheGrapevineEdit/posts/has-anyone-made-it-in-to-the-q-fashion-thats-taken-over-forever-21-at-grapevine-/702110722790200/",
+          "snippet": "Has anyone made it in to the Q Fashion that's taken over Forever 21 at Grapevine Mills? How is it?"
+        },
+        {
+          "position": 3,
+          "title": "Forever21 , Miss chase | Shorts & skirts: Fashion",
+          "url": "https://www.amazon.in/b?ie=UTF8&node=100149932031",
+          "snippet": "Online shopping for Forever21 , Miss chase | Shorts & skirts from a great selection at Fashion Store."
+        },
+        {
+          "position": 4,
+          "title": "Miss Chase Women's Clothing KSA | 25-75% OFF",
+          "url": "https://www.namshi.com/saudi-en/fashion/women-clothing/?f%5Bnamshi_neck_type%5D=v_neck%2Csweetheart_neck&f%5Bnamshi_occasion%5D=vacation%2Cwork&f%5Bcolour_family%5D=purple&f%5Bnamshi_sleeve_type%5D=long_sleeve&f%5Bbrand_code%5D=miss_chase&page=1",
+          "snippet": "Our women's fashion collection includes wardrobe essentials from all your favourite brands. Browse our full range to find clothing from GUESS, Forever 21, Ted ..."
+        },
+        {
+          "position": 5,
+          "title": "Buy Forever 21 Neck Jumpsuit online in India",
+          "url": "https://www.myntra.com/forever-21-neck-jumpsuit",
+          "snippet": "FOREVER 21 Women Black Solid V-Neck Basic Jumpsuit, Rs. 2399. Miss Chase Printed Basic Jumpsuit, Rs. 1347. FOREVER 21 Women Blue & White Striped Halter Neck ..."
+        },
+        {
+          "position": 6,
+          "title": "Miss Chase Peach Duster Coat Buy FOREVER 21 Women ...",
+          "url": "https://bertoldoadvogados.com.br/?q=94809542021200",
+          "snippet": "Miss Chase Peach Duster Coat Buy FOREVER 21 Women Solid Longline Trench Coat Coats For Women. ... V-Neck Full Sleeves Patched Pocketed Polyester, Hotel in ..."
+        },
+        {
+          "position": 7,
+          "title": "Case study: How Forever21 missed every marketing signal ...",
+          "url": "https://www.linkedin.com/posts/jonrittenberg_case-studyhow-forever21-missed-every-marketing-activity-7325140188681109504-EJHL",
+          "snippet": "Forever 21's struggle to adapt, whether it was missing the digital shift, ignoring sustainability, or failing to connect with a new generation, ..."
+        },
+        {
+          "position": 8,
+          "title": "Pennsylvania Department of Transportation",
+          "url": "https://www.pa.gov/agencies/penndot",
+          "snippet": "PennDOT oversees programs and policies affecting highways, airports, railroads, ports, and waterways."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "Forever 21",
+          "count": 9,
+          "isClient": false
+        },
+        {
+          "brand": "Miss Chase",
+          "count": 7,
+          "isClient": true
+        },
+        {
+          "brand": "AND",
+          "count": 5,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 4106,
+      "hasAiResponse": true
+    }
+  ]
+}

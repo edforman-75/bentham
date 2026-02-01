@@ -1,0 +1,66 @@
+{
+  "id": "sample-brand",
+  "name": "Sample Pet Brand",
+  "market": "India",
+  "shopify_domain": "sample-brand.myshopify.com",
+  "amazon_store_id": "SAMPLE123",
+
+  "categories": [
+    "treats/biscuits",
+    "treats/jerky",
+    "food/dry",
+    "food/wet",
+    "toys/chew",
+    "toys/plush",
+    "beds",
+    "grooming",
+    "walk-gear/collars",
+    "walk-gear/harnesses",
+    "apparel"
+  ],
+
+  "sub_brands": [
+    {
+      "id": "premium-line",
+      "name": "Premium Line",
+      "categories": ["food/dry", "food/wet"],
+      "indicators": ["premium", "gourmet", "chef-crafted"]
+    },
+    {
+      "id": "everyday-line",
+      "name": "Everyday Essentials",
+      "categories": ["treats/biscuits", "grooming"],
+      "indicators": ["daily", "everyday", "essential"]
+    }
+  ],
+
+  "known_vocabulary": {
+    "quality_terms": [],
+    "process_terms": [],
+    "brand_phrases": []
+  },
+
+  "competitors": [
+    "Competitor A",
+    "Competitor B"
+  ],
+
+  "target_customer": {
+    "description": "Urban pet parents, 25-45, willing to pay premium for quality",
+    "priorities": ["health", "natural ingredients", "convenience"]
+  },
+
+  "content_requirements": {
+    "title_length": {"min": 40, "max": 100},
+    "description_length": {"min": 100, "max": 300},
+    "faq_count": {"min": 3, "max": 7},
+    "required_elements": ["ingredients", "suitability", "usage_tips"]
+  },
+
+  "outputs": {
+    "shopify_csv": true,
+    "json_export": true,
+    "html_report": true,
+    "voice_guide_md": true
+  }
+}

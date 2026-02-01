@@ -1,0 +1,3562 @@
+{
+  "timestamp": "2026-01-29T22:28:02.835Z",
+  "studyName": "Miss Chase India Visibility Study - google-search",
+  "manifest": {
+    "id": "miss-chase-india-2026",
+    "name": "Miss Chase India Visibility Study",
+    "queryCount": 86,
+    "primaryBrand": "Miss Chase",
+    "competitors": [
+      "AND",
+      "Chemistry",
+      "Pantaloons",
+      "ONLY",
+      "Vero Moda",
+      "Forever 21",
+      "H&M",
+      "Zara"
+    ]
+  },
+  "surface": "google-search",
+  "location": "India (Mumbai)",
+  "summary": {
+    "total": 86,
+    "successful": 40,
+    "failed": 0,
+    "avgResponseTime": 1411
+  },
+  "brandVisibility": {
+    "AND": {
+      "queriesAppearing": 40,
+      "percentOfQueries": "100.0%",
+      "isClient": false
+    },
+    "Miss Chase": {
+      "queriesAppearing": 24,
+      "percentOfQueries": "60.0%",
+      "isClient": true
+    },
+    "ONLY": {
+      "queriesAppearing": 14,
+      "percentOfQueries": "35.0%",
+      "isClient": false
+    },
+    "Zara": {
+      "queriesAppearing": 13,
+      "percentOfQueries": "32.5%",
+      "isClient": false
+    },
+    "Amazon": {
+      "queriesAppearing": 12,
+      "percentOfQueries": "30.0%",
+      "isClient": false
+    },
+    "H&M": {
+      "queriesAppearing": 12,
+      "percentOfQueries": "30.0%",
+      "isClient": false
+    },
+    "Myntra": {
+      "queriesAppearing": 11,
+      "percentOfQueries": "27.5%",
+      "isClient": false
+    },
+    "Vero Moda": {
+      "queriesAppearing": 9,
+      "percentOfQueries": "22.5%",
+      "isClient": false
+    },
+    "Pantaloons": {
+      "queriesAppearing": 5,
+      "percentOfQueries": "12.5%",
+      "isClient": false
+    },
+    "Forever 21": {
+      "queriesAppearing": 4,
+      "percentOfQueries": "10.0%",
+      "isClient": false
+    },
+    "Flipkart": {
+      "queriesAppearing": 3,
+      "percentOfQueries": "7.5%",
+      "isClient": false
+    },
+    "Nykaa": {
+      "queriesAppearing": 2,
+      "percentOfQueries": "5.0%",
+      "isClient": false
+    },
+    "AJIO": {
+      "queriesAppearing": 2,
+      "percentOfQueries": "5.0%",
+      "isClient": false
+    },
+    "Chemistry": {
+      "queriesAppearing": 1,
+      "percentOfQueries": "2.5%",
+      "isClient": false
+    }
+  },
+  "results": [
+    {
+      "queryIndex": 1,
+      "queryText": "What is Miss Chase?",
+      "category": "brand",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Miss Chase",
+          "url": "https://www.amazon.com/stores/MissChase/page/E44F6849-23A4-40F4-B9B5-7C59A5F57284",
+          "snippet": "In the world of outrageous fashion statements- we at Miss Chase recognize ourselves as a lifestyle brand that transforms the latest trends into accessible ..."
+        },
+        {
+          "position": 2,
+          "title": "Miss Chase",
+          "url": "https://in.linkedin.com/company/miss-chase",
+          "snippet": "Miss Chase is a global fashion brand that uses data science to develop chic designs exclusively for women. After playing leadership roles at Google and ..."
+        },
+        {
+          "position": 3,
+          "title": "Miss Chase",
+          "url": "https://chasehaul.com/collections/miss-chase?srsltid=AfmBOopulXnZylq16nNeiUIVGstKPKcvFTxSesSaUt57aevNiL68eFvH",
+          "snippet": "Women's Maroon V-Neck Wrap Maxi Dress with Tie-Up Closure and Flutter Sleeves Sale price₹ 1,379 Regular price₹ 2,299. (40% Off). inclusive of all taxes."
+        },
+        {
+          "position": 4,
+          "title": "Fastest Growing Fashion Brand In India (@misschaseindia)",
+          "url": "https://www.instagram.com/misschaseindia/?hl=en",
+          "snippet": "Photo by Miss Chase | Fastest Growing Fashion Brand In India on January 15, 2026. Shop our gorgeous dresses! ✨️ Link in bio!"
+        },
+        {
+          "position": 5,
+          "title": "Miss Chase (@MissChaseIndia)",
+          "url": "https://www.facebook.com/MissChaseIndia/",
+          "snippet": "Check out our brand Miss Chase's fabulous festive collection at exclusive prices only on Amazon Sale starting from today midnight (September 23rd)"
+        },
+        {
+          "position": 6,
+          "title": "Miss Chase (MissChaseIndia) – Profile",
+          "url": "https://in.pinterest.com/misschaseindia/",
+          "snippet": "Miss Chase is a global fashion brand that creates chic designs exclusively for women while keeping in mind that every woman rightfully deserves the best."
+        },
+        {
+          "position": 7,
+          "title": "Miss Chase Company Profile Funding & Investors",
+          "url": "https://yourstory.com/companies/miss-chase",
+          "snippet": "Kolkata, West Bengal based Miss Chase is a global fashion brand that uses data science to develop chic designs exclusively for women."
+        },
+        {
+          "position": 8,
+          "title": "Miss Chase 2025 Company Profile",
+          "url": "https://pitchbook.com/profiles/company/129358-63",
+          "snippet": "Manufacturer and retailer of women's clothing, Miss Chase offers a wide range of fashion options including dresses, jumpsuits, jeans, and tops."
+        },
+        {
+          "position": 9,
+          "title": "Chase Haul",
+          "url": "https://chasehaul.com/?srsltid=AfmBOooDg-upnjO5ywXwesUXnrw_plAg0tHmpj2qcQIIbPIdd12rlSb-",
+          "snippet": "Viral Tummy Shaping Jeans · Softest Denim in India · 2X Stretch Denim · Internet's Favourite Dresses and Jumpsuits."
+        },
+        {
+          "position": 10,
+          "title": "Miss Chase - Overview, News & Similar companies",
+          "url": "https://www.zoominfo.com/c/miss-chase/358101336",
+          "snippet": "Miss Chase is a fashion retail brand specializing in a wide range of women's apparel, including dresses, tops, and denim jeans designed for various body ..."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "Miss Chase",
+          "count": 16,
+          "isClient": true
+        },
+        {
+          "brand": "AND",
+          "count": 14,
+          "isClient": false
+        },
+        {
+          "brand": "ONLY",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Amazon",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 184,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 2,
+      "queryText": "Is Miss Chase a good brand?",
+      "category": "brand",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Name brands that sell decently high quality clothes at an ...",
+          "url": "https://www.reddit.com/r/IndianFashionAddicts/comments/191lmne/name_brands_that_sell_decently_high_quality/",
+          "snippet": "Good brands for girls is Miss chase & Sassafras you can find them online.one of them is Indian brand clothing is really good."
+        },
+        {
+          "position": 2,
+          "title": "Latest Review of Miss Chase Casual Full Sleeve Solid ...",
+          "url": "https://www.flipkart.com/miss-chase-casual-full-sleeve-solid-women-s-black-top/product-reviews/itmf3z38cwfvhwhy?pid=TOPE2ZMUQX8HGTWW",
+          "snippet": "Pretty good · Miss Chase brand never disappoints me in terms of fit & style . I wished got the black colour but size wasn't available .But still satisfied with ..."
+        },
+        {
+          "position": 3,
+          "title": "Miss Chase Women's Wide Leg High Rise Regular ...",
+          "url": "https://www.amazon.in/Miss-Chase-Womens-Regular-Stretchable/dp/B0BKRB284Y",
+          "snippet": "The product is of superior quality. It is worth every single money you have spent. The fabric is very smooth and comfortable. It is mildly elastic. The colour ..."
+        },
+        {
+          "position": 4,
+          "title": "Fastest Growing Fashion Brand In India (@misschaseindia)",
+          "url": "https://www.instagram.com/misschaseindia/?hl=en",
+          "snippet": "1M+ Happy Customers New account: @chasehaulofficial. For fits that feel custom, click below. Photo by Miss Chase | Fastest Growing Fashion Brand In India ..."
+        },
+        {
+          "position": 5,
+          "title": "Miss Chase",
+          "url": "https://chasehaul.com/collections/miss-chase?srsltid=AfmBOooJ0QoV11NMUss9zZNJxBnV41qMVDo4-3BJf4S3flxv7znGkx69",
+          "snippet": "Our model minimizes waste with the planet in mind. Easy Returns. Don't love it? No worries."
+        },
+        {
+          "position": 6,
+          "title": "Miss Chase (@MissChaseIndia)",
+          "url": "https://www.facebook.com/MissChaseIndia/",
+          "snippet": "Check out our brand Miss Chase's fabulous festive collection at exclusive prices only on Amazon Sale starting from today midnight (September 23rd)"
+        },
+        {
+          "position": 7,
+          "title": "Miss Chase",
+          "url": "https://in.linkedin.com/company/miss-chase",
+          "snippet": "Miss Chase is a global fashion brand that uses data science to develop chic designs exclusively for women. After playing leadership roles at Google and ..."
+        },
+        {
+          "position": 8,
+          "title": "Exclusive Miss Chase Online Store in India at Myntra",
+          "url": "https://www.myntra.com/miss-chase",
+          "snippet": "Miss Chase online store in India. Shop from the latest collection of Miss Chase apparels online at great prices from Myntra. ✯ Free Shipping ✯ COD ✯ Easy ..."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "Miss Chase",
+          "count": 13,
+          "isClient": true
+        },
+        {
+          "brand": "AND",
+          "count": 10,
+          "isClient": false
+        },
+        {
+          "brand": "Myntra",
+          "count": 2,
+          "isClient": false
+        },
+        {
+          "brand": "ONLY",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Amazon",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 57,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 3,
+      "queryText": "Where is Miss Chase based?",
+      "category": "brand",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Miss Chase - 2025 Company Profile, Team, Competitors & ...",
+          "url": "https://tracxn.com/d/companies/miss-chase/__pde-c8ydP-uyCndvjNC32Blam3MAyu9FZ0jd6HQ0LLM",
+          "snippet": "Miss Chase is an unfunded company based in Kolkata (India), founded in 2012 by Udayan Bubna and Ananya Bubna."
+        },
+        {
+          "position": 2,
+          "title": "Miss Chase Company Profile Funding & Investors",
+          "url": "https://yourstory.com/companies/miss-chase",
+          "snippet": "Kolkata, West Bengal based Miss Chase is a global fashion brand that uses data science to develop chic designs exclusively for women."
+        },
+        {
+          "position": 3,
+          "title": "Miss Chase Information",
+          "url": "https://rocketreach.co/miss-chase-profile_b5ec9b74f42e73df",
+          "snippet": "Where is Miss Chase based? Miss Chase is based in West Bengal, West Bengal. What is the NAICS code for Miss Chase? The NAICS codes for Miss Chase are [424, 42]."
+        },
+        {
+          "position": 4,
+          "title": "Miss Chase - Crunchbase Company Profile & Funding",
+          "url": "https://www.crunchbase.com/organization/miss-chase",
+          "snippet": "Where is Miss Chase 's headquarters? Miss Chase is located in Kolkata, West Bengal, India . Browse By: Organizations, People, Events. Stay Connected."
+        },
+        {
+          "position": 5,
+          "title": "Miss Chase Garments from Kolkata, India | About Us",
+          "url": "https://www.indiamart.com/miss-chase/aboutus.html?srsltid=AfmBOoqDK2MztZ5lU_LRSF52XdP6gbclz34SKYajhzol8n41n6FQe76Z",
+          "snippet": "Miss Chase Garments, Kolkata, West Bengal - Deals in Miss Chase No Holding Back Denim Jogger, Miss Chase Hips Don't Lie Crochet Shorts, Miss Chase Summer ..."
+        },
+        {
+          "position": 6,
+          "title": "Miss Chase",
+          "url": "https://in.linkedin.com/company/miss-chase",
+          "snippet": "Website: http://www.misschase.com. External link for Miss Chase ; Industry: Retail Apparel and Fashion ; Company size: 51-200 employees ; Headquarters: West Bengal."
+        },
+        {
+          "position": 7,
+          "title": "Miss Chase - An Ecommerce Bootstrapped Company ...",
+          "url": "https://inc42.com/company/miss-chase/",
+          "snippet": "Miss Chase: Key Highlights ; sector_logo. Sector. Ecommerce ; founded_year_logo. Founding Year. 2012 ; headquarter_logo. Headquarters. Kolkata ; founders_logo."
+        },
+        {
+          "position": 8,
+          "title": "Miss Chase: Employee Directory",
+          "url": "https://www.zoominfo.com/pic/miss-chase/358101336",
+          "snippet": "Miss Chase's headquarters are located at Kolkata, West Bengal, India How do I contact Miss Chase? Miss Chase Contact Info: Phone number: +91 2248934146 Website: ..."
+        },
+        {
+          "position": 9,
+          "title": "All Miss Chase Office Locations in India",
+          "url": "https://www.ambitionbox.com/overview/miss-chase-overview/locations",
+          "snippet": "All Miss Chase Offices. West Bengal. 1 city with 1 office. Kolkata."
+        },
+        {
+          "position": 10,
+          "title": "What is Dooky Chase's restaurant like for a solo traveler?",
+          "url": "https://www.facebook.com/groups/neworleansfoodies/posts/1863888884447466/",
+          "snippet": "Leyah (Leah) Chase was an American chef based in New Orleans, Louisiana. An author and television personality, she was known as the Queen of ..."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "Miss Chase",
+          "count": 27,
+          "isClient": true
+        },
+        {
+          "brand": "AND",
+          "count": 4,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 52,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 4,
+      "queryText": "Who owns Miss Chase India?",
+      "category": "brand",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Udayan Bubna - Miss Chase",
+          "url": "https://in.linkedin.com/in/udayanbubna",
+          "snippet": "Udayan is a serial entrepreneur and an operations expert. He successfully scaled and sold… · Experience: Miss Chase · Education: Stanford University ..."
+        },
+        {
+          "position": 2,
+          "title": "Miss Chase - 2025 Company Profile, Team, Competitors & ...",
+          "url": "https://tracxn.com/d/companies/miss-chase/__pde-c8ydP-uyCndvjNC32Blam3MAyu9FZ0jd6HQ0LLM",
+          "snippet": "Miss Chase is an unfunded company based in Kolkata (India), founded in 2012 by Udayan Bubna and Ananya Bubna."
+        },
+        {
+          "position": 3,
+          "title": "Kolkata Is Home to Many Women's Wear Brands, Miss ...",
+          "url": "https://eastindiaretail.com/?p=7897",
+          "snippet": "Miss Chase, founded in 2012 by Udayan Bubna in Kolkata, launched with a mission: to bring runway-inspired European elegance to Indian wardrobes. Merging ..."
+        },
+        {
+          "position": 4,
+          "title": "Udayan Bubna - Co Founder @ Miss Chase",
+          "url": "https://www.crunchbase.com/person/udayan-bubna",
+          "snippet": "Udayan Bubna is the Co Founder at Miss Chase . Additionally, Udayan Bubna has had 1 past job as the Co-Founder & VP Business Operations at SoSasta.com ."
+        },
+        {
+          "position": 5,
+          "title": "Miss Chase Company Profile Funding & Investors",
+          "url": "https://yourstory.com/companies/miss-chase",
+          "snippet": "Basic Information. Kolkata, West Bengal based Miss Chase is a global fashion brand that uses data science to develop chic designs exclusively for women."
+        },
+        {
+          "position": 6,
+          "title": "Udayan Bubna Email & Phone Number | Miss Chase ...",
+          "url": "https://rocketreach.co/udayan-bubna-email_24225979",
+          "snippet": "Udayan Bubna, based in Kolkata, WB, IN, is currently a Co Founder at Miss Chase. Udayan Bubna brings experience from previous roles at Tech Pourri, Groupon, ..."
+        },
+        {
+          "position": 7,
+          "title": "What She Is Buying Online And Why",
+          "url": "https://www.telegraphindia.com/entertainment/what-she-is-buying-online-and-why/cid/287305",
+          "snippet": "Don Bosco Park Circus alumni Ananya Bubna and Udayan Bubna launched www.misschase.com, the latest women's fashion store on the Internet, ..."
+        },
+        {
+          "position": 8,
+          "title": "Miss Chase - Crunchbase Company Profile & Funding",
+          "url": "https://www.crunchbase.com/organization/miss-chase",
+          "snippet": "Company Type For Profit. Founders Udayan Bubna. About the Company. Miss Chase is a ... Miss Chase is located in Kolkata, West Bengal, India . Browse By ..."
+        },
+        {
+          "position": 9,
+          "title": "Miss Chase 2025 Company Profile",
+          "url": "https://pitchbook.com/profiles/company/129358-63",
+          "snippet": "Information on valuation, funding, cap tables, investors, and executives for Miss Chase. Use the PitchBook Platform to explore the full profile."
+        },
+        {
+          "position": 10,
+          "title": "Miss Chase - Overview, News & Similar companies",
+          "url": "https://www.zoominfo.com/c/miss-chase/358101336",
+          "snippet": "Miss Chase Overview Metrics ; Headquarters. Kolkata, West Bengal, India ; Phone Number. +91 2248934146 ; Revenue. $14.8 Million ..."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "Miss Chase",
+          "count": 18,
+          "isClient": true
+        },
+        {
+          "brand": "AND",
+          "count": 8,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 51,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 5,
+      "queryText": "Is Miss Chase an Indian brand?",
+      "category": "brand",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Fastest Growing Fashion Brand In India (@misschaseindia)",
+          "url": "https://www.instagram.com/misschaseindia/?hl=en",
+          "snippet": "Photo by Miss Chase | Fastest Growing Fashion Brand In India on December 22, 2025. Grab the prettiest dresses and jumpsuits from our catalogue of amazing styles ..."
+        },
+        {
+          "position": 2,
+          "title": "Miss Chase - 2025 Company Profile, Team, Competitors & ...",
+          "url": "https://tracxn.com/d/companies/miss-chase/__pde-c8ydP-uyCndvjNC32Blam3MAyu9FZ0jd6HQ0LLM",
+          "snippet": "Miss Chase is an unfunded company based in Kolkata (India), founded in 2012 by Udayan Bubna and Ananya Bubna."
+        },
+        {
+          "position": 3,
+          "title": "Miss Chase Company Profile Funding & Investors",
+          "url": "https://yourstory.com/companies/miss-chase",
+          "snippet": "Kolkata, West Bengal based Miss Chase is a global fashion brand that uses data science to develop chic designs exclusively for women."
+        },
+        {
+          "position": 4,
+          "title": "Miss Chase 2025 Company Profile",
+          "url": "https://pitchbook.com/profiles/company/129358-63",
+          "snippet": "Miss Chase FAQs. When was Miss Chase founded? Miss Chase was founded in 2012. Where is Miss Chase headquartered? Miss Chase is headquartered in Kolkata, India."
+        },
+        {
+          "position": 5,
+          "title": "Miss Chase - Crunchbase Company Profile & Funding",
+          "url": "https://www.crunchbase.com/organization/miss-chase",
+          "snippet": "Miss Chase is a global fashion brand that creates chic designs exclusively for women ... Miss Chase is located in Kolkata, West Bengal, India . Browse By ..."
+        },
+        {
+          "position": 6,
+          "title": "Miss Chase Garments from Kolkata, India | About Us",
+          "url": "https://www.indiamart.com/miss-chase/aboutus.html?srsltid=AfmBOoqHTozwsD8XhSdUanBsf0o6zAmE_wLLLQt5xB2X2lWxwsi2Sc4R",
+          "snippet": "Miss Chase is a global fashion brand that creates chic designs exclusively for women while keeping in mind that every woman rightfully deserves the best."
+        },
+        {
+          "position": 7,
+          "title": "Miss Chase",
+          "url": "https://in.linkedin.com/company/miss-chase",
+          "snippet": "Miss Chase is a global fashion brand that uses data science to develop chic designs exclusively for women. After playing leadership roles at Google and ..."
+        },
+        {
+          "position": 8,
+          "title": "Miss Chase, A UK Fashion Brand, Disrupts the Indian Market ...",
+          "url": "https://www.prlog.org/12155370-miss-chase-uk-fashion-brand-disrupts-the-indian-market-with-shockingly-low-prices.html",
+          "snippet": "Miss Chase, A UK Fashion Brand, Disrupts the Indian Market with Shockingly Low Prices. Miss Chase is a UK fashion brand providing European Inspired fashion ..."
+        },
+        {
+          "position": 9,
+          "title": "Miss Chase Information",
+          "url": "https://rocketreach.co/miss-chase-profile_b5ec9b74f42e73df",
+          "snippet": "Miss Chase is a Fashion, Retail, and Retail Apparel and Fashion company located in West Bengal, West Bengal with $14.8 million in revenue and 60 employees."
+        },
+        {
+          "position": 10,
+          "title": "Miss Chase Company Profile & Overview",
+          "url": "https://internshala.com/company/miss-chase-1507965444/",
+          "snippet": "Miss Chase is a global fashion brand that creates chic designs ... We retail via/over 30 online channels across India including Myntra, Jabong, and Amazon."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "Miss Chase",
+          "count": 25,
+          "isClient": true
+        },
+        {
+          "brand": "AND",
+          "count": 17,
+          "isClient": false
+        },
+        {
+          "brand": "Amazon",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Myntra",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 50,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 6,
+      "queryText": "Miss Chase brand review",
+      "category": "brand",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Latest Review of Miss Chase Casual Full Sleeve Solid ...",
+          "url": "https://www.flipkart.com/miss-chase-casual-full-sleeve-solid-women-s-black-top/product-reviews/itmf3z38cwfvhwhy?pid=TOPE2ZMUQX8HGTWW",
+          "snippet": "Pretty good · Miss Chase brand never disappoints me in terms of fit & style . I wished got the black colour but size wasn't available .But still satisfied with ..."
+        },
+        {
+          "position": 2,
+          "title": "Miss Chase Women's Wide-Leg High-Rise Regular-Length ...",
+          "url": "https://www.amazon.in/Miss-Chase-Womens-Cropped-Stretchable/dp/B07VMMMR37",
+          "snippet": "Top Brand. Top Brand indicates high quality, trusted brands on Amazon aggregated basis verified ratings, returns/refunds and recent order history at brand level ..."
+        },
+        {
+          "position": 3,
+          "title": "Most reviewed jeans",
+          "url": "https://chasehaul.com/collections/best-fit-jeans?srsltid=AfmBOor-sn6PgREFaGis42sjzqWfTzMzwZw-7_NZGkHYeONdUwrhkjQG",
+          "snippet": "24/7 Comfort Black Skinny-Fit High-Rise Stretchable Denim Jeans Sale price₹ 1,189 Regular price₹ 1,949. (38% Off). inclusive of all taxes."
+        },
+        {
+          "position": 4,
+          "title": "Miss Chase (@MissChaseIndia)",
+          "url": "https://www.facebook.com/MissChaseIndia/",
+          "snippet": "Check out our brand Miss Chase's fabulous festive collection at exclusive prices only on Amazon Sale starting from today midnight (September 23rd)"
+        },
+        {
+          "position": 5,
+          "title": "Fastest Growing Fashion Brand In India (@misschaseindia)",
+          "url": "https://www.instagram.com/misschaseindia/?hl=en",
+          "snippet": "1M+ Happy Customers New account: @chasehaulofficial. For fits that feel custom, click below. Photo by Miss Chase | Fastest Growing Fashion Brand In India ..."
+        },
+        {
+          "position": 6,
+          "title": "Exclusive Miss Chase Online Store in India at Myntra",
+          "url": "https://www.myntra.com/miss-chase",
+          "snippet": "Miss Chase. Women Denim Shorts. 989 1799 (45% OFF). Best Price ₹692 with coupon · 4.2|10. Miss Chase. V-Neck Basic Jumpsuit. 1496 3399 (56% OFF)."
+        },
+        {
+          "position": 7,
+          "title": "Miss Chase",
+          "url": "https://www.amazon.in/stores/MissChase/page/ABCBB6FF-B114-4C91-84E7-654A2BB76A55",
+          "snippet": "The trend chaser in you always wants something little different! Flattering clothes in carefully crafted shapes with a beautiful soft hang and yet sharply ..."
+        },
+        {
+          "position": 8,
+          "title": "Reviews for Miss Chase Garments in Midleton Row, Kolkata",
+          "url": "https://www.justdial.com/Kolkata/Miss-Chase-Garments-Beside-Niit-Building-Midleton-Row/033PXX33-XX33-190610094855-S4N5_BZDET/reviews",
+          "snippet": "Good quality products: Several users praised the quality of the products offered by Miss Chase. What can be improved. No specific dislikes were mentioned in the ..."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "Miss Chase",
+          "count": 12,
+          "isClient": true
+        },
+        {
+          "brand": "AND",
+          "count": 10,
+          "isClient": false
+        },
+        {
+          "brand": "Amazon",
+          "count": 2,
+          "isClient": false
+        },
+        {
+          "brand": "ONLY",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Myntra",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 54,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 7,
+      "queryText": "Miss Chase vs AND",
+      "category": "comparison",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Miss Chase",
+          "url": "https://chasehaul.com/collections/miss-chase?srsltid=AfmBOopo9fi6ybiHTBXERAwCv4JYzIAPdcuJ5RuVywg3IDXT4scXkquT",
+          "snippet": "Women's Maroon V-Neck Wrap Maxi Dress with Tie-Up Closure and Flutter Sleeves Sale price₹ 1,379 Regular price₹ 2,299. (40% Off). inclusive of all taxes."
+        },
+        {
+          "position": 2,
+          "title": "Alex and Ms. Chase Text Conversations: Part 5 Reddit Stories",
+          "url": "https://www.tiktok.com/@toweringtexts/video/7432053429888945441",
+          "snippet": "Experience the continuing saga of Alex and Ms. Chase in this thrilling text story installment. Dive into Minecraft parkour, funny conversations, and unexpected ..."
+        },
+        {
+          "position": 3,
+          "title": "Ja'Marr Chase Highlights vs Ole Miss | NCAA",
+          "url": "https://www.youtube.com/watch?v=qPr8_jZRQ54",
+          "snippet": "LSU WR Ja'Marr Chase had 8 receptions for 227 yards and 3 touchdowns. Comment suggestions for future videos and enjoy!"
+        },
+        {
+          "position": 4,
+          "title": "Anyone else a lil confused seeing Amelia Chase on SVU",
+          "url": "https://www.reddit.com/r/SVU/comments/184by3z/anyone_else_a_lil_confused_seeing_amelia_chase_on/",
+          "snippet": "It's so funny seeing actors portray different characters. I was confused at first seeing her not speak lawyer jargon and be a villain in the episode."
+        },
+        {
+          "position": 5,
+          "title": "Miss Chase A+ Women's V-Neck Sleeveless Embellished ...",
+          "url": "https://www.amazon.in/Miss-Chase-Womens-Sleeveless-Embellished/dp/B0D1G5N6MD",
+          "snippet": "Customers find the dress to be of superb quality and appreciate its perfect fit and classy appearance. They also consider it good value for money. AI Generated ..."
+        },
+        {
+          "position": 6,
+          "title": "Batter Tendencies (take/miss/chase) - MVP Baseball 2005",
+          "url": "https://www.mvpmods.com/forums/topic/11554-batter-tendencies-takemisschase/",
+          "snippet": "I Global edited ALL Miss/Chase stats on every player by static +10 and lowered contact by 25% and the top 25 Pitchers HAD LESS Ks than they did ..."
+        },
+        {
+          "position": 7,
+          "title": "Miss Chase (@MissChaseIndia)",
+          "url": "https://www.facebook.com/MissChaseIndia/",
+          "snippet": "Miss Chase · Shop our gorgeous dresses! · Grab the prettiest dresses and jumpsuits from our catalogue of amazing styles, NOW! · Grav the prettiest dresses and ..."
+        },
+        {
+          "position": 8,
+          "title": "Miss Chase Women Dress",
+          "url": "https://pricehistory.app/p/miss-chase-women-dress-jtjI7xce",
+          "snippet": "You can check the price history of Miss Chase Women Dress here. This product's current Price in India is ₹1,399. The average and highest prices are ₹1,399 and ₹ ..."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "AND",
+          "count": 15,
+          "isClient": false
+        },
+        {
+          "brand": "Miss Chase",
+          "count": 6,
+          "isClient": true
+        }
+      ],
+      "responseTimeMs": 50,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 8,
+      "queryText": "Miss Chase vs ONLY",
+      "category": "comparison",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Miss Chase A+",
+          "url": "https://chasehaul.com/collections/miss-chase-a?srsltid=AfmBOoqM5XAPDo_61VUb0FX35B1O2dIpvETHYgflVM_Ah609R-v4Nv1l",
+          "snippet": "Miss Chase A+ · Women's Teal V-Neck Cap-Sleeves Solid Wrapped Knee-Long Dress Sale price₹ 1,393 Regular price₹ 2,445. (43% Off). inclusive of all taxes."
+        },
+        {
+          "position": 2,
+          "title": "Chase Haul",
+          "url": "https://chasehaul.com/?srsltid=AfmBOopiFrmb8ZUU_i74TFeqzu1mbVCKwVKxnDGzstfQ00QnkzjBb7Bq",
+          "snippet": "Viral Tummy Shaping Jeans · Softest Denim in India · 2X Stretch Denim · Internet's Favourite Dresses and Jumpsuits."
+        },
+        {
+          "position": 3,
+          "title": "Don't miss these FRESH drops! [Miss Chase, denim jeans ...",
+          "url": "https://www.instagram.com/p/DMXmVSpShh9/",
+          "snippet": "✨ Rock the streets with this unique blend of classic denim and shimmering studs—perfect for elevating any outfit. Ready to dazzle? Explore more ..."
+        },
+        {
+          "position": 4,
+          "title": "https://amzn.to/4ewZ7d9 👈1499 RS only Miss Chase Women's ...",
+          "url": "https://www.facebook.com/groups/2011793019028774/posts/2664512720423464/",
+          "snippet": "https://amzn.to/4ewZ7d9 1499 RS only Miss Chase Women's Keyhole Neck Regular Sleeve Regular Length Jumpsuit with Pockets इसे खरीदने के लिए इस लिंक पर ..."
+        },
+        {
+          "position": 5,
+          "title": "Chase Upgraded my Card, but I missed out on SUB",
+          "url": "https://www.reddit.com/r/CreditCards/comments/1qokva2/chase_upgraded_my_card_but_i_missed_out_on_sub/",
+          "snippet": "My Chase Freedom Rise was automatically upgraded to a Chase Freedom Unlimited, meaning I missed out on the SUB. The new card has already ..."
+        },
+        {
+          "position": 6,
+          "title": "Latest Review of Miss Chase Skinny Women Blue Jeans",
+          "url": "https://www.flipkart.com/miss-chase-skinny-women-blue-jeans/product-reviews/itmfavu5zjg8w9gw?pid=JEAFAVRKJMHMYWMC",
+          "snippet": "Ohh my god... Its just the perfect fitting jeans. You can definitely buy one size down than your usual size for a better fitted look as these are very ..."
+        },
+        {
+          "position": 7,
+          "title": "Buy Beige Women Dresses Only Miss Chase online in India",
+          "url": "https://www.myntra.com/beige-women-dresses-only-miss-chase",
+          "snippet": "Miss Chase Women Beige Printed Shirt Dress, Rs. 849. Miss Chase V-Neck Floral Dress, Rs. 1200. ONLY Women Print Fit & Flare Mini Dress, Rs. 2089. StyleCast ..."
+        },
+        {
+          "position": 8,
+          "title": "Buy Women's Apparel Online At Miss Chase - Delhi",
+          "url": "https://lbb.in/delhi/shop-miss-chase-western-wear-online/",
+          "snippet": "Shop online for affordable women's dresses, tunics at Miss Chase. Know prices, more about the brand, and shop on LBB here."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "Miss Chase",
+          "count": 11,
+          "isClient": true
+        },
+        {
+          "brand": "AND",
+          "count": 4,
+          "isClient": false
+        },
+        {
+          "brand": "ONLY",
+          "count": 4,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 58,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 9,
+      "queryText": "Miss Chase vs Vero Moda",
+      "category": "comparison",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "10 Best Crop Top Brands to Flash Waist Glamorously",
+          "url": "https://veryinterestingtips.wordpress.com/2017/05/31/10-best-crop-top-brands-to-flash-waist-glamorously/",
+          "snippet": "Vero moda is worth every penny brand and you can breathe life into ... Miss chase totally is a chaser. The brand dares to show off crop ..."
+        },
+        {
+          "position": 2,
+          "title": "Women's Vero Moda & Miss Chase Dresses @ minimum ...",
+          "url": "https://www.dealsmagnet.com/deal/womens-vero-moda-miss-chase-dresses-minimum-60-off-198c5i8n",
+          "snippet": "Women's Vero Moda & Miss Chase Branded, Premium & Exclusive Dresses @ minimum 50% off, do grab. More information on Women's Vero Moda & Miss ..."
+        },
+        {
+          "position": 3,
+          "title": "#ad Be a trendsetter this summer with Amazon India's ...",
+          "url": "https://www.instagram.com/reel/CsAwIzeIMjQ/",
+          "snippet": "VERO MODA Women's Viscose Fit and Flare Above The Knee Casual Dress - B09M3PCSQ7 Miss Chase Women's Dark Lavender Solid Embellished Mini Dress - ..."
+        },
+        {
+          "position": 4,
+          "title": "VERO MODA Online Shop Reviews",
+          "url": "https://www.trustpilot.com/review/www.veromoda.com?page=2",
+          "snippet": "At VERO MODA we offer high quality and inspiring clothing, developed from comprehensive trend research from the world's leading trend forecasting agencies."
+        },
+        {
+          "position": 5,
+          "title": "𝐶ℎ𝑎𝑠𝑒 𝑡ℎ𝑒 𝑠𝑢𝑛 and experience 𝐕𝐄𝐑𝐎 𝐌𝐎𝐃𝐀 ...",
+          "url": "https://www.instagram.com/reel/C5Vq-GGo1Yh/",
+          "snippet": "Cℎase tℎe sun and experience VERO MODA Spring Summer'24 collection only at Nexus Ahmedabad One Mall ! Discover chic dresses, co-ord sets, ..."
+        },
+        {
+          "position": 6,
+          "title": "Fall fashion clothing reviews and prices",
+          "url": "https://www.facebook.com/groups/401299187517347/posts/1617139125933341/",
+          "snippet": "Product Features: ✔️Windproof and water-resistant outer layer ✔️ Soft, warm plush fleece lining for winter ✔️Popular cargo style design ✔️Does not ..."
+        },
+        {
+          "position": 7,
+          "title": "Okay bestie, December outfit stress? Not on our watch. From ...",
+          "url": "https://www.instagram.com/reel/DSg3tNfiZti/",
+          "snippet": "In the look number two we have this beautiful dress from miss Chase which will be very perfect for your December girls night. For dinner and ..."
+        },
+        {
+          "position": 8,
+          "title": "Dresses to Impress: Top Picks for Women - Zee News",
+          "url": "https://zeenews.india.com/top-deals/apparel/dresses-to-impress-top-picks-for-women-2779970.html",
+          "snippet": "Elevate your wardrobe with the VERO MODA Women's A-Line Dress, a ... Make a statement with the Miss Chase Women's Sweetheart Ruffled ..."
+        },
+        {
+          "position": 9,
+          "title": "14 Best Women Jeans Brands in India Worth Your Money",
+          "url": "https://cashkaro.com/blog/best-women-jeans-brands-in-india/170049",
+          "snippet": "Miss Chase is an Indian fashion brand that exclusively retails women's clothing products. It was founded in 2012 by Udayan Bubna and is headquartered in Kolkata ..."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "AND",
+          "count": 15,
+          "isClient": false
+        },
+        {
+          "brand": "Vero Moda",
+          "count": 9,
+          "isClient": false
+        },
+        {
+          "brand": "Miss Chase",
+          "count": 7,
+          "isClient": true
+        },
+        {
+          "brand": "ONLY",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Amazon",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 66,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 10,
+      "queryText": "Miss Chase vs Forever 21",
+      "category": "comparison",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "7 Best Brands To Shop To Keep You Looking Forever 21 - LBB",
+          "url": "https://lbb.in/bangalore/brands-like-forever-21-young-adults/",
+          "snippet": "Look, you cannot go wrong with denim. You will always look stunning in it because it never goes out of fashion. So, pick Miss Chase for tunics, mini dresses and ..."
+        },
+        {
+          "position": 2,
+          "title": "Has anyone made it in to the Q Fashion that's taken over ...",
+          "url": "https://www.facebook.com/TheGrapevineEdit/posts/has-anyone-made-it-in-to-the-q-fashion-thats-taken-over-forever-21-at-grapevine-/702110722790200/",
+          "snippet": "Has anyone made it in to the Q Fashion that's taken over Forever 21 at Grapevine Mills? How is it?"
+        },
+        {
+          "position": 3,
+          "title": "Forever21 , Miss chase | Shorts & skirts: Fashion",
+          "url": "https://www.amazon.in/b?ie=UTF8&node=100149932031",
+          "snippet": "Online shopping for Forever21 , Miss chase | Shorts & skirts from a great selection at Fashion Store."
+        },
+        {
+          "position": 4,
+          "title": "Miss Chase Women's Clothing KSA | 25-75% OFF",
+          "url": "https://www.namshi.com/saudi-en/fashion/women-clothing/?f%5Bnamshi_neck_type%5D=v_neck%2Csweetheart_neck&f%5Bnamshi_occasion%5D=vacation%2Cwork&f%5Bcolour_family%5D=purple&f%5Bnamshi_sleeve_type%5D=long_sleeve&f%5Bbrand_code%5D=miss_chase&page=1",
+          "snippet": "Our women's fashion collection includes wardrobe essentials from all your favourite brands. Browse our full range to find clothing from GUESS, Forever 21, Ted ..."
+        },
+        {
+          "position": 5,
+          "title": "Buy Forever 21 Neck Jumpsuit online in India",
+          "url": "https://www.myntra.com/forever-21-neck-jumpsuit",
+          "snippet": "FOREVER 21 Women Black Solid V-Neck Basic Jumpsuit, Rs. 2399. Miss Chase Printed Basic Jumpsuit, Rs. 1347. FOREVER 21 Women Blue & White Striped Halter Neck ..."
+        },
+        {
+          "position": 6,
+          "title": "Miss Chase Peach Duster Coat Buy FOREVER 21 Women ...",
+          "url": "https://bertoldoadvogados.com.br/?q=94809542021200",
+          "snippet": "Miss Chase Peach Duster Coat Buy FOREVER 21 Women Solid Longline Trench Coat Coats For Women. ... V-Neck Full Sleeves Patched Pocketed Polyester, Hotel in ..."
+        },
+        {
+          "position": 7,
+          "title": "Case study: How Forever21 missed every marketing signal ...",
+          "url": "https://www.linkedin.com/posts/jonrittenberg_case-studyhow-forever21-missed-every-marketing-activity-7325140188681109504-EJHL",
+          "snippet": "Forever 21's struggle to adapt, whether it was missing the digital shift, ignoring sustainability, or failing to connect with a new generation, ..."
+        },
+        {
+          "position": 8,
+          "title": "Pennsylvania Department of Transportation",
+          "url": "https://www.pa.gov/agencies/penndot",
+          "snippet": "PennDOT oversees programs and policies affecting highways, airports, railroads, ports, and waterways."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "Forever 21",
+          "count": 9,
+          "isClient": false
+        },
+        {
+          "brand": "Miss Chase",
+          "count": 7,
+          "isClient": true
+        },
+        {
+          "brand": "AND",
+          "count": 5,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 52,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 11,
+      "queryText": "Miss Chase vs H&M",
+      "category": "comparison",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Name brands that sell decently high quality clothes at an ...",
+          "url": "https://www.reddit.com/r/IndianFashionAddicts/comments/191lmne/name_brands_that_sell_decently_high_quality/",
+          "snippet": "Good brands for girls is Miss chase & Sassafras you can find them online.one of them is Indian brand clothing is really good."
+        },
+        {
+          "position": 2,
+          "title": "Amazon jeans | miss chase jeans | joggers |affordable jeans ...",
+          "url": "https://www.youtube.com/watch?v=vxsW271GCJk",
+          "snippet": "Trying on every JEANS from H&M so you don't have to | Pear shaped bodytype | Harshala Patil. Harshala Patil•59K views · 8:53. Go to channel ..."
+        },
+        {
+          "position": 3,
+          "title": "Follow and comment for links - 2 basic must-have jeans in ...",
+          "url": "https://www.instagram.com/reel/DR4Kb7ujHmU/",
+          "snippet": "I got two basic and must have jeans in our wardrobe that can literally go with most of your tops. Let me quickly wear and show you."
+        },
+        {
+          "position": 4,
+          "title": "H&M Has Already Nailed Every 2026 Trend—These 7 ...",
+          "url": "https://www.whowhatwear.com/fashion/shopping/hm-fashion-trends-2026",
+          "snippet": "H&M's latest arrivals offer a first look at the high-street trends defining 2026, from refined knitwear to sharper denim and modern ..."
+        },
+        {
+          "position": 5,
+          "title": "Clothing Business' Biggest Sibling Rivalries",
+          "url": "https://www.businessinsider.com/clothing-business-biggest-sibling-rivalries-2018-2",
+          "snippet": "J.Crew, Gap, and H&M have created successful sister brands that are now outshining the original brand."
+        },
+        {
+          "position": 6,
+          "title": "Do you relate? 😂 1. Top from Savana and skorts from Miss ...",
+          "url": "https://www.instagram.com/reel/DOm-zA5EqvC/",
+          "snippet": "18 likes, 4 comments - tall_girl.reviews on September 14, 2025: \"Do you relate? 1. Top from Savana and skorts from Miss Chase 2. Hoodie from H&M ..."
+        },
+        {
+          "position": 7,
+          "title": "Miss Chase Women's Relaxed Fit Denim Jeans : Features and ...",
+          "url": "https://www.youtube.com/watch?v=Hul5Qds9C4I",
+          "snippet": "Miss Chase Women's Relaxed Fit Denim Jeans : Features and Quick ... Trying on every JEANS from H&M so you don't have to | Pear shaped bodytype | ..."
+        },
+        {
+          "position": 8,
+          "title": "Whether you like them skinny or flared, a good pair of jeans is ...",
+          "url": "https://www.instagram.com/reel/CLYuYSJp3yK/",
+          "snippet": "Whether you like them skinny or flared, a good pair of jeans is the cornerstone of every closet. We've rounded up some of our favourites."
+        },
+        {
+          "position": 9,
+          "title": "Miss Chase Womens Skinny Bleached Jeans Men's Black ...",
+          "url": "https://darmizananak.com/product-similar-image/?99496359040000",
+          "snippet": "Miss Chase Womens Skinny Bleached Jeans Men's Black/acid Bleached Jeans H&M CA. Write a review. 1 womens skinny bleached jeans No.1. 38 USD(tax included)."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "AND",
+          "count": 14,
+          "isClient": false
+        },
+        {
+          "brand": "Miss Chase",
+          "count": 7,
+          "isClient": true
+        },
+        {
+          "brand": "H&M",
+          "count": 7,
+          "isClient": false
+        },
+        {
+          "brand": "Amazon",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 58,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 12,
+      "queryText": "Miss Chase vs Zara",
+      "category": "comparison",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Zara didn't chase trends. They outran them. While the industry ...",
+          "url": "https://www.instagram.com/reel/DMNivRMP4hh/?hl=fr",
+          "snippet": "Zara didn't chase trends. They outran them. While the industry followed seasons, Zara launched 24 collections a year—no ads, no hype, ..."
+        },
+        {
+          "position": 2,
+          "title": "How Zara Fought Off Shein and Outmaneuvered the Ultra-Fast ...",
+          "url": "https://www.inc.com/howard-yu/how-zara-fought-off-shein-and-outmaneuvered-the-ultra-fast-fashion-tide/91280871",
+          "snippet": "AI allowed Shein not just to outpace everyone but to rewrite the physics of trend creation itself. Yet Zara has managed to hold its own."
+        },
+        {
+          "position": 3,
+          "title": "Wide Leg White Knee Length Jeans White Jeans Zara ...",
+          "url": "https://salisburyfertilitycentre.nhs.uk/?o=4807311081310",
+          "snippet": "HOT ! Wide Leg White Knee Length Jeans White Jeans Zara Pantalon Wide Leg Buy Miss Chase Wine V Neck Full · Pick up at the store (Free shipping)."
+        },
+        {
+          "position": 4,
+          "title": "If you walked into H&M and Zara and noticed prices ...",
+          "url": "https://www.instagram.com/reel/DTxmX81jlBj/",
+          "snippet": "Zara and H and M are actually increasing their pricing, cutting some lower price skews in a effort to become more premium. These brands which ..."
+        },
+        {
+          "position": 5,
+          "title": "Zara Black Long Fitted Dress Asos Maxi Dress Pleated ...",
+          "url": "https://celularia.com.br/shop/storeSearch/KeepCriteriaInput.aspx?&transition=top72712131002160",
+          "snippet": "Zara Black Long Fitted Dress Asos Maxi Dress Pleated Embroidered Dress Buy Miss Chase Teal Lace Maxi Dress For Women Online."
+        },
+        {
+          "position": 6,
+          "title": "White Jeans Zara Pantalon Wide Leg Buy Miss Chase ...",
+          "url": "https://www.finesa-grupa.hr/?a=2147330061440",
+          "snippet": "HOT ! White Jeans Zara Pantalon Wide Leg Buy Miss Chase Wine V Neck Full Sleeves Blazer Knee Length Dress · Pick up at the store (Free shipping) · Delivery."
+        },
+        {
+          "position": 7,
+          "title": "Aritzia vs Zara: Human Touch vs Tech Efficiency",
+          "url": "https://www.linkedin.com/posts/angelscheid_brandmarketing-retailinnovation-customerexperience-activity-7350902055386931200-R4kp",
+          "snippet": "While H&M and Forever 21 chase cheaper production in Asia, Zara produces over half its inventory locally in Europe. Design-to-store in 2-4 ..."
+        },
+        {
+          "position": 8,
+          "title": "Aditi Randev | Zara has a sister brand that is growing much ...",
+          "url": "https://www.instagram.com/reel/DRz6GrbEr5j/?hl=en",
+          "snippet": "You know that Zara has a sister brand that is growing much faster than Zara and is the next big thing that you should know about."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "Zara",
+          "count": 18,
+          "isClient": false
+        },
+        {
+          "brand": "AND",
+          "count": 11,
+          "isClient": false
+        },
+        {
+          "brand": "Miss Chase",
+          "count": 4,
+          "isClient": true
+        },
+        {
+          "brand": "H&M",
+          "count": 2,
+          "isClient": false
+        },
+        {
+          "brand": "Forever 21",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 49,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 13,
+      "queryText": "Miss Chase vs Pantaloons",
+      "category": "comparison",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Name brands that sell decently high quality clothes at an ...",
+          "url": "https://www.reddit.com/r/IndianFashionAddicts/comments/191lmne/name_brands_that_sell_decently_high_quality/",
+          "snippet": "Good brands for girls is Miss chase & Sassafras you can find them online. ... I use byford by pantaloons for my solid tshirtd. very happy ..."
+        },
+        {
+          "position": 2,
+          "title": "Miss Chase A+",
+          "url": "https://chasehaul.com/collections/miss-chase-a?srsltid=AfmBOopTls4787vYxQzWXS3LjL94hlgv0za-xE6ybVzH4zPrhtuiuoyM",
+          "snippet": "Miss Chase A+ · Women's Teal V-Neck Cap-Sleeves Solid Wrapped Knee-Long Dress Sale price₹ 1,393 Regular price₹ 2,445. (43% Off). inclusive of all taxes."
+        },
+        {
+          "position": 3,
+          "title": "Resharing since the last one had a glitch Comment link or dm ...",
+          "url": "https://www.instagram.com/reel/DQUYCBnEgd2/?hl=en",
+          "snippet": "It's so comfortable. Just realised it's actually two jeans. Same brand Miss Chase 8 plus. Fit and flare both wide leg before Not doing the weird ..."
+        },
+        {
+          "position": 4,
+          "title": "Buy Honey By Pantaloons Women Dresses online in India",
+          "url": "https://www.myntra.com/honey-by-pantaloons-women-dresses",
+          "snippet": "Honey by Pantaloons Floral Print Sheath Midi Dress, Rs. 1189. Miss Chase Printed Basic Jumpsuit, Rs. 1346. Honey by Pantaloons Floral Printed Maxi Dress, Rs ..."
+        },
+        {
+          "position": 5,
+          "title": "Pantaloons Women Full Sleeve Top",
+          "url": "https://www.amazon.in/pantaloons-women-full-sleeve-top/s?k=pantaloons+women+full+sleeve+top",
+          "snippet": "More results. Miss Chase Women's Collared V-Neck 3/4 Sleeve Cotton Top. 20. More like this. Miss Chase · Women's Collared V-Neck 3/4 Sleeve Cotton Top ..."
+        },
+        {
+          "position": 6,
+          "title": "Bottomwear Haul From Amazon | Miss Chase & Puma | Denim ...",
+          "url": "https://www.youtube.com/watch?v=VDG3Dl28fGA",
+          "snippet": "Bottomwear Haul From Amazon | Miss Chase & Puma | Denim shorts, skirt, leggings & Flared jeans. 15K views 1 year ago"
+        },
+        {
+          "position": 7,
+          "title": "Finding jeans that are comfortable + flattering is honestly rare ...",
+          "url": "https://www.instagram.com/reel/DTFYLOoD8T8/",
+          "snippet": "These Miss Chase jeans tick all the boxes — ✔️ No camel toe ✔️ No stiffness ✔️ Butter-soft feel ✔️ So comfortable you can even squat easily. Perfect ..."
+        },
+        {
+          "position": 8,
+          "title": "Where can I buy some affordable super high-waisted jeans ...",
+          "url": "https://www.quora.com/Where-can-I-buy-some-affordable-super-high-waisted-jeans-that-are-of-good-quality",
+          "snippet": "Their fit is normally looser, and the jeans tend to be made of actual denim. You won't really get a skinny jeans type of look from them. I love ..."
+        },
+        {
+          "position": 9,
+          "title": "Chase Haul",
+          "url": "https://chasehaul.com/?srsltid=AfmBOoqLJ1StaT47IXeCChqqYkeoirxlILEUgW21ZNEV8scJJ0jK44B2",
+          "snippet": "Viral Tummy Shaping Jeans · Softest Denim in India · 2X Stretch Denim · Internet's Favourite Dresses and Jumpsuits."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "Miss Chase",
+          "count": 10,
+          "isClient": true
+        },
+        {
+          "brand": "AND",
+          "count": 6,
+          "isClient": false
+        },
+        {
+          "brand": "Pantaloons",
+          "count": 5,
+          "isClient": false
+        },
+        {
+          "brand": "Amazon",
+          "count": 2,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 52,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 14,
+      "queryText": "Miss Chase or ONLY which is better",
+      "category": "comparison",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Name brands that sell decently high quality clothes at an ...",
+          "url": "https://www.reddit.com/r/IndianFashionAddicts/comments/191lmne/name_brands_that_sell_decently_high_quality/",
+          "snippet": "Good brands for girls is Miss chase & Sassafras you can find them online.one of them is Indian brand clothing is really good."
+        },
+        {
+          "position": 2,
+          "title": "Miss Chase",
+          "url": "https://chasehaul.com/collections/miss-chase?srsltid=AfmBOooUZMq2vM0lhg2MQr3M5YSN44LEHi2n-nZHRmKXLtcDe1cG4qLq",
+          "snippet": "Miss Chase · CHASEstretch™ Navy Blue Bootcut Mid Rise Denim Jeans Sale price₹ 1,295 Regular price₹ 3,495. (62% Off). inclusive of all taxes. JUST IN."
+        },
+        {
+          "position": 3,
+          "title": "Which are the best brands for women to buy clothes ...",
+          "url": "https://www.quora.com/Which-are-the-best-brands-for-women-to-buy-clothes-from-Myntra",
+          "snippet": "Mast and Harbour and Miss Chase didn't disappoint so far, but there are tons of other brands in the same price range. Ginger by Lifestyle ..."
+        },
+        {
+          "position": 4,
+          "title": "Miss Chase Women's, Teal, XS",
+          "url": "https://www.amazon.ca/Miss-Chase-Womens-Printed-Relaxed/dp/B0DBHCLXYZ",
+          "snippet": "Description. Spruce up your wardrobe with this Dress from Miss Chase available on Amazon. You can pair this dress with some nice pair of heels and you are good ..."
+        },
+        {
+          "position": 5,
+          "title": "Miss Chase (@MissChaseIndia)",
+          "url": "https://www.facebook.com/MissChaseIndia/",
+          "snippet": "Check out our brand Miss Chase's fabulous festive collection at exclusive prices only on Amazon Sale starting from today midnight (September 23rd)"
+        },
+        {
+          "position": 6,
+          "title": "Shop Genuine Miss Chase Collection At Best Offers",
+          "url": "https://www.nykaafashion.com/designers/miss-chase/c/6747?srsltid=AfmBOopSMhues65tV1tMs-oi8-s8Er31sJTI1sE0z1B_2UZxv1XONIjD",
+          "snippet": "Shop Miss Chase collection at best offers online from Nykaa Fashion. Explore wide range of style & designs with convenience of COD & easy returns!"
+        },
+        {
+          "position": 7,
+          "title": "Amazon jeans | miss chase jeans | joggers |affordable jeans ...",
+          "url": "https://www.youtube.com/watch?v=vxsW271GCJk",
+          "snippet": "Amazon jeans | miss chase jeans | joggers | ... The best trousers from Amazon | *HUGE* Wide Leg Trouser Haul || Anshika Soni."
+        },
+        {
+          "position": 8,
+          "title": "Buy Women's Apparel Online At Miss Chase - Delhi",
+          "url": "https://lbb.in/delhi/shop-miss-chase-western-wear-online/",
+          "snippet": "With an emphasis on fit and quality, Miss Chase is a brand that does stunning pieces you'd definitely want to own. The brand has is making use of denim fabric ..."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "Miss Chase",
+          "count": 14,
+          "isClient": true
+        },
+        {
+          "brand": "AND",
+          "count": 12,
+          "isClient": false
+        },
+        {
+          "brand": "Amazon",
+          "count": 5,
+          "isClient": false
+        },
+        {
+          "brand": "ONLY",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Nykaa",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 57,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 15,
+      "queryText": "affordable western wear brands like Miss Chase",
+      "category": "comparison",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Name brands that sell decently high quality clothes at an ...",
+          "url": "https://www.reddit.com/r/IndianFashionAddicts/comments/191lmne/name_brands_that_sell_decently_high_quality/",
+          "snippet": "Good brands for girls is Miss chase & Sassafras you can find them online.one of them is Indian brand clothing is really good."
+        },
+        {
+          "position": 2,
+          "title": "Brands",
+          "url": "https://www.countryoutfitter.com/brands.html?srsltid=AfmBOooHcEdwLvq-rL6DKW2URkTl0y5rKBVLWgLg8D4lPxi2EshKc5Aq",
+          "snippet": "Shop quality Brands at Country Outfitter for hard to beat prices. You'll find your country when you shop Country Outfitter today!"
+        },
+        {
+          "position": 3,
+          "title": "Top Western Clothing Brands for Cowgirls: Double D, Ariat ...",
+          "url": "https://bourboncowgirl.com/blogs/news/western-clothing-brands-for-cowgirls?srsltid=AfmBOoo5kegR0dDBXNqGUah3dXOEJDwelJvcBXTYzFOJJi-jEF0xWiPF",
+          "snippet": "Discover the most popular western clothing brands for women. From Double D Ranch to Ariat, Wrangler, Stetson & Kimes Ranch—authentic cowgirl ..."
+        },
+        {
+          "position": 4,
+          "title": "Western Brands - Cavender's",
+          "url": "https://www.cavenders.com/all-brands/",
+          "snippet": "Shop the best in Western brands at Cavender's. Find Wrangler, Ariat, Cinch, Justin, Tony Lama and more. Free shipping is available."
+        },
+        {
+          "position": 5,
+          "title": "Shop by Brands",
+          "url": "https://jcwesternwear.com/pages/brands?srsltid=AfmBOooKf6ovK6CUHIuyn_Ba8HD6ApgML9TE7Vw5YWGZVx3NVVmEjya3",
+          "snippet": "JC Western Wear carries famous western brands like Ariat®, Corral, Lucchese, Wrangler®, Justin, Dan Post® and many many more for great prices and quality ..."
+        },
+        {
+          "position": 6,
+          "title": "Women's Western Wear - Western Clothing & Outfits for ...",
+          "url": "https://pintoranch.com/collections/womens-western-wear?srsltid=AfmBOor75-BYXK5eB4GaZ-th7o1c_l7qJ0VgDXtOix0ahZQUvsBhhCqt",
+          "snippet": "Iconic brands like Old Gringo, Double D Ranch, Joe's Jeans, Tecovas, and Charlie 1 Horse will inspire and delight. Comfortable Western wear that is feminine ..."
+        },
+        {
+          "position": 7,
+          "title": "Kimes Ranch",
+          "url": "https://kimesranch.com/",
+          "snippet": "For years, Kimes Ranch has been the authority for comfortable jeans and western apparel. Shop an extensive selection of denim jeans, outerwear, hoodies, ..."
+        },
+        {
+          "position": 8,
+          "title": "Wei's Western Wear Top 5 Western Brands for 2024",
+          "url": "https://weiswesternwear.com/blogs/articles/wei-s-western-wear-top-5-western-brands-for-2024",
+          "snippet": "Wranglers have starched denim styles available. This separates the real cowboys from those who would like to be a cowboy. “King of Country” ..."
+        },
+        {
+          "position": 9,
+          "title": "5 Western Brands You Need In Your Closet",
+          "url": "https://www.cowgirlmagazine.com/5-western-brands-you-need-in-your-closet/",
+          "snippet": "These five brands will complement any cowgirl's outfit whether it be casual, comfy or fancy. Find out why we love these brands just as much as you will."
+        },
+        {
+          "position": 10,
+          "title": "WESTERN WEAR EST. 99 | OS-Western Sports LLC",
+          "url": "https://www.ranch-girls.com/western-brand",
+          "snippet": "We combine the coziest polar fleece and inside-brushed sweatshirt fabrics with functional, water-repellent, and light nylon materials."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "AND",
+          "count": 24,
+          "isClient": false
+        },
+        {
+          "brand": "Miss Chase",
+          "count": 1,
+          "isClient": true
+        }
+      ],
+      "responseTimeMs": 49,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 16,
+      "queryText": "brands similar to Miss Chase India",
+      "category": "comparison",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Name brands that sell decently high quality clothes at an ...",
+          "url": "https://www.reddit.com/r/IndianFashionAddicts/comments/191lmne/name_brands_that_sell_decently_high_quality/",
+          "snippet": "Good brands for girls is Miss chase & Sassafras you can find them online.one of them is Indian brand clothing is really good."
+        },
+        {
+          "position": 2,
+          "title": "5 Indie Brands You Need To Check Out For All Things Denim",
+          "url": "https://lbb.in/delhi/shop-womens-denims-online/",
+          "snippet": "The Pigment Edit For Denim Dresses · Madish For Denim Footwear And Bags · Freakins For Denim Co-Ords And Jumpsuits · Off Duty For Trusted Denim Jeans · Miss Chase ..."
+        },
+        {
+          "position": 3,
+          "title": "26 Top and Best Clothing Brands for Women in India for 2026",
+          "url": "https://www.shauryasanadhya.com/blogs/news/clothing-brands-for-women-in-india?srsltid=AfmBOoqcciGnxH7rQ-5IdzWvlhEfAI9e7z3okeMR_VF6u1h7NshIeR8N",
+          "snippet": "Label Shaurya Sanadhya, H&M, Zara, Fabindia, BIBA, Global Desi, W for Woman, Levis, ONLY, and Vero Moda are the top online clothing brands."
+        },
+        {
+          "position": 4,
+          "title": "Which are the best brands for women to buy clothes ...",
+          "url": "https://www.quora.com/Which-are-the-best-brands-for-women-to-buy-clothes-from-Myntra",
+          "snippet": "Mast and Harbour and Miss Chase didn't disappoint so far, but there are tons of other brands in the same price range. Ginger by Lifestyle ..."
+        },
+        {
+          "position": 5,
+          "title": "Buy Women's Jeans Online – Slim, Straight & Wide-Leg Fits",
+          "url": "https://www.myntra.com/women-jeans",
+          "snippet": "Online Shopping at Myntra · U.S. Polo Assn. Women · U.S. Polo Assn. Women · Marks & Spencer · Aadvi Fashion · H&M · Nifty · Aadvi Fashion · U.S. Polo Assn. Women."
+        },
+        {
+          "position": 6,
+          "title": "10 Best Indian Brands Like Nicobar for Conscious Fashion",
+          "url": "https://www.nilamind.com/blogs/blogs/brands-like-nicobar-in-india?srsltid=AfmBOopi4ZgokFF9uixYCame2qR4bMnHgzYRZEOUAnbNbauXatZS2vSa",
+          "snippet": "Top 10 Brands Like Nicobar For Conscious & Contemporary Fashion in India · 1. Nilam India · 2. The Summer House · 3. Mati · 4. Dressfolk · 5. Buna ..."
+        },
+        {
+          "position": 7,
+          "title": "9 Indian clothing brands to add to your wardrobe this year",
+          "url": "https://www.vogue.in/content/forget-zara-here-are-9-indian-ready-to-wear-labels-you-can-shop-from",
+          "snippet": "17 Looms is a textile-focused brand where you can find breezy block-printed shirts, transitional weather jackets, dresses and co-ord sets for a ..."
+        },
+        {
+          "position": 8,
+          "title": "Affordable Denim Brands (starts ₹499) #noad {denim ...",
+          "url": "https://www.instagram.com/reel/C8JTVpKSsoi/",
+          "snippet": "#noad {denim, affordable fashion, summer fashion, jeans, styling, content creation, fashion influencer, kraus jeans, miss chase, dolce crudo, ..."
+        },
+        {
+          "position": 9,
+          "title": "10 Made in India Eco-Friendly Brands",
+          "url": "https://www.thevoiceoffashion.com/shopping/fashion/made-in-india-the-ecopositive-edit-3833",
+          "snippet": "Made in India: The Eco-Positive Edit · Runaway Bicycle · Chamar Studio · Metaphor Racha · We are KAL · Mati · Papermelon · Mitti Se · Mountain Bounties."
+        },
+        {
+          "position": 10,
+          "title": "15 INDIAN brand alternatives for SHEIN (budget friendly ...",
+          "url": "https://www.youtube.com/watch?v=Y3SbReExyJw",
+          "snippet": "Since shein has been banned in India here are 15 different Indian brands that sell very similar clothing at very affordable rates I hope you ..."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "AND",
+          "count": 23,
+          "isClient": false
+        },
+        {
+          "brand": "Miss Chase",
+          "count": 4,
+          "isClient": true
+        },
+        {
+          "brand": "H&M",
+          "count": 2,
+          "isClient": false
+        },
+        {
+          "brand": "ONLY",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Vero Moda",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Zara",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Myntra",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 50,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 17,
+      "queryText": "best women's western wear brands in India",
+      "category": "best",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Buy Western Wear for Women Online",
+          "url": "https://www.westside.com/collections/view-all-western-wear-for-women?srsltid=AfmBOopBnCVjbJqWk6qalcbqSB13yU8Ee6P_ELd_zJqvByp8ghnCmcAT",
+          "snippet": "Brand. Woman. Bombay Paisley · Diza · Gia Curves · L.O.V · Nuon Woman · Nuoflexx ... Bombay Paisley Green Floral Embroidered Cotton-Blend Top. ₹ 999.00. Select."
+        },
+        {
+          "position": 2,
+          "title": "Homegrown indian brands that don't break the bank? ...",
+          "url": "https://www.reddit.com/r/IndianFashionAddicts/comments/1er6jqh/homegrown_indian_brands_that_dont_break_the_bank/",
+          "snippet": "Isyachi has excellent fabric quality and stitching, and is very size inclusive. But tbh it's pricey. The clothes are mostly casual/date/ brunch ..."
+        },
+        {
+          "position": 3,
+          "title": "AND India: Buy Western Wear for Women Online | Ladies ...",
+          "url": "https://www.andindia.com/?srsltid=AfmBOopCFSuItadFueUL1dS7rWcz4PZWVVuYnf1c1sBmzvySgdPqcEVG",
+          "snippet": "Shop western wear for women online at AND India. From elegant dresses to chic tops, explore our range of unique styles and designs to unleash your style."
+        },
+        {
+          "position": 4,
+          "title": "26 Top and Best Clothing Brands for Women in India ...",
+          "url": "https://www.shauryasanadhya.com/blogs/news/clothing-brands-for-women-in-india?srsltid=AfmBOorYwCv69sww6xsEZjdlUlebAey6ofH3osn_A_aja-OwI_KlWkY9",
+          "snippet": "26 Top and Best Clothing Brands for Women in India for 2026 · 1. Label Shaurya Sanadhya · 2. Fabindia · 3. BIBA · 4. Allen Solly · 5. H&M · 6."
+        },
+        {
+          "position": 5,
+          "title": "FableStreet: Premium Western Wear | Best Fits for Indian ...",
+          "url": "https://www.fablestreet.com/",
+          "snippet": "Shop Premium Western Wear for Women Online in India at FableStreet. Buy your favourite tops, dresses, trousers & more with Premium Fabric, Easy Returns ..."
+        },
+        {
+          "position": 6,
+          "title": "Buy Designer Western Wear for Women Online at ...",
+          "url": "https://www.perniaspopupshop.com/shop/western-wear?srsltid=AfmBOopaQmuPdp64Ckd1IfXPGLbLVZS2q_mmEGwS39spntV61-u2l-k-",
+          "snippet": "Shop Luxury Western Wear from India's top designers featuring Designer Dresses, Tops, Co-ord Sets, P."
+        },
+        {
+          "position": 7,
+          "title": "9 Indian clothing brands to add to your wardrobe this year",
+          "url": "https://www.vogue.in/content/forget-zara-here-are-9-indian-ready-to-wear-labels-you-can-shop-from",
+          "snippet": "Mumbai-based Basque offers a collection of timeless basics designed to transcend seasons and trends. Their contemporary pieces will feel at home ..."
+        },
+        {
+          "position": 8,
+          "title": "Style Junkiie: Shop Trendy Western Wear Dresses for Women",
+          "url": "https://www.stylejunkiie.com/en-us?srsltid=AfmBOoo6Een-QPi7g1kYFDZcllqiDzP2bRFX6EjtSEYmK_J60VpnjRFG",
+          "snippet": "Shop the latest trends in fashion-forward Women's Western Wear dresses at Style Junkiie. Find unique styles and dress to express your individuality and ..."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "AND",
+          "count": 15,
+          "isClient": false
+        },
+        {
+          "brand": "H&M",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 50,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 18,
+      "queryText": "best online fashion brands for women India",
+      "category": "best",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "26 Top and Best Clothing Brands for Women in India ...",
+          "url": "https://www.shauryasanadhya.com/blogs/news/clothing-brands-for-women-in-india?srsltid=AfmBOorC0Tqi8oBUK-O7-u5a0fpX9TLvP7pXQX_31X161f7xvWZYlse5",
+          "snippet": "Label Shaurya Sanadhya, H&M, Zara, Fabindia, BIBA, Global Desi, W for Woman, Levis, ONLY, and Vero Moda are the top online clothing brands."
+        },
+        {
+          "position": 2,
+          "title": "Buy Traditional Indian Clothing for Wedding & Special ...",
+          "url": "https://www.kalkifashion.com/?srsltid=AfmBOopTlXlDPRO9Ls2mHXlkrCBCnSIhPu12cepG0JTbwO7gmQxv4Gmy",
+          "snippet": "Shop traditional Indian clothing & wedding dress for men, women & kids at KALKI Fashion. Explore Indian clothes with custom fitting, free shipping & easy ..."
+        },
+        {
+          "position": 3,
+          "title": "Anita Dongre: Buy Indian Designer Clothes, Dresses Online",
+          "url": "https://www.anitadongre.com/",
+          "snippet": "Shop Indian designer clothes online at Anita Dongre. Explore the latest collection of Indian designer wear including lehengas, kurtas, Nehru jackets, ..."
+        },
+        {
+          "position": 4,
+          "title": "AASHNI + CO - Online Indian Luxury Fashion Shopping",
+          "url": "https://aashniandco.com/?srsltid=AfmBOop9T-3yERM7MV5k5us4CecAU1UxMwW_2yY3b0PkJznKx8kMRj1Y",
+          "snippet": "Shop the best curation in South Asian luxury fashion at Aashni + Co—wedding and occasion wear to celebrity styles by top designers for all men and women."
+        },
+        {
+          "position": 5,
+          "title": "What are your favourite brands for women clothing",
+          "url": "https://www.reddit.com/r/IndianFashionAddicts/comments/1e0mifs/what_are_your_favourite_brands_for_women_clothing/",
+          "snippet": "Levis, Libas, Biba, Dressberry (on Myntra ,is decent too), Saavana by urbanic has cute tops too (can be costly at times)"
+        },
+        {
+          "position": 6,
+          "title": "Indian Designer Wear - Online Fashion Shopping Site for ...",
+          "url": "https://www.houseofindya.com/",
+          "snippet": "Shop the latest Indian designer wear for women online at Indya. Explore a wide range of tops, dresses, skirts, kurtis & kurtas. Elevate your style today."
+        },
+        {
+          "position": 7,
+          "title": "Ethnic Wear - Shop Online Indian Ethnic Wear for Women ...",
+          "url": "https://www.biba.in/intl",
+          "snippet": "The Indian wear for women at BIBA unites traditional designs with contemporary fashion elements to produce outfits that maintain their classic appeal while ..."
+        },
+        {
+          "position": 8,
+          "title": "Ogaan.com: Online Indian Fashion Store, Luxury Fashion ...",
+          "url": "https://www.ogaan.com/?srsltid=AfmBOoojzF49gVV9MsTvfYHWbdhTUR1lDcT0641PsMLbodO8kb_16kCV",
+          "snippet": "Ogaan.com is India's best one-stop destination that provides premium-class luxury fashion designer wear for Women, Men & Kids apparel, ..."
+        },
+        {
+          "position": 9,
+          "title": "Aza Fashions: Buy Designer Wear For Women, Men and ...",
+          "url": "https://www.azafashions.com/?srsltid=AfmBOopk_hrx2Hrq_M80IJfzOT3aTaLp6i705wm3YJxVg3lwiFSQ6pq1",
+          "snippet": "Shop a luxurious selection of wedding couture for men and women from top designers. Buy festive jewellery, accessories, and footwear at Aza Fashions."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "AND",
+          "count": 10,
+          "isClient": false
+        },
+        {
+          "brand": "ONLY",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Vero Moda",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "H&M",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Zara",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Myntra",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 54,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 19,
+      "queryText": "best affordable jeans brands for women India",
+      "category": "best",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Budget jeans recommendations <1000 rs : r/Frugal_Ind",
+          "url": "https://www.reddit.com/r/Frugal_Ind/comments/1ja6tid/budget_jeans_recommendations_1000_rs/",
+          "snippet": "I suggest you to buy a few Levi's good quality jeans and couple of cheaper but decent quality from marks and Spencers."
+        },
+        {
+          "position": 2,
+          "title": "Buy Jeans for Women Online at Best Price – Levis India Store",
+          "url": "https://levi.in/collections/women-jeans?srsltid=AfmBOoqvQKYY2uEPAHhs9TliLvJkS_3QcDHRZRU39elkIY0TEAZhk9Ow",
+          "snippet": "Buy jeans for women online in all styles & fits. Shop the latest collection of baggy, wide leg, bootcut & high waist women's jeans ✯ COD ✯ Free ..."
+        },
+        {
+          "position": 3,
+          "title": "Shop Jeans For Women Online in India at Best Price",
+          "url": "https://freakins.com/collections/shop-womens-jeans?srsltid=AfmBOoouR1kCCR09x0MDRWhVvPOvku6vkT9CVTBtDj0jqN6ZOpRoIz6h",
+          "snippet": "Curve True Blue Distressed Slouchy Jeans. Sale price₹2,099. ↓ More. 1234. “Freakins has quickly cemented itself as India's most beloved & trendy denim brand”."
+        },
+        {
+          "position": 4,
+          "title": "Buy Women's Jeans Online – Slim, Straight & Wide-Leg Fits",
+          "url": "https://www.myntra.com/women-jeans",
+          "snippet": "Online Shopping at Myntra · U.S. Polo Assn. Women · U.S. Polo Assn. Women · Marks & Spencer · Aadvi Fashion · H&M · Nifty · Aadvi Fashion · U.S. Polo Assn. Women."
+        },
+        {
+          "position": 5,
+          "title": "Buy Trendy Jeans for Women Online in India - Wrangler",
+          "url": "https://www.wrangler.in/women/jeans?srsltid=AfmBOopn_xPojmONfVdxKo3cG6IRS5pfgf1vHKQmqJV4WNGalLoWtzXW",
+          "snippet": "Jeans for Women by Wrangler ; Women Blue Mid Rise Sunset Straight Fit High Jeans, ₹4299 ₹1505 ; Wrangler Women Blue Slim Fit High Rise Jeans, ₹4299 ₹1505."
+        },
+        {
+          "position": 6,
+          "title": "What is your favorite brand of women's jeans?",
+          "url": "https://www.quora.com/What-is-your-favorite-brand-of-women-s-jeans-1",
+          "snippet": "Out of so many brands available, like Levi's, Wrangler, Lee's, Zara, I myself prefer Levi's women's skinny jeans. With flexible waistband that ..."
+        },
+        {
+          "position": 7,
+          "title": "Shop Denim Jeans For Women at Pepe Jeans India",
+          "url": "https://www.pepejeans.in/women/jeans?srsltid=AfmBOooi-VkFpFyzemRNVUR6oKF7f-gznpRj5PycLGZenVsd_27WeGdh",
+          "snippet": "... Jeans. Price reduced from ₹3,499 to ₹1,749. (50% off). Best price : ₹1,699. More Results. Read more about women's jeans + -. Women's Jeans at Pepe ..."
+        },
+        {
+          "position": 8,
+          "title": "The Ultimate Guide To Buying The Perfect Pair Of Denim Jeans",
+          "url": "https://lbb.in/delhi/denim-jeans-buying-guide-for-women/",
+          "snippet": "Uniqlo is all about classic designs and functionality. In general, they have some of the best basics, from T-shirts to jeans. Though they have a limited ..."
+        },
+        {
+          "position": 9,
+          "title": "Offduty India: Premium Quality Jeans For Women",
+          "url": "https://offduty.in/?srsltid=AfmBOooD2FNZk1UFz18zttq3XYBteHWLCdjZEoV9RMgJ9as4LlVD41Se",
+          "snippet": "Premium Quality High Waisted Jeans in India. Specially crafted for women of all shapes and sizes. Best skin-fit pieces of denim for women."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "AND",
+          "count": 8,
+          "isClient": false
+        },
+        {
+          "brand": "H&M",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Zara",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Myntra",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 139,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 20,
+      "queryText": "best women's tops brands India",
+      "category": "best",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "26 Top and Best Clothing Brands for Women in India ...",
+          "url": "https://www.shauryasanadhya.com/blogs/news/clothing-brands-for-women-in-india?srsltid=AfmBOoqtbFxHECDWnUzG14EjM3ewWu4cjv6XYCY9EEP-5HL3U4mQqmAB",
+          "snippet": "Label Shaurya Sanadhya, H&M, Zara, Fabindia, BIBA, Global Desi, W for Woman, Levis, ONLY, and Vero Moda are the top online clothing brands."
+        },
+        {
+          "position": 2,
+          "title": "Buy Shirts and Tops for Women Online at Best Prices",
+          "url": "https://www.westside.com/collections/shirts-tops-for-women?srsltid=AfmBOoqGadRtxtid63oX4kiCLjF7bpHP7u8BHPYiYRCmrCTwhJ4iL-d0",
+          "snippet": "The best website to buy tops for womens though, is Westside. The collections are extremely impressive and whether you are shopping ladies tops online at ..."
+        },
+        {
+          "position": 3,
+          "title": "Best Stylish Tops For Women",
+          "url": "https://allensolly.abfrl.in/c/women-tops",
+          "snippet": "Upgrade your wardrobe with collection stylish tops for women from Allen Solly. Explore from 500+ range of full sleeve tops for women in various colours"
+        },
+        {
+          "position": 4,
+          "title": "20 Best Made In India Clothing Brands For Women In 2025",
+          "url": "https://www.nilamind.com/blogs/blogs/made-in-india-clothing-brands-for-women?srsltid=AfmBOorRpun1Ef4VcNtO-SsGjaQgJ75XrAzQFOpMdsfBjhtXmeQqEJfI",
+          "snippet": "Looking for stylish and sustainable outfits? Here are 20 amazing Made in India clothing brands for women in 2025 that blend tradition with ..."
+        },
+        {
+          "position": 5,
+          "title": "What are your favourite brands for women clothing",
+          "url": "https://www.reddit.com/r/IndianFashionAddicts/comments/1e0mifs/what_are_your_favourite_brands_for_women_clothing/",
+          "snippet": "Levis, Libas, Biba, Dressberry (on Myntra ,is decent too), Saavana by urbanic has cute tops too (can be costly at times)"
+        },
+        {
+          "position": 6,
+          "title": "Best Clothing Brand for Women in India",
+          "url": "https://www.globalrepublic.in/blogs/styling-tips/which-is-the-best-clothing-brand-for-women-in-india?srsltid=AfmBOop1nPbFF6WPHZoy3CYK0VQyRuejSpOyyxXoopOA4GAEYyvP6zZq",
+          "snippet": "As Indian women continue to embrace contemporary fashion with cultural roots, they're moving beyond the usual choices like Biba, W, FabIndia, or ..."
+        },
+        {
+          "position": 7,
+          "title": "Shop Stylish Womens Tops Online at best Prices",
+          "url": "https://www.andindia.com/women/all-clothing/tops?srsltid=AfmBOor6rRybuHsC8brx_ea8UTiKvfNBfhH3UdWaeFnX0MnJlBEUk3Yb",
+          "snippet": "The fashion designers at AND create stunning pieces that complement the diva in you. We offer a plethora of trendy women's shirts & designer ladies' tops ..."
+        },
+        {
+          "position": 8,
+          "title": "Top 20 Female Clothing Brands in India: Comprehensive Guide",
+          "url": "https://www.mr-blue.in/female-clothing-brands-in-india/",
+          "snippet": "1. Fabindia. Fabindia stands as a pioneer in bringing handcrafted, artisan-made clothing to the mainstream market. Established in 1960, this ..."
+        },
+        {
+          "position": 9,
+          "title": "Buy Trending Tops For Women Online at Pantaloons",
+          "url": "https://www.pantaloons.com/c/women-tops",
+          "snippet": "Buy tops for women online at Pantaloons and discover the latest in chic fashion. Explore women top styles designed with vibrant colors, flattering fits, ..."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "AND",
+          "count": 16,
+          "isClient": false
+        },
+        {
+          "brand": "Pantaloons",
+          "count": 2,
+          "isClient": false
+        },
+        {
+          "brand": "ONLY",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Vero Moda",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "H&M",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Zara",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Myntra",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 2382,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 21,
+      "queryText": "best dresses for women online India",
+      "category": "best",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Dresses & Jumpsuits for Women - Westside",
+          "url": "https://www.westside.com/collections/dresses-jumpsuits-for-women?srsltid=AfmBOopcJ_ALnlWuEGiw5zSlTYa-P1SVrdZrbUbANwPNjK24mZp6iWZ7",
+          "snippet": "Shop dresses for women online in India at best prices. Checkout unique collection of party wear, casual and many more types of dresses & jumpsuits for women"
+        },
+        {
+          "position": 2,
+          "title": "Buy Stylish Dresses for Women Online at ...",
+          "url": "https://www.nykaafashion.com/women/westernwear/dresses/c/5?srsltid=AfmBOooCAe9RHrjZDisiId9lFDapfZiSDzbVi2Dw1NdaAj8GjOJ7F0oE",
+          "snippet": "Shop best trendy dresses for women at great price on Nykaa Fashion. Explore cute dresses in a variety of styles, designs, fits and colours for every ..."
+        },
+        {
+          "position": 3,
+          "title": "Traditional & Ethnic Dresses for Women & Kids in India ...",
+          "url": "https://taruni.in/?srsltid=AfmBOorGuzbuM7UUlhtI4VWLRqwqSmZVXAFV3T1abniMSEeBs9TttqYn",
+          "snippet": "We bring authentic Indian handicrafts on premium fabrics. Each piece combines tradition with modern style to create elegant, versatile designs."
+        },
+        {
+          "position": 4,
+          "title": "Buy Dresses for Women Online in India",
+          "url": "https://www.aachho.com/collections/dresses",
+          "snippet": "Shop from wide range of women cotton dress online at Aachho. Buy designer cotton dresses, cotton maxi dress for women online in India. Shop Now!"
+        },
+        {
+          "position": 5,
+          "title": "Indian Dresses | Shop Indian Clothing Online | Andaaz ...",
+          "url": "https://www.andaazfashion.com/",
+          "snippet": "Discover a stunning variety of Indian dresses at Andaaz Fashion — from Sarees and Salwar Kameez to Anarkali Suits, Lehengas, Men's Kurta Pajamas, and Kids Wear ..."
+        },
+        {
+          "position": 6,
+          "title": "Low Price Offer on Dresses for Women",
+          "url": "https://www.ajio.com/women-dresses/c/830316007?srsltid=AfmBOopA1EkEzq0SECvgzjTOmzNriPiXiBv8fwrlCl8AoVvpbQ9KTWjj",
+          "snippet": "From casual and trendy maxi dresses to uber-chic party dresses, AJIO has it all! A woman's dress is a versatile garment and there's always a perfect one to fit ..."
+        },
+        {
+          "position": 7,
+          "title": "Anita Dongre: Buy Indian Designer Clothes, Dresses Online",
+          "url": "https://www.anitadongre.com/",
+          "snippet": "Shop Indian designer clothes online at Anita Dongre. Explore the latest collection of Indian designer wear including lehengas, kurtas, Nehru jackets, ..."
+        },
+        {
+          "position": 8,
+          "title": "Ethnic Wear - Shop Online Indian Ethnic Wear for Women ...",
+          "url": "https://www.biba.in/intl",
+          "snippet": "Shop designer ethnic wear for women's, girls & ladies. Buy latest collection of anarkali suits, kurta, Kurtis, lehenga, gowns, palazzo & salwar kameez for ..."
+        },
+        {
+          "position": 9,
+          "title": "Which site is best for women ethnic dresses shopping ...",
+          "url": "https://www.quora.com/Which-site-is-best-for-women-ethnic-dresses-shopping-online-in-India",
+          "snippet": "Myntra is one of the best site for women dress. But if you looking for dresses under reasonable rate then you go through Meesho it also a good ..."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "AND",
+          "count": 9,
+          "isClient": false
+        },
+        {
+          "brand": "Myntra",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "AJIO",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Nykaa",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 3368,
+      "hasAiResponse": false
+    },
+    {
+      "queryIndex": 22,
+      "queryText": "best jumpsuit brands India",
+      "category": "best",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Contemporary Designer Jumpsuits",
+          "url": "https://indiaspopup.com/collections/indian-designer-jumpsuits?srsltid=AfmBOor1Ig_R3R_GXSn-7xamLGUtsmdzrpME-wie2SKSrSX4SvfWHrsi",
+          "snippet": "Jumpsuits ; Siddhartha Bansal. Rust orange halter jumpsuit · $274 USD ; Ritu Kumar. Olive solid full sleeves straight jumpsuit. $151 USD."
+        },
+        {
+          "position": 2,
+          "title": "Shop Jumpsuits for Women & Weddings",
+          "url": "https://in.kalkifashion.com/collections/jumpsuits",
+          "snippet": "Explore elegant jumpsuits for women, perfect for weddings and special occasions. Find the best collection of jumpsuits for wedding online at KALKI Fashion ..."
+        },
+        {
+          "position": 3,
+          "title": "Buy Designer Wedding & Party Jumpsuits For Women Online",
+          "url": "https://www.ensembleindia.com/women/clothing/jumpsuits.html?srsltid=AfmBOorPTMOsSbUC8m1fF-DLBW1N5SWyEpV8Vkv_KNupCBmmTscX5Njb",
+          "snippet": "Designers like Amit Aggarwal and Pankaj & Nidhi craft structured brocade jumpsuits, while Gauri & Nainika and Ridhi Mehra offer satin and velvet designs that ..."
+        },
+        {
+          "position": 4,
+          "title": "Shop Stylish Jumpsuits for Women Online in USA",
+          "url": "https://www.azafashions.com/en-us/collection/women/jumpsuits?srsltid=AfmBOoobPzeRwUpdul7XwggiSheby2lfpz0jwgJC5a_KobQEGndMUuN5",
+          "snippet": "Aza Fashions features an extensive selection of designer jumpsuits from popular and celebrated Indian labels. Some notable designers include Punit Balana, Ritu ..."
+        },
+        {
+          "position": 5,
+          "title": "Best Cotton Jumpsuits you've ever tried on? : r/TwoXIndia",
+          "url": "https://www.reddit.com/r/TwoXIndia/comments/1j6ffgk/best_cotton_jumpsuits_youve_ever_tried_on/",
+          "snippet": "I love the ones from Anokhi but they're grossly overpriced. If you're looking for customisations, I'd recommend this brand called tamarind chutney."
+        },
+        {
+          "position": 6,
+          "title": "Buy Designer Jumpsuit for Women | Indian Jumpsuits Online",
+          "url": "https://www.papadontpreach.com/collections/designer-jumpsuits?srsltid=AfmBOoqrdtWYciC3e2pF7jpgjOkdvyqiLKNtCjnnBCaJeZroVGFR_HK3",
+          "snippet": "Shop for designer Jumpsuit & Indian jumpsuits for women online. Checkout unbeatable range of traditional jumpsuits for women at Papa Don't Preach."
+        },
+        {
+          "position": 7,
+          "title": "Anita Dongre: Buy Indian Designer Clothes, Dresses Online",
+          "url": "https://www.anitadongre.com/",
+          "snippet": "Shop Indian designer clothes online at Anita Dongre. Explore the latest collection of Indian designer wear including lehengas, kurtas, Nehru jackets, ..."
+        },
+        {
+          "position": 8,
+          "title": "Trendy Jumpsuit Salwar Kameez - Fusion Wear Collection",
+          "url": "https://www.seasonsindia.com/product-category/salwar-kameez/jumpsuit/?srsltid=AfmBOoqJ8h7rgzfh7Fk-ugq38DcbJhwFAoRZ9mqNyRHxpy6q1-sh3rPI",
+          "snippet": "A wide range of Indo- Western Jumpsuits are available at Seasons. Find the most exclusive range of the trendiest designs only at Seasons Mumbai."
+        },
+        {
+          "position": 9,
+          "title": "Best Local Brands To Buy Jumpsuits From Online",
+          "url": "https://lbb.in/bangalore/best-brands-to-buy-jumpsuits-from-online/",
+          "snippet": "Move over brands like Zara, Forever 21 or Chemistry for jumpsuits, instead look to these cool, local brands making gorgeous jumpsuits you can buy online!"
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "AND",
+          "count": 9,
+          "isClient": false
+        },
+        {
+          "brand": "Chemistry",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "ONLY",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Forever 21",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Zara",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 3677,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 23,
+      "queryText": "best co-ord sets brands India",
+      "category": "best",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Buy Online Trendy Co-Ord Sets for Women",
+          "url": "https://theloom.in/buy/clothing-co-ord-sets",
+          "snippet": "Elevate your style with our curated collection of co-ord sets for women, featuring fashionable and ethnic designs."
+        },
+        {
+          "position": 2,
+          "title": "Co-ord Sets For Women - Jisora",
+          "url": "https://jisoraglobal.com/collections/co-ord-sets",
+          "snippet": "Premium Quality Co-ord Sets for Women at Jisora! Coord sets comprise two-piece outfits that are made with matching designs, colours, patterns, and prints."
+        },
+        {
+          "position": 3,
+          "title": "Buy Designer Co-ord Sets for Women Online in India",
+          "url": "https://houseoffett.com/en-us/collections/co-ord-sets?srsltid=AfmBOooRgQtK_PIPF-7GIU1H41UsU0XcjUE8HXmlyZbETE3BaQ9VFL0q",
+          "snippet": "Shop the latest collection of designer co-ord sets for women online in India at House of Fett ... Tarsus Top and Pant Co-ord set. Regular price ₹ 4,999.00 Sale ..."
+        },
+        {
+          "position": 4,
+          "title": "15 Brands For Chic, Trendy And Versatile Coord Sets Online",
+          "url": "https://lbb.in/delhi/best-brands-for-co-ord-sets-online/",
+          "snippet": "Get The Chicest Co-Ords From These 15 Indie & High-Street Brands · Alter Ego India · Fancy Pastels · Fabnest · House Of Fett · Zara · APZ · Twenty Dresses · Marks and ..."
+        },
+        {
+          "position": 5,
+          "title": "Shop Stylish Co-Ord Sets for Women",
+          "url": "https://www.biba.in/intl/co-ord-sets/",
+          "snippet": "Shop Stylish Co-Ord Sets Online for Women at Biba. Explore Our Trendy Collection of Women's Co-Ord Sets Designed for Comfort and Elegance. Order Now!"
+        },
+        {
+          "position": 6,
+          "title": "Shop Co-ord Sets for Women Online @Best Price",
+          "url": "https://theindianethnicco.com/collections/co-ord-sets-for-women?srsltid=AfmBOopGoAmsh034mmp6fsPQXrhLDsJAhKUYVW8ZjgyIIw2vNV0MmzvP",
+          "snippet": "Fabrics By Craft · An English Garden · Delilah · DyeVerse · Gulmohar · Inaaya · Roohani · Rozaana · Sabaa."
+        },
+        {
+          "position": 7,
+          "title": "Buy Luxury Designer Co-ord Sets for Women Online in India",
+          "url": "https://nouriadesign.com/collections/co-ord-sets?srsltid=AfmBOooxwUvP4wM_B6nRO5lWzEuSNv74F17VKPMuBcrfo577HlVZIA6l",
+          "snippet": "Best-Selling Designer Co-ord Sets You'll Love. Riana Co-ord Set BD: Designed for modern-day women who love sleek lines and minimal aesthetics. Raina Co-ord ..."
+        },
+        {
+          "position": 8,
+          "title": "Buy Indian Co-Ord Sets for Women Online In USA",
+          "url": "https://g3fashion.com/en-us/women/co-ord-set?srsltid=AfmBOoqZgdzOgMb4bwFp_fVo0N3M_32vOoMMcwY7f7_gV8G_0eyKPi-_",
+          "snippet": "Modest co ord sets cater to those in India looking for outfits that blend style with conservative fashion sensibilities, suitable for both summer and winter."
+        },
+        {
+          "position": 9,
+          "title": "Buy Ethnic Co-ord Sets for Women Online at Best Prices",
+          "url": "https://www.westside.com/collections/ethnic-co-ord-sets-for-women?srsltid=AfmBOoqkc3bkhK6qUTy0V6ngzkBTmDe1F7EyhN6f30_5J1j9uyDztZ2Q",
+          "snippet": "Buy ethnic co-ord sets for women at best prices in India. Find elegant ... Brands. Utsa (109). Diza (26). Zuba (18). Bombay Paisley (7). Vark (7). Craft."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "AND",
+          "count": 11,
+          "isClient": false
+        },
+        {
+          "brand": "Zara",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 3936,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 24,
+      "queryText": "best fast fashion brands in India",
+      "category": "best",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "5 Indian ultra-fast fashion brands winning real-time race",
+          "url": "https://www.indiaretailing.com/5-indian-ultrafast-fashion-brands-winning-realtime-race",
+          "snippet": "India first got a real taste of Western fast fashion with Zara setting the stage, followed by H&M, and then Forever 21 and Gap stepping in later ..."
+        },
+        {
+          "position": 2,
+          "title": "Which new age fast fashion brand do you trust?",
+          "url": "https://www.reddit.com/r/IndianFashionAddicts/comments/1k0fdq3/which_new_age_fast_fashion_brand_do_you_trust/",
+          "snippet": "1.The Indian Garage co. · 2. Snitch · 3.Mango · 4.Shein · 5.Yousta · 6. Max fashion · 7. Myntra brand (like roadster anouk etc) · 8. Pantaloons."
+        },
+        {
+          "position": 3,
+          "title": "10 Clothing Brands From India Making Waves in ...",
+          "url": "https://goodonyou.eco/sustainable-brands-from-india/",
+          "snippet": "More sustainable fashion brands from India, including I Was A Sari, No Nasties, The Summer House, Anchal, and Sui."
+        },
+        {
+          "position": 4,
+          "title": "Top 20 Sustainable Fashion Brands in India",
+          "url": "https://www.nilamind.com/blogs/blogs/sustainable-fashion-brands-india?srsltid=AfmBOopB1XkE0j4MYeoqLf1a1z3FKmueUr38O1DGjVRLdz6qUbdW3Mor",
+          "snippet": "Top 20 Sustainable Fashion Brands in India · 1. Nilam India · 2. Okhai · 3. Nicobar · 4. No Nasties · 5. By Kaveri · 6. Suta · 7. Upasana · 8. The ..."
+        },
+        {
+          "position": 5,
+          "title": "Which are some Indian Fast-fashion Brands?",
+          "url": "https://www.quora.com/Which-are-some-Indian-Fast-fashion-Brands",
+          "snippet": "1. Zara · 2. H&M · 3. Uniqlo · 4. Fashion Nova · 5. Forever 21 · 6. ASOS · 7. MANGO · 8. Urban Outfitters"
+        },
+        {
+          "position": 6,
+          "title": "26 Top and Best Clothing Brands for Women in India for 2026",
+          "url": "https://www.shauryasanadhya.com/blogs/news/clothing-brands-for-women-in-india?srsltid=AfmBOophYig6FfEVunvrIzymm4VqBL70WAd02qxW0qcb4piOlqZG_FtD",
+          "snippet": "Label Shaurya Sanadhya, H&M, Zara, Fabindia, BIBA, Global Desi, W for Woman, Levis, ONLY, and Vero Moda are the top online clothing brands."
+        },
+        {
+          "position": 7,
+          "title": "Top 10 Fashion Brands in India",
+          "url": "https://www.spocket.co/statistics/top-fashion-brands-in-india",
+          "snippet": "H&M leads India's fast fashion sector with $380 million in revenue for FY24, representing an 11.4% year-on-year growth. · Zara India · Adidas India · The Souled ..."
+        },
+        {
+          "position": 8,
+          "title": "How India Buys Fast Fashion",
+          "url": "https://www.thevoiceoffashion.com/centrestage/features/how-india-buys-fast-fashion-6211",
+          "snippet": "This includes value brands like Zudio, premium ones like Zara and mid-valued brands such as H&M and Snitch."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "AND",
+          "count": 20,
+          "isClient": false
+        },
+        {
+          "brand": "H&M",
+          "count": 5,
+          "isClient": false
+        },
+        {
+          "brand": "Zara",
+          "count": 5,
+          "isClient": false
+        },
+        {
+          "brand": "Forever 21",
+          "count": 2,
+          "isClient": false
+        },
+        {
+          "brand": "Pantaloons",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "ONLY",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Vero Moda",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Myntra",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 5991,
+      "hasAiResponse": false
+    },
+    {
+      "queryIndex": 25,
+      "queryText": "best Indian fashion brands for young women",
+      "category": "best",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "26 Top and Best Clothing Brands for Women in India ...",
+          "url": "https://www.shauryasanadhya.com/blogs/news/clothing-brands-for-women-in-india?srsltid=AfmBOooKn3BhDS8d9Kc7E0DUxC1rjOxPqN_fXVjQf2QNJ2CvQx61Z5p1",
+          "snippet": "Label Shaurya Sanadhya, H&M, Zara, Fabindia, BIBA, Global Desi, W for Woman, Levis, ONLY, and Vero Moda are the top online clothing brands."
+        },
+        {
+          "position": 2,
+          "title": "Homegrown indian brands that don't break the bank? ...",
+          "url": "https://www.reddit.com/r/IndianFashionAddicts/comments/1er6jqh/homegrown_indian_brands_that_dont_break_the_bank/",
+          "snippet": "Isyachi has excellent fabric quality and stitching, and is very size inclusive. But tbh it's pricey. The clothes are mostly casual/date/ brunch ..."
+        },
+        {
+          "position": 3,
+          "title": "Buy Traditional Indian Clothing for Wedding & Special ...",
+          "url": "https://www.kalkifashion.com/?srsltid=AfmBOope2cc5Lnc3kn7tEMeOA1e8U0rqXkuR5FhS1vTaNJ7iNHgZWwZs",
+          "snippet": "Shop traditional Indian clothing & wedding dress for men, women & kids at KALKI Fashion. Explore Indian clothes with custom fitting, free shipping & easy ..."
+        },
+        {
+          "position": 4,
+          "title": "Luxury Couture by Anita Dongre in USA",
+          "url": "https://us.anitadongre.com/",
+          "snippet": "Shop contemporary styles by Anita Dongre. Timeless styles crafted for the modern woman featuring modern details, nature-inspired motifs & heirloom crafts."
+        },
+        {
+          "position": 5,
+          "title": "AASHNI + CO - Online Indian Luxury Fashion Shopping",
+          "url": "https://aashniandco.com/?srsltid=AfmBOooNIYZTAjdMM88s6TYWdNyyPwMJCyQfqO4sSJpOynNW6jde5qNq",
+          "snippet": "Shop for elite Indian designers' collections such as Sabyasachi Mukherjee , Manish Malhotra , Anita Dongre , Fayon Kids by Preeti Jatia , Masaba , Shivan & ..."
+        },
+        {
+          "position": 6,
+          "title": "20 Best Made In India Clothing Brands For Women In 2025",
+          "url": "https://www.nilamind.com/blogs/blogs/made-in-india-clothing-brands-for-women?srsltid=AfmBOorpVzNcSc4jQdtL9BqjB6ysm7jdgyjlW5HeG6aoB27N-7PeUwNx",
+          "snippet": "A household name and a classic for good reason, Fabindia has been the go-to for Indian wear that celebrates tradition without overwhelming it."
+        },
+        {
+          "position": 7,
+          "title": "15 Top Female Clothing Brands in India Best for Women ...",
+          "url": "https://tulsisilks.co.in/blogs/15-top-womens-clothing-brands-in-india-best-womens-fashion-brands?srsltid=AfmBOooO9bqekRrKjKo_fsbtOJOvdxnSVqAWQqEWDPFzr0nhnwTfeKPR",
+          "snippet": "15 Best Clothing Brands for Women in India · 1. Tulsi Silks · 2. H&M · 4. Reliance Trends · 5. Lifestyle · 6. Pantaloons · 7. Max Fashion · 8. Westside."
+        },
+        {
+          "position": 8,
+          "title": "7 Indian Fashion Brands and Designers You Need to Know",
+          "url": "https://www.teenvogue.com/gallery/7-indian-fashion-brands-and-designers-you-need-to-know",
+          "snippet": "7 Indian Fashion Brands and Designers You Need to Know · Anita Dongre · Deva · Harleen Kaur · holiCHIC · I was a Sari · Shop Merakhi · Svarini."
+        },
+        {
+          "position": 9,
+          "title": "Shop Online: Indian Ethnic Wear for Women",
+          "url": "https://www.biba.in/intl",
+          "snippet": "Shop designer ethnic wear for women's, girls & ladies. Buy latest collection of anarkali suits, kurta, Kurtis, lehenga, gowns, palazzo & salwar kameez for ..."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "AND",
+          "count": 15,
+          "isClient": false
+        },
+        {
+          "brand": "H&M",
+          "count": 2,
+          "isClient": false
+        },
+        {
+          "brand": "Pantaloons",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "ONLY",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Vero Moda",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Zara",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 1498,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 26,
+      "queryText": "top women's clothing brands India 2025",
+      "category": "best",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "26 Top and Best Clothing Brands for Women in India ...",
+          "url": "https://www.shauryasanadhya.com/blogs/news/clothing-brands-for-women-in-india?srsltid=AfmBOopMxw-q8oVBIFWkaz7qYiHPHj537Q10XVHtF7mlxHgdGyhJiUpH",
+          "snippet": "Label Shaurya Sanadhya, H&M, Zara, Fabindia, BIBA, Global Desi, W for Woman, Levis, ONLY, and Vero Moda are the top online clothing brands."
+        },
+        {
+          "position": 2,
+          "title": "20 Best Made In India Clothing Brands For Women In 2025",
+          "url": "https://www.nilamind.com/blogs/blogs/made-in-india-clothing-brands-for-women?srsltid=AfmBOoqX2GSbJsll4ho1pYizt3yJFPGz1gHXDkl0pA1otGQQZgc6Y8-K",
+          "snippet": "20 Best Made In India Clothing Brands For Women In 2025 · 1. Nilam India · 2. Okhai · 3. Bunaai · 4. Suta Bombay · 5. The Loom · 6. Buna Studio."
+        },
+        {
+          "position": 3,
+          "title": "50 Best Fashion Brands We Loved In 2025 | LBB",
+          "url": "https://lbb.in/all/best-fashion-brands/",
+          "snippet": "50 Best Fashion Brands We Loved In 2025 · Best Homegrown Brands · Urban Suburban · No Nasties · Doodlage · Suta · I was a Sari · SUI · EcoRight."
+        },
+        {
+          "position": 4,
+          "title": "10 Top and Best Clothing Brands for Women in India ...",
+          "url": "https://charmgal.in/blogs/trending/10-top-and-best-clothing-brands-for-women-in-india-for-2025?srsltid=AfmBOoqHvvYVS-MGwODr_ST_LLH0NOtZEBet5gkzu_3arYIuAZ31UhCo",
+          "snippet": "10 Top and Best Clothing Brands for Women in India for 2025 · 1. Charmgal · 2. Label Shaurya Sanadhya · 3. Fabindia · 4. BIBA · 5. Allen Solly."
+        },
+        {
+          "position": 5,
+          "title": "10 niche and luxury homegrown brands to look out for in ...",
+          "url": "https://www.harpersbazaar.in/fashion/story/10-niche-and-luxury-homegrown-brands-to-look-out-for-in-2025-1223491-2025-06-13",
+          "snippet": "For those who value comfort, affordability and thoughtful fashion, Rangaari is a homegrown label that checks every box. From breezy kurta sets ..."
+        },
+        {
+          "position": 6,
+          "title": "Indian fashion and lifestyle brands I am loving in 2025",
+          "url": "https://www.ftlofaot.com/2025/07/indian-fashion-and-lifestyle-brands-i.html",
+          "snippet": "Nicobar: Nicobar reigns supreme as far as my love for Indian design and motifs packaged in a relatively affordable brand identity go. I have ..."
+        },
+        {
+          "position": 7,
+          "title": "Top Indian Fashion Trends: Style & Heritage Guide",
+          "url": "https://www.fabricoz.com/blogs/fabricoz/top-indian-fashion-trends-every-woman-should-try-in-2025?srsltid=AfmBOorAO1HCH0eL0cbBPk5CXS23RQmKNCP6oz1XTznUs67VUWFsfpYH",
+          "snippet": "Explore the leading Indian fashion trends of 2026. From sustainable textiles and fusion wear to traditional sarees with a modern twist, discover the ..."
+        },
+        {
+          "position": 8,
+          "title": "Top 10 Indian Fashion Brands to Shop in 2025 - Otal",
+          "url": "https://otal.in/blog/top-10-indian-fashion-brands-2025",
+          "snippet": "Top 10 Indian Fashion Brands to Shop in 2025 · 1. Fabindia. Fabindia is a household name, celebrated for its handwoven textiles and ethnic ..."
+        },
+        {
+          "position": 9,
+          "title": "15 Top Female Clothing Brands in India Best for Women ...",
+          "url": "https://tulsisilks.co.in/blogs/15-top-womens-clothing-brands-in-india-best-womens-fashion-brands?srsltid=AfmBOopITm7wjXBSp_nDZSUZvi4YpBX3XbTm2XnCt6-cuR9bQlmbhjip",
+          "snippet": "15 Top Women's Clothing Brands in India & Best Women's Fashion Brands · 15 Best Clothing Brands for Women in India · 1. Tulsi Silks · 2. H&M · 4 ..."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "AND",
+          "count": 29,
+          "isClient": false
+        },
+        {
+          "brand": "H&M",
+          "count": 2,
+          "isClient": false
+        },
+        {
+          "brand": "ONLY",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Vero Moda",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Zara",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 1967,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 27,
+      "queryText": "best trendy clothes for women India",
+      "category": "best",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Indian Outfits for Women Online in USA",
+          "url": "https://palkhifashion.com/collections/indian-outfits?srsltid=AfmBOorhAYb9kbRWNW-J7IJZTu8A_YNKICeYJeRLP_B4kvufn8Vf_gls",
+          "snippet": "Discover our exquisite collection of Indian outfits, including Indian dresses, wedding attire, Anarkali suits, Palazzo suits, Gharara suits, and more."
+        },
+        {
+          "position": 2,
+          "title": "26 Top and Best Clothing Brands for Women in India ...",
+          "url": "https://www.shauryasanadhya.com/blogs/news/clothing-brands-for-women-in-india?srsltid=AfmBOoqFksQNraxiDCGaMSSLpWhYTl2lNQ3oRf6k7iWGwS6a2Zl7iLsY",
+          "snippet": "Label Shaurya Sanadhya, H&M, Zara, Fabindia, BIBA, Global Desi, W for Woman, Levis, ONLY, and Vero Moda are the top online clothing brands."
+        },
+        {
+          "position": 3,
+          "title": "Indian Designer Wear - Online Fashion Shopping Site for ...",
+          "url": "https://www.houseofindya.com/",
+          "snippet": "Trendy Indian Women's Clothing Online​​ From casual wear tops tailored in breezy fabrics to festive-ready crop tops and blouses with bedazzling details, Indya's ..."
+        },
+        {
+          "position": 4,
+          "title": "Anita Dongre: Buy Indian Designer Clothes, Dresses Online",
+          "url": "https://www.anitadongre.com/",
+          "snippet": "Shop Indian designer clothes online at Anita Dongre. Explore the latest collection of Indian designer wear including lehengas, kurtas, Nehru jackets, ..."
+        },
+        {
+          "position": 5,
+          "title": "Modern Ethnic Wear for Women",
+          "url": "https://www.andaazfashion.com/womens/contemporary",
+          "snippet": "Explore modern ethnic wear for women at Andaaz Fashion. Shop stylish Indo-Western outfits, dresses & more. Fast delivery to USA, UK, UAE & India."
+        },
+        {
+          "position": 6,
+          "title": "Lashkaraa: Indian Clothes | Indian Dresses, Sarees & More",
+          "url": "https://www.lashkaraa.com/?srsltid=AfmBOoo1uaRruPrsUgHozFCNcqrrYIy8y-gUCFvJdPRns9xGi88GbkQR",
+          "snippet": "Take the sparkle of India wherever you go with our exclusive selection of Indian clothes! Featuring minimal and sophisticated Indian dresses, sarees, ..."
+        },
+        {
+          "position": 7,
+          "title": "Ethnic Wear - Shop Online Indian Ethnic Wear for Women ...",
+          "url": "https://www.biba.in/intl",
+          "snippet": "Shop designer ethnic wear for women's, girls & ladies. Buy latest collection of anarkali suits, kurta, Kurtis, lehenga, gowns, palazzo & salwar kameez for ..."
+        },
+        {
+          "position": 8,
+          "title": "Indian Women Clothing",
+          "url": "https://www.nihalfashions.com/women",
+          "snippet": "From stylish sarees, Indian salwar kameez, designer lehengas to saree gowns and lehenga sarees, there are endless options a woman can select from the category ..."
+        },
+        {
+          "position": 9,
+          "title": "KALKI Fashion India: Shop Indian Wear for Women, Men ...",
+          "url": "https://in.kalkifashion.com/",
+          "snippet": "Shop Indian traditional dress for women, men & kids at KALKI Fashion. Find Indian wedding wear & festive styles with KALKI's custom fitting, free shipping ..."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "AND",
+          "count": 9,
+          "isClient": false
+        },
+        {
+          "brand": "ONLY",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Vero Moda",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "H&M",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Zara",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 1558,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 28,
+      "queryText": "best budget fashion brands India",
+      "category": "best",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Indians brands on budget? : r/IndianFashionAddicts",
+          "url": "https://www.reddit.com/r/IndianFashionAddicts/comments/1f3bpkk/indians_brands_on_budget/",
+          "snippet": "You want something really trendy then try Snitch, bonkers, bewakoof... They are in budget and trendy. You can also check Myntra brands like roadster, etc."
+        },
+        {
+          "position": 2,
+          "title": "Best Budget-Friendly Streetwear Brands in India",
+          "url": "https://www.farak.co/blogs/fashion/affordable-yet-stylish-best-budget-friendly-streetwear-brands-in-india?srsltid=AfmBOoreCyiVeFtS8NFowmEpJKBgTBH6QOQJvqw9B85iLWvsKq2cWNwE",
+          "snippet": "Farak brings you a curated guide to the best Streetwear Brands India that deliver high-quality, trendy pieces without breaking the bank."
+        },
+        {
+          "position": 3,
+          "title": "26 Top and Best Clothing Brands for Women in India for 2026",
+          "url": "https://www.shauryasanadhya.com/blogs/news/clothing-brands-for-women-in-india?srsltid=AfmBOoqCNGcyIsMgx3t8wi8P-SuofCAxBOnsiSsZxFP9-4Y4Nd2Q-nDH",
+          "snippet": "H&M and Zara are also leading the Indian market with their wide range of trendy and affordable fashion options."
+        },
+        {
+          "position": 4,
+          "title": "Top 10 Affordable Men's Clothing Brands in India",
+          "url": "https://jimmyluxury.in/blogs/blogs/top-10-affordable-men-s-clothing-brands-in-india?srsltid=AfmBOookyE3mVmsnURaTKChTAdYg09skVKec6qSa990fGOY-5jCNxDGT",
+          "snippet": "Top 10 Affordable Men's Clothing Brands in India · 1. Jimmy Luxury · 2. Roadster · 3. Bewakoof · 4. Snitch · 5. HRX by Hrithik Roshan · 6."
+        },
+        {
+          "position": 5,
+          "title": "// Compiled a list of 'Affordable Indian Wear Designers' as ...",
+          "url": "https://www.instagram.com/p/Bp_xTNThtLI/?hl=en",
+          "snippet": "@anolishahdesigninc @label_anushree @_myoho_ @ushmavaidya @rriso.online @picchika @sonamluthria @gopivaiddesigns @priyaagarwal_clothing @ ..."
+        },
+        {
+          "position": 6,
+          "title": "Which brand of clothes are the cheapest for middle-class ...",
+          "url": "https://www.quora.com/Which-brand-of-clothes-are-the-cheapest-for-middle-class-people-in-India",
+          "snippet": "Cobb, RedTape, Allen Solly, Boba, Monte Carlo, Burberry brand cheapest for middle class people in india."
+        },
+        {
+          "position": 7,
+          "title": "Top cheap indian clothing brands Store Top 10 ... - darcross.com",
+          "url": "https://darcross.com/?d=cheap-indian-clothing-brands-110757021",
+          "snippet": "Experience the perfect blend of tradition and, Best Indian Clothing Stores in Virginia Mohi fashion, 10 Affordable Fashion Brands in India for Diwali 2023 ..."
+        },
+        {
+          "position": 8,
+          "title": "Buy Online Fashion Clothing for Women, Men, and Kids at ...",
+          "url": "https://www.pantaloons.com/",
+          "snippet": "Looking for Online Shopping Site for Fashion Clothing. We bring you the finest Collection of Women, Men and Children Wear. Shop today on Pantaloons with ..."
+        },
+        {
+          "position": 9,
+          "title": "Top 10 Best, Cheapest & Affordable clothing brands in ...",
+          "url": "https://privatelabelclothingmanufacturer.wordpress.com/2024/09/16/top-10-best-cheapest-affordable-clothing-brands-in-india-available-online/",
+          "snippet": "Top 10 Best, Cheapest & Affordable clothing brands in India available Online · 1. Max Fashion · 2. Pantaloons · 3. Ajio · 4. Roadster (Myntra)."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "AND",
+          "count": 20,
+          "isClient": false
+        },
+        {
+          "brand": "Pantaloons",
+          "count": 2,
+          "isClient": false
+        },
+        {
+          "brand": "Myntra",
+          "count": 2,
+          "isClient": false
+        },
+        {
+          "brand": "H&M",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "Zara",
+          "count": 1,
+          "isClient": false
+        },
+        {
+          "brand": "AJIO",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 1588,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 29,
+      "queryText": "Miss Chase jeans quality",
+      "category": "product",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Miss Chase Women's Black Wide Leg High Rise ...",
+          "url": "https://www.amazon.in/Miss-Chase-Womens-Regular-Stretchable/dp/B0BKRB284Y",
+          "snippet": "The product is of superior quality. It is worth every single money you have spent. The fabric is very smooth and comfortable. It is mildly elastic. The colour ..."
+        },
+        {
+          "position": 2,
+          "title": "CHASEstretch™ Black Wide-Leg High-Rise ...",
+          "url": "https://chasehaul.com/products/womens-black-wide-leg-high-rise-clean-look-regular-length-stretchable-denim-jeans-apss24den94-16-330?srsltid=AfmBOoqNGsTJOplAba8bC9t62xTCE_Mfc5eVzX5pS5M30o1f4Da0J4OQ",
+          "snippet": "Black wide leg high-rise clean look denim jeans. It is regular length and it has coin, patch and side pockets. It has button and zip fly for closure."
+        },
+        {
+          "position": 3,
+          "title": "Latest Review of Miss Chase Skinny Women Blue Jeans",
+          "url": "https://www.flipkart.com/miss-chase-skinny-women-blue-jeans/product-reviews/itmfavu5zjg8w9gw?pid=JEAFAVRKJMHMYWMC",
+          "snippet": "Terrific · good quality. Flipkart Customer ; Simply awesome · Nice jeans. Uttara Nath ; Highly recommended · Ohh my god... Its just the perfect fitting jeans. You ..."
+        },
+        {
+          "position": 4,
+          "title": "Miss Chase A+ Women's Wide-Leg High Rise Regular ...",
+          "url": "https://www.reddit.com/r/dealsforindia/comments/1n52riz/miss_chase_a_womens_wideleg_high_rise_regular/",
+          "snippet": "Miss Chase A+ Women's Wide-Leg High Rise Regular Length Stretchable Shaping Denim Jeans@29. https://amzn.to/4n3Kd0V."
+        },
+        {
+          "position": 5,
+          "title": "Where can I buy some affordable super high-waisted jeans ...",
+          "url": "https://www.quora.com/Where-can-I-buy-some-affordable-super-high-waisted-jeans-that-are-of-good-quality",
+          "snippet": "Their fit is normally looser, and the jeans tend to be made of actual denim. You won't really get a skinny jeans type of look from them. I love ..."
+        },
+        {
+          "position": 6,
+          "title": "Miss Chase",
+          "url": "https://www.ajio.com/s/miss-chase-4355-46451?srsltid=AfmBOoo6OZ--S_rDmeP2mz1vdAtETaon9fjjfD6RzElD2wEsU4UZKNsN",
+          "snippet": "Buy online at Miss Chase. Huge footwear and Clothing range. Order now and avail Best Discounts, Cash on Delivery, Easy Returns and Exchange."
+        },
+        {
+          "position": 7,
+          "title": "Buy Miss Chase A+ Plus Size Women ...",
+          "url": "https://www.myntra.com/jeans/misschasea2b/miss-chase-a-women-skinny-fit-high-rise-stretchable-jeans/31668295/buy",
+          "snippet": "Dark shade, no fade black jeans · Skinny fit, high-rise · Clean look · Stretchable · 5 pocket · Length: regular."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "AND",
+          "count": 8,
+          "isClient": false
+        },
+        {
+          "brand": "Miss Chase",
+          "count": 7,
+          "isClient": true
+        },
+        {
+          "brand": "Flipkart",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 1332,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 30,
+      "queryText": "Miss Chase dresses review",
+      "category": "product",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Buy Miss Chase Women's Navy Blue Square Neck Short ...",
+          "url": "https://www.amazon.in/Miss-Chase-Womens-Embellished-Polyester/dp/B0C43B4HQY",
+          "snippet": "Customers find the dress looks good and has a nice fit. They appreciate its quality, with one customer noting it's thick and nice."
+        },
+        {
+          "position": 2,
+          "title": "Latest Review of Miss Chase Women A Line Black Dress",
+          "url": "https://www.flipkart.com/miss-chase-women-a-line-black-dress/product-reviews/itmf3vd4hwzqbtmg?pid=DREEFYCFHG662TGM",
+          "snippet": "Good fitting but the material fades a little after 10-12 washes. But worth the price. Aswini gidugu. , Bengaluru."
+        },
+        {
+          "position": 3,
+          "title": "Latest Review of Miss Chase Women S Shift Grey Dress",
+          "url": "https://www.flipkart.com/miss-chase-women-s-shift-grey-dress/product-reviews/itmf3vcrvpngftbu?pid=DREETDT9NXZG55QR",
+          "snippet": "Stuff is very nice and soft. Gives you sporty look. Length is long so can wore as an dress. Flipkart Customer. , Hyderabad."
+        },
+        {
+          "position": 4,
+          "title": "Miss Chase Women Women's Designer Solid One-Shoulder ...",
+          "url": "https://www.amazon.com.au/Miss-Chase-Designer-One-Shoulder-Sleeveless/dp/B0CTTPXVX2",
+          "snippet": "PRITI ADHIKARY · Received wrong product. Reviewed in India on 23 December 2023. Very poor quality.received wrong product,wrong size. ; Bhakti · Maternity shoot."
+        },
+        {
+          "position": 5,
+          "title": "Miss Chase Jumpsuit Review | Amazon Flipkart Purchase",
+          "url": "https://www.youtube.com/watch?v=DRYAYY-OeCE",
+          "snippet": "Miss Chase Jumpsuit Review | Amazon Flipkart Purchase | Women Dress. 6.4K views · 4 years ago. #misschase #jumpsuit ...more ..."
+        },
+        {
+          "position": 6,
+          "title": "Internet's Favourite Dresses",
+          "url": "https://chasehaul.com/collections/dresses?srsltid=AfmBOorTPJQfBdQQDMqenqGHz-pTCdKEADmnsSXHj54GH4KmvWu_nBrX",
+          "snippet": "Miss Chase A+ · Women's Black Square Puff-Sleeves Solid Lace-Overlaid Ankle Length Dress Sale price₹ 1,357 Regular price₹ 3,395. (60% Off). inclusive of all ..."
+        },
+        {
+          "position": 7,
+          "title": "Chase Dress problems? : r/Aritzia",
+          "url": "https://www.reddit.com/r/Aritzia/comments/1265h8q/chase_dress_problems/",
+          "snippet": "The ones in store were worse and had larger openings big enough to fit my head through if I wanted to. I just kept the one I had and reinforced ..."
+        },
+        {
+          "position": 8,
+          "title": "Latest Review of Miss Chase Women S Shift Purple Dress",
+          "url": "https://www.flipkart.com/miss-chase-women-s-shift-purple-dress/product-reviews/itmeu7srhskwuy2p?pid=DREEU7SRHGR29N5P",
+          "snippet": "The material is good. Colour is not maroon but dark purple but it looks good. It is a simple dress but good for casual wear."
+        },
+        {
+          "position": 9,
+          "title": "Fastest Growing Fashion Brand In India (@misschaseindia)",
+          "url": "https://www.instagram.com/misschaseindia/?hl=en",
+          "snippet": "Shop our gorgeous dresses! ✨️ Link in bio!. Photo by Miss Chase | Fastest Growing Fashion Brand In India on January 13, 2026. Shop our gorgeous jumpsuits ..."
+        },
+        {
+          "position": 10,
+          "title": "Miss Chase | Chic, Affordable & Stylish Women's Fashion",
+          "url": "https://villarroel.com/reviews/product/1019729",
+          "snippet": "Customer ratings & reviews. 4.3 out of 54.3 out of 5 stars. stars916 ratings|213 reviews. How item rating is calculated. View all reviews. 5 stars77% (705)"
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "Miss Chase",
+          "count": 10,
+          "isClient": true
+        },
+        {
+          "brand": "AND",
+          "count": 7,
+          "isClient": false
+        },
+        {
+          "brand": "Flipkart",
+          "count": 3,
+          "isClient": false
+        },
+        {
+          "brand": "Amazon",
+          "count": 2,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 1949,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 31,
+      "queryText": "Miss Chase tops quality",
+      "category": "product",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Miss Chase Women's Round Neck Half Sleeves Cotton ...",
+          "url": "https://www.amazon.in/Miss-Chase-Womens-Cotton-Collared/dp/B07L94FKTT",
+          "snippet": "Customers find the shirt's quality excellent and appreciate its perfect fit, style, and comfort. The fabric quality receives mixed feedback, with some praising ..."
+        },
+        {
+          "position": 2,
+          "title": "Latest Review of Miss Chase Casual Full Sleeve Solid ...",
+          "url": "https://www.flipkart.com/miss-chase-casual-full-sleeve-solid-women-grey-top/product-reviews/itmf3z5keavv9hvf?pid=TOPDV8HGYTH35GER",
+          "snippet": "The top is amazing. Like the fit, colour, material. Very satisfied with this! Megha Goyal."
+        },
+        {
+          "position": 3,
+          "title": "Tops & T-shirts",
+          "url": "https://chasehaul.com/collections/tops?srsltid=AfmBOoqFJVQGK4Wbz-tu40kuu7Sys6Y3aJTS_A12X1uShOcKHuIcM6r8",
+          "snippet": "Green. Miss Chase · Women's Forest Green Round Neck Sleeveless Solid Lace Overlaid Maxi Top Sale price₹ 899 Regular price₹ 1,995. (54% Off). inclusive of all ..."
+        },
+        {
+          "position": 4,
+          "title": "Miss Chase Women's Navy Blue V-Neck Short Sleeves Slim Fit ...",
+          "url": "https://www.amazon.in/Miss-Chase-Womens-V-Neck-Sleeves/dp/B09Y6F366G",
+          "snippet": "Customers like the shirt's quality and fabric, with one mentioning it's soft. The design receives positive feedback. Customers disagree on the fit, with some ..."
+        },
+        {
+          "position": 5,
+          "title": "Buy Miss Chase Women Blue Solid Top",
+          "url": "https://www.myntra.com/tops/misschase/miss-chase-women-blue-solid-top/9981405/buy",
+          "snippet": "Size & Fit. The model (height 5'8\") is wearing a size S ; Material & Care. 100% Polyester Machine-wash ; Style Note. Show off your great sense of style with this ..."
+        },
+        {
+          "position": 6,
+          "title": "Latest Review of Miss Chase Casual Cold Shoulder Solid ...",
+          "url": "https://www.flipkart.com/miss-chase-casual-cold-shoulder-solid-women-blue-top/product-reviews/itmf4hv9et9xx6su?pid=TOPF4HE5SYWUNPFR",
+          "snippet": "Great product. Review for: Color Blue • Size XL. perfect quality and fitting. loved this one. ; Best in the market! Review for: Color Blue • Size L · awesome tops."
+        },
+        {
+          "position": 7,
+          "title": "Amazon jeans | miss chase jeans | joggers |affordable jeans ...",
+          "url": "https://www.youtube.com/watch?v=vxsW271GCJk",
+          "snippet": "... Most Trending High Waist Jeans Haul Starting at ₹499 l Jeans Haul Under 1000 l Dream Simple. Dream Simple. Auto-dubbed 163K views."
+        },
+        {
+          "position": 8,
+          "title": "Miss Chase Women Women's Black Round Neck 3/4th Sleeves ...",
+          "url": "https://www.amazon.com.au/Miss-Chase-Womens-Sleeves-Blouse/dp/B0CQJYFN8C",
+          "snippet": "Good quality, fitting is also very good, light weight. ... Product's quality is very good but there is one problem with miss chase tops ... ... Clothing Tops, Tees ..."
+        },
+        {
+          "position": 9,
+          "title": "Buy Forest green Tops for Women by MISS CHASE Online",
+          "url": "https://www.ajio.com/miss-chase-women-slim-fit-top-with-waist-belt/p/467071281_green?srsltid=AfmBOoouT7PxXQmhfw1ZgXAhZF7MKI4EQPJdtZVXBUT7yRNHstJwW76-",
+          "snippet": "Wash Care. Hand wash ; Fitting. Slim Fit ; Ratings. View More ; How was the Product fit?Perfect ; Product QualityVery Good."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "Miss Chase",
+          "count": 10,
+          "isClient": true
+        },
+        {
+          "brand": "AND",
+          "count": 5,
+          "isClient": false
+        },
+        {
+          "brand": "Amazon",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 2379,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 32,
+      "queryText": "Miss Chase jumpsuit review",
+      "category": "product",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Miss Chase Women's Round Neck Short Sleeve ...",
+          "url": "https://www.amazon.in/Miss-Chase-Embellished-Fringed-Jumpsuit/dp/B0CG9TC81S",
+          "snippet": "Customers find the jumpsuit to be a great party wear outfit with a cool rose pink color and perfect fit. The style and value for money receive positive feedback ..."
+        },
+        {
+          "position": 2,
+          "title": "Latest Review of Miss Chase Solid Women S Jumpsuit",
+          "url": "https://www.flipkart.com/miss-chase-solid-women-s-jumpsuit/product-reviews/itmerqhwwdzzbnah?pid=JUMEFZQFNBYUUG7U",
+          "snippet": "It is damn hot! I loved it. Exactly same as the picture. Prize is reasonable. Go for it. Also the delivery was damn fast."
+        },
+        {
+          "position": 3,
+          "title": "miss chase women black jumpsuit review #jumpsuit #ytshorts",
+          "url": "https://www.youtube.com/shorts/Y0QjmImgx_w",
+          "snippet": "miss chase women black jumpsuit review #jumpsuit #ytshorts."
+        },
+        {
+          "position": 4,
+          "title": "Miss Chase Jumpsuit Review | Amazon Flipkart Purchase",
+          "url": "https://www.youtube.com/watch?v=DRYAYY-OeCE",
+          "snippet": "Miss Chase Jumpsuit Review | Amazon Flipkart Purchase | Women Dress. 6.4K views · 4 years ago. #misschase #jumpsuit ...more ..."
+        },
+        {
+          "position": 5,
+          "title": "Miss Chase Women's Keyhole Neck Jumpsuit",
+          "url": "https://alzproam.com/index.php/454457/Miss-Chase-Women-039-s-Keyhole-Neck-Jumpsuit-Regular-Sleeve",
+          "snippet": "The bohemian pattern is so pretty and versatile - I've worn this to brunch with friends, outdoor weddings, even dressed it down with sneakers for casual days."
+        },
+        {
+          "position": 6,
+          "title": "Latest Review of Miss Chase Self Design Women Jumpsuit",
+          "url": "https://www.flipkart.com/miss-chase-self-design-women-jumpsuit/product-reviews/itmda5251a854c82?pid=JUMHYZ3FYX5SR39Q",
+          "snippet": "Read Latest Reviews of Miss Chase Self Design Women Jumpsuit on Flipkart ... Review for: Color Wine • Size S. Pretty dress. Honey Bee. , Bilaspur."
+        },
+        {
+          "position": 7,
+          "title": "Buy Miss Chase Women Sleeveless Embellished Halter ...",
+          "url": "https://www.myntra.com/jumpsuit/misschase/miss-chase-women-sleeveless-embellished-halter-neck-regular-jumpsuit/30574705/buy",
+          "snippet": "Mauve and black self design basic jumpsuit with embellished ,has a halter neck, sleeveless, 2 pockets. Size & Fit. The model (height 5'8) is wearing a size ..."
+        },
+        {
+          "position": 8,
+          "title": "Miss chase embellished jumpsuit review",
+          "url": "https://www.youtube.com/watch?v=ub-fwe07XGQ",
+          "snippet": "Hi everyone, Today I am reviewing an indo-western Jumpsuit from miss chase. This looks so amazing and it's a must try."
+        },
+        {
+          "position": 9,
+          "title": "Jumpsuits",
+          "url": "https://chasehaul.com/collections/jumpsuits?srsltid=AfmBOooWOgnxHsd5-kqZzTLaTZ1rYQjSw9MSV1VuMeCVxCFbtMlHEI5D",
+          "snippet": "Black. Miss Chase · Women's Black Round Neck Flared Sleeve Floral Raglan Jumpsuit Sale price₹ 1,345 Regular price₹ 2,449. (45% Off). inclusive of all taxes."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "Miss Chase",
+          "count": 13,
+          "isClient": true
+        },
+        {
+          "brand": "AND",
+          "count": 5,
+          "isClient": false
+        },
+        {
+          "brand": "Flipkart",
+          "count": 3,
+          "isClient": false
+        },
+        {
+          "brand": "Amazon",
+          "count": 2,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 2547,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 33,
+      "queryText": "Are Miss Chase jeans good?",
+      "category": "product",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Miss Chase Women's Skinny High Rise Regular ...",
+          "url": "https://www.amazon.in/Miss-Chase-Womens-Regular-Stretchable/dp/B0CST5LGJ8",
+          "snippet": "Customers find these jeans have a fabulous fit, are comfortable, and are worth buying at their price point. They are soft and smooth, with mixed feedback about ..."
+        },
+        {
+          "position": 2,
+          "title": "Latest Review of Miss Chase Skinny Women Blue Jeans",
+          "url": "https://www.flipkart.com/miss-chase-skinny-women-blue-jeans/product-reviews/itmfavu5zjg8w9gw?pid=JEAFAVRKJMHMYWMC",
+          "snippet": "Ohh my god... Its just the perfect fitting jeans. You can definitely buy one size down than your usual size for a better fitted look as these are very ..."
+        },
+        {
+          "position": 3,
+          "title": "Miss Chase A+ Women's Wide-Leg High Rise Regular ...",
+          "url": "https://www.reddit.com/r/dealsforindia/comments/1n52riz/miss_chase_a_womens_wideleg_high_rise_regular/",
+          "snippet": "Miss Chase A+ Women's Wide-Leg High Rise Regular Length Stretchable Shaping Denim Jeans@29 ... Is it good? r/IndianFashionTribe - Wore old ..."
+        },
+        {
+          "position": 4,
+          "title": "CHASEstretch™ Black Wide-Leg High-Rise Stretchable ...",
+          "url": "https://chasehaul.com/products/womens-black-wide-leg-high-rise-clean-look-regular-length-stretchable-denim-jeans-apss24den94-16-330?srsltid=AfmBOoocgN9Ft_i1UqX_6JEd2kEoIdp3psbWyMfMqqv7bArSz81I_wSy",
+          "snippet": "Black wide leg high-rise clean look denim jeans. It is regular length and it has coin, patch and side pockets. It has button and zip fly for closure."
+        },
+        {
+          "position": 5,
+          "title": "Where can I buy some affordable super high-waisted jeans ...",
+          "url": "https://www.quora.com/Where-can-I-buy-some-affordable-super-high-waisted-jeans-that-are-of-good-quality",
+          "snippet": "But, I am sure they'd have some stretchy high waisted jeans. Their quality of jeans is pretty good in my opinion, my jeans lasted me awhile."
+        },
+        {
+          "position": 6,
+          "title": "Miss Chase",
+          "url": "https://www.ajio.com/s/miss-chase-4355-46451?srsltid=AfmBOop5KF5DK1j6YI5CL0YpYeOQ4aZnxS3GZrMsCUA53n6_rBNkSn33",
+          "snippet": "Buy online at Miss Chase. Huge footwear and Clothing range. Order now and avail Best Discounts, Cash on Delivery, Easy Returns and Exchange."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "AND",
+          "count": 8,
+          "isClient": false
+        },
+        {
+          "brand": "Miss Chase",
+          "count": 6,
+          "isClient": true
+        }
+      ],
+      "responseTimeMs": 2867,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 34,
+      "queryText": "Miss Chase fabric quality",
+      "category": "product",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Miss Chase Women's Skinny High Rise Regular ...",
+          "url": "https://www.amazon.in/Miss-Chase-Womens-Regular-Stretchable/dp/B0CST5LGJ8",
+          "snippet": "They are soft and smooth, with mixed feedback about the fabric quality - while some find it good, others say it's not pure denim. The color receives mixed ..."
+        },
+        {
+          "position": 2,
+          "title": "Latest Review of Miss Chase Casual Full Sleeve Solid ...",
+          "url": "https://www.flipkart.com/miss-chase-casual-full-sleeve-solid-women-grey-top/product-reviews/itmf3z5k6wfgumag?pid=TOPDT9RCJ7D9BRGS&sortOrder=NEGATIVE_FIRST&certifiedBuyer=false&aid=e83f439d-9356-4045-8f90-ec29dd4794c6",
+          "snippet": "Fabric is very good. Colour is good. It is a crop top, comes above the naval... Teja Tej."
+        },
+        {
+          "position": 3,
+          "title": "Chase Haul",
+          "url": "https://chasehaul.com/?srsltid=AfmBOooRkDKIwauPzfjLYifIEHvV7s162k6_avKBoWK610PPyWtr-AVC",
+          "snippet": "Material is also soft and good quality. ... Trust me, just go for it.. it's the best affordable jean that you would get at this price range.. I absolutely love it ..."
+        },
+        {
+          "position": 4,
+          "title": "Miss Chase Women's Relaxed Fit Denim Jeans : Features and ...",
+          "url": "https://www.youtube.com/watch?v=Hul5Qds9C4I",
+          "snippet": "Miss Chase Women's Relaxed Fit Denim Jeans : Features and Quick Review ... Fabric Mustard/Yellow Color Gold Printed Long Anarkali Kurti ..."
+        },
+        {
+          "position": 5,
+          "title": "Miss Chase Women MCAW21D14-84 Wrap",
+          "url": "https://www.amazon.sa/-/en/Miss-Chase-MCAW21D14-84-232-05-Multicolored-Base-Teal/dp/B09PZ214JN",
+          "snippet": "Reviewed in India on 15 October 2024. Fabric quality is really good and perfectly fits as per ordered size. No alterations needed. Gives a premium quality feel."
+        },
+        {
+          "position": 6,
+          "title": "Miss Chase A+ Purple Self Design A-Line Dress",
+          "url": "https://www.tatacliq.com/miss-chase-a-purple-self-design-a-line-dress/p-mp000000025000221",
+          "snippet": "Tailored to sartorial perfection from premium quality fabric, it assures a soft and soothing touch against the skin. The V-neckline adds to its appeal. The ..."
+        },
+        {
+          "position": 7,
+          "title": "Miss Chase Casual 3 4 Sleeve Solid Women Green Top Reviews",
+          "url": "https://www.flipkart.com/miss-chase-casual-3-4-sleeve-solid-women-green-top/product-reviews/itmf3z5k59vhhgtz?pid=TOPEQW26SHQTTV3H&aid=748800de-6aca-4bd0-b57a-9ec23a1ed48f&certifiedBuyer=false&sortOrder=MOST_HELPFUL",
+          "snippet": "Loved it.. Paisa basool.... Fabric quality good... Fitting good... Look wise good.... I would... Pinku Chauhan. , New Delhi. Certified Buyer. · Nov, 2019."
+        },
+        {
+          "position": 8,
+          "title": "Miss Chase - Women Black Solid Denim Jacket",
+          "url": "https://www.myntra.com/jackets/miss-chase/miss-chase-women-black-solid-denim-jacket/10909928/buy",
+          "snippet": "Size & Fit. The model (height 5'8\") is wearing a size S ; Material & Care. 100% cotton. Machine-wash ; Style Note. This fashionable Miss Chase black jacket will ..."
+        },
+        {
+          "position": 9,
+          "title": "Flight Review: Fiji Airways Business Class (A350-900) SFO ...",
+          "url": "https://www.reddit.com/r/pointstravel/comments/1qlvqzg/flight_review_fiji_airways_business_class_a350900/",
+          "snippet": "The hard product is solid and the food is better than expected, but service execution, sleep protection, and soft-product coherence lag peers."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "Miss Chase",
+          "count": 9,
+          "isClient": true
+        },
+        {
+          "brand": "AND",
+          "count": 8,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 1883,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 35,
+      "queryText": "Miss Chase size guide",
+      "category": "product",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Size Guide",
+          "url": "https://chaselabel.com/pages/size-guide?srsltid=AfmBOooAL4r9rT_3FfrwoUijf_s5lA4hVSYnOrSnUP_otrMPYwe8NMTv",
+          "snippet": "Cart. Buy with Dhs. 400.00 more to get free shipping! Your cart is empty."
+        },
+        {
+          "position": 2,
+          "title": "Miss Chase Women's Striped Cotton Round Neck ...",
+          "url": "https://us.amazon.com/Miss-Chase-Womens-Striped-Sleeveless/dp/B01AJRYVJO",
+          "snippet": "Miss Chase Original ; To know at the exact sizing please look at the Image 5 of the product to be sure about the Size Chart of Miss Chase. See more. Size guide."
+        },
+        {
+          "position": 3,
+          "title": "Miss Chase The Waist",
+          "url": "https://chase-the-waist-2.creator-spring.com/listing/miss-chase-the-waist?product=87&variation=2324",
+          "snippet": "Classic fit, unisex. T-shirt fit is snug; size up for looser fit."
+        },
+        {
+          "position": 4,
+          "title": "Miss Me Jeans Size Chart & Perfect Fit Guide",
+          "url": "https://www.missme.com/pages/size-guide?srsltid=AfmBOopiTcsUM5SXrbplH_f1JyWXeqc4PYiy6AmQ7RzQlJL4Mbi8IlEJ",
+          "snippet": "Size Guide: Waist & Hips, Waist: Wrap the measuring tape around your natural waist, slightly above your belly button. Keep it snug but not tight."
+        },
+        {
+          "position": 5,
+          "title": "Miss Chase A+ Curve Collection Plus Size Self-Designed ...",
+          "url": "https://shop.telpro.lt/?sh=11510411318079",
+          "snippet": "Size & fit. Slim fit: Close fit through the hip and thigh with a tapered leg. Size guide: Waist (cm): 28=71, 30=76, 32=81, 34=86, 36=91, 38=97. Inseam (cm): ..."
+        },
+        {
+          "position": 6,
+          "title": "welcome to the Anatomy Edit episode 1: the temple",
+          "url": "https://www.instagram.com/reel/DUClKnSjdKc/",
+          "snippet": "This new series is for the modern injector. It explores facial anatomy and how it relates to aesthetic injection planning and technique."
+        },
+        {
+          "position": 7,
+          "title": "A series of tiny permissions - by Sydney Engelhart",
+          "url": "https://sydengelhart.substack.com/p/a-series-of-tiny-permissions",
+          "snippet": "We think our lives change in big cinematic pivots, but most of the time they shift quietly, shaped by these tiny permissions we either give ..."
+        },
+        {
+          "position": 8,
+          "title": "It's never about doing less, it's always about adjusting. ...",
+          "url": "https://www.instagram.com/p/DUCDdnLiSrk/",
+          "snippet": "There is no one-size-fits-all or premade plans here! Here are a few of my runners' goals and focuses of the upcoming season. I'm a strong ..."
+        },
+        {
+          "position": 9,
+          "title": "Min-Maxing for Dummies Guide : r/PokemonSleep",
+          "url": "https://www.reddit.com/r/PokemonSleep/comments/1qp8pr8/minmaxing_for_dummies_guide/",
+          "snippet": "Mid game (6-18months): · Prioritize missing ingredient mons first, then replace mediocre ones · Aim to find a long term healer option (gardevoir ..."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "Miss Chase",
+          "count": 5,
+          "isClient": true
+        },
+        {
+          "brand": "AND",
+          "count": 4,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 2916,
+      "hasAiResponse": false
+    },
+    {
+      "queryIndex": 36,
+      "queryText": "Does Miss Chase run true to size?",
+      "category": "product",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Resharing since the last one had a glitch Comment link or dm ...",
+          "url": "https://www.instagram.com/reel/DQUYCBnEgd2/?hl=en",
+          "snippet": "I am pleasantly surprised with this jeans fitting this is from some brand called Miss Chase A plus. ... A true to size A fit is so good"
+        },
+        {
+          "position": 2,
+          "title": "finally found a pair that fits the jeans I got were the x-long 90's ...",
+          "url": "https://www.instagram.com/reel/Cydu7F9Lc4Y/",
+          "snippet": "*I got size 28 in the curve love version but I could've gone down a size so I recommend sizing down. #abercrombie #abercrombiejeans # ..."
+        },
+        {
+          "position": 3,
+          "title": "Miss Chase Women's Wide Leg High Rise Clean Look ...",
+          "url": "https://www.amazon.ca/Miss-Chase-Womens-Regular-Stretchable/dp/B0D7ZR9PBQ",
+          "snippet": "Party Wear, Casual Wear, Daily Wear, Evening Wear; The model is 5'9\" and she is wearing size 28. There might be slight color variation between the actual ..."
+        },
+        {
+          "position": 4,
+          "title": "FAQs",
+          "url": "https://chasehaul.com/pages/faqs?srsltid=AfmBOopUYhksxg_kVAc2vcuwC2aH_BdJfLLK_AFDaOoNiAlFM-1PWyvX",
+          "snippet": "We pride ourselves in being able to provide you the perfect fit. If you can't quite identify your perfect size on our product page, you can refer to the below ..."
+        },
+        {
+          "position": 5,
+          "title": "Amazon jeans | miss chase jeans | joggers |affordable jeans ...",
+          "url": "https://www.youtube.com/watch?v=vxsW271GCJk",
+          "snippet": "Amazon jeans | miss chase jeans | joggers |affordable jeans from Amazon | super tips by yami Your queries:- Affordable jeans from Amazon ..."
+        },
+        {
+          "position": 6,
+          "title": "MOST COMFORTABLE JEANS EVER???? 24/7 JEANS on ...",
+          "url": "https://www.instagram.com/reel/DCWiRQRyqKT/?hl=en",
+          "snippet": "CHASEstretch™ is your go-to for body-loving fits that move with you — whether it's work, play, or the runway. [chase stretch, sculpting fit ..."
+        },
+        {
+          "position": 7,
+          "title": "Batao konsi better hai comment mei. Poll daalna bhool gayi ...",
+          "url": "https://www.instagram.com/reel/DOtHCG6knQn/",
+          "snippet": "My next technique this is from some brand called Miss Chase A plus. I think a plus size take up I am wearing a size 28 comfortable hair ..."
+        },
+        {
+          "position": 8,
+          "title": "Miss Chase Women's Wide-Leg High-Rise Regular-Length ...",
+          "url": "https://www.amazon.in/Miss-Chase-Womens-Cropped-Stretchable/dp/B07VMMMR37",
+          "snippet": "The size guide mentioned in the product images is an absolute scam. Please use discretion while ordering. The 32 is 32 for hip. Not what they have given."
+        },
+        {
+          "position": 9,
+          "title": "Miss Chase Women's Relaxed Fit Denim Jeans : Features and ...",
+          "url": "https://www.youtube.com/watch?v=Hul5Qds9C4I",
+          "snippet": "Miss Chase Women's Relaxed Fit Denim Jeans : Features and Quick Review #misschasewomenjeans #womenjeans #jeansreview #sukhdevtaneja Price ..."
+        },
+        {
+          "position": 10,
+          "title": "Chase Haul",
+          "url": "https://chasehaul.com/?srsltid=AfmBOorfJoA9mTVc8lbOeZ98t-Z9s8y8SUhaODwP25OfrmPZIa-u9i2o",
+          "snippet": "True to size and comfortable.Material is also soft and good quality. Shop ... Miss Chase | Dolce Crudo | Life With Pockets | Miss Chase A+. Terms and ..."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "Miss Chase",
+          "count": 10,
+          "isClient": true
+        },
+        {
+          "brand": "AND",
+          "count": 8,
+          "isClient": false
+        },
+        {
+          "brand": "Amazon",
+          "count": 4,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 1473,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 37,
+      "queryText": "best jeans for curvy women India",
+      "category": "use-case",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Where can I get curvy girl jeans? : r/TwoXIndia",
+          "url": "https://www.reddit.com/r/TwoXIndia/comments/pqhybh/where_can_i_get_curvy_girl_jeans/",
+          "snippet": "Definitely would recommend American Eagle jeans . They have a whole line for curvy jeans. I'd suggest you check their official website(for India) ..."
+        },
+        {
+          "position": 2,
+          "title": "Buy Curvy Jeans online in India",
+          "url": "https://www.myntra.com/curvy-jeans",
+          "snippet": "CURVY STREET Plus Size Women Black Comfort Mid-Rise Flared Pure Cotton Jeans, Rs. 1139. CURVY STREET jean Women Mid- Rise Pure Cotton Wide Leg Jeans, Rs. 951."
+        },
+        {
+          "position": 3,
+          "title": "Buy Plus Size Jeans for Women Online at Best Prices",
+          "url": "https://www.westside.com/collections/jeans-for-plus-size-women?srsltid=AfmBOooVO-cMRkLbnTo65BoEBSXIo7_aF4rhbWLyXvxLFRUV6ert8i6i",
+          "snippet": "Buy Plus Size Jeans for Women Online at Best Prices in India. Explore from a wide range of Plus size Women's Jeans in various styles & colors at Westside."
+        },
+        {
+          "position": 4,
+          "title": "Curvy Women's Jeans & Shorts Online - American Eagle",
+          "url": "https://aeo.abfrl.in/c/women-curvy-destination",
+          "snippet": "Straight Leg Stretch Jeans - This style is often considered the standard when it comes to best fitting jeans for woman with thick thighs."
+        },
+        {
+          "position": 5,
+          "title": "Women's Curvy Jeans | Mom, High & Low-Rise",
+          "url": "https://www2.hm.com/en_in/women/shop-by-product/jeans/curvy-fit.html?srsltid=AfmBOopxI3tXv0ENhA5VUvZSI5ryOER_nA2umCp3il2DO6vCTaFai-O0",
+          "snippet": "Explore curvy-fit bootcut jeans that suit all figures, plus flattering mid-rise waistbands. Opt for classic straight leg or high-waisted curve-fit jeans to ..."
+        },
+        {
+          "position": 6,
+          "title": "Which would you buy? Discovering plus-size jeans in India for ...",
+          "url": "https://www.instagram.com/reel/C8PNSLOy2lg/?hl=en",
+          "snippet": "Discovering plus-size jeans in India for women, sizes up to 46! I know there are very few influencers who actually share functional outfits."
+        },
+        {
+          "position": 7,
+          "title": "Buy Jeans for Women Online at Best Price – Levis India Store",
+          "url": "https://levi.in/collections/women-jeans?srsltid=AfmBOoq3Endrn9t00iSLDtMw-QO2BEl3kdzHVPn50s9d8Z1CrqgD7k7v",
+          "snippet": "Buy jeans for women online in all styles & fits. Shop the latest collection of baggy, wide leg, bootcut & high waist women's jeans ✯ COD ✯ Free ..."
+        },
+        {
+          "position": 8,
+          "title": "Perfect Jeans for Indian Women – Plus Size, Curvy, Comfortable",
+          "url": "https://www.pamawomen.com/blogs/plus-by-design/the-one-pair-of-jeans-that-finally-fits-for-curves-comfort-and-confidence?srsltid=AfmBOorbSufy5QLAp5-Uggsb9OCwV85KC1SUMkirq9aJRezpi-gNIIa2",
+          "snippet": "We searched everywhere for jeans that fit Indian curves—so we made our own. Soft, mid-rise, and stylish and real designer denim."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "AND",
+          "count": 4,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 2001,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 38,
+      "queryText": "comfortable work wear for women India",
+      "category": "use-case",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "FableStreet: Premium Western Wear | Best Fits for Indian ...",
+          "url": "https://www.fablestreet.com/",
+          "snippet": "FableStreet's western wear for women is designed to make you feel confident, comfortable, and undeniably fashionable, no matter where you are and what you do."
+        },
+        {
+          "position": 2,
+          "title": "Buy Women Workwear online in India",
+          "url": "https://www.myntra.com/women-workwear",
+          "snippet": "Online shopping for Women Workwear in India ✯ Buy Women Workwear ✯ Free ... Women Cotton Shirts. 698 2499 (72% OFF). Best Price ₹488 with coupon · 4.1 ..."
+        },
+        {
+          "position": 3,
+          "title": "Working women in India, where do you buy your workwear ...",
+          "url": "https://www.reddit.com/r/AskIndianWomen/comments/1inp176/working_women_in_india_where_do_you_buy_your/",
+          "snippet": "I like kurtas from Westside, brands like utsa, Libas suit sets are also good or sometimes it's Max. Western/formal tops depends on the occasion."
+        },
+        {
+          "position": 4,
+          "title": "Buy Office Wear for Women Online ...",
+          "url": "https://www.andindia.com/women/collections/work-wear?srsltid=AfmBOor9r-i9zu4SJBt0Bsft61fZRpBL709-BC-Qxx78x_-1PrgAQOaW",
+          "snippet": "Relaxed tailoring is trending - wide-leg trousers, straight-fit pants, and easy blazers are popular choices. Midi dresses and matching co-ord sets are also ..."
+        },
+        {
+          "position": 5,
+          "title": "Top 10 Best Brands for Women's Formal Wear in 2024",
+          "url": "https://www.powersutra.co/blogs/formal-wear/best-brands-for-womens-formal-wear-in-india?srsltid=AfmBOooiK8D3cwbb8s_skSphjp7Ubiw9gp9AK3fGYAR1_-ky2RCWcD48",
+          "snippet": "In conclusion, the top 10 women's formal wear brands in India, including PowerSutra, Van Heusen, Allen Solly, FableStreet, Biba, Vero Moda, ..."
+        },
+        {
+          "position": 6,
+          "title": "Premium Workwear for Women | UNIQLO at WORK ...",
+          "url": "https://www.uniqlo.com/in/en/special-feature/workstyle/women?srsltid=AfmBOopk17BtE0_NvjCfKbEnc7xXhf07hHFpUICdeLmxA8LjDVsOgiuV",
+          "snippet": "Discover premium, wrinkle-free, easy-care workwear for women. From linen shirts to smart pants. Free shipping on ₹2999+ orders. Shop now at UNIQLO."
+        },
+        {
+          "position": 7,
+          "title": "Office Wear Ideas for Indian Women: Stylish & Professional",
+          "url": "https://risate.in/blogs/blog/office-wear-ideas-for-indian-women?srsltid=AfmBOopezrYGcJKNLIkdFHp_50sHcliC6_PknwIUCVfaBY0NxUX57A6S",
+          "snippet": "Kurtis are a staple for Indian women and a great choice for office wear. Pair a long kurti with leggings or palazzos for a comfortable yet chic look. Experiment ..."
+        },
+        {
+          "position": 8,
+          "title": "Office outfits (Indian)",
+          "url": "https://in.pinterest.com/uniquethilu/office-outfits-indian/",
+          "snippet": "Office outfits (Indian) ; Traditional Indian Outfits Casual · Kurti Dress Style · Kurti Casual Outfit · Kurta Designs Women With Jeans · Decent Kurtis For Women."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "AND",
+          "count": 8,
+          "isClient": false
+        },
+        {
+          "brand": "Vero Moda",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 1864,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 39,
+      "queryText": "casual western wear for college girls India",
+      "category": "use-case",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Indo Western Dresses & Outfits for Women",
+          "url": "https://www.andaazfashion.com/womens/indowestern",
+          "snippet": "Shop online for a stunning collection of Indo Western dresses for women at Andaaz Fashion. Explore a variety of ethnic outfits that fuse Indian and Western ..."
+        },
+        {
+          "position": 2,
+          "title": "Indowestern Outfits for College",
+          "url": "https://www.pinterest.com/ideas/indowestern-outfits-for-college/899867155242/",
+          "snippet": "Indowestern outfits for college ; Simple Frock Design · Simple Frocks · Mode Zara ; Dupatta Outfits Casual · Dupatta With Jeans · Kurti With Jeans And Dupatta."
+        },
+        {
+          "position": 3,
+          "title": "Buy Womens Western Wear online in India - Myntra",
+          "url": "https://www.myntra.com/womens-western-wear",
+          "snippet": "Western Wear For Women - Online Shopping for stylish western tops, t-shirts & dresses for ladies at great prices from Myntra ✯ COD ✯ Easy returns and ..."
+        },
+        {
+          "position": 4,
+          "title": "Best Indo-Western Outfits for College Students in the USA",
+          "url": "https://thenavra.com/blogs/blog/best-indo-western-outfits-for-college-students-in-the-usa?srsltid=AfmBOoo3TWySau-vsTqzpMZr-1nkDbdWqWIy8IMEv3RA-get_TP8Fe3d",
+          "snippet": "Moving to the USA for college? Discover top Indo-Western outfit ideas for Indian students, blending kurtis with jeans, palazzos with tees, and more for ..."
+        },
+        {
+          "position": 5,
+          "title": "The Best Indo-Western Styles For College Students",
+          "url": "https://fashionautograph.com/the-best-indo-western-styles-for-college-students/",
+          "snippet": "Indo-Western Kurtis with Jeans for Everyday Wear · Palazzo Pants with Crop Tops for a Fusion Look · Layered Dresses with Ethnic Jackets · Comfortable Footwear for ..."
+        },
+        {
+          "position": 6,
+          "title": "Women Western Wear: Buy Western Dresses for Ladies",
+          "url": "https://www.fabindia.com/clothing/women-western-wear?srsltid=AfmBOore73zWqscegZla5y8IMCGtQMkQoNXNyblTTxnDjqGUJgt44STz",
+          "snippet": "Buy women western wear online from Fabindia. Choose western dresses for women include jumpsuits, pants, palazzos, skirts, shorts, tops, shirts and tunics at ..."
+        },
+        {
+          "position": 7,
+          "title": "Style Tips For indo-western with Casual and Indian wear",
+          "url": "https://g3fashion.com/blog/fashion/style-tips-for-indo-western/?srsltid=AfmBOoqs-8GUlj9ArsFhtEVDfMi-hROApg9w5WsPFk17R-Fw4G15jRHl",
+          "snippet": "Saree with jeans style is the trending outfit among young girls. Wear this style on your college farewell and welcome program to stand out in ..."
+        },
+        {
+          "position": 8,
+          "title": "Discover 17 Western wear and casual college outfits ideas",
+          "url": "https://in.pinterest.com/chandanaalesetti/western-wear/",
+          "snippet": "Jul 15, 2025 - Explore Chandanaalesetti's board \"Western wear\" on Pinterest. See more ideas about casual college outfits, western wear outfits, ..."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "AND",
+          "count": 11,
+          "isClient": false
+        },
+        {
+          "brand": "Myntra",
+          "count": 2,
+          "isClient": false
+        },
+        {
+          "brand": "Zara",
+          "count": 1,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 3409,
+      "hasAiResponse": true
+    },
+    {
+      "queryIndex": 40,
+      "queryText": "party wear dresses for women India",
+      "category": "use-case",
+      "surface": "google-search",
+      "status": "complete",
+      "responseText": "",
+      "citations": [],
+      "organicResults": [
+        {
+          "position": 1,
+          "title": "Party Wear Indian Dresses",
+          "url": "https://www.fabricoz.com/collections/indian-dresses-online-all/party?srsltid=AfmBOoqn05SrKPGMG_AtZkmeM5FArZTTVQHdahngYbTDtgSBKjog5Nao",
+          "snippet": "Fabricoz collection of gorgeous party wear Indian dresses is one of the best you'll find around if you've got a thing or two for Indian ethnic fashion."
+        },
+        {
+          "position": 2,
+          "title": "Designer Party Indian Dresses Collection Online in USA",
+          "url": "https://www.chirosbyjigyasa.com/collections/party-indian-dresses?srsltid=AfmBOoo93ut7GbuYzyvW0-g3jxIHgYoGyy6yThXM36dY1lOp90uHOuCV",
+          "snippet": "We offer a wide range of designer party Indian dresses that are perfect for any occasion. From traditional to contemporary, we have something for everyone."
+        },
+        {
+          "position": 3,
+          "title": "Indian Cocktail Dresses for Women",
+          "url": "https://www.andaazfashion.com/womens/cocktail",
+          "snippet": "Explore stunning Indian cocktail dresses for women at Andaaz Fashion. Shop elegant styles perfect for parties. Fast delivery across the USA & worldwide."
+        },
+        {
+          "position": 4,
+          "title": "Indian Dresses For Women Party Wear",
+          "url": "https://www.amazon.com/indian-dresses-women-party-wear/s?k=indian+dresses+for+women+party+wear",
+          "snippet": "Embrace your cultural heritage with our exquisite Indian party wear dresses. Explore a variety of styles, from Anarkali to Sharara, in premium fabrics."
+        },
+        {
+          "position": 5,
+          "title": "Buy Party Wear Dresses online in India",
+          "url": "https://www.myntra.com/party-wear-dresses",
+          "snippet": "Online shopping for Party Wear Dresses in India ✯ Buy Party Wear Dresses ✯ Free Shipping ✯ Cash on Delivery ✯ Easy returns and exchanges."
+        },
+        {
+          "position": 6,
+          "title": "900+ Best Party wear ideas | indian outfits, indian dresses, ...",
+          "url": "https://ca.pinterest.com/jsandhu02/party-wear/",
+          "snippet": "Party wear ; Farshi Shalwar · Pink Formal Salwar Kameez For Diwali · Fitted Pink Salwar Kameez For Eid ; Dress Design Ideas Indian · Chiffon Dupatta Designs."
+        },
+        {
+          "position": 7,
+          "title": "Indian Designer Wear - Online Fashion Shopping Site for ...",
+          "url": "https://www.houseofindya.com/",
+          "snippet": "Shop the latest Indian designer wear for women online at Indya. Explore a wide range of tops, dresses, skirts, kurtis & kurtas. Elevate your style today."
+        },
+        {
+          "position": 8,
+          "title": "dresses for party wear",
+          "url": "https://www.savana.com/search/result/dresses%20for%20party%20wear?srsltid=AfmBOop_LL3fn1C3etQaG8e0ER1gOOwJpdX2hamcE2bztzjdgpgnG1hi",
+          "snippet": "Dresses For Party Wear · Vacation Bodycon Halter Dress · Bow Cocktail Dress · Gathered Bodycon Dress · Beaded Cocktail Dress · Knotted Cocktail Dress · Shimmer ..."
+        }
+      ],
+      "brandMentions": [
+        {
+          "brand": "AND",
+          "count": 2,
+          "isClient": false
+        }
+      ],
+      "responseTimeMs": 4639,
+      "hasAiResponse": true
+    }
+  ]
+}

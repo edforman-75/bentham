@@ -1,0 +1,28 @@
+plugins = []
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "/Users/edf/bentham/packages/visibility-tool/site"
+publishOrigin = "config"
+commandOrigin = "config"
+base = "/Users/edf/bentham/packages/visibility-tool"
+command = "pip install -r requirements.txt && mkdocs build"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
